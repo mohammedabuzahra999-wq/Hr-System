@@ -1,0 +1,19 @@
+PASS disabled feature performs no API or media work
+PASS ready state never autoplays audio
+PASS explicit Play claims the server lease before native play
+PASS STOP immediately releases local audio and confirms server stop
+PASS generation STOP uses request tombstone before a generation response exists
+PASS late download cannot play after STOP
+PASS changed question/session invalidates old download
+PASS native ended reconciles a durable server completion
+PASS response loss after completion never replays audio on retry
+PASS autoplay restriction is explicit and stops the server lease
+PASS native playback error stops rather than inventing completion
+PASS auth expiry releases audio and delegates safe session expiry
+PASS duplicate prepare and play clicks do not duplicate native effects
+PASS unmount releases media and invalidates pending server audio
+PASS malformed and oversized WAV cannot be decoded for playback
+PASS hung native play is bounded and stops without fabricating completion
+PASS refresh during GENERATING polls recovery until READY without autoplay
+PASS zero real provider/model calls
+18/18 playback UI checks passed; external calls=0

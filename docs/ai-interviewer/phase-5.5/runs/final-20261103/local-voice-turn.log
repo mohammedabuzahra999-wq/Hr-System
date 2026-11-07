@@ -1,0 +1,8 @@
+PASS one-click conversation: automatic speech turns, replies and resumed listening across multiple turns with one microphone
+PASS local turn: recording → STT → transcript → Copilot → TTS; accurate progress and blocked-playback recovery without any repeated request
+PASS hands-free speech never implicitly reviews or confirms an action proposal
+PASS confirmation playback: visible review retained; replay cannot submit confirmation or execute an action
+PASS canceled local turn: late transcription cannot trigger Copilot or audio
+PASS stop during microphone permission: late device is released without any backend request
+PASS stalled microphone exits hearing state, releases the device and reports the capture error without a model call
+PASS full audio queue stops capture without retrying or repeating the user request

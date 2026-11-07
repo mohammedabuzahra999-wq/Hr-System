@@ -1,0 +1,23 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
++ actual - expected
+
++ 'PROPOSED'
+- 'APPLIED'
+
+    at <anonymous> (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\llmOrchestration.check.ts:62:619)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async check (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\llmOrchestration.check.ts:61:78)
+    at async <anonymous> (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\llmOrchestration.check.ts:62:3) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 'PROPOSED',
+  expected: 'APPLIED',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.15.0

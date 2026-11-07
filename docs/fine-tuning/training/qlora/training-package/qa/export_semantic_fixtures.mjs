@@ -1,0 +1,12 @@
+// Repo-only preparation helper. Colab consumes the exported JSON, not Node/app code.
+import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';
+import {contracts} from '../../../../controlled-assets/validation/contracts.mjs';
+const base=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const k=await contracts(),fields=k.catalog.questionFields,cases=[];
+const p=(intent='employeeFile',f={})=>({...Object.fromEntries(fields.map(x=>[x,null])),intent,...f});
+const add=(name,plan)=>cases.push({id:name,plan,valid:fields.length===Object.keys(plan).length&&fields.every(x=>Object.hasOwn(plan,x))&&k.shared.copilotPlanSchema.strict().safeParse(plan).success&&k.validatePlan(plan,'model').ok});
+for(const intent of k.catalog.intents)add('intent_'+intent,p(intent));
+for(const period of k.catalog.periods)add('period_'+period,p('employeeFile',{period,...(period==='calendarMonth'?{month:7,year:2029}:{})}));
+for(const [name,plan]of Object.entries({missingMonth:p('myAttendance',{period:'calendarMonth'}),orphanMonth:p('myAttendance',{month:6}),orphanYear:p('myAttendance',{year:2030}),monthZero:p('myAttendance',{period:'calendarMonth',month:0}),monthFraction:p('myAttendance',{period:'calendarMonth',month:1.5}),yearSmall:p('myAttendance',{period:'calendarMonth',month:1,year:1999}),refusalExecutable:p('greeting',{refusalReason:'unclear'}),topicWrong:p('headcount',{payrollTopic:'summary'}),rankingWrong:p('headcount',{rankBy:'present'}),reportWrong:p('greeting',{reportType:'attendance'}),payrollWrong:p('generateReport',{reportType:'payroll'}),companyPerson:p('payrollInsights',{personName:'<EMPLOYEE_NAME_1>'}),companyNumber:p('payrollInsights',{employeeNumber:'<EMPLOYEE_ID_1>'}),refusalContext:p('outOfScope',{refusalReason:'notPermitted',personName:'<EMPLOYEE_NAME_1>',reportType:'payroll'}),validPayroll:p('employeeFile',{personName:'<EMPLOYEE_NAME_1>',period:'lastMonth',reportType:'payroll'}),unknownIntent:p('invented'),wrongType:p('employeeFile',{personName:5}),extra:{...p(),extra:1},missing:{intent:'greeting'}}))add(name,plan);
+fs.writeFileSync(path.join(base,'qa/semantic-parity-fixtures.json'),JSON.stringify({source:'Current strict complete-field CopilotPlan Zod schema plus shared validateCopilotPlan semantics',sourceHashes:k.catalog.sourceHashes,cases},null,2)+'\n',{flag:'wx'});
+console.log(JSON.stringify({semanticParityFixtures:cases.length,modelCalls:0,trainingStarted:false}));

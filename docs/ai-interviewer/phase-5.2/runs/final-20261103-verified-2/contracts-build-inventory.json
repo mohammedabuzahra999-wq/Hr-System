@@ -1,0 +1,15 @@
+{
+  "id": "contracts-build",
+  "protection": "production contracts emission",
+  "command": "npm.cmd run build -w @hr/shared",
+  "cwd": "",
+  "actualExecutable": "node",
+  "actualArguments": [
+    "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+    "run",
+    "build",
+    "-w",
+    "@hr/shared"
+  ],
+  "allowedLoopbackPorts": ""
+}

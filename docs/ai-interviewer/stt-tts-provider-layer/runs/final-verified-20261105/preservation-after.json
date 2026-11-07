@@ -1,0 +1,56 @@
+{
+  "packages": [
+    {
+      "phase": "phase-5.1-baseline",
+      "files": 96,
+      "mismatches": [],
+      "unlisted": 0,
+      "artifactManifestSHA256": "3b01f58e0cddec15899ec91651fe6486c5b232b01c09af5168597014b451de67",
+      "sourceManifestSHA256": "06ac18d29b06e876909a32c41ef83f42da24929fa860bf4b85560d38d2a38163"
+    },
+    {
+      "phase": "phase-5.2",
+      "files": 394,
+      "mismatches": [],
+      "unlisted": 0,
+      "artifactManifestSHA256": "c5d85704933ccba6e5b804c5d4a7caf613a2d39daf8ad2f2fe7c537a0f146342",
+      "sourceManifestSHA256": "f46c6b5170f48ee3c3ddc93cdea0d1e430ec04fc95757a87053e08c81bd96b6f"
+    },
+    {
+      "phase": "phase-5.3",
+      "files": 162,
+      "mismatches": [],
+      "unlisted": 0,
+      "artifactManifestSHA256": "8e427a5393159a4c63cff039da95a2f2ecc9a00a146e2194a395af1fe1cfa900",
+      "sourceManifestSHA256": "b121f79f7d8fef4bad55357e37ecffc33ecb528b5bd1d704c9809ced3265e2e8"
+    },
+    {
+      "phase": "phase-5.4",
+      "files": 170,
+      "mismatches": [],
+      "unlisted": 0,
+      "artifactManifestSHA256": "c43408d736327197d296ff3b17cc97a0f15539a3c0b9f7e3ce0e2bca530c62e3",
+      "sourceManifestSHA256": "9c7c675970cbc16c1b5d42715ce2183b7c01b1f50cd50ea39f15dfb61fa3923c"
+    },
+    {
+      "phase": "phase-5.5",
+      "files": 254,
+      "mismatches": [],
+      "unlisted": 0,
+      "artifactManifestSHA256": "2d507d2e555e9fb0dc55a63f46c6b43b2d06d7ee25d7b6ec4027ca9e60b0261d",
+      "sourceManifestSHA256": "e2fb83906f162898c273378814a824ebd69fd8afdd682061eb1dcf52144760a0"
+    },
+    {
+      "phase": "phase-5.6",
+      "files": 182,
+      "mismatches": [],
+      "unlisted": 0,
+      "artifactManifestSHA256": "b91247cb3b1b155d360825b54cc70e2fdb682e212b47de27d6fc3f5b25aaee6c",
+      "sourceManifestSHA256": "e2fb83906f162898c273378814a824ebd69fd8afdd682061eb1dcf52144760a0"
+    }
+  ],
+  "earlier": {
+    "files": 608,
+    "changes": []
+  }
+}

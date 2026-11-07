@@ -1,0 +1,194 @@
+{
+  "mode": "isolated unchanged route profiling; authenticated actor; no audit/training writes",
+  "before": {
+    "loaded": []
+  },
+  "warmup": {
+    "wallMs": 12014,
+    "loadSeconds": null
+  },
+  "rows": [
+    {
+      "id": "arabic-transcript",
+      "syntheticTranscript": "ورجين رصيد إجازاتي",
+      "trainingExamples": 10,
+      "totalMs": 121769,
+      "status": 200,
+      "intent": "outOfScope",
+      "resultKind": "none",
+      "refusal": "unclear",
+      "error": "aiUnavailable",
+      "spans": [
+        {
+          "stage": "resolveQuestion",
+          "ms": 120179.2
+        },
+        {
+          "stage": "knowledgeReply",
+          "ms": 1335.68
+        }
+      ],
+      "providerCalls": [
+        {
+          "path": "/api/chat",
+          "model": "qwen3:4b",
+          "messageCount": 2,
+          "promptCharacters": 7792,
+          "schemaCharacters": 1864,
+          "think": false,
+          "keepAlive": "Ollama default",
+          "retries": 0,
+          "wallSeconds": 120.0044,
+          "error": "timeout"
+        }
+      ]
+    },
+    {
+      "id": "jordanian-transcript",
+      "syntheticTranscript": "كديش ضيل إلي إجازة",
+      "trainingExamples": 10,
+      "totalMs": 87189,
+      "status": 200,
+      "intent": "myLeaveBalance",
+      "resultKind": "stats",
+      "refusal": null,
+      "error": null,
+      "spans": [
+        {
+          "stage": "resolveQuestion",
+          "ms": 85727.29
+        },
+        {
+          "stage": "existingReadService",
+          "ms": 1306.85
+        }
+      ],
+      "providerCalls": [
+        {
+          "path": "/api/chat",
+          "model": "qwen3:4b",
+          "messageCount": 2,
+          "promptCharacters": 7797,
+          "schemaCharacters": 1864,
+          "think": false,
+          "keepAlive": "Ollama default",
+          "retries": 0,
+          "diagnosticStreaming": true,
+          "firstContentMs": 48529,
+          "outputCharactersSoFar": 254,
+          "thinkingCharacters": 0,
+          "wallSeconds": 85.4985,
+          "httpStatus": 200,
+          "total_duration": 85.4907,
+          "load_duration": 0.0186,
+          "prompt_eval_duration": 24.531,
+          "eval_duration": 36.9689,
+          "promptTokens": 1894,
+          "outputTokens": 81,
+          "unattributedSeconds": 23.9723
+        }
+      ]
+    },
+    {
+      "id": "mixed-transcript",
+      "syntheticTranscript": "ورجين يتندس تبعيها الشهر",
+      "trainingExamples": 0,
+      "totalMs": 47627,
+      "status": 200,
+      "intent": "myAttendance",
+      "resultKind": "stats",
+      "refusal": null,
+      "error": null,
+      "spans": [
+        {
+          "stage": "resolveQuestion",
+          "ms": 46216.49
+        },
+        {
+          "stage": "existingReadService",
+          "ms": 1272
+        }
+      ],
+      "providerCalls": [
+        {
+          "path": "/api/chat",
+          "model": "qwen3:4b",
+          "messageCount": 2,
+          "promptCharacters": 7113,
+          "schemaCharacters": 1864,
+          "think": false,
+          "keepAlive": "Ollama default",
+          "retries": 0,
+          "diagnosticStreaming": true,
+          "firstContentMs": 10815,
+          "outputCharactersSoFar": 252,
+          "thinkingCharacters": 0,
+          "wallSeconds": 45.8419,
+          "httpStatus": 200,
+          "total_duration": 45.8379,
+          "load_duration": 0.0109,
+          "prompt_eval_duration": 10.7498,
+          "eval_duration": 35.0263,
+          "promptTokens": 1675,
+          "outputTokens": 80,
+          "unattributedSeconds": 0.0509
+        }
+      ]
+    },
+    {
+      "id": "ambiguous",
+      "syntheticTranscript": "شو وضع الموارد البشرية؟",
+      "trainingExamples": 10,
+      "totalMs": 70255,
+      "status": 200,
+      "intent": "howDoI",
+      "resultKind": "guide",
+      "refusal": null,
+      "error": null,
+      "spans": [
+        {
+          "stage": "resolveQuestion",
+          "ms": 70087.22
+        }
+      ],
+      "providerCalls": [
+        {
+          "path": "/api/chat",
+          "model": "qwen3:4b",
+          "messageCount": 2,
+          "promptCharacters": 7858,
+          "schemaCharacters": 1864,
+          "think": false,
+          "keepAlive": "Ollama default",
+          "retries": 0,
+          "diagnosticStreaming": true,
+          "firstContentMs": 29872,
+          "outputCharactersSoFar": 246,
+          "thinkingCharacters": 0,
+          "wallSeconds": 69.8161,
+          "httpStatus": 200,
+          "total_duration": 69.813,
+          "load_duration": 0.0097,
+          "prompt_eval_duration": 29.8168,
+          "eval_duration": 39.9427,
+          "promptTokens": 1902,
+          "outputTokens": 80,
+          "unattributedSeconds": 0.0437
+        }
+      ]
+    },
+    {
+      "id": "local-control",
+      "syntheticTranscript": "What is the weather on Mars?",
+      "trainingExamples": 10,
+      "totalMs": 79,
+      "status": 200,
+      "intent": "outOfScope",
+      "resultKind": "none",
+      "refusal": "notHrData",
+      "error": null,
+      "spans": [],
+      "providerCalls": []
+    }
+  ]
+}

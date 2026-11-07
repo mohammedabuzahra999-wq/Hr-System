@@ -1,0 +1,13 @@
+{
+  "id": "tts-ui",
+  "protection": "Playback UX/cancellation/recovery/autoplay/failure",
+  "command": "node --conditions=development --import tsx scripts/checkTtsPlaybackUi.mjs",
+  "startedAt": "2026-11-05T09:05:27.072Z",
+  "finishedAt": "2026-11-05T09:05:35.912Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "tts-ui.log",
+  "passLines": 19
+}

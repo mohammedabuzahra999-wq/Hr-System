@@ -1,0 +1,6 @@
+{
+  "tts-browser": {
+    "run": "browser-native-recheck-20261105",
+    "note": "The corrected-source run timed out during the first unchanged HR setup assertion (0/1), before TTS cases. Original log/raw result retained. Isolated original native suite passed 28/28 on byte-identical source with safe request metadata. No assertion or wait changed; exact setup-timeout cause remains unproven. Only unfinished suites were resumed."
+  }
+}

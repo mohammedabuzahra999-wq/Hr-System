@@ -1,0 +1,107 @@
+[ai-interview-operations] {"event":"report_accessed","interviewId":"a854f54e-d602-4412-8ee9-575b15211d1b","evaluationId":"96f1ba7b-769d-41ca-afd8-a1ec9ae933e3","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"a854f54e-d602-4412-8ee9-575b15211d1b","evaluationId":"96f1ba7b-769d-41ca-afd8-a1ec9ae933e3","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS PENDING input/hash is durable before work and is not an assessment
+[ai-interview-operations] {"event":"report_accessed","interviewId":"db95eb39-0e0a-4c5a-b621-cdb6c856ba29","evaluationId":"6665a457-4108-4e19-bf94-5081802a02cf","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"db95eb39-0e0a-4c5a-b621-cdb6c856ba29","evaluationId":"6665a457-4108-4e19-bf94-5081802a02cf","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS successful output passes mandatory evidence verification before COMPLETED
+[ai-interview-operations] {"event":"report_accessed","interviewId":"a6a15594-5ff3-4ea2-b8fe-f4758ca2b090","evaluationId":"f826d592-aedf-4653-97b7-e8fb41326fd5","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"a6a15594-5ff3-4ea2-b8fe-f4758ca2b090","evaluationId":"f826d592-aedf-4653-97b7-e8fb41326fd5","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS exception cannot persist a successful report
+[ai-interview-operations] {"event":"report_accessed","interviewId":"e192b56a-159e-4d13-ba12-253e792d3e87","evaluationId":"ee50b124-b2b9-4fc8-a959-8d815fab1ee7","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"e192b56a-159e-4d13-ba12-253e792d3e87","evaluationId":"ee50b124-b2b9-4fc8-a959-8d815fab1ee7","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS unavailable cannot persist a successful report
+[ai-interview-operations] {"event":"report_accessed","interviewId":"fd38cd3a-50d3-4d00-87c3-1c9181996eac","evaluationId":"41cce764-423e-44cc-8a4c-6d8a9ace4062","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"fd38cd3a-50d3-4d00-87c3-1c9181996eac","evaluationId":"41cce764-423e-44cc-8a4c-6d8a9ace4062","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS malformed cannot persist a successful report
+[ai-interview-operations] {"event":"report_accessed","interviewId":"71d3adc5-9f46-4a46-be1a-cdd6ef9219bf","evaluationId":"623d10bb-e044-47c1-aa10-4140a0ec9500","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"71d3adc5-9f46-4a46-be1a-cdd6ef9219bf","evaluationId":"623d10bb-e044-47c1-aa10-4140a0ec9500","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS invalid-evidence cannot persist a successful report
+[ai-interview-operations] {"event":"report_accessed","interviewId":"8ce80de4-6cf7-4989-b441-a057300b35ed","evaluationId":"37fb0648-00cb-4352-89de-b4357a4533f5","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"8ce80de4-6cf7-4989-b441-a057300b35ed","evaluationId":"37fb0648-00cb-4352-89de-b4357a4533f5","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS timeout is durably FAILED with a finished attempt, no report and retry eligibility
+[ai-interview-operations] {"event":"report_accessed","interviewId":"de2f0cc6-29ba-4ee6-9789-9f3e9dc05941","evaluationId":"7c8a6733-c616-4447-9d0a-9b6ba08fda1e","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"de2f0cc6-29ba-4ee6-9789-9f3e9dc05941","evaluationId":"7c8a6733-c616-4447-9d0a-9b6ba08fda1e","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"de2f0cc6-29ba-4ee6-9789-9f3e9dc05941","evaluationId":"7c8a6733-c616-4447-9d0a-9b6ba08fda1e","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS attempt A returns after timed-out A and successful B without changing B or its hash/version
+[ai-interview-operations] {"event":"report_accessed","interviewId":"5a3b4564-6e02-411c-8f2b-004e20f2bc47","evaluationId":"c048060a-ebc5-4aa9-839c-f5f238c8053c","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"5a3b4564-6e02-411c-8f2b-004e20f2bc47","evaluationId":"c048060a-ebc5-4aa9-839c-f5f238c8053c","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS five-minute lease fencing remains compatible and stale A cannot overwrite B
+[ai-interview-operations] {"event":"report_accessed","interviewId":"20bc7538-39ec-4571-8ef2-e323e9f6ac55","evaluationId":"549552d3-b2ad-4453-9dcb-78d2560609c5","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"20bc7538-39ec-4571-8ef2-e323e9f6ac55","evaluationId":"549552d3-b2ad-4453-9dcb-78d2560609c5","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS restart while PENDING executes the same frozen job under a new owner
+[ai-interview-operations] {"event":"report_accessed","interviewId":"5aa643d5-a3b4-4fbc-8269-ae586893be57","evaluationId":"46d18611-6e22-41fc-a40f-95c79e6b9d8d","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"5aa643d5-a3b4-4fbc-8269-ae586893be57","evaluationId":"46d18611-6e22-41fc-a40f-95c79e6b9d8d","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"5aa643d5-a3b4-4fbc-8269-ae586893be57","evaluationId":"46d18611-6e22-41fc-a40f-95c79e6b9d8d","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS restart while RUNNING reclaims immediately, fences former owner and preserves source
+[ai-interview-operations] {"event":"report_accessed","interviewId":"0a199549-85a8-4848-91ae-1157785db649","evaluationId":"5e2bbb54-6755-4cb0-aa5f-4e92126f09c5","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"0a199549-85a8-4848-91ae-1157785db649","evaluationId":"5e2bbb54-6755-4cb0-aa5f-4e92126f09c5","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS restart after durable report but before acknowledgement cannot create another report
+[ai-interview-operations] {"event":"report_accessed","interviewId":"db28f8c8-9805-41e7-a2b4-7057419c6978","evaluationId":"7a91ac31-0170-4007-b0d8-a84e8d3e0db5","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"db28f8c8-9805-41e7-a2b4-7057419c6978","evaluationId":"7a91ac31-0170-4007-b0d8-a84e8d3e0db5","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview] {"event":"evaluation_retry_scheduled","interviewId":"db28f8c8-9805-41e7-a2b4-7057419c6978","reportVersion":1}
+[ai-interview] {"event":"evaluation_attempt_started","interviewId":"db28f8c8-9805-41e7-a2b4-7057419c6978","evaluationId":"7a91ac31-0170-4007-b0d8-a84e8d3e0db5","reportVersion":1,"attempt":2}
+[ai-interview] {"event":"evaluation_attempt_completed","interviewId":"db28f8c8-9805-41e7-a2b4-7057419c6978","evaluationId":"7a91ac31-0170-4007-b0d8-a84e8d3e0db5","reportVersion":1,"attempt":2}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"db28f8c8-9805-41e7-a2b4-7057419c6978","evaluationId":"7a91ac31-0170-4007-b0d8-a84e8d3e0db5","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS restart around timeout at FAILED remains deterministic
+[ai-interview-operations] {"event":"report_accessed","interviewId":"a497bed2-545c-471f-b0cb-f4857a437954","evaluationId":"bf47a197-deff-401e-9ddf-0ba9ad687ecf","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview] {"event":"evaluation_attempt_started","interviewId":"a497bed2-545c-471f-b0cb-f4857a437954","evaluationId":"bf47a197-deff-401e-9ddf-0ba9ad687ecf","reportVersion":1,"attempt":2}
+[ai-interview] {"event":"evaluation_attempt_completed","interviewId":"a497bed2-545c-471f-b0cb-f4857a437954","evaluationId":"bf47a197-deff-401e-9ddf-0ba9ad687ecf","reportVersion":1,"attempt":2}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"a497bed2-545c-471f-b0cb-f4857a437954","evaluationId":"bf47a197-deff-401e-9ddf-0ba9ad687ecf","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS restart around timeout at RETRY_PENDING remains deterministic
+PASS restart of ACTIVE preserves authoritative remaining duration
+PASS restart of PAUSED preserves authoritative remaining duration
+[ai-interview-operations] {"event":"report_accessed","interviewId":"966ce7d8-65df-4f04-8500-94d8d908f4c5","evaluationId":"6e587d8e-1f6f-4d42-917e-92bd113d5de9","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"966ce7d8-65df-4f04-8500-94d8d908f4c5","evaluationId":"6e587d8e-1f6f-4d42-917e-92bd113d5de9","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS legacy RUNNING metadata without owner/deadline recovers at the existing bounded lease
+[ai-interview-operations] {"event":"report_accessed","interviewId":"6d3334e3-a68d-48eb-8aa5-e9f47838e039","evaluationId":"a6108eb8-2b5f-4068-afc5-205b8b14ec74","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"6d3334e3-a68d-48eb-8aa5-e9f47838e039","evaluationId":"a6108eb8-2b5f-4068-afc5-205b8b14ec74","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"6d3334e3-a68d-48eb-8aa5-e9f47838e039","evaluationId":"a6108eb8-2b5f-4068-afc5-205b8b14ec74","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"6d3334e3-a68d-48eb-8aa5-e9f47838e039","evaluationId":"d71c2e1e-0e78-4f53-9b49-bdbf94831fdf","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":2}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"6d3334e3-a68d-48eb-8aa5-e9f47838e039","evaluationId":"a6108eb8-2b5f-4068-afc5-205b8b14ec74","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS repeated failures then success preserve input/hash/version; reevaluation stays separate
+[ai-interview-operations] {"event":"report_accessed","interviewId":"d0b37454-9d21-4c0c-b547-0eabd94228ac","evaluationId":"d850d8c7-1a35-414a-803a-62b79e0e976f","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"d0b37454-9d21-4c0c-b547-0eabd94228ac","evaluationId":"d850d8c7-1a35-414a-803a-62b79e0e976f","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS late valid value at the durable deadline is still TIMEOUT, never COMPLETED
+[ai-interview-operations] {"event":"report_accessed","interviewId":"38cf9366-c515-4f98-95d0-ffab138cb0dd","evaluationId":"7a1e2098-f40f-4350-9cc0-086398099eb1","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"38cf9366-c515-4f98-95d0-ffab138cb0dd","evaluationId":"7a1e2098-f40f-4350-9cc0-086398099eb1","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS shutdown cancels bounded waits and drains without waiting for uncancellable work
+[ai-interview-operations] {"event":"report_accessed","interviewId":"208938e2-1888-45ff-838e-50e58b987d53","evaluationId":"36c9c967-bd8b-4719-b8f4-2eb2e4d6434c","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"199dfbc7-90c1-45df-8cd9-6b6a826f19c3","evaluationId":"3d1d1976-eab2-4e84-9fb0-9e10511497f1","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"fa52a596-3dfe-4892-9ea9-ecbcf0e45bd3","evaluationId":"3e66e98b-8d29-4b98-bb80-a710f4e86349","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"fa52a596-3dfe-4892-9ea9-ecbcf0e45bd3","evaluationId":"3e66e98b-8d29-4b98-bb80-a710f4e86349","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"fa52a596-3dfe-4892-9ea9-ecbcf0e45bd3","evaluationId":"3e66e98b-8d29-4b98-bb80-a710f4e86349","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS physical admission across service objects stays at two; capacity failure is safe and retryable
+[ai-interview-operations] {"event":"report_accessed","interviewId":"bd3cc167-ba90-4cd6-8330-46cac2efaef3","evaluationId":"0848329b-ff6f-4d3e-84cb-081b0ba0d980","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"dcd05f55-c0cd-436c-9e4b-5c65bda4075c","evaluationId":"41c9073b-1ad6-41eb-9a8a-f00eb8b33367","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"dcd05f55-c0cd-436c-9e4b-5c65bda4075c","evaluationId":"41c9073b-1ad6-41eb-9a8a-f00eb8b33367","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"dcd05f55-c0cd-436c-9e4b-5c65bda4075c","evaluationId":"41c9073b-1ad6-41eb-9a8a-f00eb8b33367","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"bd3cc167-ba90-4cd6-8330-46cac2efaef3","evaluationId":"0848329b-ff6f-4d3e-84cb-081b0ba0d980","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"bd3cc167-ba90-4cd6-8330-46cac2efaef3","evaluationId":"0848329b-ff6f-4d3e-84cb-081b0ba0d980","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"dcd05f55-c0cd-436c-9e4b-5c65bda4075c","evaluationId":"41c9073b-1ad6-41eb-9a8a-f00eb8b33367","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS deterministic pass maintains deadline while A hangs and B completes
+[ai-interview-operations] {"event":"report_accessed","interviewId":"8ee5ec4d-7ec0-4c54-af5b-1f85a408c227","evaluationId":"190101a2-8c14-474b-ba90-eeb1aca60b9f","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"5cce6820-0256-4776-9a21-4b8b27e6d600","evaluationId":"eef1dba2-ccfb-436a-8d51-830e38a18d1f","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"5cce6820-0256-4776-9a21-4b8b27e6d600","evaluationId":"eef1dba2-ccfb-436a-8d51-830e38a18d1f","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"5cce6820-0256-4776-9a21-4b8b27e6d600","evaluationId":"eef1dba2-ccfb-436a-8d51-830e38a18d1f","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"5cce6820-0256-4776-9a21-4b8b27e6d600","evaluationId":"eef1dba2-ccfb-436a-8d51-830e38a18d1f","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"5cce6820-0256-4776-9a21-4b8b27e6d600","evaluationId":"eef1dba2-ccfb-436a-8d51-830e38a18d1f","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"8ee5ec4d-7ec0-4c54-af5b-1f85a408c227","evaluationId":"190101a2-8c14-474b-ba90-eeb1aca60b9f","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"8ee5ec4d-7ec0-4c54-af5b-1f85a408c227","evaluationId":"190101a2-8c14-474b-ba90-eeb1aca60b9f","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"5cce6820-0256-4776-9a21-4b8b27e6d600","evaluationId":"eef1dba2-ccfb-436a-8d51-830e38a18d1f","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS native one-second loop maintains deadline while A hangs and B completes
+[ai-interview-operations] {"event":"report_accessed","interviewId":"f2de2e62-dafa-45fe-a53e-6f50d959ce99","evaluationId":"750009ff-cd36-461b-8b31-8235009f7d99","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"f2de2e62-dafa-45fe-a53e-6f50d959ce99","evaluationId":"750009ff-cd36-461b-8b31-8235009f7d99","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS changed frozen input before execution fails without invoking evaluator
+[ai-interview-operations] {"event":"report_accessed","interviewId":"596b26d3-0330-4135-90cd-bb9f1a625237","evaluationId":"60ed123b-fda0-4395-9e90-97ae757bf13b","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"596b26d3-0330-4135-90cd-bb9f1a625237","evaluationId":"60ed123b-fda0-4395-9e90-97ae757bf13b","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS consistent replacement input/hash during A cannot accept A or silently retry different source
+[ai-interview-operations] {"event":"report_accessed","interviewId":"d0e1e3d2-06e4-4c19-8950-a13a38f4fa06","evaluationId":"4f01aadb-c213-4346-9b25-6ded95637b12","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"d0e1e3d2-06e4-4c19-8950-a13a38f4fa06","evaluationId":"4f01aadb-c213-4346-9b25-6ded95637b12","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"d0e1e3d2-06e4-4c19-8950-a13a38f4fa06","evaluationId":"4f01aadb-c213-4346-9b25-6ded95637b12","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS invalid durable report envelope fails safely instead of stranding a RUNNING job
+[ai-interview-operations] {"event":"report_accessed","interviewId":"af2e09ec-c74c-49c2-9d2a-a7b50beb0f97","evaluationId":"15642dc4-f423-49a3-b431-88376f7cb39a","actorId":"3b740597-19e0-4c42-abf6-bf2fb5a983e4","reportVersion":1}
+PASS HR/resource/candidate authorization is independent of evaluator output
+PASS audit and diagnostics correlate attempts/recovery without secret or answer content
+PASS timeout configuration cannot disable or exceed the production execution bound
+PASS no external/model network attempts
+30/30 Phase 5.3 runtime/job checks passed; external attempts=0

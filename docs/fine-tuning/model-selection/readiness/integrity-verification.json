@@ -1,0 +1,119 @@
+{
+  "version": "CEB-1D0-final-integrity-1",
+  "created": "2026-10-25T09:48:02.390Z",
+  "status": "PASS",
+  "phaseStatus": "PASS_WITH_LIMITATIONS",
+  "projectRoot": "C:\\Users\\PC-LAB\\Downloads\\hr-app-step2",
+  "protectedFilesChecked": 519,
+  "protectedFilesChanged": 0,
+  "protectedBeforeSha256": "dd17070f95e9294bce17a218af2dee8c97c34d57085670e16576caf1f497eaea",
+  "immutableAssets": {
+    "runtime": {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/runtime-reference-v1.1.jsonl",
+      "sha256": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736",
+      "status": "UNCHANGED",
+      "verification": "BYTE_HASH_ONLY_NOT_EXECUTION"
+    },
+    "selection": {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/model-selection-v1.1.jsonl",
+      "sha256": "09cd5561686fd77d24f78a9f6036947425d9fc7973652b8b808c9ea907da5986",
+      "status": "UNCHANGED",
+      "verification": "BYTE_HASH_ONLY_NOT_EXECUTION"
+    },
+    "frozen404": {
+      "path": "docs/fine-tuning/benchmark/pre-finetuning-benchmark-v1.jsonl",
+      "sha256": "b6a6a9f74e76edcf783ad3a2f47f2fa493ac0444e2ca8bf239439229e14a2b05",
+      "status": "UNCHANGED",
+      "verification": "BYTE_HASH_ONLY_NOT_EXECUTION"
+    },
+    "historical10K": {
+      "path": "server/src/copilot/data/hr_agent_intents_10000.jsonl",
+      "sha256": "1fc3665f36b2b1814fdebe248ce46709a5dbdc7058d728620adc0ebf9b3fdb9b",
+      "status": "UNCHANGED",
+      "verification": "BYTE_HASH_ONLY_NOT_EXECUTION"
+    }
+  },
+  "scorerVersion": "CEB-SCORE-1.0.0",
+  "scorerSha256": "c2ad990cbe11f7a2055dcd3b6adcaa48503d55d3d269654b876686cba4fbd410",
+  "scorerSelfTests": {
+    "passed": 179,
+    "total": 179,
+    "reportSha256": "e05d2f1f851e9f9b7272d3221039adbc720fafd0f3ce649141e9d60c92662970"
+  },
+  "partition": {
+    "sha256": "2f00d20a30ee2e1bd30f998dc727e3c7e0bfd97c4dff1c7799279b3cfbb2a9ec",
+    "total": 160,
+    "counts": {
+      "MODEL_ELIGIBLE": 136,
+      "CONTROL_ONLY": 24,
+      "RESOURCE_DEPENDENT": 0
+    },
+    "coverageGate": "PASS"
+  },
+  "runContract": {
+    "sha256": "70bd199f7a68165ceb763f15e55d2376b29cb0c52db9a57c38dfe4fa8da80786",
+    "status": "PINNED_COMMON_CONTRACT_REAL_CANDIDATE_BINDING_PENDING"
+  },
+  "readinessChecks": {
+    "passed": 85,
+    "total": 85,
+    "reportSha256": "c5faa22aae49b6d51ad7b0194587a8a8f8ee2b372e33d0fe8ead9366524e7775"
+  },
+  "syntaxChecks": [
+    {
+      "path": "execution-contract.mjs",
+      "status": "PASS"
+    },
+    {
+      "path": "partition.mjs",
+      "status": "PASS"
+    },
+    {
+      "path": "readiness-guard.mjs",
+      "status": "PASS"
+    },
+    {
+      "path": "resolver-capsule.mjs",
+      "status": "PASS"
+    },
+    {
+      "path": "run-offline.mjs",
+      "status": "PASS"
+    },
+    {
+      "path": "scorer.mjs",
+      "status": "PASS"
+    },
+    {
+      "path": "scorer.selftest.mjs",
+      "status": "PASS"
+    },
+    {
+      "path": "verify.mjs",
+      "status": "PASS"
+    }
+  ],
+  "markdownLinksChecked": 18,
+  "productionSourcePromptsRulesSchemaPermissionsConfigurationChanged": false,
+  "productionDataAccessed": false,
+  "productionDbMcpRag": "BLOCKED",
+  "realWrites": 0,
+  "historical10K": "EXCLUDED_FROM_READINESS_CHILD_AND_MODEL_INPUT",
+  "frozen404": "HASHED_ONLY_NOT_INSPECTED_OR_USED",
+  "candidateIdentitiesAdmitted": 0,
+  "candidateModelsExecuted": 0,
+  "modelCalls": 0,
+  "frozenCasesExecuted": 0,
+  "fineTuningStarted": false,
+  "humanReviewPerformed": false,
+  "humanReviewRequired": false,
+  "baseModelSelectionExecutionCleared": false,
+  "remainingRequirements": [
+    "Verified real candidate checkpoint/digest/license/adaptation identity record",
+    "Final candidate-bound executable run manifest",
+    "Verified loopback-only live transport; present profile permits capture only"
+  ],
+  "gitInitialized": false,
+  "published": false,
+  "mutableHumanReviewStorage": "NOT_READ_OR_CHANGED"
+}

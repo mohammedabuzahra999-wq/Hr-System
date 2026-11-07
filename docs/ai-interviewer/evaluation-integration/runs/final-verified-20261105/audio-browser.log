@@ -1,0 +1,34 @@
+Browser setup: local fixture ready
+Browser setup: development frontend ready
+Browser setup: production preview ready
+Browser setup: isolated Chrome ready
+PASS 01 HR login and recruitment AI controls use the existing employee workflow
+PASS 02 HR configures explicit plan/timers and adds a third question
+PASS 03 Create goes through the real Phase 2 transaction
+PASS 04 HR freezes READY and operational UI displays no token hash
+PASS 05 Invitation is copied once and cleared from the HR panel
+PASS 06 Revocation is visible and the revoked browser invitation fails safely
+PASS 07 Invalid invitation shows a safe standalone error
+PASS 08 Expired invitation is rejected in the browser
+PASS 09 Valid candidate exchange removes token from URL and browser storage
+PASS 10 Backend refuses start before persisted consent
+PASS 11 Consent persists across a browser refresh
+PASS 12 Arabic RTL, English LTR and Mixed confirmation remain independent
+PASS 13 Mock readiness requests no real microphone
+PASS 14 Interview starts with AI_SPEAKING and the current question
+PASS 15 Audio is opt-in and never requests a device during room setup
+PASS 16 Native microphone permission denial is explicit and reserves no answer
+PASS 17 Native synthetic microphone records, decodes and persists bounded canonical WAV
+PASS 18 Refresh recovers the same pending recording without another microphone request
+PASS 19 Interrupted upload preserves recording and identity for retry
+PASS 20 Response loss after server commit reconciles one durable answer
+PASS 21 Server-generated next question permits a second native recording
+PASS 22 STT failure keeps recording and never reports committed
+PASS 23 STT timeout gives recovery with no second committed answer
+PASS 24 Refresh during STT processing restores authenticated processing state
+PASS 25 Reconnection and late STT settlement commit only the current attempt
+PASS 26 Refresh during recording is interrupted, not falsely saved or submitted
+PASS 27 Explicit re-recording recovers interrupted capture and completes the interview
+PASS 28 Audio transport and recovery do not grant candidate report access
+
+28/28 candidate audio browser checks passed; evidence=.local-dev/ai-interviewer-phase3/browser-results.json

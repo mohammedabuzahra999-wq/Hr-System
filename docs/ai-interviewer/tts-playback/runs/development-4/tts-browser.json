@@ -1,0 +1,13 @@
+{
+  "id": "tts-browser",
+  "protection": "Native Chrome TTS/playback/STOP/autoplay/refresh/disconnect/security",
+  "command": "node scripts/checkTtsPlaybackBrowser.mjs",
+  "startedAt": "2026-11-05T08:38:47.087Z",
+  "finishedAt": "2026-11-05T08:39:46.439Z",
+  "exitCode": 1,
+  "status": "FAIL",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 2,
+  "outputLog": "tts-browser.log",
+  "passLines": 14
+}

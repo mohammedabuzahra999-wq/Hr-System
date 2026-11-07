@@ -1,0 +1,20 @@
+[mcp] menaitech-hr ready, acting as mcp-fixture@example.invalid (hr)
+PASS: valid active authorized session succeeds
+PASS: normal authorized question route still works
+PASS: expired: every registered tool fails closed before protected work
+PASS: revoked: every registered tool fails closed before protected work
+PASS: disabled: every registered tool fails closed before protected work
+PASS: transport: every registered tool fails closed before protected work
+PASS: malformed: every registered tool fails closed before protected work
+PASS: identity: every registered tool fails closed before protected work
+PASS: role downgrade takes effect without restart; stale tools and caller role hints cannot retain access
+PASS: still-authorized self access uses fresh downgraded identity
+PASS: fresh manager role reaches existing team-scoped executor
+PASS: role revoked during classification: rechecked before direct read
+PASS: role revoked during action classification: rechecked before proposal
+PASS: session revoked during classification: rechecked before direct read
+PASS: session revoked during action classification: rechecked before proposal
+PASS: pending action requires current permission; authorized confirmation and one-time token still work
+PASS: permission revoked during proposal: typed automatic action rechecks before execution
+PASS: normal authorized typed action continues to work
+PASS: 18 MCP authorization lifecycle scenarios; 69 tools checked for each invalid-auth state; no real network/DB/model access

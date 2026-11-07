@@ -1,0 +1,13 @@
+{
+  "id": "answer-ui",
+  "protection": "Phase 5.2 browser recovery/state/refresh/uncertainty/security",
+  "command": "node --conditions=development --import tsx scripts/checkAiInterviewAnswerRecovery.mjs",
+  "startedAt": "2026-11-05T11:45:17.075Z",
+  "finishedAt": "2026-11-05T11:45:17.664Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "answer-ui.log",
+  "passLines": 26
+}

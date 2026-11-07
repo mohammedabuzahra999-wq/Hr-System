@@ -1,0 +1,13 @@
+{
+  "id": "permissions",
+  "protection": "capability registry and route role policy",
+  "command": "npm.cmd run check:permissions -w @hr/server",
+  "startedAt": "2026-11-05T12:23:45.707Z",
+  "finishedAt": "2026-11-05T12:23:46.272Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "permissions.log",
+  "passLines": 107
+}

@@ -1,0 +1,9 @@
+{
+  "version": "CEB-R-independent-replacements-v1.1",
+  "method": "New fixed formulations from the three candidate action contracts, without viewing protected F text or golds; no adaptive retries",
+  "replacements": {
+    "CEB-R-ACTION-003-ar-MSA": "من حسابي، أنشئ طلب إجازة سنوية يحدد البداية بـ <DATE_11020> والنهاية بـ <DATE_11021>.",
+    "CEB-R-ACTION-008-mixed": "بالـ viewport الحالي، انقل موضع العرض لآخر المحتوى باستخدام scroll to bottom.",
+    "CEB-R-ACTION-012-en": "Update the unread indicator for all entries in my notifications list so none remain unread."
+  }
+}

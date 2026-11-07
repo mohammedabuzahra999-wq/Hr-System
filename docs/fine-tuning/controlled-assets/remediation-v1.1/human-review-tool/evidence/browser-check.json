@@ -1,0 +1,14 @@
+{
+  "version": "CEB-browser-verification-v1",
+  "status": "LIMITED_NO_VISUAL_RENDER_VERIFICATION",
+  "browserConnector": "iab, chrome and edge unavailable in this automation session",
+  "headlessAttempt": "Installed Chrome, separate temporary profile, background networking disabled, non-loopback web traffic directed to a closed loopback proxy",
+  "headlessResult": "GPU process exited with access-denied status; no DOM or screenshot was produced",
+  "securityBarrierBypassed": false,
+  "browserSandboxDisabled": false,
+  "fallback": "Actual client script checked in a minimal DOM double with live GET-only localhost API; 10/10 contract checks pass. This is explicitly not a browser rendering test.",
+  "realReviewProfilesCreated": 0,
+  "realHumanDecisionsCreated": 0,
+  "modelCalls": 0,
+  "manualVisualVerificationStillRequired": true
+}

@@ -1,0 +1,123 @@
+{
+  "status": "PASS",
+  "checks": 29,
+  "externalAttempts": 0,
+  "matrix": [
+    {
+      "scenario": "canonical TTS generated from frozen server text and delivered only by authenticated POST",
+      "result": "PASS"
+    },
+    {
+      "scenario": "same identity and competing identities coalesce before another provider call",
+      "result": "PASS"
+    },
+    {
+      "scenario": "browser cannot complete before server audio duration or supply trusted receipts",
+      "result": "PASS"
+    },
+    {
+      "scenario": "server duration completion advances exactly once, duplicate start/end never replay",
+      "result": "PASS"
+    },
+    {
+      "scenario": "STOP pauses engine, fences old audio, and resume uses a fresh playback ID",
+      "result": "PASS"
+    },
+    {
+      "scenario": "STOP during generation aborts logical request and late TTS cannot become READY",
+      "result": "PASS"
+    },
+    {
+      "scenario": "cancel-before-reservation tombstone fences delayed request",
+      "result": "PASS"
+    },
+    {
+      "scenario": "wrong candidate, missing cookie, staff credential and invalid Origin are independently denied",
+      "result": "PASS"
+    },
+    {
+      "scenario": "wrong session/question/turn/generation fails before provider use or media delivery",
+      "result": "PASS"
+    },
+    {
+      "scenario": "expired and revoked sessions cannot fetch cached speech",
+      "result": "PASS"
+    },
+    {
+      "scenario": "generation rejects invalid WAV, MIME and size without raw provider errors",
+      "result": "PASS"
+    },
+    {
+      "scenario": "failure is retryable explicitly, stable failed request does not synthesize twice",
+      "result": "PASS"
+    },
+    {
+      "scenario": "timeout retains physical slot, retry fences old late settlement",
+      "result": "PASS"
+    },
+    {
+      "scenario": "refresh/new document cannot blindly replay active audio",
+      "result": "PASS"
+    },
+    {
+      "scenario": "lease expiry pauses without fabricated playback completion",
+      "result": "PASS"
+    },
+    {
+      "scenario": "only one document may start an active generation",
+      "result": "PASS"
+    },
+    {
+      "scenario": "stale expected version and replaced interview state fence generation completion",
+      "result": "PASS"
+    },
+    {
+      "scenario": "restart closes old pending/ready generations and cannot replay cache",
+      "result": "PASS"
+    },
+    {
+      "scenario": "shutdown cancels pending generation and late provider cannot publish",
+      "result": "PASS"
+    },
+    {
+      "scenario": "no audio, credentials or provider receipts escape candidate metadata or audit content",
+      "result": "PASS"
+    },
+    {
+      "scenario": "audio-v2 generation binding permits registered TTS without browser provider receipts",
+      "result": "PASS"
+    },
+    {
+      "scenario": "replacement trusted generation fences late TTS",
+      "result": "PASS"
+    },
+    {
+      "scenario": "failed SQL playback completion rolls back state and successful receipt",
+      "result": "PASS"
+    },
+    {
+      "scenario": "physical admission remains bounded under simultaneous held generations",
+      "result": "PASS"
+    },
+    {
+      "scenario": "production configuration: default disabled",
+      "result": "PASS"
+    },
+    {
+      "scenario": "production configuration: enabled missing TTS",
+      "result": "PASS"
+    },
+    {
+      "scenario": "production configuration: selected TTS missing key",
+      "result": "PASS"
+    },
+    {
+      "scenario": "production configuration: synthetic provider cannot become production",
+      "result": "PASS"
+    },
+    {
+      "scenario": "real provider/model calls remain zero",
+      "result": "PASS"
+    }
+  ]
+}

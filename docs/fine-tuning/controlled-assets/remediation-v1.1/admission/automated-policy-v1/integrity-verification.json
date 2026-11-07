@@ -1,0 +1,385 @@
+{
+  "version": "CEB-AUTO-ADMISSION-1-final-integrity",
+  "created": "2026-10-25T09:17:09.038Z",
+  "status": "PASS",
+  "projectRoot": "C:\\Users\\PC-LAB\\Downloads\\hr-app-step2",
+  "protectedFilesChecked": 498,
+  "protectedFilesChanged": 0,
+  "protectedBeforeSha256": "3374b4823bce3202787a1cd7ee5a8a5e8fa8b670e94ac6c32e5ab75f5ae01c6b",
+  "assetChecks": [
+    {
+      "asset": "runtime",
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/runtime-reference-v1.1.jsonl",
+      "rows": 320,
+      "sha256": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736",
+      "admission": "ADMITTED",
+      "status": "PASS"
+    },
+    {
+      "asset": "selection",
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/model-selection-v1.1.jsonl",
+      "rows": 160,
+      "sha256": "09cd5561686fd77d24f78a9f6036947425d9fc7973652b8b808c9ea907da5986",
+      "admission": "ADMITTED",
+      "status": "PASS"
+    }
+  ],
+  "pinnedChecks": [
+    {
+      "path": "shared/src/index.ts",
+      "sha256": "6d7bce705eecb5c149edd8107f62919ffaae7f54f997ee0f739223ef04900ad4",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/primitives.ts",
+      "sha256": "1f1f6435e16777c7f2d2c5f88c8faaabdfaba2dc679ab30288706a8cb7f01d72",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/actions.ts",
+      "sha256": "1af23cc6343127f5fb6078fdd2dcd24849f55dd0b32e690ad4edcd93bb892737",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/payroll.ts",
+      "sha256": "eda527d9956087ead25ae641d210eb86be86b194326baaf3d16cbcf5c5680898",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/navigation.ts",
+      "sha256": "a45eb561efc746fbf5086c6654f3beae2b338da8a2ba4f239da343d6e0955356",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/jobDescriptions.ts",
+      "sha256": "1fdfe62ad5ca868872bda6bc4e7187e3c9f56e4cc6cbd2314d62d10cafc045fd",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/auth.ts",
+      "sha256": "72946857fba78d390c0256034e280563847bf2c1065981f3e4612f4d89415820",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/attendance.ts",
+      "sha256": "fcda04d3871cb4e34390c59edbb8d29cecf9b8bb91123b057c201ea868de03fb",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/leave.ts",
+      "sha256": "39c1908dc353ec54983638db0d28f0a1c074ca299dec98e1228698c79cb8c355",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/people.ts",
+      "sha256": "1a610c16934b4de82e9bfcadcc756f08c179f727f54b9773eeea8110518b048b",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/guide.ts",
+      "sha256": "b94967b8bf415f37188305d13f6530c60b3ca812d4a74a874317aad5afeba899",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/lookup.ts",
+      "sha256": "568e33ad2bad91e54020488160395e191316fb7cc8bf2147d7a81df1df501484",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/recruitment.ts",
+      "sha256": "f3648fa0b1e875aa4fa929326e9e5f12df369d07958efaaccf8a41790d18a231",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/screening.ts",
+      "sha256": "ccf55fa2ae88506301248c16de811ccc0d581d6ef6397093462a7c0022fbf4b8",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/copilot.ts",
+      "sha256": "9956b4cf95579b20c2769e9906ccf1e9804644e2ac7df4708001b0cfda25e27e",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/knowledge.ts",
+      "sha256": "cf9a67726fcaac57044ccfed66b34cde8ffffc76c69b117980326c65f635f5d6",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/reports.ts",
+      "sha256": "921449d819310f7530a537f1c64e20a8e0bd4e3f906a469e658addf91bff42a2",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/voice.ts",
+      "sha256": "3a5f9f26e2565b30c2ca791b50780feb94a982a921234495235c8f8c55fe995b",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/scorecard.ts",
+      "sha256": "4d69cd15da0e81423f3c28b1b783e2988203222f483e15d6701a58d51bc13205",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/feed.ts",
+      "sha256": "33bee766ede358e9d2d747dc7a9ce374f392bdf9dda1b810e17ab1cd8bceb8db",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/calendar.ts",
+      "sha256": "c3fa8f3677beff3b89a48ed0b830443b38b8b8783d66b9ca51b23d5d582c9359",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/events.ts",
+      "sha256": "478d880fdeb2a0cbc847c8070969d74fd5bcddfb0714ce895c15f4537cbd0448",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/assistantReview.ts",
+      "sha256": "56ea4206a6b507d96eabbb74a75126a27f6ae53effa37fbb619bc620c0dfca29",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "shared/src/hrAttention.ts",
+      "sha256": "ca117856d77c3245ef3867c88b14590a48e60357d834180108d6461ab642de2a",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "server/src/copilot/validatePlan.ts",
+      "sha256": "c8668f81f35074ba393206906b08b22852fcbbbdb94b16f8b1416fd288512719",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "server/src/copilot/intents.ts",
+      "sha256": "848946826f105bb51d721626d08d752853f5d163b2bfdb045c1fce20400c7a82",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "server/src/copilot/actions.ts",
+      "sha256": "ea182a2d40f98bffe9cfd94acf67fc2d1abf1da10856af7abcb592657b07a41c",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "server/src/permissions.ts",
+      "sha256": "76f0b9033ca44f6ae95bc441eabb24fa2cab2374cee088f0f7469397682cdbab",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "server/src/copilot/resolve.ts",
+      "sha256": "830292e0d09a9da626fbf83bd9a2e62d8edf687eb678c2667aabc3f97d20c90a",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "server/src/copilot/readRules.ts",
+      "sha256": "d50d48cec428589c6ef8c156cdc002d2b67dfe00f28d00dded32e7ca9723158a",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "server/src/copilot/readPeriods.ts",
+      "sha256": "07845161928ba536545fdeee23fc40bf901079081684113f802f808b999c397c",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "server/src/copilot/personName.ts",
+      "sha256": "42edb1d75e1a7cc96ea2337200a6e6b0ae4d04b794231d3af5a78ae536967746",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "server/src/copilot/teamPresence.ts",
+      "sha256": "3379fe4d02867b0aadf73ad52d56250e6ca5325d91176c2da01744768b9e96f3",
+      "kind": "productionSourceReadOnly",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/evaluation/controlled-loader.mjs",
+      "sha256": "5962cf61a988ed0287efbf1397148b54cead27c8693712a9867ec9e2e746a6e9",
+      "kind": "isolatedEvaluationTool",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/evaluation/resolver-capsule.mjs",
+      "sha256": "ca95cbc792a434090e01bbae8090cf648ca038eefe5f4375d4862c2257366cf8",
+      "kind": "isolatedEvaluationTool",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/evaluation/verify-runtime.mjs",
+      "sha256": "1c21b1426b03172eeeb10c1c8e38b4653ed5567e4a37b541397ee2b246505179",
+      "kind": "isolatedEvaluationTool",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/run.mjs",
+      "sha256": "4e13ab08d7b79df50081f45ef90ed7865d6f28e985a4792f565f0186cbb39f1b",
+      "kind": "isolatedEvaluationTool",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/fine-tuning/design/05-protocol-amendment-automated-admission.md",
+      "sha256": "0c37d07b5c1932f2bf192c167b8b04009c2cc4be50b6be22810c6e7899f90550",
+      "kind": "protocol",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/admission-decision.json",
+      "sha256": "d61374754b7454e77404562402df2617fd615ed334c4859ed064cbd2f46d1bf3",
+      "kind": "admissionDecision",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/validation-results.json",
+      "sha256": "37011aa65eb5febab06e2d3f8d52930117b866230b886ddfb86521c800d78542",
+      "kind": "validationEvidence",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/validation-results.json",
+      "sha256": "37011aa65eb5febab06e2d3f8d52930117b866230b886ddfb86521c800d78542",
+      "kind": "admissionEvidence",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/selftest-results.json",
+      "sha256": "117831f9e2dfde3d8c72979e4de566acc389494cd309e0d1a9cb1e7d74745e3a",
+      "kind": "admissionEvidence",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/evaluation/preflight-isolation-results.json",
+      "sha256": "45b999b1c89634159d91240ed97a540db972d7c7a48873107db174fc394e6ce4",
+      "kind": "admissionEvidence",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/validate.mjs",
+      "sha256": "d4b3e0e36f939df55baa1f937fcc55549702302765726055e1df37ca926691ee",
+      "kind": "admissionChecker",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/automated-extra.mjs",
+      "sha256": "4abbcf660598475bc293ac8903ba18c6e14db54858c53342a82d40e8a76a84ff",
+      "kind": "admissionChecker",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/selftest.mjs",
+      "sha256": "67598b52c60e141e61eb2670d0f5fc64ec377d0150ad8630549cf6a1f4c1f7f7",
+      "kind": "admissionChecker",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/evaluation/preflight.mjs",
+      "sha256": "05a1d085045ddec1842e9c27191774e71bee894d68886d85a71d1565bc7e5134",
+      "kind": "admissionChecker",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/publish-decision.mjs",
+      "sha256": "e97ba8021c507ee10366fb8813100e7e2be84ea9a5991c2d5ee8852e51c3c5a6",
+      "kind": "admissionChecker",
+      "status": "PASS"
+    }
+  ],
+  "syntax": {
+    "checked": 9,
+    "results": [
+      {
+        "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/automated-extra.mjs",
+        "status": "PASS"
+      },
+      {
+        "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/evaluation/controlled-loader.mjs",
+        "status": "PASS"
+      },
+      {
+        "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/evaluation/preflight.mjs",
+        "status": "PASS"
+      },
+      {
+        "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/evaluation/resolver-capsule.mjs",
+        "status": "PASS"
+      },
+      {
+        "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/evaluation/verify-runtime.mjs",
+        "status": "PASS"
+      },
+      {
+        "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/publish-decision.mjs",
+        "status": "PASS"
+      },
+      {
+        "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/run.mjs",
+        "status": "PASS"
+      },
+      {
+        "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/selftest.mjs",
+        "status": "PASS"
+      },
+      {
+        "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/validate.mjs",
+        "status": "PASS"
+      }
+    ]
+  },
+  "testResults": {
+    "detectorAndSupplement": 30,
+    "priorIsolationProfile": 55,
+    "automatedAdmittedRuntimeProfile": 31,
+    "status": "PASS"
+  },
+  "markdownLinksChecked": 19,
+  "humanReviewPerformed": false,
+  "humanReviewRequired": false,
+  "productionCodePromptsConfigurationChanged": false,
+  "productionSecurityStatus": "UNCHANGED",
+  "legacy10KExclusion": "VERIFIED_FOR_AUTOMATED_ISOLATED_PROFILE",
+  "failClosedExclusion": "PASS",
+  "mediumInputAdmission": "MITIGATED_FOR_CONTROLLED_EXPERIMENT",
+  "baseModelSelectionExecutionCleared": false,
+  "remainingExecutionGates": [
+    "Tested/hash-pinned CEB-SCORE-1 complete-plan scorer",
+    "Frozen offline local/terminal/model-eligible S partition with adequate per-language model coverage",
+    "Pinned model/checkpoint/digest, transport/settings/timeouts and final executable run manifest"
+  ],
+  "modelCalls": 0,
+  "selectionCasesExecuted": 0,
+  "frozenCasesExecuted": 0,
+  "fineTuningStarted": false,
+  "gitInitialized": false,
+  "published": false,
+  "excludedMutableHumanReviewStorage": "NOT_READ_OR_CHANGED"
+}

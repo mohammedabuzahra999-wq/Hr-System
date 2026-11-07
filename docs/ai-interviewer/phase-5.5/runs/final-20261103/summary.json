@@ -1,0 +1,1268 @@
+{
+  "phase": "5.5",
+  "status": "PASS",
+  "scope": "Supported local single-process security and operations hardening",
+  "overallReleaseReadiness": "BLOCKED",
+  "runId": "final-20261103",
+  "recordedAtUtc": "2026-11-05T05:59:21.058Z",
+  "displayTimezone": "Asia/Riyadh",
+  "environment": {
+    "recordedAtUtc": "2026-11-03T12:34:42.162Z",
+    "displayTimezone": "Asia/Riyadh",
+    "node": "v24.15.0",
+    "npm": "11.12.1",
+    "platform": "win32",
+    "architecture": "x64",
+    "chromeVersion": "156.0.8078.80",
+    "gitMetadataPresent": false,
+    "testMode": "development/offline mocks; browser additionally probes production fail-closed policy",
+    "environmentPolicy": "Child environment allowlisted; no retained .env loaded; no API/provider credentials inherited; synthetic local database and signing configuration only",
+    "networkPolicy": "Node preload permits only listed loopback ports; tests add their own guards; Chrome request interception blocks nonlocal page requests; native Chrome background traffic not independently packet-captured",
+    "artifactPolicy": "Older evidence writes redirected; fixture credentials and screenshots suppressed; browser profile temporary and removed after runs"
+  },
+  "source": {
+    "beforeManifestSHA256": "9c7c675970cbc16c1b5d42715ce2183b7c01b1f50cd50ea39f15dfb61fa3923c",
+    "finalManifestSHA256": "e2fb83906f162898c273378814a824ebd69fd8afdd682061eb1dcf52144760a0",
+    "filesDigest": "4054a6c6dd4767977dd9382ed6282ddd52e7b7eaa525d7ea889b3372d5951da6",
+    "fileCount": 438,
+    "acceptedCopyMatches": true,
+    "stableDuringFinalRun": true,
+    "matchesTested": true,
+    "created": 10,
+    "modified": 14,
+    "deleted": 0,
+    "unexpected": [],
+    "expectedButUnchanged": []
+  },
+  "acceptedEvidencePreserved": true,
+  "preservation": [
+    {
+      "name": "phase-5.1-baseline",
+      "files": 96,
+      "artifactManifestSHA256": "3b01f58e0cddec15899ec91651fe6486c5b232b01c09af5168597014b451de67",
+      "artifactHashMatchesAccepted": true,
+      "sourceManifestSHA256": "06ac18d29b06e876909a32c41ef83f42da24929fa860bf4b85560d38d2a38163",
+      "sourceHashMatchesAccepted": true,
+      "changes": []
+    },
+    {
+      "name": "phase-5.2",
+      "files": 394,
+      "artifactManifestSHA256": "c5d85704933ccba6e5b804c5d4a7caf613a2d39daf8ad2f2fe7c537a0f146342",
+      "artifactHashMatchesAccepted": true,
+      "sourceManifestSHA256": "f46c6b5170f48ee3c3ddc93cdea0d1e430ec04fc95757a87053e08c81bd96b6f",
+      "sourceHashMatchesAccepted": true,
+      "changes": []
+    },
+    {
+      "name": "phase-5.3",
+      "files": 162,
+      "artifactManifestSHA256": "8e427a5393159a4c63cff039da95a2f2ecc9a00a146e2194a395af1fe1cfa900",
+      "artifactHashMatchesAccepted": true,
+      "sourceManifestSHA256": "b121f79f7d8fef4bad55357e37ecffc33ecb528b5bd1d704c9809ced3265e2e8",
+      "sourceHashMatchesAccepted": true,
+      "changes": []
+    },
+    {
+      "name": "phase-5.4",
+      "files": 170,
+      "artifactManifestSHA256": "c43408d736327197d296ff3b17cc97a0f15539a3c0b9f7e3ce0e2bca530c62e3",
+      "artifactHashMatchesAccepted": true,
+      "sourceManifestSHA256": "9c7c675970cbc16c1b5d42715ce2183b7c01b1f50cd50ea39f15dfb61fa3923c",
+      "sourceHashMatchesAccepted": true,
+      "changes": []
+    }
+  ],
+  "earlierPreservation": {
+    "files": 608,
+    "changes": []
+  },
+  "completionProvenance": {
+    "resumedAfterUsageLimit": true,
+    "clientFinalizationDate": "2026-11-05",
+    "existingSuiteResultsReusedWithoutRerun": true,
+    "originalFinalSuiteFinishedAt": "2026-11-03T12:44:47.005Z"
+  },
+  "acceptanceCriteria": [
+    {
+      "criterion": 1,
+      "requirement": "Browser forwarded headers cannot bypass identity",
+      "result": "PASS",
+      "evidence": "operations: direct mode header tests and real trusted-proxy child (200,429,200)"
+    },
+    {
+      "criterion": 2,
+      "requirement": "Explicit tested trusted-proxy policy",
+      "result": "PASS",
+      "evidence": "operations: exact peers, right-to-left parsing, malformed configuration and native proxy"
+    },
+    {
+      "criterion": 3,
+      "requirement": "Bounded abuse protection",
+      "result": "PASS",
+      "evidence": "operations + operations-db: fixed-window saturation, normal/burst/provider/answer/readiness/staff limits"
+    },
+    {
+      "criterion": 4,
+      "requirement": "Rate limiting never grants authorization",
+      "result": "PASS",
+      "evidence": "operations-db: unauthorized invite/answer/provider requests independently rejected"
+    },
+    {
+      "criterion": 5,
+      "requirement": "Candidate/staff/provider authorization preserved",
+      "result": "PASS",
+      "evidence": "operations-db, persistence, provider-gate, mcp, permissions, report-security"
+    },
+    {
+      "criterion": 6,
+      "requirement": "Adequate security audit coverage",
+      "result": "PASS",
+      "evidence": "operations-db: invite/session/lifecycle/report/reevaluation/provider audit assertions; design.md event matrix"
+    },
+    {
+      "criterion": 7,
+      "requirement": "Audit excludes secrets and answer text",
+      "result": "PASS",
+      "evidence": "operations + operations-db: closed diagnostic schema and secret/answer exclusion assertions"
+    },
+    {
+      "criterion": 8,
+      "requirement": "Sensitive responses not publicly cached",
+      "result": "PASS",
+      "evidence": "operations + operations-db: candidate/HR/report/provider/health headers"
+    },
+    {
+      "criterion": 9,
+      "requirement": "Appropriate headers and cookies",
+      "result": "PASS",
+      "evidence": "operations + operations-db + browser3/browser4: HttpOnly/Secure/SameSite and frame/MIME/referrer protections"
+    },
+    {
+      "criterion": 10,
+      "requirement": "Unsafe production configuration fails closed",
+      "result": "PASS",
+      "evidence": "operations: real startup children for proxy/provider/debug/test/origin/runtime policies"
+    },
+    {
+      "criterion": 11,
+      "requirement": "Mock/test authority cannot become production authority",
+      "result": "PASS",
+      "evidence": "operations startup negatives + browser3 production mock gate"
+    },
+    {
+      "criterion": 12,
+      "requirement": "Secrets remain server-side",
+      "result": "PASS",
+      "evidence": "secret-scan: 143 frontend/build files, zero violations; operations safe diagnostics; independent evidence verifier"
+    },
+    {
+      "criterion": 13,
+      "requirement": "Health/readiness exposes no sensitive data",
+      "result": "PASS",
+      "evidence": "operations + operations-db: allowlisted health bodies, safe DB/provider failures"
+    },
+    {
+      "criterion": 14,
+      "requirement": "Configuration alone never means provider readiness",
+      "result": "PASS",
+      "evidence": "operations + provider-gate: configured/unhealthy/disabled distinctions; production gate blocked"
+    },
+    {
+      "criterion": 15,
+      "requirement": "Shutdown/restart cannot fabricate completion",
+      "result": "PASS",
+      "evidence": "operations + operations-db: drain ordering/deadline/late-settlement and durable restart matrix"
+    },
+    {
+      "criterion": 16,
+      "requirement": "Phase 5.2 guarantees preserved",
+      "result": "PASS",
+      "evidence": "answer-ui 26, answer-db 27, expanded answer-browser 56; unchanged accepted evidence"
+    },
+    {
+      "criterion": 17,
+      "requirement": "Phase 5.3 guarantees preserved",
+      "result": "PASS",
+      "evidence": "execution-bounds 14, runtime-jobs 30; unchanged accepted evidence"
+    },
+    {
+      "criterion": 18,
+      "requirement": "Phase 5.4 guarantees preserved",
+      "result": "PASS",
+      "evidence": "provider-gate 51; unchanged accepted evidence; live voice blocker retained"
+    },
+    {
+      "criterion": 19,
+      "requirement": "Authority separation intact",
+      "result": "PASS",
+      "evidence": "operations-db, persistence 65, mcp 18 scenarios, permissions 107, report-security 44"
+    },
+    {
+      "criterion": 20,
+      "requirement": "External errors sanitized",
+      "result": "PASS",
+      "evidence": "operations + operations-db: foreign/nonexistent 401, malformed provider, health and report errors"
+    },
+    {
+      "criterion": 21,
+      "requirement": "Executable regressions preserved",
+      "result": "PASS",
+      "evidence": "32 completed PASS suite results and raw logs; only full-chain migration probe BLOCKED"
+    },
+    {
+      "criterion": 22,
+      "requirement": "Reproducible evidence",
+      "result": "PASS",
+      "evidence": "README.md, run.mjs guards, exact command inventory, source/artifact manifests and verify.mjs"
+    },
+    {
+      "criterion": 23,
+      "requirement": "Remaining limitations explicit",
+      "result": "PASS",
+      "evidence": "design.md and REPORT.md: single process, local counters, proxy topology, health/shutdown/CPU limits and two release blockers"
+    }
+  ],
+  "newChecks": {
+    "operations": 41,
+    "postgres": 26,
+    "bundleSecretScan": "PASS"
+  },
+  "securityAbuseCases": [
+    {
+      "case": 1,
+      "scenario": "invalid invite",
+      "result": "PASS",
+      "evidence": "operations-db invalid invite; 401"
+    },
+    {
+      "case": 2,
+      "scenario": "expired invite",
+      "result": "PASS",
+      "evidence": "operations-db expired invite; 401"
+    },
+    {
+      "case": 3,
+      "scenario": "replayed invite",
+      "result": "PASS",
+      "evidence": "operations-db replayed invite; 401"
+    },
+    {
+      "case": 4,
+      "scenario": "revoked invite",
+      "result": "PASS",
+      "evidence": "operations-db revoked invite; 401"
+    },
+    {
+      "case": 5,
+      "scenario": "candidate cross-interview",
+      "result": "PASS",
+      "evidence": "known foreign and nonexistent targets both safe 401"
+    },
+    {
+      "case": 6,
+      "scenario": "forged trusted provider",
+      "result": "PASS",
+      "evidence": "unexposed HTTP route 404 / forged schema 422"
+    },
+    {
+      "case": 7,
+      "scenario": "stale provider event",
+      "result": "PASS",
+      "evidence": "old generation rejected without mutation"
+    },
+    {
+      "case": 8,
+      "scenario": "malformed provider payload",
+      "result": "PASS",
+      "evidence": "closed schema rejects before SQL"
+    },
+    {
+      "case": 9,
+      "scenario": "provider event flood",
+      "result": "PASS",
+      "evidence": "600 malformed rejections then 5 throttles; trusted CLOSE still commits"
+    },
+    {
+      "case": 10,
+      "scenario": "answer submission flood",
+      "result": "PASS",
+      "evidence": "120 audio-v2 typed forgeries denied, then 429; independent unauthenticated 401 after reset"
+    },
+    {
+      "case": 11,
+      "scenario": "forwarded-IP spoofing",
+      "result": "PASS",
+      "evidence": "direct ignores headers; real proxy forged prefix remains 429"
+    },
+    {
+      "case": 12,
+      "scenario": "trusted-proxy client identity",
+      "result": "PASS",
+      "evidence": "actual loopback proxy: 200,429 for same socket client; different source 200"
+    },
+    {
+      "case": 13,
+      "scenario": "invalid Origin",
+      "result": "PASS",
+      "evidence": "valid candidate cookie still 403"
+    },
+    {
+      "case": 14,
+      "scenario": "missing required Origin",
+      "result": "PASS",
+      "evidence": "403 without mutation"
+    },
+    {
+      "case": 15,
+      "scenario": "HR without recruitment permission",
+      "result": "PASS",
+      "evidence": "valid employee session 403"
+    },
+    {
+      "case": 16,
+      "scenario": "candidate attempting HR/report",
+      "result": "PASS",
+      "evidence": "candidate cookie grants no staff session; 401"
+    },
+    {
+      "case": 17,
+      "scenario": "browser provider-only route",
+      "result": "PASS",
+      "evidence": "404; no provider capability from browser data"
+    },
+    {
+      "case": 18,
+      "scenario": "report without authorization",
+      "result": "PASS",
+      "evidence": "401; staff scope independently enforced"
+    },
+    {
+      "case": 19,
+      "scenario": "production debug/test",
+      "result": "PASS",
+      "evidence": "real startup child exits 1"
+    },
+    {
+      "case": 20,
+      "scenario": "production mock activation",
+      "result": "PASS",
+      "evidence": "mock switches/synthetic mode exit 1; original production route gate still fails closed"
+    },
+    {
+      "case": 21,
+      "scenario": "malformed readiness/provider config",
+      "result": "PASS",
+      "evidence": "startup invalid mode exits 1; readiness malformed fields safe 503"
+    }
+  ],
+  "regressionMatrix": [
+    {
+      "id": "operations",
+      "protection": "Phase 5.5 proxy/abuse/configuration/readiness/headers/secrets/shutdown",
+      "command": "node --conditions=development --import tsx src/aiInterviewer/operations.check.ts",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/operations.check.ts"
+      ],
+      "allowedLoopbackPorts": "8797,8798",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:34:44.164Z",
+      "finishedAt": "2026-11-03T12:35:04.233Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 20,
+      "outputLog": "operations.log",
+      "passLines": 41,
+      "count": 41,
+      "unit": "checks/scenarios",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "operations-db",
+      "protection": "Phase 5.5 abuse/audit/authorization/shutdown/restart with PostgreSQL",
+      "command": "node --conditions=development --import tsx src/aiInterviewer/operations.persistence.check.ts",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/operations.persistence.check.ts"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:35:04.237Z",
+      "finishedAt": "2026-11-03T12:35:14.424Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "operations-db.log",
+      "passLines": 26,
+      "count": 26,
+      "unit": "checks/scenarios",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "provider-gate",
+      "protection": "Phase 5.5 synthetic provider ingress/STT/TTS/interruption/reconnect/security",
+      "command": "node --conditions=development --import tsx src/aiInterviewer/delivery.check.ts",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/delivery.check.ts"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:35:14.427Z",
+      "finishedAt": "2026-11-03T12:35:33.416Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "provider-gate.log",
+      "passLines": 51,
+      "count": 51,
+      "unit": "checks/scenarios",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "execution-bounds",
+      "protection": "Phase 5.5 asynchronous bounds/cancellation/physical admission/late settlement",
+      "command": "node --conditions=development --import tsx src/aiInterviewer/execution.check.ts",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/execution.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:35:33.420Z",
+      "finishedAt": "2026-11-03T12:35:33.857Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "execution-bounds.log",
+      "passLines": 14,
+      "count": 14,
+      "unit": "checks/scenarios",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "runtime-jobs",
+      "protection": "Phase 5.5 PostgreSQL fairness/restart/fencing/frozen input/security",
+      "command": "node --conditions=development --import tsx src/aiInterviewer/runtime.check.ts",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/runtime.check.ts"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:35:33.861Z",
+      "finishedAt": "2026-11-03T12:35:49.823Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "runtime-jobs.log",
+      "passLines": 30,
+      "count": 30,
+      "unit": "checks/scenarios",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "answer-ui",
+      "protection": "Phase 5.2 browser recovery/state/refresh/uncertainty/security",
+      "command": "node --conditions=development --import tsx scripts/checkAiInterviewAnswerRecovery.mjs",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "scripts/checkAiInterviewAnswerRecovery.mjs"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:35:49.825Z",
+      "finishedAt": "2026-11-03T12:35:50.427Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "answer-ui.log",
+      "passLines": 26,
+      "count": 26,
+      "unit": "checks/scenarios",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "answer-db",
+      "protection": "Phase 5.2 atomic commit/rollback/two-tab/restart/receipt/security",
+      "command": "node --conditions=development --import tsx src/aiInterviewer/answer.check.ts",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/answer.check.ts"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:35:50.429Z",
+      "finishedAt": "2026-11-03T12:36:02.302Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "answer-db.log",
+      "passLines": 27,
+      "count": 27,
+      "unit": "checks/scenarios",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "engine",
+      "protection": "engine/timer/follow-up/clarification/evidence",
+      "command": "npm.cmd run check:ai-interviewer -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/engine.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:36:02.306Z",
+      "finishedAt": "2026-11-03T12:36:04.040Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "engine.log",
+      "passLines": 37,
+      "count": 37,
+      "unit": "checks/scenarios",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "scenario",
+      "protection": "synthetic lifecycle demonstration",
+      "command": "npm.cmd run demo:ai-interviewer -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/scenario.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:36:04.043Z",
+      "finishedAt": "2026-11-03T12:36:05.261Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "scenario.log",
+      "passLines": 0,
+      "count": null,
+      "unit": "synthetic scenario",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "persistence",
+      "protection": "PostgreSQL/session/invite/RBAC/idempotency/recovery/rollback",
+      "command": "npm.cmd run check:ai-interviewer:persistence -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/persistence.check.ts"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:36:05.265Z",
+      "finishedAt": "2026-11-03T12:36:17.833Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "persistence.log",
+      "passLines": 65,
+      "count": 65,
+      "unit": "checks/scenarios",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "report",
+      "protection": "evaluation/frozen input/hash/evidence/retry/worker fencing",
+      "command": "npm.cmd run check:ai-interviewer:report -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/report.check.ts"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:36:17.836Z",
+      "finishedAt": "2026-11-03T12:36:26.906Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "report.log",
+      "passLines": 76,
+      "count": 76,
+      "unit": "checks/scenarios",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "ui",
+      "protection": "candidate cache/replay/conflicts/session expiry/timer",
+      "command": "npm.cmd run check:ai-interviewer:ui -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "scripts/checkAiInterviewUi.mjs"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:36:26.909Z",
+      "finishedAt": "2026-11-03T12:36:28.100Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "ui.log",
+      "passLines": 24,
+      "count": 24,
+      "unit": "checks/scenarios",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "mcp",
+      "protection": "MCP session lifecycle/RBAC/action checks",
+      "command": "node --conditions=development --import tsx src/mcp/authorization.security.check.ts",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/mcp/authorization.security.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:36:28.104Z",
+      "finishedAt": "2026-11-03T12:36:32.905Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "mcp.log",
+      "passLines": 19,
+      "count": 18,
+      "unit": "checks/scenarios",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "permissions",
+      "protection": "capability registry and route role policy",
+      "command": "npm.cmd run check:permissions -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/permissions.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:36:32.908Z",
+      "finishedAt": "2026-11-03T12:36:33.470Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "permissions.log",
+      "passLines": 107,
+      "count": 107,
+      "unit": "reported assertions/groups",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "gate",
+      "protection": "Copilot intent/action authorization independent of model",
+      "command": "npm.cmd run check:gate -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/copilot/gate.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:36:33.474Z",
+      "finishedAt": "2026-11-03T12:36:34.022Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "gate.log",
+      "passLines": 194,
+      "count": 194,
+      "unit": "reported assertions/groups",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "plans",
+      "protection": "HTTP/shared plans/RBAC/scope/confirmation",
+      "command": "npm.cmd run check:plans -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/copilot/validatePlan.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:36:34.025Z",
+      "finishedAt": "2026-11-03T12:36:41.256Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "plans.log",
+      "passLines": 96,
+      "count": 95,
+      "unit": "checks/scenarios",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "report-security",
+      "protection": "existing employee report resource scope",
+      "command": "node --conditions=development --import tsx src/reports/build.security.check.ts",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/reports/build.security.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:36:41.259Z",
+      "finishedAt": "2026-11-03T12:36:44.974Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "report-security.log",
+      "passLines": 45,
+      "count": 44,
+      "unit": "checks/scenarios",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "voice",
+      "protection": "mock voice session/turn/confirmation guards",
+      "command": "npm.cmd run check:voice -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/voice/session.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:36:44.977Z",
+      "finishedAt": "2026-11-03T12:36:45.525Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "voice.log",
+      "passLines": 17,
+      "count": 17,
+      "unit": "reported assertions/groups",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "local-voice-api",
+      "protection": "local voice adapter/ownership/no cloud fallback (mock)",
+      "command": "npm.cmd run check:voice:local -w @hr/server [component 1/4]",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/voice/local.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:36:45.528Z",
+      "finishedAt": "2026-11-03T12:36:48.638Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "local-voice-api.log",
+      "passLines": 3,
+      "count": 3,
+      "unit": "reported assertions/groups",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "local-voice-audio",
+      "protection": "audio/VAD/device cleanup (in-memory browser API doubles)",
+      "command": "npm.cmd run check:voice:local -w @hr/server [component 2/4]",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "scripts/checkLocalVoiceBrowser.mjs"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:36:48.641Z",
+      "finishedAt": "2026-11-03T12:36:49.854Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "local-voice-audio.log",
+      "passLines": 4,
+      "count": 4,
+      "unit": "reported assertions/groups",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "local-voice-turn",
+      "protection": "local voice turn/cancellation/confirmation UI (hook harness)",
+      "command": "npm.cmd run check:voice:local -w @hr/server [component 3/4]",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "scripts/checkLocalVoiceTurn.mjs"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:36:49.857Z",
+      "finishedAt": "2026-11-03T12:36:51.042Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "local-voice-turn.log",
+      "passLines": 8,
+      "count": 8,
+      "unit": "reported assertions/groups",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "local-voice-queue",
+      "protection": "bounded queue/admission/no hidden retry",
+      "command": "npm.cmd run check:voice:local -w @hr/server [component 4/4]",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "scripts/checkLocalVoiceQueue.mjs"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:36:51.046Z",
+      "finishedAt": "2026-11-03T12:36:52.038Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "local-voice-queue.log",
+      "passLines": 6,
+      "count": 6,
+      "unit": "reported assertions/groups",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "scorecard",
+      "protection": "frozen criteria/weight arithmetic regressions",
+      "command": "npm.cmd run check:scorecard -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/ai/scorecard.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:36:52.041Z",
+      "finishedAt": "2026-11-03T12:36:53.252Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "scorecard.log",
+      "passLines": 27,
+      "count": 27,
+      "unit": "reported assertions/groups",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "structured-provider",
+      "protection": "malformed/unavailable model responses using offline mocks",
+      "command": "node --conditions=development --import tsx src/ai/structuredProvider.check.ts",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/ai/structuredProvider.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:36:53.255Z",
+      "finishedAt": "2026-11-03T12:36:54.485Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "structured-provider.log",
+      "passLines": 4,
+      "count": 4,
+      "unit": "reported assertions/groups",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "typechecks",
+      "protection": "contracts/API/web TypeScript and web lint",
+      "command": "npm.cmd run check",
+      "cwd": "",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+        "run",
+        "check"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:36:54.489Z",
+      "finishedAt": "2026-11-03T12:37:37.545Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 7,
+      "outputLog": "typechecks.log",
+      "passLines": 0,
+      "count": null,
+      "unit": "3 workspace checks",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "contracts-build",
+      "protection": "production contracts emission",
+      "command": "npm.cmd run build -w @hr/shared",
+      "cwd": "",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+        "run",
+        "build",
+        "-w",
+        "@hr/shared"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": false,
+      "startedAt": "2026-11-03T12:37:37.549Z",
+      "finishedAt": "2026-11-03T12:37:41.744Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 2,
+      "outputLog": "contracts-build.log",
+      "passLines": 0,
+      "count": null,
+      "unit": "production build",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "api-build",
+      "protection": "production API emission and compiled migration/data copy",
+      "command": "npm.cmd run build -w @hr/server",
+      "cwd": "",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+        "run",
+        "build",
+        "-w",
+        "@hr/server"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": false,
+      "startedAt": "2026-11-03T12:37:41.747Z",
+      "finishedAt": "2026-11-03T12:38:07.175Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 3,
+      "outputLog": "api-build.log",
+      "passLines": 0,
+      "count": null,
+      "unit": "production build",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "web-build",
+      "protection": "production web build with mock flag explicitly true",
+      "command": "npm.cmd run build -w hr-app",
+      "cwd": "",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+        "run",
+        "build",
+        "-w",
+        "hr-app"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:38:07.178Z",
+      "finishedAt": "2026-11-03T12:38:29.893Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 3,
+      "outputLog": "web-build.log",
+      "passLines": 1,
+      "count": null,
+      "unit": "production build",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "secret-scan",
+      "protection": "Phase 5.5 frontend/bundle secret exclusion with isolated synthetic canaries",
+      "command": "node scripts/checkInterviewSecrets.mjs",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "scripts/checkInterviewSecrets.mjs"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:38:29.897Z",
+      "finishedAt": "2026-11-03T12:38:30.323Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "secret-scan.log",
+      "passLines": 1,
+      "count": 1,
+      "unit": "reported assertions/groups",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "browser3",
+      "protection": "real Chrome + disposable PostgreSQL Phase 3 E2E",
+      "command": "npm.cmd run check:ai-interviewer:browser -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "scripts/checkAiInterviewBrowser.mjs"
+      ],
+      "allowedLoopbackPorts": "55442,5179,5180,8793,9333",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:38:30.326Z",
+      "finishedAt": "2026-11-03T12:39:55.422Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 2,
+      "outputLog": "browser3.log",
+      "passLines": 44,
+      "count": 44,
+      "unit": "browser checks",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "browser4",
+      "protection": "real Chrome Phase 3 lifecycle + Phase 4 HR report cases",
+      "command": "npm.cmd run check:ai-interviewer:report:browser -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "scripts/checkAiInterviewReportBrowser.mjs"
+      ],
+      "allowedLoopbackPorts": "55442,5179,5180,8793,9333",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:39:55.424Z",
+      "finishedAt": "2026-11-03T12:41:36.889Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 2,
+      "outputLog": "browser4.log",
+      "passLines": 58,
+      "count": 58,
+      "unit": "browser checks",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "answer-browser",
+      "protection": "Phase 5.2 real Chrome recovery/refresh/network/two-tab cases plus unchanged Phase 3",
+      "command": "node scripts/checkAiInterviewAnswerBrowser.mjs",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "scripts/checkAiInterviewAnswerBrowser.mjs"
+      ],
+      "allowedLoopbackPorts": "55442,5179,5180,8793,9333",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:41:36.893Z",
+      "finishedAt": "2026-11-03T12:44:43.335Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 2,
+      "outputLog": "answer-browser.log",
+      "passLines": 56,
+      "count": 56,
+      "unit": "browser checks",
+      "countMatchesBaseline": true
+    },
+    {
+      "id": "migrations",
+      "protection": "unaltered full migration chain + rerun idempotency",
+      "command": "node docs/ai-interviewer/phase-5.5/migrations.mjs",
+      "cwd": "",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "docs/ai-interviewer/phase-5.5/migrations.mjs"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-03T12:44:43.339Z",
+      "finishedAt": "2026-11-03T12:44:47.005Z",
+      "exitCode": 0,
+      "status": "BLOCKED",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "migrations.log",
+      "passLines": 0,
+      "count": null,
+      "unit": "full-chain probe",
+      "countMatchesBaseline": true
+    }
+  ],
+  "network": {
+    "instrumentedNodeProcesses": 66,
+    "guardedExternalAttempts": 0,
+    "realProviderCalls": 0,
+    "realModelCalls": 0,
+    "allowedLocalSockets": 292,
+    "allowedLocalFetch": 124,
+    "scope": "Node fetch/socket and original Chrome page guards; native Chrome background traffic not independently packet-captured."
+  },
+  "secrets": {
+    "status": "PASS",
+    "checkedFiles": 143,
+    "offendingFiles": 0,
+    "valuesPrinted": 0,
+    "source": "secret-scan.log and secret-scan.json process metadata",
+    "canaryBuild": true
+  },
+  "phase53Fairness": [
+    {
+      "scenario": "deterministic fairness",
+      "maintenanceIntervalMs": 1000,
+      "fixtureToleranceMs": 2000,
+      "observedWallMs": 18,
+      "serverDeadlineDelayMs": 0,
+      "activeAnswerCount": 1,
+      "hangingJobStatus": "RUNNING",
+      "otherJobStatus": "COMPLETED",
+      "physicalCalls": 1
+    },
+    {
+      "scenario": "native fairness",
+      "maintenanceIntervalMs": 1000,
+      "fixtureToleranceMs": 2000,
+      "observedWallMs": 973,
+      "serverDeadlineDelayMs": 0,
+      "activeAnswerCount": 1,
+      "hangingJobStatus": "RUNNING",
+      "otherJobStatus": "COMPLETED",
+      "physicalCalls": 1
+    }
+  ],
+  "releaseBlockers": [
+    {
+      "id": "pgvector-full-migration-chain",
+      "status": "OPEN / BLOCKED",
+      "probe": {
+        "status": "BLOCKED",
+        "databasePolicy": "Unique generated disposable local database; no application database touched",
+        "journalEntries": 27,
+        "cleanup": true,
+        "postgresqlVersion": "18.6",
+        "vectorAvailable": false,
+        "sqlState": "0A000",
+        "blocker": "pgvector extension unavailable; exact migration 0008 requires CREATE EXTENSION vector. No migration skipped, stubbed or edited.",
+        "failingMigration": "0008_happy_hannibal_king.sql",
+        "transactionRolledBack": true
+      }
+    },
+    {
+      "id": "live-voice-e2e-worker-configuration",
+      "status": "OPEN / BLOCKED",
+      "reason": "No activation authorized; running worker plus isolated real-engine/trusted candidate transport remain unvalidated."
+    }
+  ],
+  "migrationsAdded": 0,
+  "dependenciesAdded": 0,
+  "realProvidersActivated": false,
+  "retentionStarted": false,
+  "distributedRuntimeStarted": false,
+  "phase56Started": false,
+  "phase56Readiness": "Safe to begin a separately authorized final acceptance/release review. That gate cannot approve release while the two environment/live-transport validations remain open."
+}

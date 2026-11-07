@@ -1,0 +1,95 @@
+{
+  "version": "HR-QLORA-SEALED-EXCLUSION-1",
+  "checkedAt": "2026-10-26T13:48:05.990Z",
+  "status": "FAIL",
+  "candidateSha256": "21a5bb1b466d92b2b838df663c1326c47fcf891419553413bd1203eefc4f5a8a",
+  "sources": [
+    {
+      "name": "frozen404",
+      "file": "docs/fine-tuning/benchmark/pre-finetuning-benchmark-v1.jsonl",
+      "sha256": "b6a6a9f74e76edcf783ad3a2f47f2fa493ac0444e2ca8bf239439229e14a2b05",
+      "access": "sealed exclusion comparison only"
+    },
+    {
+      "name": "historical10K",
+      "file": "server/src/copilot/data/hr_agent_intents_10000.jsonl",
+      "sha256": "1fc3665f36b2b1814fdebe248ce46709a5dbdc7058d728620adc0ebf9b3fdb9b",
+      "access": "sealed exclusion comparison only"
+    },
+    {
+      "name": "runtimeV1",
+      "file": "docs/fine-tuning/controlled-assets/runtime-reference-v1.jsonl",
+      "sha256": "342503dd6c810136d8b5ede8dea96005e593a2ee623f849640fcfd357bb826de",
+      "access": "sealed exclusion comparison only"
+    },
+    {
+      "name": "runtimeV11",
+      "file": "docs/fine-tuning/controlled-assets/remediation-v1.1/runtime-reference-v1.1.jsonl",
+      "sha256": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736",
+      "access": "sealed exclusion comparison only"
+    },
+    {
+      "name": "selectionV1",
+      "file": "docs/fine-tuning/controlled-assets/model-selection-v1.jsonl",
+      "sha256": "8d50c67b4daa388c9cadcd3e992e0aa8504a08534b1beb4bdc2a022ac62928c6",
+      "access": "sealed exclusion comparison only"
+    },
+    {
+      "name": "selectionV11",
+      "file": "docs/fine-tuning/controlled-assets/remediation-v1.1/model-selection-v1.1.jsonl",
+      "sha256": "09cd5561686fd77d24f78a9f6036947425d9fc7973652b8b808c9ea907da5986",
+      "access": "sealed exclusion comparison only"
+    }
+  ],
+  "legacyBuildCopies": [],
+  "reports": {
+    "frozen404": {
+      "candidateRows": 8000,
+      "referenceUniqueTexts": 404,
+      "exactCandidateRows": 0,
+      "normalizedCandidateRows": 0,
+      "entityMaskedExactCandidateRows": 0,
+      "strongNearCandidateRows": 2,
+      "flaggedCandidateRows": 2
+    },
+    "historical10K": {
+      "candidateRows": 8000,
+      "referenceUniqueTexts": 3440,
+      "exactCandidateRows": 0,
+      "normalizedCandidateRows": 0,
+      "entityMaskedExactCandidateRows": 0,
+      "strongNearCandidateRows": 0,
+      "flaggedCandidateRows": 0
+    },
+    "runtimeAllVersions": {
+      "candidateRows": 8000,
+      "referenceUniqueTexts": 344,
+      "exactCandidateRows": 0,
+      "normalizedCandidateRows": 0,
+      "entityMaskedExactCandidateRows": 0,
+      "strongNearCandidateRows": 1,
+      "flaggedCandidateRows": 1
+    },
+    "selectionAllVersions": {
+      "candidateRows": 8000,
+      "referenceUniqueTexts": 160,
+      "exactCandidateRows": 0,
+      "normalizedCandidateRows": 0,
+      "entityMaskedExactCandidateRows": 0,
+      "strongNearCandidateRows": 0,
+      "flaggedCandidateRows": 0
+    }
+  },
+  "checkerParity": {
+    "status": "PASS",
+    "parityChecks": 169,
+    "thresholds": "exact/normalized/entity-mask; long token-3-shingle Jaccard>=0.80; short char-3-shingle Dice>=0.90; Unicode edit similarity>=0.90; unchanged"
+  },
+  "protectedCasesExecuted": 0,
+  "protectedDataUsedAsTrainingSource": false,
+  "protectedContentDisclosed": false,
+  "matchesIdsOrRewriteSuggestionsDisclosed": false,
+  "noAdaptiveRewrite": true,
+  "modelCalls": 0,
+  "trainingStarted": false
+}

@@ -1,0 +1,316 @@
+{
+  "auditedAt": "2026-10-26T13:03:40.854Z",
+  "purpose": "Dataset design only; no training rows created",
+  "ontology": {
+    "intents": 32,
+    "actions": 48,
+    "planFields": [
+      "intent",
+      "period",
+      "month",
+      "year",
+      "department",
+      "personName",
+      "employeeNumber",
+      "rankBy",
+      "payrollTopic",
+      "reportType",
+      "refusalReason"
+    ],
+    "periods": [
+      "today",
+      "thisWeek",
+      "thisMonth",
+      "lastMonth",
+      "lastSixMonths",
+      "thisYear",
+      "calendarMonth"
+    ]
+  },
+  "assets": [
+    {
+      "kind": "runtime",
+      "file": "docs/fine-tuning/controlled-assets/remediation-v1.1/runtime-reference-v1.1.jsonl",
+      "sha256": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736",
+      "rows": 320,
+      "admissionPurpose": "runtime-reference-only",
+      "reusableAsTrainingTargets": false,
+      "languages": {
+        "en": 80,
+        "ar-MSA": 80,
+        "ar-JO": 80,
+        "mixed": 80
+      },
+      "tasks": {
+        "question-reference": 128,
+        "action-reference": 192
+      },
+      "families": 80,
+      "roles": {
+        "employee": 80,
+        "hr": 200,
+        "manager": 32,
+        "admin": 8
+      },
+      "questionPlansValidated": 320,
+      "actionPlansZodValidated": 192,
+      "nonExecutableNullControls": 0,
+      "questionReferencePopulatedFields": {
+        "intent": 128,
+        "period": 40,
+        "month": 0,
+        "year": 0,
+        "department": 0,
+        "personName": 4,
+        "employeeNumber": 0,
+        "rankBy": 4,
+        "payrollTopic": 4,
+        "reportType": 12,
+        "refusalReason": 4
+      },
+      "questionPeriods": {
+        "thisMonth": 36,
+        "null": 88,
+        "lastMonth": 4
+      },
+      "questionIntents": {
+        "myAttendance": 4,
+        "myLeaveBalance": 4,
+        "myRequests": 4,
+        "myPayslips": 4,
+        "payrollInsights": 4,
+        "payrollReadiness": 4,
+        "payrollRunSummary": 4,
+        "payrollAuditSummary": 4,
+        "payrollFindings": 4,
+        "teamPresentNow": 4,
+        "teamAttendance": 4,
+        "teamOnLeave": 4,
+        "teamPendingApprovals": 4,
+        "teamRoster": 4,
+        "headcount": 4,
+        "departmentBreakdown": 4,
+        "departmentAbsenceComparison": 4,
+        "orgAttendance": 4,
+        "orgLeaveSummary": 4,
+        "recruitmentSummary": 4,
+        "openJobOpenings": 4,
+        "listApplications": 4,
+        "whoIsPresentNow": 4,
+        "attendanceRanking": 4,
+        "generateReport": 4,
+        "myReport": 4,
+        "employeeFile": 4,
+        "knowledge": 4,
+        "howDoI": 4,
+        "doAction": 4,
+        "greeting": 4,
+        "outOfScope": 4
+      },
+      "privacy": {
+        "status": "PASS_STATIC_WITH_REVIEW_LIMITATIONS",
+        "realFactsDetected": 0,
+        "flaggedRowsByCategory": {
+          "email": 0,
+          "employeeIdentifier": 0,
+          "nationalPassport": 0,
+          "phone": 0,
+          "ibanBank": 0,
+          "address": 0,
+          "medical": 0,
+          "disciplinary": 0,
+          "factualRecord": 0,
+          "apiKey": 0,
+          "bearerJWT": 0,
+          "passwordPrivateKey": 0,
+          "databaseConnection": 0,
+          "urlOrInternalHost": 0,
+          "opaqueToken": 0
+        },
+        "independentHumanReviewPerformed": false
+      },
+      "priorContaminationEvidence": {
+        "frozen404": {
+          "candidateRows": 320,
+          "referenceUniqueTexts": 404,
+          "exactCandidateRows": 0,
+          "normalizedCandidateRows": 0,
+          "entityMaskedExactCandidateRows": 0,
+          "strongNearCandidateRows": 0,
+          "flaggedCandidateRows": 0
+        },
+        "historical10K": {
+          "candidateRows": 320,
+          "referenceUniqueTexts": 3440,
+          "exactCandidateRows": 0,
+          "normalizedCandidateRows": 0,
+          "entityMaskedExactCandidateRows": 0,
+          "strongNearCandidateRows": 0,
+          "flaggedCandidateRows": 0
+        }
+      },
+      "priorContaminationRecomputed": false,
+      "generationSourceUsedHere": false,
+      "exportedForTraining": false
+    },
+    {
+      "kind": "selection",
+      "file": "docs/fine-tuning/controlled-assets/remediation-v1.1/model-selection-v1.1.jsonl",
+      "sha256": "09cd5561686fd77d24f78a9f6036947425d9fc7973652b8b808c9ea907da5986",
+      "rows": 160,
+      "admissionPurpose": "base-model-selection-only-never-training",
+      "reusableAsTrainingTargets": false,
+      "languages": {
+        "en": 40,
+        "ar-MSA": 40,
+        "ar-JO": 40,
+        "mixed": 40
+      },
+      "tasks": {
+        "question-reference": 160
+      },
+      "families": 40,
+      "roles": {
+        "manager": 40,
+        "admin": 40,
+        "hr": 40,
+        "employee": 40
+      },
+      "questionPlansValidated": 136,
+      "actionPlansZodValidated": 0,
+      "nonExecutableNullControls": 24,
+      "questionReferencePopulatedFields": {
+        "intent": 136,
+        "period": 44,
+        "month": 4,
+        "year": 4,
+        "department": 0,
+        "personName": 4,
+        "employeeNumber": 0,
+        "rankBy": 4,
+        "payrollTopic": 4,
+        "reportType": 12,
+        "refusalReason": 4
+      },
+      "questionPeriods": {
+        "calendarMonth": 4,
+        "null": 116,
+        "thisWeek": 8,
+        "lastMonth": 16,
+        "thisYear": 16
+      },
+      "questionIntents": {
+        "myAttendance": 8,
+        "myLeaveBalance": 8,
+        "myRequests": 4,
+        "myPayslips": 4,
+        "payrollInsights": 4,
+        "payrollReadiness": 4,
+        "payrollRunSummary": 4,
+        "payrollAuditSummary": 4,
+        "payrollFindings": 4,
+        "teamPresentNow": 4,
+        "teamAttendance": 4,
+        "teamOnLeave": 4,
+        "teamPendingApprovals": 4,
+        "teamRoster": 4,
+        "headcount": 4,
+        "departmentBreakdown": 4,
+        "departmentAbsenceComparison": 4,
+        "orgAttendance": 4,
+        "orgLeaveSummary": 4,
+        "recruitmentSummary": 4,
+        "openJobOpenings": 4,
+        "listApplications": 4,
+        "whoIsPresentNow": 4,
+        "attendanceRanking": 4,
+        "generateReport": 4,
+        "myReport": 4,
+        "employeeFile": 4,
+        "knowledge": 4,
+        "howDoI": 4,
+        "doAction": 4,
+        "greeting": 4,
+        "outOfScope": 4,
+        "terminal-control": 24
+      },
+      "privacy": {
+        "status": "PASS_STATIC_WITH_REVIEW_LIMITATIONS",
+        "realFactsDetected": 0,
+        "flaggedRowsByCategory": {
+          "email": 0,
+          "employeeIdentifier": 0,
+          "nationalPassport": 0,
+          "phone": 0,
+          "ibanBank": 0,
+          "address": 0,
+          "medical": 0,
+          "disciplinary": 0,
+          "factualRecord": 0,
+          "apiKey": 0,
+          "bearerJWT": 0,
+          "passwordPrivateKey": 0,
+          "databaseConnection": 0,
+          "urlOrInternalHost": 0,
+          "opaqueToken": 0
+        },
+        "independentHumanReviewPerformed": false
+      },
+      "priorContaminationEvidence": {
+        "frozen404": {
+          "candidateRows": 160,
+          "referenceUniqueTexts": 404,
+          "exactCandidateRows": 0,
+          "normalizedCandidateRows": 0,
+          "entityMaskedExactCandidateRows": 0,
+          "strongNearCandidateRows": 0,
+          "flaggedCandidateRows": 0
+        },
+        "historical10K": {
+          "candidateRows": 160,
+          "referenceUniqueTexts": 3440,
+          "exactCandidateRows": 0,
+          "normalizedCandidateRows": 0,
+          "entityMaskedExactCandidateRows": 0,
+          "strongNearCandidateRows": 0,
+          "flaggedCandidateRows": 0
+        },
+        "runtimeReference": {
+          "candidateRows": 160,
+          "referenceUniqueTexts": 340,
+          "exactCandidateRows": 0,
+          "normalizedCandidateRows": 0,
+          "entityMaskedExactCandidateRows": 0,
+          "strongNearCandidateRows": 0,
+          "flaggedCandidateRows": 0
+        }
+      },
+      "priorContaminationRecomputed": false,
+      "generationSourceUsedHere": false,
+      "exportedForTraining": false
+    }
+  ],
+  "admissionPolicy": "CEB-AUTO-ADMISSION-1",
+  "admissionDecisionFile": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/admission-decision.json",
+  "admissionDecisionSha256": "d61374754b7454e77404562402df2617fd615ed334c4859ed064cbd2f46d1bf3",
+  "priorValidationFile": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/validation-results.json",
+  "priorValidationSha256": "37011aa65eb5febab06e2d3f8d52930117b866230b886ddfb86521c800d78542",
+  "linguisticLimitation": "Arabic/English, MSA, Jordanian and mixed semantic naturalness was not independently human-reviewed. Automated checks do not prove perfect linguistic quality or complete semantic independence. Disclose this in future reports/publications.",
+  "priorProtectedFilesUnchanged": 627,
+  "frozen404": {
+    "sha256": "b6a6a9f74e76edcf783ad3a2f47f2fa493ac0444e2ca8bf239439229e14a2b05",
+    "contentParsed": false,
+    "casesExecuted": 0,
+    "usedForTraining": false
+  },
+  "historical10K": {
+    "usedForTraining": false,
+    "parsed": false,
+    "access": "integrity hashing only, never a source for the dataset or authoring"
+  },
+  "realPiiFound": false,
+  "noRealDataSourcesAccessed": true,
+  "inferenceRequests": 0,
+  "trainingRowsCreated": 0,
+  "trainingStarted": false
+}

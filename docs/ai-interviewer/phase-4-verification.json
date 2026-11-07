@@ -1,0 +1,779 @@
+{
+  "phase": 4,
+  "name": "AI Interview Evaluation + Evidence + HR Review",
+  "status": "PASS",
+  "recordedAt": "2026-11-01T12:38:33.848Z",
+  "acceptance": {
+    "Phase 4": "PASS",
+    "Evaluation pipeline": "PASS",
+    "Frozen evaluation input": "PASS",
+    "Deterministic inputHash": "PASS",
+    "Evidence verification": "PASS",
+    "Invalid evidence rejection": "PASS",
+    "NOT_ASSESSED behavior": "PASS",
+    "Coverage": "PASS",
+    "Strength evidence grounding": "PASS",
+    "Concern evidence grounding": "PASS",
+    "Evaluation failure isolation": "PASS",
+    "Retry": "PASS",
+    "Report versioning": "PASS",
+    "HR report UI": "PASS",
+    "Human review": "PASS",
+    "Candidate report access denied": "PASS",
+    "Candidate A/B isolation": "PASS",
+    "Arabic/mixed evidence": "PASS",
+    "Aggregation transparency": "NOT USED: no approved 0–4 overall aggregation; overallScore=null, frozen weights inspectable"
+  },
+  "createdFiles": [
+    "apps/hr-web/src/pages/AiInterviewReportPage.tsx",
+    "docs/ai-interviewer/phase-4-verification.json",
+    "docs/ai-interviewer/phase-4.md",
+    "packages/contracts/src/aiInterviewReport.ts",
+    "services/hr-api/scripts/checkAiInterviewReportBrowser.mjs",
+    "services/hr-api/scripts/checkAiInterviewReportCases.mjs",
+    "services/hr-api/src/aiInterviewer/report.check.ts",
+    "services/hr-api/src/aiInterviewer/report.ts",
+    "services/hr-api/src/aiInterviewer/reportService.ts"
+  ],
+  "modifiedFiles": [
+    "apps/hr-web/src/app/router.tsx",
+    "apps/hr-web/src/features/aiInterviewer/HrAiInterview.tsx",
+    "apps/hr-web/src/features/aiInterviewer/session.ts",
+    "packages/contracts/src/index.ts",
+    "services/hr-api/package.json",
+    "services/hr-api/scripts/checkAiInterviewBrowser.mjs",
+    "services/hr-api/scripts/checkAiInterviewUi.mjs",
+    "services/hr-api/src/aiInterviewer/audit.ts",
+    "services/hr-api/src/aiInterviewer/persistence.check.ts",
+    "services/hr-api/src/aiInterviewer/routes.ts",
+    "services/hr-api/src/aiInterviewer/runtime.ts",
+    "services/hr-api/src/aiInterviewer/service.ts",
+    "services/hr-api/src/aiInterviewer/ui.fixture.ts",
+    "services/hr-api/src/db/schema.ts"
+  ],
+  "deletedFiles": [],
+  "fileCounts": {
+    "created": 9,
+    "modified": 14,
+    "deleted": 0
+  },
+  "routes": {
+    "pageAdded": "/hr/recruitment/applications/:applicationId/ai-interviews/:interviewId/report",
+    "existingPageIntegrated": "/hr/recruitment -> application -> AI Interview -> Evaluation & human review",
+    "apiAdded": [
+      {
+        "method": "GET",
+        "path": "/api/recruitment/applications/:applicationId/ai-interviews/:interviewId/evaluation",
+        "query": "optional positive reportVersion",
+        "access": "active HR/Admin with existing manageRecruitment; application/interview relationship checked"
+      },
+      {
+        "method": "POST",
+        "path": "/api/recruitment/applications/:applicationId/ai-interviews/:interviewId/evaluation",
+        "body": "commandId, expectedVersion, operation RUN/RETRY/REEVALUATE, optional allowlisted mock evaluatorVersion",
+        "access": "same HR/Admin and Origin checks"
+      },
+      {
+        "method": "POST",
+        "path": "/api/recruitment/applications/:applicationId/ai-interviews/:interviewId/evaluation/:reportVersion/review",
+        "body": "commandId, expectedVersion, status REVIEWED/UNREVIEWED, note",
+        "access": "same HR/Admin and Origin checks"
+      }
+    ],
+    "candidateReportOrEvidenceRouteAdded": false
+  },
+  "storage": {
+    "databaseSchemaChanges": [],
+    "newMigrations": [],
+    "migration0026Modified": false,
+    "migrationJournalModified": false,
+    "migrationAppliedToConfiguredDatabase": false,
+    "existingResultsJsonFormatExtended": "phase4-report-v1 envelope: frozen input, immutable report, independent review, durable attempt metadata",
+    "schemaTsChange": "Import + TypeScript-only results JSONB union with legacy answer-evaluation array. No DDL changes.",
+    "schemaTypeOnlyReversePatchMatchesBaseline": true,
+    "legacyRows": "Old arrays/null rows remain supported. Legacy GENERATE_EVALUATION cannot overwrite a versioned Phase 4 envelope.",
+    "versioning": "Same-version retry after FAILED keeps frozen input/hash and prior failure metadata. REEVALUATE after COMPLETED inserts a new reportVersion, preserving previous report/input/review.",
+    "jobs": "Commit PENDING, claim RUNNING under row lock, evaluate outside transaction, independently validate, atomically commit COMPLETED or safe FAILED. Maintenance only drains requested Phase 4 envelopes.",
+    "workerRecovery": "Five-minute persisted attempt lease; expired lease reclaim and attempt-number fencing prevent stale completion from overwriting a newer result.",
+    "review": "Version-checked, idempotent status/note; current reviewer/time persisted separately from immutable report. Audit stores action metadata, not note revisions."
+  },
+  "evaluation": {
+    "mode": "MOCK",
+    "implementation": "MockReportEvaluator extends the unchanged Phase 1 MockEvaluator; every output uses the same independent verifier and persistence path.",
+    "input": "Ready-time frozen rubric/criteria/weights, served question mappings, final-answer source event sequence/turn/question and explicit evaluator version. Excludes candidate PII, HR notes, sessions, invitation secrets, raw audio, partial-only text and answer finalization/job/review timestamps.",
+    "inputHash": "SHA256 over the existing canonicalJson ordering and versioned shared evaluation input schema. Later JD/scorecard changes cannot mutate stored input.",
+    "criterionStatuses": [
+      "ASSESSED",
+      "PARTIALLY_ASSESSED",
+      "NOT_ASSESSED"
+    ],
+    "scoreRule": "Existing frozen 0–4 anchors; synthetic question-type dimension mapping is explicit. Lowest supported fixture anchor across eligible answers; rationale names each frozen dimension/anchor. No score penalty for time/connection/clarification/language.",
+    "notAssessed": "score=null with no trusted evidence; absent criterion coverage cannot disappear or become zero.",
+    "evidence": "Persisted CANDIDATE_FINAL_ANSWER only; exact question, turn, criterion and event sequence checked independently. Bounds and exact slice validated; no normalization.",
+    "offsets": "UTF16_CODE_UNIT; reject spans splitting surrogate pairs.",
+    "invalidEvidencePolicy": "Reject entire report; FAILED/EVIDENCE_VALIDATION_FAILED, report=null, no invented output persisted/displayed. Interview remains COMPLETED with answers preserved.",
+    "findings": "Strengths/concerns must reference validated evidence in the same criterion. Missing coverage is a limitation, not a candidate weakness.",
+    "coverage": "Count assessed/partial/not assessed separately; percent=(assessed+partial)/total*100 rounded to 2 decimals; coverage is not performance.",
+    "aggregation": "NONE_APPROVED_FOR_0_4; overallScore=null. Frozen weights retained; no invented overall/equal weighting.",
+    "noProtectedTraitOrVoiceInference": true,
+    "noAutomaticHiringDecision": true,
+    "audit": "Existing AUDIT events for requested/running/completed/failed/retried/reviewed; IDs, reportVersion and safe codes/status only. COMMAND fingerprints hash exact requests, including notes, rather than storing plaintext."
+  },
+  "testsAdded": [
+    {
+      "path": "services/hr-api/src/aiInterviewer/report.check.ts",
+      "passed": 76,
+      "failed": 0,
+      "scope": "Canonical/frozen inputs, evidence/Unicode/offset/source rejection, criteria/coverage/findings, real PostgreSQL job lifecycle, retry/version/review/idempotency/lease fencing, HR permissions/candidate isolation/no application status writes."
+    },
+    {
+      "path": "services/hr-api/scripts/checkAiInterviewReportBrowser.mjs",
+      "casesModule": "services/hr-api/scripts/checkAiInterviewReportCases.mjs",
+      "passed": 58,
+      "failed": 0,
+      "composition": "44 existing Phase 3 browser checks + 14 Phase 4 report cases; real Chrome + PostgreSQL."
+    },
+    {
+      "path": "services/hr-api/scripts/checkAiInterviewUi.mjs",
+      "newCases": 1,
+      "passed": 24,
+      "failed": 0,
+      "scope": "All 23 original checks + reproduced pre-conflict poll/409 reconciliation defect."
+    }
+  ],
+  "tests": {
+    "phase4Report": {
+      "passed": 76,
+      "failed": 0,
+      "externalNetworkAttempts": 0
+    },
+    "phase4Browser": {
+      "passed": 58,
+      "failed": 0,
+      "resultFile": ".local-dev/ai-interviewer-phase4/browser-results.json",
+      "checks": [
+        {
+          "name": "HR login and recruitment AI controls use the existing employee workflow",
+          "result": "PASS"
+        },
+        {
+          "name": "HR configures explicit plan/timers and adds a third question",
+          "result": "PASS"
+        },
+        {
+          "name": "Create goes through the real Phase 2 transaction",
+          "result": "PASS"
+        },
+        {
+          "name": "HR freezes READY and operational UI displays no token hash",
+          "result": "PASS"
+        },
+        {
+          "name": "Invitation is copied once and cleared from the HR panel",
+          "result": "PASS"
+        },
+        {
+          "name": "Revocation is visible and the revoked browser invitation fails safely",
+          "result": "PASS"
+        },
+        {
+          "name": "Invalid invitation shows a safe standalone error",
+          "result": "PASS"
+        },
+        {
+          "name": "Expired invitation is rejected in the browser",
+          "result": "PASS"
+        },
+        {
+          "name": "Valid candidate exchange removes token from URL and browser storage",
+          "result": "PASS"
+        },
+        {
+          "name": "Backend refuses start before persisted consent",
+          "result": "PASS"
+        },
+        {
+          "name": "Consent persists across a browser refresh",
+          "result": "PASS"
+        },
+        {
+          "name": "Arabic RTL, English LTR and Mixed confirmation remain independent",
+          "result": "PASS"
+        },
+        {
+          "name": "Mock readiness requests no real microphone",
+          "result": "PASS"
+        },
+        {
+          "name": "Interview starts with AI_SPEAKING and the current question",
+          "result": "PASS"
+        },
+        {
+          "name": "Mock interruption is processed by the authoritative backend",
+          "result": "PASS"
+        },
+        {
+          "name": "Timer comes from backend and no future question/rubric/weight/evaluation/notes are exposed",
+          "result": "PASS"
+        },
+        {
+          "name": "RAG answer reaches PROCESSING without frontend decisions",
+          "result": "PASS"
+        },
+        {
+          "name": "Backend selects FOLLOW_UP",
+          "result": "PASS"
+        },
+        {
+          "name": "Incomplete answer selects CLARIFICATION",
+          "result": "PASS"
+        },
+        {
+          "name": "Stale version reconciles once instead of blindly retrying",
+          "result": "PASS"
+        },
+        {
+          "name": "Warning and grace are backend-authoritative",
+          "result": "PASS"
+        },
+        {
+          "name": "Next base question follows the clarification",
+          "result": "PASS"
+        },
+        {
+          "name": "Q3 refresh restores roughly 75 seconds without Q1 or duplicate answers",
+          "result": "PASS"
+        },
+        {
+          "name": "Pause freezes the backend remaining duration across five minutes",
+          "result": "PASS"
+        },
+        {
+          "name": "Explicit duplicate retry acknowledges the saved command",
+          "result": "PASS"
+        },
+        {
+          "name": "Resume uses the backend-restored deadline",
+          "result": "PASS"
+        },
+        {
+          "name": "Disconnect/reconnect preserves the same question and turn",
+          "result": "PASS"
+        },
+        {
+          "name": "Mock provider failure is recoverable through backend state",
+          "result": "PASS"
+        },
+        {
+          "name": "Mobile room has no horizontal overflow and remains keyboard-operable",
+          "result": "PASS"
+        },
+        {
+          "name": "Arabic interview room and mobile layout preserve RTL without restricting answers",
+          "result": "PASS"
+        },
+        {
+          "name": "A second interview is created through authorized backend operations",
+          "result": "PASS"
+        },
+        {
+          "name": "Candidate A cannot GET, command, replay or resume Interview B",
+          "result": "PASS"
+        },
+        {
+          "name": "Development bridge preserves candidate scope and rejects arbitrary commands",
+          "result": "PASS"
+        },
+        {
+          "name": "Production server policy refuses mock routes even with its flag set",
+          "result": "PASS"
+        },
+        {
+          "name": "Production UI build has no mock controls and cannot start mock delivery",
+          "result": "PASS"
+        },
+        {
+          "name": "Managers cannot access AI recruitment controls or create an interview",
+          "result": "PASS"
+        },
+        {
+          "name": "Admin retains existing recruitment permission and management controls",
+          "result": "PASS"
+        },
+        {
+          "name": "Happy path reaches closing and candidate completion",
+          "result": "PASS"
+        },
+        {
+          "name": "Completion has no score/hiring result and rejects new answers",
+          "result": "PASS"
+        },
+        {
+          "name": "HR sees COMPLETED and evaluation status without a Phase 4 report",
+          "result": "PASS"
+        },
+        {
+          "name": "Phase 4: completed browser interview retains PENDING evaluation until HR requests it",
+          "result": "PASS"
+        },
+        {
+          "name": "Phase 4: HR runs and renders persisted mock evaluation with coverage and criterion scores",
+          "result": "PASS"
+        },
+        {
+          "name": "Phase 4: untested criterion renders Not Assessed and dash, never zero",
+          "result": "PASS"
+        },
+        {
+          "name": "Phase 4: evidence opens correct question and finalized answer with exact highlighted quote",
+          "result": "PASS"
+        },
+        {
+          "name": "Phase 4: strengths, concerns, limitations, trace and mock label are visible",
+          "result": "PASS"
+        },
+        {
+          "name": "Phase 4: human review and note persist after browser refresh",
+          "result": "PASS"
+        },
+        {
+          "name": "Phase 4: intentional v2 preserves completed v1 and its human review",
+          "result": "PASS"
+        },
+        {
+          "name": "Phase 4: evaluator failure preserves COMPLETED interview and exposes safe retry",
+          "result": "PASS"
+        },
+        {
+          "name": "Phase 4: retry uses same frozen hash and retains failed attempt",
+          "result": "PASS"
+        },
+        {
+          "name": "Phase 4: invented Kubernetes quote is rejected and never rendered as trusted evidence",
+          "result": "PASS"
+        },
+        {
+          "name": "Phase 4: candidate report, evidence and review access denied, candidate DTO stays private",
+          "result": "PASS"
+        },
+        {
+          "name": "Phase 4: manager and employee cannot fetch detailed reports",
+          "result": "PASS"
+        },
+        {
+          "name": "Phase 4: strong mixed answer and weak fixture produce grounded findings plus coverage gap",
+          "result": "PASS"
+        },
+        {
+          "name": "Phase 4: Arabic/mixed evidence remains exact with RTL and mobile layout",
+          "result": "PASS"
+        },
+        {
+          "name": "Mock silence/timeout advances by backend policy without a fabricated zero score",
+          "result": "PASS"
+        },
+        {
+          "name": "Speaking through grace expiry finalizes TIME_LIMIT without frontend scoring",
+          "result": "PASS"
+        },
+        {
+          "name": "Expired candidate session clears the room and presents a safe message",
+          "result": "PASS"
+        },
+        {
+          "name": "Candidate uses no microphone, WebRTC, employee navigation or external resources",
+          "result": "PASS"
+        }
+      ]
+    },
+    "phase1Regression": {
+      "passed": 37,
+      "failed": 0,
+      "externalNetworkAttempts": 0
+    },
+    "phase2PostgreSqlAndSecurityRegression": {
+      "passed": 65,
+      "failed": 0,
+      "externalNetworkAttempts": 0
+    },
+    "phase3FrontendRegression": {
+      "passed": 24,
+      "failed": 0,
+      "originalChecks": 23,
+      "newConflictRegression": 1
+    },
+    "phase3StandaloneBrowserRegression": {
+      "passed": 44,
+      "failed": 0,
+      "resultFile": ".local-dev/ai-interviewer-phase3/browser-results.json"
+    },
+    "mcpAuthorization": {
+      "passed": 18,
+      "failed": 0,
+      "toolsPerInvalidAuthState": 69
+    },
+    "voice": "PASS",
+    "localVoice": "PASS",
+    "writtenInterviewRoutes": "PASS: unchanged written GET/answer separation verified within Phase 2",
+    "permissions": "PASS: 22 capabilities",
+    "scorecard": "PASS",
+    "typechecks": {
+      "contracts": "PASS",
+      "api": "PASS",
+      "web": "PASS"
+    },
+    "productionBuild": "PASS",
+    "existingWarnings": [
+      "GapForm.tsx:55 and ScorecardEditor.tsx:42 pre-existing lint warnings; files unchanged.",
+      "Vite application chunk size above 500 kB advisory; build succeeds."
+    ]
+  },
+  "additionalPhase3Fix": {
+    "problem": "409 reconciliation could reuse a poll started before the conflict, leaving the displayed authoritative version stale.",
+    "reproduction": "New focused test failed on old code: version 10 remained instead of 11.",
+    "fix": "Drain an in-flight sync, then perform a new sync. No state-changing command is automatically retried.",
+    "result": "24/24 UI checks plus complete 58/58 and independent 44/44 browser runs pass.",
+    "browserTimerVerification": "Advance relative to backend remainingMs, first verify speaking persisted, observe warning then grace, and assert exact graceDeadlineAt-answerDeadlineAt=15000. Product timing semantics unchanged."
+  },
+  "commandsExecuted": [
+    {
+      "cwd": "repository root",
+      "command": "npm.cmd run check:ai-interviewer:report -w @hr/server",
+      "environment": {
+        "AI_INTERVIEW_TEST_DATABASE_URL": "postgresql://phase2_test@127.0.0.1:55442/postgres"
+      }
+    },
+    {
+      "cwd": "repository root",
+      "command": "npm.cmd run check:ai-interviewer:report:browser -w @hr/server",
+      "environment": {
+        "AI_INTERVIEW_TEST_DATABASE_URL": "postgresql://phase2_test@127.0.0.1:55442/postgres"
+      }
+    },
+    {
+      "cwd": "repository root",
+      "command": "npm.cmd run check:ai-interviewer -w @hr/server"
+    },
+    {
+      "cwd": "repository root",
+      "command": "npm.cmd run check:ai-interviewer:persistence -w @hr/server",
+      "environment": {
+        "AI_INTERVIEW_TEST_DATABASE_URL": "postgresql://phase2_test@127.0.0.1:55442/postgres"
+      }
+    },
+    {
+      "cwd": "repository root",
+      "command": "npm.cmd run check:ai-interviewer:ui -w @hr/server"
+    },
+    {
+      "cwd": "repository root",
+      "command": "npm.cmd run check:ai-interviewer:browser -w @hr/server",
+      "environment": {
+        "AI_INTERVIEW_TEST_DATABASE_URL": "postgresql://phase2_test@127.0.0.1:55442/postgres"
+      }
+    },
+    {
+      "cwd": "repository root",
+      "command": "npm.cmd run check:voice -w @hr/server"
+    },
+    {
+      "cwd": "repository root",
+      "command": "npm.cmd run check:voice:local -w @hr/server",
+      "environment": {
+        "DATABASE_URL": "postgresql://synthetic:synthetic@127.0.0.1:1/phase4_not_connected",
+        "SESSION_SECRET": "phase4-offline-regression-synthetic-secret"
+      }
+    },
+    {
+      "cwd": "repository root",
+      "command": "npm.cmd run check:permissions -w @hr/server"
+    },
+    {
+      "cwd": "repository root",
+      "command": "npm.cmd run check:scorecard -w @hr/server"
+    },
+    {
+      "cwd": "services/hr-api",
+      "command": "node --conditions=development --import tsx src/mcp/authorization.security.check.ts"
+    },
+    {
+      "cwd": "repository root",
+      "command": "npm.cmd run check"
+    },
+    {
+      "cwd": "repository root",
+      "command": "npm.cmd run build -w hr-app"
+    },
+    {
+      "cwd": "repository root",
+      "command": "npm.cmd run build -w hr-app",
+      "environment": {
+        "VITE_AI_INTERVIEW_DEV_MOCK": "true"
+      }
+    },
+    {
+      "cwd": "repository root",
+      "command": "npm.cmd run demo:ai-interviewer:ui -w @hr/server",
+      "environment": {
+        "AI_INTERVIEW_TEST_DATABASE_URL": "postgresql://phase2_test@127.0.0.1:55442/postgres",
+        "PHASE4_REPORT_TESTS": "true"
+      }
+    },
+    {
+      "cwd": "repository root",
+      "command": "npm.cmd run dev -w hr-app -- --host localhost --port 5179 --strictPort",
+      "environment": {
+        "VITE_API_TARGET": "http://127.0.0.1:8793",
+        "VITE_AI_INTERVIEW_DEV_MOCK": "true"
+      }
+    }
+  ],
+  "network": {
+    "phase4BackendFixtureExternalAttempts": 0,
+    "phase4UnitExternalAttempts": 0,
+    "candidateExternalRequestsCompleted": 0,
+    "candidateExternalRequestsBlocked": 0,
+    "hrThirdPartyFontRequestsBlockedBeforeOutbound": 5,
+    "microphoneInvocations": 0,
+    "webRtcInvocations": 0,
+    "realAiCalls": 0,
+    "note": "Counts scoped to instrumented mock tests. Local HTTP/PostgreSQL/CDP and existing Vite HMR are expected. HR's 5 external font attempts were blocked separately; do not describe all browser attempts as zero."
+  },
+  "productionMockIsolation": {
+    "artifacts": {
+      "apps/hr-web/dist/index.html": "2c8a1157fecbd28951d7eebec3bd5460df437ef67f0191489e7927537076e911",
+      "apps/hr-web/dist/assets/index-CG_xsGVS.css": "f4c33aa0e271f51befa931cfb5c073b65f1e2fc2736020413972acf8f37950af",
+      "apps/hr-web/dist/assets/index-CuN2axIk.js": "e9fc87eb059e39e3eef0b355be881296b0b1b70dbd5c2c4068169259097829ab"
+    },
+    "mockControlChunks": [],
+    "mockProviderFailureTextPresent": false,
+    "flagTrueByteIdentical": true
+  },
+  "dependencies": {
+    "added": [],
+    "changed": [],
+    "lockfilesChanged": false,
+    "serverPackageScriptsAdded": [
+      "check:ai-interviewer:report",
+      "check:ai-interviewer:report:browser"
+    ],
+    "reverseRemovalOfTwoScriptsMatchesBaselinePackage": true
+  },
+  "protectedBaseline": {
+    "trackedFiles": 855,
+    "groups": {
+      "phase1Engine": {
+        "checkedFiles": 8,
+        "changed": []
+      },
+      "migrations": {
+        "checkedFiles": 37,
+        "changed": []
+      },
+      "voiceCopilot": {
+        "checkedFiles": 71,
+        "changed": []
+      },
+      "mcp": {
+        "checkedFiles": 5,
+        "changed": []
+      },
+      "writtenInterview": {
+        "checkedFiles": 11,
+        "changed": []
+      },
+      "trainingAndBenchmarks": {
+        "checkedFiles": 400,
+        "changed": []
+      },
+      "lockfiles": {
+        "checkedFiles": 2,
+        "changed": []
+      }
+    },
+    "importantFiles": {
+      "services/hr-api/src/aiInterviewer/engine.ts": {
+        "before": "67b94834253833cce270927eebf978cedeb90c206e6b1948a26b739d9cb35e88",
+        "after": "67b94834253833cce270927eebf978cedeb90c206e6b1948a26b739d9cb35e88",
+        "unchanged": true
+      },
+      "services/hr-api/src/aiInterviewer/evaluator.ts": {
+        "before": "d8bef6c989476561ee6f95b7d699860f73115a37a19f3c364a1712c4547bf8a8",
+        "after": "d8bef6c989476561ee6f95b7d699860f73115a37a19f3c364a1712c4547bf8a8",
+        "unchanged": true
+      },
+      "services/hr-api/src/aiInterviewer/evaluationInput.ts": {
+        "before": "3155ac832279c8141edd8fda91f75cc1d47ab7b459979c0c7c17d44f35f7c2d8",
+        "after": "3155ac832279c8141edd8fda91f75cc1d47ab7b459979c0c7c17d44f35f7c2d8",
+        "unchanged": true
+      },
+      "services/hr-api/src/aiInterviewer/authorization.ts": {
+        "before": "c1624163c3a7ff8a635168feb8b8b9434b3d356a7ebb91536739999da597d5f4",
+        "after": "c1624163c3a7ff8a635168feb8b8b9434b3d356a7ebb91536739999da597d5f4",
+        "unchanged": true
+      },
+      "services/hr-api/src/aiInterviewer/repository.ts": {
+        "before": "6b7b873ff50645b5ccd55c266aacc34183dd59fef209ebb5b310559751fe1ae9",
+        "after": "6b7b873ff50645b5ccd55c266aacc34183dd59fef209ebb5b310559751fe1ae9",
+        "unchanged": true
+      },
+      "services/hr-api/drizzle/0026_ai_interviewer.sql": {
+        "before": "f7f11f23554e2eb4d19270121a1ab360c5febab4614ea831ffffa0a267824b6d",
+        "after": "f7f11f23554e2eb4d19270121a1ab360c5febab4614ea831ffffa0a267824b6d",
+        "unchanged": true
+      },
+      "services/hr-api/drizzle/meta/_journal.json": {
+        "before": "e497feb8ce1f0671ffef322d6a4774e51eb5a91e83398f79b7cc46f88ca5f9ad",
+        "after": "e497feb8ce1f0671ffef322d6a4774e51eb5a91e83398f79b7cc46f88ca5f9ad",
+        "unchanged": true
+      },
+      "package-lock.json": {
+        "before": "b57232d6865f16a0a8361e62d0664e8fe71fc69cb52868fbfbdb46f99762ccf4",
+        "after": "b57232d6865f16a0a8361e62d0664e8fe71fc69cb52868fbfbdb46f99762ccf4",
+        "unchanged": true
+      },
+      "apps/hr-web/package-lock.json": {
+        "before": "4763c79c19973a7e316ec3b2accfcc2abacec162c393a037c430587ef1e65ad2",
+        "after": "4763c79c19973a7e316ec3b2accfcc2abacec162c393a037c430587ef1e65ad2",
+        "unchanged": true
+      },
+      "services/hr-api/src/copilot/data/hr_agent_intents_10000.jsonl": {
+        "before": "1fc3665f36b2b1814fdebe248ce46709a5dbdc7058d728620adc0ebf9b3fdb9b",
+        "after": "1fc3665f36b2b1814fdebe248ce46709a5dbdc7058d728620adc0ebf9b3fdb9b",
+        "unchanged": true
+      }
+    }
+  },
+  "confirmations": {
+    "automaticHiringDecision": false,
+    "applicationStatusUpdatedByEvaluation": false,
+    "candidateStatusUpdatedByEvaluation": false,
+    "realAi": false,
+    "openAi": false,
+    "webRtc": false,
+    "newApplicationWebSocketServer": false,
+    "realMicrophone": false,
+    "rawAudioPersistence": false,
+    "fineTuningAssetsModified": false,
+    "frozenBenchmarkModified": false,
+    "migration0026Modified": false,
+    "newMigration": false,
+    "phase5Started": false
+  },
+  "manualDemo": {
+    "runningAtVerification": true,
+    "loginUrl": "http://localhost:5179/login",
+    "syntheticLogin": {
+      "email": "hr.interview@example.invalid",
+      "password": "Synthetic-Demo-3!"
+    },
+    "apiReady": true,
+    "webStatus": 200,
+    "interviewStatus": "COMPLETED",
+    "evaluationStatus": "COMPLETED",
+    "reportVersion": 1,
+    "humanReview": "UNREVIEWED",
+    "coverage": {
+      "criteriaTotal": 3,
+      "assessed": 1,
+      "partiallyAssessed": 1,
+      "notAssessed": 1,
+      "coveragePercent": 66.67
+    },
+    "reportUrl": "http://localhost:5179/hr/recruitment/applications/3e19c4e2-ab16-41de-bd5b-67e9717fcd17/ai-interviews/fa4d9408-37c5-4dd8-a657-d693d0644975/report",
+    "note": "Fresh isolated synthetic database and local PostgreSQL/API/Vite left running. Prepared report has strong mixed evidence, weak partial evidence, and an untested criterion; human review remains UNREVIEWED. No configured remote data touched.",
+    "cleanup": "All browser helper runs shut down and dropped their generated DBs. One orphan from the earlier manual synthetic fixture was removed with strict local generated-name checks before preparing this fresh demo."
+  },
+  "documentation": "docs/ai-interviewer/phase-4.md",
+  "screenshots": [
+    ".local-dev/ai-interviewer-phase4/screenshots/hr-plan.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/revoked-invitation.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/candidate-consent.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/candidate-arabic.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/candidate-readiness.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/room-speaking.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/room-listening.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/timer-warning.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/timer-grace.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/refresh-q3.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/room-paused.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/room-mobile.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/room-arabic-mobile.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/candidate-completion.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/hr-completed.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/evaluation-pending.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/evaluation-overview.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/not-assessed.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/verified-evidence.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/human-review-saved.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/evaluation-failed.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/invalid-evidence-rejected.png",
+    ".local-dev/ai-interviewer-phase4/screenshots/arabic-mixed-evidence-mobile.png"
+  ],
+  "knownLimitations": [
+    "Deterministic mock fixtures, not real candidate assessment; label displayed in both locales.",
+    "No approved overall 0–4 aggregation; criterion scores and coverage only.",
+    "Existing single-process maintenance/rate-limit deployment constraints remain; persisted leases fence stale workers.",
+    "Current HR note persisted; audit metadata does not store full note revision history.",
+    "Advanced rubric revision UI, export, ranking and real providers/audio are deferred."
+  ],
+  "sha256": {
+    "implementationAndTestArtifacts": {
+      "apps/hr-web/src/app/router.tsx": "38db0a8ea85a53836e7b27f5e1a5196b3639a0f4946c2ff6e847c352d7bbe874",
+      "apps/hr-web/src/features/aiInterviewer/HrAiInterview.tsx": "37b0fbd564f302a1491e1746cc08a795b81200306f7fbee97216803c0ab00feb",
+      "apps/hr-web/src/features/aiInterviewer/session.ts": "2d3c6805b2096f718098375262be373ee7a99eb2adaf7fec7e45b6452ccf6028",
+      "apps/hr-web/src/pages/AiInterviewReportPage.tsx": "b7ecafbb5f3406f3caececbb57adb2a0114a8f7fb75b0876327fc8db552bc9bd",
+      "docs/ai-interviewer/phase-4.md": "3a2402c1c8daff86b8a04f280e93a556c3aaf54ee2e9a2f46fed75f3171faf77",
+      "packages/contracts/src/aiInterviewReport.ts": "35cc99acf419d8994c862c9044ef6ad525b4d6bb6d85550cbea9bfd3f0a8468a",
+      "packages/contracts/src/index.ts": "79c7f945a691aaf516c6d8694bee7089b0cd7e554434ba29fc32d28ac5d0eed5",
+      "services/hr-api/package.json": "f19e2a75bc924da6ac67ba0b20c969ec4e562ea6b2e7e9bb8a046a174a459ffc",
+      "services/hr-api/scripts/checkAiInterviewBrowser.mjs": "5930ad96e737ac12e9cfd735c3c41a366dd935d59629ccd37bb6f9418f2123d4",
+      "services/hr-api/scripts/checkAiInterviewReportBrowser.mjs": "3b4b48abecfe6712a75e6a3951133fd3d5e2d7d252828f67c5e293ba1bd7709c",
+      "services/hr-api/scripts/checkAiInterviewReportCases.mjs": "c12fa5c23212ee2bf41fcc3655e89515860033d77e8f679450eee7fe73a87fec",
+      "services/hr-api/scripts/checkAiInterviewUi.mjs": "3c4ecba66eba14632679e134f7c4db2834f9ae90ee2d9dc013e291852200391f",
+      "services/hr-api/src/aiInterviewer/audit.ts": "805f8b24177b751a43c324e2813d45d2a6dc9f9b100a731813716a6e6c5917c8",
+      "services/hr-api/src/aiInterviewer/persistence.check.ts": "8fd7b24276fbb15140d118e80ffdeaef19ff96708ef5fb7648d174e07c3f23d3",
+      "services/hr-api/src/aiInterviewer/report.check.ts": "7ddc14f2b10335ea02e8e8a001154b4b9328c1436feb16765452cded9c0a9e96",
+      "services/hr-api/src/aiInterviewer/report.ts": "98b9a921f7174df8f04505eef71ca012af7fa50920247459d53e141ffd80fc1e",
+      "services/hr-api/src/aiInterviewer/reportService.ts": "524bc2de88669242efdad4b57de15478ea4d83a12b938aff994c8d04bd107c15",
+      "services/hr-api/src/aiInterviewer/routes.ts": "9a011827c292785e62200fb10c9bf2ede5a68921667671ab62dfca49f87b5c9a",
+      "services/hr-api/src/aiInterviewer/runtime.ts": "b4f6d282e3919edbf5fb9cf2cab4301483d32eff54f38bfb5dabd2ba7a4584d9",
+      "services/hr-api/src/aiInterviewer/service.ts": "da043bf78c3dd45d62691ee482408d75419ec0fe417a280f1671753e5ee081ca",
+      "services/hr-api/src/aiInterviewer/ui.fixture.ts": "9d638a4d78fe374a17e7270c24fbc2b47282ad609208d0b29249a3f293e58491",
+      "services/hr-api/src/db/schema.ts": "d77d7bc2db236ce50e262f1ecc02384bcf47f84c8367a110ad7912d3a7ba04c4"
+    },
+    "browserEvidence": {
+      ".local-dev/ai-interviewer-phase4/browser-results.json": "b6f0a61357093d3d011a43054fd86b7995cffa67ef3d639fe19466dfcd7a3eaa",
+      ".local-dev/ai-interviewer-phase4/screenshots/hr-plan.png": "9a702979bf4a05fc5ad370e2a80d3b6e49288ae84fbeaa17d14f4d05ab500b1d",
+      ".local-dev/ai-interviewer-phase4/screenshots/revoked-invitation.png": "9c6d57b617901f118dea61370c66925f4ff6fcf9952daa76524de3df57b5aeeb",
+      ".local-dev/ai-interviewer-phase4/screenshots/candidate-consent.png": "d8723a9dedbdc6f203f031e989fc14c9ac43504601f654f69851a89d639fcb53",
+      ".local-dev/ai-interviewer-phase4/screenshots/candidate-arabic.png": "bf5c1ea8dc2ee1671b34511960915344da1d94ac127bfec320e4ed84b3343928",
+      ".local-dev/ai-interviewer-phase4/screenshots/candidate-readiness.png": "c11a77629f8fc9af2490192bd5ecbf8f91db6929428b25fab0158265e3d8d862",
+      ".local-dev/ai-interviewer-phase4/screenshots/room-speaking.png": "410105b947e8cd9ced41f70a77c9e59ce656bcf54b2f1d0ebcecd6303bb1f358",
+      ".local-dev/ai-interviewer-phase4/screenshots/room-listening.png": "3bb9e415f90b49f5cb765f789a71b472263d6e4150a0c4d192e1a8fe587e4127",
+      ".local-dev/ai-interviewer-phase4/screenshots/timer-warning.png": "41f81d3cadac8a942cef1a22233450aca1e88be4c36d47fa25903f8f1023e406",
+      ".local-dev/ai-interviewer-phase4/screenshots/timer-grace.png": "666961e8f9772237ef7b873b467468f125194f53f227672c6a8206673049e77e",
+      ".local-dev/ai-interviewer-phase4/screenshots/refresh-q3.png": "4a76099b6540beccc1d1ae658bd238591caa2eb8bc190e69b340d445b3f79772",
+      ".local-dev/ai-interviewer-phase4/screenshots/room-paused.png": "a23adbf3062c2414b54d045a2669f580dcc2b8ea8654b096adfbaa64cafa42cd",
+      ".local-dev/ai-interviewer-phase4/screenshots/room-mobile.png": "3c0f1d5df74957d7d942f4ca9dad88775edee439fda099f22370301253def233",
+      ".local-dev/ai-interviewer-phase4/screenshots/room-arabic-mobile.png": "da5a9a0e7425e20215508823edd9b8754acbe49ee47066a937d02fa4cc70de89",
+      ".local-dev/ai-interviewer-phase4/screenshots/candidate-completion.png": "d0626248372a3d8f37ae77a2d5dd2f14a2eab6b2bdd856d31f8668fc225b58dd",
+      ".local-dev/ai-interviewer-phase4/screenshots/hr-completed.png": "84a6b0186cf517d8784db55b13d40cf7a1860f572b4b15922a8e460b4de68c38",
+      ".local-dev/ai-interviewer-phase4/screenshots/evaluation-pending.png": "af9fe8f9052e0d9722734860040f1026ccffd1b064791cd76aeba7e8dcbd399c",
+      ".local-dev/ai-interviewer-phase4/screenshots/evaluation-overview.png": "fd1e677164dc830358dbb14c35f196d709167404e68b00ba75e4bdade62f7625",
+      ".local-dev/ai-interviewer-phase4/screenshots/not-assessed.png": "4e9012b3ea8117e111a4dcd3573808f50c60aed3a7a8078fafe630187583f53c",
+      ".local-dev/ai-interviewer-phase4/screenshots/verified-evidence.png": "012196cd279b3fc9eac35b7bf61b307da1c2c8ed0a257247bcfd16effe7b55ba",
+      ".local-dev/ai-interviewer-phase4/screenshots/human-review-saved.png": "bfcf6b7fc39ac9d1bb014a22b6a1f06571b3193b092b993709e0790dba81d38d",
+      ".local-dev/ai-interviewer-phase4/screenshots/evaluation-failed.png": "37422af8bf0736aa8429dfb1956ad42814c0d59096eb4a99a5d9df70a5900f33",
+      ".local-dev/ai-interviewer-phase4/screenshots/invalid-evidence-rejected.png": "f2672dfd13e75ced682a86097c79ce28342022d78acbbeb775d64b0ba296fc4a",
+      ".local-dev/ai-interviewer-phase4/screenshots/arabic-mixed-evidence-mobile.png": "b540d4f7cd86c46b68a2aaede6cc59bca35b6d3429f97ddd1d3b361a6f6a1599"
+    },
+    "phase3BrowserEvidence": {
+      "path": ".local-dev/ai-interviewer-phase3/browser-results.json",
+      "sha256": "b90eb83daa1e90c39092e4c20b491dacd38a4bb57be7d658529cb20d84b439f0",
+      "passed": 44,
+      "failed": 0
+    },
+    "note": "The verification JSON excludes its own hash to avoid recursion. Runtime directories, dependencies, builds and unrelated editor files are excluded from the owned source inventory; production artifacts are hashed separately."
+  }
+}

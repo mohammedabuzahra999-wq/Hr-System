@@ -1,0 +1,50 @@
+PASS canonical TTS generated from frozen server text and delivered only by authenticated POST
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:27.051Z","event":"request_rejected","code":"STALE"}
+PASS same identity and competing identities coalesce before another provider call
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:27.552Z","event":"request_rejected","code":"STALE"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:27.564Z","event":"request_rejected","code":"INVALID"}
+PASS browser cannot complete before server audio duration or supply trusted receipts
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:27.844Z","event":"request_rejected","code":"STALE"}
+PASS server duration completion advances exactly once, duplicate start/end never replay
+PASS STOP pauses engine, fences old audio, and resume uses a fresh playback ID
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:28.296Z","event":"request_rejected","code":"INTERNAL"}
+PASS STOP during generation aborts logical request and late TTS cannot become READY
+PASS cancel-before-reservation tombstone fences delayed request
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:28.640Z","event":"request_rejected","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:28.647Z","event":"candidate_session_rejected","interviewId":"f29517f0-7694-4dd7-be31-5c66ddeacd0b","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:28.647Z","event":"request_rejected","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:28.648Z","event":"request_rejected","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:28.649Z","event":"request_rejected","code":"DENIED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:28.649Z","event":"request_rejected","code":"DENIED"}
+PASS wrong candidate, missing cookie, staff credential and invalid Origin are independently denied
+PASS wrong session/question/turn/generation fails before provider use or media delivery
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:29.015Z","event":"candidate_session_rejected","interviewId":"4672b3d8-2068-4edc-9a92-05f0af03aeaf","code":"EXPIRED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:29.177Z","event":"candidate_session_rejected","interviewId":"3ab15d17-d6d2-4f7f-9b16-4f645c021890","code":"REVOKED"}
+PASS expired and revoked sessions cannot fetch cached speech
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:29.344Z","event":"request_rejected","code":"INTERNAL"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:29.521Z","event":"request_rejected","code":"INTERNAL"}
+PASS generation rejects invalid WAV, MIME and size without raw provider errors
+PASS failure is retryable explicitly, stable failed request does not synthesize twice
+PASS timeout retains physical slot, retry fences old late settlement
+PASS refresh/new document cannot blindly replay active audio
+PASS lease expiry pauses without fabricated playback completion
+PASS only one document may start an active generation
+PASS stale expected version and replaced interview state fence generation completion
+PASS restart closes old pending/ready generations and cannot replay cache
+PASS shutdown cancels pending generation and late provider cannot publish
+PASS no audio, credentials or provider receipts escape candidate metadata or audit content
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:31.567Z","event":"provider_readiness_changed","state":"configured"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:31.573Z","event":"provider_readiness_changed","state":"ready"}
+PASS audio-v2 generation binding permits registered TTS without browser provider receipts
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:32.380Z","event":"provider_readiness_changed","state":"configured"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:32.380Z","event":"provider_readiness_changed","state":"ready"}
+PASS replacement trusted generation fences late TTS
+PASS failed SQL playback completion rolls back state and successful receipt
+[ai-interview-operations] {"atUtc":"2026-11-05T08:38:33.115Z","event":"request_rejected","code":"THROTTLED"}
+PASS physical admission remains bounded under simultaneous held generations
+PASS production configuration: default disabled
+PASS production configuration: enabled missing TTS
+PASS production configuration: selected TTS missing key
+PASS production configuration: synthetic provider cannot become production
+PASS real provider/model calls remain zero
+29/29 TTS delivery checks passed; external calls=0

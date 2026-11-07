@@ -1,0 +1,125 @@
+{
+  "phase": 2,
+  "status": "PASS",
+  "createdFiles": [
+    "docs/ai-interviewer/phase-2-verification.json",
+    "docs/ai-interviewer/phase-2.md",
+    "packages/contracts/src/aiInterviewPersistence.ts",
+    "services/hr-api/drizzle/0026_ai_interviewer.sql",
+    "services/hr-api/src/aiInterviewer/audit.ts",
+    "services/hr-api/src/aiInterviewer/authorization.ts",
+    "services/hr-api/src/aiInterviewer/evaluationInput.ts",
+    "services/hr-api/src/aiInterviewer/persistence.check.ts",
+    "services/hr-api/src/aiInterviewer/recovery.ts",
+    "services/hr-api/src/aiInterviewer/repository.ts",
+    "services/hr-api/src/aiInterviewer/routes.ts",
+    "services/hr-api/src/aiInterviewer/runtime.ts",
+    "services/hr-api/src/aiInterviewer/service.ts"
+  ],
+  "modifiedFiles": [
+    "packages/contracts/src/index.ts",
+    "services/hr-api/drizzle/meta/_journal.json",
+    "services/hr-api/package.json",
+    "services/hr-api/src/aiInterviewer/engine.ts",
+    "services/hr-api/src/db/schema.ts",
+    "services/hr-api/src/index.ts"
+  ],
+  "deletedFiles": [],
+  "migrationFiles": [
+    "services/hr-api/drizzle/0026_ai_interviewer.sql"
+  ],
+  "migrationAppliedToConfiguredDatabase": true,
+  "schemaDiff": {
+    "added": [
+      "ai_interview_evaluations",
+      "ai_interview_events",
+      "ai_interviews"
+    ],
+    "changed": [],
+    "publicTables": 40
+  },
+  "tests": {
+    "phase2PostgreSqlAndSecurity": {
+      "passed": 65,
+      "failed": 0,
+      "externalNetworkAttempts": 0
+    },
+    "phase1": {
+      "passed": 37,
+      "failed": 0,
+      "networkAttempts": 0
+    },
+    "mcpAuthorization": {
+      "passed": 18,
+      "failed": 0
+    },
+    "voice": "PASS",
+    "localVoice": "PASS",
+    "scorecard": "PASS",
+    "permissions": "PASS",
+    "writtenInterviewRoutes": "PASS",
+    "workspaceTypechecks": "PASS",
+    "existingWebLintWarnings": 2
+  },
+  "commands": [
+    "npm.cmd run check:ai-interviewer:persistence -w @hr/server",
+    "npm.cmd run check:ai-interviewer -w @hr/server",
+    "npm.cmd run demo:ai-interviewer -w @hr/server",
+    "npm.cmd run check",
+    "npm.cmd run check:voice -w @hr/server",
+    "npm.cmd run check:voice:local -w @hr/server",
+    "npm.cmd run check:scorecard -w @hr/server",
+    "npm.cmd run check:permissions -w @hr/server",
+    "node --conditions=development --import tsx src/mcp/authorization.security.check.ts",
+    "npm.cmd run db:migrate -w @hr/server"
+  ],
+  "testEnvironment": {
+    "databaseUrlVariable": "AI_INTERVIEW_TEST_DATABASE_URL",
+    "allowedDatabaseHost": "loopback only",
+    "databaseCleanup": "unique disposable database dropped after each run",
+    "legacyParents": "synthetic fixture columns; unused vector/enums nullable text; new migration tested verbatim",
+    "localVoiceConfiguration": "synthetic process-only DATABASE_URL and SESSION_SECRET, no live DB",
+    "portablePostgres": {
+      "version": "18.6",
+      "source": "https://get.enterprisedb.com/postgresql/postgresql-18.6-5-windows-x64-binaries.zip",
+      "sha256": "e2246ba91d22345bc3d017586c09ede52d9df180b1eeb480f050445f1cad84e2",
+      "downloadedOutsideTests": true
+    }
+  },
+  "confirmations": {
+    "externalAiCalls": 0,
+    "openAiIntegration": false,
+    "webRtcIntegration": false,
+    "webSocketServer": false,
+    "rawAudioPersistence": false,
+    "plaintextInvitePersistence": false,
+    "candidateUsesHrSession": false,
+    "candidateCopilotAccess": false,
+    "candidateMcpAccess": false,
+    "automaticHiringDecision": false,
+    "dependencyChanges": [],
+    "existingWrittenInterviewBehaviorUnchanged": true,
+    "existingVoiceBehaviorUnchanged": true,
+    "trainingBenchmarkModelSelectionAssetsUnchanged": true
+  },
+  "artifactSha256": {
+    "docs/ai-interviewer/phase-2.md": "057bcf7d9f50cbea95c7e778b02a420888e13b51f9604ee45dc0c5f77a4162db",
+    "packages/contracts/src/aiInterviewPersistence.ts": "dc3c2b5d40ec771972b85a17e3b4ef161c9d8111ca2877a21c57bdf581cba96b",
+    "services/hr-api/drizzle/0026_ai_interviewer.sql": "f7f11f23554e2eb4d19270121a1ab360c5febab4614ea831ffffa0a267824b6d",
+    "services/hr-api/src/aiInterviewer/audit.ts": "42a1fa90e8735405e6b0aa9a9b7bb12faadfc18a7f37c9889c99a321bcc3a670",
+    "services/hr-api/src/aiInterviewer/authorization.ts": "c1624163c3a7ff8a635168feb8b8b9434b3d356a7ebb91536739999da597d5f4",
+    "services/hr-api/src/aiInterviewer/evaluationInput.ts": "3155ac832279c8141edd8fda91f75cc1d47ab7b459979c0c7c17d44f35f7c2d8",
+    "services/hr-api/src/aiInterviewer/persistence.check.ts": "f3079c691589b6e2864603e89564182b32c8ae5e76d550d2666fad89d3f25ad8",
+    "services/hr-api/src/aiInterviewer/recovery.ts": "66fcb6d16b7321266e63e95778592e2cc208802edc991ad1ba3e6a0373c161ae",
+    "services/hr-api/src/aiInterviewer/repository.ts": "6b7b873ff50645b5ccd55c266aacc34183dd59fef209ebb5b310559751fe1ae9",
+    "services/hr-api/src/aiInterviewer/routes.ts": "a3c4e4e984fcd9b7a555a313d627f0a481e9ffd4ac1a97d71a0bdf618a4f4575",
+    "services/hr-api/src/aiInterviewer/runtime.ts": "aea9193fa1169b6fc412d814c8a9eb528ee47e72f521b0145e7e517e8b1ad519",
+    "services/hr-api/src/aiInterviewer/service.ts": "175646b8d77eef95cb6575a6efd9ae9f549c8d0f3c6fae04f12bd72063c166ef",
+    "packages/contracts/src/index.ts": "cadca06af9a67c67a0b71182c37ceaeb2e825267ad15103d94792e89fecc9782",
+    "services/hr-api/drizzle/meta/_journal.json": "e497feb8ce1f0671ffef322d6a4774e51eb5a91e83398f79b7cc46f88ca5f9ad",
+    "services/hr-api/package.json": "582475b877fa889741dcf530d56dfebcfab9789860f2d0fcd402deb66ab607ba",
+    "services/hr-api/src/aiInterviewer/engine.ts": "67b94834253833cce270927eebf978cedeb90c206e6b1948a26b739d9cb35e88",
+    "services/hr-api/src/db/schema.ts": "da5b8609a57db09cba99bf48ab3b0cfa96aa982850788cf2576afb7805e20b41",
+    "services/hr-api/src/index.ts": "96b87a171729df70dc10c581cdd4839caddfc2da6479bed0f4ed37ae37624ce4"
+  }
+}

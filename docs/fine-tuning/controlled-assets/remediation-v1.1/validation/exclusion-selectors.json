@@ -1,0 +1,24 @@
+{
+  "version": "CEB-R-remediation-selectors-v1",
+  "created": "2026-10-25T07:48:00.617Z",
+  "authority": "User Phase 1C.4R: identify and replace only the three previously rejected candidate records",
+  "runtimeSha256": "342503dd6c810136d8b5ede8dea96005e593a2ee623f849640fcfd357bb826de",
+  "frozenSha256": "b6a6a9f74e76edcf783ad3a2f47f2fa493ac0444e2ca8bf239439229e14a2b05",
+  "selectors": [
+    {
+      "candidateRecordId": "CEB-R-ACTION-003-ar-MSA",
+      "candidateRowSha256": "7fa2f75ff0c5ca69fb368b5270636145a287a331a7e4feed5dfdd3091fc496da"
+    },
+    {
+      "candidateRecordId": "CEB-R-ACTION-008-mixed",
+      "candidateRowSha256": "9f95722bcf36098ed2d13adde51ffd67831ef1bda19f6ed3b7faadf564458d23"
+    },
+    {
+      "candidateRecordId": "CEB-R-ACTION-012-en",
+      "candidateRowSha256": "92598dc12ba92895586210a734783f7e1743bafef5e0392271aecd16bb51807d"
+    }
+  ],
+  "disclosure": "Candidate handles only; no F text, gold, protected ID, similarity score or rewrite guidance",
+  "frozenCasesExecuted": 0,
+  "modelCalls": 0
+}

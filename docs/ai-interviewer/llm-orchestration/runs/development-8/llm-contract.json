@@ -1,0 +1,13 @@
+{
+  "id": "llm-contract",
+  "protection": "LLM registry/SDK/schema/configuration/security",
+  "command": "npm.cmd run check:ai-interviewer:llm:contract -w @hr/server",
+  "startedAt": "2026-11-05T11:29:28.745Z",
+  "finishedAt": "2026-11-05T11:29:30.129Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "llm-contract.log",
+  "passLines": 24
+}

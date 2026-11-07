@@ -1,0 +1,169 @@
+{
+  "created": [
+    {
+      "path": "services/hr-api/scripts/checkInterviewSecrets.mjs",
+      "bytes": 1924,
+      "sha256": "6a3f4e7a5ffc315bcb13434762084225b522b26980aa467758c0978bd8740199"
+    },
+    {
+      "path": "services/hr-api/src/abuseBudget.ts",
+      "bytes": 1623,
+      "sha256": "95fe3392a0360190efb89cfb63fda4c0ec171370f94a82e1ded7fc671249fe6c"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/deployment.ts",
+      "bytes": 1652,
+      "sha256": "3856eff998e5c795a09daec4d97fb2d8fdd483a931a85cb8ac94f1a4a49050d4"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/health.ts",
+      "bytes": 3507,
+      "sha256": "d5c5dbe1cdb00e58857393c1d7d9c22728bbf09c5fdb21accc7675622621cc81"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/operations.check.ts",
+      "bytes": 17839,
+      "sha256": "5be59cb8c20932c1fcce23d9e24805142553230a4391be5ff2b28cbf69630b02"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/operations.persistence.check.ts",
+      "bytes": 33209,
+      "sha256": "7fc297ef5acdcc0f5da0935ad7a29e20a9a7b28d82afc1022938f3278b88ca7a"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/operations.ts",
+      "bytes": 2259,
+      "sha256": "6960a2b5e447c13dc27e26eb11d1aba61a14e37acedbd9e38039fb6e8b5aa355"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/securityHeaders.ts",
+      "bytes": 900,
+      "sha256": "01d73adf261f9c55cdc176955e7d777bf1b32617a4241556efe2db1659c7e3a5"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/shutdown.ts",
+      "bytes": 1440,
+      "sha256": "dede9255e3034a0d22225a867a0825b803a9ee4cb175a662cb8b96536e309753"
+    },
+    {
+      "path": "services/hr-api/src/clientIdentity.ts",
+      "bytes": 2204,
+      "sha256": "84fad6f26d724b7f583d820e6e752f274a59589d57efe6bfbf73337656455036"
+    }
+  ],
+  "modified": [
+    {
+      "path": "render.yaml",
+      "bytes": 1522,
+      "sha256": "a3b022ae3e57170d25399de73391ba27c1d44cd2aff8030016b63ce74e0b9df2",
+      "beforeSHA256": "c3427c0007e92ce9619942bb9690bd5aa8b3dd03e332a2a82872b2b70da68fcb"
+    },
+    {
+      "path": "services/hr-api/package.json",
+      "bytes": 6284,
+      "sha256": "b7fbc1b3a109cc0c58c8734458c09f6264da657fa7b1651b062709f2adae2558",
+      "beforeSHA256": "1cd994013da7d5aa33fe7278ff0d3af095f7b474ab3dec14a60feaa50ef0c29b"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/audit.ts",
+      "bytes": 1456,
+      "sha256": "7224ca5f9d4a23fcf6b02ab80f201a6cb5e05d1faf2294319f3f26a911627085",
+      "beforeSHA256": "a7ef113b219fc6e53365acc979eb7356bb30d6664eadafb953716e29697ea1a7"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/authorization.ts",
+      "bytes": 2657,
+      "sha256": "7eecbf8fdb382f49225c92a961fee4dea3b64ff2452ca781345c9531337353f9",
+      "beforeSHA256": "c1624163c3a7ff8a635168feb8b8b9434b3d356a7ebb91536739999da597d5f4"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/delivery.ts",
+      "bytes": 12438,
+      "sha256": "d98735bfd12ed66366ddc3312b9c0979006b477e46b7eff0307f854b002ffa7b",
+      "beforeSHA256": "5c2bc4fe5fd4e85a87a095dc9d4efb1221268aea69f89706188b15264b22372e"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/reportService.ts",
+      "bytes": 21815,
+      "sha256": "8652ffce7d13801cd4109bbf2b04cfa03e084fa57060cf5909357b668439851f",
+      "beforeSHA256": "d9f9882bdac43073f3f45b9bc6c44544ff36e7bd6205248318aec21b053e96bd"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/repository.ts",
+      "bytes": 2442,
+      "sha256": "9cd1db67765568129886d264d72e274e058f8838d87affe4ef5f61ff6354f449",
+      "beforeSHA256": "6b7b873ff50645b5ccd55c266aacc34183dd59fef209ebb5b310559751fe1ae9"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/routes.ts",
+      "bytes": 11117,
+      "sha256": "9cec6d6bd8dc33fd04978473070b5b0bf6e50d7b7310a01d5cd2f8c4fac2daa9",
+      "beforeSHA256": "4abe6a15fa1f05eef42dd6541b20ec5dc2c2b3bcb3c4fc16d8f5bafda5df9cfb"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/runtime.ts",
+      "bytes": 6326,
+      "sha256": "7677b8f810e4184e2a324e46b71fa4fbf28063e2c8ecaa702c93fd91a97d3c30",
+      "beforeSHA256": "b6a188a54ad79cb28bef3b1c94984a5e2288174b9dfdb9c96d6e3e2dc2801193"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/service.ts",
+      "bytes": 43390,
+      "sha256": "60691cbb61ab9775b78191c84368e8b74a776b5102ab2083c3738391a4bc6bc5",
+      "beforeSHA256": "b9b385e3ffbc855a9d8c66eabd93cfabedc2adf04b715ac70ab6fe5f721e51f5"
+    },
+    {
+      "path": "services/hr-api/src/db/client.ts",
+      "bytes": 1775,
+      "sha256": "c770dd319881d57111bfc6854f83993f0924980f88ce199985401174a166a068",
+      "beforeSHA256": "8f49661d378bd427ffe7b6c7bdf095fa6d0807536cad96cb2374e3ae96ec8cd6"
+    },
+    {
+      "path": "services/hr-api/src/env.ts",
+      "bytes": 7155,
+      "sha256": "ab2ab1effb31a854bf17fd9f0bf3fc027bd20777ad9ba14e750e0c2a8241bf90",
+      "beforeSHA256": "2caece1233e6699684e3501f204c2ed7a24ad0770992b5d7baae4ede487ba7bc"
+    },
+    {
+      "path": "services/hr-api/src/index.ts",
+      "bytes": 10490,
+      "sha256": "63d4b0b1b997d402eb13a1ba21a9c2fd7c2f86d725a0e8ff7762dcfea07026f5",
+      "beforeSHA256": "978495b7dc3dca7c89186cf1ba81c144c0b9aea1d8502166575fd90c379f0321"
+    },
+    {
+      "path": "services/hr-api/src/rateLimit.ts",
+      "bytes": 4941,
+      "sha256": "19e816ae66fdd8c4aa71d810f0dfd50eea3e96896d8ba6cbd8f5c3d06b3d742b",
+      "beforeSHA256": "dc03b427a5796417b91c5f0894b49cfec780075700a01e102570ee259d0781aa"
+    }
+  ],
+  "deleted": [],
+  "purposes": {
+    "render.yaml": "Explicit direct identity, disabled provider, one-owner and production mock-off deployment defaults.",
+    "services/hr-api/package.json": "Add isolated operations/operations-DB checks, no dependency changes.",
+    "services/hr-api/scripts/checkInterviewSecrets.mjs": "Frontend source/build secret-indicator and synthetic-canary scan; values never printed.",
+    "services/hr-api/src/abuseBudget.ts": "Bounded process-local fixed-window kernel with conservative overflow.",
+    "services/hr-api/src/clientIdentity.ts": "Strict socket identity and explicit trusted-proxy/right-to-left XFF policy.",
+    "services/hr-api/src/rateLimit.ts": "Use validated identity policy and bounded storage; verified-user scope; preserve existing API.",
+    "services/hr-api/src/env.ts": "Fail-closed production origin/proxy/provider/mock/test/runtime/frontend-secret validation.",
+    "services/hr-api/src/index.ts": "Scoped headers/log/error handling, health endpoints, admission drain and awaited shutdown.",
+    "services/hr-api/src/db/client.ts": "Sanitize idle DB error logs.",
+    "services/hr-api/src/aiInterviewer/deployment.ts": "Pure startup policy validation, independent of provider credentials.",
+    "services/hr-api/src/aiInterviewer/operations.ts": "Closed bounded diagnostics and internal provider admission budgets.",
+    "services/hr-api/src/aiInterviewer/securityHeaders.ts": "Sensitive API/HTML cache, referrer, MIME and frame protections.",
+    "services/hr-api/src/aiInterviewer/health.ts": "Bounded single-query DB probe and safe liveness/runtime/provider/release readiness.",
+    "services/hr-api/src/aiInterviewer/shutdown.ts": "Idempotent draining coordinator with finite grace and unsuccessful timeout outcome.",
+    "services/hr-api/src/aiInterviewer/audit.ts": "Session/invite/lifecycle/reevaluation audit vocabulary and actor sources.",
+    "services/hr-api/src/aiInterviewer/authorization.ts": "Safe session-rejection operational diagnostics; authority unchanged.",
+    "services/hr-api/src/aiInterviewer/service.ts": "Transactional audit completeness, provider admission and safe trusted CLOSE path.",
+    "services/hr-api/src/aiInterviewer/reportService.ts": "Read access/reevaluation audit plus owner-wide evaluation task drain/quiesce.",
+    "services/hr-api/src/aiInterviewer/repository.ts": "Allow explicit safe provider-throttle 429 service errors.",
+    "services/hr-api/src/aiInterviewer/routes.ts": "Staff/readiness quotas, response headers, cookie-option guard and generic candidate scope errors.",
+    "services/hr-api/src/aiInterviewer/delivery.ts": "Provider readiness/rejection diagnostics, bounded health admission, unhealthy/recheck semantics and budget-safe shutdown.",
+    "services/hr-api/src/aiInterviewer/runtime.ts": "Recent-pass health and full owner drain; existing timer/domain rules retained.",
+    "services/hr-api/src/aiInterviewer/operations.check.ts": "41 proxy/configuration/health/headers/secret/shutdown checks including native proxy and OS children.",
+    "services/hr-api/src/aiInterviewer/operations.persistence.check.ts": "26 real disposable-PostgreSQL abuse/audit/auth/shutdown/restart checks."
+  },
+  "unexpected": [],
+  "expectedButUnchanged": []
+}

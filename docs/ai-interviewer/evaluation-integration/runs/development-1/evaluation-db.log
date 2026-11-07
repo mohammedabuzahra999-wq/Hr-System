@@ -1,0 +1,16 @@
+C:\Users\PC-LAB\Downloads\hr-app-step2\node_modules\pg-pool\index.js:45
+    Error.captureStackTrace(err)
+          ^
+
+Error: connect ECONNREFUSED 127.0.0.1:55442
+    at C:\Users\PC-LAB\Downloads\hr-app-step2\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async <anonymous> (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\evaluationIntegration.check.ts:33:3) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 55442
+}
+
+Node.js v24.15.0

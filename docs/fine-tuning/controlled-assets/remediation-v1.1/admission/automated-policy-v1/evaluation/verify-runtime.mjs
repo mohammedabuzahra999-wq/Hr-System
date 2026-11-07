@@ -1,0 +1,30 @@
+// No S case, frozen case, model or HR service is executed. Static R projection and separate canaries only.
+import fs from 'node:fs'
+import path from 'node:path'
+import assert from 'node:assert/strict'
+import {fileURLToPath} from 'node:url'
+import {loadAdmittedRuntime,assertAdmission} from './controlled-loader.mjs'
+import {createResolverCapsule} from './resolver-capsule.mjs'
+const BASE=path.dirname(path.dirname(fileURLToPath(import.meta.url))),ASSETS=path.resolve(BASE,'../..'),ROOT=path.resolve(BASE,'../../../../../..'),results=[]
+const check=async(name,fn)=>{await fn();results.push({name,status:'PASS'})},code=c=>e=>e.code===c
+const lock=JSON.parse(fs.readFileSync(path.join(BASE,'evaluation/target-lock.json'),'utf8')),decision=JSON.parse(fs.readFileSync(path.join(BASE,'admission-decision.json'),'utf8'))
+await check('approved-automated-policy-needs-no-human-signoff',()=>assert.doesNotThrow(()=>assertAdmission(decision,lock)))
+await check('wrong-policy-rejected',()=>assert.throws(()=>assertAdmission({...decision,policy:'WRONG'},lock),code('AUTOMATED_POLICY_REQUIRED')))
+await check('wrong-runtime-hash-rejected',()=>assert.throws(()=>assertAdmission({...decision,assets:{...decision.assets,runtime:{...decision.assets.runtime,sha256:'0'.repeat(64)}}},lock),code('INVALID_AUTOMATED_ADMISSION')))
+await check('missing-automated-gate-rejected',()=>assert.throws(()=>assertAdmission({...decision,gates:{...decision.gates,schema:'FAIL'}},lock),code('AUTOMATED_GATE_NOT_PASS')))
+await check('no-false-human-validation-claim',()=>{assert.equal(decision.humanReviewPerformed,false);assert.equal(decision.humanReviewRequired,false)})
+for(const p of ['server/.env','server/src/copilot/training.ts','server/src/copilot/data/hr_agent_intents_10000.jsonl','server/dist/server/src/copilot/data/hr_agent_intents_10000.jsonl','docs/fine-tuning/benchmark/pre-finetuning-benchmark-v1.jsonl','server/src/db/client.ts','server/src/mcp/server.ts','server/src/knowledge/service.ts'])await check('native-denied:'+p,()=>{const f=path.join(ROOT,p);assert.equal(process.permission.has('fs.read',f),false);assert.throws(()=>fs.readFileSync(f),code('ERR_ACCESS_DENIED'))})
+await check('selection-never-readable-as-runtime',()=>{const p=path.join(ASSETS,'model-selection-v1.1.jsonl');assert.equal(process.permission.has('fs.read',p),false);assert.throws(()=>fs.readFileSync(p),code('ERR_ACCESS_DENIED'))})
+for(const p of ['runtime-reference-v1.1.jsonl','model-selection-v1.1.jsonl'])await check('original-write-denied:'+p,()=>assert.equal(process.permission.has('fs.write',path.join(ASSETS,p)),false))
+const projection=await loadAdmittedRuntime()
+await check('real-admitted-runtime-loads-all-320-modern-references',()=>{assert.equal(projection.entryCount,320);assert.equal(projection.identity.admitted,true);assert.equal(projection.identity.humanReviewPerformed,false);assert.equal(projection.coverage().intents.length,32);assert.equal(projection.coverage().actions.length,48)})
+const capsule=await createResolverCapsule(projection)
+for(const role of ['employee','manager','hr','admin'])await check('separate-deterministic-canary:'+role,async()=>{const r=await capsule.resolveQuestion('Please fetch my attendance summary this month.',role);assert.equal(r.ok,true);assert.equal(r.plan.intent,'myAttendance');assert.equal(r.routingSource,'deterministic')})
+await check('unresolved-canary-does-not-call-model',async()=>{const r=await capsule.resolveQuestion('CEB_AMENDED_POLICY_UNRESOLVED_CANARY','employee');assert.equal(r.ok,false);assert.equal(r.reason,'aiNotConfigured');assert.equal(capsule.trace.modelCalls,0)})
+await check('caller-cannot-forge-an-admitted-projection',()=>assert.rejects(createResolverCapsule({}),code('UNADMITTED_PROJECTION_DENIED')))
+await check('caught-legacy-reference-stays-fatal',async()=>{const c=await createResolverCapsule(projection);try{c.probeReference('file:///test/%68r_agent_intents_10000.jsonl')}catch{}assert.throws(()=>c.assertHealthy(),code('STICKY_ISOLATION_FAILURE'));await assert.rejects(c.resolveQuestion('CEB_CANARY','employee'),code('STICKY_ISOLATION_FAILURE'))})
+for(const p of ['node:fs','server/src/db/client.ts','server/src/mcp/server.ts','server/src/knowledge/service.ts','server/src/ai/ollama.ts'])await check('unmapped-module-fails-closed:'+p,async()=>{const c=await createResolverCapsule(projection);assert.throws(()=>c.probeModule(p),code('MODULE_IMPORT_DENIED'));assert.throws(()=>c.assertHealthy(),code('STICKY_ISOLATION_FAILURE'))})
+await check('network-blocked-before-transport',()=>assert.rejects(fetch('https://example.invalid/offline-probe'),code('OFFLINE_NETWORK_DENIED')))
+await check('no-legacy-loader-or-bytes-in-real-runtime-module-graph',()=>{assert.equal(capsule.trace.legacyBytesRead,0);assert.equal(Object.keys(capsule.trace.loadedSourceHashes).some(p=>/training\.ts|hr_agent_intents_10000/.test(p)),false);assert.equal(capsule.trace.admittedRuntimeLoaded,true);capsule.assertHealthy()})
+const report={version:'CEB-AUTO-ADMISSION-1-runtime-exclusion',created:new Date().toISOString(),status:'PASS',checks:results.length,results,runtimeSha256:projection.identity.assetSha256,referenceCount:projection.entryCount,modernIntentCoverage:32,modernActionCoverage:48,legacy10KExclusion:'VERIFIED_FOR_AUTOMATED_ISOLATED_PROFILE',failClosedExclusion:'PASS',trace:capsule.trace,humanReviewPerformed:false,selectionCasesExecuted:0,frozenCasesExecuted:0,modelCalls:0,hrActionsExecuted:0,productionAccess:false,fineTuningStarted:false,profileLimits:'Provider/services disabled; retained source-language example arrays excluded. This is not a model-selection run or production-equivalent end-to-end service test.'}
+fs.writeFileSync(path.join(BASE,'evaluation/runtime-exclusion-results.json'),JSON.stringify(report,null,2)+'\n',{flag:'wx'});console.log(JSON.stringify({status:'PASS',checks:report.checks,runtimeReferences:320,intents:32,actions:48,legacy10KExclusion:report.legacy10KExclusion,failClosed:'PASS',selectionCasesExecuted:0,modelCalls:0,humanReviewPerformed:false}))

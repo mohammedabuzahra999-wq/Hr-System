@@ -1,0 +1,168 @@
+{
+  "acceptedSourceSHA256": "55f7d754e37e38b185095b6b5410c0d59bf82fc576567cb3c48203aabfeacf14",
+  "created": [
+    {
+      "path": "packages/contracts/src/aiInterviewLlm.ts",
+      "bytes": 895,
+      "sha256": "426e55069e04c5ddc8636ff709699a24cba69fda32680c86f133cb872f20104b"
+    },
+    {
+      "path": "services/hr-api/scripts/checkLlmOrchestrationBrowser.mjs",
+      "bytes": 22078,
+      "sha256": "5f0ad126e5f6ffd87ea2d9b7bf27ab8bd53d29fb02cc31332fa15fbb8bed8319"
+    },
+    {
+      "path": "services/hr-api/scripts/checkLlmOrchestrationBrowserCases.mjs",
+      "bytes": 6154,
+      "sha256": "1ec885b035854daa1da4ad248bf1ebdd411b485a8ec1f40581953339f6d125d9"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/llmConfiguration.ts",
+      "bytes": 1678,
+      "sha256": "7e89ad3cb69e47fa3107fc58d57da42dd89ab7ffd99eb46f70c813a063bf47dd"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/llmContracts.ts",
+      "bytes": 3268,
+      "sha256": "5449a952a6af88611c6c3da26357158b13eb1b2680695de02ac8494bd71c1cbc"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/llmOrchestration.check.ts",
+      "bytes": 27096,
+      "sha256": "1d5ee556aed503855d37c628f2daf7565715342948d90b519c04f4ebfcc85e14"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/llmOrchestrator.ts",
+      "bytes": 4898,
+      "sha256": "f68040e9197d8ad5af0a85d5725c1136f3aeea4f58f878196234834d7fece868"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/llmProviders.check.ts",
+      "bytes": 8480,
+      "sha256": "81520a7a7431154d234f934df5861b1b57e1863c6e25cb999f72af59227f178e"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/llmProviders.ts",
+      "bytes": 4435,
+      "sha256": "e30080fc10c7471065f96519c1784ec96228d690563a20ab4f7f43cc538bc3e8"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/llmRuntime.ts",
+      "bytes": 205,
+      "sha256": "9ae7f2b505bdb49fdccd36ac6d5d335d4459588a1f03c6b1d9663ed457c4f880"
+    }
+  ],
+  "modified": [
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/MockControls.tsx",
+      "bytes": 7806,
+      "sha256": "29036d270ed1904723557fcb0d4202b2e07a294a31bb2ee2c12cf2f69baec770",
+      "beforeSHA256": "d7c94f5a14760e03430ba16bd99b856674c341f9ec84d65d670af5ff80d72c44"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/client.ts",
+      "bytes": 5728,
+      "sha256": "210db5aa7ddd5753ef54e2f4b5f973b1879dd59c8aa78642ffec8622ddde117d",
+      "beforeSHA256": "59c173bf2de0ee838b10590ee6f5583bbd7ac171403d3e528cd0f7e089eca710"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/session.ts",
+      "bytes": 9276,
+      "sha256": "731db141d067e5fbcde892871a4978b7aef029b245d130b0115eb70f1f8e2645",
+      "beforeSHA256": "03f869d92c8c1108d40dfcb3209fef9c9633a3f27587be67775b18307573667b"
+    },
+    {
+      "path": "apps/hr-web/src/pages/AiInterviewPage.tsx",
+      "bytes": 22276,
+      "sha256": "c2249bd71efa87dee711e58a64059e7a9521b35d00986b16ffdac9aba91e7c19",
+      "beforeSHA256": "12b07744ad91792ff8c160f3fc6d65917c56e28fde6c0e5225f995440121ff02"
+    },
+    {
+      "path": "packages/contracts/src/aiInterview.ts",
+      "bytes": 14051,
+      "sha256": "c03571191b6ddadf2f3240ab001e1a21eda343824afef99d21568397c231eb01",
+      "beforeSHA256": "feeaf6410d134af002c6135d6487d36ed52587972e50f01544d642d2513df0e7"
+    },
+    {
+      "path": "packages/contracts/src/index.ts",
+      "bytes": 1439,
+      "sha256": "df9d350c4377f4b918619dd31b96d6d49ab0641fde44a9cb221f33baaaa47383",
+      "beforeSHA256": "ec6337359d81fe4b9affcb6bdb2a090c4051e5e043f113b25d1fe975d44000f2"
+    },
+    {
+      "path": "services/hr-api/package.json",
+      "bytes": 7393,
+      "sha256": "910abd45a065b799e9dba07b8a52f54195e425a847eafc8d78001e71f1bbfcfb",
+      "beforeSHA256": "41e04d082cbd41dc6091b75055a7b33d70892570b1bff51cfc29dc63e82eee82"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/engine.ts",
+      "bytes": 21420,
+      "sha256": "e4b52dba0c7d1efbc1fcc6f4b487f689f4818467f7a8f288cce43876183bad1a",
+      "beforeSHA256": "f18fde9cf8f06e7917789f63134923ba3e7b06dd451a764fd5073562b9f74b54"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/routes.ts",
+      "bytes": 15788,
+      "sha256": "f2d832482c0d453aa9f1df55daa8f989c7ff227346dd8c908f009af897dff5f0",
+      "beforeSHA256": "980d727de7b898716fc945dc502b883a817a943ccee8aeeda2f7b3096a290cef"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/runtime.ts",
+      "bytes": 6491,
+      "sha256": "58eaa9bbaa7ba6f1d261f64d5a475e6fd3d327611cb4cb61732935c3470950b3",
+      "beforeSHA256": "7677b8f810e4184e2a324e46b71fa4fbf28063e2c8ecaa702c93fd91a97d3c30"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/service.ts",
+      "bytes": 90878,
+      "sha256": "2973c8bcbba0d527458421accb89f86099d57572e46194b57121005611fbb3f3",
+      "beforeSHA256": "17b72d3ec8f7d0e2a521c2512c0dec9562bcf1849ce179554141dfd737bc5932"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/ui.fixture.ts",
+      "bytes": 23594,
+      "sha256": "274c225d025e3f69ef616abdb694e126b3ac937ac4cba3dc54f4bdf297ab7209",
+      "beforeSHA256": "e389af44fcf4966f81fc69cff656c442223e860aa8cde4bd285c862d2c2780c0"
+    },
+    {
+      "path": "services/hr-api/src/env.ts",
+      "bytes": 8406,
+      "sha256": "40732218722253bfd94f10791564fe5902b42994240b1004089227fe66931789",
+      "beforeSHA256": "0d2ebbd3a0633a3c5eea066358fbbd31c4799247d104281d35545aab95872798"
+    },
+    {
+      "path": "services/hr-api/src/index.ts",
+      "bytes": 11577,
+      "sha256": "74063b3ecdeca5b0559e76c5d9734dd7fd0574afbf58d4e0c06238dce8e99bbb",
+      "beforeSHA256": "c693e8dd06cc180cb3b372784c2868ca58cab2b290342730b7f4af908d13e4eb"
+    }
+  ],
+  "deleted": [],
+  "purposes": {
+    "packages/contracts/src/aiInterviewLlm.ts": "Strict question-text proposal and allowed decision contracts.",
+    "packages/contracts/src/aiInterview.ts": "Engine-only draft-text revision command/event, excluded from candidate authority.",
+    "packages/contracts/src/index.ts": "Export pure model contracts.",
+    "services/hr-api/src/aiInterviewer/llmConfiguration.ts": "Default-off, dedicated server configuration and immutable nonsecret provider profile.",
+    "services/hr-api/src/aiInterviewer/llmContracts.ts": "Bounded provider context, durable job schema and quarantined text validation.",
+    "services/hr-api/src/aiInterviewer/llmProviders.ts": "Deterministic synthetic adapter and pinned OpenAI structured SDK adapter with safe errors and no tools.",
+    "services/hr-api/src/aiInterviewer/llmRuntime.ts": "One server-owned provider registration without I/O.",
+    "services/hr-api/src/aiInterviewer/llmOrchestrator.ts": "Independent bounded asynchronous discovery, retries, cancellation, admission and late-result fences.",
+    "services/hr-api/src/aiInterviewer/llmProviders.check.ts": "24 injected SDK/configuration/size/schema/prompt-boundary checks.",
+    "services/hr-api/src/aiInterviewer/llmOrchestration.check.ts": "26 real PostgreSQL/HTTP/engine/approval/recovery/security/timer checks.",
+    "services/hr-api/src/aiInterviewer/service.ts": "Existing SQL receipts/events for durable mode and attempts, HR approval, exact policy validation and atomic decision commit.",
+    "services/hr-api/src/aiInterviewer/engine.ts": "Only CREATED question text can change; order/criteria/IDs/timing/caps remain engine-owned.",
+    "services/hr-api/src/aiInterviewer/runtime.ts": "Model-enabled processing leaves the timer loop; legacy mock processing remains intact.",
+    "services/hr-api/src/aiInterviewer/routes.ts": "Authorized generation/review/control APIs and minimal candidate status.",
+    "services/hr-api/src/aiInterviewer/ui.fixture.ts": "Explicit test-only synthetic model scenarios and counts.",
+    "services/hr-api/src/env.ts": "Validate dedicated LLM configuration without values printed.",
+    "services/hr-api/src/index.ts": "Register and start/drain independent model dispatcher.",
+    "services/hr-api/package.json": "Three new verification commands, no dependency change.",
+    "services/hr-api/scripts/checkLlmOrchestrationBrowser.mjs": "Derived unchanged authenticated setup plus synthetic LLM browser acceptance.",
+    "services/hr-api/scripts/checkLlmOrchestrationBrowserCases.mjs": "24 total setup/model/answer/recovery/pause/RBAC browser assertions.",
+    "apps/hr-web/src/features/aiInterviewer/client.ts": "Minimal candidate orchestration status client, no model config or credentials.",
+    "apps/hr-web/src/features/aiInterviewer/session.ts": "Model status/retry/recovery cache while authoritative answers stay committed.",
+    "apps/hr-web/src/features/aiInterviewer/MockControls.tsx": "Disable direct mock PROCESS only for model-enabled rooms.",
+    "apps/hr-web/src/pages/AiInterviewPage.tsx": "Truthful committed-answer/model-processing/recovery messages."
+  }
+}

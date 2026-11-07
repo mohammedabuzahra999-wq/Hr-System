@@ -1,0 +1,76 @@
+Browser setup: local fixture ready
+Browser setup: development frontend ready
+Browser setup: production preview ready
+Browser setup: isolated Chrome ready
+PASS 01 HR login and recruitment AI controls use the existing employee workflow
+PASS 02 HR configures explicit plan/timers and adds a third question
+PASS 03 Create goes through the real Phase 2 transaction
+PASS 04 HR freezes READY and operational UI displays no token hash
+PASS 05 Invitation is copied once and cleared from the HR panel
+PASS 06 Revocation is visible and the revoked browser invitation fails safely
+PASS 07 Invalid invitation shows a safe standalone error
+PASS 08 Expired invitation is rejected in the browser
+PASS 09 Valid candidate exchange removes token from URL and browser storage
+PASS 10 Backend refuses start before persisted consent
+PASS 11 Consent persists across a browser refresh
+PASS 12 Arabic RTL, English LTR and Mixed confirmation remain independent
+PASS 13 Mock readiness requests no real microphone
+PASS 14 Interview starts with AI_SPEAKING and the current question
+PASS 15 registered synthetic model is explicitly enabled without microphone or key
+PASS 16 answer commit is durable before held asynchronous decision
+PASS 17 release selects only approved follow-up through the server engine
+PASS 18 clarification uses frozen wording and the authoritative 30-second timer
+PASS 19 injected authority output fails closed while committed answer remains recoverable
+BROWSER CHECK FAILED: authorized HR retries within durable budget without submitting another answer: Authoritative target question did not become ready
+Browser HR diagnostic: {
+  path: '/hr/recruitment',
+  text: 'WORKSPACE\n' +
+    '\n' +
+    'HR Demo\n' +
+    '\n' +
+    'HR\n' +
+    '\n' +
+    'MenaChat\n' +
+    'HR Center\n' +
+    'Attention centre\n' +
+    'Employees\n' +
+    'Attendance\n' +
+    'Leaves\n' +
+    'Payroll\n' +
+    'Reports\n' +
+    'Recruitment\n' +
+    'Job descriptions\n' +
+    'Knowledge base\n' +
+    'Assistant questions\n' +
+    'Announcements\n' +
+    '\n' +
+    'More modules coming soon\n' +
+    '\n' +
+    'Sign out\n' +
+    '\n' +
+    'HR SUITE\n' +
+    '\n' +
+    'Recruitment\n' +
+    'العربية\n' +
+    '\n' +
+    'HR Demo\n' +
+    '\n' +
+    'HR · hr.interview@example.invalid\n' +
+    '\n' +
+    'HD\n' +
+    'Sign out\n' +
+    '\n' +
+    'HR\n' +
+    '\n' +
+    'Recruitment\n' +
+    '\n' +
+    'Open roles, the people who applied, and their CVs.\n' +
+    '\n' +
+    'New role\n' +
+    'Open roles\n' +
+    '\n' +
+    '1\n' +
+    '\n'
+}
+
+19/20 LLM orchestration browser checks passed; evidence=.local-dev/ai-interviewer-phase3/browser-results.json

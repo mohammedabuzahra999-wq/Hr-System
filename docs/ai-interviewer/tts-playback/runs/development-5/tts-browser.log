@@ -1,0 +1,34 @@
+Browser setup: local fixture ready
+Browser setup: development frontend ready
+Browser setup: production preview ready
+Browser setup: isolated Chrome ready
+PASS 01 HR login and recruitment AI controls use the existing employee workflow
+PASS 02 HR configures explicit plan/timers and adds a third question
+PASS 03 Create goes through the real Phase 2 transaction
+PASS 04 HR freezes READY and operational UI displays no token hash
+PASS 05 Invitation is copied once and cleared from the HR panel
+PASS 06 Revocation is visible and the revoked browser invitation fails safely
+PASS 07 Invalid invitation shows a safe standalone error
+PASS 08 Expired invitation is rejected in the browser
+PASS 09 Valid candidate exchange removes token from URL and browser storage
+PASS 10 Backend refuses start before persisted consent
+PASS 11 Consent persists across a browser refresh
+PASS 12 Arabic RTL, English LTR and Mixed confirmation remain independent
+PASS 13 Mock readiness requests no real microphone
+PASS 14 TTS is opt-in and does not request microphone or autoplay
+PASS 15 Synthetic server TTS is READY without starting the interview answer timer
+PASS 16 READY refresh reuses generation without TTS regeneration or autoplay
+PASS 17 Native HTMLAudio plays the intro and server duration advances to a new question
+PASS 18 STOP interrupts native playback, pauses state and prevents question timer start
+PASS 19 Stopped or stale generation cannot deliver audio again
+PASS 20 STOP during generation cancels unknown response identity and fences late TTS
+PASS 21 Provider failure is explicit and retry prepares only on request
+PASS 22 Autoplay restriction stops lease and explains explicit recovery
+PASS 23 TTS timeout shows ERROR and late settlement cannot publish old audio
+PASS 24 Refresh while PLAYING stops uncertain delivery instead of automatic replay
+PASS 25 Disconnect during playback releases audio and expires server lease safely
+PASS 26 Reconnect/resume uses fresh question audio and authoritative listening timer
+PASS 27 Unauthenticated browser cannot fetch candidate audio or claim playback
+PASS 28 Playback does not persist audio or secrets and makes zero provider/model calls
+
+28/28 TTS playback browser checks passed; evidence=.local-dev/ai-interviewer-phase3/browser-results.json

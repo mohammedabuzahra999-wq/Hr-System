@@ -1,0 +1,35 @@
+{
+  "version": "CEB-1C4H-final-integrity-v1",
+  "verifiedAt": "2026-10-25T08:36:12.569Z",
+  "protectedFiles": 468,
+  "protectedFilesChanged": 0,
+  "assetHashes": {
+    "runtime-v1.1": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736",
+    "selection-v1.1": "09cd5561686fd77d24f78a9f6036947425d9fc7973652b8b808c9ea907da5986",
+    "frozen404": "b6a6a9f74e76edcf783ad3a2f47f2fa493ac0444e2ca8bf239439229e14a2b05",
+    "historical10K": "1fc3665f36b2b1814fdebe248ce46709a5dbdc7058d728620adc0ebf9b3fdb9b",
+    "pendingRegister": "6248a1a611832eaf249039898eeda78a4a9131915d568293dad26557e0ec7999"
+  },
+  "syntaxChecks": 11,
+  "syntaxStatus": "PASS",
+  "sourceFilesPinned": 13,
+  "sourcePinStatus": "PASS",
+  "localUrl": "http://localhost:5194",
+  "recordsAvailable": {
+    "runtime": 320,
+    "selection": 160
+  },
+  "reviewed": 0,
+  "profilePresent": false,
+  "actualReviewEventFiles": 0,
+  "externalCalls": 0,
+  "modelCalls": 0,
+  "productionAccess": false,
+  "humanDecisionsFabricated": false,
+  "humanReviewCompleted": false,
+  "visualBrowserVerification": false,
+  "toolStatus": "PASS_WITH_LIMITATIONS",
+  "frozenCasesExecuted": 0,
+  "fineTuningStarted": false,
+  "gitAbsent": true
+}

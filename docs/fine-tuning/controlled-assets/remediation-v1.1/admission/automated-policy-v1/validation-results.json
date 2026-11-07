@@ -1,0 +1,464 @@
+{
+  "version": "CEB-AUTO-ADMISSION-1-validation",
+  "policySha256": "0c37d07b5c1932f2bf192c167b8b04009c2cc4be50b6be22810c6e7899f90550",
+  "humanReviewPerformed": false,
+  "linguisticLimitation": "No independent human linguistic review; automated checks do not establish perfect naturalness or semantic independence",
+  "created": "2026-10-25T09:03:55.189Z",
+  "validatorSha256": "d4b3e0e36f939df55baa1f937fcc55549702302765726055e1df37ca926691ee",
+  "coreSha256": "7dd0dcb6add3dd413af9e586ded3e2e668e0d91a0686a764fe075e3f906de444",
+  "thresholds": "Unchanged Phase 1C.3 / original validator-v2: exact, normalized, entity-mask; >5-token 3-shingle Jaccard>=.80, short character Dice>=.90, Unicode edit>=.90; no embedding/model calls",
+  "runtime": {
+    "sha256": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736",
+    "quality": {
+      "status": "PASS",
+      "rows": 320,
+      "uniqueExact": 320,
+      "uniqueNormalized": 320,
+      "duplicates": 0,
+      "languages": {
+        "en": 80,
+        "ar-MSA": 80,
+        "ar-JO": 80,
+        "mixed": 80
+      },
+      "roles": {
+        "employee": 80,
+        "hr": 200,
+        "manager": 32,
+        "admin": 8
+      },
+      "families": 80,
+      "coreQuestionRows": 128,
+      "actionReferenceRows": 192,
+      "challengeRows": 0,
+      "coreIntentCount": 32,
+      "coreIntents": [
+        "attendanceRanking",
+        "departmentAbsenceComparison",
+        "departmentBreakdown",
+        "doAction",
+        "employeeFile",
+        "generateReport",
+        "greeting",
+        "headcount",
+        "howDoI",
+        "knowledge",
+        "listApplications",
+        "myAttendance",
+        "myLeaveBalance",
+        "myPayslips",
+        "myReport",
+        "myRequests",
+        "openJobOpenings",
+        "orgAttendance",
+        "orgLeaveSummary",
+        "outOfScope",
+        "payrollAuditSummary",
+        "payrollFindings",
+        "payrollInsights",
+        "payrollReadiness",
+        "payrollRunSummary",
+        "recruitmentSummary",
+        "teamAttendance",
+        "teamOnLeave",
+        "teamPendingApprovals",
+        "teamPresentNow",
+        "teamRoster",
+        "whoIsPresentNow"
+      ],
+      "actionCount": 48,
+      "actions": [
+        "addCalendarEvent",
+        "addEmployee",
+        "addKnowledgeText",
+        "analyseApplication",
+        "approveJobDescription",
+        "approvePayroll",
+        "approvePayrollAdjustment",
+        "auditPayroll",
+        "cancelRequest",
+        "changeEmployeeRole",
+        "checkIn",
+        "checkOut",
+        "closeOpening",
+        "createJob",
+        "createOpeningFromJobDescription",
+        "createPayrollAdjustment",
+        "decideRequest",
+        "deleteAnnouncement",
+        "deleteCalendarEvent",
+        "deleteJobDescription",
+        "deleteKnowledgeText",
+        "deleteOpening",
+        "evaluateInterview",
+        "filterScreen",
+        "generateInterview",
+        "generateJobDescription",
+        "markAllNotificationsRead",
+        "moveApplication",
+        "openEmployeeFile",
+        "openScreen",
+        "postAnnouncement",
+        "publishOpening",
+        "regenerateJobDescriptionSection",
+        "remindCheckout",
+        "requestDocument",
+        "requestLeave",
+        "resetPassword",
+        "reviewInterviewQuestion",
+        "reviewPayrollFinding",
+        "runPayroll",
+        "scrollPage",
+        "sendInterview",
+        "setLanguage",
+        "setSalary",
+        "signOut",
+        "updateAnnouncement",
+        "updateEmployeeDetails",
+        "updateJobOpening"
+      ],
+      "schemaSemanticValidations": 640,
+      "actionSchemaValidations": 384,
+      "wireQuestionPlans": 320,
+      "failures": [],
+      "capabilityReview": "Existing typed schema/semantic and role gates checked only; no service/proposal/confirmation execution. Independent bilingual/capability review pending.",
+      "modelEligibility": "NOT_ASSESSED_NO_ROUTER_EXECUTED"
+    },
+    "envelope": {
+      "status": "PASS",
+      "rows": 320,
+      "valid": 320,
+      "errors": []
+    },
+    "extra": {
+      "status": "PASS",
+      "rows": 320,
+      "failures": [],
+      "scope": "Deterministic permission/scope/confirmation and stated-placeholder consistency; no employee lookup, service execution or linguistic judgment"
+    },
+    "recipe": {
+      "status": "PASS",
+      "checkedRows": 320,
+      "changedRowsAgainstParent": 3,
+      "expectedReleaseSha256": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736",
+      "method": "Read-only line-by-line comparison with the already frozen edit recipe; generator not invoked, no JSONL output created",
+      "newAssetFilesWritten": 0
+    },
+    "privacy": {
+      "status": "PASS_STATIC_WITH_REVIEW_LIMITATIONS",
+      "flaggedRowsByCategory": {
+        "email": 0,
+        "employeeIdentifier": 0,
+        "nationalPassport": 0,
+        "phone": 0,
+        "ibanBank": 0,
+        "address": 0,
+        "medical": 0,
+        "disciplinary": 0,
+        "factualRecord": 0,
+        "apiKey": 0,
+        "bearerJWT": 0,
+        "passwordPrivateKey": 0,
+        "databaseConnection": 0,
+        "urlOrInternalHost": 0,
+        "opaqueToken": 0
+      },
+      "untypedConcreteIdentitySlots": 0,
+      "declaredSyntheticRenderingRows": 20,
+      "credentialOperationTopicRows": 4,
+      "realFactsDetected": 0,
+      "scope": "Fixed synthetic referenceDate validated separately; every row/field is structurally checked; all input/expected/wire strings scanned. Typed metadata IDs/hashes and declared synthetic dates/instruction amounts are validated exceptions, not copied real values.",
+      "names": "Only indexed placeholders are permitted in identity fields; static checks do not certify independent bilingual semantic review",
+      "independentReview": "NOT_PERFORMED_OPTIONAL_UNDER_AMENDMENT"
+    },
+    "metadataPrivacy": {
+      "status": "PASS",
+      "flaggedRowsByCategory": {
+        "email": 0,
+        "employeeIdentifier": 0,
+        "nationalPassport": 0,
+        "phone": 0,
+        "ibanBank": 0,
+        "address": 0,
+        "medical": 0,
+        "disciplinary": 0,
+        "factualRecord": 0,
+        "apiKey": 0,
+        "bearerJWT": 0,
+        "passwordPrivateKey": 0,
+        "databaseConnection": 0,
+        "urlOrInternalHost": 0,
+        "opaqueToken": 0
+      }
+    },
+    "secrets": {
+      "status": "PASS"
+    },
+    "rolesByLanguage": {
+      "en": {
+        "employee": 20,
+        "manager": 8,
+        "hr": 50,
+        "admin": 2
+      },
+      "ar-MSA": {
+        "employee": 20,
+        "manager": 8,
+        "hr": 50,
+        "admin": 2
+      },
+      "ar-JO": {
+        "employee": 20,
+        "manager": 8,
+        "hr": 50,
+        "admin": 2
+      },
+      "mixed": {
+        "employee": 20,
+        "manager": 8,
+        "hr": 50,
+        "admin": 2
+      }
+    },
+    "changedRows": 3,
+    "unchangedRows": 317,
+    "independentReview": "OPTIONAL_NOT_PERFORMED",
+    "admission": "PENDING_AUTOMATED_ADMISSION_DECISION",
+    "contamination": {
+      "frozen404": {
+        "candidateRows": 320,
+        "referenceUniqueTexts": 404,
+        "exactCandidateRows": 0,
+        "normalizedCandidateRows": 0,
+        "entityMaskedExactCandidateRows": 0,
+        "strongNearCandidateRows": 0,
+        "flaggedCandidateRows": 0
+      },
+      "historical10K": {
+        "candidateRows": 320,
+        "referenceUniqueTexts": 3440,
+        "exactCandidateRows": 0,
+        "normalizedCandidateRows": 0,
+        "entityMaskedExactCandidateRows": 0,
+        "strongNearCandidateRows": 0,
+        "flaggedCandidateRows": 0
+      }
+    },
+    "automatedGatesPass": true,
+    "admissionReasons": []
+  },
+  "selection": {
+    "sha256": "09cd5561686fd77d24f78a9f6036947425d9fc7973652b8b808c9ea907da5986",
+    "quality": {
+      "status": "PASS",
+      "rows": 160,
+      "uniqueExact": 160,
+      "uniqueNormalized": 160,
+      "duplicates": 0,
+      "languages": {
+        "en": 40,
+        "ar-MSA": 40,
+        "ar-JO": 40,
+        "mixed": 40
+      },
+      "roles": {
+        "manager": 40,
+        "admin": 40,
+        "hr": 40,
+        "employee": 40
+      },
+      "families": 40,
+      "coreQuestionRows": 128,
+      "actionReferenceRows": 0,
+      "challengeRows": 32,
+      "coreIntentCount": 32,
+      "coreIntents": [
+        "attendanceRanking",
+        "departmentAbsenceComparison",
+        "departmentBreakdown",
+        "doAction",
+        "employeeFile",
+        "generateReport",
+        "greeting",
+        "headcount",
+        "howDoI",
+        "knowledge",
+        "listApplications",
+        "myAttendance",
+        "myLeaveBalance",
+        "myPayslips",
+        "myReport",
+        "myRequests",
+        "openJobOpenings",
+        "orgAttendance",
+        "orgLeaveSummary",
+        "outOfScope",
+        "payrollAuditSummary",
+        "payrollFindings",
+        "payrollInsights",
+        "payrollReadiness",
+        "payrollRunSummary",
+        "recruitmentSummary",
+        "teamAttendance",
+        "teamOnLeave",
+        "teamPendingApprovals",
+        "teamPresentNow",
+        "teamRoster",
+        "whoIsPresentNow"
+      ],
+      "actionCount": 0,
+      "actions": [],
+      "schemaSemanticValidations": 272,
+      "actionSchemaValidations": 0,
+      "wireQuestionPlans": 136,
+      "failures": [],
+      "capabilityReview": "Existing typed schema/semantic and role gates checked only; no service/proposal/confirmation execution. Independent bilingual/capability review pending.",
+      "modelEligibility": "NOT_ASSESSED_NO_ROUTER_EXECUTED"
+    },
+    "envelope": {
+      "status": "PASS",
+      "rows": 160,
+      "valid": 160,
+      "errors": []
+    },
+    "extra": {
+      "status": "PASS",
+      "rows": 160,
+      "failures": [],
+      "scope": "Deterministic permission/scope/confirmation and stated-placeholder consistency; no employee lookup, service execution or linguistic judgment"
+    },
+    "recipe": {
+      "status": "PASS",
+      "checkedRows": 160,
+      "changedRowsAgainstParent": 72,
+      "expectedReleaseSha256": "09cd5561686fd77d24f78a9f6036947425d9fc7973652b8b808c9ea907da5986",
+      "method": "Read-only line-by-line comparison with the already frozen edit recipe; generator not invoked, no JSONL output created",
+      "newAssetFilesWritten": 0
+    },
+    "privacy": {
+      "status": "PASS_STATIC_WITH_REVIEW_LIMITATIONS",
+      "flaggedRowsByCategory": {
+        "email": 0,
+        "employeeIdentifier": 0,
+        "nationalPassport": 0,
+        "phone": 0,
+        "ibanBank": 0,
+        "address": 0,
+        "medical": 0,
+        "disciplinary": 0,
+        "factualRecord": 0,
+        "apiKey": 0,
+        "bearerJWT": 0,
+        "passwordPrivateKey": 0,
+        "databaseConnection": 0,
+        "urlOrInternalHost": 0,
+        "opaqueToken": 0
+      },
+      "untypedConcreteIdentitySlots": 0,
+      "declaredSyntheticRenderingRows": 0,
+      "credentialOperationTopicRows": 0,
+      "realFactsDetected": 0,
+      "scope": "Fixed synthetic referenceDate validated separately; every row/field is structurally checked; all input/expected/wire strings scanned. Typed metadata IDs/hashes and declared synthetic dates/instruction amounts are validated exceptions, not copied real values.",
+      "names": "Only indexed placeholders are permitted in identity fields; static checks do not certify independent bilingual semantic review",
+      "independentReview": "NOT_PERFORMED_OPTIONAL_UNDER_AMENDMENT"
+    },
+    "metadataPrivacy": {
+      "status": "PASS",
+      "flaggedRowsByCategory": {
+        "email": 0,
+        "employeeIdentifier": 0,
+        "nationalPassport": 0,
+        "phone": 0,
+        "ibanBank": 0,
+        "address": 0,
+        "medical": 0,
+        "disciplinary": 0,
+        "factualRecord": 0,
+        "apiKey": 0,
+        "bearerJWT": 0,
+        "passwordPrivateKey": 0,
+        "databaseConnection": 0,
+        "urlOrInternalHost": 0,
+        "opaqueToken": 0
+      }
+    },
+    "secrets": {
+      "status": "PASS"
+    },
+    "rolesByLanguage": {
+      "en": {
+        "employee": 10,
+        "manager": 10,
+        "hr": 10,
+        "admin": 10
+      },
+      "ar-MSA": {
+        "employee": 10,
+        "manager": 10,
+        "hr": 10,
+        "admin": 10
+      },
+      "ar-JO": {
+        "employee": 10,
+        "manager": 10,
+        "hr": 10,
+        "admin": 10
+      },
+      "mixed": {
+        "employee": 10,
+        "manager": 10,
+        "hr": 10,
+        "admin": 10
+      }
+    },
+    "changedRows": 72,
+    "unchangedRows": 88,
+    "independentReview": "OPTIONAL_NOT_PERFORMED",
+    "admission": "PENDING_AUTOMATED_ADMISSION_DECISION",
+    "contamination": {
+      "frozen404": {
+        "candidateRows": 160,
+        "referenceUniqueTexts": 404,
+        "exactCandidateRows": 0,
+        "normalizedCandidateRows": 0,
+        "entityMaskedExactCandidateRows": 0,
+        "strongNearCandidateRows": 0,
+        "flaggedCandidateRows": 0
+      },
+      "historical10K": {
+        "candidateRows": 160,
+        "referenceUniqueTexts": 3440,
+        "exactCandidateRows": 0,
+        "normalizedCandidateRows": 0,
+        "entityMaskedExactCandidateRows": 0,
+        "strongNearCandidateRows": 0,
+        "flaggedCandidateRows": 0
+      },
+      "runtimeReference": {
+        "candidateRows": 160,
+        "referenceUniqueTexts": 340,
+        "exactCandidateRows": 0,
+        "normalizedCandidateRows": 0,
+        "entityMaskedExactCandidateRows": 0,
+        "strongNearCandidateRows": 0,
+        "flaggedCandidateRows": 0
+      }
+    },
+    "automatedGatesPass": true,
+    "admissionReasons": []
+  },
+  "protectedIntegrity": {
+    "frozen404": "b6a6a9f74e76edcf783ad3a2f47f2fa493ac0444e2ca8bf239439229e14a2b05",
+    "historical10K": "1fc3665f36b2b1814fdebe248ce46709a5dbdc7058d728620adc0ebf9b3fdb9b",
+    "generationInputsMatch": true
+  },
+  "independentReview": "OPTIONAL_NOT_PERFORMED",
+  "publicAdmission": false,
+  "productionDataUsed": false,
+  "productionAccess": false,
+  "cloudModelCalls": 0,
+  "ollamaModelCalls": 0,
+  "frozenCasesExecuted": 0,
+  "fineTuningStarted": false,
+  "protectedContentDisclosed": false
+}

@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "checks": 58,
+  "syntheticSdkRequests": 31,
+  "externalAttempts": 0,
+  "realProviderCalls": 0,
+  "matrix": [
+    {
+      "scenario": "timeouts and late settlement",
+      "physicalLimit": 2,
+      "timeoutMs": 20,
+      "lateSuccessAccepted": false
+    },
+    {
+      "scenario": "default disabled",
+      "exitCode": 0,
+      "credentialsPrinted": false
+    },
+    {
+      "scenario": "selected with missing dedicated key",
+      "exitCode": 1,
+      "credentialsPrinted": false
+    },
+    {
+      "scenario": "selected with missing model",
+      "exitCode": 1,
+      "credentialsPrinted": false
+    },
+    {
+      "scenario": "selected TTS missing voice",
+      "exitCode": 1,
+      "credentialsPrinted": false
+    },
+    {
+      "scenario": "invalid speech timeout",
+      "exitCode": 1,
+      "credentialsPrinted": false
+    },
+    {
+      "scenario": "synthetic selector denied",
+      "exitCode": 1,
+      "credentialsPrinted": false
+    },
+    {
+      "scenario": "complete provider registration remains not live-ready",
+      "exitCode": 0,
+      "credentialsPrinted": false
+    }
+  ]
+}

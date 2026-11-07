@@ -1,0 +1,8 @@
+{
+  "suite": "llm-db",
+  "socketConnectionsAllowed": 5,
+  "fetchCallsAllowed": 0,
+  "blockedExternalAttempts": 0,
+  "suppressedFixtureWrites": 0,
+  "suppressedScreenshots": 0
+}

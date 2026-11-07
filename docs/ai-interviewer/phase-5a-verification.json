@@ -1,0 +1,306 @@
+{
+  "phase": "5A",
+  "status": "PHASE 5A READY FOR IMPLEMENTATION",
+  "recordedAt": "2026-11-01T12:54:04.333Z",
+  "scope": "Read-only readiness analysis plus two documentation artifacts. No Phase 5B implementation or live activation.",
+  "report": "docs/ai-interviewer/phase-5a.md",
+  "createdFiles": [
+    "docs/ai-interviewer/phase-5a.md",
+    "docs/ai-interviewer/phase-5a-verification.json"
+  ],
+  "modifiedFiles": [],
+  "deletedFiles": [],
+  "productionFilesCreated": [],
+  "schemaChanges": [],
+  "migrationChanges": [],
+  "dependencyChanges": [],
+  "readinessInterpretation": "Ready to begin the explicitly gated Phase 5B implementation plan. Playback/turn protocol and security gates must pass before any live candidate activation. This is not live-production approval.",
+  "requestedOutputs": [
+    {
+      "number": 1,
+      "title": "Existing architecture discovered"
+    },
+    {
+      "number": 2,
+      "title": "Exact inspected files and important anchors"
+    },
+    {
+      "number": 3,
+      "title": "Reuse classification"
+    },
+    {
+      "number": 4,
+      "title": "Current WebRTC flow"
+    },
+    {
+      "number": 5,
+      "title": "Current credential flow and proposed choice"
+    },
+    {
+      "number": 6,
+      "title": "Candidate security design"
+    },
+    {
+      "number": 7,
+      "title": "Proposed RealRealtimeProvider"
+    },
+    {
+      "number": 8,
+      "title": "Proposed InterviewMediaTransport"
+    },
+    {
+      "number": 9,
+      "title": "Event mapping"
+    },
+    {
+      "number": 10,
+      "title": "Timer and playback completion"
+    },
+    {
+      "number": 11,
+      "title": "Interruption"
+    },
+    {
+      "number": 12,
+      "title": "Transcript and turn protocol"
+    },
+    {
+      "number": 13,
+      "title": "Reconnect and refresh recovery"
+    },
+    {
+      "number": 14,
+      "title": "Arabic, English and mixed findings"
+    },
+    {
+      "number": 15,
+      "title": "Failure-mode matrix"
+    },
+    {
+      "number": 16,
+      "title": "Latency measurement plan"
+    },
+    {
+      "number": 17,
+      "title": "Exact Phase 5B file plan — proposed only"
+    },
+    {
+      "number": 18,
+      "title": "Phase 5B test plan and acceptance gates"
+    },
+    {
+      "number": 19,
+      "title": "Risks and blockers"
+    },
+    {
+      "number": 20,
+      "title": "Recommended implementation order and stop"
+    }
+  ],
+  "requestedOutputsCovered": 20,
+  "findings": [
+    "Employee Voice routes require employee auth and call Copilot; candidate must use interview-scoped endpoints and the existing candidate cookie.",
+    "Reuse/extract peer, track, channel, cleanup and SDK primitives; do not mount employee hook/routes on candidate pages or create a second independent WebRTC stack.",
+    "Employee response.done is generation completion, not the interview's playback-finished gate. Provider output drain plus verified supported sink semantics require a 5B-0 spike.",
+    "Ephemeral secrets can create more than one session until expiry and configuration can be overridden; choose unified server-created call identity and trusted sideband for initial interview design.",
+    "Dictation script-dominance filtering exists separately; Realtime uses UI language hints and echo heuristics. Candidate mixed mode must not inherit those rejection/normalization policies.",
+    "Existing 700ms provider VAD and engine speech/finalization semantics require an explicit tested turn mapping; no unreviewed aggregation or engine semantic change.",
+    "Real mode needs durable connection-generation, item/turn and response/playback fencing, effect dispatch and media-liveness-aware recovery.",
+    "Keep MockRealtimeProvider, MockEvaluator and Phase 4 frozen-input/evidence/review path unchanged; no real model or automatic hiring."
+  ],
+  "sdkInspection": {
+    "installedOpenAiVersion": "7.20.0",
+    "nativeRealtimeEntryPoint": "openai/realtime/websocket",
+    "callIdConfigurationSupportedInInstalledTypes": true,
+    "optionalWsInstalled": false,
+    "nodeWsEntrypointNotChosen": "openai/realtime/ws requires optional ws",
+    "networkCompatibilityTested": false,
+    "note": "Package source/types inspected only; no SDK client instantiated or provider contacted."
+  },
+  "proposedPhase5BCreatedFiles": [
+    "packages/contracts/src/aiInterviewRealtime.ts",
+    "apps/hr-web/src/features/voice/webrtcTransport.ts",
+    "apps/hr-web/src/features/voice/playbackObserver.ts",
+    "apps/hr-web/src/features/aiInterviewer/media/InterviewMediaTransport.ts",
+    "apps/hr-web/src/features/aiInterviewer/media/RealInterviewControls.tsx",
+    "services/hr-api/src/voice/realtimeTransport.ts",
+    "services/hr-api/src/aiInterviewer/realtime/config.ts",
+    "services/hr-api/src/aiInterviewer/realtime/routes.ts",
+    "services/hr-api/src/aiInterviewer/realtime/RealRealtimeProvider.ts",
+    "services/hr-api/src/aiInterviewer/realtime/ingress.ts",
+    "services/hr-api/src/aiInterviewer/realtime/mediaLease.ts",
+    "services/hr-api/src/aiInterviewer/realtime/realtime.check.ts",
+    "services/hr-api/scripts/checkAiInterviewRealtimeBrowser.mjs",
+    "docs/ai-interviewer/phase-5b.md",
+    "docs/ai-interviewer/phase-5b-verification.json"
+  ],
+  "proposedPhase5BModifiedFiles": [
+    "apps/hr-web/src/features/copilot/useVoiceCopilot.ts",
+    "services/hr-api/src/voice/realtime.ts",
+    "packages/contracts/src/index.ts",
+    "packages/contracts/src/aiInterviewPersistence.ts",
+    "packages/contracts/src/aiInterviewUi.ts",
+    "apps/hr-web/src/features/aiInterviewer/client.ts",
+    "apps/hr-web/src/features/aiInterviewer/session.ts",
+    "apps/hr-web/src/features/aiInterviewer/useInterviewSession.ts",
+    "apps/hr-web/src/pages/AiInterviewPage.tsx",
+    "services/hr-api/src/aiInterviewer/routes.ts",
+    "services/hr-api/src/aiInterviewer/service.ts",
+    "services/hr-api/src/aiInterviewer/runtime.ts",
+    "services/hr-api/src/aiInterviewer/audit.ts",
+    "services/hr-api/src/env.ts",
+    "services/hr-api/.env.example",
+    "apps/hr-web/.env.example",
+    "services/hr-api/package.json",
+    "services/hr-api/src/index.ts",
+    "services/hr-api/scripts/checkAiInterviewBrowser.mjs",
+    "services/hr-api/scripts/checkAiInterviewUi.mjs"
+  ],
+  "proposedPhase5BConditionalFiles": [
+    {
+      "path": "services/hr-api/src/aiInterviewer/repository.ts",
+      "condition": "Only if metadata/outbox operations cannot remain in the dedicated mediaLease module."
+    }
+  ],
+  "proposedCandidateEndpoints": [
+    "POST /api/ai-interview/realtime/connect",
+    "POST /api/ai-interview/realtime/feedback",
+    "POST /api/ai-interview/realtime/disconnect"
+  ],
+  "proposedPhase5BMigrations": [],
+  "proposedPhase5BDependencies": [],
+  "gates": [
+    "G0 protocol/playout/turn-boundary spike",
+    "G1 shared transport extraction without employee behavior changes",
+    "G2 candidate authorization and explicit configuration",
+    "G3 permanent-key and call-binding boundary",
+    "G4 normalized ingress, version/idempotency and outbox",
+    "G5 final-only transcript and timer/interruption semantics",
+    "G6 browser/restart/reconnect recovery",
+    "G7 Arabic/English/mixed evidence behavior",
+    "G8 complete Phase 1–4 and existing feature regression",
+    "G9 separately activated later live validation/latency capture"
+  ],
+  "baselineEvidence": {
+    "reference": "docs/ai-interviewer/phase-4-verification.json",
+    "testsRerunInPhase5A": false,
+    "recordedPriorPassCounts": {
+      "phase1": 37,
+      "phase2": 65,
+      "phase3Ui": 24,
+      "phase3Browser": 44,
+      "phase4Report": 76,
+      "phase4Browser": 58,
+      "mcpAuthorization": 18
+    },
+    "otherPriorResults": "Voice, Local Voice, written, permissions/scorecard, typechecks and production build PASS",
+    "note": "Prior accepted results, not new runtime verification claims in this documentation-only phase."
+  },
+  "phase5AVerification": {
+    "documentStructure": "PASS: all 20 numbered outputs, official source links, scope and stop condition checked",
+    "sourceProtection": "Every one of the 864 baseline tracked source/config/document files must retain its SHA256",
+    "baselineTrackedFiles": 864,
+    "expectedChangedBaselineFiles": 0,
+    "expectedDeletedBaselineFiles": 0,
+    "metadataOnlyReviewChecks": 11,
+    "runtimeTestsRun": false,
+    "browserOrMicrophoneTestsRun": false
+  },
+  "officialDocumentation": {
+    "skill": "openai-docs",
+    "sources": [
+      "https://developers.openai.com/api/docs/guides/voice-webrtc?voice-api=realtime",
+      "https://developers.openai.com/api/reference/resources/realtime/subresources/client_secrets/methods/create",
+      "https://developers.openai.com/api/docs/guides/voice-server-controls?api=realtime",
+      "https://developers.openai.com/api/reference/resources/realtime/server-events",
+      "https://developers.openai.com/api/reference/resources/realtime/client-events",
+      "https://developers.openai.com/api/docs/guides/realtime-conversations"
+    ],
+    "readOnlyDocumentationHttpRequests": true,
+    "providerApiCalls": 0,
+    "note": "Current Realtime sections fetched from official documentation; not GPT-Live migration advice. No claims of account access, live latency, microphone behavior or session availability tested."
+  },
+  "confirmations": {
+    "phase5BStarted": false,
+    "realProviderConnected": false,
+    "realApiKeyRequested": false,
+    "realApiKeyDisplayed": false,
+    "realApiKeyConfigured": false,
+    "realApiKeyUsed": false,
+    "realMicrophoneRequested": false,
+    "webRtcInterviewImplemented": false,
+    "mockRealtimeProviderReplaced": false,
+    "mockEvaluatorReplaced": false,
+    "phase1EngineSemanticsChanged": false,
+    "phase2SecuritySemanticsChanged": false,
+    "phase3MockFlowChanged": false,
+    "phase4EvidenceSemanticsChanged": false,
+    "writtenInterviewsChanged": false,
+    "copilotChanged": false,
+    "mcpChanged": false,
+    "fineTuningAssetsChanged": false,
+    "frozenBenchmarkChanged": false,
+    "migration0026Changed": false,
+    "databaseMutations": false,
+    "runtimeConfigurationChanged": false,
+    "existingLocalServicesRestarted": false
+  },
+  "sha256": {
+    "report": "441007adbf6f6fb8e20ea9f97772f837a2e7c8116762b5d0a7950f8fc8360cf6",
+    "inspectedSourceFiles": {
+      "apps/hr-web/src/features/copilot/useVoiceCopilot.ts": "a968f57128f78c5c0b2b706a94d1b4ec3c8c829c8551053454e6146376bbaa41",
+      "apps/hr-web/src/features/copilot/useVoiceProvider.ts": "a0021fb8e99447f8c5cb7a55a1354e74553864d0c676a0410b9ad20adb8e3427",
+      "apps/hr-web/src/features/copilot/PersistentVoiceCopilot.tsx": "9ad00c02e4fa35c150e6cb66dc8504ee3ab7a228cb0c065a9a318b92190a5b88",
+      "apps/hr-web/src/features/copilot/useVoiceDictation.ts": "1a2a317407a1a8c1c0c0330b7b4219b9e94d3268a802c1452adfd8607b2f2bd8",
+      "apps/hr-web/src/features/copilot/useLocalVoiceCopilot.ts": "40739988a9d4a6b0ec84f58e4a4e85d0bbeabf81ac4aa5904efac8efef5ecb5d",
+      "apps/hr-web/src/features/copilot/localVoiceAudio.ts": "9526df83aea515dc70f239b4fdb826aabca0b5640b9655deed73f4aca4dfb978",
+      "apps/hr-web/src/features/copilot/localVoiceVad.ts": "5cb26674dcd542b6868e8d5a122c89fec363651e08513baaea95f24ed8e50343",
+      "services/hr-api/src/routes/voice.ts": "234b8d7f9320cad496772b0b9ca2daf8d9100033b234d9254c41090659d2d66d",
+      "services/hr-api/src/voice/realtime.ts": "6fbf3ae3bc3c34f8ee0efab8f517a5b5b1855005bb6b469ebe54c4a03fd1d9b9",
+      "services/hr-api/src/voice/session.ts": "ed20171a9bc9c2ced908c57f12a9871d490bd7976c07d3729e9fbadec080c705",
+      "services/hr-api/src/voice/local.ts": "6198393a0a1fb974aac6f35a8d8ca3476be8341f4e7a9d56a938c2ac8b45a40e",
+      "services/hr-api/src/voice/localQueue.ts": "b2a2c9201c27ae1049e46c610f18d463d7d54250ef9afc0340e674ac0ed1b977",
+      "server/local-voice/worker.py": "0b37984279a618bdd9ef6a753cbf0ee08e98c83fee9b88ec86b0e51fe119c408",
+      "server/local-voice/stt_runtime.py": "4d1b72eb49440d791b7a0593d76fac734a8e84f1d08dcce9329dac10e702c7a5",
+      "packages/contracts/src/voice.ts": "3a5f9f26e2565b30c2ca791b50780feb94a982a921234495235c8f8c55fe995b",
+      "services/hr-api/src/env.ts": "2caece1233e6699684e3501f204c2ed7a24ad0770992b5d7baae4ede487ba7bc",
+      "packages/contracts/src/aiInterview.ts": "feeaf6410d134af002c6135d6487d36ed52587972e50f01544d642d2513df0e7",
+      "packages/contracts/src/aiInterviewPersistence.ts": "dc3c2b5d40ec771972b85a17e3b4ef161c9d8111ca2877a21c57bdf581cba96b",
+      "packages/contracts/src/aiInterviewUi.ts": "d7ca0fcdb010a79677c9ac60e97e708eec4fbe7c907b8bf33cfd270fbc1a99d2",
+      "packages/contracts/src/aiInterviewReport.ts": "35cc99acf419d8994c862c9044ef6ad525b4d6bb6d85550cbea9bfd3f0a8468a",
+      "services/hr-api/src/aiInterviewer/providers.ts": "656db929bddf40654cea19ffbf2af4b82dd5984e6033abccaee517567cd8b7b5",
+      "services/hr-api/src/aiInterviewer/harness.ts": "38bd1e3a502258d719361b1c71e88e65f059a7082567957dea206de8ead08a2a",
+      "services/hr-api/src/aiInterviewer/mockRuntime.ts": "5329650db927427135f7a54626f2c48aa573612707445410be78117d9c8f45ad",
+      "services/hr-api/src/aiInterviewer/engine.ts": "67b94834253833cce270927eebf978cedeb90c206e6b1948a26b739d9cb35e88",
+      "services/hr-api/src/aiInterviewer/service.ts": "da043bf78c3dd45d62691ee482408d75419ec0fe417a280f1671753e5ee081ca",
+      "services/hr-api/src/aiInterviewer/authorization.ts": "c1624163c3a7ff8a635168feb8b8b9434b3d356a7ebb91536739999da597d5f4",
+      "services/hr-api/src/aiInterviewer/repository.ts": "6b7b873ff50645b5ccd55c266aacc34183dd59fef209ebb5b310559751fe1ae9",
+      "services/hr-api/src/aiInterviewer/recovery.ts": "66fcb6d16b7321266e63e95778592e2cc208802edc991ad1ba3e6a0373c161ae",
+      "services/hr-api/src/aiInterviewer/runtime.ts": "b4f6d282e3919edbf5fb9cf2cab4301483d32eff54f38bfb5dabd2ba7a4584d9",
+      "services/hr-api/src/aiInterviewer/routes.ts": "9a011827c292785e62200fb10c9bf2ede5a68921667671ab62dfca49f87b5c9a",
+      "services/hr-api/src/aiInterviewer/interviewerPolicy.ts": "13ce1f145dbefb1a42a94eb1926831fad84b0edfc1a04b212ea6f25d4af39a4c",
+      "services/hr-api/src/aiInterviewer/evaluationInput.ts": "3155ac832279c8141edd8fda91f75cc1d47ab7b459979c0c7c17d44f35f7c2d8",
+      "services/hr-api/src/aiInterviewer/report.ts": "98b9a921f7174df8f04505eef71ca012af7fa50920247459d53e141ffd80fc1e",
+      "services/hr-api/src/aiInterviewer/reportService.ts": "524bc2de88669242efdad4b57de15478ea4d83a12b938aff994c8d04bd107c15",
+      "apps/hr-web/src/features/aiInterviewer/client.ts": "917e30603fa982b8859974ea059ca73a6b9bb5cd52c882477e7d48922f41ba64",
+      "apps/hr-web/src/features/aiInterviewer/session.ts": "2d3c6805b2096f718098375262be373ee7a99eb2adaf7fec7e45b6452ccf6028",
+      "apps/hr-web/src/features/aiInterviewer/useInterviewSession.ts": "c88c602c2447d198a29101e8a2ebb86b4548db554698a09034fc91e8de47a086",
+      "apps/hr-web/src/features/aiInterviewer/InterviewTimer.tsx": "4417601b7c7f5edbf5a10dbc2baa7aeac57f6a14f5c9c1b6c3eb53d93a8353b8",
+      "apps/hr-web/src/features/aiInterviewer/MockControls.tsx": "44788c514616011069050cac4d2a30eef843042dfd9b5a8ecd1a88eb02828f65",
+      "apps/hr-web/src/pages/AiInterviewPage.tsx": "7a91d67040c5912c73fe3a9faf1833e05adad1e299f17e8ed50a8a3a39472282",
+      "apps/hr-web/src/app/App.tsx": "c06cfc78c3a0d08ea31a470b5d42ab138fdb83c1380e6b0aacef52bb98d2dc57",
+      "services/hr-api/src/db/schema.ts": "d77d7bc2db236ce50e262f1ecc02384bcf47f84c8367a110ad7912d3a7ba04c4",
+      "services/hr-api/src/index.ts": "85ababc6b380ab24a6df2b6a2687c4351743c41e1d1b9a6601ccc08a0dd3a384",
+      "docs/ai-interviewer/phase-4.md": "3a2402c1c8daff86b8a04f280e93a556c3aaf54ee2e9a2f46fed75f3171faf77",
+      "docs/ai-interviewer/phase-4-verification.json": "fa342a19a0bca98a10f0e745cdddd974f1c71d95ac3af3d115495f61273b85b0"
+    },
+    "importantProtectionFiles": {
+      "services/hr-api/drizzle/0026_ai_interviewer.sql": "f7f11f23554e2eb4d19270121a1ab360c5febab4614ea831ffffa0a267824b6d",
+      "services/hr-api/drizzle/meta/_journal.json": "e497feb8ce1f0671ffef322d6a4774e51eb5a91e83398f79b7cc46f88ca5f9ad",
+      "package-lock.json": "b57232d6865f16a0a8361e62d0664e8fe71fc69cb52868fbfbdb46f99762ccf4",
+      "apps/hr-web/package-lock.json": "4763c79c19973a7e316ec3b2accfcc2abacec162c393a037c430587ef1e65ad2",
+      "services/hr-api/src/copilot/data/hr_agent_intents_10000.jsonl": "1fc3665f36b2b1814fdebe248ce46709a5dbdc7058d728620adc0ebf9b3fdb9b"
+    },
+    "note": "Verification JSON excludes its own hash. Runtime/dependency/build directories excluded from tracked-source inventory. No environment values are printed."
+  }
+}

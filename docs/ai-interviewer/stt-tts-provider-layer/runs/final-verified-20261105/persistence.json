@@ -1,0 +1,13 @@
+{
+  "id": "persistence",
+  "protection": "PostgreSQL/session/invite/RBAC/idempotency/recovery/rollback",
+  "command": "npm.cmd run check:ai-interviewer:persistence -w @hr/server",
+  "startedAt": "2026-11-05T06:53:43.641Z",
+  "finishedAt": "2026-11-05T06:53:55.388Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "persistence.log",
+  "passLines": 65
+}

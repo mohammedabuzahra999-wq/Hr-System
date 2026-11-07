@@ -1,0 +1,13 @@
+{
+  "id": "synthetic-e2e",
+  "protection": "Phase 5.6 combined authenticated API/synthetic audio/durable answer/follow-up/interruption/evaluation/report acceptance",
+  "command": "node --conditions=development --import tsx docs/ai-interviewer/phase-5.6/synthetic.check.ts",
+  "startedAt": "2026-11-05T12:39:54.282Z",
+  "finishedAt": "2026-11-05T12:40:01.867Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "synthetic-e2e.log",
+  "passLines": 27
+}

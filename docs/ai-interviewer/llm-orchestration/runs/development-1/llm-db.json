@@ -1,0 +1,13 @@
+{
+  "id": "llm-db",
+  "protection": "Durable async orchestration/approval/turn/security/restart/timer isolation",
+  "command": "npm.cmd run check:ai-interviewer:llm -w @hr/server",
+  "startedAt": "2026-11-05T11:18:12.207Z",
+  "finishedAt": "2026-11-05T11:18:15.267Z",
+  "exitCode": 1,
+  "status": "FAIL",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "llm-db.log",
+  "passLines": 0
+}

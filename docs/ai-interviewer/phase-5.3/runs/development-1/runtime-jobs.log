@@ -1,0 +1,36 @@
+PASS PENDING input/hash is durable before work and is not an assessment
+PASS successful output passes mandatory evidence verification before COMPLETED
+PASS exception cannot persist a successful report
+PASS unavailable cannot persist a successful report
+PASS malformed cannot persist a successful report
+PASS invalid-evidence cannot persist a successful report
+PASS timeout is durably FAILED with a finished attempt, no report and retry eligibility
+PASS attempt A returns after timed-out A and successful B without changing B or its hash/version
+PASS five-minute lease fencing remains compatible and stale A cannot overwrite B
+PASS restart while PENDING executes the same frozen job under a new owner
+PASS restart while RUNNING reclaims immediately, fences former owner and preserves source
+PASS restart after durable report but before acknowledgement cannot create another report
+[ai-interview] {"event":"evaluation_retry_scheduled","interviewId":"2be0c904-b8e9-45c3-9cc6-e4a797890c9c","reportVersion":1}
+[ai-interview] {"event":"evaluation_attempt_started","interviewId":"2be0c904-b8e9-45c3-9cc6-e4a797890c9c","evaluationId":"4111f9fc-ae34-4a5b-9f76-85b50e414a98","reportVersion":1,"attempt":2}
+[ai-interview] {"event":"evaluation_attempt_completed","interviewId":"2be0c904-b8e9-45c3-9cc6-e4a797890c9c","evaluationId":"4111f9fc-ae34-4a5b-9f76-85b50e414a98","reportVersion":1,"attempt":2}
+PASS restart around timeout at FAILED remains deterministic
+[ai-interview] {"event":"evaluation_attempt_started","interviewId":"98f665f2-b422-4ff6-a08a-81c03c809ff8","evaluationId":"1e60789b-ff8d-497e-8f37-c4960a737200","reportVersion":1,"attempt":2}
+[ai-interview] {"event":"evaluation_attempt_completed","interviewId":"98f665f2-b422-4ff6-a08a-81c03c809ff8","evaluationId":"1e60789b-ff8d-497e-8f37-c4960a737200","reportVersion":1,"attempt":2}
+PASS restart around timeout at RETRY_PENDING remains deterministic
+PASS restart of ACTIVE preserves authoritative remaining duration
+PASS restart of PAUSED preserves authoritative remaining duration
+PASS legacy RUNNING metadata without owner/deadline recovers at the existing bounded lease
+PASS repeated failures then success preserve input/hash/version; reevaluation stays separate
+PASS late valid value at the durable deadline is still TIMEOUT, never COMPLETED
+PASS shutdown cancels bounded waits and drains without waiting for uncancellable work
+PASS physical admission across service objects stays at two; capacity failure is safe and retryable
+PASS deterministic pass maintains deadline while A hangs and B completes
+PASS native one-second loop maintains deadline while A hangs and B completes
+PASS changed frozen input before execution fails without invoking evaluator
+PASS consistent replacement input/hash during A cannot accept A or silently retry different source
+PASS invalid durable report envelope fails safely instead of stranding a RUNNING job
+PASS HR/resource/candidate authorization is independent of evaluator output
+PASS audit and diagnostics correlate attempts/recovery without secret or answer content
+PASS timeout configuration cannot disable or exceed the production execution bound
+PASS no external/model network attempts
+30/30 Phase 5.3 runtime/job checks passed; external attempts=0

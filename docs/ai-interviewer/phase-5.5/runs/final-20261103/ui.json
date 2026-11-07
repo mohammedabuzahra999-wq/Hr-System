@@ -1,0 +1,13 @@
+{
+  "id": "ui",
+  "protection": "candidate cache/replay/conflicts/session expiry/timer",
+  "command": "npm.cmd run check:ai-interviewer:ui -w @hr/server",
+  "startedAt": "2026-11-03T12:36:26.909Z",
+  "finishedAt": "2026-11-03T12:36:28.100Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "ui.log",
+  "passLines": 24
+}

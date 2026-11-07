@@ -1,0 +1,59 @@
+PASS disabled defaults ignore generic AI credentials and perform no I/O
+PASS configuration and registry serialization exclude credential values
+PASS fail-closed configuration: missing dedicated key
+PASS fail-closed configuration: missing STT model
+PASS fail-closed configuration: missing TTS model
+PASS fail-closed configuration: missing TTS voice
+PASS fail-closed configuration: unknown provider
+PASS fail-closed configuration: mock production selector
+PASS fail-closed configuration: local model selector
+PASS fail-closed configuration: short key
+PASS fail-closed configuration: key newline
+PASS fail-closed configuration: non-HTTPS endpoint
+PASS fail-closed configuration: foreign endpoint
+PASS fail-closed configuration: credential endpoint
+PASS fail-closed configuration: zero timeout
+PASS fail-closed configuration: excessive timeout
+PASS fail-closed configuration: nonfinite timeout
+PASS STT and TTS register independently without requiring a disabled role model
+PASS selected registration is configuration only and performs no health or cloud probe
+PASS SDK STT request uses fixed HTTPS destination, multipart audio and server credential
+PASS mixed language omits language hint rather than restricting transcription
+PASS input audio is copied before asynchronous provider work
+PASS SDK TTS request returns canonical bounded WAV without accepting playback authority
+PASS PCM conversion preserves signed extrema, duration and exact maximum size
+PASS malformed audio/text/unknown request fields fail before SDK invocation
+PASS missing AbortSignal fails safely before SDK invocation
+PASS malformed STT response: missing text
+PASS malformed STT response: wrong text type
+PASS malformed STT response: empty text
+PASS malformed STT response: oversized text
+PASS invalid JSON from provider is sanitized as malformed output
+PASS HTTP 400 is safe and never automatically retried
+PASS HTTP 401 is safe and never automatically retried
+PASS HTTP 403 is safe and never automatically retried
+PASS HTTP 429 is safe and never automatically retried
+PASS HTTP 500 is safe and never automatically retried
+PASS raw connection exception never exposes credential or provider message
+PASS bounded TTS body rejects content type
+PASS bounded TTS body rejects content length
+PASS bounded TTS body rejects streamed size
+PASS bounded TTS body rejects odd PCM
+PASS bounded STT body rejects oversized JSON before SDK parsing
+PASS STT invalid content metadata is rejected without parsing provider text
+PASS redirect responses cannot trigger another credential-bearing request
+PASS pre-aborted requests invoke no SDK work
+PASS caller cancellation aborts the underlying request and rejects safely
+PASS timeouts retain physical slots and late settlements cannot become success
+PASS response-body stall is bounded and late body completion is fenced
+PASS shutdown cancels in-flight work and permanently closes admission
+PASS ambient SDK base URL/logging cannot redirect speech or leak secrets
+PASS actual production startup: default disabled
+PASS actual production startup: selected with missing dedicated key
+PASS actual production startup: selected with missing model
+PASS actual production startup: selected TTS missing voice
+PASS actual production startup: invalid speech timeout
+PASS actual production startup: synthetic selector denied
+PASS actual production startup: complete provider registration remains not live-ready
+PASS external provider/model network attempts remain zero
+58/58 STT/TTS provider contract checks passed; synthetic SDK requests=31; real provider/external calls=0

@@ -1,0 +1,3 @@
+PASS local provider selection, no-key operation, no cloud fallback, ownership, audio-only authority; OpenAI ephemeral/unified prepare/connect preserved (offline mocks)
+PASS PCM WAV constraints and malformed/truncated/native-rate rejection; zero real network/HR calls
+PASS local-session action proposal → review → exact confirmation; no real HR write or model call

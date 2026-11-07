@@ -1,0 +1,140 @@
+{
+  "repository": "Qwen/Qwen3-4B-Thinking-2507",
+  "revision": "768f209d9ea81521153ed38c47d515654e938aea",
+  "upstreamDtype": "bfloat16",
+  "modelClass": "Qwen3ForCausalLM",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 1570,
+      "gitBlobId": "52373fe24473b1aa44333d318f578ae6bf04b49b",
+      "publishedLfsSha256": null,
+      "downloaded": false,
+      "retrievedSha256": null,
+      "contentIdMatch": null,
+      "lastChangedCommit": "a847ed9e9f50a0cdd07e38aba12f9e6755e3c141"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 11343,
+      "gitBlobId": "6634c8cc3133b3848ec74b9f275acaaa1ea618ab",
+      "publishedLfsSha256": null,
+      "downloaded": true,
+      "retrievedSha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+      "contentIdMatch": true,
+      "lastChangedCommit": "a847ed9e9f50a0cdd07e38aba12f9e6755e3c141"
+    },
+    {
+      "file": "README.md",
+      "bytes": 10063,
+      "gitBlobId": "962b92df82aa870f4b6cad1768250634b44a1317",
+      "publishedLfsSha256": null,
+      "downloaded": true,
+      "retrievedSha256": "6a608c737decd22569edf9609499d142021a65e942999890704a880bc804d163",
+      "contentIdMatch": true,
+      "lastChangedCommit": "768f209d9ea81521153ed38c47d515654e938aea"
+    },
+    {
+      "file": "config.json",
+      "bytes": 727,
+      "gitBlobId": "6988f134db143052042f2bd6e0c897bc6a605189",
+      "publishedLfsSha256": null,
+      "downloaded": true,
+      "retrievedSha256": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba",
+      "contentIdMatch": true,
+      "lastChangedCommit": "a847ed9e9f50a0cdd07e38aba12f9e6755e3c141"
+    },
+    {
+      "file": "generation_config.json",
+      "bytes": 239,
+      "gitBlobId": "20a8a9156fc8c3f25295ca067f61fdf120d517c5",
+      "publishedLfsSha256": null,
+      "downloaded": true,
+      "retrievedSha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+      "contentIdMatch": true,
+      "lastChangedCommit": "a847ed9e9f50a0cdd07e38aba12f9e6755e3c141"
+    },
+    {
+      "file": "merges.txt",
+      "bytes": 1671839,
+      "gitBlobId": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0",
+      "publishedLfsSha256": null,
+      "downloaded": true,
+      "retrievedSha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "contentIdMatch": true,
+      "lastChangedCommit": "a847ed9e9f50a0cdd07e38aba12f9e6755e3c141"
+    },
+    {
+      "file": "model-00001-of-00003.safetensors",
+      "bytes": 3957900840,
+      "gitBlobId": "9283db5ecbec606c21c3948b577df8b845934f3d",
+      "publishedLfsSha256": "98178c1cddbca8ad76102afdbf76e4df79b64b82377ad4dca34c755cac00571a",
+      "downloaded": false,
+      "retrievedSha256": null,
+      "contentIdMatch": null,
+      "lastChangedCommit": "a847ed9e9f50a0cdd07e38aba12f9e6755e3c141"
+    },
+    {
+      "file": "model-00002-of-00003.safetensors",
+      "bytes": 3987450520,
+      "gitBlobId": "a789e04cb3865d37334314d148e02bf18ffff780",
+      "publishedLfsSha256": "57b5bd1f667d420350f169342a90b50e5ffc2aa202ba1819da1af3367ff2261f",
+      "downloaded": false,
+      "retrievedSha256": null,
+      "contentIdMatch": null,
+      "lastChangedCommit": "a847ed9e9f50a0cdd07e38aba12f9e6755e3c141"
+    },
+    {
+      "file": "model-00003-of-00003.safetensors",
+      "bytes": 99630640,
+      "gitBlobId": "32a2211a0a75b157ca6a0dec8f1f3da16c5b0788",
+      "publishedLfsSha256": "e3cccb84e8926f3f18c334465639939a68af310b0729938fccc2de66a9a31953",
+      "downloaded": false,
+      "retrievedSha256": null,
+      "contentIdMatch": null,
+      "lastChangedCommit": "a847ed9e9f50a0cdd07e38aba12f9e6755e3c141"
+    },
+    {
+      "file": "model.safetensors.index.json",
+      "bytes": 32819,
+      "gitBlobId": "4747b0297d3109f14db49886972e3369c9a00b2a",
+      "publishedLfsSha256": null,
+      "downloaded": true,
+      "retrievedSha256": "d6c42883a895dfef5b0080ed2116a1bcd764f558406b98923d675978a1abf29c",
+      "contentIdMatch": true,
+      "lastChangedCommit": "a847ed9e9f50a0cdd07e38aba12f9e6755e3c141"
+    },
+    {
+      "file": "tokenizer.json",
+      "bytes": 11422654,
+      "gitBlobId": "cd71f61a15a522601badb3dc960d800d9cb3766c",
+      "publishedLfsSha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "downloaded": true,
+      "retrievedSha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "contentIdMatch": true,
+      "lastChangedCommit": "a847ed9e9f50a0cdd07e38aba12f9e6755e3c141"
+    },
+    {
+      "file": "tokenizer_config.json",
+      "bytes": 10834,
+      "gitBlobId": "8dec7d58dda385ce95b469aa2d277ec162168e58",
+      "publishedLfsSha256": null,
+      "downloaded": true,
+      "retrievedSha256": "60adcfc35f5f251e19a196ec977b4ca0fcfb534852911b3196d68d5e3b146aa0",
+      "contentIdMatch": true,
+      "lastChangedCommit": "a847ed9e9f50a0cdd07e38aba12f9e6755e3c141"
+    },
+    {
+      "file": "vocab.json",
+      "bytes": 2776833,
+      "gitBlobId": "4783fe10ac3adce15ac8f358ef5462739852c569",
+      "publishedLfsSha256": null,
+      "downloaded": true,
+      "retrievedSha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "contentIdMatch": true,
+      "lastChangedCommit": "a847ed9e9f50a0cdd07e38aba12f9e6755e3c141"
+    }
+  ],
+  "weightFilesDownloaded": false,
+  "qualification": "Weight hashes are publisher-reported LFS IDs. Weight bytes were not downloaded or independently hashed."
+}

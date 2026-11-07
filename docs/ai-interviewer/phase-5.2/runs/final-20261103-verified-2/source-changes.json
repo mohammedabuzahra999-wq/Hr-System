@@ -1,0 +1,114 @@
+{
+  "created": [
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/AnswerRecoveryNotice.tsx",
+      "bytes": 5250,
+      "sha256": "027c9dfff7e87ae4a390d61703bcf22440f98c5f761a0f7840042aada4316126"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/answerRecovery.ts",
+      "bytes": 10714,
+      "sha256": "eed5a87fbfb07607f94d69deeced954a17c950def113799377f6d4bf5f82c83f"
+    },
+    {
+      "path": "packages/contracts/src/aiInterviewAnswer.ts",
+      "bytes": 1597,
+      "sha256": "a2124d9855cb84db6dc9719484d328a9aa4e44d34b01a035bd7e916213279acc"
+    },
+    {
+      "path": "services/hr-api/scripts/checkAiInterviewAnswerBrowser.mjs",
+      "bytes": 303,
+      "sha256": "16be3b28839295273964642e7ee8c75691cf63bac7fcfaadd8c1b0e42b25a9bc"
+    },
+    {
+      "path": "services/hr-api/scripts/checkAiInterviewAnswerBrowserCases.mjs",
+      "bytes": 17965,
+      "sha256": "788ea653cdf24f85a2b257b88328710277bf5a9327fb9074174f412bd1c251de"
+    },
+    {
+      "path": "services/hr-api/scripts/checkAiInterviewAnswerRecovery.mjs",
+      "bytes": 16192,
+      "sha256": "3df499af62d5ea1f5b584143e3d5a4528c1f516fcbd7df3c997765e99be77b40"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/answer.check.ts",
+      "bytes": 20100,
+      "sha256": "e22e0b9bbd96f5785d53c100b4f6d3c59fca287d66051c22e0063e8f28a57383"
+    }
+  ],
+  "modified": [
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/MockControls.tsx",
+      "bytes": 7785,
+      "sha256": "d7c94f5a14760e03430ba16bd99b856674c341f9ec84d65d670af5ff80d72c44",
+      "beforeSHA256": "44788c514616011069050cac4d2a30eef843042dfd9b5a8ecd1a88eb02828f65"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/client.ts",
+      "bytes": 2688,
+      "sha256": "ad305abbb9a9637292d6ef73b29647d3d2ceecb09676cceb84f2cb11e1f5c96f",
+      "beforeSHA256": "917e30603fa982b8859974ea059ca73a6b9bb5cd52c882477e7d48922f41ba64"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/session.ts",
+      "bytes": 7655,
+      "sha256": "ca8491881c59818eb223e295f32266c6b6a92476de0bcf9d916e1db6af18760f",
+      "beforeSHA256": "2d3c6805b2096f718098375262be373ee7a99eb2adaf7fec7e45b6452ccf6028"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/useInterviewSession.ts",
+      "bytes": 1741,
+      "sha256": "7b34bfc7806399576a110aaadab9c78ccda400c39bc27cbab1aea9fa864b88b5",
+      "beforeSHA256": "c88c602c2447d198a29101e8a2ebb86b4548db554698a09034fc91e8de47a086"
+    },
+    {
+      "path": "apps/hr-web/src/pages/AiInterviewPage.tsx",
+      "bytes": 19801,
+      "sha256": "8248de8fe1355c7902d0e7e16dd5b1a3798780730b4df722727830bd4ca8898e",
+      "beforeSHA256": "7a91d67040c5912c73fe3a9faf1833e05adad1e299f17e8ed50a8a3a39472282"
+    },
+    {
+      "path": "packages/contracts/src/aiInterviewUi.ts",
+      "bytes": 2056,
+      "sha256": "175977caf36ac53b5d6c3c33a8a9634671f5fdc34fe930abb68dd8a90932ec66",
+      "beforeSHA256": "d7ca0fcdb010a79677c9ac60e97e708eec4fbe7c907b8bf33cfd270fbc1a99d2"
+    },
+    {
+      "path": "packages/contracts/src/index.ts",
+      "bytes": 1324,
+      "sha256": "976937841183bcd7a2c198dada2651aafe31117e5055f309450df17bdb5a16cb",
+      "beforeSHA256": "79c7f945a691aaf516c6d8694bee7089b0cd7e554434ba29fc32d28ac5d0eed5"
+    },
+    {
+      "path": "services/hr-api/package.json",
+      "bytes": 5666,
+      "sha256": "689676d9c7af9f8e0dccb3463293d6d5c48db0e978f969400b519b3830696c52",
+      "beforeSHA256": "f19e2a75bc924da6ac67ba0b20c969ec4e562ea6b2e7e9bb8a046a174a459ffc"
+    },
+    {
+      "path": "services/hr-api/scripts/checkAiInterviewBrowser.mjs",
+      "bytes": 40111,
+      "sha256": "1f94ac7014b4d3abe6d392abe75768b99debaea4b72de892b578ad008c752c94",
+      "beforeSHA256": "5930ad96e737ac12e9cfd735c3c41a366dd935d59629ccd37bb6f9418f2123d4"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/routes.ts",
+      "bytes": 9211,
+      "sha256": "26163dbf61ab2cd091149507ec71c1e9522851b6237bd2ffd8f0fcf410824c71",
+      "beforeSHA256": "9a011827c292785e62200fb10c9bf2ede5a68921667671ab62dfca49f87b5c9a"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/service.ts",
+      "bytes": 30131,
+      "sha256": "71cc6246f6261c83521c86d0dda460e66da2df2ce92cc5b75dcdf728450a12b6",
+      "beforeSHA256": "da043bf78c3dd45d62691ee482408d75419ec0fe417a280f1671753e5ee081ca"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/ui.fixture.ts",
+      "bytes": 16734,
+      "sha256": "d1534698b43f82493f1e8a42164499d9488a8c9a3364bb969c55bc7009995480",
+      "beforeSHA256": "9d638a4d78fe374a17e7270c24fbc2b47282ad609208d0b29249a3f293e58491"
+    }
+  ],
+  "deleted": []
+}

@@ -1,0 +1,12 @@
+-- The portfolio field is removed from the application form.
+--
+-- It came from the recruitment plan's list of things an applicant may provide,
+-- and it is genuinely useful for the roles whose work can be shown — a
+-- developer's repositories, a designer's gallery. For an accountant or a
+-- receptionist it is a field that is always empty, and every empty field on a
+-- job application costs completions.
+--
+-- The column is dropped rather than left behind: nothing had been stored in it
+-- (checked before writing this), and a column no code writes is the kind of
+-- thing that later reads as a feature somebody forgot to finish.
+ALTER TABLE "candidates" DROP COLUMN IF EXISTS "portfolio_url";

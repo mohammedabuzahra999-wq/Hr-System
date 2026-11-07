@@ -1,0 +1,61 @@
+{
+  "acceptedPhase56SourceSHA256": "e2fb83906f162898c273378814a824ebd69fd8afdd682061eb1dcf52144760a0",
+  "created": [
+    {
+      "path": "services/hr-api/src/aiInterviewer/speechConfiguration.ts",
+      "bytes": 2464,
+      "sha256": "4e18f573f48d19390c613a64e47896de2302dc8211f0a6a1eb572246089ae2c3"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/speechContracts.ts",
+      "bytes": 1743,
+      "sha256": "7e8c56f8020b6e1d3b48ab1f2501c8176347770dc8ec6845ef442ec36efd9b6f"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/speechProviders.check.ts",
+      "bytes": 21123,
+      "sha256": "4023ff510cb21a13592754164c465bdcbd2021a95955ab2acdc87e768fd00180"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/speechProviders.ts",
+      "bytes": 10994,
+      "sha256": "b74cb05d398f2d7d61fcc492f93fec9ae9ec2a3e943dd2e34f2230b66d624a85"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/speechRuntime.ts",
+      "bytes": 337,
+      "sha256": "c2488d6db459654527d7aff2b1b465c58d012d64b7efba2199a6678094538d52"
+    }
+  ],
+  "modified": [
+    {
+      "path": "services/hr-api/package.json",
+      "bytes": 6408,
+      "sha256": "96c7d46b60959e92acee8d6c0c5f04a4a935549c0de4f4616a743d8e9d704b14",
+      "beforeSHA256": "b7fbc1b3a109cc0c58c8734458c09f6264da657fa7b1651b062709f2adae2558"
+    },
+    {
+      "path": "services/hr-api/src/env.ts",
+      "bytes": 7588,
+      "sha256": "4cdacff5900a58a889c22fd8f84731a175018a4be6d86df3895fb0dbc60ea0e9",
+      "beforeSHA256": "ab2ab1effb31a854bf17fd9f0bf3fc027bd20777ad9ba14e750e0c2a8241bf90"
+    },
+    {
+      "path": "services/hr-api/src/index.ts",
+      "bytes": 10614,
+      "sha256": "2a11b0faa0388f2a0ea25dfb2acb0d63e088a4eef248a43f2b155f6f7300af90",
+      "beforeSHA256": "63d4b0b1b997d402eb13a1ba21a9c2fd7c2f86d725a0e8ff7762dcfea07026f5"
+    }
+  ],
+  "deleted": [],
+  "purposes": {
+    "services/hr-api/src/aiInterviewer/speechContracts.ts": "Independent typed STT/TTS result/error/readiness contracts and hard limits.",
+    "services/hr-api/src/aiInterviewer/speechConfiguration.ts": "Explicit server-only provider/model/voice/credential configuration; fail-closed parsing.",
+    "services/hr-api/src/aiInterviewer/speechProviders.ts": "OpenAI SDK speech adapters, pinned destination, bounded bodies/time/capacity, safe errors, cancellation and PCM conversion.",
+    "services/hr-api/src/aiInterviewer/speechRuntime.ts": "One server-owned pair registered without I/O; no transport authority.",
+    "services/hr-api/src/aiInterviewer/speechProviders.check.ts": "58 offline provider/configuration/SDK/protocol/bounds/security tests.",
+    "services/hr-api/src/env.ts": "Validate new independent speech configuration at startup without printing values.",
+    "services/hr-api/src/index.ts": "Register speech providers at server startup and close/abort them during shutdown.",
+    "services/hr-api/package.json": "Add speech contract test command; no dependency changes."
+  }
+}

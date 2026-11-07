@@ -1,0 +1,25 @@
+{
+  "version": "CEB-client-DOM-contract-v1",
+  "createdAt": "2026-10-25T08:31:38.123Z",
+  "status": "FAIL",
+  "checks": 2,
+  "passed": 1,
+  "results": [
+    {
+      "name": "actual-client-loads-full-480-index",
+      "status": "PASS"
+    },
+    {
+      "name": "all-15-decisions-start-blank-and-profile-is-required",
+      "status": "FAIL",
+      "safeCode": "ERR_ASSERTION"
+    }
+  ],
+  "method": "Actual public/app.js in VM with minimal DOM double and live GET-only localhost API; not browser rendering",
+  "browserRenderingVerified": false,
+  "localReads": 2,
+  "writeRequests": 0,
+  "realHumanDecisionsCreated": 0,
+  "externalCalls": 0,
+  "modelCalls": 0
+}

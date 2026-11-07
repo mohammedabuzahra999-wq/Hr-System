@@ -1,0 +1,45 @@
+{
+  "version": "CEB-AUTO-ADMISSION-1-selftests",
+  "created": "2026-10-25T09:03:14.368Z",
+  "status": "PASS",
+  "priorDetectorChecks": 22,
+  "supplementChecks": 8,
+  "totalChecks": 30,
+  "results": [
+    {
+      "name": "valid-stated-placeholder-and-employee-scope",
+      "status": "PASS"
+    },
+    {
+      "name": "unstated-placeholder-fails",
+      "status": "PASS"
+    },
+    {
+      "name": "employee-scope-without-identifier-fails",
+      "status": "PASS"
+    },
+    {
+      "name": "company-read-cannot-have-employee-role",
+      "status": "PASS"
+    },
+    {
+      "name": "unsupported-payslip-period-fails",
+      "status": "PASS"
+    },
+    {
+      "name": "protected-action-cannot-claim-safe-ui-confirmation",
+      "status": "PASS"
+    },
+    {
+      "name": "non-executable-clarification-control-passes",
+      "status": "PASS"
+    },
+    {
+      "name": "executable-control-fails",
+      "status": "PASS"
+    }
+  ],
+  "protectedDatasetsRead": false,
+  "modelCalls": 0,
+  "humanReviewPerformed": false
+}

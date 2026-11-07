@@ -1,0 +1,29 @@
+{
+  "startedAtUtc": "2026-11-05T06:28:58.924Z",
+  "status": "PASS",
+  "testsRerunByCleanup": 0,
+  "commands": [
+    {
+      "command": "node docs/ai-interviewer/phase-5.6/run.mjs final-20261105 cleanup",
+      "exitCode": 0
+    },
+    {
+      "command": ".local-dev/ai-interviewer-postgres/pgsql/bin/pg_ctl.exe -D .local-dev/ai-interviewer-postgres/data -m fast -w -t 15 stop",
+      "exitCode": 0
+    },
+    {
+      "command": ".local-dev/ai-interviewer-postgres/pgsql/bin/pg_ctl.exe -D .local-dev/ai-interviewer-postgres/data status",
+      "exitCode": 3,
+      "expectedExitCode": 3
+    }
+  ],
+  "testProfilesRemoved": [
+    "final-20261105"
+  ],
+  "databasePolicy": "Read-only inspection; no database dropped during finalization",
+  "activeOtherClientSessions": 0,
+  "phase56DisposableDatabasesRemaining": 0,
+  "localTestClusterStopped": true,
+  "temporaryRunDirectoriesRemaining": 0,
+  "finishedAtUtc": "2026-11-05T06:28:59.485Z"
+}

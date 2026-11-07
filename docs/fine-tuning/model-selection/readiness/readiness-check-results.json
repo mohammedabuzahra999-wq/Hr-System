@@ -1,0 +1,370 @@
+{
+  "version": "CEB-1D0-readiness-check-1",
+  "created": "2026-10-25T09:39:35.935Z",
+  "status": "PASS",
+  "checks": 84,
+  "passed": 84,
+  "results": [
+    {
+      "name": "contract-pins-every-execution-input",
+      "status": "PASS"
+    },
+    {
+      "name": "source-dependency-pins-unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "full-plan-scorer-self-tests-pass",
+      "status": "PASS"
+    },
+    {
+      "name": "shared-actual-source-prompt-and-schema-pinned",
+      "status": "PASS"
+    },
+    {
+      "name": "native-read-blocked:server/.env",
+      "status": "PASS"
+    },
+    {
+      "name": "native-read-blocked:server/.env.production",
+      "status": "PASS"
+    },
+    {
+      "name": "native-read-blocked:server/src/db/client.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "native-read-blocked:server/src/mcp/server.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "native-read-blocked:server/src/knowledge/service.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "native-read-blocked:server/src/copilot/training.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "native-read-blocked:server/src/copilot/data/hr_agent_intents_10000.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "native-read-blocked:server/dist/server/src/copilot/data/hr_agent_intents_10000.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "native-read-blocked:docs/fine-tuning/benchmark/pre-finetuning-benchmark-v1.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "native-write-blocked:server/.env",
+      "status": "PASS"
+    },
+    {
+      "name": "native-write-blocked:server/src/copilot/resolve.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "native-write-blocked:docs/fine-tuning/controlled-assets/remediation-v1.1/runtime-reference-v1.1.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "native-write-blocked:docs/fine-tuning/controlled-assets/remediation-v1.1/model-selection-v1.1.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "native-write-blocked:docs/fine-tuning/benchmark/pre-finetuning-benchmark-v1.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "credentials-and-proxies-not-inherited",
+      "status": "PASS"
+    },
+    {
+      "name": "network-guard-blocks-before-transport",
+      "status": "PASS"
+    },
+    {
+      "name": "network-service-module-denied:node:http",
+      "status": "PASS"
+    },
+    {
+      "name": "network-service-module-denied:node:https",
+      "status": "PASS"
+    },
+    {
+      "name": "network-service-module-denied:node:net",
+      "status": "PASS"
+    },
+    {
+      "name": "network-service-module-denied:node:dns",
+      "status": "PASS"
+    },
+    {
+      "name": "network-service-module-denied:node:child_process",
+      "status": "PASS"
+    },
+    {
+      "name": "network-service-module-denied:node:worker_threads",
+      "status": "PASS"
+    },
+    {
+      "name": "network-service-module-denied:openai",
+      "status": "PASS"
+    },
+    {
+      "name": "network-service-module-denied:dotenv",
+      "status": "PASS"
+    },
+    {
+      "name": "network-service-module-denied:pg",
+      "status": "PASS"
+    },
+    {
+      "name": "network-service-module-denied:@modelcontextprotocol/sdk",
+      "status": "PASS"
+    },
+    {
+      "name": "all-160-original-selection-bytes-and-rows-preserved",
+      "status": "PASS"
+    },
+    {
+      "name": "partition-is-exhaustive-disjoint-and-not-gold-mutating",
+      "status": "PASS"
+    },
+    {
+      "name": "coverage-minimum-exceeded-every-language",
+      "status": "PASS"
+    },
+    {
+      "name": "only-eligible-IDs-have-provider-inputs",
+      "status": "PASS"
+    },
+    {
+      "name": "known-control-coverage-limitation-preserved",
+      "status": "PASS"
+    },
+    {
+      "name": "only-admitted-R-runtime-and-all-32-48-coverage",
+      "status": "PASS"
+    },
+    {
+      "name": "all-160-partition-and-136-payload-captures-reproduce",
+      "status": "PASS"
+    },
+    {
+      "name": "capsule-unmapped-import-fails-closed:node:fs",
+      "status": "PASS"
+    },
+    {
+      "name": "capsule-unmapped-import-fails-closed:server/src/db/client.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "capsule-unmapped-import-fails-closed:server/src/mcp/server.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "capsule-unmapped-import-fails-closed:server/src/knowledge/service.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "capsule-unmapped-import-fails-closed:server/src/ai/ollama.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "caught-encoded-legacy-violation-stays-fatal",
+      "status": "PASS"
+    },
+    {
+      "name": "executable-common-request-contract-no-transport",
+      "status": "PASS"
+    },
+    {
+      "name": "qwen3-template-control-only-after-shared-input",
+      "status": "PASS"
+    },
+    {
+      "name": "qwen2-non-reasoning-has-no-qwen3-suffix",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:candidateId",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:modelFamily",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:exactTag",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:parameterBillions",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:quantization",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:inferenceDigest",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:runtimeVersion",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:runtimeBinarySha256",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:trainableCheckpointRepository",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:trainableCheckpointRevision",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:checkpointManifestSha256",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:tokenizerSha256",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:templateSha256",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:licenseSpdx",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:licenseEvidenceSha256",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:adaptationMethod",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:adaptationEvidenceSha256",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:conversionRecipeSha256",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:generationPolicy",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:supportsSeed",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:supportsNativeJsonSchema",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:supportsCommonOptions",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:provenanceVerified",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:licenseVerified",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:adaptationVerified",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:local",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:cloud",
+      "status": "PASS"
+    },
+    {
+      "name": "candidate-identity-required:status",
+      "status": "PASS"
+    },
+    {
+      "name": "unsupported-seed-fails-closed-no-option-dropping",
+      "status": "PASS"
+    },
+    {
+      "name": "cloud-candidate-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "different-quantization-needs-new-track",
+      "status": "PASS"
+    },
+    {
+      "name": "floating-unverified-qwen-tag-not-an-admitted-candidate",
+      "status": "PASS"
+    },
+    {
+      "name": "no-candidate-identity-admission-fabricated",
+      "status": "PASS"
+    },
+    {
+      "name": "payload-drift-denied",
+      "status": "PASS"
+    },
+    {
+      "name": "schema-drift-denied",
+      "status": "PASS"
+    },
+    {
+      "name": "monotonic-duration-accepts-bounded-elapsed",
+      "status": "PASS"
+    },
+    {
+      "name": "negative-or-interrupted-duration-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "no-legacy-or-business-model-activity",
+      "status": "PASS"
+    }
+  ],
+  "scorerSelfTests": 120,
+  "partitionSha256": "61ab11c27038a6a54bd9aea1d106af05b88746e762b4b128ae0625c6a01360ad",
+  "runContractSha256": "0981add79d9dee75afbb3cc3600295f715c66b52c6a966d681eb6dfd940044c2",
+  "partitionCounts": {
+    "MODEL_ELIGIBLE": 136,
+    "CONTROL_ONLY": 24,
+    "RESOURCE_DEPENDENT": 0
+  },
+  "renderedRequestCount": 136,
+  "deterministicReproduction": "PASS",
+  "legacy10KExclusion": "VERIFIED_OFFLINE_CAPTURE_PROFILE",
+  "productionDb": "BLOCKED",
+  "productionMcp": "BLOCKED",
+  "productionRag": "BLOCKED",
+  "realWrites": "BLOCKED",
+  "productionCredentials": "EXCLUDED",
+  "humanReviewPerformed": false,
+  "candidateIdentitiesAdmitted": 0,
+  "candidateModelsExecuted": 0,
+  "modelCalls": 0,
+  "frozenCasesExecuted": 0,
+  "fineTuningStarted": false,
+  "productionAccess": false,
+  "baseModelSelectionExecutionCleared": false,
+  "remainingBinding": "Approved real candidate artifact/checkpoint/license/adaptation evidence and final run manifest plus verified loopback-only live transport; no model call authorized by this readiness phase"
+}

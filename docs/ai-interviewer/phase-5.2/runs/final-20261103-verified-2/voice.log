@@ -1,0 +1,28 @@
+Voice sessions belong to the signed-in person:
+  ✓ owner can read the session
+  ✓ another account cannot read the session
+  ✓ a closed session is removed before another turn
+  ✓ an expired session is removed safely
+
+Final transcript ids are held while a turn is running:
+  ✓ duplicate event cannot start another turn
+
+A voice action needs visible review and an exact phrase:
+  ✓ speech alone is refused before review
+  ✓ ambiguous confirmation is refused
+  ✓ reviewed exact phrase can proceed to the existing Copilot action route
+
+Ordinals only resolve an active clarification:
+  ✓ Arabic الثاني selects the second active option
+  ✓ a consumed clarification cannot be selected again
+  ✓ Arabic الأول selects the first active option
+  ✓ English third selects the third active option
+  ✓ English first selects only when a choice is active
+  ✓ ambiguous ordinal phrasing is not treated as a selection
+  ✓ a stale clarification cannot be selected
+
+Development evaluation fixtures are final transcripts only:
+  ✓ Arabic, English-mixed, clarification, context, and follow-up fixtures are defined
+  ✓ fixtures contain no audio or provider events
+
+voice session guard holds

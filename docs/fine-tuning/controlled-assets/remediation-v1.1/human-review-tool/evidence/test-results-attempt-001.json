@@ -1,0 +1,30 @@
+{
+  "version": "CEB-human-review-tool-tests-v1",
+  "createdAt": "2026-10-25T08:21:27.357Z",
+  "status": "FAIL",
+  "checks": 3,
+  "passed": 2,
+  "results": [
+    {
+      "name": "read-only-subchecks",
+      "status": "PASS",
+      "checks": 23
+    },
+    {
+      "name": "real-480-load-native-write-denials-and-egress-guard",
+      "status": "PASS"
+    },
+    {
+      "name": "workflow-unexpected-abort",
+      "status": "FAIL",
+      "safeCode": "TEST_ABORTED"
+    }
+  ],
+  "testOnly": true,
+  "fixtureDirectory": "tests/.fixture-work-6728",
+  "realHumanDecisionsCreated": 0,
+  "realReviewStoreAccessed": false,
+  "externalCalls": 0,
+  "modelCalls": 0,
+  "productionAccess": false
+}

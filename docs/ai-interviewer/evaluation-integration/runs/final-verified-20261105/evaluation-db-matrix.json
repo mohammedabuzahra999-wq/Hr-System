@@ -1,0 +1,423 @@
+{
+  "status": "PASS",
+  "checks": 25,
+  "externalAttempts": 0,
+  "matrix": [
+    {
+      "scenario": "pending",
+      "result": "PASS",
+      "status": "PENDING",
+      "reportVersion": 1,
+      "inputHash": "212f50ae53ae3fcaf973faad83f6ba33495a9c6ebccb04bfbb83ecb816013991",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": false,
+      "attempts": []
+    },
+    {
+      "scenario": "valid",
+      "result": "PASS",
+      "status": "COMPLETED",
+      "reportVersion": 1,
+      "inputHash": "20cdda3c0c8310c19874c9c19381c8618beb351be6489eb61a15cc35cdee6715",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": null
+        }
+      ]
+    },
+    {
+      "scenario": "missing",
+      "result": "PASS",
+      "status": "COMPLETED",
+      "reportVersion": 1,
+      "inputHash": "799bdfb93e9407629449b03e95eb3e675fd45ba1e26405d99e2a1db305b98279",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": null
+        }
+      ]
+    },
+    {
+      "scenario": "invented",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "d434e61a7272f22e09300c65bd607376dbed2807b8e2abe427c354069fe4500f",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVIDENCE_VALIDATION_FAILED"
+        }
+      ]
+    },
+    {
+      "scenario": "score",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "173d073f350cd01b9da5e7393666b660bb8435d9989041f302cafcf76b80c869",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVIDENCE_VALIDATION_FAILED"
+        }
+      ]
+    },
+    {
+      "scenario": "finding",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "8ff6a58240263f427ef2ba55dd911b48cc9d7be9216a9b3dc75a9167b5a1f972",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVIDENCE_VALIDATION_FAILED"
+        }
+      ]
+    },
+    {
+      "scenario": "malformed",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "91dd3993f2490941a8d6068d80398291e676442a3c9471001bc531fc11780507",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVIDENCE_VALIDATION_FAILED"
+        }
+      ]
+    },
+    {
+      "scenario": "provider-failure",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "11da8a9d79c8587abd9daf2568c9929b5b0b9ed6d58792fa4eff1b7f2e9620fc",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVALUATOR_PROVIDER_FAILED"
+        }
+      ]
+    },
+    {
+      "scenario": "timeout",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "90eef7b7339f80c249a30399de31b49bca7c39a64be2f457b6fa2ee65f4632ab",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVALUATOR_TIMEOUT"
+        }
+      ]
+    },
+    {
+      "scenario": "cancel",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "c01c424c93f00b425e1fc8843e16779e18cb127f24f5214738735c84543e04fb",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVALUATOR_CANCELLED"
+        }
+      ]
+    },
+    {
+      "scenario": "retry",
+      "result": "PASS",
+      "status": "COMPLETED",
+      "reportVersion": 1,
+      "inputHash": "bc89e68f13eac186ddaea11ad5c78edfe145c18e7fa7957fc476aa717e82927d",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVALUATOR_PROVIDER_FAILED"
+        },
+        {
+          "attempt": 2,
+          "finished": true,
+          "failureCode": null
+        }
+      ]
+    },
+    {
+      "scenario": "exhausted",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "d70fe67c0f68333dcafc4ec98d76ddcf50c253fbb592f33475a35093d1b53153",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVALUATOR_PROVIDER_FAILED"
+        },
+        {
+          "attempt": 2,
+          "finished": true,
+          "failureCode": "EVALUATOR_PROVIDER_FAILED"
+        }
+      ]
+    },
+    {
+      "scenario": "restart",
+      "result": "PASS",
+      "status": "COMPLETED",
+      "reportVersion": 1,
+      "inputHash": "b01da2a9aa600541782cd1880af19f7692e2870f3513a6227d1fbd424fb2f4b6",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "WORKER_RESTARTED"
+        },
+        {
+          "attempt": 2,
+          "finished": true,
+          "failureCode": null
+        }
+      ]
+    },
+    {
+      "scenario": "config-changed",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "a285302079d35cb7fdf16492fcf4db76d2c0206c849a8bc666c11350230081ea",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": false,
+      "attempts": []
+    },
+    {
+      "scenario": "config-changed",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "8aee24234714e82d4d9ba2b0c52a5e0c4ea84d9fe448fdb90cb7d3f0c111a6af",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": false,
+      "attempts": []
+    },
+    {
+      "scenario": "isolation",
+      "result": "PASS",
+      "status": "PENDING",
+      "reportVersion": 1,
+      "inputHash": "6a46d3710e82d0433aaf8ea5b50c6ef82f1d3b4926e189876184bef475a6aaf9",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": false,
+      "attempts": []
+    },
+    {
+      "scenario": "injection",
+      "result": "PASS",
+      "status": "COMPLETED",
+      "reportVersion": 1,
+      "inputHash": "827d82817f9ec086bfcae2097fcc93ff236a0449c3e891473e6774ab8c07e936",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": null
+        }
+      ]
+    },
+    {
+      "scenario": "mutation",
+      "result": "PASS",
+      "status": "COMPLETED",
+      "reportVersion": 1,
+      "inputHash": "9f87b39a898ef115fef20a074c055cfecb4d264baa5b281dd75a393a4076a3fc",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": null
+        }
+      ]
+    },
+    {
+      "scenario": "sql-rollback",
+      "result": "PASS",
+      "status": "COMPLETED",
+      "reportVersion": 1,
+      "inputHash": "909c3eaf69f19becd032ba24e83cc4780123ea736b2ceefe235e75bf5c4e5e01",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "WORKER_RESTARTED"
+        },
+        {
+          "attempt": 2,
+          "finished": true,
+          "failureCode": null
+        }
+      ]
+    },
+    {
+      "scenario": "changed-input",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "fa6fb8b36620680f1064917a416ce8e9f7e663c69b099495f8741b8950f4b36a",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVALUATION_INPUT_CHANGED"
+        }
+      ]
+    },
+    {
+      "scenario": "shutdown-resume",
+      "result": "PASS",
+      "status": "COMPLETED",
+      "reportVersion": 1,
+      "inputHash": "51e372dd81436ec8b775957167e9e2181d63f4e24539d29f5706c0e6c8773ac6",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "answersUnchanged": true,
+      "frozenEvidenceUnchanged": true,
+      "domainHistoryUnchanged": true,
+      "reportPresent": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": null
+        }
+      ]
+    }
+  ]
+}

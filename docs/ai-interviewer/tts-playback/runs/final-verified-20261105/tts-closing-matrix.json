@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "checks": 6,
+  "externalAttempts": 0,
+  "generations": 3,
+  "answers": 1,
+  "matrix": [
+    {
+      "scenario": "TTS intro completion selects the first frozen question without an answer timer",
+      "result": "PASS"
+    },
+    {
+      "scenario": "TTS question completion starts the authoritative listening timer",
+      "result": "PASS"
+    },
+    {
+      "scenario": "existing atomic answer path and mock decision progress into closing",
+      "result": "PASS"
+    },
+    {
+      "scenario": "TTS closing atomically completes interview and creates existing evaluation job",
+      "result": "PASS"
+    },
+    {
+      "scenario": "unchanged mock report independently verifies TTS-completed answer/evidence integrity",
+      "result": "PASS"
+    },
+    {
+      "scenario": "zero real provider/model calls",
+      "result": "PASS"
+    }
+  ]
+}

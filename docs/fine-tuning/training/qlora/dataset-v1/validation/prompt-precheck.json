@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "rows": 8000,
+  "maxPromptBytes": 14790,
+  "identity": {
+    "resolveSource": "server/src/copilot/resolve.ts",
+    "resolveSha256": "830292e0d09a9da626fbf83bd9a2e62d8edf687eb678c2667aabc3f97d20c90a",
+    "registrySha256": "848946826f105bb51d721626d08d752853f5d163b2bfdb045c1fce20400c7a82",
+    "adapterSha256": "a8eb62f13aae325c923abced126831ca2d56eddb94988911ee01fd9ff6d24a0b",
+    "runtimeReferenceSha256": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736",
+    "admissionPolicy": "CEB-AUTO-ADMISSION-1",
+    "formatter": "unchanged systemPrompt/trainingQuestionPrompt/followUpRule declarations",
+    "conversationExamples": "empty exactly as official controlled BEFORE capsule",
+    "userWireControl": "/no_think exactly as existing structured Ollama adapter",
+    "noNewPromptInstructions": true,
+    "referenceTargetsNeverExportedAsGold": true,
+    "modelCalls": 0
+  },
+  "privacy": {
+    "checkedMessages": 24640,
+    "flags": {
+      "email": 0,
+      "employeeIdentifier": 0,
+      "nationalPassport": 0,
+      "phone": 0,
+      "ibanBank": 0,
+      "address": 0,
+      "medical": 0,
+      "disciplinary": 0,
+      "factualRecord": 0,
+      "apiKey": 0,
+      "bearerJWT": 0,
+      "passwordPrivateKey": 0,
+      "databaseConnection": 0,
+      "urlOrInternalHost": 0,
+      "opaqueToken": 0
+    },
+    "declaredStaticExceptions": [
+      "EMP-1001 is the unchanged schema-description illustration, not an employee lookup",
+      "Exact synthetic R renderings already admitted by hash: 2027-07-12, 2027-07-14, 742.50, 18.75, 2027-07-12T09:00:00Z"
+    ],
+    "newRequestOrTargetExceptions": 0
+  },
+  "modelCalls": 0,
+  "trainingStarted": false
+}

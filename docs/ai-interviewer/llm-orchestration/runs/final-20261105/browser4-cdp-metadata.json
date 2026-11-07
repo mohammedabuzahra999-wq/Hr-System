@@ -1,0 +1,3137 @@
+{
+  "originalAssertionsUnchanged": true,
+  "observationMayAffectTiming": true,
+  "trace": [
+    {
+      "at": 1793879302316,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 401,
+      "error": "notAuthenticated"
+    },
+    {
+      "at": 1793879302317,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 401,
+      "error": "notAuthenticated"
+    },
+    {
+      "at": 1793879302545,
+      "method": "POST",
+      "path": "/api/auth/login",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879302837,
+      "method": "GET",
+      "path": "/api/stream"
+    },
+    {
+      "at": 1793879303380,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879303384,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879303498,
+      "method": "GET",
+      "path": "/api/feed/inbox",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879303499,
+      "method": "GET",
+      "path": "/api/recruitment/openings",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879303501,
+      "method": "GET",
+      "path": "/api/recruitment/applications",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879303502,
+      "method": "GET",
+      "path": "/api/recruitment/candidates",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879303503,
+      "method": "GET",
+      "path": "/api/voice/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879303503,
+      "method": "GET",
+      "path": "/api/copilot/tour",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879303503,
+      "method": "POST",
+      "path": "/api/feed/ping",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879303504,
+      "method": "GET",
+      "path": "/api/feed/inbox",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879303505,
+      "method": "GET",
+      "path": "/api/recruitment/openings",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879303506,
+      "method": "GET",
+      "path": "/api/recruitment/applications",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879303506,
+      "method": "GET",
+      "path": "/api/recruitment/candidates",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879303507,
+      "method": "GET",
+      "path": "/api/voice/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879303508,
+      "method": "GET",
+      "path": "/api/copilot/tour",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879303508,
+      "method": "POST",
+      "path": "/api/feed/ping",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879303508,
+      "method": "GET",
+      "path": "/api/stream",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879303749,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879303768,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/configuration",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879303837,
+      "method": "POST",
+      "path": "/api/voice/prepare",
+      "httpStatus": 503,
+      "error": "voiceDisabled"
+    },
+    {
+      "at": 1793879304790,
+      "method": "POST",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 201,
+      "version": 1
+    },
+    {
+      "at": 1793879304842,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879304856,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 1
+    },
+    {
+      "at": 1793879304867,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879304896,
+      "method": "POST",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/ready",
+      "expectedVersion": 1,
+      "httpStatus": 200,
+      "version": 2
+    },
+    {
+      "at": 1793879304920,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879304933,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 2
+    },
+    {
+      "at": 1793879304990,
+      "method": "POST",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/invitation",
+      "expectedVersion": 2,
+      "httpStatus": 200,
+      "version": 3
+    },
+    {
+      "at": 1793879305006,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879305029,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 3
+    },
+    {
+      "at": 1793879305127,
+      "method": "POST",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/revoke-invitation",
+      "expectedVersion": 3,
+      "httpStatus": 200,
+      "version": 4
+    },
+    {
+      "at": 1793879305149,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879305171,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 4
+    },
+    {
+      "at": 1793879307033,
+      "method": "POST",
+      "path": "/api/ai-interview/session/exchange",
+      "httpStatus": 401,
+      "error": "invitationInvalid"
+    },
+    {
+      "at": 1793879307748,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879307823,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 4
+    },
+    {
+      "at": 1793879308267,
+      "method": "POST",
+      "path": "/api/ai-interview/session/exchange",
+      "httpStatus": 401,
+      "error": "invitationInvalid"
+    },
+    {
+      "at": 1793879308360,
+      "method": "POST",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/invitation",
+      "expectedVersion": 4,
+      "httpStatus": 200,
+      "version": 5
+    },
+    {
+      "at": 1793879308430,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879308552,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 5
+    },
+    {
+      "at": 1793879309433,
+      "method": "POST",
+      "path": "/api/ai-interview/session/exchange",
+      "httpStatus": 401,
+      "error": "invitationInvalid"
+    },
+    {
+      "at": 1793879309547,
+      "method": "POST",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/invitation",
+      "expectedVersion": 5,
+      "httpStatus": 200,
+      "version": 6
+    },
+    {
+      "at": 1793879309577,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879309598,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 6
+    },
+    {
+      "at": 1793879311652,
+      "method": "POST",
+      "path": "/api/ai-interview/session/exchange",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879311676,
+      "method": "GET",
+      "path": "/api/ai-interview/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879311707,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879311714,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 6,
+      "speaking": false,
+      "phase": null
+    },
+    {
+      "at": 1793879311743,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 6
+    },
+    {
+      "at": 1793879311764,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879312037,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 6,
+      "speaking": false,
+      "phase": null
+    },
+    {
+      "at": 1793879312055,
+      "method": "POST",
+      "path": "/api/ai-interview/commands",
+      "command": "START_INTERVIEW",
+      "expectedVersion": 6,
+      "httpStatus": 409,
+      "error": "interviewConsentRequired"
+    },
+    {
+      "at": 1793879312112,
+      "method": "POST",
+      "path": "/api/ai-interview/commands",
+      "command": "ACCEPT_CONSENT",
+      "expectedVersion": 6,
+      "httpStatus": 200,
+      "version": 7,
+      "speaking": false,
+      "phase": null
+    },
+    {
+      "at": 1793879312966,
+      "method": "GET",
+      "path": "/api/ai-interview/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879312985,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 7,
+      "speaking": false,
+      "phase": null
+    },
+    {
+      "at": 1793879312998,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879313048,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 7,
+      "speaking": false,
+      "phase": null
+    },
+    {
+      "at": 1793879313247,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 7,
+      "speaking": false,
+      "phase": null
+    },
+    {
+      "at": 1793879313293,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 7,
+      "speaking": false,
+      "phase": null
+    },
+    {
+      "at": 1793879313306,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879313476,
+      "method": "POST",
+      "path": "/api/ai-interview/commands",
+      "command": "START_INTERVIEW",
+      "expectedVersion": 7,
+      "httpStatus": 200,
+      "version": 8,
+      "speaking": false,
+      "phase": "INTRO"
+    },
+    {
+      "at": 1793879314085,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 8,
+      "httpStatus": 200,
+      "version": 9,
+      "speaking": false,
+      "phase": "AI_SPEAKING"
+    },
+    {
+      "at": 1793879314473,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 9,
+      "speaking": false,
+      "phase": "AI_SPEAKING"
+    },
+    {
+      "at": 1793879314495,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "INTERVIEW_STARTED",
+        "QUESTION_PLAYBACK_STARTED"
+      ]
+    },
+    {
+      "at": 1793879315705,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879315716,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 9
+    },
+    {
+      "at": 1793879315972,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 9,
+      "speaking": false,
+      "phase": "AI_SPEAKING"
+    },
+    {
+      "at": 1793879315994,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879317316,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 9,
+      "httpStatus": 200,
+      "version": 10,
+      "speaking": false,
+      "phase": "NEXT_QUESTION"
+    },
+    {
+      "at": 1793879317470,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 10,
+      "speaking": false,
+      "phase": "NEXT_QUESTION"
+    },
+    {
+      "at": 1793879317490,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "QUESTION_PLAYBACK_FINISHED"
+      ]
+    },
+    {
+      "at": 1793879317610,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 10,
+      "httpStatus": 200,
+      "version": 11,
+      "speaking": false,
+      "phase": "AI_SPEAKING"
+    },
+    {
+      "at": 1793879317809,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 11,
+      "httpStatus": 200,
+      "version": 12,
+      "speaking": true,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879317899,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 12,
+      "speaking": true,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879318357,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 12,
+      "speaking": true,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879318406,
+      "method": "POST",
+      "path": "/api/ai-interview/answers/submit",
+      "expectedVersion": 12,
+      "httpStatus": 200,
+      "version": 14,
+      "speaking": false,
+      "phase": "PROCESSING"
+    },
+    {
+      "at": 1793879318969,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 15,
+      "speaking": false,
+      "phase": "FOLLOW_UP"
+    },
+    {
+      "at": 1793879318990,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "QUESTION_PLAYBACK_STARTED",
+        "ANSWER_LISTENING_STARTED",
+        "CANDIDATE_SPEECH_STARTED",
+        "CANDIDATE_SPEECH_FINISHED",
+        "CANDIDATE_ANSWER_FINALIZED"
+      ]
+    },
+    {
+      "at": 1793879319049,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 15,
+      "speaking": false,
+      "phase": "FOLLOW_UP"
+    },
+    {
+      "at": 1793879319080,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 15,
+      "httpStatus": 200,
+      "version": 16,
+      "speaking": false,
+      "phase": "AI_SPEAKING"
+    },
+    {
+      "at": 1793879319118,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 16,
+      "httpStatus": 200,
+      "version": 17,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879319168,
+      "method": "POST",
+      "path": "/api/ai-interview/answers/submit",
+      "expectedVersion": 17,
+      "httpStatus": 200,
+      "version": 20,
+      "speaking": false,
+      "phase": "PROCESSING"
+    },
+    {
+      "at": 1793879319697,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879319711,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 21
+    },
+    {
+      "at": 1793879320468,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 21,
+      "speaking": false,
+      "phase": "CLARIFICATION"
+    },
+    {
+      "at": 1793879320490,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "QUESTION_PLAYBACK_STARTED",
+        "QUESTION_PLAYBACK_FINISHED",
+        "ANSWER_LISTENING_STARTED",
+        "CANDIDATE_SPEECH_STARTED",
+        "CANDIDATE_SPEECH_FINISHED",
+        "CANDIDATE_ANSWER_FINALIZED"
+      ]
+    },
+    {
+      "at": 1793879320539,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 21,
+      "httpStatus": 200,
+      "version": 22,
+      "speaking": false,
+      "phase": "AI_SPEAKING"
+    },
+    {
+      "at": 1793879320643,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 22,
+      "httpStatus": 200,
+      "version": 23,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879320740,
+      "method": "POST",
+      "path": "/api/ai-interview/commands",
+      "command": "CANDIDATE_SPEECH_STARTED",
+      "expectedVersion": 23,
+      "httpStatus": 409,
+      "error": "interviewVersionConflict"
+    },
+    {
+      "at": 1793879320754,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 23,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879320768,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "QUESTION_PLAYBACK_STARTED",
+        "QUESTION_PLAYBACK_FINISHED",
+        "ANSWER_LISTENING_STARTED",
+        "ANSWER_WARNING"
+      ]
+    },
+    {
+      "at": 1793879320851,
+      "method": "POST",
+      "path": "/api/ai-interview/commands",
+      "command": "CANDIDATE_SPEECH_STARTED",
+      "expectedVersion": 23,
+      "httpStatus": 200,
+      "version": 24,
+      "speaking": true,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879320928,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 24,
+      "speaking": true,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879321311,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 24,
+      "speaking": true,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879321976,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 25,
+      "speaking": true,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879321994,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "CANDIDATE_SPEECH_STARTED"
+      ]
+    },
+    {
+      "at": 1793879322040,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 25,
+      "speaking": true,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879322188,
+      "method": "POST",
+      "path": "/api/ai-interview/answers/submit",
+      "expectedVersion": 25,
+      "httpStatus": 200,
+      "version": 27,
+      "speaking": false,
+      "phase": "PROCESSING"
+    },
+    {
+      "at": 1793879323475,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 28,
+      "speaking": false,
+      "phase": "NEXT_QUESTION"
+    },
+    {
+      "at": 1793879323495,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "CANDIDATE_SPEECH_FINISHED",
+        "CANDIDATE_ANSWER_FINALIZED"
+      ]
+    },
+    {
+      "at": 1793879323559,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 28,
+      "httpStatus": 200,
+      "version": 29,
+      "speaking": false,
+      "phase": "AI_SPEAKING"
+    },
+    {
+      "at": 1793879323595,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 29,
+      "httpStatus": 200,
+      "version": 30,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879323696,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879323709,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 30
+    },
+    {
+      "at": 1793879323731,
+      "method": "POST",
+      "path": "/api/ai-interview/answers/submit",
+      "expectedVersion": 30,
+      "httpStatus": 200,
+      "version": 33,
+      "speaking": false,
+      "phase": "PROCESSING"
+    },
+    {
+      "at": 1793879324980,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 34,
+      "speaking": false,
+      "phase": "NEXT_QUESTION"
+    },
+    {
+      "at": 1793879325001,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "QUESTION_PLAYBACK_STARTED",
+        "QUESTION_PLAYBACK_FINISHED",
+        "ANSWER_LISTENING_STARTED",
+        "CANDIDATE_SPEECH_STARTED",
+        "CANDIDATE_SPEECH_FINISHED",
+        "CANDIDATE_ANSWER_FINALIZED"
+      ]
+    },
+    {
+      "at": 1793879325096,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 34,
+      "httpStatus": 200,
+      "version": 35,
+      "speaking": false,
+      "phase": "AI_SPEAKING"
+    },
+    {
+      "at": 1793879325130,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 35,
+      "httpStatus": 200,
+      "version": 36,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879326482,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 36,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879326501,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "QUESTION_PLAYBACK_STARTED",
+        "QUESTION_PLAYBACK_FINISHED",
+        "ANSWER_LISTENING_STARTED"
+      ]
+    },
+    {
+      "at": 1793879326830,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 36,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879326841,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 36
+    },
+    {
+      "at": 1793879327207,
+      "method": "GET",
+      "path": "/api/ai-interview/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879327226,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 36,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879327242,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "INTERVIEW_STARTED",
+        "QUESTION_PLAYBACK_STARTED",
+        "QUESTION_PLAYBACK_FINISHED",
+        "QUESTION_PLAYBACK_STARTED",
+        "ANSWER_LISTENING_STARTED",
+        "CANDIDATE_SPEECH_STARTED",
+        "CANDIDATE_SPEECH_FINISHED",
+        "CANDIDATE_ANSWER_FINALIZED",
+        "QUESTION_PLAYBACK_STARTED",
+        "QUESTION_PLAYBACK_FINISHED",
+        "ANSWER_LISTENING_STARTED",
+        "CANDIDATE_SPEECH_STARTED",
+        "CANDIDATE_SPEECH_FINISHED",
+        "CANDIDATE_ANSWER_FINALIZED",
+        "QUESTION_PLAYBACK_STARTED",
+        "QUESTION_PLAYBACK_FINISHED",
+        "ANSWER_LISTENING_STARTED",
+        "ANSWER_WARNING",
+        "CANDIDATE_SPEECH_STARTED",
+        "CANDIDATE_SPEECH_FINISHED",
+        "CANDIDATE_ANSWER_FINALIZED",
+        "QUESTION_PLAYBACK_STARTED",
+        "QUESTION_PLAYBACK_FINISHED",
+        "ANSWER_LISTENING_STARTED",
+        "CANDIDATE_SPEECH_STARTED",
+        "CANDIDATE_SPEECH_FINISHED",
+        "CANDIDATE_ANSWER_FINALIZED",
+        "QUESTION_PLAYBACK_STARTED",
+        "QUESTION_PLAYBACK_FINISHED",
+        "ANSWER_LISTENING_STARTED"
+      ]
+    },
+    {
+      "at": 1793879327281,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 36,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879327290,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 36
+    },
+    {
+      "at": 1793879327443,
+      "method": "POST",
+      "path": "/api/ai-interview/commands",
+      "command": "PAUSE_INTERVIEW",
+      "expectedVersion": 36,
+      "httpStatus": 200,
+      "version": 37,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879327464,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 37,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879327700,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879327711,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 37
+    },
+    {
+      "at": 1793879328714,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 37,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879328738,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "INTERVIEW_PAUSED"
+      ]
+    },
+    {
+      "at": 1793879329096,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 37,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879329227,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 37,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879329260,
+      "method": "POST",
+      "path": "/api/ai-interview/commands",
+      "command": "PAUSE_INTERVIEW",
+      "expectedVersion": 36,
+      "httpStatus": 200,
+      "version": 37,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879329282,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 37,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879329313,
+      "method": "POST",
+      "path": "/api/ai-interview/commands",
+      "command": "RESUME_INTERVIEW",
+      "expectedVersion": 37,
+      "httpStatus": 200,
+      "version": 38,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879329396,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 38,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879329440,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 38,
+      "httpStatus": 200,
+      "version": 39,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879329526,
+      "method": "GET",
+      "path": "/api/ai-interview/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879329545,
+      "method": "POST",
+      "path": "/api/ai-interview/commands",
+      "command": "RESUME_INTERVIEW",
+      "expectedVersion": 39,
+      "httpStatus": 200,
+      "version": 40,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879329563,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 40,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879329590,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "INTERVIEW_RESUMED",
+        "INTERVIEW_PAUSED",
+        "INTERVIEW_RESUMED"
+      ]
+    },
+    {
+      "at": 1793879329630,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 40,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879329658,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 40,
+      "httpStatus": 200,
+      "version": 41,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879329677,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 41,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879329707,
+      "method": "POST",
+      "path": "/api/ai-interview/commands",
+      "command": "RESUME_INTERVIEW",
+      "expectedVersion": 41,
+      "httpStatus": 200,
+      "version": 42,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879330247,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 42,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879330278,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "INTERVIEW_RESUMED"
+      ]
+    },
+    {
+      "at": 1793879330288,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 42,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879330407,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 42
+    },
+    {
+      "at": 1793879330422,
+      "method": "POST",
+      "path": "/api/recruitment/applications/b794f24a-bb40-4b12-a024-a2bfa29b3522/ai-interviews",
+      "httpStatus": 201,
+      "version": 1
+    },
+    {
+      "at": 1793879330442,
+      "method": "POST",
+      "path": "/api/recruitment/applications/b794f24a-bb40-4b12-a024-a2bfa29b3522/ai-interviews/b3b92b91-7ff5-414b-b48f-1caa56253dcc/ready",
+      "expectedVersion": 1,
+      "httpStatus": 200,
+      "version": 2
+    },
+    {
+      "at": 1793879330463,
+      "method": "POST",
+      "path": "/api/recruitment/applications/b794f24a-bb40-4b12-a024-a2bfa29b3522/ai-interviews/b3b92b91-7ff5-414b-b48f-1caa56253dcc/invitation",
+      "expectedVersion": 2,
+      "httpStatus": 200,
+      "version": 3
+    },
+    {
+      "at": 1793879330479,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 42,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879330488,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 401,
+      "error": "candidateSessionInvalid"
+    },
+    {
+      "at": 1793879330497,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 401,
+      "error": "candidateSessionInvalid"
+    },
+    {
+      "at": 1793879330505,
+      "method": "POST",
+      "path": "/api/ai-interview/commands",
+      "command": "CANCEL_INTERVIEW",
+      "expectedVersion": 42,
+      "httpStatus": 401,
+      "error": "candidateSessionInvalid"
+    },
+    {
+      "at": 1793879330514,
+      "method": "POST",
+      "path": "/api/ai-interview/commands",
+      "command": "RESUME_INTERVIEW",
+      "expectedVersion": 42,
+      "httpStatus": 401,
+      "error": "candidateSessionInvalid"
+    },
+    {
+      "at": 1793879330522,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 42,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879330530,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 0,
+      "httpStatus": 401,
+      "error": "candidateSessionInvalid"
+    },
+    {
+      "at": 1793879330540,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 42,
+      "httpStatus": 422,
+      "error": "validationFailed"
+    },
+    {
+      "at": 1793879330547,
+      "method": "POST",
+      "path": "/api/ai-interview/commands",
+      "command": "GENERATE_EVALUATION",
+      "expectedVersion": 42,
+      "httpStatus": 422,
+      "error": "validationFailed"
+    },
+    {
+      "at": 1793879330555,
+      "method": "GET",
+      "path": "/api/ai-interview/production/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879330565,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 42,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879330575,
+      "method": "POST",
+      "path": "/api/ai-interview/production/dev/mock",
+      "expectedVersion": 42,
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879330582,
+      "method": "POST",
+      "path": "/api/ai-interview/production/commands",
+      "command": "START_INTERVIEW",
+      "expectedVersion": 42,
+      "httpStatus": 503,
+      "error": "interviewProviderUnavailable"
+    },
+    {
+      "at": 1793879331028,
+      "method": "POST",
+      "path": "/api/ai-interview/session/exchange",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879331048,
+      "method": "GET",
+      "path": "/api/ai-interview/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879331065,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 3,
+      "speaking": false,
+      "phase": null
+    },
+    {
+      "at": 1793879331082,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879331117,
+      "method": "POST",
+      "path": "/api/ai-interview/commands",
+      "command": "ACCEPT_CONSENT",
+      "expectedVersion": 3,
+      "httpStatus": 200,
+      "version": 4,
+      "speaking": false,
+      "phase": null
+    },
+    {
+      "at": 1793879331696,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879331713,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 42,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879331751,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 42
+    },
+    {
+      "at": 1793879331835,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879332162,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 401,
+      "error": "notAuthenticated"
+    },
+    {
+      "at": 1793879332162,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 401,
+      "error": "notAuthenticated"
+    },
+    {
+      "at": 1793879332230,
+      "method": "POST",
+      "path": "/api/auth/login",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879332357,
+      "method": "GET",
+      "path": "/api/stream",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879332810,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879332810,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879332873,
+      "method": "GET",
+      "path": "/api/feed/inbox",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879332879,
+      "method": "GET",
+      "path": "/api/voice/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879332880,
+      "method": "GET",
+      "path": "/api/copilot/tour",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879332880,
+      "method": "POST",
+      "path": "/api/feed/ping",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879332880,
+      "method": "GET",
+      "path": "/api/feed/inbox",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879332882,
+      "method": "GET",
+      "path": "/api/voice/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879332883,
+      "method": "GET",
+      "path": "/api/copilot/tour",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879332884,
+      "method": "POST",
+      "path": "/api/feed/ping",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879332884,
+      "method": "GET",
+      "path": "/api/stream",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879332957,
+      "method": "GET",
+      "path": "/api/attendance/me",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879332957,
+      "method": "GET",
+      "path": "/api/stats/team",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879332958,
+      "method": "GET",
+      "path": "/api/attendance/team",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879332958,
+      "method": "GET",
+      "path": "/api/requests/inbox",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879332959,
+      "method": "GET",
+      "path": "/api/feed/announcements",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879332959,
+      "method": "GET",
+      "path": "/api/attendance/me",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879332960,
+      "method": "GET",
+      "path": "/api/stats/team",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879332960,
+      "method": "GET",
+      "path": "/api/attendance/team",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879332960,
+      "method": "GET",
+      "path": "/api/requests/inbox",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879332960,
+      "method": "GET",
+      "path": "/api/feed/announcements",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879333209,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 42,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879333228,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879333270,
+      "method": "POST",
+      "path": "/api/voice/prepare",
+      "httpStatus": 503,
+      "error": "voiceDisabled"
+    },
+    {
+      "at": 1793879333626,
+      "method": "POST",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 403,
+      "error": "forbidden"
+    },
+    {
+      "at": 1793879334711,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 42,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879334755,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879334913,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 401,
+      "error": "notAuthenticated"
+    },
+    {
+      "at": 1793879334914,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 401,
+      "error": "notAuthenticated"
+    },
+    {
+      "at": 1793879335062,
+      "method": "POST",
+      "path": "/api/auth/login",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879335255,
+      "method": "GET",
+      "path": "/api/stream",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879335695,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879335894,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 42
+    },
+    {
+      "at": 1793879336209,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879336209,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879336213,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 42,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879336263,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879336447,
+      "method": "GET",
+      "path": "/api/feed/inbox",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879336448,
+      "method": "GET",
+      "path": "/api/recruitment/openings",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879336451,
+      "method": "GET",
+      "path": "/api/recruitment/applications",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879336454,
+      "method": "GET",
+      "path": "/api/recruitment/candidates",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879336455,
+      "method": "GET",
+      "path": "/api/voice/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879336457,
+      "method": "GET",
+      "path": "/api/copilot/tour",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879336462,
+      "method": "POST",
+      "path": "/api/feed/ping",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879336463,
+      "method": "GET",
+      "path": "/api/feed/inbox",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879336463,
+      "method": "GET",
+      "path": "/api/recruitment/openings",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879336464,
+      "method": "GET",
+      "path": "/api/recruitment/applications",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879336466,
+      "method": "GET",
+      "path": "/api/recruitment/candidates",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879336482,
+      "method": "GET",
+      "path": "/api/voice/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879336482,
+      "method": "GET",
+      "path": "/api/copilot/tour",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879336483,
+      "method": "POST",
+      "path": "/api/feed/ping",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879336483,
+      "method": "GET",
+      "path": "/api/stream",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879336663,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879336716,
+      "method": "POST",
+      "path": "/api/ai-interview/answers/submit",
+      "expectedVersion": 42,
+      "httpStatus": 200,
+      "version": 45,
+      "speaking": false,
+      "phase": "PROCESSING"
+    },
+    {
+      "at": 1793879336769,
+      "method": "POST",
+      "path": "/api/voice/prepare",
+      "httpStatus": 503,
+      "error": "voiceDisabled"
+    },
+    {
+      "at": 1793879337057,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 4,
+      "speaking": false,
+      "phase": null
+    },
+    {
+      "at": 1793879337073,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879337720,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 46,
+      "speaking": false,
+      "phase": "CLOSING"
+    },
+    {
+      "at": 1793879337741,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "CANDIDATE_SPEECH_STARTED",
+        "CANDIDATE_SPEECH_FINISHED",
+        "CANDIDATE_ANSWER_FINALIZED"
+      ]
+    },
+    {
+      "at": 1793879338016,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 46,
+      "httpStatus": 200,
+      "version": 47,
+      "speaking": false,
+      "phase": "AI_SPEAKING"
+    },
+    {
+      "at": 1793879339217,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 47,
+      "speaking": false,
+      "phase": "AI_SPEAKING"
+    },
+    {
+      "at": 1793879339235,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "QUESTION_PLAYBACK_STARTED"
+      ]
+    },
+    {
+      "at": 1793879339703,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879339713,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 47
+    },
+    {
+      "at": 1793879340717,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 47,
+      "speaking": false,
+      "phase": "AI_SPEAKING"
+    },
+    {
+      "at": 1793879340737,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879341246,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 47,
+      "httpStatus": 200,
+      "version": 48,
+      "speaking": false,
+      "phase": "CLOSING"
+    },
+    {
+      "at": 1793879341454,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 48,
+      "speaking": false,
+      "phase": "CLOSING"
+    },
+    {
+      "at": 1793879341462,
+      "method": "POST",
+      "path": "/api/ai-interview/commands",
+      "command": "CANDIDATE_TRANSCRIPT_FINAL",
+      "expectedVersion": 48,
+      "httpStatus": 409,
+      "error": "INTERVIEW_TERMINAL"
+    },
+    {
+      "at": 1793879341479,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879341490,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3",
+      "httpStatus": 200,
+      "version": 48
+    },
+    {
+      "at": 1793879341746,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 48
+    },
+    {
+      "at": 1793879341808,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 48
+    },
+    {
+      "at": 1793879342092,
+      "method": "POST",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "expectedVersion": 48,
+      "httpStatus": 202
+    },
+    {
+      "at": 1793879342115,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 50
+    },
+    {
+      "at": 1793879343056,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 4,
+      "speaking": false,
+      "phase": null
+    },
+    {
+      "at": 1793879343073,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879343817,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 51
+    },
+    {
+      "at": 1793879343867,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 51
+    },
+    {
+      "at": 1793879344877,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 51
+    },
+    {
+      "at": 1793879344934,
+      "method": "POST",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation/1/review",
+      "expectedVersion": 51,
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879344945,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 52
+    },
+    {
+      "at": 1793879345391,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879345391,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879345450,
+      "method": "GET",
+      "path": "/api/feed/inbox",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879345452,
+      "method": "GET",
+      "path": "/api/voice/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879345458,
+      "method": "GET",
+      "path": "/api/copilot/tour",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879345459,
+      "method": "POST",
+      "path": "/api/feed/ping",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879345459,
+      "method": "GET",
+      "path": "/api/feed/inbox",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879345460,
+      "method": "GET",
+      "path": "/api/voice/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879345461,
+      "method": "GET",
+      "path": "/api/copilot/tour",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879345462,
+      "method": "POST",
+      "path": "/api/feed/ping",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879345463,
+      "method": "GET",
+      "path": "/api/stream",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879345464,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 52
+    },
+    {
+      "at": 1793879345756,
+      "method": "POST",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "expectedVersion": 52,
+      "httpStatus": 202
+    },
+    {
+      "at": 1793879345760,
+      "method": "POST",
+      "path": "/api/voice/prepare",
+      "httpStatus": 503,
+      "error": "voiceDisabled"
+    },
+    {
+      "at": 1793879345761,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 55
+    },
+    {
+      "at": 1793879345838,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 55
+    },
+    {
+      "at": 1793879345853,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 55
+    },
+    {
+      "at": 1793879345874,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 55
+    },
+    {
+      "at": 1793879345967,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 55
+    },
+    {
+      "at": 1793879346077,
+      "method": "POST",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "expectedVersion": 55,
+      "httpStatus": 202
+    },
+    {
+      "at": 1793879346081,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 58
+    },
+    {
+      "at": 1793879346166,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 58
+    },
+    {
+      "at": 1793879346385,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 58
+    },
+    {
+      "at": 1793879346409,
+      "method": "POST",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "expectedVersion": 58,
+      "httpStatus": 202
+    },
+    {
+      "at": 1793879346421,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 61
+    },
+    {
+      "at": 1793879346493,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 61
+    },
+    {
+      "at": 1793879346531,
+      "method": "POST",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "expectedVersion": 61,
+      "httpStatus": 202
+    },
+    {
+      "at": 1793879346534,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 63
+    },
+    {
+      "at": 1793879347967,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 64
+    },
+    {
+      "at": 1793879348046,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 64
+    },
+    {
+      "at": 1793879348276,
+      "method": "POST",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "expectedVersion": 64,
+      "httpStatus": 202
+    },
+    {
+      "at": 1793879348298,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 67
+    },
+    {
+      "at": 1793879348361,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 401,
+      "error": "notAuthenticated"
+    },
+    {
+      "at": 1793879348367,
+      "method": "POST",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation/1/review",
+      "expectedVersion": 0,
+      "httpStatus": 401,
+      "error": "notAuthenticated"
+    },
+    {
+      "at": 1793879348374,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 67,
+      "speaking": false,
+      "phase": "CLOSING"
+    },
+    {
+      "at": 1793879348382,
+      "method": "GET",
+      "path": "/api/ai-interview/evaluation",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879349062,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 4,
+      "speaking": false,
+      "phase": null
+    },
+    {
+      "at": 1793879349079,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879349385,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 401,
+      "error": "notAuthenticated"
+    },
+    {
+      "at": 1793879349386,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 401,
+      "error": "notAuthenticated"
+    },
+    {
+      "at": 1793879349469,
+      "method": "POST",
+      "path": "/api/auth/login",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879349622,
+      "method": "GET",
+      "path": "/api/stream",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879349635,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 403,
+      "error": "forbidden"
+    },
+    {
+      "at": 1793879349746,
+      "method": "GET",
+      "path": "/api/feed/inbox",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879349747,
+      "method": "GET",
+      "path": "/api/attendance/me",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879349747,
+      "method": "GET",
+      "path": "/api/stats/team",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879349748,
+      "method": "GET",
+      "path": "/api/attendance/team",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879349748,
+      "method": "GET",
+      "path": "/api/requests/inbox",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879349749,
+      "method": "GET",
+      "path": "/api/feed/announcements",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879349750,
+      "method": "GET",
+      "path": "/api/voice/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879349751,
+      "method": "GET",
+      "path": "/api/copilot/tour",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879349751,
+      "method": "POST",
+      "path": "/api/feed/ping",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879349751,
+      "method": "GET",
+      "path": "/api/feed/inbox",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879349752,
+      "method": "GET",
+      "path": "/api/attendance/me",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879349752,
+      "method": "GET",
+      "path": "/api/stats/team",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879349752,
+      "method": "GET",
+      "path": "/api/attendance/team",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879349753,
+      "method": "GET",
+      "path": "/api/requests/inbox",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879349753,
+      "method": "GET",
+      "path": "/api/feed/announcements",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879349753,
+      "method": "GET",
+      "path": "/api/voice/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879349754,
+      "method": "GET",
+      "path": "/api/copilot/tour",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879349754,
+      "method": "POST",
+      "path": "/api/feed/ping",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879349969,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 200,
+      "version": 67
+    },
+    {
+      "at": 1793879350177,
+      "method": "POST",
+      "path": "/api/voice/prepare",
+      "httpStatus": 503,
+      "error": "voiceDisabled"
+    },
+    {
+      "at": 1793879350729,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 401,
+      "error": "notAuthenticated"
+    },
+    {
+      "at": 1793879350729,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 401,
+      "error": "notAuthenticated"
+    },
+    {
+      "at": 1793879350804,
+      "method": "POST",
+      "path": "/api/auth/login",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879350904,
+      "method": "GET",
+      "path": "/api/stream",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879350957,
+      "method": "GET",
+      "path": "/api/feed/inbox",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879350957,
+      "method": "GET",
+      "path": "/api/attendance/me",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879350958,
+      "method": "GET",
+      "path": "/api/requests/me",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879350958,
+      "method": "GET",
+      "path": "/api/feed/notifications",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879350959,
+      "method": "GET",
+      "path": "/api/feed/announcements",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879350960,
+      "method": "GET",
+      "path": "/api/payroll/me",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879350960,
+      "method": "GET",
+      "path": "/api/employees/e1101f33-34d8-4774-a7c2-c85e8a80657d/documents",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879350960,
+      "method": "GET",
+      "path": "/api/voice/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879350961,
+      "method": "GET",
+      "path": "/api/copilot/tour",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879350961,
+      "method": "POST",
+      "path": "/api/feed/ping",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879350962,
+      "method": "GET",
+      "path": "/api/feed/inbox",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879350962,
+      "method": "GET",
+      "path": "/api/attendance/me",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879350963,
+      "method": "GET",
+      "path": "/api/requests/me",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879350963,
+      "method": "GET",
+      "path": "/api/feed/notifications",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879350963,
+      "method": "GET",
+      "path": "/api/feed/announcements",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879350964,
+      "method": "GET",
+      "path": "/api/payroll/me",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879350964,
+      "method": "GET",
+      "path": "/api/employees/e1101f33-34d8-4774-a7c2-c85e8a80657d/documents",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879350964,
+      "method": "GET",
+      "path": "/api/voice/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879350965,
+      "method": "GET",
+      "path": "/api/copilot/tour",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879350965,
+      "method": "POST",
+      "path": "/api/feed/ping",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879350998,
+      "method": "GET",
+      "path": "/api/recruitment/applications/45eb52a3-9da3-4914-9de9-508fe3d5f2e9/ai-interviews/1fdbe34b-5fde-4810-ad25-2e6863fa2ea3/evaluation",
+      "httpStatus": 403,
+      "error": "forbidden"
+    },
+    {
+      "at": 1793879351275,
+      "method": "POST",
+      "path": "/api/voice/prepare",
+      "httpStatus": 503,
+      "error": "voiceDisabled"
+    },
+    {
+      "at": 1793879351891,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879351896,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879352029,
+      "method": "GET",
+      "path": "/api/feed/inbox",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879352030,
+      "method": "GET",
+      "path": "/api/voice/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879352030,
+      "method": "GET",
+      "path": "/api/copilot/tour",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879352031,
+      "method": "POST",
+      "path": "/api/feed/ping",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879352032,
+      "method": "GET",
+      "path": "/api/feed/inbox",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879352035,
+      "method": "GET",
+      "path": "/api/voice/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879352037,
+      "method": "GET",
+      "path": "/api/copilot/tour",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879352037,
+      "method": "POST",
+      "path": "/api/feed/ping",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879352056,
+      "method": "GET",
+      "path": "/api/stream",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879352056,
+      "method": "GET",
+      "path": "/api/recruitment/applications/065820a6-6f54-4bf7-9f61-61ccf761448f/ai-interviews/ecc9af8a-97e3-45cc-a7f8-8654440fb276/evaluation",
+      "httpStatus": 200,
+      "version": 21
+    },
+    {
+      "at": 1793879352153,
+      "method": "POST",
+      "path": "/api/recruitment/applications/065820a6-6f54-4bf7-9f61-61ccf761448f/ai-interviews/ecc9af8a-97e3-45cc-a7f8-8654440fb276/evaluation",
+      "expectedVersion": 21,
+      "httpStatus": 202
+    },
+    {
+      "at": 1793879352174,
+      "method": "GET",
+      "path": "/api/recruitment/applications/065820a6-6f54-4bf7-9f61-61ccf761448f/ai-interviews/ecc9af8a-97e3-45cc-a7f8-8654440fb276/evaluation",
+      "httpStatus": 200,
+      "version": 24
+    },
+    {
+      "at": 1793879352268,
+      "method": "GET",
+      "path": "/api/recruitment/applications/065820a6-6f54-4bf7-9f61-61ccf761448f/ai-interviews/ecc9af8a-97e3-45cc-a7f8-8654440fb276/evaluation",
+      "httpStatus": 200,
+      "version": 24
+    },
+    {
+      "at": 1793879353032,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879353038,
+      "method": "GET",
+      "path": "/api/auth/me",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879353198,
+      "method": "GET",
+      "path": "/api/feed/inbox",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879353202,
+      "method": "GET",
+      "path": "/api/voice/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879353203,
+      "method": "GET",
+      "path": "/api/copilot/tour",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879353204,
+      "method": "POST",
+      "path": "/api/feed/ping",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879353205,
+      "method": "GET",
+      "path": "/api/feed/inbox",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879353206,
+      "method": "GET",
+      "path": "/api/voice/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879353206,
+      "method": "GET",
+      "path": "/api/copilot/tour",
+      "httpStatus": 404
+    },
+    {
+      "at": 1793879353207,
+      "method": "POST",
+      "path": "/api/feed/ping",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879353208,
+      "method": "GET",
+      "path": "/api/stream",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879353208,
+      "method": "GET",
+      "path": "/api/recruitment/applications/065820a6-6f54-4bf7-9f61-61ccf761448f/ai-interviews/ecc9af8a-97e3-45cc-a7f8-8654440fb276/evaluation",
+      "httpStatus": 200,
+      "version": 24
+    },
+    {
+      "at": 1793879353503,
+      "method": "POST",
+      "path": "/api/voice/prepare",
+      "httpStatus": 503,
+      "error": "voiceDisabled"
+    },
+    {
+      "at": 1793879354529,
+      "method": "GET",
+      "path": "/api/ai-interview/config",
+      "httpStatus": 200
+    },
+    {
+      "at": 1793879354554,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 4,
+      "speaking": false,
+      "phase": null
+    },
+    {
+      "at": 1793879354573,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879354626,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 4,
+      "speaking": false,
+      "phase": null
+    },
+    {
+      "at": 1793879354641,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879354657,
+      "method": "POST",
+      "path": "/api/ai-interview/commands",
+      "command": "START_INTERVIEW",
+      "expectedVersion": 4,
+      "httpStatus": 200,
+      "version": 5,
+      "speaking": false,
+      "phase": "INTRO"
+    },
+    {
+      "at": 1793879355193,
+      "method": "GET",
+      "path": "/api/recruitment/applications/065820a6-6f54-4bf7-9f61-61ccf761448f/ai-interviews/ecc9af8a-97e3-45cc-a7f8-8654440fb276/evaluation",
+      "httpStatus": 200,
+      "version": 24
+    },
+    {
+      "at": 1793879355268,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 5,
+      "httpStatus": 200,
+      "version": 6,
+      "speaking": false,
+      "phase": "AI_SPEAKING"
+    },
+    {
+      "at": 1793879356032,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 6,
+      "speaking": false,
+      "phase": "AI_SPEAKING"
+    },
+    {
+      "at": 1793879356054,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "INTERVIEW_STARTED",
+        "QUESTION_PLAYBACK_STARTED"
+      ]
+    },
+    {
+      "at": 1793879357200,
+      "method": "GET",
+      "path": "/api/recruitment/applications/065820a6-6f54-4bf7-9f61-61ccf761448f/ai-interviews/ecc9af8a-97e3-45cc-a7f8-8654440fb276/evaluation",
+      "httpStatus": 200,
+      "version": 24
+    },
+    {
+      "at": 1793879357534,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 6,
+      "speaking": false,
+      "phase": "AI_SPEAKING"
+    },
+    {
+      "at": 1793879357557,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879358507,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 6,
+      "httpStatus": 200,
+      "version": 7,
+      "speaking": false,
+      "phase": "NEXT_QUESTION"
+    },
+    {
+      "at": 1793879358793,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 7,
+      "httpStatus": 200,
+      "version": 8,
+      "speaking": false,
+      "phase": "AI_SPEAKING"
+    },
+    {
+      "at": 1793879359055,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 8,
+      "speaking": false,
+      "phase": "AI_SPEAKING"
+    },
+    {
+      "at": 1793879359086,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "QUESTION_PLAYBACK_FINISHED",
+        "QUESTION_PLAYBACK_STARTED"
+      ]
+    },
+    {
+      "at": 1793879359198,
+      "method": "GET",
+      "path": "/api/recruitment/applications/065820a6-6f54-4bf7-9f61-61ccf761448f/ai-interviews/ecc9af8a-97e3-45cc-a7f8-8654440fb276/evaluation",
+      "httpStatus": 200,
+      "version": 24
+    },
+    {
+      "at": 1793879360534,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 8,
+      "speaking": false,
+      "phase": "AI_SPEAKING"
+    },
+    {
+      "at": 1793879360553,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879361200,
+      "method": "GET",
+      "path": "/api/recruitment/applications/065820a6-6f54-4bf7-9f61-61ccf761448f/ai-interviews/ecc9af8a-97e3-45cc-a7f8-8654440fb276/evaluation",
+      "httpStatus": 200,
+      "version": 24
+    },
+    {
+      "at": 1793879362022,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 8,
+      "httpStatus": 200,
+      "version": 9,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879362044,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 9,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879362066,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "QUESTION_PLAYBACK_FINISHED",
+        "ANSWER_LISTENING_STARTED"
+      ]
+    },
+    {
+      "at": 1793879363200,
+      "method": "GET",
+      "path": "/api/recruitment/applications/065820a6-6f54-4bf7-9f61-61ccf761448f/ai-interviews/ecc9af8a-97e3-45cc-a7f8-8654440fb276/evaluation",
+      "httpStatus": 200,
+      "version": 24
+    },
+    {
+      "at": 1793879363540,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 10,
+      "speaking": false,
+      "phase": "PROCESSING"
+    },
+    {
+      "at": 1793879363565,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "ANSWER_WARNING",
+        "ANSWER_TIMEOUT",
+        "CANDIDATE_ANSWER_FINALIZED"
+      ]
+    },
+    {
+      "at": 1793879365039,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 11,
+      "speaking": false,
+      "phase": "CLARIFICATION"
+    },
+    {
+      "at": 1793879365063,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879365134,
+      "method": "GET",
+      "path": "/api/recruitment/applications/b794f24a-bb40-4b12-a024-a2bfa29b3522/ai-interviews/b3b92b91-7ff5-414b-b48f-1caa56253dcc",
+      "httpStatus": 200,
+      "version": 11
+    },
+    {
+      "at": 1793879365184,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 11,
+      "httpStatus": 200,
+      "version": 12,
+      "speaking": false,
+      "phase": "AI_SPEAKING"
+    },
+    {
+      "at": 1793879365193,
+      "method": "GET",
+      "path": "/api/recruitment/applications/065820a6-6f54-4bf7-9f61-61ccf761448f/ai-interviews/ecc9af8a-97e3-45cc-a7f8-8654440fb276/evaluation",
+      "httpStatus": 200,
+      "version": 24
+    },
+    {
+      "at": 1793879365227,
+      "method": "POST",
+      "path": "/api/ai-interview/dev/mock",
+      "expectedVersion": 12,
+      "httpStatus": 200,
+      "version": 13,
+      "speaking": false,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879365341,
+      "method": "POST",
+      "path": "/api/ai-interview/commands",
+      "command": "CANDIDATE_SPEECH_STARTED",
+      "expectedVersion": 13,
+      "httpStatus": 200,
+      "version": 14,
+      "speaking": true,
+      "phase": "LISTENING"
+    },
+    {
+      "at": 1793879366541,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 15,
+      "speaking": false,
+      "phase": "PROCESSING"
+    },
+    {
+      "at": 1793879366561,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": [
+        "QUESTION_PLAYBACK_STARTED",
+        "QUESTION_PLAYBACK_FINISHED",
+        "ANSWER_LISTENING_STARTED",
+        "ANSWER_WARNING",
+        "CANDIDATE_SPEECH_STARTED",
+        "CANDIDATE_ANSWER_FINALIZED"
+      ]
+    },
+    {
+      "at": 1793879367199,
+      "method": "GET",
+      "path": "/api/recruitment/applications/065820a6-6f54-4bf7-9f61-61ccf761448f/ai-interviews/ecc9af8a-97e3-45cc-a7f8-8654440fb276/evaluation",
+      "httpStatus": 200,
+      "version": 24
+    },
+    {
+      "at": 1793879368033,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 200,
+      "version": 16,
+      "speaking": false,
+      "phase": "NEXT_QUESTION"
+    },
+    {
+      "at": 1793879368054,
+      "method": "GET",
+      "path": "/api/ai-interview/events",
+      "httpStatus": 200,
+      "eventTypes": []
+    },
+    {
+      "at": 1793879368083,
+      "method": "GET",
+      "path": "/api/recruitment/applications/b794f24a-bb40-4b12-a024-a2bfa29b3522/ai-interviews/b3b92b91-7ff5-414b-b48f-1caa56253dcc",
+      "httpStatus": 200,
+      "version": 16
+    },
+    {
+      "at": 1793879369195,
+      "method": "GET",
+      "path": "/api/recruitment/applications/065820a6-6f54-4bf7-9f61-61ccf761448f/ai-interviews/ecc9af8a-97e3-45cc-a7f8-8654440fb276/evaluation",
+      "httpStatus": 200,
+      "version": 24
+    },
+    {
+      "at": 1793879369539,
+      "method": "GET",
+      "path": "/api/ai-interview/state",
+      "httpStatus": 401,
+      "error": "candidateSessionInvalid"
+    }
+  ]
+}

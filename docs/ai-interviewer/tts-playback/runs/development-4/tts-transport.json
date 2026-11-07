@@ -1,0 +1,13 @@
+{
+  "id": "tts-transport",
+  "protection": "Synthetic TTS/downlink/lease/STOP/clock/session/security",
+  "command": "npm.cmd run check:ai-interviewer:tts -w @hr/server",
+  "startedAt": "2026-11-05T08:38:21.228Z",
+  "finishedAt": "2026-11-05T08:38:46.987Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 5,
+  "outputLog": "tts-transport.log",
+  "passLines": 29
+}

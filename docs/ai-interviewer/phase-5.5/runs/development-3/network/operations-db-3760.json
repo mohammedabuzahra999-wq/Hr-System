@@ -1,0 +1,8 @@
+{
+  "suite": "operations-db",
+  "socketConnectionsAllowed": 6,
+  "fetchCallsAllowed": 0,
+  "blockedExternalAttempts": 0,
+  "suppressedFixtureWrites": 0,
+  "suppressedScreenshots": 0
+}

@@ -1,0 +1,34 @@
+PASS production absent/invalid/synthetic providers fail closed without calls
+PASS trusted connection/STT/idempotent-play requirements cannot be omitted
+PASS health unavailable/malformed/timeout is unhealthy and cannot bind
+PASS audio consent and trusted connection precede real START
+PASS provider receives data only; TTS dispatch alone cannot acknowledge playback
+PASS playback completion requires start; wrong effect cannot advance
+PASS playback duplicate receipt is deterministic; different-ID duplicate is rejected
+PASS trusted STT final plus speech finish commits one durable answer
+PASS speech end before final transcript is safe and finalizes exactly once
+PASS duplicate final transcript same ID reconciles without another answer
+PASS conflicting event identity and repeated final with new ID fail safely
+PASS STT timeout pauses safely without a committed answer
+PASS STT unavailable pauses safely without a committed answer
+PASS STT malformed pauses safely without a committed answer
+PASS late STT after timeout cannot overwrite new generation answer
+C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\engine.ts:52
+    if (!condition) throw new InterviewDomainError(code)
+                          ^
+
+InterviewDomainError: ILLEGAL_TRANSITION
+    at InterviewEngine.require (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\engine.ts:52:27)
+    at InterviewEngine.apply (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\engine.ts:321:10)
+    at InterviewEngine.dispatch (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\engine.ts:71:12)
+    at <anonymous> (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\service.ts:231:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async NodePgSession.transaction (C:\Users\PC-LAB\Downloads\hr-app-step2\node_modules\src\node-postgres\session.ts:259:19)
+    at async InterviewService.executeOperation (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\service.ts:165:20)
+    at async <anonymous> (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\delivery.check.ts:169:175)
+    at async check (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\delivery.check.ts:104:78)
+    at async <anonymous> (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\delivery.check.ts:167:3) {
+  code: 'ILLEGAL_TRANSITION'
+}
+
+Node.js v24.15.0

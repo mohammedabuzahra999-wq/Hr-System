@@ -1,0 +1,35 @@
+{
+  "packages": [
+    {
+      "name": "phase-5.1-baseline",
+      "artifactManifestSHA256": "3b01f58e0cddec15899ec91651fe6486c5b232b01c09af5168597014b451de67",
+      "artifactHashMatchesAccepted": true,
+      "sourceManifestSHA256": "06ac18d29b06e876909a32c41ef83f42da24929fa860bf4b85560d38d2a38163",
+      "sourceHashMatchesAccepted": true,
+      "files": 96,
+      "changes": []
+    },
+    {
+      "name": "phase-5.2",
+      "artifactManifestSHA256": "c5d85704933ccba6e5b804c5d4a7caf613a2d39daf8ad2f2fe7c537a0f146342",
+      "artifactHashMatchesAccepted": true,
+      "sourceManifestSHA256": "f46c6b5170f48ee3c3ddc93cdea0d1e430ec04fc95757a87053e08c81bd96b6f",
+      "sourceHashMatchesAccepted": true,
+      "files": 394,
+      "changes": []
+    },
+    {
+      "name": "phase-5.3",
+      "artifactManifestSHA256": "8e427a5393159a4c63cff039da95a2f2ecc9a00a146e2194a395af1fe1cfa900",
+      "artifactHashMatchesAccepted": true,
+      "sourceManifestSHA256": "b121f79f7d8fef4bad55357e37ecffc33ecb528b5bd1d704c9809ced3265e2e8",
+      "sourceHashMatchesAccepted": true,
+      "files": 162,
+      "changes": []
+    }
+  ],
+  "earlierEvidence": {
+    "files": 608,
+    "changes": []
+  }
+}

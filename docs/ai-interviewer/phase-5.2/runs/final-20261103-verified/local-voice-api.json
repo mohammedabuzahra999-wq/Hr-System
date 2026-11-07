@@ -1,0 +1,13 @@
+{
+  "id": "local-voice-api",
+  "protection": "local voice adapter/ownership/no cloud fallback (mock)",
+  "command": "npm.cmd run check:voice:local -w @hr/server [component 1/4]",
+  "startedAt": "2026-11-03T09:06:30.421Z",
+  "finishedAt": "2026-11-03T09:06:31.985Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "local-voice-api.log",
+  "passLines": 3
+}

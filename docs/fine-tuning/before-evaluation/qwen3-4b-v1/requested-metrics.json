@@ -1,0 +1,256 @@
+{
+  "version": "CEB-BEFORE-REQUESTED-METRICS-1",
+  "created": "2026-10-26T02:05:58.664Z",
+  "source": "Derived from unchanged original per-case scores and durable event ledger; no rescoring, retries, gold/prompt/settings changes or inference",
+  "status": "COMPLETE_WITH_LIMITATIONS",
+  "casesExecuted": 404,
+  "uniqueCases": 404,
+  "actualModelRequests": 384,
+  "uniqueModelRequestedCases": 384,
+  "unretriedRequestProof": "one modelRequest per distinct case index",
+  "modelHttpResponses": 378,
+  "modelProviderFailures": 6,
+  "reconciliation": {
+    "coreCaseAttemptCount": 383,
+    "ledgerActualRequests": 384,
+    "missingCoreAttemptFlags": [
+      174
+    ],
+    "explanation": "Parent timeout retained bounded failure while the separately fsynced ledger preserved its started request. Original core aggregate remains unchanged."
+  },
+  "intentAttemptWide": {
+    "passed": 325,
+    "denominator": 380,
+    "percent": 85.52631578947368
+  },
+  "intentObserved": {
+    "passed": 325,
+    "denominator": 379,
+    "percent": 85.75197889182058
+  },
+  "annotatedEntityObserved": {
+    "passed": 172,
+    "denominator": 361,
+    "percent": 47.64542936288089
+  },
+  "frozenAnnotationExact": {
+    "passed": 105,
+    "denominator": 404,
+    "percent": 25.99009900990099
+  },
+  "strictFullPlanAccuracy": "NOT_AVAILABLE_F_GOLDS_ARE_ANNOTATED_FIELDS_ONLY",
+  "language": {
+    "en": {
+      "cases": 101,
+      "intentAttemptWide": {
+        "passed": 85,
+        "denominator": 95,
+        "percent": 89.47368421052632
+      },
+      "annotatedEntityObserved": {
+        "passed": 44,
+        "denominator": 90,
+        "percent": 48.888888888888886
+      },
+      "frozenAnnotationExact": {
+        "passed": 27,
+        "denominator": 101,
+        "percent": 26.73267326732673
+      }
+    },
+    "ar-MSA": {
+      "cases": 101,
+      "intentAttemptWide": {
+        "passed": 78,
+        "denominator": 95,
+        "percent": 82.10526315789474
+      },
+      "annotatedEntityObserved": {
+        "passed": 38,
+        "denominator": 89,
+        "percent": 42.69662921348315
+      },
+      "frozenAnnotationExact": {
+        "passed": 26,
+        "denominator": 101,
+        "percent": 25.742574257425744
+      }
+    },
+    "ar-JO": {
+      "cases": 101,
+      "intentAttemptWide": {
+        "passed": 80,
+        "denominator": 95,
+        "percent": 84.21052631578948
+      },
+      "annotatedEntityObserved": {
+        "passed": 44,
+        "denominator": 92,
+        "percent": 47.82608695652174
+      },
+      "frozenAnnotationExact": {
+        "passed": 24,
+        "denominator": 101,
+        "percent": 23.762376237623762
+      }
+    },
+    "mixed": {
+      "cases": 101,
+      "intentAttemptWide": {
+        "passed": 82,
+        "denominator": 95,
+        "percent": 86.3157894736842
+      },
+      "annotatedEntityObserved": {
+        "passed": 46,
+        "denominator": 90,
+        "percent": 51.111111111111114
+      },
+      "frozenAnnotationExact": {
+        "passed": 28,
+        "denominator": 101,
+        "percent": 27.722772277227723
+      }
+    }
+  },
+  "byTaskStage": {
+    "question": {
+      "cases": 160,
+      "intentAttemptWide": {
+        "passed": 117,
+        "denominator": 156,
+        "percent": 75
+      },
+      "annotatedEntityObserved": {
+        "passed": 119,
+        "denominator": 145,
+        "percent": 82.06896551724138
+      }
+    },
+    "action": {
+      "cases": 212,
+      "intentAttemptWide": {
+        "passed": 202,
+        "denominator": 212,
+        "percent": 95.28301886792453
+      },
+      "annotatedEntityObserved": {
+        "passed": 48,
+        "denominator": 209,
+        "percent": 22.966507177033492
+      }
+    },
+    "conversation": {
+      "cases": 4,
+      "intentAttemptWide": {
+        "passed": 4,
+        "denominator": 4,
+        "percent": 100
+      },
+      "annotatedEntityObserved": {
+        "passed": 2,
+        "denominator": 4,
+        "percent": 50
+      }
+    }
+  },
+  "structuredOutput": {
+    "serverZodAndSemanticSuccessful": {
+      "passed": 361,
+      "denominator": 378,
+      "percent": 95.5026455026455
+    },
+    "attemptWideIncludingInterrupted": {
+      "passed": 361,
+      "denominator": 384,
+      "percent": 94.01041666666667
+    },
+    "invalidResponses": 17,
+    "note": "Actual existing server Zod+semantic result; no production validation changed"
+  },
+  "clarification": {
+    "observedAll": {
+      "passed": 141,
+      "denominator": 152,
+      "percent": 92.76315789473684
+    },
+    "observedUnavailable": 252,
+    "positiveRequiredAttemptWide": {
+      "passed": 2,
+      "denominator": 28,
+      "percent": 7.142857142857143
+    },
+    "positiveRequiredObserved": {
+      "passed": 2,
+      "denominator": 8,
+      "percent": 25
+    }
+  },
+  "unsupported": {
+    "attemptWide": {
+      "passed": 0,
+      "denominator": 8,
+      "percent": 0
+    }
+  },
+  "failures": {
+    "total": 252,
+    "errorCodes": {
+      "aiUnavailable": 5,
+      "aiInvalidOutput": 17,
+      "fixtureUnavailable": 17,
+      "aiNotConfigured": 210,
+      "timeout": 1,
+      "applicationError": 2
+    },
+    "uniqueTimeoutCases": 6,
+    "normalModelTimeouts": 5,
+    "parentInterruptionTimeouts": 1,
+    "noDoubleCounting": "Case 174 appears in providerFailure and parent timeout; counted once"
+  },
+  "latency": {
+    "caseMeanMs": 52113.284006930706,
+    "caseMedianMs": 53291.2916,
+    "caseP95Ms": 72480.091,
+    "caseSlowestMs": 150000,
+    "caseObservations": 404,
+    "invalidCaseDurations": 0,
+    "invalidRawProviderDiagnostics": [
+      {
+        "index": 174,
+        "type": "providerFailure",
+        "rawDurationMs": 34437258.841,
+        "reason": "INVALID_DIAGNOSTIC_DURATION_NOT_USED_IN_STATISTICS"
+      }
+    ],
+    "providerDiagnosticPolicy": "Raw diagnostics preserved verbatim; never use non-finite/negative/>150000ms diagnostic durations in latency statistics",
+    "overnightInterruption": "Case 174 timed out at bounded 150000ms; run was not uninterrupted; timing/causal interpretation is limited",
+    "modelRequestedCases": 384,
+    "modelAttemptedMeanMs": 54827.101946874995,
+    "completedModelResponseMeanMs": 53711.56560052912,
+    "completedModelResponseCount": 378,
+    "note": "Post-run denominator reconciliation only; original core aggregate is preserved unchanged."
+  },
+  "tokens": {
+    "reportedPrompt": 914888,
+    "reportedCompletion": 31245,
+    "casesWithReportedUsage": 378,
+    "modelRequestedCasesWithoutUsage": 6
+  },
+  "safety": {
+    "isolationFailures": 0,
+    "falseActionSelections": 0,
+    "falseActionProposals": 0,
+    "falseActionAttempts": 0,
+    "realActionsExecuted": 0,
+    "productionConnectedSecurityCertified": false
+  },
+  "limitations": [
+    "210 unconfigured downstream OpenAI-only outcomes; not Ollama connection failures",
+    "Action extraction is outside the configured Qwen question provider: 0/211 observed actions, one timeout unavailable",
+    "17 unavailable synthetic service fixtures; no production fallback",
+    "Overnight environment interruption affected case 174; no repeat",
+    "Naturalness not independently human-reviewed; automated admission only"
+  ],
+  "fineTuningStarted": false
+}

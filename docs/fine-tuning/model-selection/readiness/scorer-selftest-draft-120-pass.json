@@ -1,0 +1,495 @@
+{
+  "version": "CEB-SCORE-1.0.0-selftest",
+  "created": "2026-10-25T09:29:58.281Z",
+  "status": "PASS",
+  "checks": 120,
+  "passed": 120,
+  "results": [
+    {
+      "name": "correct-complete-question",
+      "status": "PASS"
+    },
+    {
+      "name": "JSON-key-order-irrelevant",
+      "status": "PASS"
+    },
+    {
+      "name": "NFC-and-trim-only-string-equivalence",
+      "status": "PASS"
+    },
+    {
+      "name": "no-transliteration-equivalence",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong-intent-and-scope-fail",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong-field-period",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong-field-month",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong-field-year",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong-field-department",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong-field-personName",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong-field-employeeNumber",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong-field-rankBy",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong-field-payrollTopic",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong-field-reportType",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong-field-refusalReason",
+      "status": "PASS"
+    },
+    {
+      "name": "missing-required-intent",
+      "status": "PASS"
+    },
+    {
+      "name": "missing-required-period",
+      "status": "PASS"
+    },
+    {
+      "name": "missing-required-month",
+      "status": "PASS"
+    },
+    {
+      "name": "missing-required-year",
+      "status": "PASS"
+    },
+    {
+      "name": "missing-required-department",
+      "status": "PASS"
+    },
+    {
+      "name": "missing-required-personName",
+      "status": "PASS"
+    },
+    {
+      "name": "missing-required-employeeNumber",
+      "status": "PASS"
+    },
+    {
+      "name": "missing-required-rankBy",
+      "status": "PASS"
+    },
+    {
+      "name": "missing-required-reportType",
+      "status": "PASS"
+    },
+    {
+      "name": "missing-required-refusalReason",
+      "status": "PASS"
+    },
+    {
+      "name": "existing-null-default-is-normalized",
+      "status": "PASS"
+    },
+    {
+      "name": "required-explicit-null-not-omission",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong-null-not-defaulted-to-gold",
+      "status": "PASS"
+    },
+    {
+      "name": "bad-enum",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong-number-type",
+      "status": "PASS"
+    },
+    {
+      "name": "calendar-semantic-failure",
+      "status": "PASS"
+    },
+    {
+      "name": "invalid-JSON",
+      "status": "PASS"
+    },
+    {
+      "name": "markdown-fenced-JSON-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "null-wrapper-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "array-wrapper-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "bare-plan-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "null-plan-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "duplicate-JSON-keys-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "unknown-plan-field-diagnostic-does-not-change-Zod",
+      "status": "PASS"
+    },
+    {
+      "name": "unknown-wrapper-field-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "oversize-response-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong-stage-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "role-registry-authoritative",
+      "status": "PASS"
+    },
+    {
+      "name": "self-read-extra-person-is-unsafe",
+      "status": "PASS"
+    },
+    {
+      "name": "changed-named-employee-is-unsafe",
+      "status": "PASS"
+    },
+    {
+      "name": "business-execution-attempt-disqualifies",
+      "status": "PASS"
+    },
+    {
+      "name": "confirmation-observed-separately",
+      "status": "PASS"
+    },
+    {
+      "name": "open-execution-guard-disqualifies",
+      "status": "PASS"
+    },
+    {
+      "name": "question-doAction-not-second-stage-extraction",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-checkIn",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-checkOut",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-requestLeave",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-requestDocument",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-cancelRequest",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-openScreen",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-filterScreen",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-scrollPage",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-openEmployeeFile",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-setLanguage",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-signOut",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-markAllNotificationsRead",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-decideRequest",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-postAnnouncement",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-updateAnnouncement",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-deleteAnnouncement",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-addCalendarEvent",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-remindCheckout",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-resetPassword",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-addEmployee",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-setSalary",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-createPayrollAdjustment",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-approvePayrollAdjustment",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-reviewPayrollFinding",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-updateEmployeeDetails",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-generateJobDescription",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-regenerateJobDescriptionSection",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-addKnowledgeText",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-deleteKnowledgeText",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-approveJobDescription",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-createOpeningFromJobDescription",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-deleteJobDescription",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-createJob",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-updateJobOpening",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-publishOpening",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-moveApplication",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-analyseApplication",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-generateInterview",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-reviewInterviewQuestion",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-evaluateInterview",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-sendInterview",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-runPayroll",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-auditPayroll",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-approvePayroll",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-deleteCalendarEvent",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-changeEmployeeRole",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-closeOpening",
+      "status": "PASS"
+    },
+    {
+      "name": "action-enum-deleteOpening",
+      "status": "PASS"
+    },
+    {
+      "name": "admin-does-not-override-action-registry",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong-action-fails",
+      "status": "PASS"
+    },
+    {
+      "name": "terminal-clarify-control-passes",
+      "status": "PASS"
+    },
+    {
+      "name": "terminal-clarify-wrong-kind-fails",
+      "status": "PASS"
+    },
+    {
+      "name": "terminal-clarify-never-model-score",
+      "status": "PASS"
+    },
+    {
+      "name": "terminal-unsupported-control-passes",
+      "status": "PASS"
+    },
+    {
+      "name": "terminal-unsupported-wrong-kind-fails",
+      "status": "PASS"
+    },
+    {
+      "name": "terminal-unsupported-never-model-score",
+      "status": "PASS"
+    },
+    {
+      "name": "out-of-scope-reason-exact",
+      "status": "PASS"
+    },
+    {
+      "name": "wire-symbolic-declared-mapping-only",
+      "status": "PASS"
+    },
+    {
+      "name": "symbolic-wire-projection-both-pass",
+      "status": "PASS"
+    },
+    {
+      "name": "invalid-gold-projection-aborts",
+      "status": "PASS"
+    },
+    {
+      "name": "invalid-gold-schema-aborts",
+      "status": "PASS"
+    },
+    {
+      "name": "model-errors-stay-in-denominator",
+      "status": "PASS"
+    },
+    {
+      "name": "missing-attempt-is-failure",
+      "status": "PASS"
+    },
+    {
+      "name": "duplicate-attempt-aborts-no-best-response-selection",
+      "status": "PASS"
+    },
+    {
+      "name": "undeclared-attempt-aborts",
+      "status": "PASS"
+    },
+    {
+      "name": "wall-clock-scale-duration-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "negative-duration-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "NaN-duration-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "unknown-token-usage-is-not-claimed-zero",
+      "status": "PASS"
+    },
+    {
+      "name": "quantiles-and-denominators-fixed",
+      "status": "PASS"
+    },
+    {
+      "name": "all-language-and-role-breakdowns",
+      "status": "PASS"
+    }
+  ],
+  "fixtureSource": "IN_MEMORY_SELFTEST_CANARIES_ONLY",
+  "candidateModelsExecuted": 0,
+  "modelCalls": 0,
+  "selectionCasesExecuted": 0,
+  "frozenCasesExecuted": 0,
+  "productionAccess": false
+}

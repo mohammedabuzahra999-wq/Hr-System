@@ -1,0 +1,37 @@
+{
+  "release": "dataset-v2",
+  "createdAt": "2026-10-26T14:21:10.171Z",
+  "rows": 8000,
+  "families": 2000,
+  "sha256": "264400230331a4fbc638889ace7cce9d330f36a4916d204858daf78e541e5ee0",
+  "seed": 1601,
+  "deniedInputs": [
+    {
+      "path": "server/.env",
+      "readDenied": true
+    },
+    {
+      "path": "server/src/copilot/data/hr_agent_intents_10000.jsonl",
+      "readDenied": true
+    },
+    {
+      "path": "docs/fine-tuning/benchmark/pre-finetuning-benchmark-v1.jsonl",
+      "readDenied": true
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/runtime-reference-v1.1.jsonl",
+      "readDenied": true
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/model-selection-v1.1.jsonl",
+      "readDenied": true
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/candidate/dataset.jsonl",
+      "readDenied": true
+    }
+  ],
+  "protectedInputsRead": 0,
+  "modelCalls": 0,
+  "trainingStarted": false
+}

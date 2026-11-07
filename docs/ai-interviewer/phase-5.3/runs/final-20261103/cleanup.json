@@ -1,0 +1,29 @@
+{
+  "recordedAtUtc": "2026-11-03 10:25:31 UTC",
+  "actions": [
+    {
+      "command": "node docs/ai-interviewer/phase-5.3/run.mjs final-20261103 integrity",
+      "exitCode": 0,
+      "output": "{\"source\":{\"unchanged\":true,\"fileCount\":425,\"filesDigest\":\"e311bf81582b3f0e8474b2c74981ea51b28245afe68bf3c42e29c9e884433f36\",\"manifestSHA256\":\"b121f79f7d8fef4bad55357e37ecffc33ecb528b5bd1d704c9809ced3265e2e8\"},\"protected\":{\"unchanged\":true,\"fileCount\":608,\"filesDigest\":\"812485b2bea41f5f1c16cfaa1be06810f0399263caa580ed4ba8b5dff522e420\",\"manifestSHA256\":\"d7c28387fc10e2f43063857b1c8ad9c991f38bbc7b94e32625350d62d67c2e75\"}}\n"
+    },
+    {
+      "command": "node docs/ai-interviewer/phase-5.3/run.mjs final-20261103 cleanup",
+      "exitCode": 0,
+      "output": "Removed only this run temporary browser profiles\n"
+    },
+    {
+      "command": "node docs/ai-interviewer/phase-5.3/run.mjs development-1 cleanup",
+      "exitCode": 0,
+      "output": "Removed only this run temporary browser profiles\n"
+    },
+    {
+      "command": "& 'C:\\Users\\PC-LAB\\Downloads\\hr-app-step2\\.local-dev\\ai-interviewer-postgres\\pgsql\\bin\\pg_ctl.exe' -D 'C:\\Users\\PC-LAB\\Downloads\\hr-app-step2\\.local-dev\\ai-interviewer-postgres\\data' -m fast -w stop",
+      "exitCode": 0,
+      "output": "waiting for server to shut down.... done\r\nserver stopped\r\n"
+    }
+  ],
+  "verification": {
+    "exitCode": 0,
+    "output": "pg_ctl: no server running\r\n{\"FinalTemporaryProfileExists\":false,\"DevelopmentTemporaryProfileExists\":false,\"TestNodeProcesses\":0}\r\n"
+  }
+}

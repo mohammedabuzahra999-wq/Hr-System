@@ -1,0 +1,14 @@
+{
+  "source": {
+    "unchanged": true,
+    "fileCount": 425,
+    "filesDigest": "e311bf81582b3f0e8474b2c74981ea51b28245afe68bf3c42e29c9e884433f36",
+    "manifestSHA256": "b121f79f7d8fef4bad55357e37ecffc33ecb528b5bd1d704c9809ced3265e2e8"
+  },
+  "protected": {
+    "unchanged": true,
+    "fileCount": 608,
+    "filesDigest": "812485b2bea41f5f1c16cfaa1be06810f0399263caa580ed4ba8b5dff522e420",
+    "manifestSHA256": "d7c28387fc10e2f43063857b1c8ad9c991f38bbc7b94e32625350d62d67c2e75"
+  }
+}

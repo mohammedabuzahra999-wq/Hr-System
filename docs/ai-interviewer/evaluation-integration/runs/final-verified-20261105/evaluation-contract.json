@@ -1,0 +1,13 @@
+{
+  "id": "evaluation-contract",
+  "protection": "Synthetic evaluation configuration/SDK/schema/evidence/rubric",
+  "command": "npm.cmd run check:ai-interviewer:evaluation:contract -w @hr/server",
+  "startedAt": "2026-11-05T12:34:03.673Z",
+  "finishedAt": "2026-11-05T12:34:08.683Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "evaluation-contract.log",
+  "passLines": 29
+}

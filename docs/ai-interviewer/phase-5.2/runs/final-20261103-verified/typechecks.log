@@ -1,0 +1,48 @@
+
+> hr-suite@0.1.0 check
+> npm run check --workspaces --if-present
+
+
+> @hr/shared@0.1.0 check
+> tsc --noEmit
+
+
+> @hr/server@0.1.0 check
+> tsc --noEmit -p tsconfig.json
+
+
+> hr-app@0.0.0 check
+> tsc --noEmit -p tsconfig.app.json && oxlint src
+
+
+  ! react(set-state-in-effect): Calling setState synchronously within an effect can trigger cascading renders
+    ,-[src/features/copilot/GapForm.tsx:55:5]
+ 53 |   /* A new set of boxes replaces the old ones rather than merging into them. */
+ 54 |   useEffect(() => {
+    :   ^^^^|^^^^
+    :       `-- This is the containing effect
+ 55 |     setValues(initial)
+    :     ^^^^|^^^^
+    :         `-- Avoid calling setState() directly within an effect
+ 56 |     setShowEmpty(false)
+    `----
+  help: Effects should synchronize React with external systems. Calling setState synchronously inside an effect starts another render and is usually unnecessary. Derive the value during render, initialize state directly, or update it from the event that caused the change. Use an effect only when synchronizing with an external system.
+  note: React Compiler skipped optimizing this component or hook. Additional guidance: https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect
+
+  ! react(set-state-in-effect): Calling setState synchronously within an effect can trigger cascading renders
+    ,-[src/features/jobDescriptions/ScorecardEditor.tsx:42:5]
+ 39 | 
+ 40 |   useEffect(() => {
+    :   ^^^^|^^^^
+    :       `-- This is the containing effect
+ 41 |     let live = true
+ 42 |     setCriteria(null)
+    :     ^^^^^|^^^^^
+    :          `-- Avoid calling setState() directly within an effect
+ 43 |     setSaved(false)
+    `----
+  help: Effects should synchronize React with external systems. Calling setState synchronously inside an effect starts another render and is usually unnecessary. Derive the value during render, initialize state directly, or update it from the event that caused the change. Use an effect only when synchronizing with an external system.
+  note: React Compiler skipped optimizing this component or hook. Additional guidance: https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect
+
+Found 2 warnings and 0 errors.
+Finished in 203ms on 139 files with 116 rules using 8 threads.

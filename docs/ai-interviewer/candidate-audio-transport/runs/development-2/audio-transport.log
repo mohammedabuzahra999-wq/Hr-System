@@ -1,0 +1,46 @@
+PASS valid authenticated WAV commits one server STT answer and one receipt
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:38.412Z","event":"request_rejected","code":"STALE"}
+PASS reservation retry with same identity is idempotent and conflicting reuse fails
+PASS response-loss replay returns durable COMMITTED without another STT call
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:38.836Z","event":"request_rejected","code":"STALE"}
+PASS different audio bytes cannot reuse committed identity
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:38.996Z","event":"request_rejected","code":"STALE"}
+PASS two tabs with different identities cannot reserve the same turn
+PASS same upload identity arriving simultaneously invokes STT once
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:39.377Z","event":"candidate_session_rejected","interviewId":"7fc9d6d6-5d05-47d2-aa70-a824d9c1711b","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:39.378Z","event":"request_rejected","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:39.379Z","event":"request_rejected","code":"AUTH"}
+PASS wrong candidate and unauthenticated upload are independently denied
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:39.464Z","event":"request_rejected","code":"AUTH"}
+PASS wrong session version, turn, expected version and forged generation fail safely
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:39.595Z","event":"candidate_session_rejected","interviewId":"ba4b83d6-5318-4ae0-ad9c-27e35f1551dc","code":"REVOKED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:39.598Z","event":"candidate_session_rejected","interviewId":"ba4b83d6-5318-4ae0-ad9c-27e35f1551dc","code":"REVOKED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:39.685Z","event":"candidate_session_rejected","interviewId":"6f9a4615-dd2f-4274-a20e-0e0e4438d087","code":"EXPIRED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:39.687Z","event":"candidate_session_rejected","interviewId":"6f9a4615-dd2f-4274-a20e-0e0e4438d087","code":"EXPIRED"}
+PASS revoked and expired sessions cannot upload or recover audio
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:39.767Z","event":"request_rejected","code":"DENIED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:39.767Z","event":"request_rejected","code":"DENIED"}
+PASS invalid/missing Origin fails even with a valid session
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:39.843Z","event":"request_rejected","code":"INVALID"}
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:39.866Z","event":"request_rejected","code":"DENIED"}
+PASS browser transcripts, evaluation data and receipts are never upload authority
+PASS audio validation: malformed
+PASS audio validation: oversized body
+PASS audio validation: oversized header
+PASS audio validation: too short
+PASS audio validation: wrong WAV rate
+PASS interrupted body is recoverable with same capture and no partial answer
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:40.577Z","event":"request_rejected","code":"INTERNAL"}
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:40.691Z","event":"request_rejected","code":"INTERNAL"}
+PASS STT error and malformed output leave retry state, no final answer/receipt
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:40.832Z","event":"request_rejected","code":"INTERNAL"}
+PASS timeout then retry succeeds once and late STT result cannot overwrite
+PASS pause during STT fences the stale result
+PASS cancellation fences processing and permits a fresh generation
+PASS failed SQL finalization rolls back transcript, answer, receipt and decision
+PASS new runtime owner can reconcile a durable commit and cannot accept old pending generation
+[ai-interview-operations] {"atUtc":"2026-11-05T07:24:41.657Z","event":"request_rejected","code":"THROTTLED"}
+PASS upload flood is bounded and authorization remains independent
+PASS privacy DTO and metadata contain no audio bytes, hashes, raw exceptions or invite/session credentials
+PASS no external/model calls occurred
+26/26 candidate audio transport checks passed; external calls=0

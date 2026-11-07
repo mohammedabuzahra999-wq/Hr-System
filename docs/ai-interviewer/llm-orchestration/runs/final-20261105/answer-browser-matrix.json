@@ -1,0 +1,311 @@
+{
+  "syntheticOnly": true,
+  "matrix": [
+    {
+      "scenario": "refresh before submit",
+      "browserState": "DRAFT",
+      "recoveryCopyPresent": true,
+      "recoveryTextLength": 35,
+      "database": {
+        "version": 9,
+        "status": "ACTIVE",
+        "phase": "LISTENING",
+        "answerCount": 0,
+        "finalizedEvents": 0,
+        "receiptCount": 0,
+        "pendingEffects": 0,
+        "answerDeadlineAt": 1793974969422
+      },
+      "candidateUx": "Local draft only"
+    },
+    {
+      "scenario": "disconnect before request",
+      "browserState": "RECOVERY_REQUIRED",
+      "recoveryCopyPresent": true,
+      "recoveryTextLength": 35,
+      "database": {
+        "version": 9,
+        "status": "ACTIVE",
+        "phase": "LISTENING",
+        "answerCount": 0,
+        "finalizedEvents": 0,
+        "receiptCount": 0,
+        "pendingEffects": 0,
+        "answerDeadlineAt": 1793974969422
+      },
+      "candidateUx": "Submission confirmation/recovery required"
+    },
+    {
+      "scenario": "reconnect refresh and identical retry",
+      "browserState": "COMMITTED",
+      "recoveryCopyPresent": false,
+      "recoveryTextLength": 0,
+      "database": {
+        "version": 12,
+        "status": "ACTIVE",
+        "phase": "PROCESSING",
+        "answerCount": 1,
+        "finalizedEvents": 1,
+        "receiptCount": 1,
+        "pendingEffects": 0,
+        "answerDeadlineAt": null
+      },
+      "candidateUx": "Server-confirmed committed answer"
+    },
+    {
+      "scenario": "in-flight before commit",
+      "browserState": "SUBMITTING",
+      "recoveryCopyPresent": true,
+      "recoveryTextLength": 27,
+      "database": {
+        "version": 9,
+        "status": "ACTIVE",
+        "phase": "LISTENING",
+        "answerCount": 0,
+        "finalizedEvents": 0,
+        "receiptCount": 0,
+        "pendingEffects": 0,
+        "answerDeadlineAt": 1793974979637
+      },
+      "candidateUx": "Submission confirmation/recovery required"
+    },
+    {
+      "scenario": "refresh in-flight before commit",
+      "browserState": "RECOVERY_REQUIRED",
+      "recoveryCopyPresent": true,
+      "recoveryTextLength": 27,
+      "database": {
+        "version": 9,
+        "status": "ACTIVE",
+        "phase": "LISTENING",
+        "answerCount": 0,
+        "finalizedEvents": 0,
+        "receiptCount": 0,
+        "pendingEffects": 0,
+        "answerDeadlineAt": 1793974979637
+      },
+      "candidateUx": "Submission confirmation/recovery required"
+    },
+    {
+      "scenario": "same in-flight identity committed on retry",
+      "browserState": "COMMITTED",
+      "recoveryCopyPresent": false,
+      "recoveryTextLength": 0,
+      "database": {
+        "version": 12,
+        "status": "ACTIVE",
+        "phase": "PROCESSING",
+        "answerCount": 1,
+        "finalizedEvents": 1,
+        "receiptCount": 1,
+        "pendingEffects": 0,
+        "answerDeadlineAt": null
+      },
+      "candidateUx": "Server-confirmed committed answer"
+    },
+    {
+      "scenario": "disconnect during request",
+      "browserState": "RECOVERY_REQUIRED",
+      "recoveryCopyPresent": true,
+      "recoveryTextLength": 36,
+      "database": {
+        "version": 9,
+        "status": "ACTIVE",
+        "phase": "LISTENING",
+        "answerCount": 0,
+        "finalizedEvents": 0,
+        "receiptCount": 0,
+        "pendingEffects": 0,
+        "answerDeadlineAt": 1793974988931
+      },
+      "candidateUx": "Submission confirmation/recovery required"
+    },
+    {
+      "scenario": "reconnect after in-flight disconnect",
+      "browserState": "COMMITTED",
+      "recoveryCopyPresent": false,
+      "recoveryTextLength": 0,
+      "database": {
+        "version": 12,
+        "status": "ACTIVE",
+        "phase": "PROCESSING",
+        "answerCount": 1,
+        "finalizedEvents": 1,
+        "receiptCount": 1,
+        "pendingEffects": 0,
+        "answerDeadlineAt": null
+      },
+      "candidateUx": "Server-confirmed committed answer"
+    },
+    {
+      "scenario": "server committed, original ACK held",
+      "browserState": "SUBMITTING",
+      "recoveryCopyPresent": true,
+      "recoveryTextLength": 48,
+      "database": {
+        "version": 12,
+        "status": "ACTIVE",
+        "phase": "PROCESSING",
+        "answerCount": 1,
+        "finalizedEvents": 1,
+        "receiptCount": 1,
+        "pendingEffects": 0,
+        "answerDeadlineAt": null
+      },
+      "candidateUx": "Submission confirmation/recovery required"
+    },
+    {
+      "scenario": "refresh after commit before original ACK",
+      "browserState": "COMMITTED",
+      "recoveryCopyPresent": false,
+      "recoveryTextLength": 0,
+      "database": {
+        "version": 12,
+        "status": "ACTIVE",
+        "phase": "PROCESSING",
+        "answerCount": 1,
+        "finalizedEvents": 1,
+        "receiptCount": 1,
+        "pendingEffects": 0,
+        "answerDeadlineAt": null
+      },
+      "candidateUx": "Server-confirmed committed answer"
+    },
+    {
+      "scenario": "database rollback before commit",
+      "browserState": "RECOVERY_REQUIRED",
+      "recoveryCopyPresent": true,
+      "recoveryTextLength": 28,
+      "database": {
+        "version": 9,
+        "status": "ACTIVE",
+        "phase": "LISTENING",
+        "answerCount": 0,
+        "finalizedEvents": 0,
+        "receiptCount": 0,
+        "pendingEffects": 0,
+        "answerDeadlineAt": 1793975007861
+      },
+      "candidateUx": "Submission confirmation/recovery required"
+    },
+    {
+      "scenario": "same-identity retry after database rollback",
+      "browserState": "COMMITTED",
+      "recoveryCopyPresent": false,
+      "recoveryTextLength": 0,
+      "database": {
+        "version": 12,
+        "status": "ACTIVE",
+        "phase": "PROCESSING",
+        "answerCount": 1,
+        "finalizedEvents": 1,
+        "receiptCount": 1,
+        "pendingEffects": 0,
+        "answerDeadlineAt": null
+      },
+      "candidateUx": "Server-confirmed committed answer"
+    },
+    {
+      "scenario": "two-tab same answer different identity",
+      "browserState": "COMMITTED",
+      "recoveryCopyPresent": false,
+      "recoveryTextLength": 0,
+      "database": {
+        "version": 12,
+        "status": "ACTIVE",
+        "phase": "PROCESSING",
+        "answerCount": 1,
+        "finalizedEvents": 1,
+        "receiptCount": 1,
+        "pendingEffects": 0,
+        "answerDeadlineAt": null
+      },
+      "candidateUx": "Server-confirmed committed answer"
+    },
+    {
+      "scenario": "two-tab same answer different identity",
+      "browserState": "COMMITTED",
+      "recoveryCopyPresent": false,
+      "recoveryTextLength": 0,
+      "database": {
+        "version": 12,
+        "status": "ACTIVE",
+        "phase": "PROCESSING",
+        "answerCount": 1,
+        "finalizedEvents": 1,
+        "receiptCount": 0,
+        "pendingEffects": 0,
+        "answerDeadlineAt": null
+      },
+      "candidateUx": "Server-confirmed committed answer"
+    },
+    {
+      "scenario": "two-tab conflicting submission",
+      "browserState": "COMMITTED",
+      "recoveryCopyPresent": false,
+      "recoveryTextLength": 0,
+      "database": {
+        "version": 12,
+        "status": "ACTIVE",
+        "phase": "PROCESSING",
+        "answerCount": 1,
+        "finalizedEvents": 1,
+        "receiptCount": 1,
+        "pendingEffects": 0,
+        "answerDeadlineAt": null
+      },
+      "candidateUx": "Server-confirmed committed answer"
+    },
+    {
+      "scenario": "two-tab conflicting submission",
+      "browserState": "RECOVERY_REQUIRED",
+      "recoveryCopyPresent": true,
+      "recoveryTextLength": 30,
+      "database": {
+        "version": 12,
+        "status": "ACTIVE",
+        "phase": "PROCESSING",
+        "answerCount": 1,
+        "finalizedEvents": 1,
+        "receiptCount": 0,
+        "pendingEffects": 0,
+        "answerDeadlineAt": null
+      },
+      "candidateUx": "Submission confirmation/recovery required"
+    },
+    {
+      "scenario": "storage unavailable: no submission sent",
+      "browserState": "DRAFT",
+      "recoveryCopyPresent": false,
+      "recoveryTextLength": 0,
+      "database": {
+        "version": 9,
+        "status": "ACTIVE",
+        "phase": "LISTENING",
+        "answerCount": 0,
+        "finalizedEvents": 0,
+        "receiptCount": 0,
+        "pendingEffects": 0,
+        "answerDeadlineAt": 1793975036989
+      },
+      "candidateUx": "Local draft only"
+    },
+    {
+      "scenario": "completion with unsubmitted local copy",
+      "browserState": "RECOVERY_REQUIRED",
+      "recoveryCopyPresent": true,
+      "recoveryTextLength": 48,
+      "database": {
+        "version": 13,
+        "status": "COMPLETED",
+        "phase": "CLOSING",
+        "answerCount": 1,
+        "finalizedEvents": 1,
+        "receiptCount": 0,
+        "pendingEffects": 0,
+        "answerDeadlineAt": null
+      },
+      "candidateUx": "Submission confirmation/recovery required"
+    }
+  ]
+}

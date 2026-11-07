@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-10-26T13:45:52.775Z",
+  "rows": 8000,
+  "families": 2000,
+  "sha256": "21a5bb1b466d92b2b838df663c1326c47fcf891419553413bd1203eefc4f5a8a",
+  "prohibitedInputCanaries": [
+    {
+      "path": "server/.env",
+      "readDenied": true
+    },
+    {
+      "path": "server/src/copilot/data/hr_agent_intents_10000.jsonl",
+      "readDenied": true
+    },
+    {
+      "path": "docs/fine-tuning/benchmark/pre-finetuning-benchmark-v1.jsonl",
+      "readDenied": true
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/runtime-reference-v1.1.jsonl",
+      "readDenied": true
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/model-selection-v1.1.jsonl",
+      "readDenied": true
+    }
+  ],
+  "modelCalls": 0,
+  "trainingStarted": false
+}

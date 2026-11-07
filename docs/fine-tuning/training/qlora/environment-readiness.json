@@ -1,0 +1,13 @@
+{
+  "capturedAt": "2026-10-26T13:03:40.858Z",
+  "platform": "win32",
+  "cpu": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+  "logicalProcessors": 8,
+  "totalRamBytes": 21343473664,
+  "reportedMachineClass": "CPU-only Windows per project owner",
+  "cudaTrainingEnvironmentValidated": false,
+  "trainingDependenciesInstalledByThisTask": false,
+  "hardwareProbeLimitation": "CIM inventory denied by sandbox; no elevation requested. NVIDIA CLI was not found on PATH. GPU capability is not independently certified by this preparation.",
+  "preparationScopeReady": "Dataset and procedure specification, not an executable GPU training environment",
+  "trainingStarted": false
+}

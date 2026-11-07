@@ -1,0 +1,4 @@
+PASS browser local-only audio guard, no redirects/cloud fallback, PCM16 resampling/clipping/cap, microphone cleanup on failure
+PASS hands-free microphone: sustained speech, natural pauses, automatic endpointing, native-rate resampling, silence/noise rejection, echo gating and idempotent cleanup
+PASS background-noise endpoint regression; stalled microphone fails clearly without submitting partial speech or waiting forever
+PASS VAD bounded utterance size and reset; no sentence/name/intent patterns

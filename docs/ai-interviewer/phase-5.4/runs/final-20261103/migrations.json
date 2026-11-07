@@ -1,0 +1,12 @@
+{
+  "status": "BLOCKED",
+  "databasePolicy": "Unique generated disposable local database; no application database touched",
+  "journalEntries": 27,
+  "cleanup": true,
+  "postgresqlVersion": "18.6",
+  "vectorAvailable": false,
+  "sqlState": "0A000",
+  "blocker": "pgvector extension unavailable; exact migration 0008 requires CREATE EXTENSION vector. No migration skipped, stubbed or edited.",
+  "failingMigration": "0008_happy_hannibal_king.sql",
+  "transactionRolledBack": true
+}

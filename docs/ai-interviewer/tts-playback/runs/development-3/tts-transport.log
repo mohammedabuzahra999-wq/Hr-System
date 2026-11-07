@@ -1,0 +1,58 @@
+PASS canonical TTS generated from frozen server text and delivered only by authenticated POST
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:55.584Z","event":"request_rejected","code":"STALE"}
+PASS same identity and competing identities coalesce before another provider call
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:55.756Z","event":"request_rejected","code":"STALE"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:55.760Z","event":"request_rejected","code":"INVALID"}
+PASS browser cannot complete before server audio duration or supply trusted receipts
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:55.929Z","event":"request_rejected","code":"STALE"}
+PASS server duration completion advances exactly once, duplicate start/end never replay
+PASS STOP pauses engine, fences old audio, and resume uses a fresh playback ID
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:56.204Z","event":"request_rejected","code":"INTERNAL"}
+PASS STOP during generation aborts logical request and late TTS cannot become READY
+PASS cancel-before-reservation tombstone fences delayed request
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:56.518Z","event":"request_rejected","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:56.521Z","event":"candidate_session_rejected","interviewId":"d3395a3c-c0dc-4d7e-af4a-131e8426614a","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:56.522Z","event":"request_rejected","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:56.523Z","event":"request_rejected","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:56.523Z","event":"request_rejected","code":"DENIED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:56.524Z","event":"request_rejected","code":"DENIED"}
+PASS wrong candidate, missing cookie, staff credential and invalid Origin are independently denied
+PASS wrong session/question/turn/generation fails before provider use or media delivery
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:56.770Z","event":"candidate_session_rejected","interviewId":"b7898844-9b57-4b50-a6eb-795772bdb53a","code":"EXPIRED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:56.870Z","event":"candidate_session_rejected","interviewId":"4814e29c-29e8-4c99-998e-ce2ff344a6df","code":"REVOKED"}
+PASS expired and revoked sessions cannot fetch cached speech
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:56.962Z","event":"request_rejected","code":"INTERNAL"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:57.088Z","event":"request_rejected","code":"INTERNAL"}
+PASS generation rejects invalid WAV, MIME and size without raw provider errors
+PASS failure is retryable explicitly, stable failed request does not synthesize twice
+PASS timeout retains physical slot, retry fences old late settlement
+PASS refresh/new document cannot blindly replay active audio
+PASS lease expiry pauses without fabricated playback completion
+PASS only one document may start an active generation
+PASS stale expected version and replaced interview state fence generation completion
+PASS restart closes old pending/ready generations and cannot replay cache
+PASS shutdown cancels pending generation and late provider cannot publish
+PASS no audio, credentials or provider receipts escape candidate metadata or audit content
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:58.069Z","event":"provider_readiness_changed","state":"configured"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:58.070Z","event":"provider_readiness_changed","state":"ready"}
+PASS audio-v2 generation binding permits registered TTS without browser provider receipts
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:58.187Z","event":"provider_readiness_changed","state":"configured"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:36:58.187Z","event":"provider_readiness_changed","state":"ready"}
+C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\service.ts:662
+      if (row.runtimeOwner !== this.runtimeOwner || !['READY', 'PAUSED'].includes(row.snapshot.status)) throw new InterviewServiceError(409, 'interviewRecoveryRequired')
+                                                                                                              ^
+
+InterviewServiceError: interviewRecoveryRequired
+    at <anonymous> (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\service.ts:662:111)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async NodePgSession.transaction (C:\Users\PC-LAB\Downloads\hr-app-step2\node_modules\src\node-postgres\session.ts:259:19)
+    at async InterviewService.bindDelivery (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\service.ts:659:5)
+    at async InterviewDeliveryGate.bindValidated (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\delivery.ts:96:17)
+    at async <anonymous> (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\playbackTransport.check.ts:89:277)
+    at async check (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\playbackTransport.check.ts:67:78)
+    at async <anonymous> (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\playbackTransport.check.ts:89:3) {
+  status: 409,
+  code: 'interviewRecoveryRequired'
+}
+
+Node.js v24.15.0

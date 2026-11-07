@@ -1,0 +1,13 @@
+{
+  "id": "browser3",
+  "protection": "real Chrome + disposable PostgreSQL Phase 3 E2E",
+  "command": "npm.cmd run check:ai-interviewer:browser -w @hr/server",
+  "startedAt": "2026-11-05T08:07:00.187Z",
+  "finishedAt": "2026-11-05T08:08:03.547Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 2,
+  "outputLog": "browser3.log",
+  "passLines": 44
+}

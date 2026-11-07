@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "passed": 24,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "HR login and recruitment AI controls use the existing employee workflow",
+      "result": "PASS"
+    },
+    {
+      "name": "HR configures explicit plan/timers and adds a third question",
+      "result": "PASS"
+    },
+    {
+      "name": "Create goes through the real Phase 2 transaction",
+      "result": "PASS"
+    },
+    {
+      "name": "HR freezes READY and operational UI displays no token hash",
+      "result": "PASS"
+    },
+    {
+      "name": "Invitation is copied once and cleared from the HR panel",
+      "result": "PASS"
+    },
+    {
+      "name": "Revocation is visible and the revoked browser invitation fails safely",
+      "result": "PASS"
+    },
+    {
+      "name": "Invalid invitation shows a safe standalone error",
+      "result": "PASS"
+    },
+    {
+      "name": "Expired invitation is rejected in the browser",
+      "result": "PASS"
+    },
+    {
+      "name": "Valid candidate exchange removes token from URL and browser storage",
+      "result": "PASS"
+    },
+    {
+      "name": "Backend refuses start before persisted consent",
+      "result": "PASS"
+    },
+    {
+      "name": "Consent persists across a browser refresh",
+      "result": "PASS"
+    },
+    {
+      "name": "Arabic RTL, English LTR and Mixed confirmation remain independent",
+      "result": "PASS"
+    },
+    {
+      "name": "Mock readiness requests no real microphone",
+      "result": "PASS"
+    },
+    {
+      "name": "Interview starts with AI_SPEAKING and the current question",
+      "result": "PASS"
+    },
+    {
+      "name": "registered synthetic model is explicitly enabled without microphone or key",
+      "result": "PASS"
+    },
+    {
+      "name": "answer commit is durable before held asynchronous decision",
+      "result": "PASS"
+    },
+    {
+      "name": "release selects only approved follow-up through the server engine",
+      "result": "PASS"
+    },
+    {
+      "name": "clarification uses frozen wording and the authoritative 30-second timer",
+      "result": "PASS"
+    },
+    {
+      "name": "injected authority output fails closed while committed answer remains recoverable",
+      "result": "PASS"
+    },
+    {
+      "name": "authorized HR retries within durable budget without submitting another answer",
+      "result": "PASS"
+    },
+    {
+      "name": "pause cancels pending model work and late output cannot advance interview",
+      "result": "PASS"
+    },
+    {
+      "name": "explicit resume recovers same committed turn with a fresh bounded attempt",
+      "result": "PASS"
+    },
+    {
+      "name": "refresh during model processing preserves committed answer and does not retry submission",
+      "result": "PASS"
+    },
+    {
+      "name": "model orchestration exposes no job internals and makes zero real provider calls",
+      "result": "PASS"
+    }
+  ],
+  "screenshots": [],
+  "candidateExternalRequestsCompleted": 0,
+  "candidateExternalRequestsBlocked": 0,
+  "hrThirdPartyFontsBlocked": 2,
+  "applicationWebSocketServerAdded": false,
+  "realMicrophone": false,
+  "syntheticLlm": true,
+  "realAiCalls": 0,
+  "screenshotPolicy": "Not persisted: baseline contains no credential-bearing images"
+}

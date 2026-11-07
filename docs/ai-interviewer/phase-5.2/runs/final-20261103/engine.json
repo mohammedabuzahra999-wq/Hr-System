@@ -1,0 +1,13 @@
+{
+  "id": "engine",
+  "protection": "engine/timer/follow-up/clarification/evidence",
+  "command": "npm.cmd run check:ai-interviewer -w @hr/server",
+  "startedAt": "2026-11-03T08:58:31.825Z",
+  "finishedAt": "2026-11-03T08:58:32.636Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "engine.log",
+  "passLines": 37
+}

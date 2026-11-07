@@ -1,0 +1,13 @@
+{
+  "id": "web-build",
+  "protection": "production web build with mock flag explicitly true",
+  "command": "npm.cmd run build -w hr-app",
+  "startedAt": "2026-11-03T09:14:30.529Z",
+  "finishedAt": "2026-11-03T09:14:44.075Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 3,
+  "outputLog": "web-build.log",
+  "passLines": 1
+}

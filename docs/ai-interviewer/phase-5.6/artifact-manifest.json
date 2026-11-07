@@ -1,0 +1,916 @@
+{
+  "format": "phase56-artifact-manifest-v1",
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "docs/ai-interviewer/phase-5.6/README.md",
+      "bytes": 4277,
+      "sha256": "fc8719bd777eea3144a4789b23cd55290a569cda8340be1340083f621f4f55d3"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/architecture-review.md",
+      "bytes": 10446,
+      "sha256": "0f77f3aaca8d10bd9a7db537b7b0690a586ab96b4da85502b9a9154e510411ca"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/before-state.md",
+      "bytes": 2973,
+      "sha256": "efd403d22fc8fb3b6f953d37959d794384cf714db4e78e7683ac54ac0a9b9565"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/evidence.mjs",
+      "bytes": 4799,
+      "sha256": "92b01808eb13f33b5006dc5b9e8e1bdde4d6ffb80ae66b06698674633650182e"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/guard.cjs",
+      "bytes": 4283,
+      "sha256": "624b1d56ba215b1f8da21ebb709c09d2522d2de3fa66a220ec2381711aabe697"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/integration-checklist.md",
+      "bytes": 7213,
+      "sha256": "37d4024935a30037740c6c87659fe19b487d66f7df7b4a31912a7099bb80c021"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/manifest.mjs",
+      "bytes": 2867,
+      "sha256": "1fb417a815d28a1b44cba4e80cfb8201c08c146a37ff2cdb0376dfc0ab658e90"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/migrations.mjs",
+      "bytes": 3348,
+      "sha256": "fe619bfe78b2406b1e22c80982f874697e021b481c02f7535d23cd3fcd3651b9"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/report-template.md",
+      "bytes": 12117,
+      "sha256": "6b2fe7f4312c241113b9f9a84cb44aa8be0b8ed7e55272f9850d8c1e3fc6ff9c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/resource-finalize.mjs",
+      "bytes": 3803,
+      "sha256": "a45079c69f623f145d0e6f4bb1d1be65f382e23011382257530a41ee0d716b55"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/run.mjs",
+      "bytes": 15368,
+      "sha256": "1b01fcc3f4d45d317a5eef48b6ffea931afa5dd8253fdd20554ed4713df92e82"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/REPORT.md",
+      "bytes": 19399,
+      "sha256": "889b906be7382b78e35c2d38de8cc4100fabbbb54a0d899e4b0b8f4ec1dee8c8"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/acceptance-steps.json",
+      "bytes": 1045,
+      "sha256": "8ba5b7a88de4a3d6998825c0d14070193c259d2303dcb416efb7e96ef4edccc1"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/answer-browser-matrix.json",
+      "bytes": 8869,
+      "sha256": "85478ceb4287e60e2f4d63d1448dd2568029fd6d54d61ee7b949449ac7b7c838"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/answer-browser.json",
+      "bytes": 435,
+      "sha256": "10e187cb02017b8412cef923f1ffd4557241c7eea847cec8b3088ae7fe29891e"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/answer-browser.log",
+      "bytes": 4862,
+      "sha256": "8a15bca048b30a67af2c953b8379c05ee1fc795adb037cff137e2064931fe64e"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/answer-database-matrix.json",
+      "bytes": 5981,
+      "sha256": "8998e3abe92834f97de8a70023358153f27bf6f5e73f7edb58bbf0c2b83212a8"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/answer-db.json",
+      "bytes": 437,
+      "sha256": "6b6e550469035ae44618fb0ec5b2ab1e2834d1913a8b1ca36f2d66bfe99260a4"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/answer-db.log",
+      "bytes": 4560,
+      "sha256": "7c3214f9fac131e96700383a4cee5a32f774d2115b0e1ad0e8ed62ed7da49541"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/answer-ui.json",
+      "bytes": 442,
+      "sha256": "ffc96cfaef345ffe901327cf27dd906557e9aa039fd2c4674e05d1e3c5ba40c6"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/answer-ui.log",
+      "bytes": 2168,
+      "sha256": "b39ffb7b7df6668787e8c53872aabc9263c11aec9eda4de19d12785f90037297"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/api-build.json",
+      "bytes": 382,
+      "sha256": "5674af655e584e5e77d99f8b829abd912ecef933f4858dec413f6967f421dd67"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/api-build.log",
+      "bytes": 94,
+      "sha256": "b575b68518f701af65cfb1c58fe96ebfcf147c29ef6e644a6a4f2af34df5bb78"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/browser/answer-browser/ai-interviewer-phase3/browser-results.json",
+      "bytes": 7079,
+      "sha256": "1efdec561bcd104433d237af4a741e66378055e41bb10d47881256d902e7dc63"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/browser/browser3/ai-interviewer-phase3/browser-results.json",
+      "bytes": 5400,
+      "sha256": "c1af66f01e48b0099dd25b9a1444f842ec69bcec7098860785cccd6a34365a90"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/browser/browser4/ai-interviewer-phase4/browser-results.json",
+      "bytes": 7225,
+      "sha256": "0fe37b0c080d26bd93273a22634c1b1694c997879b1542ccde6f44f6e9625295"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/browser3.json",
+      "bytes": 395,
+      "sha256": "2a7a7132487ab21cf70eb7d5baffd660f9ce80c539cc265691f62fd627731ee4"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/browser3.log",
+      "bytes": 3287,
+      "sha256": "cf8e3f96da2c1ab987e53804068f2f4ddc8af129dd96efe6c12693d53e34f241"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/browser4.json",
+      "bytes": 410,
+      "sha256": "1bd598062f359d414522d952860d7eb59899af5ca81aaa5f286d256ddea78d56"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/browser4.log",
+      "bytes": 4482,
+      "sha256": "267f9e6a2029a350109e4cc101ffcdba1954849e7ffa53f1339ac8a0e6752ccf"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/contracts-build.json",
+      "bytes": 367,
+      "sha256": "c568fb902263a017ccd72808d6d8c72aa9d66c2fd7759c95d44b1af1fa49614e"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/contracts-build.log",
+      "bytes": 56,
+      "sha256": "124e52167c66230c64d72fd48e02dfa7ae1ec37e9fcfd7dead98fb43bda34e8c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/engine.json",
+      "bytes": 381,
+      "sha256": "d3292b5c63c63f65dd30dd932e071b206dcc7a5002fc7a2e989d92454ab535ed"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/engine.log",
+      "bytes": 2717,
+      "sha256": "4247a495faad111be72e39083b7f506dbe4c3058ec014bab482cc805e7b838d1"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/environment.json",
+      "bytes": 901,
+      "sha256": "d56b2756b09ae281b2a353cd7e40b312e9f838ab2198e0c08a6839ef955d9998"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/execution-bounds.json",
+      "bytes": 466,
+      "sha256": "d1e85d432436fb87d3537f128fec73a17f941f78186e490593228a1023c509c2"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/execution-bounds.log",
+      "bytes": 1029,
+      "sha256": "bda5427e3708d41592e70de44377fb8d3dc8d557ee130a5a9e551375775d98de"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/gate.json",
+      "bytes": 379,
+      "sha256": "9c0a5b019fdd9a7c4f1c4449016ba1997a798fa8c3503deb7902d5dddf93f9f8"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/gate.log",
+      "bytes": 9382,
+      "sha256": "5216a552076cecc66711f96092a78c5a9cf1ff46c8bbd58e8dda1cf008027f8d"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/integrity.json",
+      "bytes": 486,
+      "sha256": "79f9c8dd2baf28c0f948ffbe1b152c70d66e178092f2f5f097566db82eb0e0e4"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/inventory.json",
+      "bytes": 14181,
+      "sha256": "4f85cfd7ac56dbf321103dd75b1ec9c6c61d92171472dd39d0790bc11c31e609"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/local-voice-api.json",
+      "bytes": 420,
+      "sha256": "8779db17ad3280960cef1f0f60f1d2385324bf4a55059b4e375606747e48a159"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/local-voice-api.log",
+      "bytes": 368,
+      "sha256": "5966426a289e7db14e67b563ab6f11c65376fac439310aff586cda987fcd70ae"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/local-voice-audio.json",
+      "bytes": 426,
+      "sha256": "51a1fed13f89119414b95c96d1483f351e76fc6dfdbdaa4afa87dc4c2e0c149d"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/local-voice-audio.log",
+      "bytes": 501,
+      "sha256": "3d6f59131a50f32bc9f558adc98ff76749221b4d268a969fb3320f4dae34c8f1"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/local-voice-queue.json",
+      "bytes": 409,
+      "sha256": "bddf066a6acfed59f4ea61879963e36c6c44e9e689eb92b1115de05d12efbadb"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/local-voice-queue.log",
+      "bytes": 422,
+      "sha256": "dc732e128f699c74854726b37aa10a89df844a90e457e05d29deac5d5559c8e5"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/local-voice-turn.json",
+      "bytes": 428,
+      "sha256": "0e3d3fba8f427b36003a8c62b59c4958e54b5ca95a5510d3324e9df95aa9d297"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/local-voice-turn.log",
+      "bytes": 828,
+      "sha256": "52d0ddf9678a13d9607cf2f8c6526ccbb9370dba15ece317a6b91b9ca6d4cc47"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/mcp.json",
+      "bytes": 406,
+      "sha256": "84c600a2e1b35238e69239b0530cfffc3b7904fd834cab1923f903578830ad99"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/mcp.log",
+      "bytes": 1514,
+      "sha256": "ad54853f902d0bafaa402f9b06fd974c3b79080549eb9671cf47da37916d398f"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/migrations-run.json",
+      "bytes": 399,
+      "sha256": "059c55995847bc7e61d6b89133afd1bb1548982528250ad9a6fad061bdb99b28"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/migrations.json",
+      "bytes": 481,
+      "sha256": "64663ce60d45f25b13c5a7f2a7b9ed13865de35cf75ea25e9c55a7e37808fbf7"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/migrations.log",
+      "bytes": 440,
+      "sha256": "d34b72c127be48d9bcdc98e6b6952ff680e9150375b2f2d9d9230f9bfe3d6bc9"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/answer-browser-14968.json",
+      "bytes": 188,
+      "sha256": "0e181c0df8939f44f4164e8697db47edd85e888abb30846883d6ea2a7a620cf7"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/answer-browser-18748.json",
+      "bytes": 186,
+      "sha256": "78fa18bc6c7184b2f507770336d145cbc1ef301c869592d5214c6eac8fb9e776"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/answer-db-18224.json",
+      "bytes": 181,
+      "sha256": "8883296f80f6afe82bdb0d2b5c7571b3637790c7f70770e85d9611727c65f5f1"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/answer-ui-2644.json",
+      "bytes": 180,
+      "sha256": "304920fe468f3f9938e7282b46b47fd063e32ca6fdad1b8e17b02af8baa884ce"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/api-build-1476.json",
+      "bytes": 180,
+      "sha256": "e414bb05477e6edddecda27af71a6b6cb8795632fbe412d10f7765db29a3a027"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/api-build-19252.json",
+      "bytes": 180,
+      "sha256": "e414bb05477e6edddecda27af71a6b6cb8795632fbe412d10f7765db29a3a027"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/api-build-22312.json",
+      "bytes": 180,
+      "sha256": "e414bb05477e6edddecda27af71a6b6cb8795632fbe412d10f7765db29a3a027"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/browser3-11996.json",
+      "bytes": 180,
+      "sha256": "3e8c85ffabccb312395a30fe9a74e431363954fd5d06ea6ab21e04b9fccc8c4f"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/browser3-20992.json",
+      "bytes": 182,
+      "sha256": "3d20e8306fa4b88ca7110c433994ff2e2b6b1b24c0f56f1b136203099996d6e5"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/browser4-24188.json",
+      "bytes": 182,
+      "sha256": "7ed31d16159a92f32b6fa86a48e07ca1306b3a5eae517201f99401ab5f96d000"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/browser4-6324.json",
+      "bytes": 180,
+      "sha256": "527422c795a60b7c8fbfe010a27be6ad8445e5191522f49b779db06c8c39302a"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/contracts-build-10656.json",
+      "bytes": 186,
+      "sha256": "54f30751a1d32a7055b3853412c811dc1e6ef06b61731c1c1e822ae4b6b7f79e"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/contracts-build-19780.json",
+      "bytes": 186,
+      "sha256": "54f30751a1d32a7055b3853412c811dc1e6ef06b61731c1c1e822ae4b6b7f79e"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/engine-23016.json",
+      "bytes": 177,
+      "sha256": "a0754c9c3feb3f10e39016539179bcc961298af3bdb19a263d6856f831cd0479"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/execution-bounds-23700.json",
+      "bytes": 187,
+      "sha256": "d164de87d819ee8f91be670c7e305e930ff7d000d7da738c48dbd2cea04f3072"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/gate-13912.json",
+      "bytes": 175,
+      "sha256": "cf807a2471f8fa3bc8d5525e69c695ba74a0690af7f7ec5450c7e85b064d8137"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/local-voice-api-14176.json",
+      "bytes": 186,
+      "sha256": "b3f2a96fcfcd4278259c146a3e70385d12a318372c42c74e1c12352ce963589e"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/local-voice-audio-6988.json",
+      "bytes": 188,
+      "sha256": "fa0b974b8354b733cd131f83095600025b7ef527626da2c4c663ade203e110b1"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/local-voice-queue-15084.json",
+      "bytes": 188,
+      "sha256": "2e2ed2b47f0bd9e8e3b012526cdeec2cd0787e620b6a7ebb89bfddada2fd9f53"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/local-voice-turn-13692.json",
+      "bytes": 187,
+      "sha256": "1eb9ad688a647ec7775be055cd7dfa3e67bed9c787f27e64ba3a8298732aeb71"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/mcp-19480.json",
+      "bytes": 174,
+      "sha256": "5b2f884ee570f3dde9664d42fb3fc8be55a50076accc5f5233165bf7b87f1b43"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/migrations-22816.json",
+      "bytes": 181,
+      "sha256": "9609d4599e8b586a99a94a97bbbf97483197d6c8125f18234220fa363fc7ea7b"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-14004.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-14160.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-1620.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-16524.json",
+      "bytes": 181,
+      "sha256": "e2654e03095e4d236b8ecc46e42da59a8a19bcaedaf9d6676015f8e04f3faf10"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-17220.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-18264.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-19620.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-20136.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-20184.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-20912.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-21788.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-21984.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-22132.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-22532.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-22680.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-22872.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-3100.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-7960.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-8924.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-992.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/operations-db-18968.json",
+      "bytes": 184,
+      "sha256": "b234cf02f007fa7b64b3a1a85193d63517949e81452fd1276b9b724e22589fb4"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/permissions-19740.json",
+      "bytes": 182,
+      "sha256": "e01fa8be4f18b4478a5f7e3976ab65264321833965964a6083d2adb20661a22a"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/persistence-16148.json",
+      "bytes": 182,
+      "sha256": "95d2ed44631bfdf161a0f5c14416c7ffd886186396e33d60ee56af62b0f45615"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/plans-1020.json",
+      "bytes": 176,
+      "sha256": "94fd86405f1db9df357bb1d46241bc43c562addb53e4f4299c6b1f5208c6d08f"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/provider-gate-10932.json",
+      "bytes": 184,
+      "sha256": "2280f0443751028f9e1a50a51e416b64fbf09c8b52a592d47cc052d0ee03f1e3"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/report-22972.json",
+      "bytes": 177,
+      "sha256": "53792e57d33502a33bae203165215aa1e3136292b5534e0edde3509790fcf4a2"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/report-security-24468.json",
+      "bytes": 186,
+      "sha256": "2e7721ea1feb2ec3c594dcb7abe534c2a7c0315341962f46fae6174473258206"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/runtime-jobs-1492.json",
+      "bytes": 183,
+      "sha256": "94a37ce7599bd866f99f55557decb2b593be552df9925a85a0aa2f3c204d0c5e"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/scenario-16288.json",
+      "bytes": 179,
+      "sha256": "c1362fc104410abcd7775d8bd9f7aea825f02b9412b96c6fb50442fc406e12d8"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/scorecard-21068.json",
+      "bytes": 180,
+      "sha256": "9dfdc5f030c8bb84adc524f9da8ca864d72863186c9ef5069247afaeea4adf9d"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/secret-canary-19176.json",
+      "bytes": 184,
+      "sha256": "c81011bd18357dbf75d28f50b5fb09e677984500dd876cf3e5ddb8bd5b1f7342"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/secret-scan-8396.json",
+      "bytes": 182,
+      "sha256": "33dd203980ebe37bc857ee60ffb22e3163dcc4fa71d2f05943a9fff8bc87b432"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/structured-provider-21000.json",
+      "bytes": 190,
+      "sha256": "090d62a759e1a54726f8b158f81d59ff5462504e1487a0f71d591f7afacea0a3"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/synthetic-e2e-16664.json",
+      "bytes": 184,
+      "sha256": "5f4247d28aa8bedfc0346785538cabb7e23187608ab71ae7c6a3c7f31326d033"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/typechecks-10084.json",
+      "bytes": 181,
+      "sha256": "b50ee0605b77ad9cd03209dcfcea845ae161b8f40e021744047100f7b6ccc5d5"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/typechecks-18352.json",
+      "bytes": 181,
+      "sha256": "b50ee0605b77ad9cd03209dcfcea845ae161b8f40e021744047100f7b6ccc5d5"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/typechecks-18584.json",
+      "bytes": 181,
+      "sha256": "b50ee0605b77ad9cd03209dcfcea845ae161b8f40e021744047100f7b6ccc5d5"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/typechecks-19172.json",
+      "bytes": 181,
+      "sha256": "b50ee0605b77ad9cd03209dcfcea845ae161b8f40e021744047100f7b6ccc5d5"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/typechecks-22936.json",
+      "bytes": 181,
+      "sha256": "b50ee0605b77ad9cd03209dcfcea845ae161b8f40e021744047100f7b6ccc5d5"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/typechecks-4692.json",
+      "bytes": 181,
+      "sha256": "b50ee0605b77ad9cd03209dcfcea845ae161b8f40e021744047100f7b6ccc5d5"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/typechecks-8892.json",
+      "bytes": 181,
+      "sha256": "b50ee0605b77ad9cd03209dcfcea845ae161b8f40e021744047100f7b6ccc5d5"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/ui-10376.json",
+      "bytes": 173,
+      "sha256": "870d1d23d47d17e3ac79047939c88b808c8409c64a72e5bc6a749e7ca327b0ad"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/voice-4256.json",
+      "bytes": 176,
+      "sha256": "444137922058c365db09c193098c3d9cbdb6bb0cf2e7fa46458d68277a371687"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/web-build-13160.json",
+      "bytes": 180,
+      "sha256": "2b6ad4aa496e5b07f7279dd278c1adec86259423956cca135ce9aec43c439c2a"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/web-build-19376.json",
+      "bytes": 180,
+      "sha256": "2b6ad4aa496e5b07f7279dd278c1adec86259423956cca135ce9aec43c439c2a"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/network/web-build-8924.json",
+      "bytes": 180,
+      "sha256": "2b6ad4aa496e5b07f7279dd278c1adec86259423956cca135ce9aec43c439c2a"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/operations-database-matrix.json",
+      "bytes": 9120,
+      "sha256": "0e7aff15eeef6faa67a0b6b224739c4dfbcc0a80ef2ad630e9508219905b22e2"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/operations-db.json",
+      "bytes": 464,
+      "sha256": "f3179dad177cf07e4a94273b22d61134830224bdd87bacbb142ba3664b320e1c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/operations-db.log",
+      "bytes": 10649,
+      "sha256": "97d4a072b49beeef1b12a83ba54ae143ad1254660e53afd3bc9f12c72f3291d3"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/operations-unit-matrix.json",
+      "bytes": 3045,
+      "sha256": "e17a9e5047fbcbfb4c2b2eaf8496cca2b066cdf3e1fa466bef9f357f962b79c7"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/operations.json",
+      "bytes": 449,
+      "sha256": "a671b906d6ef54f63dd97c5573c085c8d8dcec7d18de2198acf8384c87267421"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/operations.log",
+      "bytes": 2907,
+      "sha256": "93dae5ccee3c085013748018db67c3cf49361d7c7f8d6cf059d58e408f99f251"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/permissions.json",
+      "bytes": 385,
+      "sha256": "20875c0c7d42aea368997c6488144ebfdee34e3a25072d368a763d4b79ea839a"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/permissions.log",
+      "bytes": 3573,
+      "sha256": "0af1e504e05b59f9749ca32632c97ab3ee53b1b4ae72c27b61eb4ddef300178e"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/persistence.json",
+      "bytes": 418,
+      "sha256": "d9dfde9b58f884e5f34a5679a0b12150d5ade4ea3db19666ea09051f54b5d48b"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/persistence.log",
+      "bytes": 6606,
+      "sha256": "8e3486bfa68e46856575649cc029b1536debdd3d8df90250b1f93a629955a3b9"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/phase56-secret-proof.json",
+      "bytes": 169,
+      "sha256": "d9c4d572f0d8b887e97c2ac83429d65200ea8e1c0114c0196e82887d99e83378"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/plans.json",
+      "bytes": 366,
+      "sha256": "44f8029bf4216e283762e2dc23ee23919d4628b1b747cd1fee222e67905ae616"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/plans.log",
+      "bytes": 10894,
+      "sha256": "1f33eef94e2224eb0e8eea978cd09185d47a74e429d423859976135f026e10ab"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/preservation-after.json",
+      "bytes": 1605,
+      "sha256": "a2fcb57bfbe437c2ce71e48c42ded70983b449036d1fedc5f3ac932a72114e51"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/protected-after.json",
+      "bytes": 138211,
+      "sha256": "660e40884c27a6b59b9f3426e7d770f734727dd7559231247688eae8de238833"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/protected-before.json",
+      "bytes": 138211,
+      "sha256": "660e40884c27a6b59b9f3426e7d770f734727dd7559231247688eae8de238833"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/provider-gate.json",
+      "bytes": 458,
+      "sha256": "1c6ed72ffc09a84a75687266c56346c927af4a451541351b325c209758075ff9"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/provider-gate.log",
+      "bytes": 11141,
+      "sha256": "966acd6634c35a2fea3c87a1219d8a3c71b7ed8996e7edea611c0e269807ba14"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/provider-matrix.json",
+      "bytes": 16304,
+      "sha256": "27c9d7118a70cbeea9cb90749964b1b3f74c12a289d8f7bcd3ad4e81b5648881"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/report-security.json",
+      "bytes": 425,
+      "sha256": "c2390a9114318c16fdc3e72597cc8f82e809360e638893ca49d17861637e7b30"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/report-security.log",
+      "bytes": 2679,
+      "sha256": "630fe3fbc6227d7bf4c2968359fc2a404812b2ab3c620bd2823cf58b60836553"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/report.json",
+      "bytes": 401,
+      "sha256": "27acc5710912c9c049726fe9e81c453872ead37e4d5b16609b2e32c0ca0f9e41"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/report.log",
+      "bytes": 14808,
+      "sha256": "2cdaf6e8a6722bc256c1bf0e0b8f680eb6d93f0d30df4676101c40e38e8200b9"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/resource-cleanup.json",
+      "bytes": 937,
+      "sha256": "797de3786b926f1606c6fe639d979bd6925c0195b8595c34fc6297ce2db1cd67"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/runtime-jobs.json",
+      "bytes": 446,
+      "sha256": "903ba1af8459a033321a96861abdf9ed0ee5a6aab7c3f34845d4925a8cc9b099"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/runtime-jobs.log",
+      "bytes": 23230,
+      "sha256": "ea608f55acb3896c7a394f444b51da4f4b6da068003dc15d3f8c66a3e50cbc18"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/runtime-matrix.json",
+      "bytes": 49685,
+      "sha256": "63d652898e57b15b6f55dae632816ff739656863f63eb227a8f09541d012641c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/scenario.json",
+      "bytes": 371,
+      "sha256": "3655b81a109e9847a2febbe27ae99bc7158857bb2e1dfe6c9c83a0def031ffe4"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/scenario.log",
+      "bytes": 2073,
+      "sha256": "1c5f1413b10e34e4d45831dddcda1854ebec7002b452525b25354d18edfa5a93"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/scorecard.json",
+      "bytes": 382,
+      "sha256": "66bb28f1829a4033774968de0e986439b7eabcccba7273cf3b431b3effc2e82a"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/scorecard.log",
+      "bytes": 1841,
+      "sha256": "05837103a208f2e2830caf3af847ce865f4cbdf6e42f3a176bfbe68aca2a18ce"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/secret-canary-inventory.json",
+      "bytes": 352,
+      "sha256": "0c4ade1f9896157de1e0e35f61ed634643b91b6f74e1a72f34d89f02ec063279"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/secret-canary.json",
+      "bytes": 436,
+      "sha256": "fe5d3fbaad2f5f22b570980c70a597dacffb93de7efe06ef3e8dd4c768f02128"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/secret-canary.log",
+      "bytes": 92,
+      "sha256": "475d9fdba887cb74d3ece3c003a16127b18a9c7eacf5165adfb494d928922286"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/secret-scan.json",
+      "bytes": 412,
+      "sha256": "dbe1f92863ffaceff0b81e0ff61a4b07dc045f3163fd1638d9be73a73844d1ce"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/secret-scan.log",
+      "bytes": 84,
+      "sha256": "312486f0ce87f3b8a41560a652c1908bdc4a058d689bc1e45a263495ca1bc71f"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/security-abuse-matrix.json",
+      "bytes": 7082,
+      "sha256": "2d5baba96a4b36476fe1b7569b16b26268a3ff4b4c181577331b7b091fd5ccb3"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/source-after.json",
+      "bytes": 78267,
+      "sha256": "e2fb83906f162898c273378814a824ebd69fd8afdd682061eb1dcf52144760a0"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/source-before.json",
+      "bytes": 78267,
+      "sha256": "e2fb83906f162898c273378814a824ebd69fd8afdd682061eb1dcf52144760a0"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/source-changes.json",
+      "bytes": 244,
+      "sha256": "74957488331ba868d83e177dfe41383542deafcae99c6e2c0b557127cdd15ffb"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/source-final.json",
+      "bytes": 78267,
+      "sha256": "e2fb83906f162898c273378814a824ebd69fd8afdd682061eb1dcf52144760a0"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/structured-provider.json",
+      "bytes": 449,
+      "sha256": "8a670570f24b9c91e7f9d41949ab41d8782d0867cde63381db10f9535b4e0254"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/structured-provider.log",
+      "bytes": 355,
+      "sha256": "8a51f720fffba5218de9f6464051efb1565e0ba64a30259b3f2eaf1b5f907169"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/summary.json",
+      "bytes": 44156,
+      "sha256": "0f522793a25ca7b72fac01134b04671134c089f6e376387a72d09c5d89e9069c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/synthetic-e2e-inventory.json",
+      "bytes": 495,
+      "sha256": "3947de5b9ed40331b9a8c8458ef2b5261f88007711c521668fe7611c04f91f35"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/synthetic-e2e-matrix.json",
+      "bytes": 3083,
+      "sha256": "7bf1a4d9f1cbdd10075b5c348530154af246fbf6f66964d8e24d86ac6def77e6"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/synthetic-e2e.json",
+      "bytes": 514,
+      "sha256": "8a3639cd81e98e8c7576ee2f7526b212a32b124172a5938cd6290f9c2d2f138e"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/synthetic-e2e.log",
+      "bytes": 4053,
+      "sha256": "298c1cb2f340908502fa33bae2e3034cece675536913be9ac0dbc51d8334eea1"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/typechecks.json",
+      "bytes": 355,
+      "sha256": "975ec17456d1f8a844b7faba3f93c6245088f99f2d858c33d6789f1781bdcc84"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/typechecks.log",
+      "bytes": 2285,
+      "sha256": "951bee129063e68d8bb0162ba8edb83c9109885dbc942963bfd2d7bb06120b0b"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/ui.json",
+      "bytes": 384,
+      "sha256": "32a980696a315916a3ad22c19d30f7b6eafe25267b82c5202a227f303e6c4b8a"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/ui.log",
+      "bytes": 1725,
+      "sha256": "ccc3a5705716c6ee026bd92f2a3bfab43b449d135521f32a9b6015a9a614fb72"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/voice.json",
+      "bytes": 368,
+      "sha256": "4e1f569a5e8055a201042ebcabb176424f8f6ad9ec210e308a3b9fcf38807578"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/voice.log",
+      "bytes": 1211,
+      "sha256": "0b0bed5d9bdd596d02eecf008ba4efa59079f740aceba0eca0ca220c332e4409"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/web-build.json",
+      "bytes": 373,
+      "sha256": "8f0e476809599476482697f80cb12802ffbeda83339a5b2817d9d6ef68c8028d"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/runs/final-20261105/web-build.log",
+      "bytes": 1117,
+      "sha256": "d6965ea6b54ed0b912b469723f24e0c2a1057f58374803d47745fa2340629088"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/secret-check.mjs",
+      "bytes": 1427,
+      "sha256": "480660ebd207529325d16b8c1c871e42d868dfcad6711611082a8ff095268a85"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/state.mjs",
+      "bytes": 11245,
+      "sha256": "ee0a36e3a69de18633df284f93c17e3187f8596e0c55af59732b78730df7b967"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/synthetic.check.ts",
+      "bytes": 22040,
+      "sha256": "c85e40205d0ac60a478db6ac81f49a0d22d76034420104b2f1664861234f3853"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5.6/verify.mjs",
+      "bytes": 2797,
+      "sha256": "942afad44a8d6a8bd4d9115630e50cbc612e4c0a5cae5a105dd08eef0857d834"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Preserve exact file bytes and line endings for evidence and source manifests.
+* -text

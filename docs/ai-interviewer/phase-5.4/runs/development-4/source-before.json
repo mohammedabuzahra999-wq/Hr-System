@@ -1,0 +1,2149 @@
+{
+  "format": "phase54-sha256-manifest-v1",
+  "algorithm": "SHA-256",
+  "kind": "source",
+  "fileCount": 428,
+  "filesDigest": "a0146942d91de7104041dc31021bc3eeaaa8f941bce37409c52dfc39e7ce4012",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 1623,
+      "sha256": "a4e335ab13b03c69521cdcad5ff3eb606a1ec05cb2505f8cc28ee1ba994148a1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6207,
+      "sha256": "225c0faa915819d908ea21d9bd56da834eea3ed09e9240ca7183d10454095108"
+    },
+    {
+      "path": "apps/hr-web/index.html",
+      "bytes": 966,
+      "sha256": "3399e6b322706e08474cdd6796ff1cb977b4b23c8f3425173fb75878951f7207"
+    },
+    {
+      "path": "apps/hr-web/package-lock.json",
+      "bytes": 65624,
+      "sha256": "4763c79c19973a7e316ec3b2accfcc2abacec162c393a037c430587ef1e65ad2"
+    },
+    {
+      "path": "apps/hr-web/package.json",
+      "bytes": 886,
+      "sha256": "7982745b22c901bb07ce2edea20f0b8515f036eb85f0226fc61a0e34e5d81a9d"
+    },
+    {
+      "path": "apps/hr-web/public/favicon.png",
+      "bytes": 2368,
+      "sha256": "c9beafca749c72021a0a6e4af8fc4bf83e2af6ac997909fa3342dbfe40d85513"
+    },
+    {
+      "path": "apps/hr-web/src/app/App.tsx",
+      "bytes": 701,
+      "sha256": "c06cfc78c3a0d08ea31a470b5d42ab138fdb83c1380e6b0aacef52bb98d2dc57"
+    },
+    {
+      "path": "apps/hr-web/src/app/router.tsx",
+      "bytes": 7457,
+      "sha256": "38db0a8ea85a53836e7b27f5e1a5196b3639a0f4946c2ff6e847c352d7bbe874"
+    },
+    {
+      "path": "apps/hr-web/src/assets/brand/mark-blue.png",
+      "bytes": 4843,
+      "sha256": "efefbbe3af79d84c9e1ec337f223ce7d3fdf657d2c913a485aa92185c289d0f1"
+    },
+    {
+      "path": "apps/hr-web/src/assets/brand/mark-white.png",
+      "bytes": 4883,
+      "sha256": "502fc7f4b73d7187058e3bcee32af025112b1ed7c224e504993c63730c78c6d7"
+    },
+    {
+      "path": "apps/hr-web/src/assets/brand/wordmark-navy.png",
+      "bytes": 6657,
+      "sha256": "18104f2b4af0531bb0cfa847e74874e0dddbf56df242761005bec03938048857"
+    },
+    {
+      "path": "apps/hr-web/src/assets/brand/wordmark-white.png",
+      "bytes": 6396,
+      "sha256": "81e49c7b3f6dc1f395aee5f8b33d271b496dd2c56de58bb869181a04efe71e03"
+    },
+    {
+      "path": "apps/hr-web/src/components/layout/Sidebar.tsx",
+      "bytes": 5043,
+      "sha256": "6998fa4a8bab30e75b399699f2a246e9f0118a37c61db531d9f53db1107cdd28"
+    },
+    {
+      "path": "apps/hr-web/src/components/layout/Topbar.tsx",
+      "bytes": 3219,
+      "sha256": "af1e613c06c79b840a2f79913dcb95c7fe725fd94e05d57e940bfc926b1fd6e7"
+    },
+    {
+      "path": "apps/hr-web/src/components/ui/Alert.tsx",
+      "bytes": 967,
+      "sha256": "30614084e5e393fff07e47c282283494b19b6ea71a9ce3eab45a8b22c045c056"
+    },
+    {
+      "path": "apps/hr-web/src/components/ui/Avatar.tsx",
+      "bytes": 942,
+      "sha256": "dc5f4788321c2257f309cfe1bea8de47da0ef34d58f9ed33ac4713247e23a1aa"
+    },
+    {
+      "path": "apps/hr-web/src/components/ui/Badge.tsx",
+      "bytes": 914,
+      "sha256": "51048d411cc09c221b976c85f26a4c9202b1c511b870395202e45eb25d0f9b44"
+    },
+    {
+      "path": "apps/hr-web/src/components/ui/BarChart.tsx",
+      "bytes": 8431,
+      "sha256": "8ffba34c0e2390cd32777c98ba307a10f29d2d93902e8da4183f641fae088ec9"
+    },
+    {
+      "path": "apps/hr-web/src/components/ui/Button.tsx",
+      "bytes": 1353,
+      "sha256": "917038a6424109ffb42461ca95a95d09ae3488d6f84e693ff6c37aa8db67959e"
+    },
+    {
+      "path": "apps/hr-web/src/components/ui/Card.tsx",
+      "bytes": 1931,
+      "sha256": "6cf06ce79278a23a63fb2494e2d73d8e870643dc5d81492a06f9a5675202f78c"
+    },
+    {
+      "path": "apps/hr-web/src/components/ui/DataTable.tsx",
+      "bytes": 5193,
+      "sha256": "370cc000deb787a102dada1ea14cab4d7c1d6282b6c77488d9361ba0e8131819"
+    },
+    {
+      "path": "apps/hr-web/src/components/ui/Input.tsx",
+      "bytes": 1462,
+      "sha256": "4aa475cb9e0273cfff8291c086dc909b516035d8ff6235ba92a393205f945a41"
+    },
+    {
+      "path": "apps/hr-web/src/components/ui/Logo.tsx",
+      "bytes": 1002,
+      "sha256": "8958250f1f2b7b7d0e406a674c818fde89734f6a23d33054246d10ddb1d29f47"
+    },
+    {
+      "path": "apps/hr-web/src/components/ui/Meter.tsx",
+      "bytes": 2419,
+      "sha256": "a8245a62bcbfbb5104769b1049b59bcefa109d2a989647e44d1c8794687ca70c"
+    },
+    {
+      "path": "apps/hr-web/src/components/ui/Modal.tsx",
+      "bytes": 1503,
+      "sha256": "40d252b22e41c283865476f708a6e60b251dd6a9c28b48d2465031884844db2f"
+    },
+    {
+      "path": "apps/hr-web/src/config/navigation.ts",
+      "bytes": 5325,
+      "sha256": "dd1ffd69909f1378d7042acc08887639286324801557f38022c243dddb41be73"
+    },
+    {
+      "path": "apps/hr-web/src/features/admin/AddEmployeeModal.tsx",
+      "bytes": 10616,
+      "sha256": "c67024b8b281baf4be1300fa839305a78500c43e8896626c3da9aec4adc89117"
+    },
+    {
+      "path": "apps/hr-web/src/features/admin/TemporaryPasswordDialog.tsx",
+      "bytes": 2621,
+      "sha256": "26539f8e23ff4aee520b5b03f3dba96244eb70c47f36391b929061df689a8d36"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/AnswerRecoveryNotice.tsx",
+      "bytes": 5250,
+      "sha256": "027c9dfff7e87ae4a390d61703bcf22440f98c5f761a0f7840042aada4316126"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/HrAiInterview.tsx",
+      "bytes": 21636,
+      "sha256": "37b0fbd564f302a1491e1746cc08a795b81200306f7fbee97216803c0ab00feb"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/InterviewTimer.tsx",
+      "bytes": 2351,
+      "sha256": "4417601b7c7f5edbf5a10dbc2baa7aeac57f6a14f5c9c1b6c3eb53d93a8353b8"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/MockControls.tsx",
+      "bytes": 7785,
+      "sha256": "d7c94f5a14760e03430ba16bd99b856674c341f9ec84d65d670af5ff80d72c44"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/answerRecovery.ts",
+      "bytes": 10714,
+      "sha256": "eed5a87fbfb07607f94d69deeced954a17c950def113799377f6d4bf5f82c83f"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/client.ts",
+      "bytes": 2688,
+      "sha256": "ad305abbb9a9637292d6ef73b29647d3d2ceecb09676cceb84f2cb11e1f5c96f"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/copy.ts",
+      "bytes": 2033,
+      "sha256": "6a0af3683999f96f2e87c7d6986a0a3c572c6b7726d6e537173563e2627339c9"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/session.ts",
+      "bytes": 7655,
+      "sha256": "ca8491881c59818eb223e295f32266c6b6a92476de0bcf9d916e1db6af18760f"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/timer.ts",
+      "bytes": 576,
+      "sha256": "8415554dd044f54b0378c8c38166a9fbb57d65daab6bb08fb56105bd7897a4ef"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/useInterviewSession.ts",
+      "bytes": 1741,
+      "sha256": "7b34bfc7806399576a110aaadab9c78ccda400c39bc27cbab1aea9fa864b88b5"
+    },
+    {
+      "path": "apps/hr-web/src/features/announcements/AnnouncementComposer.tsx",
+      "bytes": 10584,
+      "sha256": "5a9b412997321af2378fcfa64b82fc14b2260c3c49ae90a72d8f6afd941c08b0"
+    },
+    {
+      "path": "apps/hr-web/src/features/announcements/AnnouncementList.tsx",
+      "bytes": 4970,
+      "sha256": "81dec7d2bc525343887b61939352422a791027ba81e9faed3fec49e6424f4fb6"
+    },
+    {
+      "path": "apps/hr-web/src/features/announcements/AuthorLine.tsx",
+      "bytes": 939,
+      "sha256": "932f0adb2b847568c4e509be3f7d10210fc88a10dc8802c2d86aa438ace544a4"
+    },
+    {
+      "path": "apps/hr-web/src/features/approvals/ApprovalQueue.tsx",
+      "bytes": 4074,
+      "sha256": "5a173dfd2e5bdd86008cd35c732580c56283173885ce180cd6ffc38bf34c55fd"
+    },
+    {
+      "path": "apps/hr-web/src/features/approvals/PresenceBadge.tsx",
+      "bytes": 811,
+      "sha256": "ae1382547bb0c5e25f4d7150841fd60a591daafad986f6161622f8325bfb558f"
+    },
+    {
+      "path": "apps/hr-web/src/features/approvals/useDecideRequest.ts",
+      "bytes": 1344,
+      "sha256": "5f4321023c0cf8f56521421c474f1b2201b8102a4a6890fd9c2ca81186dbe0fc"
+    },
+    {
+      "path": "apps/hr-web/src/features/approvals/usePresenceToday.ts",
+      "bytes": 1336,
+      "sha256": "730217c2a9b3103a1819812a9ffe53656cc3922cbb2459c225e1ec5ca0284fa7"
+    },
+    {
+      "path": "apps/hr-web/src/features/attendance/MyAttendanceCard.tsx",
+      "bytes": 2405,
+      "sha256": "fae01f190bc9e1ca668cb9bf090f87338de048b71081bf392329be856e2583d1"
+    },
+    {
+      "path": "apps/hr-web/src/features/attendance/TeamAttendanceTable.tsx",
+      "bytes": 4877,
+      "sha256": "b29afd7520381278c8aed5fce6d28e48007caff64cad8be83963ef9f6929d158"
+    },
+    {
+      "path": "apps/hr-web/src/features/auth/AuthProvider.tsx",
+      "bytes": 2385,
+      "sha256": "b9ed7bebf034b2b9bf00decd618bb8753ea0d92a6101569ad79e70fc3d306f38"
+    },
+    {
+      "path": "apps/hr-web/src/features/auth/ProtectedRoute.tsx",
+      "bytes": 1736,
+      "sha256": "241b25f452b07bb70f459d3ef515dd62458c9876c8c2580ae487c0294ed13515"
+    },
+    {
+      "path": "apps/hr-web/src/features/auth/useAuth.ts",
+      "bytes": 997,
+      "sha256": "cff82b35252461942fed1e2ae93472e42459d6bf733b356bff3c04fba0777a96"
+    },
+    {
+      "path": "apps/hr-web/src/features/copilot/ConfirmAction.tsx",
+      "bytes": 3902,
+      "sha256": "06dba87412d86d5564025852920cef99b9676edbab4ae7636f0f043a31d5ab0d"
+    },
+    {
+      "path": "apps/hr-web/src/features/copilot/CopilotButton.tsx",
+      "bytes": 1953,
+      "sha256": "5337749720e3da5e5c89e3e252a8de6c21b2b987d6eb49a66c62f33fce10c129"
+    },
+    {
+      "path": "apps/hr-web/src/features/copilot/CopilotLauncher.tsx",
+      "bytes": 11079,
+      "sha256": "f07e9c0e7b5e0b56abae43ef7099d126ebc5a25787c4a321eb0276d52e7616ea"
+    },
+    {
+      "path": "apps/hr-web/src/features/copilot/CopilotPanel.tsx",
+      "bytes": 32916,
+      "sha256": "aaa89100ac1ad8d6da9c76d8c802ff9f66108570ca06621ba73be41c298209a9"
+    },
+    {
+      "path": "apps/hr-web/src/features/copilot/GapForm.tsx",
+      "bytes": 7508,
+      "sha256": "29cce55568f7d3211473b893705db1b4d25a5d4437377033f2b0de351d64bc17"
+    },
+    {
+      "path": "apps/hr-web/src/features/copilot/PersistentVoiceCopilot.tsx",
+      "bytes": 14824,
+      "sha256": "9ad00c02e4fa35c150e6cb66dc8504ee3ab7a228cb0c065a9a318b92190a5b88"
+    },
+    {
+      "path": "apps/hr-web/src/features/copilot/ReportView.tsx",
+      "bytes": 6693,
+      "sha256": "f11540c4bddd026853dfd2ea0bee81fb1035ecc131cc39ba60883d8e1dc671cc"
+    },
+    {
+      "path": "apps/hr-web/src/features/copilot/RobotFace.tsx",
+      "bytes": 2577,
+      "sha256": "de3922c4be36684ad145c33d5cd868970c8d0f390ca6cc4f185b07e1a01a1c46"
+    },
+    {
+      "path": "apps/hr-web/src/features/copilot/localVoiceAudio.ts",
+      "bytes": 7150,
+      "sha256": "9526df83aea515dc70f239b4fdb826aabca0b5640b9655deed73f4aca4dfb978"
+    },
+    {
+      "path": "apps/hr-web/src/features/copilot/localVoiceVad.ts",
+      "bytes": 4037,
+      "sha256": "5cb26674dcd542b6868e8d5a122c89fec363651e08513baaea95f24ed8e50343"
+    },
+    {
+      "path": "apps/hr-web/src/features/copilot/uiEffects.ts",
+      "bytes": 1342,
+      "sha256": "637d0e58c83c67f60070b20784d084b40c10b44bb4920a2d1f7bc7f055d8f831"
+    },
+    {
+      "path": "apps/hr-web/src/features/copilot/useLocalVoiceCopilot.ts",
+      "bytes": 11617,
+      "sha256": "40739988a9d4a6b0ec84f58e4a4e85d0bbeabf81ac4aa5904efac8efef5ecb5d"
+    },
+    {
+      "path": "apps/hr-web/src/features/copilot/useVoiceCopilot.ts",
+      "bytes": 31066,
+      "sha256": "a968f57128f78c5c0b2b706a94d1b4ec3c8c829c8551053454e6146376bbaa41"
+    },
+    {
+      "path": "apps/hr-web/src/features/copilot/useVoiceDictation.ts",
+      "bytes": 4216,
+      "sha256": "1a2a317407a1a8c1c0c0330b7b4219b9e94d3268a802c1452adfd8607b2f2bd8"
+    },
+    {
+      "path": "apps/hr-web/src/features/copilot/useVoiceProvider.ts",
+      "bytes": 2850,
+      "sha256": "a0021fb8e99447f8c5cb7a55a1354e74553864d0c676a0410b9ad20adb8e3427"
+    },
+    {
+      "path": "apps/hr-web/src/features/employee/attendance.ts",
+      "bytes": 1267,
+      "sha256": "98831471779df17db06aa13186d83018494b7442e304046edc042dbcf6811539"
+    },
+    {
+      "path": "apps/hr-web/src/features/employee/components/AnnouncementsCard.tsx",
+      "bytes": 2840,
+      "sha256": "9ef8d576e1033532cc4d781c9631e8f3e7625a716c67cb31c638bc19099a1bc9"
+    },
+    {
+      "path": "apps/hr-web/src/features/employee/components/AttendanceCard.tsx",
+      "bytes": 4641,
+      "sha256": "eefdfb4b07059d69edecdb7f2347c8e03b4db3d0ee2170d98eb4ad466b297d44"
+    },
+    {
+      "path": "apps/hr-web/src/features/employee/components/LeaveCard.tsx",
+      "bytes": 2408,
+      "sha256": "f48c2c2513ecafa62655db0e88b396907965b58e960e6334327c5284f7e332bf"
+    },
+    {
+      "path": "apps/hr-web/src/features/employee/components/NotificationsCard.tsx",
+      "bytes": 3196,
+      "sha256": "9a8b6e220a61ead4438973b4b4b4c741ffa8fad77898e4f5a1c1af8048064e9a"
+    },
+    {
+      "path": "apps/hr-web/src/features/employee/components/PayslipModal.tsx",
+      "bytes": 4301,
+      "sha256": "39c3ff68267ca28f2ce1265a60fe67d143ed058719f68dbaaf2155c5533610cc"
+    },
+    {
+      "path": "apps/hr-web/src/features/employee/components/ProfileCard.tsx",
+      "bytes": 1516,
+      "sha256": "e7b2ed0df22fbf569a14c328221cf23794533a82e043db39aa9b62e51cab8533"
+    },
+    {
+      "path": "apps/hr-web/src/features/employee/components/RequestLeaveModal.tsx",
+      "bytes": 5453,
+      "sha256": "1b8a720483fc91efbffcfc345188daf9631378222ae0c9fc58df4afc3b482974"
+    },
+    {
+      "path": "apps/hr-web/src/features/employee/components/RequestsCard.tsx",
+      "bytes": 4191,
+      "sha256": "3d0cac4f9e2fb58b8044c83449bd29004241fc9862fa5efe9d73263335f34146"
+    },
+    {
+      "path": "apps/hr-web/src/features/employee/components/SalaryCard.tsx",
+      "bytes": 2712,
+      "sha256": "dfd4935310e89bbe14474d4ec6b27a524ee9e68e31d4eb110a144cf77414ac3f"
+    },
+    {
+      "path": "apps/hr-web/src/features/employee/leave.ts",
+      "bytes": 3554,
+      "sha256": "caa6a7025539ba065124ab903f2c242b0dcf20a235601bf83216c6a38cad5952"
+    },
+    {
+      "path": "apps/hr-web/src/features/employee/useEmployeeHome.ts",
+      "bytes": 5069,
+      "sha256": "2eedc89f1d0553a696c8c3417ac6be876179a067b0dd8784cf768c1734471813"
+    },
+    {
+      "path": "apps/hr-web/src/features/employees/EmployeeLookup.tsx",
+      "bytes": 10627,
+      "sha256": "1310f21a549fb583aecaca87b82d5e6330135ad3a747f07b0940c9b424b011e7"
+    },
+    {
+      "path": "apps/hr-web/src/features/guide/SystemTour.tsx",
+      "bytes": 10343,
+      "sha256": "53812e23bec265586bb4fc432e8366364ff3a43f93488d923ad88d1aa843a617"
+    },
+    {
+      "path": "apps/hr-web/src/features/i18n/I18nProvider.tsx",
+      "bytes": 8619,
+      "sha256": "db2e0ea4ac04595c3170a6e2515301c75ac9786f32330106216cac92a2040bd9"
+    },
+    {
+      "path": "apps/hr-web/src/features/i18n/dictionary.ts",
+      "bytes": 202147,
+      "sha256": "0d8fbf9c20016da451bd7bf76cde399fda2ac12b19bd752611756a9c7c58178c"
+    },
+    {
+      "path": "apps/hr-web/src/features/i18n/useI18n.ts",
+      "bytes": 1834,
+      "sha256": "8e622ba91720162086eba6caddfb05db680c7d3dec07973da37d52445745fc89"
+    },
+    {
+      "path": "apps/hr-web/src/features/i18n/wording.check.mjs",
+      "bytes": 1588,
+      "sha256": "f81a2821aa52173adecfa2ac9e3d9a53494c51b469f5a4fb996217ba47e86454"
+    },
+    {
+      "path": "apps/hr-web/src/features/jobDescriptions/JobDescriptionView.tsx",
+      "bytes": 6104,
+      "sha256": "35973d3e471644048aa4347dc9bcd00aac6f06312caf03b9fb83beaadaa3ea02"
+    },
+    {
+      "path": "apps/hr-web/src/features/jobDescriptions/ScorecardEditor.tsx",
+      "bytes": 9837,
+      "sha256": "4fcdc4ba4d3affc521f8cbc4eaf4844b56c2274aff21152b3dc80815824a9b5f"
+    },
+    {
+      "path": "apps/hr-web/src/features/notifications/NotificationBell.tsx",
+      "bytes": 8557,
+      "sha256": "694c0a2191d9676723f94ec3633ad1c20c242b3467fa041b51a2a9ad7ff17ad3"
+    },
+    {
+      "path": "apps/hr-web/src/features/people/PresenceBadge.tsx",
+      "bytes": 1350,
+      "sha256": "1c9889be61e8458b75020ced77e7e78391a1651f1fdc198fc62dba88574bcc17"
+    },
+    {
+      "path": "apps/hr-web/src/features/presence/usePresencePing.ts",
+      "bytes": 1765,
+      "sha256": "c4cdcf7ad57bde31fba00d3a828320d973de0bd7bb810eaa8f9915b2431ae22f"
+    },
+    {
+      "path": "apps/hr-web/src/features/realtime/LiveContext.ts",
+      "bytes": 683,
+      "sha256": "ae5340e422590805042b9c0808ec226465ea3d24cfa536156e6c24976e0f6a1f"
+    },
+    {
+      "path": "apps/hr-web/src/features/realtime/LiveProvider.tsx",
+      "bytes": 3301,
+      "sha256": "dd772d1fbb4ca65a8ba4d47f7b4ecfbb4cac6e676c2c038d2daea6b2cc8673bc"
+    },
+    {
+      "path": "apps/hr-web/src/features/realtime/useLiveQuery.ts",
+      "bytes": 3090,
+      "sha256": "8a689325b2f8884ffe940ba1ffac13db206416dda9131f02306409d31027c312"
+    },
+    {
+      "path": "apps/hr-web/src/features/recruitment/CvMatch.tsx",
+      "bytes": 9378,
+      "sha256": "06bba374e263ededd5aa7db7dc6e64f727e3e5f6ffcaa3868c44960d3bcd97e1"
+    },
+    {
+      "path": "apps/hr-web/src/features/recruitment/CvRow.tsx",
+      "bytes": 2290,
+      "sha256": "0ae13c8a8f059878f3f9c5335c42f009142b616b7d355329974b8f119a866311"
+    },
+    {
+      "path": "apps/hr-web/src/features/recruitment/CvUploadButton.tsx",
+      "bytes": 2712,
+      "sha256": "d28f7951c6985c9b993f769d84d17b600fe085463aea7c3dc254287cb6c76fea"
+    },
+    {
+      "path": "apps/hr-web/src/features/recruitment/EmployeeCvModal.tsx",
+      "bytes": 2677,
+      "sha256": "a35de95b86b95131ee5e2efce9188ec71d712e9eabb8c5a245d946ab294aa216"
+    },
+    {
+      "path": "apps/hr-web/src/features/recruitment/InterviewChoiceResults.tsx",
+      "bytes": 2791,
+      "sha256": "fd4a95947a84834bab5b0d04db9045aebe6fa77410e41c976e23e10b78ed8502"
+    },
+    {
+      "path": "apps/hr-web/src/features/recruitment/InterviewReport.tsx",
+      "bytes": 5240,
+      "sha256": "aacb8575623a345ef5a3b39a8eed96ee27ee516aa76dc425728d159a63038f72"
+    },
+    {
+      "path": "apps/hr-web/src/features/recruitment/InterviewReview.tsx",
+      "bytes": 9784,
+      "sha256": "eadbdf1eb7d7bc399c1d99117d093eefda05c94104d7fa8ccceb177e691b93af"
+    },
+    {
+      "path": "apps/hr-web/src/features/recruitment/LinkedInPost.tsx",
+      "bytes": 4261,
+      "sha256": "1c14a5114a915c61d4ea5544724a0145b7237c13cc27d504315e2c1dc556a6b1"
+    },
+    {
+      "path": "apps/hr-web/src/features/recruitment/SendInterview.tsx",
+      "bytes": 7114,
+      "sha256": "b11f388bade4e90e6534a59fd7eb2a6d0587ea84ebc972c3bed6a8512319a725"
+    },
+    {
+      "path": "apps/hr-web/src/features/theme/ThemeProvider.tsx",
+      "bytes": 2565,
+      "sha256": "a2c9af8d2067c64ced3eacaebf4eae1d242d1755558492c8240216f80b50dadc"
+    },
+    {
+      "path": "apps/hr-web/src/features/theme/ThemeToggle.tsx",
+      "bytes": 1579,
+      "sha256": "1a39c151daf72cb9e2dd6afd140a3be50696ec10f031f4f9c37681cefef002e7"
+    },
+    {
+      "path": "apps/hr-web/src/features/theme/useTheme.ts",
+      "bytes": 968,
+      "sha256": "7e51b58aa6309d07bc2ca8d21660e860d0ecaffe772ecddb78197d9b125c47a3"
+    },
+    {
+      "path": "apps/hr-web/src/index.css",
+      "bytes": 14972,
+      "sha256": "6e8b7aaac6b3dbeac738ef755964cd2967c40151ef295b9e4902b901aad08aab"
+    },
+    {
+      "path": "apps/hr-web/src/layouts/AppLayout.tsx",
+      "bytes": 2133,
+      "sha256": "466c52fca37235aec71f6dc3af797620fa30a82874eeb0dc7ce503213cba49ca"
+    },
+    {
+      "path": "apps/hr-web/src/lib/api.ts",
+      "bytes": 5914,
+      "sha256": "823bd4764386cf3d67f49684aeb80085dd0ae20586944c67bc84bef4d93c4caa"
+    },
+    {
+      "path": "apps/hr-web/src/lib/apiError.ts",
+      "bytes": 5464,
+      "sha256": "1c62ebfe4dcacef74d5261ec3c4a52b48dd4ecda6310d5fbbf1f1d1c1356aee3"
+    },
+    {
+      "path": "apps/hr-web/src/lib/cn.ts",
+      "bytes": 168,
+      "sha256": "f325a19b5a799aa8c061d8db50225bed1e929925bfb3cf989f6f815f80c03209"
+    },
+    {
+      "path": "apps/hr-web/src/lib/format.ts",
+      "bytes": 4724,
+      "sha256": "11de7a364e05b7d6a180b27fb9d7df39f4cf19449950df9a8f98d3de66353aeb"
+    },
+    {
+      "path": "apps/hr-web/src/lib/initials.ts",
+      "bytes": 261,
+      "sha256": "cfbdd9a8ecefa07eeaf6d0918cc2d0db2d32ac66135eb204f05d86f74e157867"
+    },
+    {
+      "path": "apps/hr-web/src/lib/roles.ts",
+      "bytes": 590,
+      "sha256": "e817fb67ed4e6dfcd15b9a32c3b9f4b07b6b56f5f9c01d67098102d71896d1b5"
+    },
+    {
+      "path": "apps/hr-web/src/lib/workdays.ts",
+      "bytes": 2969,
+      "sha256": "78f6dde544431bde4cc1e7a68f8076c99fc3108fd402940bcd0e63729b4fafa9"
+    },
+    {
+      "path": "apps/hr-web/src/main.tsx",
+      "bytes": 234,
+      "sha256": "fde13fb85ed1b58bb972866a8a6124b21301c0d3931bee1c9db4cfd6dcc87ecc"
+    },
+    {
+      "path": "apps/hr-web/src/pages/AdminAnnouncementsPage.tsx",
+      "bytes": 3281,
+      "sha256": "f610170f424643232b95639cd78d675d0400fc229c916911d9f7ce6b2770f0d0"
+    },
+    {
+      "path": "apps/hr-web/src/pages/AdminApprovalsPage.tsx",
+      "bytes": 4097,
+      "sha256": "6e79685df737d83e5e0960394a8fa2be3f022488ad0eebd10bd0e7d0cf53aa23"
+    },
+    {
+      "path": "apps/hr-web/src/pages/AdminPage.tsx",
+      "bytes": 10699,
+      "sha256": "7b4ec9d7dd10bfe11488817dbc24255d05ba5061ddfff7e99dc055c4d961d72f"
+    },
+    {
+      "path": "apps/hr-web/src/pages/AdminUsersPage.tsx",
+      "bytes": 11771,
+      "sha256": "c45d51c176f5a8e2ab5c10162286ccb5b7b1b889639bdda21549d66cc272075d"
+    },
+    {
+      "path": "apps/hr-web/src/pages/AiInterviewPage.tsx",
+      "bytes": 19801,
+      "sha256": "8248de8fe1355c7902d0e7e16dd5b1a3798780730b4df722727830bd4ca8898e"
+    },
+    {
+      "path": "apps/hr-web/src/pages/AiInterviewReportPage.tsx",
+      "bytes": 18849,
+      "sha256": "b7ecafbb5f3406f3caececbb57adb2a0114a8f7fb75b0876327fc8db552bc9bd"
+    },
+    {
+      "path": "apps/hr-web/src/pages/AssistantPage.tsx",
+      "bytes": 3247,
+      "sha256": "2f143ec4c84d353026e677ffe8b45143ee74908f313ce88346beb43d4f27a85e"
+    },
+    {
+      "path": "apps/hr-web/src/pages/AssistantQuestionsPage.tsx",
+      "bytes": 3563,
+      "sha256": "a2a84b24f1bd737d72661f4dc6bbe52dea8bfd8143ff8f2b3fa5c711dddd18ae"
+    },
+    {
+      "path": "apps/hr-web/src/pages/CareerJobPage.tsx",
+      "bytes": 12719,
+      "sha256": "759126b218354dbb83726cae5be13ab083dd41e43681d771ba899496f58f5cdc"
+    },
+    {
+      "path": "apps/hr-web/src/pages/CareersPage.tsx",
+      "bytes": 4755,
+      "sha256": "3aa12e86f1feb7cb603b16f4f2b36134336927e07cbe52745ff8de36b7c710e8"
+    },
+    {
+      "path": "apps/hr-web/src/pages/DashboardPage.tsx",
+      "bytes": 10434,
+      "sha256": "f58668a84215aecb5e1238ecef90aba112f4d238ea5a58318f916c59eda6c901"
+    },
+    {
+      "path": "apps/hr-web/src/pages/EmployeeHomePage.tsx",
+      "bytes": 8122,
+      "sha256": "4602c6de19273fd553ee190ee238fb65dc0007de2595b1a58cb87678053426ea"
+    },
+    {
+      "path": "apps/hr-web/src/pages/HrAnnouncementsPage.tsx",
+      "bytes": 2902,
+      "sha256": "8f8c2f7d0b18c67abde60988abc36eec99744d3b16d2324c351880cde0ba481b"
+    },
+    {
+      "path": "apps/hr-web/src/pages/HrAttendancePage.tsx",
+      "bytes": 2855,
+      "sha256": "c416a467b78f9cd16bdb8c91cb2b8d910684d45df9db03e20bccd9df96b4e7c3"
+    },
+    {
+      "path": "apps/hr-web/src/pages/HrAttentionPage.tsx",
+      "bytes": 9152,
+      "sha256": "0415734de4ba89c0c64aa42501190edb7884c502a4841297ba3afd2d9abe211f"
+    },
+    {
+      "path": "apps/hr-web/src/pages/HrEmployeesPage.tsx",
+      "bytes": 12422,
+      "sha256": "ff0fb5e3a3f24f16cc12fa821f79668c37fbf8cfca27ed51e36b96de75d174c5"
+    },
+    {
+      "path": "apps/hr-web/src/pages/HrJobDescriptionsPage.tsx",
+      "bytes": 19265,
+      "sha256": "353156c3f27f9338cee897ed2ef3593a5d21cc2bd8f5c371e23aa02c07edb5ab"
+    },
+    {
+      "path": "apps/hr-web/src/pages/HrKnowledgePage.tsx",
+      "bytes": 10214,
+      "sha256": "68f177d95bb1fc30afce687848b586bc01097d23cb6aea4c9ba78234b2f263c8"
+    },
+    {
+      "path": "apps/hr-web/src/pages/HrLeavesPage.tsx",
+      "bytes": 7768,
+      "sha256": "a11bf407e53ad18b0ea86a461940fdebddb948fa814caa49405a46eb6a1849b3"
+    },
+    {
+      "path": "apps/hr-web/src/pages/HrPage.tsx",
+      "bytes": 8032,
+      "sha256": "baf910419082f0f61cafced92f112b707a46d66aa59e17453a1d0b773c7120c6"
+    },
+    {
+      "path": "apps/hr-web/src/pages/HrPayrollPage.tsx",
+      "bytes": 46666,
+      "sha256": "9ad9e46c564213ec9c06f359efd39e2197b7a1caefd98ca57169027b8304e5ba"
+    },
+    {
+      "path": "apps/hr-web/src/pages/HrRecruitmentPage.tsx",
+      "bytes": 29669,
+      "sha256": "25be70f1843283b2e8e01e1716df9f56aac94338540ebac146288d5c7bc1f157"
+    },
+    {
+      "path": "apps/hr-web/src/pages/HrReportsPage.tsx",
+      "bytes": 4847,
+      "sha256": "40b8cd591c474f51c05b5e38cc81f96a48b5871caef56aef270791fff1bd1573"
+    },
+    {
+      "path": "apps/hr-web/src/pages/InterviewPage.tsx",
+      "bytes": 8963,
+      "sha256": "d8eb2602b59b633ab6a9b431c6294e8df49b736c3eb07589793894d406df8bc2"
+    },
+    {
+      "path": "apps/hr-web/src/pages/LoginPage.tsx",
+      "bytes": 11478,
+      "sha256": "81fba7e0beef478da3f42c67713fd3b85d7857a25af0976c91a4b8898d0761c4"
+    },
+    {
+      "path": "apps/hr-web/src/pages/ManagerAnnouncementsPage.tsx",
+      "bytes": 5505,
+      "sha256": "d2edb9f69887b17fcb2c30bac1c546e52e1028f9b90d03e3b1b8fad029bb84d1"
+    },
+    {
+      "path": "apps/hr-web/src/pages/ManagerApprovalsPage.tsx",
+      "bytes": 4043,
+      "sha256": "3e72171376a30e1859d74cc3b6d73017f6d04fcc191e27797708d32a404d2030"
+    },
+    {
+      "path": "apps/hr-web/src/pages/ManagerAttendancePage.tsx",
+      "bytes": 2385,
+      "sha256": "aa854378f950be3c0e68af0ff851c22d2609f2056fd8a8d7757982989bf88377"
+    },
+    {
+      "path": "apps/hr-web/src/pages/ManagerCalendarPage.tsx",
+      "bytes": 13061,
+      "sha256": "0a9e8748c57af7fc9e05a4212ba8b1566a583f63ae24ba96c747241915a76c8c"
+    },
+    {
+      "path": "apps/hr-web/src/pages/ManagerLeavesPage.tsx",
+      "bytes": 4830,
+      "sha256": "0e24f1524483a7d87f5248314d5782b4aea1681a7ec0d205b75f854312bfe5db"
+    },
+    {
+      "path": "apps/hr-web/src/pages/ManagerPage.tsx",
+      "bytes": 19852,
+      "sha256": "adcb0224abdd59a8b1f038ce77662af0d1fff246a92ad5c92acc29da8d95fd25"
+    },
+    {
+      "path": "apps/hr-web/src/pages/ManagerProfilePage.tsx",
+      "bytes": 4542,
+      "sha256": "5d5b0813afb1fdc286d123493c6098c03b401965ae1b03e44b978f38998f395f"
+    },
+    {
+      "path": "apps/hr-web/src/pages/ManagerReportsPage.tsx",
+      "bytes": 4868,
+      "sha256": "11d2931d909d26308ee370684db8017f56a78977dd62c6bcfefb5913569d70d0"
+    },
+    {
+      "path": "apps/hr-web/src/pages/ManagerSettingsPage.tsx",
+      "bytes": 2648,
+      "sha256": "350894b60bafc80577719e1cfeaf169627f133f1e3c2b64ecb7019c5866a390f"
+    },
+    {
+      "path": "apps/hr-web/src/pages/ManagerTeamPage.tsx",
+      "bytes": 5732,
+      "sha256": "8890cfc07690982b959271e045bfcdcf5c2f00ad1bd1104342372e12b20e1a93"
+    },
+    {
+      "path": "apps/hr-web/src/pages/NotFoundPage.tsx",
+      "bytes": 648,
+      "sha256": "e0eb9e59c59b27c8ae4a108bdcc8570eef8a92921250ccba6b8968e01d46240f"
+    },
+    {
+      "path": "apps/hr-web/src/pages/WelcomePage.tsx",
+      "bytes": 8941,
+      "sha256": "db0bef734124d7c7198ba48658f5dbebebbe19715695d0cbd089de440bbc0291"
+    },
+    {
+      "path": "apps/hr-web/tsconfig.app.json",
+      "bytes": 692,
+      "sha256": "83b2a63269899f06adb33890138adde3fc01ba843229d158369fe3f305dc3cb6"
+    },
+    {
+      "path": "apps/hr-web/tsconfig.json",
+      "bytes": 119,
+      "sha256": "770b4140bbb581e2dfd9ea9946ffc9c75a1d86ba7d2db5f77c83e37cbdf9d808"
+    },
+    {
+      "path": "apps/hr-web/tsconfig.node.json",
+      "bytes": 558,
+      "sha256": "d366cc0827139db39c61815f22491bbfda56c654354a42ad7795143d314e45e8"
+    },
+    {
+      "path": "apps/hr-web/vite.config.ts",
+      "bytes": 1295,
+      "sha256": "174ba54798c1d4c3c01828927ac2c30def4cd403d9784a3f75ac917f67b15315"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 177983,
+      "sha256": "b57232d6865f16a0a8361e62d0664e8fe71fc69cb52868fbfbdb46f99762ccf4"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1050,
+      "sha256": "3c184f33cb9cbd779d48bd43a1fa7616406468bc25b130d3e11a044c82baa694"
+    },
+    {
+      "path": "packages/contracts/package.json",
+      "bytes": 481,
+      "sha256": "a8ad768716e058668a2f0d73ba6835463a66771cb8a04d664694b1f78ac82ca6"
+    },
+    {
+      "path": "packages/contracts/src/actions.ts",
+      "bytes": 16493,
+      "sha256": "1af23cc6343127f5fb6078fdd2dcd24849f55dd0b32e690ad4edcd93bb892737"
+    },
+    {
+      "path": "packages/contracts/src/aiInterview.ts",
+      "bytes": 13753,
+      "sha256": "feeaf6410d134af002c6135d6487d36ed52587972e50f01544d642d2513df0e7"
+    },
+    {
+      "path": "packages/contracts/src/aiInterviewAnswer.ts",
+      "bytes": 1597,
+      "sha256": "a2124d9855cb84db6dc9719484d328a9aa4e44d34b01a035bd7e916213279acc"
+    },
+    {
+      "path": "packages/contracts/src/aiInterviewPersistence.ts",
+      "bytes": 3721,
+      "sha256": "bb86f8786fdf5f6809d7cc8247fd3a4b07b90814c9cf1802c3ffb19609319576"
+    },
+    {
+      "path": "packages/contracts/src/aiInterviewReport.ts",
+      "bytes": 5061,
+      "sha256": "f3e3295f8f6564f8ba48908efef409afd91035b4bbe6b8ff73fce8f93ee72554"
+    },
+    {
+      "path": "packages/contracts/src/aiInterviewUi.ts",
+      "bytes": 2056,
+      "sha256": "175977caf36ac53b5d6c3c33a8a9634671f5fdc34fe930abb68dd8a90932ec66"
+    },
+    {
+      "path": "packages/contracts/src/assistantReview.ts",
+      "bytes": 1121,
+      "sha256": "56ea4206a6b507d96eabbb74a75126a27f6ae53effa37fbb619bc620c0dfca29"
+    },
+    {
+      "path": "packages/contracts/src/attendance.ts",
+      "bytes": 2341,
+      "sha256": "fcda04d3871cb4e34390c59edbb8d29cecf9b8bb91123b057c201ea868de03fb"
+    },
+    {
+      "path": "packages/contracts/src/auth.ts",
+      "bytes": 1114,
+      "sha256": "72946857fba78d390c0256034e280563847bf2c1065981f3e4612f4d89415820"
+    },
+    {
+      "path": "packages/contracts/src/calendar.ts",
+      "bytes": 2333,
+      "sha256": "c3fa8f3677beff3b89a48ed0b830443b38b8b8783d66b9ca51b23d5d582c9359"
+    },
+    {
+      "path": "packages/contracts/src/copilot.ts",
+      "bytes": 11782,
+      "sha256": "9956b4cf95579b20c2769e9906ccf1e9804644e2ac7df4708001b0cfda25e27e"
+    },
+    {
+      "path": "packages/contracts/src/events.ts",
+      "bytes": 2810,
+      "sha256": "478d880fdeb2a0cbc847c8070969d74fd5bcddfb0714ce895c15f4537cbd0448"
+    },
+    {
+      "path": "packages/contracts/src/feed.ts",
+      "bytes": 4582,
+      "sha256": "33bee766ede358e9d2d747dc7a9ce374f392bdf9dda1b810e17ab1cd8bceb8db"
+    },
+    {
+      "path": "packages/contracts/src/guide.ts",
+      "bytes": 3779,
+      "sha256": "b94967b8bf415f37188305d13f6530c60b3ca812d4a74a874317aad5afeba899"
+    },
+    {
+      "path": "packages/contracts/src/hrAttention.ts",
+      "bytes": 1711,
+      "sha256": "ca117856d77c3245ef3867c88b14590a48e60357d834180108d6461ab642de2a"
+    },
+    {
+      "path": "packages/contracts/src/index.ts",
+      "bytes": 1324,
+      "sha256": "976937841183bcd7a2c198dada2651aafe31117e5055f309450df17bdb5a16cb"
+    },
+    {
+      "path": "packages/contracts/src/jobDescriptions.ts",
+      "bytes": 7199,
+      "sha256": "1fdfe62ad5ca868872bda6bc4e7187e3c9f56e4cc6cbd2314d62d10cafc045fd"
+    },
+    {
+      "path": "packages/contracts/src/knowledge.ts",
+      "bytes": 1447,
+      "sha256": "cf9a67726fcaac57044ccfed66b34cde8ffffc76c69b117980326c65f635f5d6"
+    },
+    {
+      "path": "packages/contracts/src/leave.ts",
+      "bytes": 2695,
+      "sha256": "39c1908dc353ec54983638db0d28f0a1c074ca299dec98e1228698c79cb8c355"
+    },
+    {
+      "path": "packages/contracts/src/lookup.ts",
+      "bytes": 2519,
+      "sha256": "568e33ad2bad91e54020488160395e191316fb7cc8bf2147d7a81df1df501484"
+    },
+    {
+      "path": "packages/contracts/src/navigation.ts",
+      "bytes": 3514,
+      "sha256": "a45eb561efc746fbf5086c6654f3beae2b338da8a2ba4f239da343d6e0955356"
+    },
+    {
+      "path": "packages/contracts/src/payroll.ts",
+      "bytes": 9941,
+      "sha256": "eda527d9956087ead25ae641d210eb86be86b194326baaf3d16cbcf5c5680898"
+    },
+    {
+      "path": "packages/contracts/src/people.ts",
+      "bytes": 5694,
+      "sha256": "1a610c16934b4de82e9bfcadcc756f08c179f727f54b9773eeea8110518b048b"
+    },
+    {
+      "path": "packages/contracts/src/primitives.ts",
+      "bytes": 1453,
+      "sha256": "1f1f6435e16777c7f2d2c5f88c8faaabdfaba2dc679ab30288706a8cb7f01d72"
+    },
+    {
+      "path": "packages/contracts/src/recruitment.ts",
+      "bytes": 14924,
+      "sha256": "f3648fa0b1e875aa4fa929326e9e5f12df369d07958efaaccf8a41790d18a231"
+    },
+    {
+      "path": "packages/contracts/src/reports.ts",
+      "bytes": 3398,
+      "sha256": "921449d819310f7530a537f1c64e20a8e0bd4e3f906a469e658addf91bff42a2"
+    },
+    {
+      "path": "packages/contracts/src/scorecard.ts",
+      "bytes": 11221,
+      "sha256": "4d69cd15da0e81423f3c28b1b783e2988203222f483e15d6701a58d51bc13205"
+    },
+    {
+      "path": "packages/contracts/src/screening.ts",
+      "bytes": 4773,
+      "sha256": "ccf55fa2ae88506301248c16de811ccc0d581d6ef6397093462a7c0022fbf4b8"
+    },
+    {
+      "path": "packages/contracts/src/voice.ts",
+      "bytes": 2608,
+      "sha256": "3a5f9f26e2565b30c2ca791b50780feb94a982a921234495235c8f8c55fe995b"
+    },
+    {
+      "path": "packages/contracts/tsconfig.build.json",
+      "bytes": 299,
+      "sha256": "ab2559f6d9aad8cefba992c207e9be13f831360921e1248813f1ea51eee044ee"
+    },
+    {
+      "path": "packages/contracts/tsconfig.json",
+      "bytes": 366,
+      "sha256": "d2d3210c06ba947cdd9383a5926051c900c5ae9362dd89479ea82b5e699c7d21"
+    },
+    {
+      "path": "render.yaml",
+      "bytes": 1198,
+      "sha256": "c3427c0007e92ce9619942bb9690bd5aa8b3dd03e332a2a82872b2b70da68fcb"
+    },
+    {
+      "path": "services/hr-api/drizzle.config.ts",
+      "bytes": 270,
+      "sha256": "735390d59e893728961f4968a4b748ffe14ed821054697d9ec7bfc32bbc84775"
+    },
+    {
+      "path": "services/hr-api/drizzle/0000_charming_lilandra.sql",
+      "bytes": 8779,
+      "sha256": "b8a240618225a31059b5f56f5ff62e4eaf60e495f0a9642311d06592269e6c76"
+    },
+    {
+      "path": "services/hr-api/drizzle/0001_reflective_morgan_stark.sql",
+      "bytes": 1208,
+      "sha256": "c37a98e16affa036524777a6ee7c70a8ac803423bfaf0aa7defc6e683694cbe5"
+    },
+    {
+      "path": "services/hr-api/drizzle/0002_marvelous_stick.sql",
+      "bytes": 3235,
+      "sha256": "24982d6dca4b8be6e52333c6f364f736cf78664ca2053b85c3728fd2c74ae23a"
+    },
+    {
+      "path": "services/hr-api/drizzle/0003_crazy_franklin_richards.sql",
+      "bytes": 200,
+      "sha256": "594b1f6621142ab6d9a29ad17153db14eac8a7243ae14466513e0027d9b185f0"
+    },
+    {
+      "path": "services/hr-api/drizzle/0004_pink_epoch.sql",
+      "bytes": 80,
+      "sha256": "be5aac8afd706b4e7077651bb9a972dc59c802372a4125c2c15f46ea384084d8"
+    },
+    {
+      "path": "services/hr-api/drizzle/0005_material_wrecking_crew.sql",
+      "bytes": 77,
+      "sha256": "4a0d140a89c2cfe8ad22a9deb8d98e203bc83a1ebb186489ec4d89d6a32b9b27"
+    },
+    {
+      "path": "services/hr-api/drizzle/0006_fixed_purple_man.sql",
+      "bytes": 71,
+      "sha256": "6e26f681b32d9612313c4c1ba68958103fbc02c6f054e8f66fc0b193488fd27b"
+    },
+    {
+      "path": "services/hr-api/drizzle/0007_red_scarlet_witch.sql",
+      "bytes": 3009,
+      "sha256": "0af534e0a8e400496665d4f9f6120654374e3923a6201e1f5dbaf3622f828db9"
+    },
+    {
+      "path": "services/hr-api/drizzle/0008_happy_hannibal_king.sql",
+      "bytes": 329,
+      "sha256": "d32c19bf0a0505a95f9acc3bdc321c2d3b576b1ca6e544922ad207cd1ff3adaf"
+    },
+    {
+      "path": "services/hr-api/drizzle/0009_recruitment_applications.sql",
+      "bytes": 7839,
+      "sha256": "423488f6dcff6fc902d12201c429dfe898caa94d41219bda9e7cecf38718a44d"
+    },
+    {
+      "path": "services/hr-api/drizzle/0010_cv_files_in_database.sql",
+      "bytes": 910,
+      "sha256": "365b2875381cdb910065883665163e3f3bf5a3103afc404d43916dba1b4460ff"
+    },
+    {
+      "path": "services/hr-api/drizzle/0011_drop_portfolio_url.sql",
+      "bytes": 699,
+      "sha256": "d5316f55fcee07c4ca84ee307678f79972c8e8ea77f731195ca95ad72159d991"
+    },
+    {
+      "path": "services/hr-api/drizzle/0012_cv_analyses.sql",
+      "bytes": 1825,
+      "sha256": "7aea7753f59f8e9a528ed26194e9ec93ed8f825e155f0f7c9a000f6442beeb70"
+    },
+    {
+      "path": "services/hr-api/drizzle/0013_payroll_accounting.sql",
+      "bytes": 5411,
+      "sha256": "aacc09117b792f22d8c8b3f1417390d086ab179da14a8351367a9e99c02b3056"
+    },
+    {
+      "path": "services/hr-api/drizzle/0014_tour_state.sql",
+      "bytes": 528,
+      "sha256": "df106bc79a291d64126903909ec4d97a9a9a9a3ad801d05bd221b79c301b2690"
+    },
+    {
+      "path": "services/hr-api/drizzle/0015_assistant_memory.sql",
+      "bytes": 783,
+      "sha256": "752c2eeda0e77086e4339dd6335d33a28ca89ba4b29ab7f0faf45c57424dac30"
+    },
+    {
+      "path": "services/hr-api/drizzle/0016_scorecard.sql",
+      "bytes": 657,
+      "sha256": "0d4e0a6bef3257c0d959c8bfece9c84e5ab90fffe84c58155dd652270a62a8d1"
+    },
+    {
+      "path": "services/hr-api/drizzle/0017_interviews.sql",
+      "bytes": 2939,
+      "sha256": "cfb86db033d5058a9d9214e191c07f8284e4f3a774d8296039ac0d88f0765ce2"
+    },
+    {
+      "path": "services/hr-api/drizzle/0018_interview_review.sql",
+      "bytes": 583,
+      "sha256": "20212c68735ca58dbb98bc1a4079d5caf3643a027183744a9bf3687d8970f185"
+    },
+    {
+      "path": "services/hr-api/drizzle/0019_assistant_knowledge.sql",
+      "bytes": 1521,
+      "sha256": "96058b736d9b1823daaebd4da7aab951eee1ca391ac5de489d72a70801687b2f"
+    },
+    {
+      "path": "services/hr-api/drizzle/0020_assistant_audit.sql",
+      "bytes": 908,
+      "sha256": "f2cecaee959ce275988501f25eb96ee909fe6d6f6a47ebef5cb8ec7e72c2f5f2"
+    },
+    {
+      "path": "services/hr-api/drizzle/0021_scheduled_assessments.sql",
+      "bytes": 551,
+      "sha256": "8a4e154c459f9c059642c8213af5e4c648df5ee6440b98c1e6dbb8a574cc8587"
+    },
+    {
+      "path": "services/hr-api/drizzle/0022_assistant_unanswered_questions.sql",
+      "bytes": 911,
+      "sha256": "f2ebb18f5d06aeac2079f78ceec99f20fb05a1b270ff382ba3171bf3987ce3fc"
+    },
+    {
+      "path": "services/hr-api/drizzle/0023_payroll_auditor.sql",
+      "bytes": 8139,
+      "sha256": "a1fd8b4f917676b8402e61dcf93b8a1c6adc7b15eff130f6118f54086d0488b9"
+    },
+    {
+      "path": "services/hr-api/drizzle/0024_voice_audit.sql",
+      "bytes": 335,
+      "sha256": "e3c651b74ee9c70bf230b0839e3d77056928d53e2103dbf7b4a6744e9875068d"
+    },
+    {
+      "path": "services/hr-api/drizzle/0025_assistant_action_executions.sql",
+      "bytes": 900,
+      "sha256": "c3fe8a869076bea34aa4cf5d0325eb5619d85d103aa959c886aaffb807d4338c"
+    },
+    {
+      "path": "services/hr-api/drizzle/0026_ai_interviewer.sql",
+      "bytes": 3341,
+      "sha256": "f7f11f23554e2eb4d19270121a1ab360c5febab4614ea831ffffa0a267824b6d"
+    },
+    {
+      "path": "services/hr-api/drizzle/meta/0000_snapshot.json",
+      "bytes": 30596,
+      "sha256": "9f0514033f0c7153d902e50f112fb150d20dd9bdb215682559151f1efe615cad"
+    },
+    {
+      "path": "services/hr-api/drizzle/meta/0001_snapshot.json",
+      "bytes": 34505,
+      "sha256": "c88802e25ae007b3d266c0e081199bc0409187f96deb9dd83b127d94b414270f"
+    },
+    {
+      "path": "services/hr-api/drizzle/meta/0002_snapshot.json",
+      "bytes": 45005,
+      "sha256": "73e6fac71deeaf70e77068c8cb98ab0f2afb5f408b1b346152b567346dd97ffc"
+    },
+    {
+      "path": "services/hr-api/drizzle/meta/0003_snapshot.json",
+      "bytes": 45408,
+      "sha256": "01c0cb9a95addd65e70f9049aaa6d6cdaf783496a68b129b40ebe6df936fa3c3"
+    },
+    {
+      "path": "services/hr-api/drizzle/meta/0004_snapshot.json",
+      "bytes": 45601,
+      "sha256": "c9bf2476daf2e544fae8df4bdd0f8392021b941587ae44b8fe7d0219bcac083c"
+    },
+    {
+      "path": "services/hr-api/drizzle/meta/0005_snapshot.json",
+      "bytes": 45772,
+      "sha256": "61facb085c3b1a1cf7a065f0462e38486cf4764af3e18dbfe0179974d78484e8"
+    },
+    {
+      "path": "services/hr-api/drizzle/meta/0006_snapshot.json",
+      "bytes": 45947,
+      "sha256": "e58ef7d5bdc7f493201faf6edea9f7a7cc86c7c982a2fcbaad51dfb981dbf8f5"
+    },
+    {
+      "path": "services/hr-api/drizzle/meta/0007_snapshot.json",
+      "bytes": 55774,
+      "sha256": "aad679d7cb9694c8a5c9994e146e849b2c2532f1f320c71cbab08ef9a0048f30"
+    },
+    {
+      "path": "services/hr-api/drizzle/meta/0008_snapshot.json",
+      "bytes": 56394,
+      "sha256": "72e75957068876d2c52624ba88d8333721d02eaa938dc3d5a76b8d75568d3d8d"
+    },
+    {
+      "path": "services/hr-api/drizzle/meta/_journal.json",
+      "bytes": 4013,
+      "sha256": "e497feb8ce1f0671ffef322d6a4774e51eb5a91e83398f79b7cc46f88ca5f9ad"
+    },
+    {
+      "path": "services/hr-api/package.json",
+      "bytes": 6023,
+      "sha256": "1cd994013da7d5aa33fe7278ff0d3af095f7b474ab3dec14a60feaa50ef0c29b"
+    },
+    {
+      "path": "services/hr-api/scripts/applyPayrollAuditorMigration.mjs",
+      "bytes": 1144,
+      "sha256": "de449a1776ea7efbf7e81a8902b403664af64dc39028e8a94b740b26503a4fe6"
+    },
+    {
+      "path": "services/hr-api/scripts/checkAiInterviewAnswerBrowser.mjs",
+      "bytes": 303,
+      "sha256": "16be3b28839295273964642e7ee8c75691cf63bac7fcfaadd8c1b0e42b25a9bc"
+    },
+    {
+      "path": "services/hr-api/scripts/checkAiInterviewAnswerBrowserCases.mjs",
+      "bytes": 17965,
+      "sha256": "788ea653cdf24f85a2b257b88328710277bf5a9327fb9074174f412bd1c251de"
+    },
+    {
+      "path": "services/hr-api/scripts/checkAiInterviewAnswerRecovery.mjs",
+      "bytes": 16192,
+      "sha256": "3df499af62d5ea1f5b584143e3d5a4528c1f516fcbd7df3c997765e99be77b40"
+    },
+    {
+      "path": "services/hr-api/scripts/checkAiInterviewBrowser.mjs",
+      "bytes": 40111,
+      "sha256": "1f94ac7014b4d3abe6d392abe75768b99debaea4b72de892b578ad008c752c94"
+    },
+    {
+      "path": "services/hr-api/scripts/checkAiInterviewReportBrowser.mjs",
+      "bytes": 167,
+      "sha256": "3b4b48abecfe6712a75e6a3951133fd3d5e2d7d252828f67c5e293ba1bd7709c"
+    },
+    {
+      "path": "services/hr-api/scripts/checkAiInterviewReportCases.mjs",
+      "bytes": 11394,
+      "sha256": "c12fa5c23212ee2bf41fcc3655e89515860033d77e8f679450eee7fe73a87fec"
+    },
+    {
+      "path": "services/hr-api/scripts/checkAiInterviewUi.mjs",
+      "bytes": 11289,
+      "sha256": "3c4ecba66eba14632679e134f7c4db2834f9ae90ee2d9dc013e291852200391f"
+    },
+    {
+      "path": "services/hr-api/scripts/checkLocalVoiceBrowser.mjs",
+      "bytes": 8636,
+      "sha256": "77259712644c69270f2f3c968be905c2f40a71dfbac5a42b4abe0d853258c231"
+    },
+    {
+      "path": "services/hr-api/scripts/checkLocalVoiceQueue.mjs",
+      "bytes": 3264,
+      "sha256": "71dd3eee635fbae7e5280c1edba8f458d5638fc35855e2d81ee5bdc4f14409e6"
+    },
+    {
+      "path": "services/hr-api/scripts/checkLocalVoiceTurn.mjs",
+      "bytes": 15264,
+      "sha256": "79e499d358d64f5f53b19999eaf73247f49cabc18ad6fe2ba512eee8ee6b095f"
+    },
+    {
+      "path": "services/hr-api/scripts/compatibility.check.mjs",
+      "bytes": 6729,
+      "sha256": "7b9369bd52cd31ee3064eff50fff378a050d1c61a3d79ab01b9ad47c10e79905"
+    },
+    {
+      "path": "services/hr-api/scripts/copyCopilotTrainingData.mjs",
+      "bytes": 903,
+      "sha256": "f2e6ea835459babb2b6c9c35a088ed02db87d1b7388361ae66e8ce8e504735f1"
+    },
+    {
+      "path": "services/hr-api/scripts/diagnoseOllama.mjs",
+      "bytes": 4555,
+      "sha256": "b7640e9fb20823cbbc6553d7fc1b9e6c0d6fe7214cca8246692b287a77f28781"
+    },
+    {
+      "path": "services/hr-api/scripts/profileVoiceCopilot.mjs",
+      "bytes": 11307,
+      "sha256": "214ab719a2cfbabf7c716357882d3d843afeb59a88f8f3c70afd72e34a190a83"
+    },
+    {
+      "path": "services/hr-api/scripts/repositoryPaths.mjs",
+      "bytes": 3419,
+      "sha256": "25e4c3d5bcc88cf01dceeca5e32f8d1ab76cc05df36bc838f952974c851f387d"
+    },
+    {
+      "path": "services/hr-api/scripts/runtimePreload.mjs",
+      "bytes": 1019,
+      "sha256": "137499aa15c7cf39c71493fe93ae6d011238be90b259f254e93f34a035f94455"
+    },
+    {
+      "path": "services/hr-api/scripts/setupLocalVoice.mjs",
+      "bytes": 3498,
+      "sha256": "9b766226fd6acac2ff264a5fecd938a7f924fe8f48290a79c30e32dfb714000b"
+    },
+    {
+      "path": "services/hr-api/scripts/startLocalVoice.mjs",
+      "bytes": 1084,
+      "sha256": "752fd61d1e9c4284a77e70e4ce80ae02b2c3bf612069b8a5fa54b55893dfcb76"
+    },
+    {
+      "path": "services/hr-api/scripts/traceCopilotLocal.mjs",
+      "bytes": 1564,
+      "sha256": "8a9bcf2606753ce5f5b43599c39b5a55c6eecbb008e4fdecb2ed0d7877cab76d"
+    },
+    {
+      "path": "services/hr-api/src/ai/analyseCv.ts",
+      "bytes": 11675,
+      "sha256": "011723fc186e615dc939ab4887facb079f16942fc5f76f48373f3cfe79defb55"
+    },
+    {
+      "path": "services/hr-api/src/ai/benchmark.ts",
+      "bytes": 4909,
+      "sha256": "cb2f0fc51315bf4a93a7ae013cfb781b8138aff2df79ee0bd5761ac2fab3c4f0"
+    },
+    {
+      "path": "services/hr-api/src/ai/claude.ts",
+      "bytes": 4264,
+      "sha256": "256435f604990af331d74eaa4e35c04246bb11f6e5121c580f2bffefadcd0e95"
+    },
+    {
+      "path": "services/hr-api/src/ai/cvText.ts",
+      "bytes": 3148,
+      "sha256": "45d7a4707d1030bcbcfc338b1c5bac9f66532277bc2101e230fdf90425584b5e"
+    },
+    {
+      "path": "services/hr-api/src/ai/evaluateInterview.ts",
+      "bytes": 9126,
+      "sha256": "cf6ff6a7c4caf0866cdeecfa55253c0969359338d9ed256090134185feb4cb9f"
+    },
+    {
+      "path": "services/hr-api/src/ai/index.ts",
+      "bytes": 1415,
+      "sha256": "4b075faab940248725d17f615f37ddee730679547595dd4590e2bc0cfef24554"
+    },
+    {
+      "path": "services/hr-api/src/ai/interview.ts",
+      "bytes": 6074,
+      "sha256": "933903cc812f83e2b26ff682e8118fec92e94f941930318e4125bbf121cda06c"
+    },
+    {
+      "path": "services/hr-api/src/ai/interviewReview.ts",
+      "bytes": 9163,
+      "sha256": "afad70ffa94e8b8a41a3a5d860a179c1c5f2a936ea38118de772969df55272d3"
+    },
+    {
+      "path": "services/hr-api/src/ai/ollama.check.ts",
+      "bytes": 1904,
+      "sha256": "53b03722959441edb508abed9a448f564c72307b45d7daf039bd23ca36c3ade3"
+    },
+    {
+      "path": "services/hr-api/src/ai/ollama.ts",
+      "bytes": 4980,
+      "sha256": "a8eb62f13aae325c923abced126831ca2d56eddb94988911ee01fd9ff6d24a0b"
+    },
+    {
+      "path": "services/hr-api/src/ai/openai.ts",
+      "bytes": 3869,
+      "sha256": "6f7f3e7209f0b64331c33d4f334d5f12c93c69b3455c016a5786e9e063279fa8"
+    },
+    {
+      "path": "services/hr-api/src/ai/outline.ts",
+      "bytes": 4250,
+      "sha256": "caba18439d26ce04d29069eeaeeb186d2f969dfd22cffbf218bf3bf7688704b5"
+    },
+    {
+      "path": "services/hr-api/src/ai/prompt.ts",
+      "bytes": 6111,
+      "sha256": "764dbb2b614dc8c40db8c6345010817be4de1cd8438fdfdab4b8da0fe460f4aa"
+    },
+    {
+      "path": "services/hr-api/src/ai/provider.ts",
+      "bytes": 1705,
+      "sha256": "57d9d34cbef72e4f9a283de68f9f8f6223c6540cadd2aaa73dc3e2e0cec3152b"
+    },
+    {
+      "path": "services/hr-api/src/ai/retrieval.ts",
+      "bytes": 14290,
+      "sha256": "e14d0e4477e5ad74dde84d4fca2b446a1385453153af5d3280d79e2fad2e7f40"
+    },
+    {
+      "path": "services/hr-api/src/ai/scorecard.check.ts",
+      "bytes": 7498,
+      "sha256": "51822cb657b68085287479d6272ed0ef9dbfe752da11b0670a13f76fcf091b6d"
+    },
+    {
+      "path": "services/hr-api/src/ai/screening.ts",
+      "bytes": 8391,
+      "sha256": "d41bc77fd1775517afc2872265646b148bf00bed8f76ac5b490b87bc894fa76d"
+    },
+    {
+      "path": "services/hr-api/src/ai/structured.ts",
+      "bytes": 1039,
+      "sha256": "0f56f53e2c2e7ce6ca243d509309caf060a9f8da1d290c557d956d5fdff5fc29"
+    },
+    {
+      "path": "services/hr-api/src/ai/structuredProvider.check.ts",
+      "bytes": 3362,
+      "sha256": "3ed2dfa044e5e250decc05ab62a54f4fc4996951e8148e94fd5768ad6fe6c063"
+    },
+    {
+      "path": "services/hr-api/src/ai/structuredProvider.ts",
+      "bytes": 1428,
+      "sha256": "7c614d02312395920b1ec1c99e3c2743093a53765675c941683beaa629d98a4b"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/answer.check.ts",
+      "bytes": 20100,
+      "sha256": "e22e0b9bbd96f5785d53c100b4f6d3c59fca287d66051c22e0063e8f28a57383"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/audit.ts",
+      "bytes": 1162,
+      "sha256": "a7ef113b219fc6e53365acc979eb7356bb30d6664eadafb953716e29697ea1a7"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/authorization.ts",
+      "bytes": 2360,
+      "sha256": "c1624163c3a7ff8a635168feb8b8b9434b3d356a7ebb91536739999da597d5f4"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/clock.ts",
+      "bytes": 636,
+      "sha256": "d40b40fcd5adaebe3e35ae7e4e9f29c5bb823325822f1369f4c8f430071b95a2"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/delivery.check.ts",
+      "bytes": 38666,
+      "sha256": "a3b04b3b030c4bfd6199cd2efd96cb24912ea069bb0e59c53975dbcff1330138"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/delivery.ts",
+      "bytes": 11410,
+      "sha256": "02e26764548ea82391c31c9d7c0eea3ba655184d96bf00f3ccba3487984bdd96"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/deliveryContracts.ts",
+      "bytes": 1203,
+      "sha256": "1f9eab2eab292175cfea8d6ae211271d8ec26c02b4aacad39c1053522224575f"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/engine.check.ts",
+      "bytes": 24285,
+      "sha256": "9ffe23e899c3bef8e069ef02c73181a0fab297483a0b719b13763d9d4dc3b40e"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/engine.ts",
+      "bytes": 20045,
+      "sha256": "67b94834253833cce270927eebf978cedeb90c206e6b1948a26b739d9cb35e88"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/evaluationInput.ts",
+      "bytes": 2266,
+      "sha256": "3155ac832279c8141edd8fda91f75cc1d47ab7b459979c0c7c17d44f35f7c2d8"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/evaluator.ts",
+      "bytes": 2860,
+      "sha256": "d8bef6c989476561ee6f95b7d699860f73115a37a19f3c364a1712c4547bf8a8"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/execution.check.ts",
+      "bytes": 6339,
+      "sha256": "71c30a7f7420cf18695d8dd6726c0eaf210cfe8c0054cee51a794f61a0a61ece"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/execution.ts",
+      "bytes": 3730,
+      "sha256": "4560d4768aae51311fbb474f486beab4c31c124aa04cee16438b358d09ab4657"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/fixtures.ts",
+      "bytes": 1846,
+      "sha256": "a95834249478b1b3767baef8cd5de3dbc77fb86f2112631e3b4bfcb62c7dc1c9"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/harness.ts",
+      "bytes": 5465,
+      "sha256": "38bd1e3a502258d719361b1c71e88e65f059a7082567957dea206de8ead08a2a"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/interviewerPolicy.ts",
+      "bytes": 1850,
+      "sha256": "13ce1f145dbefb1a42a94eb1926831fad84b0edfc1a04b212ea6f25d4af39a4c"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/mockRuntime.ts",
+      "bytes": 1486,
+      "sha256": "5329650db927427135f7a54626f2c48aa573612707445410be78117d9c8f45ad"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/persistence.check.ts",
+      "bytes": 38069,
+      "sha256": "8fd7b24276fbb15140d118e80ffdeaef19ff96708ef5fb7648d174e07c3f23d3"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/providers.ts",
+      "bytes": 1678,
+      "sha256": "656db929bddf40654cea19ffbf2af4b82dd5984e6033abccaee517567cd8b7b5"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/recovery.ts",
+      "bytes": 1231,
+      "sha256": "66fcb6d16b7321266e63e95778592e2cc208802edc991ad1ba3e6a0373c161ae"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/report.check.ts",
+      "bytes": 32309,
+      "sha256": "7ddc14f2b10335ea02e8e8a001154b4b9328c1436feb16765452cded9c0a9e96"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/report.ts",
+      "bytes": 10176,
+      "sha256": "76602bd26618f1fbb5eee08874ee287aa91a857f5ab10b04ea612d56b7b1db22"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/reportService.ts",
+      "bytes": 20311,
+      "sha256": "d9f9882bdac43073f3f45b9bc6c44544ff36e7bd6205248318aec21b053e96bd"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/repository.ts",
+      "bytes": 2436,
+      "sha256": "6b7b873ff50645b5ccd55c266aacc34183dd59fef209ebb5b310559751fe1ae9"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/routes.ts",
+      "bytes": 9984,
+      "sha256": "4abe6a15fa1f05eef42dd6541b20ec5dc2c2b3bcb3c4fc16d8f5bafda5df9cfb"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/runtime.check.ts",
+      "bytes": 30198,
+      "sha256": "c51d7bf383da73d7d305c63dac6439e0d3a6ee1a32d8dfbecd68ea7cc2990889"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/runtime.ts",
+      "bytes": 5670,
+      "sha256": "b6a188a54ad79cb28bef3b1c94984a5e2288174b9dfdb9c96d6e3e2dc2801193"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/runtimeTestSupport.ts",
+      "bytes": 970,
+      "sha256": "bffbaa870930605fe0fe8860da1506b594abe7a9a5e5756215716bfcbd718eec"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/scenario.ts",
+      "bytes": 468,
+      "sha256": "0eb8b087e3b7bc02561493866887d3f7b53ad423c0e7fc95dda26b502d87c591"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/service.ts",
+      "bytes": 41642,
+      "sha256": "b9b385e3ffbc855a9d8c66eabd93cfabedc2adf04b715ac70ab6fe5f721e51f5"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/ui.fixture.ts",
+      "bytes": 16740,
+      "sha256": "cf57e0423e5ff2828ec4c62ab165bbe0181a7bed8ed5a98b4dd4a32645554214"
+    },
+    {
+      "path": "services/hr-api/src/auth/password.ts",
+      "bytes": 3591,
+      "sha256": "66979dc36bd198c77ee61dda401711ae9684f1a42a578e45c7625da647b3f763"
+    },
+    {
+      "path": "services/hr-api/src/auth/session.ts",
+      "bytes": 3286,
+      "sha256": "8696deb1a141de88b9ecf589ad1bea3002d12a6284cee3a529ccd8bd93a1e9a2"
+    },
+    {
+      "path": "services/hr-api/src/copilot/actions.ts",
+      "bytes": 16983,
+      "sha256": "ea182a2d40f98bffe9cfd94acf67fc2d1abf1da10856af7abcb592657b07a41c"
+    },
+    {
+      "path": "services/hr-api/src/copilot/audit.ts",
+      "bytes": 1735,
+      "sha256": "b622e9911616b920779bbe6e4ba2904f5ed7b761842a4bf15a577d42180a82fc"
+    },
+    {
+      "path": "services/hr-api/src/copilot/benchmark/README.md",
+      "bytes": 7318,
+      "sha256": "39cc59eba57dd32d8d7036b283895d807c0283d85baf628f63469f9e6c31d59b"
+    },
+    {
+      "path": "services/hr-api/src/copilot/benchmark/cases.ts",
+      "bytes": 5447,
+      "sha256": "e30d88c4957e5689e03f206077a39cdf55aa47e9f1d4d0924e8154fa94ab769f"
+    },
+    {
+      "path": "services/hr-api/src/copilot/benchmark/coverage.check.ts",
+      "bytes": 2467,
+      "sha256": "3e5efc8dd2cbb341a45997595adafb9601096ba1bfd3ac9c12519eb029313b33"
+    },
+    {
+      "path": "services/hr-api/src/copilot/benchmark/openrouter.check.ts",
+      "bytes": 3902,
+      "sha256": "02a11c3d791b5b574e6e6f2cb93d5225a235446b70bb9f445f7a56272020076b"
+    },
+    {
+      "path": "services/hr-api/src/copilot/benchmark/openrouter.run.ts",
+      "bytes": 10198,
+      "sha256": "9db9088cb027152906c26154f1c8766a812653af670bb2ac051280b008ee41a0"
+    },
+    {
+      "path": "services/hr-api/src/copilot/benchmark/openrouter.ts",
+      "bytes": 4285,
+      "sha256": "e3b180d4f03897426ad45958ee47c19f3b0e1a02fb32258558b8e90e24f46ec5"
+    },
+    {
+      "path": "services/hr-api/src/copilot/benchmark/run.ts",
+      "bytes": 15700,
+      "sha256": "a420f71d6a4f6b4c927a2ef1d2b1344295c33a9350a5f37c88d18d25ec8d13f6"
+    },
+    {
+      "path": "services/hr-api/src/copilot/capabilities.ts",
+      "bytes": 6390,
+      "sha256": "1d2bd1bd2b19250a11f00174acc2df2c98e8ebb6204713ca4cceec77963dd07a"
+    },
+    {
+      "path": "services/hr-api/src/copilot/context.ts",
+      "bytes": 1795,
+      "sha256": "99951670d34e70b496cde953ce73824f6c3ed7ce5957804f5722f481db8e0279"
+    },
+    {
+      "path": "services/hr-api/src/copilot/conversation.ts",
+      "bytes": 6091,
+      "sha256": "81302692e73a4ecfa0876afc59ad718648da2b15e9dd21ca608e290e4e2831ad"
+    },
+    {
+      "path": "services/hr-api/src/copilot/conversationTraining.check.ts",
+      "bytes": 3249,
+      "sha256": "e6a00459d5901f79b48f8fed6fa7ea0eaf907a95a6ce3e1c78b02ace43fccab2"
+    },
+    {
+      "path": "services/hr-api/src/copilot/conversationTraining.ts",
+      "bytes": 13360,
+      "sha256": "6bd1026b1d3e5a8c6e57d63b8351ec8f565c51297f38c802a857a0e62628f79f"
+    },
+    {
+      "path": "services/hr-api/src/copilot/corpus.check.ts",
+      "bytes": 4570,
+      "sha256": "079fac75fe60bf762cfde2307a68e51a374f8095f0ca70f91ba91e2113387220"
+    },
+    {
+      "path": "services/hr-api/src/copilot/corpus.ts",
+      "bytes": 14436,
+      "sha256": "af4ce9f165019f4684e2e02fe820d128de4893660eb92aad9bbc9962244650e7"
+    },
+    {
+      "path": "services/hr-api/src/copilot/data/hr_agent_intents_10000.jsonl",
+      "bytes": 2575524,
+      "sha256": "1fc3665f36b2b1814fdebe248ce46709a5dbdc7058d728620adc0ebf9b3fdb9b"
+    },
+    {
+      "path": "services/hr-api/src/copilot/execute.ts",
+      "bytes": 41155,
+      "sha256": "030225ac21f6b223fa4e0ae6fc21488ca738adde7a558bd475fa8b8c52757ef0"
+    },
+    {
+      "path": "services/hr-api/src/copilot/forms.ts",
+      "bytes": 18379,
+      "sha256": "87f94a35b57a556e5c9991e166163e7c78a64c15d599e13640485c17256f9d5e"
+    },
+    {
+      "path": "services/hr-api/src/copilot/gate.check.ts",
+      "bytes": 6320,
+      "sha256": "ba80e15b7c6a0b250ac510303cfae321680713bcbc61e166c0e698e97d9feaa4"
+    },
+    {
+      "path": "services/hr-api/src/copilot/greetings.check.ts",
+      "bytes": 1754,
+      "sha256": "d4a6c1964509502a34f974ccbec609c491ead020f1b40bf195ff5a27403069ca"
+    },
+    {
+      "path": "services/hr-api/src/copilot/idempotency.ts",
+      "bytes": 2330,
+      "sha256": "bee1797208f807559a41b347a32185490beca9af66aa17716ea04676a4334187"
+    },
+    {
+      "path": "services/hr-api/src/copilot/intents.ts",
+      "bytes": 12501,
+      "sha256": "848946826f105bb51d721626d08d752853f5d163b2bfdb045c1fce20400c7a82"
+    },
+    {
+      "path": "services/hr-api/src/copilot/localReads.check.ts",
+      "bytes": 3758,
+      "sha256": "a6ac760c6ab99453d9308bd798482b226375bec4baa01711579c20b0dc6d1ffd"
+    },
+    {
+      "path": "services/hr-api/src/copilot/memory.ts",
+      "bytes": 6503,
+      "sha256": "58e91a00819fe55191c7dc4ebdade6b14a853515da5e737c9051d0223dcd7db9"
+    },
+    {
+      "path": "services/hr-api/src/copilot/perform.ts",
+      "bytes": 150044,
+      "sha256": "904f40fdd7c7939e7d8bf50c804459074d252274f72bc07eda47a95161c0355b"
+    },
+    {
+      "path": "services/hr-api/src/copilot/personName.ts",
+      "bytes": 1600,
+      "sha256": "42edb1d75e1a7cc96ea2337200a6e6b0ae4d04b794231d3af5a78ae536967746"
+    },
+    {
+      "path": "services/hr-api/src/copilot/phase3b.check.ts",
+      "bytes": 4017,
+      "sha256": "449e72a1ae47a2986a7ae40a12a369d8931785bb79a1d24c66a2c61b4e0b4639"
+    },
+    {
+      "path": "services/hr-api/src/copilot/phase3d.check.ts",
+      "bytes": 19931,
+      "sha256": "cb95e328210dc4e683bca4a1f5f0944d5c43b882ff8b1ae5d74a8978c271931a"
+    },
+    {
+      "path": "services/hr-api/src/copilot/phrasebook.ts",
+      "bytes": 18151,
+      "sha256": "22e3267e5c0594d02a4e5d6d977ecd989e18c7af5d1155a1b3ce7cf03454c713"
+    },
+    {
+      "path": "services/hr-api/src/copilot/readClarification.check.ts",
+      "bytes": 3256,
+      "sha256": "273b6e6c58e7bb77698403416d78817f789e0e324a5913e14ea5747dfbbb114f"
+    },
+    {
+      "path": "services/hr-api/src/copilot/readClarification.ts",
+      "bytes": 3163,
+      "sha256": "d08d5dcc9345972aae14bb1415619ed8ad66be0c3b5c82c39646cec5a84716c9"
+    },
+    {
+      "path": "services/hr-api/src/copilot/readPeriods.ts",
+      "bytes": 4444,
+      "sha256": "07845161928ba536545fdeee23fc40bf901079081684113f802f808b999c397c"
+    },
+    {
+      "path": "services/hr-api/src/copilot/readRules.check.ts",
+      "bytes": 14287,
+      "sha256": "58770ee17bc5f84836a26d8a51b3cf79d5c9d743a5a7715a6ef2b1bf5a3e798a"
+    },
+    {
+      "path": "services/hr-api/src/copilot/readRules.ts",
+      "bytes": 12304,
+      "sha256": "da08dc8ed721da9612813625b1dec2dbf8a6a4c51e05e031749a5938a83b12a8"
+    },
+    {
+      "path": "services/hr-api/src/copilot/resolve.ts",
+      "bytes": 28867,
+      "sha256": "fbd2446fbaa9186eb234dda4c88e7cdb624bee7f4b550a58dc86380c10c60e1c"
+    },
+    {
+      "path": "services/hr-api/src/copilot/resolveQuestion.diagnose.ts",
+      "bytes": 11572,
+      "sha256": "dd2e406d20cc41b05a9c4f067fb583806537605e3dd8af75391177b8b7fe3ff0"
+    },
+    {
+      "path": "services/hr-api/src/copilot/resolveQuestion.ollama.check.ts",
+      "bytes": 2782,
+      "sha256": "de8e1f5352b67293792887c7771eccda4cc2a6b0d1d547a4de6f41085049895f"
+    },
+    {
+      "path": "services/hr-api/src/copilot/routingOutcome.check.ts",
+      "bytes": 5258,
+      "sha256": "010ab1de61dd54347949fdff90fc3ba04bfeaae8b86af38004e3877e61eb2c4e"
+    },
+    {
+      "path": "services/hr-api/src/copilot/routingOutcome.fixtures.ts",
+      "bytes": 2137,
+      "sha256": "ce61a314fd5c6be5001b36b0a25e2ac83d02bb68295bd7fff2b017b8927d3785"
+    },
+    {
+      "path": "services/hr-api/src/copilot/routingOutcome.ts",
+      "bytes": 10059,
+      "sha256": "27774f4a4b0a94e7d6dcb75a6d15463e8fe471de7ee5f591517eb03e71537c60"
+    },
+    {
+      "path": "services/hr-api/src/copilot/teamPresence.ts",
+      "bytes": 1483,
+      "sha256": "3379fe4d02867b0aadf73ad52d56250e6ca5325d91176c2da01744768b9e96f3"
+    },
+    {
+      "path": "services/hr-api/src/copilot/training.check.ts",
+      "bytes": 15712,
+      "sha256": "76d17e25df7a0c756d3f2409d846fbc257ca4d4f683ad253856303f11fa2568a"
+    },
+    {
+      "path": "services/hr-api/src/copilot/training.ts",
+      "bytes": 59320,
+      "sha256": "cf56c42ccfad1bee56317adcd2b3a09dfbb5c6eafafe2e314865d48af4bbee07"
+    },
+    {
+      "path": "services/hr-api/src/copilot/unanswered.ts",
+      "bytes": 962,
+      "sha256": "a6655b168455e11ebd81a986b60912badbaab024de64586ce8856d5228ab0569"
+    },
+    {
+      "path": "services/hr-api/src/copilot/validatePlan.check.ts",
+      "bytes": 17835,
+      "sha256": "93699136b02cf9c63a805a33a44b1c1f09296beca8e3d4373ac1b53cad222eca"
+    },
+    {
+      "path": "services/hr-api/src/copilot/validatePlan.ts",
+      "bytes": 2481,
+      "sha256": "c8668f81f35074ba393206906b08b22852fcbbbdb94b16f8b1416fd288512719"
+    },
+    {
+      "path": "services/hr-api/src/db/backfillEmbeddings.ts",
+      "bytes": 1607,
+      "sha256": "4c39f545f72c65d33c03ec196797d98710d162ffa31dede1bd235aa4e69f853a"
+    },
+    {
+      "path": "services/hr-api/src/db/client.ts",
+      "bytes": 1790,
+      "sha256": "8f49661d378bd427ffe7b6c7bdf095fa6d0807536cad96cb2374e3ae96ec8cd6"
+    },
+    {
+      "path": "services/hr-api/src/db/migrate.ts",
+      "bytes": 777,
+      "sha256": "98a486b11ce608115e2a8bd4ff2e8edd2f6cfc116b5c75ae01de075cd77e7077"
+    },
+    {
+      "path": "services/hr-api/src/db/migrateCvsIntoDb.ts",
+      "bytes": 1664,
+      "sha256": "e052896d3e182ffd8d7fc78d01513c69d071dd250a5376630fb17c796671e4d8"
+    },
+    {
+      "path": "services/hr-api/src/db/schema.ts",
+      "bytes": 67449,
+      "sha256": "d77d7bc2db236ce50e262f1ecc02384bcf47f84c8367a110ad7912d3a7ba04c4"
+    },
+    {
+      "path": "services/hr-api/src/db/seed.ts",
+      "bytes": 16027,
+      "sha256": "646770b765e9ab11765834725580854f00ba35bf4daf592e6d2fd80d55f19f34"
+    },
+    {
+      "path": "services/hr-api/src/db/seedJobDescriptions.ts",
+      "bytes": 12885,
+      "sha256": "12cc9184bb1da7abb1c98230714de4cb6ec085b0ec372f4e33043e5e09261993"
+    },
+    {
+      "path": "services/hr-api/src/domain/attendance.ts",
+      "bytes": 5186,
+      "sha256": "ed40cc8a475d9e7819a85870cdc59c0a262c897bf5a7089e9d1cd49ff42a9dd1"
+    },
+    {
+      "path": "services/hr-api/src/domain/leave.ts",
+      "bytes": 4565,
+      "sha256": "e02ffc50e5b7f7271fd26413416ff987ce79bf357212efebc8e6e19b99606cce"
+    },
+    {
+      "path": "services/hr-api/src/domain/notify.ts",
+      "bytes": 1412,
+      "sha256": "b6a248a0d1ebfc6c801a16f765bd60f367bca5b0087bf1399b8ee56c5e6f818f"
+    },
+    {
+      "path": "services/hr-api/src/domain/presence.ts",
+      "bytes": 1084,
+      "sha256": "324f57ec6f97c79edce48cabf08945dace4b9253c259cfa68cf2615597dc0adf"
+    },
+    {
+      "path": "services/hr-api/src/domain/workdays.ts",
+      "bytes": 2916,
+      "sha256": "50469a3c0c9337bceef4f4544affdf61cb0c51e23f554b3c6d05b082980a2b36"
+    },
+    {
+      "path": "services/hr-api/src/env.ts",
+      "bytes": 5713,
+      "sha256": "2caece1233e6699684e3501f204c2ed7a24ad0770992b5d7baae4ede487ba7bc"
+    },
+    {
+      "path": "services/hr-api/src/guide/answer.ts",
+      "bytes": 8763,
+      "sha256": "f2199b691f5dafcc942706543bbab0610863fa21760da712e20e65de91010395"
+    },
+    {
+      "path": "services/hr-api/src/guide/helpRouting.ts",
+      "bytes": 2098,
+      "sha256": "df718115d50f771e265b63de50644b6cdb19d43a788755159755eb249cd77683"
+    },
+    {
+      "path": "services/hr-api/src/guide/pages.ts",
+      "bytes": 34499,
+      "sha256": "fd8899d05d3dc42bdbb13f91ebb93bed6d812cc15b445d32e389eaf726b6a736"
+    },
+    {
+      "path": "services/hr-api/src/guide/tasks.ts",
+      "bytes": 14912,
+      "sha256": "1689f987bfbb8702744dde53f606e953a515e9732b447028e560a47b74af7d19"
+    },
+    {
+      "path": "services/hr-api/src/guide/tour.check.ts",
+      "bytes": 3052,
+      "sha256": "08444d61fba1553f1f06bf359f74b6318b8d0b48b163ca98b4c36c8561620cb4"
+    },
+    {
+      "path": "services/hr-api/src/guide/tour.ts",
+      "bytes": 2661,
+      "sha256": "77ef456ae719da3d2abee6d565a928b64e25e826654b3afe1f5a6848badfb311"
+    },
+    {
+      "path": "services/hr-api/src/index.ts",
+      "bytes": 8961,
+      "sha256": "978495b7dc3dca7c89186cf1ba81c144c0b9aea1d8502166575fd90c379f0321"
+    },
+    {
+      "path": "services/hr-api/src/internalApi.ts",
+      "bytes": 4351,
+      "sha256": "66540b0795d620284f40185562fffe46d149e44261b8c6efdc8a3e9810439528"
+    },
+    {
+      "path": "services/hr-api/src/knowledge/extract.ts",
+      "bytes": 3070,
+      "sha256": "015d6f71ea3a98ccbbaf14a4d95c1c1c98d3ca57fadc490fd007d06b2c393c8e"
+    },
+    {
+      "path": "services/hr-api/src/knowledge/service.ts",
+      "bytes": 10507,
+      "sha256": "63166e6019a697764dd682e66bf143acb29fbcd6cb39fab05a3a263a180b93ba"
+    },
+    {
+      "path": "services/hr-api/src/mappers.ts",
+      "bytes": 14048,
+      "sha256": "c1ca19d0132d5bcc0fbefcdd63f0f04d247ddf87efe40373250a13c47cc2053f"
+    },
+    {
+      "path": "services/hr-api/src/mcp/authorization.security.check.ts",
+      "bytes": 14029,
+      "sha256": "99091a873cae455674e8e0e3a02b363cb0cc83a4867f0c792de3f917a41a4774"
+    },
+    {
+      "path": "services/hr-api/src/mcp/index.ts",
+      "bytes": 635,
+      "sha256": "a1ccfac42f9c8821b681127ae6b30cc4748110780013798e4ea43648fc7b67d4"
+    },
+    {
+      "path": "services/hr-api/src/mcp/schemas.ts",
+      "bytes": 14891,
+      "sha256": "d00293712c8deee6fd6e824cee0289c239f243f4711843f3f135e56f314ad1ed"
+    },
+    {
+      "path": "services/hr-api/src/mcp/server.ts",
+      "bytes": 16091,
+      "sha256": "ad13911ffb1d6025f0c48975135b9ee7b2609b9cfcea6051430fa8cddfc73699"
+    },
+    {
+      "path": "services/hr-api/src/mcp/tools.ts",
+      "bytes": 4530,
+      "sha256": "d09199b4deb0b00a730d0534e6225e1034fb7e9e69d345d6ae3b1e4fd2e938a8"
+    },
+    {
+      "path": "services/hr-api/src/middleware.ts",
+      "bytes": 4148,
+      "sha256": "41380973c78781e345f34051889ea0bbbb709004e687c1ff4ccca1d46a51b1b4"
+    },
+    {
+      "path": "services/hr-api/src/payroll/audit.ts",
+      "bytes": 18132,
+      "sha256": "06c639950fbdf8a65a5ff405eb6ee62831d560b45659c96db1a5dedec2ee3c5f"
+    },
+    {
+      "path": "services/hr-api/src/payroll/auditAi.ts",
+      "bytes": 1792,
+      "sha256": "b656e88dc9054caa312979027f67335fd97366ce073d06cdaf62d471cb9cbeaa"
+    },
+    {
+      "path": "services/hr-api/src/payroll/auditRules.check.ts",
+      "bytes": 2354,
+      "sha256": "46f6b4079e55b6539aa45bf2edaced324a1843589102f5f670bc38c2c4f66ebf"
+    },
+    {
+      "path": "services/hr-api/src/payroll/auditRules.ts",
+      "bytes": 8618,
+      "sha256": "ea25c3177606d9bee49e26a9eea8b72291f07712d6d621b207efb6e55217d64e"
+    },
+    {
+      "path": "services/hr-api/src/payroll/calculate.check.ts",
+      "bytes": 7261,
+      "sha256": "7e0d1e5be17028faaf1c9e2537d0b22e262d313ee32deae63cebf823b06bd935"
+    },
+    {
+      "path": "services/hr-api/src/payroll/calculate.ts",
+      "bytes": 10503,
+      "sha256": "076f8a6e2d490401b61e969da5a97f95fe3ddb92a12646b5c45a813132779ff1"
+    },
+    {
+      "path": "services/hr-api/src/payroll/run.ts",
+      "bytes": 11609,
+      "sha256": "9bbeaf9ef801decf328bc64c512cfcbff3b08405cc40094eafe5adf44078ad13"
+    },
+    {
+      "path": "services/hr-api/src/payroll/seedPayroll.ts",
+      "bytes": 3336,
+      "sha256": "d94433bd6a5ec8ab772441a59bcb4053884cc7debbef65133d4e59e409f80ad0"
+    },
+    {
+      "path": "services/hr-api/src/permissions.check.ts",
+      "bytes": 3082,
+      "sha256": "432898dad8dd4c5e1ce4e2c3eb8196eb7d0337e7386e2098bf1d4b595453e679"
+    },
+    {
+      "path": "services/hr-api/src/permissions.ts",
+      "bytes": 8122,
+      "sha256": "76f0b9033ca44f6ae95bc441eabb24fa2cab2374cee088f0f7469397682cdbab"
+    },
+    {
+      "path": "services/hr-api/src/rateLimit.ts",
+      "bytes": 5062,
+      "sha256": "dc03b427a5796417b91c5f0894b49cfec780075700a01e102570ee259d0781aa"
+    },
+    {
+      "path": "services/hr-api/src/realtime/bus.ts",
+      "bytes": 3713,
+      "sha256": "b478cab221f9bbcd0855e00fdec4ea54a1811acdc70b03334df014b7139b169b"
+    },
+    {
+      "path": "services/hr-api/src/recruitment/interview.ts",
+      "bytes": 12596,
+      "sha256": "1e9603100e8cea3e106919c3c918a90e3aed57c0c667442f9a8c4c5be6e2c2da"
+    },
+    {
+      "path": "services/hr-api/src/recruitment/interviewResults.ts",
+      "bytes": 1965,
+      "sha256": "c1cd3e039eab7fb2cc7a2195826d267ac7d680fea917137639f6f8adfefb20a8"
+    },
+    {
+      "path": "services/hr-api/src/recruitment/interviewReview.ts",
+      "bytes": 7665,
+      "sha256": "8e989fdcd24a15ea475b2998517b6fb489ca450ffb8540e33aad7294de9993f4"
+    },
+    {
+      "path": "services/hr-api/src/recruitment/publish.ts",
+      "bytes": 5775,
+      "sha256": "6cd96f0ede2bca1a998873e962e4687136ae87be15c08637d322c802ee557a00"
+    },
+    {
+      "path": "services/hr-api/src/reports/build.security.check.ts",
+      "bytes": 9378,
+      "sha256": "74e5b636902d94b8e7060a16bc928914c67a997f4f6700c0007640d0777ade74"
+    },
+    {
+      "path": "services/hr-api/src/reports/build.ts",
+      "bytes": 20819,
+      "sha256": "94bc1e2992d34ab4ef5e2371db323027fff75c56ca49b7cd1862bf36ef973bdc"
+    },
+    {
+      "path": "services/hr-api/src/reports/employeeFile.ts",
+      "bytes": 14333,
+      "sha256": "38810f3b16170b35ed88e423f294a9c8a2d4daab33a203f46e2955f250066218"
+    },
+    {
+      "path": "services/hr-api/src/reports/narrate.ts",
+      "bytes": 3657,
+      "sha256": "0f05a6a307714f17335658dfe289a7028adef9ca5c6eb4d3ddcfb6953d32101b"
+    },
+    {
+      "path": "services/hr-api/src/routes/assistantReview.ts",
+      "bytes": 1327,
+      "sha256": "01d66149499a6425800d507ff548c5c57ef922d8fa36319393daac59c9005101"
+    },
+    {
+      "path": "services/hr-api/src/routes/attendance.ts",
+      "bytes": 5897,
+      "sha256": "893374bba91bddcd5e421920920c73a216a1e7ead38c95a8de3a773cd1a8147b"
+    },
+    {
+      "path": "services/hr-api/src/routes/auth.ts",
+      "bytes": 5522,
+      "sha256": "77833cf5d482d3b38da05035352d558b77cc6bfd142dd4d11ee4db2daf02a6ce"
+    },
+    {
+      "path": "services/hr-api/src/routes/calendar.ts",
+      "bytes": 8076,
+      "sha256": "44ede37add54f6bf04b54de5f268b6a7d7646b4f8c908eefe904c25d8a25f0be"
+    },
+    {
+      "path": "services/hr-api/src/routes/careers.ts",
+      "bytes": 12324,
+      "sha256": "5beb408d7ba7329102a62e9d40025a2e7cdcc2968a7bd694423bcbb039192e54"
+    },
+    {
+      "path": "services/hr-api/src/routes/copilot.ts",
+      "bytes": 62463,
+      "sha256": "feb084ae5c57768d4f18d96e0376c68ea553f08e6cb42189ef4306c7aec0a62f"
+    },
+    {
+      "path": "services/hr-api/src/routes/cv.ts",
+      "bytes": 6614,
+      "sha256": "8e55b4f3b69fb76d84bf7942681f9cf5e419a06b769a747e30a28cfe43341668"
+    },
+    {
+      "path": "services/hr-api/src/routes/employees.ts",
+      "bytes": 15352,
+      "sha256": "21199230232baf12eca84e820131863dceaf8d924b223946901256e97e05d587"
+    },
+    {
+      "path": "services/hr-api/src/routes/feed.ts",
+      "bytes": 11055,
+      "sha256": "5b0318bf576ebfca378c7e853446041947d92e97d9b7576fa4376ca4e5a33766"
+    },
+    {
+      "path": "services/hr-api/src/routes/hrAttention.ts",
+      "bytes": 7404,
+      "sha256": "cf1d59ff3e2529d2c8a76435f08a932c753ea7f644b60be78d5ff27e82058277"
+    },
+    {
+      "path": "services/hr-api/src/routes/interview.ts",
+      "bytes": 6783,
+      "sha256": "acfbb31452472e69cd9a9c30d246b6ffc0a9b7a14fa970f6c9291936323fc43e"
+    },
+    {
+      "path": "services/hr-api/src/routes/jobDescriptions.ts",
+      "bytes": 19345,
+      "sha256": "0b80fac811c973697a7d944cfa61c576c7917f3ea199cc5826d25462efa775c7"
+    },
+    {
+      "path": "services/hr-api/src/routes/knowledge.ts",
+      "bytes": 3084,
+      "sha256": "d682c268f1d6ddd49fef69af56672c1894c78ddf408a77540af5318a4f33b808"
+    },
+    {
+      "path": "services/hr-api/src/routes/payroll.ts",
+      "bytes": 19166,
+      "sha256": "e3765ce1a415c01e221c591b845cdd1eef0bae3d926165163f9d8f5431042381"
+    },
+    {
+      "path": "services/hr-api/src/routes/recruitment.ts",
+      "bytes": 22465,
+      "sha256": "bc42e80d844d72c3b7b62c5c04ea043ec62733559af2a6d048964f8f6b642d13"
+    },
+    {
+      "path": "services/hr-api/src/routes/requests.ts",
+      "bytes": 9503,
+      "sha256": "592e33ddebf68600ec3e7d49dcc35984ae4351f267b9beda18f85c92249acc3b"
+    },
+    {
+      "path": "services/hr-api/src/routes/stats.ts",
+      "bytes": 5640,
+      "sha256": "42123089274eed4afa1532f44a98dd9aff030f802d4dbc7b5786c69fcb852608"
+    },
+    {
+      "path": "services/hr-api/src/routes/stream.ts",
+      "bytes": 2201,
+      "sha256": "3dab92f32b8d59f9e6e8721db8be1cc584736015a043db292b5850356d508b70"
+    },
+    {
+      "path": "services/hr-api/src/routes/voice.ts",
+      "bytes": 42884,
+      "sha256": "234b8d7f9320cad496772b0b9ca2daf8d9100033b234d9254c41090659d2d66d"
+    },
+    {
+      "path": "services/hr-api/src/storage/files.ts",
+      "bytes": 5653,
+      "sha256": "7df4efebf6672b559f9562daa19ca535d1d99ddebc2535929dd0fc2700920da1"
+    },
+    {
+      "path": "services/hr-api/src/voice/audit.ts",
+      "bytes": 873,
+      "sha256": "e34c7c5916cb790ff8c65d7afd18c975e819a9e78ac074b9558b00eab5c85042"
+    },
+    {
+      "path": "services/hr-api/src/voice/evaluation.fixtures.ts",
+      "bytes": 1221,
+      "sha256": "5b56950efefb5c38a0f27cb52d9372fd8071510067d8aedaa50b17fc36eb2ef9"
+    },
+    {
+      "path": "services/hr-api/src/voice/local.check.ts",
+      "bytes": 8333,
+      "sha256": "489407be380d290b5800106663ee4a8132144e90fd52a4b98d28cf34de2bd1f9"
+    },
+    {
+      "path": "services/hr-api/src/voice/local.e2e.ts",
+      "bytes": 10175,
+      "sha256": "2e134b37d7648e93a80ae36c9f8e7e3282f804e1d3d83dededc2c4fa3c0e6f49"
+    },
+    {
+      "path": "services/hr-api/src/voice/local.ts",
+      "bytes": 6575,
+      "sha256": "6198393a0a1fb974aac6f35a8d8ca3476be8341f4e7a9d56a938c2ac8b45a40e"
+    },
+    {
+      "path": "services/hr-api/src/voice/localQueue.ts",
+      "bytes": 2273,
+      "sha256": "b2a2c9201c27ae1049e46c610f18d463d7d54250ef9afc0340e674ac0ed1b977"
+    },
+    {
+      "path": "services/hr-api/src/voice/realtime.ts",
+      "bytes": 5567,
+      "sha256": "6fbf3ae3bc3c34f8ee0efab8f517a5b5b1855005bb6b469ebe54c4a03fd1d9b9"
+    },
+    {
+      "path": "services/hr-api/src/voice/session.check.ts",
+      "bytes": 5327,
+      "sha256": "a4309c6d9490a2565bda5f47838a12eb7208a4da4d93db2f439eef9843d3c348"
+    },
+    {
+      "path": "services/hr-api/src/voice/session.ts",
+      "bytes": 9655,
+      "sha256": "ed20171a9bc9c2ced908c57f12a9871d490bd7976c07d3729e9fbadec080c705"
+    },
+    {
+      "path": "services/hr-api/tsconfig.json",
+      "bytes": 602,
+      "sha256": "d1225a10fd2e30419a7243680862215518ce694025f2f71ba2fc170817f14f1d"
+    }
+  ]
+}

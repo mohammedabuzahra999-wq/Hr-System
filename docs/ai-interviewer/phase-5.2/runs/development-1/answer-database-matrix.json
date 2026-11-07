@@ -1,0 +1,238 @@
+{
+  "checks": 26,
+  "externalAttempts": 0,
+  "fixture": "Disposable PostgreSQL, unchanged 0026 with synthetic legacy parents; full-chain pgvector blocker remains open",
+  "matrix": [
+    {
+      "scenario": "normal ACK",
+      "version": 12,
+      "status": "ACTIVE",
+      "phase": "PROCESSING",
+      "answerCount": 1,
+      "receiptCount": 1,
+      "finalizedEvents": 1,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    },
+    {
+      "scenario": "rollback final-event",
+      "version": 9,
+      "status": "ACTIVE",
+      "phase": "LISTENING",
+      "answerCount": 0,
+      "receiptCount": 0,
+      "finalizedEvents": 0,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    },
+    {
+      "scenario": "same-identity retry final-event",
+      "version": 12,
+      "status": "ACTIVE",
+      "phase": "PROCESSING",
+      "answerCount": 1,
+      "receiptCount": 1,
+      "finalizedEvents": 1,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    },
+    {
+      "scenario": "rollback receipt",
+      "version": 9,
+      "status": "ACTIVE",
+      "phase": "LISTENING",
+      "answerCount": 0,
+      "receiptCount": 0,
+      "finalizedEvents": 0,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    },
+    {
+      "scenario": "same-identity retry receipt",
+      "version": 12,
+      "status": "ACTIVE",
+      "phase": "PROCESSING",
+      "answerCount": 1,
+      "receiptCount": 1,
+      "finalizedEvents": 1,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    },
+    {
+      "scenario": "rollback snapshot",
+      "version": 9,
+      "status": "ACTIVE",
+      "phase": "LISTENING",
+      "answerCount": 0,
+      "receiptCount": 0,
+      "finalizedEvents": 0,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    },
+    {
+      "scenario": "same-identity retry snapshot",
+      "version": 12,
+      "status": "ACTIVE",
+      "phase": "PROCESSING",
+      "answerCount": 1,
+      "receiptCount": 1,
+      "finalizedEvents": 1,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    },
+    {
+      "scenario": "same answer same identity concurrent",
+      "version": 12,
+      "status": "ACTIVE",
+      "phase": "PROCESSING",
+      "answerCount": 1,
+      "receiptCount": 1,
+      "finalizedEvents": 1,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    },
+    {
+      "scenario": "two-tab losing submission",
+      "version": 12,
+      "status": "ACTIVE",
+      "phase": "PROCESSING",
+      "answerCount": 1,
+      "receiptCount": 0,
+      "finalizedEvents": 1,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    },
+    {
+      "scenario": "two-tab losing submission",
+      "version": 12,
+      "status": "ACTIVE",
+      "phase": "PROCESSING",
+      "answerCount": 1,
+      "receiptCount": 0,
+      "finalizedEvents": 1,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    },
+    {
+      "scenario": "old question tab",
+      "version": 13,
+      "status": "ACTIVE",
+      "phase": "FOLLOW_UP",
+      "answerCount": 1,
+      "receiptCount": 0,
+      "finalizedEvents": 1,
+      "followUpDecisions": 1,
+      "pendingEffects": 1
+    },
+    {
+      "scenario": "duplicate process",
+      "version": 13,
+      "status": "ACTIVE",
+      "phase": "FOLLOW_UP",
+      "answerCount": 1,
+      "receiptCount": 1,
+      "finalizedEvents": 1,
+      "followUpDecisions": 1,
+      "pendingEffects": 1
+    },
+    {
+      "scenario": "restart duplicate",
+      "version": 13,
+      "status": "PAUSED",
+      "phase": "PROCESSING",
+      "answerCount": 1,
+      "receiptCount": 1,
+      "finalizedEvents": 1,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    },
+    {
+      "scenario": "restart before commit",
+      "version": 11,
+      "status": "PAUSED",
+      "phase": "LISTENING",
+      "answerCount": 0,
+      "receiptCount": 0,
+      "finalizedEvents": 0,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    },
+    {
+      "scenario": "changed identity content",
+      "version": 12,
+      "status": "ACTIVE",
+      "phase": "PROCESSING",
+      "answerCount": 1,
+      "receiptCount": 1,
+      "finalizedEvents": 1,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    },
+    {
+      "scenario": "modified interview",
+      "version": 9,
+      "status": "ACTIVE",
+      "phase": "LISTENING",
+      "answerCount": 0,
+      "receiptCount": 0,
+      "finalizedEvents": 0,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    },
+    {
+      "scenario": "modified session",
+      "version": 9,
+      "status": "ACTIVE",
+      "phase": "LISTENING",
+      "answerCount": 0,
+      "receiptCount": 0,
+      "finalizedEvents": 0,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    },
+    {
+      "scenario": "modified question",
+      "version": 9,
+      "status": "ACTIVE",
+      "phase": "LISTENING",
+      "answerCount": 0,
+      "receiptCount": 0,
+      "finalizedEvents": 0,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    },
+    {
+      "scenario": "modified turn",
+      "version": 9,
+      "status": "ACTIVE",
+      "phase": "LISTENING",
+      "answerCount": 0,
+      "receiptCount": 0,
+      "finalizedEvents": 0,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    },
+    {
+      "scenario": "modified version",
+      "version": 9,
+      "status": "ACTIVE",
+      "phase": "LISTENING",
+      "answerCount": 0,
+      "receiptCount": 0,
+      "finalizedEvents": 0,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    },
+    {
+      "scenario": "expired turn deadline",
+      "version": 9,
+      "status": "ACTIVE",
+      "phase": "LISTENING",
+      "answerCount": 0,
+      "receiptCount": 0,
+      "finalizedEvents": 0,
+      "followUpDecisions": 0,
+      "pendingEffects": 0
+    }
+  ]
+}

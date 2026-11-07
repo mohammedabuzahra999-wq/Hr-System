@@ -1,0 +1,33 @@
+PASS actual bounded discovery pass launches work without awaiting a model
+PASS staff question generation is quarantined until explicit authorized approval
+PASS approved model question text is frozen and delivered by the unchanged engine
+PASS model follow-up selection commits once through engine and durable process receipt
+PASS clarification uses only approved prompt IDs and engine turn limits
+PASS malformed, extra authority and disallowed decisions cannot advance state
+PASS unsafe or scope-changing question proposals are rejected before quarantine commit
+PASS proposal identity conflicts, prompt ID mutations and frozen-plan application fail
+PASS same logical answer with concurrent dispatch invokes the model once
+PASS timeouts retain physical capacity and bounded retry uses new attempt identity
+PASS provider failure exhausts a durable retry budget without hidden calls
+PASS pause/interruption fences a late result; explicit resume can retry the same answer
+PASS server restart requires domain recovery/resume and fences an old owner
+PASS candidate injection remains untrusted data and cannot authorize tools or plan revision
+[ai-interview-operations] {"atUtc":"2026-11-05T12:17:45.887Z","event":"candidate_session_rejected","interviewId":"b128ef2a-c94a-4e2e-8f38-9b2489aa22d0","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T12:17:45.888Z","event":"request_rejected","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T12:17:45.918Z","event":"request_rejected","code":"DENIED"}
+PASS candidate/staff isolation, forged output endpoint and DTO secrecy remain independent
+PASS expired or revoked sessions cannot drive a new decision
+PASS model latency is independent of another interview warning/deadline
+PASS failed SQL model commit leaves no partial decision, receipt or evaluation
+PASS shutdown cancels pending work and never fabricates a decision
+PASS staff retry cannot reset exhausted attempt counts; cancel fences pending publication
+PASS role revocation and frozen-plan approval cannot bypass staff authority
+PASS completed decision acknowledgement is idempotent and conflicting reuse fails
+[ai-interview] {"event":"evaluation_attempt_started","interviewId":"a756c292-0277-4c0b-b3a5-54d9ff63690c","evaluationId":"67adf6de-d22b-4652-9897-1b50e003d980","reportVersion":1,"attempt":1}
+[ai-interview] {"event":"evaluation_attempt_completed","interviewId":"a756c292-0277-4c0b-b3a5-54d9ff63690c","evaluationId":"67adf6de-d22b-4652-9897-1b50e003d980","reportVersion":1,"attempt":1}
+[ai-interview-operations] {"atUtc":"2026-11-05T12:17:48.549Z","event":"report_accessed","interviewId":"a756c292-0277-4c0b-b3a5-54d9ff63690c","evaluationId":"67adf6de-d22b-4652-9897-1b50e003d980","actorId":"77f60b1c-f8cd-4868-82db-e671288ac100","reportVersion":1}
+PASS reviewed proposal through async decision, answer persistence, completion and existing report integrity
+PASS frozen model mode cannot silently fall back after disable or provider-profile change
+PASS simultaneous different interviews cannot exceed two physical model calls
+PASS zero real provider/model calls
+26/26 LLM orchestration PostgreSQL checks passed; external calls=0

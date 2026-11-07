@@ -1,0 +1,101 @@
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:37.934Z","event":"provider_readiness_changed","state":"configured"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:37.935Z","event":"provider_readiness_changed","state":"ready"}
+PASS production absent/invalid/synthetic providers fail closed without calls
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:37.997Z","event":"provider_readiness_changed","state":"configured"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:37.997Z","event":"provider_readiness_changed","state":"ready"}
+PASS trusted connection/STT/idempotent-play requirements cannot be omitted
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:38.046Z","event":"provider_readiness_changed","state":"configured"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:38.046Z","event":"provider_readiness_changed","state":"ready"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:38.053Z","event":"provider_readiness_changed","state":"unhealthy"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:38.056Z","event":"provider_readiness_changed","state":"unavailable"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:38.057Z","event":"provider_readiness_changed","state":"unhealthy"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:38.059Z","event":"provider_readiness_changed","state":"unavailable"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:38.082Z","event":"provider_readiness_changed","state":"unhealthy"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:38.098Z","event":"provider_readiness_changed","state":"unavailable"}
+PASS health unavailable/malformed/timeout is unhealthy and cannot bind
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:38.162Z","event":"provider_observation_rejected","interviewId":"20eafc5e-404b-478b-aa51-9ef478d91fb7","code":"STALE"}
+PASS audio consent and trusted connection precede real START
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:38.341Z","event":"provider_observation_rejected","interviewId":"935dfbd1-7998-4b10-9d52-123d5b365dbe","code":"STALE"}
+PASS provider receives data only; TTS dispatch alone cannot acknowledge playback
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:38.445Z","event":"provider_observation_rejected","interviewId":"1a811b84-449f-439b-9fae-30a44d8a5c22","code":"STALE"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:38.484Z","event":"provider_observation_rejected","interviewId":"1a811b84-449f-439b-9fae-30a44d8a5c22","code":"INVALID"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:38.496Z","event":"provider_observation_rejected","interviewId":"1a811b84-449f-439b-9fae-30a44d8a5c22","code":"STALE"}
+PASS playback completion requires start; wrong effect cannot advance
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:38.690Z","event":"provider_observation_rejected","interviewId":"2d2fb359-72c2-46c7-8ebe-2c8c0476be9c","code":"INVALID"}
+PASS playback duplicate receipt is deterministic; different-ID duplicate is rejected
+PASS trusted STT final plus speech finish commits one durable answer
+PASS speech end before final transcript is safe and finalizes exactly once
+PASS duplicate final transcript same ID reconciles without another answer
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:40.663Z","event":"provider_observation_rejected","interviewId":"a07f0222-0a2e-4981-bdcb-6a2d34253617","code":"STALE"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:40.675Z","event":"provider_observation_rejected","interviewId":"a07f0222-0a2e-4981-bdcb-6a2d34253617","code":"STALE"}
+PASS conflicting event identity and repeated final with new ID fail safely
+PASS STT timeout pauses safely without a committed answer
+PASS STT unavailable pauses safely without a committed answer
+PASS STT malformed pauses safely without a committed answer
+PASS late STT after timeout cannot overwrite new generation answer
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:41.684Z","event":"provider_observation_rejected","interviewId":"548c9c14-6d23-4d98-802d-a9400d645871","code":"STALE"}
+PASS stale/late STT during timeout deadline cannot rebase to current turn
+PASS TTS timeout cannot fabricate playback or advancement
+PASS TTS unavailable cannot fabricate playback or advancement
+PASS TTS malformed cannot fabricate playback or advancement
+PASS TTS playback-failure cannot fabricate playback or advancement
+PASS barge-in preserves STOP intent and processes candidate speech
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:42.394Z","event":"provider_observation_rejected","interviewId":"fdb1779b-eefe-4125-a50a-bcb93c4d3a5a","code":"STALE"}
+PASS late playback completion after interruption cannot advance
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:42.537Z","event":"provider_observation_rejected","interviewId":"bdcf295a-b9f5-4fb5-b27d-8601e859ab7f","code":"STALE"}
+PASS playback-complete/speech-start races preserve one turn in both orders
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:42.854Z","event":"provider_observation_rejected","interviewId":"6034e81d-1a47-4565-b683-52fe1504c6ca","code":"INVALID"}
+PASS duplicate speech-start same ID is idempotent and new ID fails
+PASS lost STOP acknowledgement leaves durable intent for bounded retry
+PASS trusted disconnect/reconnect during playback preserves durable state
+PASS trusted disconnect/reconnect during speaking preserves durable state
+PASS trusted disconnect/reconnect during interruption preserves durable state
+PASS trusted disconnect/reconnect during pending PLAY preserves durable state
+PASS reconnect after transcript commit and refresh cannot duplicate answer
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:44.028Z","event":"provider_observation_rejected","interviewId":"b36c3dc5-7897-4c54-a099-9f87aa34dc20","code":"STALE"}
+PASS refresh before transcript commit preserves draft and fences old response
+PASS provider restart rebinds generation, preserves pause time and pending PLAY
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:44.341Z","event":"provider_observation_rejected","interviewId":"7cb34a81-ad65-4dc9-97a4-bec92a183c82","code":"STALE"}
+PASS stale connection events cannot pause or resume newer generations
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:44.586Z","event":"provider_observation_rejected","interviewId":"73f8729e-191b-49da-92ad-2a9c76ce275a","code":"STALE"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:44.614Z","event":"provider_observation_rejected","interviewId":"73f8729e-191b-49da-92ad-2a9c76ce275a","code":"STALE"}
+PASS reordered sequence and stale expected version fail without receipts
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:44.802Z","event":"provider_observation_rejected","interviewId":"42688855-2eaf-4168-bbfb-2c2178f2ccda","code":"STALE"}
+PASS simultaneous provider events serialize; only one same-sequence event commits
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:45.014Z","event":"request_rejected","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:45.022Z","event":"request_rejected","code":"INVALID"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:45.026Z","event":"request_rejected","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:45.030Z","event":"request_rejected","code":"AUTH"}
+PASS browser cannot forge STT/provider identity or use typed/mock media on audio session
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:45.079Z","event":"request_rejected","code":"INTERNAL"}
+PASS production route/readiness fails closed and exposes no provider credential
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:45.255Z","event":"provider_observation_rejected","interviewId":"f86d5434-08d2-499e-8a86-5278c3bb5fdf","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:45.258Z","event":"provider_observation_rejected","interviewId":"f86d5434-08d2-499e-8a86-5278c3bb5fdf","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:45.265Z","event":"provider_observation_rejected","interviewId":"f86d5434-08d2-499e-8a86-5278c3bb5fdf","code":"STALE"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:45.271Z","event":"provider_observation_rejected","interviewId":"f86d5434-08d2-499e-8a86-5278c3bb5fdf","code":"STALE"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:45.277Z","event":"provider_observation_rejected","interviewId":"f86d5434-08d2-499e-8a86-5278c3bb5fdf","code":"STALE"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:45.318Z","event":"candidate_session_rejected","interviewId":"f86d5434-08d2-499e-8a86-5278c3bb5fdf","code":"AUTH"}
+PASS foreign interview/generation/question/turn/effect observations are denied
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:45.460Z","event":"candidate_session_rejected","interviewId":"897f7251-c6a6-4988-8cce-f49da2f25260","code":"EXPIRED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:45.461Z","event":"provider_observation_rejected","interviewId":"897f7251-c6a6-4988-8cce-f49da2f25260","code":"AUTH"}
+PASS expired candidate blocks provider commit
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:45.605Z","event":"candidate_session_rejected","interviewId":"1e15a8a6-ba68-4441-af5d-591f306fe6ae","code":"REVOKED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:45.605Z","event":"provider_observation_rejected","interviewId":"1e15a8a6-ba68-4441-af5d-591f306fe6ae","code":"AUTH"}
+PASS revoked candidate blocks provider commit
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:45.760Z","event":"provider_observation_rejected","interviewId":"6527356b-b954-4496-a590-b7f06e8732bc","code":"STALE"}
+PASS stale-session candidate blocks provider commit
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:45.930Z","event":"candidate_session_rejected","interviewId":"783728d6-2ffc-48a8-9656-ead1984cbf69","code":"REVOKED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:45.931Z","event":"provider_observation_rejected","interviewId":"783728d6-2ffc-48a8-9656-ead1984cbf69","code":"AUTH"}
+PASS frozen STT context cannot commit after session revocation in flight
+PASS bounded physical calls retain abandoned work; exhaustion cannot start more
+PASS synthetic complete lifecycle includes follow-up/clarification and isolated evaluation job
+PASS malformed/oversized input audio is rejected before provider execution
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:46.716Z","event":"provider_observation_rejected","interviewId":"7b63aa64-1e7e-4825-b97d-5b8b9b39b784","code":"STALE"}
+PASS late TTS after generation replacement cannot start external playback
+PASS adapter close durably fences callbacks and consumes late STT settlement
+PASS simultaneous identical provider identity produces one receipt
+[ai-interview-operations] {"atUtc":"2026-11-05T08:00:47.198Z","event":"provider_observation_rejected","interviewId":"4791a5d1-2c09-4dbf-8ba4-a9571420bbb5","code":"STALE"}
+PASS duplicate STOP acknowledgement is idempotent and stale STOP cannot affect a turn
+PASS provider metadata and failures contain no transcript, raw exception or credential
+PASS real model/provider network attempts remain zero
+51/51 Phase 5.4 provider-gate checks passed; external attempts=0

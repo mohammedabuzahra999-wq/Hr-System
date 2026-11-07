@@ -1,0 +1,16 @@
+{
+  "version": "CEB-admission-gate-v1.1",
+  "status": "REJECTED_PENDING_HUMAN_REVIEW",
+  "independentHumanReview": "HUMAN_REVIEW_REQUIRED",
+  "assetSha256": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736",
+  "selectionSha256": "09cd5561686fd77d24f78a9f6036947425d9fc7973652b8b808c9ea907da5986",
+  "purpose": "runtime-reference-only",
+  "approvalId": null,
+  "reviewEvidenceSha256": null,
+  "reviewers": [],
+  "languagesReviewed": [],
+  "all480TextsReviewed": false,
+  "unresolvedFindings": null,
+  "executionCleared": false,
+  "note": "Automated gates pass; mandatory human review/admission absent. This is a blocking gate, never a model-execution authorization."
+}

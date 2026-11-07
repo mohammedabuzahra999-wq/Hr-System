@@ -1,0 +1,13 @@
+{
+  "id": "api-build",
+  "protection": "production API emission and compiled migration/data copy",
+  "command": "npm.cmd run build -w @hr/server",
+  "startedAt": "2026-11-05T12:24:53.656Z",
+  "finishedAt": "2026-11-05T12:25:21.907Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 3,
+  "outputLog": "api-build.log",
+  "passLines": 0
+}

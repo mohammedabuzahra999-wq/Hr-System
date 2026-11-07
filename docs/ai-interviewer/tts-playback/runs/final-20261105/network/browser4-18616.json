@@ -1,0 +1,8 @@
+{
+  "suite": "browser4",
+  "socketConnectionsAllowed": 50,
+  "fetchCallsAllowed": 49,
+  "blockedExternalAttempts": 0,
+  "suppressedFixtureWrites": 0,
+  "suppressedScreenshots": 23
+}

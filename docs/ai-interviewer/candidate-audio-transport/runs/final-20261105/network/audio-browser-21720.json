@@ -1,0 +1,8 @@
+{
+  "suite": "audio-browser",
+  "socketConnectionsAllowed": 34,
+  "fetchCallsAllowed": 33,
+  "blockedExternalAttempts": 0,
+  "suppressedFixtureWrites": 0,
+  "suppressedScreenshots": 0
+}

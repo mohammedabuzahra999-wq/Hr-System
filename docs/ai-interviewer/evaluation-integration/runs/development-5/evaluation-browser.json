@@ -1,0 +1,13 @@
+{
+  "id": "evaluation-browser",
+  "protection": "Synthetic provider report/HR review/evidence/retry/privacy in Chrome",
+  "command": "node scripts/checkEvaluationProviderBrowser.mjs",
+  "startedAt": "2026-11-05T12:13:13.683Z",
+  "finishedAt": "2026-11-05T12:14:22.866Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 2,
+  "outputLog": "evaluation-browser.log",
+  "passLines": 22
+}

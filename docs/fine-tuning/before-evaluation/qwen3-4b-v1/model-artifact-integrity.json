@@ -1,0 +1,42 @@
+{
+  "created": "2026-10-25T10:03:52.370Z",
+  "model": "qwen3:4b",
+  "activeManifestSha256": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+  "legacyAnchorSha256": "31d9857b5705086d352d4d6db04e86c5d0f6a2b5d59a4dc7ce5cdb271ccf9141",
+  "legacyAnchorRole": "Ollama downgrade anchor; includes active manifest as GC-retention layer, not the serving ID",
+  "explanationSource": "https://github.com/ollama/ollama/blob/v0.40.11/manifest/manifest.go#L1089",
+  "status": "PASS",
+  "blobs": [
+    {
+      "mediaType": "application/vnd.docker.container.image.v1+json",
+      "digest": "sha256:e18a783aae5525fd2852fc94c985541a77e791e034abc2d3056474d59de336fc",
+      "bytes": 487,
+      "status": "PASS"
+    },
+    {
+      "mediaType": "application/vnd.ollama.image.model",
+      "digest": "sha256:3e4cb14174460404e7a233e531675303b2fbf7749c02f91864fe311ab6344e4f",
+      "bytes": 2497280480,
+      "status": "PASS"
+    },
+    {
+      "mediaType": "application/vnd.ollama.image.template",
+      "digest": "sha256:2d54db2b9bb29ce7db54fea63a891f5859603813c555b1f88b5e0994652897f9",
+      "bytes": 1506,
+      "status": "PASS"
+    },
+    {
+      "mediaType": "application/vnd.ollama.image.license",
+      "digest": "sha256:d18a5cc71b84bc4af394a31116bd3932b42241de70c77d2b76d69a314ec8aa12",
+      "bytes": 11338,
+      "status": "PASS"
+    },
+    {
+      "mediaType": "application/vnd.ollama.image.params",
+      "digest": "sha256:cff3f395ef3756ab63e58b0ad1b32bb6f802905cae1472e6a12034e4246fbbdb",
+      "bytes": 120,
+      "status": "PASS"
+    }
+  ],
+  "modelCalls": 0
+}

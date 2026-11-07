@@ -1,0 +1,87 @@
+{
+  "version": "CEB-HUMAN-REVIEW-1",
+  "sequence": 2,
+  "previousEventHash": "0553042c106c44d9fd48d9dec0a37311bdeb9f71b8fca9e074d9ca212ae94088",
+  "timestamp": "2026-10-25T08:47:48.365Z",
+  "assetManifestHash": "eb78757c6ec01d4fff6fb473e11ca7d0d5e83cf68541e487acf61b6644742a7e",
+  "kind": "recordReview",
+  "value": {
+    "recordId": "CEB-R-QUESTION-001-en",
+    "asset": "runtime",
+    "assetFile": "runtime-reference-v1.1.jsonl",
+    "assetSha256": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736",
+    "recordHash": "16933988f4c49330c4d63cb77385a6a3213239c6ff675859c5b3347fcc0c0ad7",
+    "reviewer": {
+      "pseudonym": "Reviewer-MA-01",
+      "competence": "Arabic (Jordanian/MSA) and English speaker with AI/HR system knowledge",
+      "independenceStatement": "I am independently reviewing the generated records and did not author the dataset templates",
+      "humanIndependent": true
+    },
+    "criteria": {
+      "languageMeaning": {
+        "decision": "PASS",
+        "note": ""
+      },
+      "dialectNaturalness": {
+        "decision": "PASS",
+        "note": ""
+      },
+      "privacyPIIAllFields": {
+        "decision": "PASS",
+        "note": ""
+      },
+      "secretsAllFields": {
+        "decision": "PASS",
+        "note": ""
+      },
+      "placeholderCorrectness": {
+        "decision": "PASS",
+        "note": ""
+      },
+      "intentActionCorrectness": {
+        "decision": "PASS",
+        "note": ""
+      },
+      "entityParameterCorrectness": {
+        "decision": "PASS",
+        "note": ""
+      },
+      "roleScopeCorrectness": {
+        "decision": "PASS",
+        "note": ""
+      },
+      "clarificationUnsupportedBehavior": {
+        "decision": "PASS",
+        "note": ""
+      },
+      "confirmationNoExecutionBoundary": {
+        "decision": "PASS",
+        "note": ""
+      },
+      "symbolicWireConsistency": {
+        "decision": "PASS",
+        "note": ""
+      },
+      "semanticCorrectness": {
+        "decision": "PASS",
+        "note": ""
+      },
+      "lineageIndependence": {
+        "decision": "PASS",
+        "note": ""
+      },
+      "sourceRights": {
+        "decision": "PASS",
+        "note": ""
+      },
+      "overallAdmissionSuitability": {
+        "decision": "PASS",
+        "note": ""
+      }
+    },
+    "notes": "",
+    "timestamp": "2026-10-25T08:47:48.353Z",
+    "status": "reviewed_pass"
+  },
+  "eventHash": "45bcc7910625466227feba8910fd391e630b60638c9acb278bbd6eedfe96af4c"
+}

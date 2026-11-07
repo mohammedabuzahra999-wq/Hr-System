@@ -1,0 +1,13 @@
+{
+  "id": "browser4",
+  "protection": "real Chrome Phase 3 lifecycle + Phase 4 HR report cases",
+  "command": "npm.cmd run check:ai-interviewer:report:browser -w @hr/server",
+  "startedAt": "2026-11-03T11:28:06.918Z",
+  "finishedAt": "2026-11-03T11:29:28.298Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 2,
+  "outputLog": "browser4.log",
+  "passLines": 58
+}

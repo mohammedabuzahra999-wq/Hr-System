@@ -1,0 +1,21 @@
+{
+  "status": "FAIL",
+  "passed": 0,
+  "failed": 1,
+  "checks": [
+    {
+      "name": "HR login and recruitment AI controls use the existing employee workflow",
+      "result": "FAIL"
+    }
+  ],
+  "screenshots": [],
+  "candidateExternalRequestsCompleted": null,
+  "candidateExternalRequestsBlocked": null,
+  "hrThirdPartyFontsBlocked": 2,
+  "applicationWebSocketServerAdded": false,
+  "realMicrophone": false,
+  "nativeHtmlAudio": true,
+  "syntheticTts": true,
+  "realAiCalls": 0,
+  "screenshotPolicy": "Not persisted: baseline contains no credential-bearing images"
+}

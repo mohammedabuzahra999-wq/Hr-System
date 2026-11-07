@@ -1,0 +1,18 @@
+{
+  "recordedAtUtc": "2026-11-03T09:53:48.208Z",
+  "packages": [
+    {
+      "name": "phase-5.1-baseline",
+      "manifestSHA256": "3b01f58e0cddec15899ec91651fe6486c5b232b01c09af5168597014b451de67",
+      "fileCount": 96,
+      "changed": []
+    },
+    {
+      "name": "phase-5.2",
+      "manifestSHA256": "c5d85704933ccba6e5b804c5d4a7caf613a2d39daf8ad2f2fe7c537a0f146342",
+      "fileCount": 394,
+      "changed": []
+    }
+  ],
+  "sourceMatchesAccepted": true
+}

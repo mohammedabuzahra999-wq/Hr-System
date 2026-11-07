@@ -1,0 +1,98 @@
+{
+  "created": [
+    {
+      "path": "services/hr-api/src/aiInterviewer/execution.check.ts",
+      "bytes": 6339,
+      "sha256": "71c30a7f7420cf18695d8dd6726c0eaf210cfe8c0054cee51a794f61a0a61ece"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/execution.ts",
+      "bytes": 3730,
+      "sha256": "4560d4768aae51311fbb474f486beab4c31c124aa04cee16438b358d09ab4657"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/runtime.check.ts",
+      "bytes": 30198,
+      "sha256": "c51d7bf383da73d7d305c63dac6439e0d3a6ee1a32d8dfbecd68ea7cc2990889"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/runtimeTestSupport.ts",
+      "bytes": 970,
+      "sha256": "bffbaa870930605fe0fe8860da1506b594abe7a9a5e5756215716bfcbd718eec"
+    }
+  ],
+  "modified": [
+    {
+      "path": "packages/contracts/src/aiInterviewReport.ts",
+      "bytes": 5061,
+      "sha256": "f3e3295f8f6564f8ba48908efef409afd91035b4bbe6b8ff73fce8f93ee72554",
+      "beforeSHA256": "35cc99acf419d8994c862c9044ef6ad525b4d6bb6d85550cbea9bfd3f0a8468a"
+    },
+    {
+      "path": "services/hr-api/package.json",
+      "bytes": 5904,
+      "sha256": "9b403416a90c5900acabb0bb88e3fa3451fe6579d1ee15ba56bdb030be76dd9b",
+      "beforeSHA256": "689676d9c7af9f8e0dccb3463293d6d5c48db0e978f969400b519b3830696c52"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/audit.ts",
+      "bytes": 1162,
+      "sha256": "a7ef113b219fc6e53365acc979eb7356bb30d6664eadafb953716e29697ea1a7",
+      "beforeSHA256": "805f8b24177b751a43c324e2813d45d2a6dc9f9b100a731813716a6e6c5917c8"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/report.ts",
+      "bytes": 10176,
+      "sha256": "76602bd26618f1fbb5eee08874ee287aa91a857f5ab10b04ea612d56b7b1db22",
+      "beforeSHA256": "98b9a921f7174df8f04505eef71ca012af7fa50920247459d53e141ffd80fc1e"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/reportService.ts",
+      "bytes": 20311,
+      "sha256": "d9f9882bdac43073f3f45b9bc6c44544ff36e7bd6205248318aec21b053e96bd",
+      "beforeSHA256": "524bc2de88669242efdad4b57de15478ea4d83a12b938aff994c8d04bd107c15"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/runtime.ts",
+      "bytes": 5670,
+      "sha256": "b6a188a54ad79cb28bef3b1c94984a5e2288174b9dfdb9c96d6e3e2dc2801193",
+      "beforeSHA256": "b4f6d282e3919edbf5fb9cf2cab4301483d32eff54f38bfb5dabd2ba7a4584d9"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/service.ts",
+      "bytes": 30357,
+      "sha256": "7a959ffad24b761087493b1fa2eb99d3beeeb1fa3af459011961c75afbbca2c0",
+      "beforeSHA256": "71cc6246f6261c83521c86d0dda460e66da2df2ce92cc5b75dcdf728450a12b6"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/ui.fixture.ts",
+      "bytes": 16740,
+      "sha256": "cf57e0423e5ff2828ec4c62ab165bbe0181a7bed8ed5a98b4dd4a32645554214",
+      "beforeSHA256": "d1534698b43f82493f1e8a42164499d9488a8c9a3364bb969c55bc7009995480"
+    },
+    {
+      "path": "services/hr-api/src/index.ts",
+      "bytes": 8961,
+      "sha256": "978495b7dc3dca7c89186cf1ba81c144c0b9aea1d8502166575fd90c379f0321",
+      "beforeSHA256": "85ababc6b380ab24a6df2b6a2687c4351743c41e1d1b9a6601ccc08a0dd3a384"
+    }
+  ],
+  "deleted": [],
+  "unexpected": [],
+  "expectedButUnchanged": [],
+  "purposes": {
+    "packages/contracts/src/aiInterviewReport.ts": "Optional backward-compatible persisted attempt owner/token/deadline/hash fields.",
+    "services/hr-api/package.json": "Two additive local check commands; no dependency changes.",
+    "services/hr-api/src/aiInterviewer/audit.ts": "Safe attempt/timeout/recovery audit metadata and system source.",
+    "services/hr-api/src/aiInterviewer/execution.ts": "30-second asynchronous bound, cancellation, two physical slots, late-settlement consumption.",
+    "services/hr-api/src/aiInterviewer/execution.check.ts": "14 offline execution-bound checks.",
+    "services/hr-api/src/aiInterviewer/report.ts": "Optional AbortSignal context for the existing evaluator interface.",
+    "services/hr-api/src/aiInterviewer/reportService.ts": "Bounded attempts, durable owner/token/deadline fencing, claim-hash and retry anchors.",
+    "services/hr-api/src/aiInterviewer/runtime.ts": "Independent timer/job passes, bounded dispatch and graceful drain.",
+    "services/hr-api/src/aiInterviewer/runtime.check.ts": "30 real disposable-PostgreSQL fairness/restart/failure/integrity checks.",
+    "services/hr-api/src/aiInterviewer/runtimeTestSupport.ts": "Deterministic scheduler/deferred test helpers.",
+    "services/hr-api/src/aiInterviewer/service.ts": "Transactional start/completed audit around existing restart recovery.",
+    "services/hr-api/src/aiInterviewer/ui.fixture.ts": "Await asynchronous maintenance shutdown before closing the test database; assertions unchanged.",
+    "services/hr-api/src/index.ts": "Await maintenance drain before database shutdown."
+  }
+}

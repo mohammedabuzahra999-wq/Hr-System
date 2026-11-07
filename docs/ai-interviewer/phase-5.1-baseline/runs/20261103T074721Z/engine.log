@@ -1,0 +1,39 @@
+PASS 01 happy path completes with follow-up, clarification, closing and separate report
+PASS 02 illegal transition is rejected atomically
+PASS 03 answer clock starts only after question playback finishes
+PASS 04 warning occurs at 30 seconds remaining, once per answer
+PASS 05 silent candidate reaches ANSWER_TIMEOUT at the exact deadline
+PASS 06 timeout with no evidence never invents a zero score
+PASS 07 already active speaker receives exactly the configured grace
+PASS 08 grace expires at its boundary and finalizes available partial evidence safely
+PASS 09 follow-up starts its own followUpTimeLimitSec timer
+PASS 10 maxFollowUps is enforced against a greedy policy
+PASS 11 maxClarifications is enforced even when policy keeps requesting one
+PASS 12 pause stores 80 seconds after 40 seconds used
+PASS 13 resume sets a new deadline using the frozen duration
+PASS 14 long provider disconnect consumes no paused answer time
+PASS 15 command idempotency never repeats events, effects or state changes
+PASS 16 barge-in stops delivery and records that the full question was not heard
+PASS 17 completed interview rejects new answers
+PASS 18 cancelled interview rejects continuation
+PASS 19 failed interview resumes only when explicitly recoverable
+PASS 20 mock provider simulates every required observation with no network
+PASS 21 evaluator returns five structured dimensions with exact matching evidence
+PASS 22 policy cannot invent unapproved prompts or skip required base questions
+PASS 23 zero grace and late ticks cannot extend the answer budget
+PASS 24 late speech cannot obtain grace and an overdue pause is refused
+PASS 25 silence clarification has a fresh explicit timer and cannot loop forever
+PASS 26 pause during grace freezes only the remaining grace, without renewing it
+PASS 27 reconnect during playback replays it with a new id and no premature timer
+PASS 28 final transcript may arrive after speech-finished; partial text is not submitted early
+PASS 29 timeout, reconnect metadata and uncertainty never cause automatic score deductions
+PASS 30 resumed speech waits for its current final transcript and retains the latest available evidence
+PASS 31 fabricated evidence and mismatched turn references are rejected
+PASS 32 contracts reject malformed plans, duplicate ids and unreasonable limits
+PASS 33 snapshots, plans and returned events cannot mutate engine state
+PASS 34 event trace is deterministic, typed, ordered, and excludes answer text
+PASS 35 provider timeout pauses without completing or failing the interview
+PASS 36 barge-in can be disabled by the plan
+PASS 37 full import, harness, policy and evaluator suite attempted zero network operations
+
+37/37 Phase 1 checks passed; network attempts=0

@@ -1,0 +1,10 @@
+{
+  "created": "2026-10-25T09:39:30.842Z",
+  "status": "FAIL_CLOSED_BEFORE_SELECTION_READ",
+  "reason": "Windows added profile/PATH variables to the explicitly minimal child environment; strict environment-key assertion rejected them",
+  "valuesLogged": false,
+  "secretsLogged": false,
+  "modelCalls": 0,
+  "frozenCasesExecuted": 0,
+  "correction": "New readiness-only preload removes all non-allowlisted environment keys before entry point"
+}

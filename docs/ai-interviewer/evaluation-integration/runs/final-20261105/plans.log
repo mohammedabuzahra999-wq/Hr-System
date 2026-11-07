@@ -1,0 +1,212 @@
+PASS: deterministic: valid plan passes
+PASS: deterministic: malformed plan fails Zod
+PASS: deterministic: incompatible calendar fields fail
+PASS: phrasebook: valid plan passes
+PASS: phrasebook: malformed plan fails Zod
+PASS: phrasebook: incompatible calendar fields fail
+PASS: training: valid plan passes
+PASS: training: malformed plan fails Zod
+PASS: training: incompatible calendar fields fail
+PASS: model: valid plan passes
+PASS: model: malformed plan fails Zod
+PASS: model: incompatible calendar fields fail
+PASS: semantic rule: period/month
+PASS: semantic rule: period/year
+PASS: semantic rule: payrollTopic
+PASS: semantic rule: rankBy
+PASS: semantic rule: reportType
+PASS: semantic rule: refusalReason
+PASS: semantic rule: intent/personName
+PASS: semantic rule: intent/employeeNumber
+PASS: semantic rule: intent/reportType
+PASS: null rank preserves existing executor default
+PASS: null payroll topic preserves existing summary default
+PASS: missing employee identifier preserves existing missing-data flow
+PASS: local refusal can retain its original parameters
+PASS: validation failure metadata contains no employee values
+PASS: real resolver validates local candidate
+PASS: real resolver rejects malformed local candidate
+PASS: OpenAI contract: real resolver validates model candidate
+PASS: OpenAI contract: malformed model candidate rejected
+PASS: OpenAI contract: semantic model failure rejected
+PASS: Ollama contract: real resolver validates model candidate
+PASS: Ollama contract: malformed model candidate rejected
+PASS: Ollama contract: semantic model failure rejected
+[copilot] plan validation { routingSource: 'deterministic', status: 'valid' }
+PASS: HTTP deterministic: valid candidate reaches existing executor
+[copilot] plan validation {
+  routingSource: 'deterministic',
+  status: 'schema',
+  issues: [ 'invalid_plan_shape' ]
+}
+PASS: HTTP deterministic: malformed candidate refused
+[copilot] plan validation { routingSource: 'phrasebook', status: 'valid' }
+PASS: HTTP phrasebook: valid candidate reaches existing executor
+[copilot] plan validation {
+  routingSource: 'phrasebook',
+  status: 'schema',
+  issues: [ 'invalid_plan_shape' ]
+}
+PASS: HTTP phrasebook: malformed candidate refused
+[copilot] plan validation { routingSource: 'training', status: 'valid' }
+PASS: HTTP training: valid candidate reaches existing executor
+[copilot] plan validation {
+  routingSource: 'training',
+  status: 'schema',
+  issues: [ 'invalid_plan_shape' ]
+}
+PASS: HTTP training: malformed candidate refused
+[copilot] plan validation { routingSource: 'model', status: 'valid' }
+PASS: HTTP model: valid candidate reaches existing executor
+[copilot] plan validation {
+  routingSource: 'model',
+  status: 'schema',
+  issues: [ 'invalid_plan_shape' ]
+}
+PASS: HTTP model: malformed candidate refused
+[copilot] plan validation {
+  routingSource: 'model',
+  status: 'semantic',
+  issues: [ 'calendar_fields_without_calendar_period' ]
+}
+PASS: HTTP semantic failure stops before execution
+PASS: invalid candidate cannot reach data executor
+[copilot] plan validation {
+  routingSource: 'model',
+  status: 'schema',
+  issues: [ 'invalid_plan_shape' ]
+}
+PASS: HTTP invalid context-derived plan is revalidated before execution
+[copilot] plan validation {
+  routingSource: 'model',
+  status: 'semantic',
+  issues: [ 'invalid_plan' ]
+}
+PASS: resolver validation failure cannot bypass the boundary through another service
+[copilot] plan validation { routingSource: 'model', status: 'valid' }
+PASS: HTTP valid contextual payroll period preserves existing execution
+[copilot] plan validation { routingSource: 'deterministic', status: 'valid' }
+[copilot] employee was routed to employeeFile and refused
+PASS: HTTP deterministic: employee cannot bypass employeeFile RBAC
+[copilot] plan validation { routingSource: 'deterministic', status: 'valid' }
+[copilot] employee was routed to payrollInsights and refused
+PASS: HTTP deterministic: employee cannot bypass payrollInsights RBAC
+[copilot] plan validation { routingSource: 'phrasebook', status: 'valid' }
+[copilot] employee was routed to employeeFile and refused
+PASS: HTTP phrasebook: employee cannot bypass employeeFile RBAC
+[copilot] plan validation { routingSource: 'phrasebook', status: 'valid' }
+[copilot] employee was routed to payrollInsights and refused
+PASS: HTTP phrasebook: employee cannot bypass payrollInsights RBAC
+[copilot] plan validation { routingSource: 'training', status: 'valid' }
+[copilot] employee was routed to employeeFile and refused
+PASS: HTTP training: employee cannot bypass employeeFile RBAC
+[copilot] plan validation { routingSource: 'training', status: 'valid' }
+[copilot] employee was routed to payrollInsights and refused
+PASS: HTTP training: employee cannot bypass payrollInsights RBAC
+[copilot] plan validation { routingSource: 'model', status: 'valid' }
+[copilot] employee was routed to employeeFile and refused
+PASS: HTTP model: employee cannot bypass employeeFile RBAC
+[copilot] plan validation { routingSource: 'model', status: 'valid' }
+[copilot] employee was routed to payrollInsights and refused
+PASS: HTTP model: employee cannot bypass payrollInsights RBAC
+[copilot] plan validation { routingSource: 'model', status: 'valid' }
+[copilot] manager was routed to payrollInsights and refused
+PASS: HTTP manager cannot access company payroll
+[copilot] plan validation { routingSource: 'deterministic', status: 'valid' }
+PASS: HTTP deterministic: authorised manager employee-file plan reaches scoped service
+[copilot] plan validation { routingSource: 'deterministic', status: 'valid' }
+PASS: HTTP deterministic: authorised hr employee-file plan reaches scoped service
+[copilot] plan validation { routingSource: 'deterministic', status: 'valid' }
+PASS: HTTP deterministic: authorised admin employee-file plan reaches scoped service
+[copilot] plan validation { routingSource: 'phrasebook', status: 'valid' }
+PASS: HTTP phrasebook: authorised manager employee-file plan reaches scoped service
+[copilot] plan validation { routingSource: 'phrasebook', status: 'valid' }
+PASS: HTTP phrasebook: authorised hr employee-file plan reaches scoped service
+[copilot] plan validation { routingSource: 'phrasebook', status: 'valid' }
+PASS: HTTP phrasebook: authorised admin employee-file plan reaches scoped service
+[copilot] plan validation { routingSource: 'training', status: 'valid' }
+PASS: HTTP training: authorised manager employee-file plan reaches scoped service
+[copilot] plan validation { routingSource: 'training', status: 'valid' }
+PASS: HTTP training: authorised hr employee-file plan reaches scoped service
+[copilot] plan validation { routingSource: 'training', status: 'valid' }
+PASS: HTTP training: authorised admin employee-file plan reaches scoped service
+[copilot] plan validation { routingSource: 'model', status: 'valid' }
+PASS: HTTP model: authorised manager employee-file plan reaches scoped service
+[copilot] plan validation { routingSource: 'model', status: 'valid' }
+PASS: HTTP model: authorised hr employee-file plan reaches scoped service
+[copilot] plan validation { routingSource: 'model', status: 'valid' }
+PASS: HTTP model: authorised admin employee-file plan reaches scoped service
+PASS: hr: permission registry unchanged
+[copilot] plan validation { routingSource: 'model', status: 'valid' }
+PASS: HTTP hr: authorised payroll still executes
+PASS: admin: permission registry unchanged
+[copilot] plan validation { routingSource: 'model', status: 'valid' }
+PASS: HTTP admin: authorised payroll still executes
+PASS: real employee-file service rejects a manager outside-team target before reading records/pay
+PASS: real employee payroll service denies manager pay access
+PASS: real action service still creates a proposal
+[copilot] plan validation { routingSource: 'deterministic', status: 'valid' }
+PASS: HTTP deterministic action still requires confirmation
+[copilot] plan validation { routingSource: 'phrasebook', status: 'valid' }
+PASS: HTTP phrasebook action still requires confirmation
+[copilot] plan validation { routingSource: 'training', status: 'valid' }
+PASS: HTTP training action still requires confirmation
+[copilot] plan validation { routingSource: 'model', status: 'valid' }
+PASS: HTTP model action still requires confirmation
+[copilot] plan validation { routingSource: 'model', status: 'valid' }
+[copilot] plan validation { routingSource: 'model', status: 'valid' }
+PASS: existing unclear-instruction retry clears obsolete refusal and still requires confirmation
+PASS: real action executor independently denies unauthorised payroll
+[copilot] plan validation {
+  routingSource: 'deterministic',
+  routingRule: 'self_attendance',
+  status: 'valid'
+}
+PASS: HTTP strict read outranks stale phrasebook mapping
+[copilot] plan validation { routingSource: 'phrasebook', status: 'valid' }
+PASS: HTTP abstention bypasses phrasebook shortcuts and reaches model resolver
+[copilot] plan validation { routingSource: 'phrasebook', status: 'valid' }
+PASS: HTTP abstention bypasses phrasebook shortcuts and reaches model resolver
+[copilot] plan validation { routingSource: 'phrasebook', status: 'valid' }
+PASS: HTTP abstention bypasses phrasebook shortcuts and reaches model resolver
+[copilot] plan validation {
+  routingSource: 'deterministic',
+  routingRule: 'self_attendance',
+  status: 'valid'
+}
+PASS: HTTP strict read outranks stale training mapping
+[copilot] plan validation { routingSource: 'training', status: 'valid' }
+PASS: HTTP abstention bypasses training shortcuts and reaches model resolver
+[copilot] plan validation { routingSource: 'training', status: 'valid' }
+PASS: HTTP abstention bypasses training shortcuts and reaches model resolver
+[copilot] plan validation { routingSource: 'training', status: 'valid' }
+PASS: HTTP abstention bypasses training shortcuts and reaches model resolver
+[copilot] plan validation {
+  routingSource: 'deterministic',
+  routingRule: 'employee_payroll',
+  status: 'valid'
+}
+PASS: HTTP new named-payroll rule cannot bypass employee RBAC
+[copilot] plan validation {
+  routingSource: 'deterministic',
+  routingRule: 'team_present_now',
+  status: 'valid'
+}
+PASS: HTTP own-team application presence outranks stale training without model execution
+[copilot] plan validation {
+  routingSource: 'deterministic',
+  routingRule: 'team_present_now',
+  status: 'valid'
+}
+PASS: HTTP team presence retains RBAC
+[copilot] plan validation {
+  routingSource: 'deterministic',
+  routingRule: 'maintained_help',
+  status: 'valid'
+}
+PASS: HTTP maintained instructional help outranks action training without executing actions
+[copilot] plan validation { routingSource: 'training', status: 'valid' }
+PASS: HTTP uncertain presence/help bypasses stale training
+[copilot] plan validation { routingSource: 'training', status: 'valid' }
+PASS: HTTP uncertain presence/help bypasses stale training
+PASS: 95 shared-plan, resolver, HTTP, RBAC, scope and confirmation checks; zero real model/DB calls

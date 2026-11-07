@@ -1,0 +1,14 @@
+{
+  "id": "tts-closing",
+  "protection": "TTS intro/question/closing and existing answer/report integrity",
+  "command": "node --conditions=development --import tsx docs/ai-interviewer/tts-playback/closing.check.ts",
+  "cwd": "",
+  "actualExecutable": "node",
+  "actualArguments": [
+    "--conditions=development",
+    "--import",
+    "tsx",
+    "docs/ai-interviewer/tts-playback/closing.check.ts"
+  ],
+  "allowedLoopbackPorts": "55442"
+}

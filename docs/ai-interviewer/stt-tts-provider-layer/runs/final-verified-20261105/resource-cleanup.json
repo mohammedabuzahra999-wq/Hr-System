@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "startedAtUtc": "2026-11-05T07:05:44.227Z",
+  "commands": [
+    {
+      "command": "node docs/ai-interviewer/stt-tts-provider-layer/run.mjs final-20261105 cleanup",
+      "exitCode": 0
+    },
+    {
+      "command": "node docs/ai-interviewer/stt-tts-provider-layer/run.mjs development-1 cleanup",
+      "exitCode": 0
+    },
+    {
+      "command": "node docs/ai-interviewer/stt-tts-provider-layer/run.mjs development-2 cleanup",
+      "exitCode": 0
+    },
+    {
+      "command": "node docs/ai-interviewer/stt-tts-provider-layer/run.mjs final-verified-20261105 cleanup",
+      "exitCode": 0
+    },
+    {
+      "command": "node docs/ai-interviewer/stt-tts-provider-layer/run.mjs post-build-verified-20261105 cleanup",
+      "exitCode": 0
+    },
+    {
+      "command": "node docs/ai-interviewer/stt-tts-provider-layer/run.mjs browser-recheck-20261105 cleanup",
+      "exitCode": 0
+    },
+    {
+      "command": ".local-dev/ai-interviewer-postgres/pgsql/bin/pg_ctl.exe -D .local-dev/ai-interviewer-postgres/data -m fast -w -t 15 stop",
+      "exitCode": 0
+    },
+    {
+      "command": ".local-dev/ai-interviewer-postgres/pgsql/bin/pg_ctl.exe -D .local-dev/ai-interviewer-postgres/data status",
+      "exitCode": 3,
+      "expectedExitCode": 3
+    }
+  ],
+  "removedProfiles": [
+    "final-20261105",
+    "development-1",
+    "development-2",
+    "final-verified-20261105",
+    "post-build-verified-20261105",
+    "browser-recheck-20261105"
+  ],
+  "databasePolicy": "Read-only resource inspection; no database dropped during finalization",
+  "activeOtherClientSessions": 0,
+  "speechlayerDisposableDatabasesRemaining": 0,
+  "localTestClusterStopped": true,
+  "temporaryRunDirectoriesRemaining": 0,
+  "finishedAtUtc": "2026-11-05T07:05:45.671Z"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "plans",
+  "protection": "HTTP/shared plans/RBAC/scope/confirmation",
+  "command": "npm.cmd run check:plans -w @hr/server",
+  "startedAt": "2026-11-05T09:08:27.195Z",
+  "finishedAt": "2026-11-05T09:08:32.009Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "plans.log",
+  "passLines": 96
+}

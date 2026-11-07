@@ -1,0 +1,172 @@
+{
+  "checkedAt": "2026-10-26T12:44:27.513Z",
+  "upstreamRepository": "Qwen/Qwen3-4B-Thinking-2507",
+  "upstreamRevision": "768f209d9ea81521153ed38c47d515654e938aea",
+  "tokenizerClass": "Qwen2Tokenizer",
+  "tokenizerAlgorithm": "BPE",
+  "runtimePretokenizer": "qwen2",
+  "allChecksPass": true,
+  "checks": [
+    {
+      "name": "Downloaded tokenizer matches publisher LFS SHA-256",
+      "pass": true,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    {
+      "name": "All base vocabulary token IDs and strings match",
+      "pass": true,
+      "compared": 151643,
+      "mismatchedIds": []
+    },
+    {
+      "name": "All added token IDs and strings match",
+      "pass": true,
+      "compared": 26,
+      "mismatchedIds": []
+    },
+    {
+      "name": "GGUF padding is unused vocabulary capacity",
+      "pass": true,
+      "realTokenCount": 151669,
+      "ggufVocabularySize": 151936,
+      "dummyPaddingCount": 267,
+      "mismatchedIds": []
+    },
+    {
+      "name": "All ordered BPE merge rules match",
+      "pass": true,
+      "compared": 151387,
+      "mismatchedIndices": []
+    },
+    {
+      "name": "Embedded GGUF Jinja template matches upstream tokenizer template byte-for-byte",
+      "pass": true,
+      "upstreamSha256": "3802169b2a02b81e6adb7ab4f64f91ff02db753c8c3a64a01c35192d3a61d8d7",
+      "embeddedSha256": "3802169b2a02b81e6adb7ab4f64f91ff02db753c8c3a64a01c35192d3a61d8d7"
+    },
+    {
+      "name": "EOS token and ID match",
+      "pass": true,
+      "eosToken": "<|im_end|>",
+      "eosTokenId": 151645
+    },
+    {
+      "name": "Padding token and ID match",
+      "pass": true,
+      "padToken": "<|endoftext|>",
+      "padTokenId": 151643
+    },
+    {
+      "name": "Automatic BOS setting matches",
+      "pass": true,
+      "addBosToken": false
+    },
+    {
+      "name": "Architecture/config: architecture",
+      "pass": true,
+      "local": "qwen3",
+      "published": "qwen3"
+    },
+    {
+      "name": "Architecture/config: parameter count",
+      "pass": true,
+      "local": 4022468096,
+      "published": 4022468096
+    },
+    {
+      "name": "Architecture/config: context capacity",
+      "pass": true,
+      "local": 262144,
+      "published": 262144
+    },
+    {
+      "name": "Architecture/config: embedding length",
+      "pass": true,
+      "local": 2560,
+      "published": 2560
+    },
+    {
+      "name": "Architecture/config: layer count",
+      "pass": true,
+      "local": 36,
+      "published": 36
+    },
+    {
+      "name": "Architecture/config: attention heads",
+      "pass": true,
+      "local": 32,
+      "published": 32
+    },
+    {
+      "name": "Architecture/config: KV heads",
+      "pass": true,
+      "local": 8,
+      "published": 8
+    },
+    {
+      "name": "Architecture/config: head dimension",
+      "pass": true,
+      "local": 128,
+      "published": 128
+    },
+    {
+      "name": "Architecture/config: feed-forward length",
+      "pass": true,
+      "local": 9728,
+      "published": 9728
+    },
+    {
+      "name": "Architecture/config: RoPE theta",
+      "pass": true,
+      "local": 5000000,
+      "published": 5000000
+    },
+    {
+      "name": "Official registry byte match: ollama-alias-manifest.json",
+      "pass": true,
+      "sha256": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7"
+    },
+    {
+      "name": "Official registry byte match: ollama-release-manifest.json",
+      "pass": true,
+      "sha256": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7"
+    },
+    {
+      "name": "Retrieved upstream file content matches immutable Hub ID: LICENSE",
+      "pass": true
+    },
+    {
+      "name": "Retrieved upstream file content matches immutable Hub ID: README.md",
+      "pass": true
+    },
+    {
+      "name": "Retrieved upstream file content matches immutable Hub ID: config.json",
+      "pass": true
+    },
+    {
+      "name": "Retrieved upstream file content matches immutable Hub ID: generation_config.json",
+      "pass": true
+    },
+    {
+      "name": "Retrieved upstream file content matches immutable Hub ID: merges.txt",
+      "pass": true
+    },
+    {
+      "name": "Retrieved upstream file content matches immutable Hub ID: model.safetensors.index.json",
+      "pass": true
+    },
+    {
+      "name": "Retrieved upstream file content matches immutable Hub ID: tokenizer.json",
+      "pass": true
+    },
+    {
+      "name": "Retrieved upstream file content matches immutable Hub ID: tokenizer_config.json",
+      "pass": true
+    },
+    {
+      "name": "Retrieved upstream file content matches immutable Hub ID: vocab.json",
+      "pass": true
+    }
+  ],
+  "qualification": "Tokenizer/config equality verifies compatibility, not weight ancestry. Ollama uses a separate Go template, captured as before-template.txt, rather than executing the embedded Jinja template."
+}

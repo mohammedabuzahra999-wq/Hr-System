@@ -1,0 +1,13 @@
+{
+  "id": "audio-browser",
+  "protection": "Native Chrome synthetic microphone/capture/upload/IndexedDB/refresh/retry/privacy",
+  "command": "node scripts/checkCandidateAudioBrowser.mjs",
+  "startedAt": "2026-11-05T11:43:02.869Z",
+  "finishedAt": "2026-11-05T11:43:59.247Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 2,
+  "outputLog": "audio-browser.log",
+  "passLines": 28
+}

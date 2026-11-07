@@ -1,0 +1,208 @@
+{
+  "version": "CEB-MODEL-RUN-1.0.0",
+  "created": "2026-10-25T09:36:45.374Z",
+  "purpose": "Controlled question-plan base-model selection; no service execution",
+  "phase1D0ExecutionAllowed": false,
+  "pinnedFiles": {
+    "source-lock.json": "2fadb0048a8879231e946e642f80f6e7deb5b2d9a67f5fafa07c94cee061f8ea",
+    "scorer.mjs": "88cf667747b5f32f6064ec5b7a0e3195efe13096b9b22a9e36cdea00dfbdd047",
+    "scorer-selftest-results.json": "aa627c93d60a363bdfa6d2a68de8e19d9941e39d057d29f49b0740d49db0ab53",
+    "scoring-specification.json": "58e0baf6d0c0297316ed21e0f1db0af0a85c7c30091781f1950f5edd040aafd2",
+    "partition.mjs": "95fa5f0c23fa84a272373dbff01f99f72f19dba112c330fe3a23dcbf6f3b6adc",
+    "selection-partition.json": "61ab11c27038a6a54bd9aea1d106af05b88746e762b4b128ae0625c6a01360ad",
+    "rendered-model-requests.json": "263e015ee8a45d1f6b7ded81ddb735aa44ad3107a3897141d1ee6fe8d50826a6",
+    "resolver-capsule.mjs": "aeffed8766545a4a5b9dd2290084658b27f209abe7d0f62af773bc92813662b4",
+    "run-offline.mjs": "b12cac5c10205cec01a77172a73842ce37b117d963ba3d68d94dd2622518ea9a",
+    "execution-contract.mjs": "bc5142b88ec54f34ee90bff9c3dcc8fe8e2e5e76cc18759aa1df6f4eee2cc614",
+    "candidate-policy.md": "c631c44c737889e4fcbd83ac2d8add2881f12c74417456c92c52c9c80f7830a1",
+    "metrics-and-winner-rules.md": "4139e73e71990221497390c09fce5fc1c55d8678fd322e81d53e53ad28d422b8",
+    "environment-capture.json": "d1854773c5fbd42ac91fbabbd1d5a58db9827337ac74624ecbdfc71e31f93a46",
+    "readiness-guard.mjs": "3cbe5ccbe9bbefaa8384b263f597de59ac98b51dd093dc093289622c68051610"
+  },
+  "runtimeSha256": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736",
+  "selectionSha256": "09cd5561686fd77d24f78a9f6036947425d9fc7973652b8b808c9ea907da5986",
+  "partitionSha256": "61ab11c27038a6a54bd9aea1d106af05b88746e762b4b128ae0625c6a01360ad",
+  "eligibleCases": 136,
+  "controlCases": 24,
+  "prompt": {
+    "version": "2026-10-11.1",
+    "source": "server/src/copilot/resolve.ts",
+    "sourceSha256": "830292e0d09a9da626fbf83bd9a2e62d8edf687eb678c2667aabc3f97d20c90a",
+    "messages": "Exact per-case role-specific production formatter capture in rendered-model-requests.json; identical shared messages for all candidates on each case",
+    "referenceRetrieval": "Admitted R-v1.1 only; role-filtered; deterministic ordering; unadmitted maintained example arrays excluded",
+    "userRepresentation": "wireProjection.inputText in the existing QUESTION data block; previousPlan=null; neutral /assistant context; no new HR prompt guidance",
+    "referenceDate": "2027-06-15T09:00:00.000Z",
+    "goldTargetsInModelInput": false
+  },
+  "output": {
+    "schema": "Captured existing {plan:CopilotPlan} input JSON schema; exact schema hashes per case",
+    "structuredField": "format",
+    "stream": false,
+    "modelSuppliedTerminalOutcomes": false,
+    "validation": "Existing Zod + validateCopilotPlan + CEB-SCORE-1 contracted diagnostics",
+    "malformedPolicy": "Record failure; no repair, extraction, defaults beyond existing Zod or retry"
+  },
+  "transport": {
+    "provider": "ollama",
+    "endpoint": "http://127.0.0.1:11434/api/chat",
+    "method": "POST",
+    "authentication": "NONE; production credentials excluded",
+    "redirects": "error",
+    "maxResponseBytes": 65536,
+    "networkPolicy": "Only exact loopback endpoint in a later reviewed transport; deny all other network/modules; no cloud/fallback"
+  },
+  "inference": {
+    "temperature": 0,
+    "topP": 1,
+    "seed": 42,
+    "seedSupport": "Required in this track; unsupported candidate is excluded, no silent option dropping",
+    "maxOutputTokens": 512,
+    "contextTokens": 8192,
+    "threads": 8,
+    "batchSize": 128,
+    "gpuLayers": 0,
+    "keepAlive": "30m",
+    "think": false,
+    "familyControl": "qwen3_non_thinking adds existing /no_think only after the common user block; other verified non-reasoning families receive no such suffix; record actual body hash"
+  },
+  "deadlines": {
+    "requestMs": 120000,
+    "parentMs": 150000,
+    "include": "load, prompt evaluation, generation and full response body",
+    "bodyReadDeadline": true,
+    "parentTermination": "Hard terminate request worker; interrupted attempt stays failed"
+  },
+  "retryPolicy": {
+    "automaticRetries": 0,
+    "providerFallback": false,
+    "parameterFallback": false,
+    "modelPulls": false
+  },
+  "latency": {
+    "clock": "performance.now()",
+    "start": "immediately before transport",
+    "end": "complete response body or terminal failure",
+    "ttft": "UNAVAILABLE_STREAM_FALSE",
+    "interruption": "Do not resume an old timed attempt; retain error/timeout and stop/re-authorize incomplete run"
+  },
+  "order": {
+    "concurrency": 1,
+    "candidateOrder": "lexicographic admitted candidateId, frozen before execution",
+    "caseOrder": "MODEL_ELIGIBLE entries in frozen S order",
+    "passes": 1,
+    "warmup": "One separate fixed generic structured status control; no S/F case or gold; report cold/warm duration separately",
+    "warmupPayload": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "Return a JSON object with status equal to ready."
+        }
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "ready"
+            ]
+          }
+        },
+        "required": [
+          "status"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "scoredFirstCase": "Retained; never discard an unfavorable scored load",
+    "repetitions": "No automatic rerun or best-of-N"
+  },
+  "candidateTrack": {
+    "maxCandidates": 3,
+    "maxParameterBillions": 4,
+    "runtime": "ollama",
+    "local": true,
+    "cloud": false,
+    "quantization": "Q4_K_M",
+    "status": "NO_CANDIDATE_YET_ADMITTED",
+    "qwen3_4b": "CANDIDATE_ONLY"
+  },
+  "candidateRunBinding": {
+    "requiredBeforeExecution": true,
+    "approvedCandidates": [],
+    "requiredFields": [
+      "candidateId",
+      "modelFamily",
+      "exactTag",
+      "parameterBillions",
+      "quantization",
+      "inferenceDigest",
+      "runtimeVersion",
+      "runtimeBinarySha256",
+      "trainableCheckpointRepository",
+      "trainableCheckpointRevision",
+      "checkpointManifestSha256",
+      "tokenizerSha256",
+      "templateSha256",
+      "licenseSpdx",
+      "licenseEvidenceSha256",
+      "adaptationMethod",
+      "adaptationEvidenceSha256",
+      "conversionRecipeSha256",
+      "generationPolicy",
+      "supportsSeed",
+      "supportsNativeJsonSchema",
+      "supportsCommonOptions",
+      "provenanceVerified",
+      "licenseVerified",
+      "adaptationVerified",
+      "local",
+      "cloud",
+      "status"
+    ],
+    "runManifestRequirements": [
+      "unique runId and UTC start",
+      "this run-contract hash",
+      "scorer and exact partition/assets/prompt/source hashes",
+      "each candidate identity plus evidence hashes",
+      "fresh provider version and binary digest",
+      "fresh CPU/RAM/free-memory/power/load and process constraints",
+      "fixed cold/warm/run order",
+      "native loopback-only transport safety attestation",
+      "declared immutable raw attempt/metrics output paths",
+      "no secret/config/data inheritance"
+    ],
+    "missingIdentityPolicy": "FAIL_CLOSED; a pinned contract is not an admitted candidate or populated executable run manifest"
+  },
+  "environmentRequirements": {
+    "cpu": "Same CPU-only Windows host and common thread/context/batch/GPU settings",
+    "capture": "Node, OS, arch, CPU model/count, total/free memory, runtime build/version, exact dependency lock, peak working set and available thermal/power conditions; never host/user/serial or secrets",
+    "timing": "Disable unrelated voice/model profiling; record background-load/power uncertainty; fresh per-candidate capture",
+    "versions": "Fresh Ollama /api/version and artifact metadata inspection later, no hidden generation; historical metadata insufficient"
+  },
+  "safety": {
+    "productionDb": "BLOCKED",
+    "productionMcp": "BLOCKED",
+    "productionRag": "BLOCKED",
+    "realWrites": "BLOCKED",
+    "historical10K": "EXCLUDED_NO_READ_PERMISSION",
+    "frozen404": "NOT_USED_NO_READ_PERMISSION",
+    "productionCredentials": "EXCLUDED",
+    "runtime": "EXACT_ADMITTED_R_ONLY",
+    "selectionGolds": "SCORER_SIDE_ONLY",
+    "execution": "PLANS_ONLY_NO_BUSINESS_ACTIONS",
+    "humanReviewPerformed": false,
+    "humanReviewRequired": false,
+    "admissionPolicy": "CEB-AUTO-ADMISSION-1"
+  },
+  "outputEvidence": {
+    "rawAttempts": "New run-specific append-only synthetic attempt files; no overwriting prior attempts",
+    "metrics": "Separate hash-bound CEB-SCORE-1 report; all error/timeout/missing denominators",
+    "bodyRecord": "Bounded raw synthetic model output, response/error code, monotonic duration, token usage and safe Ollama durations",
+    "seal": "Final output manifest after completion or abort; record incomplete run honestly"
+  },
+  "frozenCasesExecuted": 0,
+  "modelCalls": 0,
+  "fineTuningStarted": false,
+  "pinFinalizedAt": "2026-10-25T09:39:30.846Z"
+}

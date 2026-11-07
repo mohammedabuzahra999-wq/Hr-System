@@ -1,0 +1,56 @@
+{
+  "version": "CEB-client-DOM-contract-v1",
+  "createdAt": "2026-10-25T08:32:25.991Z",
+  "status": "PASS",
+  "checks": 10,
+  "passed": 10,
+  "results": [
+    {
+      "name": "actual-client-loads-full-480-index",
+      "status": "PASS"
+    },
+    {
+      "name": "all-15-decisions-start-blank-and-profile-is-required",
+      "status": "PASS"
+    },
+    {
+      "name": "English-input-direction-is-LTR",
+      "status": "PASS"
+    },
+    {
+      "name": "Arabic-filter-and-RTL-direction",
+      "status": "PASS"
+    },
+    {
+      "name": "asset-language-role-filter-intersection",
+      "status": "PASS"
+    },
+    {
+      "name": "global-jump-reaches-record-480-and-clears-filters",
+      "status": "PASS"
+    },
+    {
+      "name": "previous-navigation-uses-real-record-index",
+      "status": "PASS"
+    },
+    {
+      "name": "no-phantom-reviewed-rows-in-status-filter",
+      "status": "PASS"
+    },
+    {
+      "name": "all-record-details-render-as-text-not-HTML",
+      "status": "PASS"
+    },
+    {
+      "name": "real-workspace-remains-unreviewed-after-client-tests",
+      "status": "PASS"
+    }
+  ],
+  "method": "Actual public/app.js in VM with minimal DOM double and live GET-only localhost API; not browser rendering",
+  "browserRenderingVerified": false,
+  "localReads": 7,
+  "writeRequests": 0,
+  "realHumanDecisionsCreated": 0,
+  "externalCalls": 0,
+  "modelCalls": 0
+}

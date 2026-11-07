@@ -1,0 +1,10 @@
+PASS TTS intro completion selects the first frozen question without an answer timer
+PASS TTS question completion starts the authoritative listening timer
+PASS existing atomic answer path and mock decision progress into closing
+PASS TTS closing atomically completes interview and creates existing evaluation job
+[ai-interview] {"event":"evaluation_attempt_started","interviewId":"78bcc51e-0ce7-4fef-a6ed-44660ad94e5c","evaluationId":"577496a2-2057-40db-ba57-3a5aa4ba522e","reportVersion":1,"attempt":1}
+[ai-interview] {"event":"evaluation_attempt_completed","interviewId":"78bcc51e-0ce7-4fef-a6ed-44660ad94e5c","evaluationId":"577496a2-2057-40db-ba57-3a5aa4ba522e","reportVersion":1,"attempt":1}
+[ai-interview-operations] {"atUtc":"2026-11-05T12:17:56.461Z","event":"report_accessed","interviewId":"78bcc51e-0ce7-4fef-a6ed-44660ad94e5c","evaluationId":"577496a2-2057-40db-ba57-3a5aa4ba522e","actorId":"6a61e11b-925b-423c-8337-d2301f57a7a9","reportVersion":1}
+PASS unchanged mock report independently verifies TTS-completed answer/evidence integrity
+PASS zero real provider/model calls
+6/6 TTS closing/regression checks passed; external calls=0

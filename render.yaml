@@ -1,0 +1,41 @@
+# Render deployment, one service.
+#
+# The web app is served by the API rather than hosted separately: one URL, one
+# set of environment variables, and no cross-origin requests between the two
+# halves of the same product.
+#
+# The database is not here on purpose — it is already on Neon, reachable from
+# anywhere, and nothing about deploying this changes it.
+services:
+  - type: web
+    name: menaitech-hr
+    runtime: node
+    plan: free
+    # `npm ci` for a reproducible install, then every workspace in order:
+    # shared emits the JS both others import, the server compiles against it,
+    # and the web app builds last into the folder the server will serve.
+    buildCommand: npm ci && npm run build && npm run db:migrate
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      # Conservative socket identity until actual proxy peers are explicitly verified.
+      - key: CLIENT_ADDRESS_MODE
+        value: direct
+      - key: AI_INTERVIEW_PROVIDER_MODE
+        value: disabled
+      - key: AI_INTERVIEW_RUNTIME_OWNERS
+        value: "1"
+      - key: AI_INTERVIEW_DEV_MOCK
+        value: "false"
+      # Set these in the Render dashboard, never in this file — it is committed.
+      - key: DATABASE_URL
+        sync: false
+      - key: SESSION_SECRET
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      # Must match the service's own public URL exactly, with no trailing slash.
+      - key: WEB_ORIGIN
+        sync: false

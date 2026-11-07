@@ -1,0 +1,6 @@
+PASS FIFO admission across local STT/TTS; only one audio operation runs
+PASS engine failure releases the audio slot
+PASS bounded queue rejects excess work without submitting or retrying it
+PASS expired queued work is removed and never executed later
+PASS wait for previous worker activity polls metadata only; user request is submitted once
+PASS permanently busy worker has bounded admission wait and no hidden POST retry

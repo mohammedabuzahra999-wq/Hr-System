@@ -1,0 +1,219 @@
+{
+  "status": "PASS",
+  "passed": 51,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "HR login and recruitment AI controls use the existing employee workflow",
+      "result": "PASS"
+    },
+    {
+      "name": "HR configures explicit plan/timers and adds a third question",
+      "result": "PASS"
+    },
+    {
+      "name": "Create goes through the real Phase 2 transaction",
+      "result": "PASS"
+    },
+    {
+      "name": "HR freezes READY and operational UI displays no token hash",
+      "result": "PASS"
+    },
+    {
+      "name": "Invitation is copied once and cleared from the HR panel",
+      "result": "PASS"
+    },
+    {
+      "name": "Revocation is visible and the revoked browser invitation fails safely",
+      "result": "PASS"
+    },
+    {
+      "name": "Invalid invitation shows a safe standalone error",
+      "result": "PASS"
+    },
+    {
+      "name": "Expired invitation is rejected in the browser",
+      "result": "PASS"
+    },
+    {
+      "name": "Valid candidate exchange removes token from URL and browser storage",
+      "result": "PASS"
+    },
+    {
+      "name": "Backend refuses start before persisted consent",
+      "result": "PASS"
+    },
+    {
+      "name": "Consent persists across a browser refresh",
+      "result": "PASS"
+    },
+    {
+      "name": "Arabic RTL, English LTR and Mixed confirmation remain independent",
+      "result": "PASS"
+    },
+    {
+      "name": "Mock readiness requests no real microphone",
+      "result": "PASS"
+    },
+    {
+      "name": "Interview starts with AI_SPEAKING and the current question",
+      "result": "PASS"
+    },
+    {
+      "name": "Mock interruption is processed by the authoritative backend",
+      "result": "PASS"
+    },
+    {
+      "name": "Timer comes from backend and no future question/rubric/weight/evaluation/notes are exposed",
+      "result": "PASS"
+    },
+    {
+      "name": "RAG answer reaches PROCESSING without frontend decisions",
+      "result": "PASS"
+    },
+    {
+      "name": "Backend selects FOLLOW_UP",
+      "result": "PASS"
+    },
+    {
+      "name": "Incomplete answer selects CLARIFICATION",
+      "result": "PASS"
+    },
+    {
+      "name": "Stale version reconciles once instead of blindly retrying",
+      "result": "PASS"
+    },
+    {
+      "name": "Warning and grace are backend-authoritative",
+      "result": "PASS"
+    },
+    {
+      "name": "Next base question follows the clarification",
+      "result": "PASS"
+    },
+    {
+      "name": "Q3 refresh restores roughly 75 seconds without Q1 or duplicate answers",
+      "result": "PASS"
+    },
+    {
+      "name": "Pause freezes the backend remaining duration across five minutes",
+      "result": "PASS"
+    },
+    {
+      "name": "Explicit duplicate retry acknowledges the saved command",
+      "result": "PASS"
+    },
+    {
+      "name": "Resume uses the backend-restored deadline",
+      "result": "PASS"
+    },
+    {
+      "name": "Disconnect/reconnect preserves the same question and turn",
+      "result": "PASS"
+    },
+    {
+      "name": "Mock provider failure is recoverable through backend state",
+      "result": "PASS"
+    },
+    {
+      "name": "Mobile room has no horizontal overflow and remains keyboard-operable",
+      "result": "PASS"
+    },
+    {
+      "name": "Arabic interview room and mobile layout preserve RTL without restricting answers",
+      "result": "PASS"
+    },
+    {
+      "name": "A second interview is created through authorized backend operations",
+      "result": "PASS"
+    },
+    {
+      "name": "Candidate A cannot GET, command, replay or resume Interview B",
+      "result": "PASS"
+    },
+    {
+      "name": "Development bridge preserves candidate scope and rejects arbitrary commands",
+      "result": "PASS"
+    },
+    {
+      "name": "Production server policy refuses mock routes even with its flag set",
+      "result": "PASS"
+    },
+    {
+      "name": "Production UI build has no mock controls and cannot start mock delivery",
+      "result": "PASS"
+    },
+    {
+      "name": "Managers cannot access AI recruitment controls or create an interview",
+      "result": "PASS"
+    },
+    {
+      "name": "Admin retains existing recruitment permission and management controls",
+      "result": "PASS"
+    },
+    {
+      "name": "Happy path reaches closing and candidate completion",
+      "result": "PASS"
+    },
+    {
+      "name": "Completion has no score/hiring result and rejects new answers",
+      "result": "PASS"
+    },
+    {
+      "name": "HR sees COMPLETED and evaluation status without a Phase 4 report",
+      "result": "PASS"
+    },
+    {
+      "name": "Mock silence/timeout advances by backend policy without a fabricated zero score",
+      "result": "PASS"
+    },
+    {
+      "name": "Speaking through grace expiry finalizes TIME_LIMIT without frontend scoring",
+      "result": "PASS"
+    },
+    {
+      "name": "Expired candidate session clears the room and presents a safe message",
+      "result": "PASS"
+    },
+    {
+      "name": "Candidate uses no microphone, WebRTC, employee navigation or external resources",
+      "result": "PASS"
+    },
+    {
+      "name": "Phase 5.2: refresh before submit restores DRAFT and leaves zero durable answers",
+      "result": "PASS"
+    },
+    {
+      "name": "Phase 5.2: disconnect before request shows recovery and preserves frozen submission identity",
+      "result": "PASS"
+    },
+    {
+      "name": "Phase 5.2: reconnect plus refresh retries the identical envelope and confirms one commit",
+      "result": "PASS"
+    },
+    {
+      "name": "Phase 5.2: refresh after server commit but before original ACK recovers without another submit",
+      "result": "PASS"
+    },
+    {
+      "name": "Phase 5.2: real two-tab same answer different identities reconcile with one committed answer",
+      "result": "PASS"
+    },
+    {
+      "name": "Phase 5.2: real two-tab conflicting answers retain losing copy with one committed answer",
+      "result": "PASS"
+    },
+    {
+      "name": "Phase 5.2: storage failure is explicit and blocks sending an unrecoverable answer",
+      "result": "PASS"
+    }
+  ],
+  "screenshots": [],
+  "candidateExternalRequestsCompleted": 0,
+  "candidateExternalRequestsBlocked": 0,
+  "hrThirdPartyFontsBlocked": 2,
+  "applicationWebSocketServerAdded": false,
+  "realMicrophone": false,
+  "realAiCalls": 0,
+  "screenshotPolicy": "Not persisted: baseline contains no credential-bearing images"
+}

@@ -1,0 +1,28 @@
+{
+  "version": "CEB-remediation-v1.1",
+  "completed": "2026-10-25T07:49:49.228Z",
+  "inputHashes": {
+    "generation/remediate.mjs": "19ccbab95ac069e29576af7aaa4f81b81c7b8c3203cec6c96a98e10788a697f4",
+    "generation/replacement-catalog.json": "bfed0a8f9e16af0db0384af75df00397e53511b4df63ff99f56e1ac6ac691418",
+    "generation/remediation-plan.json": "bdd8624680628cefe1e3c0423228999503a92237d649093a8e0a54cb4ed13be7",
+    "validation/exclusion-selectors.json": "c97b64800c8d6f2626374ced1efb38199e7fd2f510ba9dc4a3a0c8d7fdcf2619",
+    "run-offline.mjs": "d0c0c1bf402f9f9cb1fe4e30edd2f1d38365d62c18d81564ac5091e4839a8735",
+    "../generation/offline-guard.mjs": "df0aa6c3f85876e36f5e702fa0141e2fc278d16be2039fecafb2d08ffe3015ac",
+    "../generation/contracts-v1.json": "935b62daa020e4244f762e396ec7fd4e2461b966d083d78a2a5e44a9af151642",
+    "../runtime-reference-v1.jsonl": "342503dd6c810136d8b5ede8dea96005e593a2ee623f849640fcfd357bb826de",
+    "../model-selection-v1.jsonl": "8d50c67b4daa388c9cadcd3e992e0aa8504a08534b1beb4bdc2a022ac62928c6"
+  },
+  "outputs": {
+    "runtime-reference-v1.1.jsonl": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736",
+    "model-selection-v1.1.jsonl": "09cd5561686fd77d24f78a9f6036947425d9fc7973652b8b808c9ea907da5986"
+  },
+  "counts": {
+    "runtime": 320,
+    "selection": 160
+  },
+  "runtimeChanged": 3,
+  "selectionRoleChanges": 72,
+  "seed": null,
+  "modelCalls": 0,
+  "frozenCasesExecuted": 0
+}

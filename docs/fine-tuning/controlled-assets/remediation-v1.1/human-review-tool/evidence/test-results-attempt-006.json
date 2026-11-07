@@ -1,0 +1,137 @@
+{
+  "version": "CEB-human-review-tool-tests-v1",
+  "createdAt": "2026-10-25T08:25:00.620Z",
+  "status": "PASS",
+  "checks": 30,
+  "passed": 30,
+  "results": [
+    {
+      "name": "read-only-subchecks",
+      "status": "PASS",
+      "checks": 23
+    },
+    {
+      "name": "real-480-load-native-write-denials-and-egress-guard",
+      "status": "PASS"
+    },
+    {
+      "name": "fixture-UI-serves-with-same-origin-CSP-and-no-external-scripts",
+      "status": "PASS"
+    },
+    {
+      "name": "fixture-starts-with-no-profile-decisions-or-progress",
+      "status": "PASS"
+    },
+    {
+      "name": "read-only-record-endpoint-and-all-required-fields",
+      "status": "PASS"
+    },
+    {
+      "name": "cross-origin-request-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "DNS-rebinding-host-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "write-without-local-token-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "review-without-profile-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "incomplete-reviewer-information-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "test-only-profile-persists",
+      "status": "PASS"
+    },
+    {
+      "name": "FAIL-without-rationale-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "NA-without-reason-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "missing-criterion-cannot-be-reviewed",
+      "status": "PASS"
+    },
+    {
+      "name": "invalid-decision-cannot-be-reviewed",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong-record-hash-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "stale-save-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "valid-fixture-failure-is-recorded-without-admission",
+      "status": "PASS"
+    },
+    {
+      "name": "partial-save-remains-draft-not-reviewed",
+      "status": "PASS"
+    },
+    {
+      "name": "decisions-notes-profile-and-progress-survive-server-restart",
+      "status": "PASS"
+    },
+    {
+      "name": "NA-with-reason-is-retained",
+      "status": "PASS"
+    },
+    {
+      "name": "fixture-complete:TEST_ONLY_selection_1",
+      "status": "PASS"
+    },
+    {
+      "name": "fixture-complete:TEST_ONLY_selection_2",
+      "status": "PASS"
+    },
+    {
+      "name": "accurate-final-progress-and-failure-groups",
+      "status": "PASS"
+    },
+    {
+      "name": "completion-creates-only-non-admitting-test-evidence",
+      "status": "PASS"
+    },
+    {
+      "name": "original-record-edit-route-does-not-exist",
+      "status": "PASS"
+    },
+    {
+      "name": "export-path-traversal-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "local-server-guard-reports-zero-external-and-model-calls",
+      "status": "PASS"
+    },
+    {
+      "name": "changed-fixture-asset-blocks-new-saves",
+      "status": "PASS"
+    },
+    {
+      "name": "audit-chain-tampering-fails-closed",
+      "status": "PASS"
+    }
+  ],
+  "testOnly": true,
+  "fixtureDirectory": "tests/.fixture-work-29924",
+  "realHumanDecisionsCreated": 0,
+  "realReviewStoreAccessed": false,
+  "externalCalls": 0,
+  "modelCalls": 0,
+  "productionAccess": false
+}

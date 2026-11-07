@@ -1,0 +1,14 @@
+{
+  "version": "CEB-check-launcher-attempt-record-v1",
+  "attempt": "Original frozen run-offline.mjs validate entry",
+  "status": "STOPPED_FAIL_CLOSED",
+  "errorCode": "ERR_ACCESS_DENIED",
+  "cause": "Generation-input verification needed read permission for the candidate-only exclusion-selectors.json; the original launcher omitted that permission",
+  "protectedComparisonStarted": false,
+  "candidateAssetChanged": false,
+  "validationResultWritten": false,
+  "remediation": "Created a separate run-checks.mjs with the exact missing evidence-input allowlist; preserved the pre-generation launcher hash and all candidate bytes",
+  "finalCheckAttempt": "run-checks.mjs validate completed with its new immutable validation-results.json",
+  "modelCalls": 0,
+  "frozenCasesExecuted": 0
+}

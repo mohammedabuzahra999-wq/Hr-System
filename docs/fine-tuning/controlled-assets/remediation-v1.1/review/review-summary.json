@@ -1,0 +1,21 @@
+{
+  "version": "CEB-independent-review-register-v1.1",
+  "created": "2026-10-25T07:56:04.077Z",
+  "assets": {
+    "runtime-reference-v1.1.jsonl": {
+      "sha256": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736",
+      "rows": 320
+    },
+    "model-selection-v1.1.jsonl": {
+      "sha256": "09cd5561686fd77d24f78a9f6036947425d9fc7973652b8b808c9ea907da5986",
+      "rows": 160
+    }
+  },
+  "reviewRows": 480,
+  "criteriaPerRow": 12,
+  "completedHumanRows": 0,
+  "pendingHumanRows": 480,
+  "independentReview": "HUMAN_REVIEW_REQUIRED",
+  "admitted": false,
+  "modelExecutionCleared": false
+}

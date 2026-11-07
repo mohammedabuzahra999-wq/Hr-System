@@ -1,0 +1,8 @@
+{
+  "suite": "audio-transport",
+  "socketConnectionsAllowed": 2,
+  "fetchCallsAllowed": 0,
+  "blockedExternalAttempts": 0,
+  "suppressedFixtureWrites": 0,
+  "suppressedScreenshots": 0
+}

@@ -1,0 +1,12 @@
+{
+  "recordedAtUtc": "2026-11-03T09:21:40.452Z",
+  "status": "BLOCKED",
+  "sourceManifestSHA256": "06ac18d29b06e876909a32c41ef83f42da24929fa860bf4b85560d38d2a38163",
+  "artifactManifestSHA256": "3b01f58e0cddec15899ec91651fe6486c5b232b01c09af5168597014b451de67",
+  "sourceHashMatchesAccepted": true,
+  "packageManifestHashMatchesOriginal": true,
+  "packageFiles": 96,
+  "packageChanges": [],
+  "phase14AndTrainingFiles": 608,
+  "phase14AndTrainingChanges": []
+}

@@ -1,0 +1,143 @@
+{
+  "status": "PASS",
+  "checks": 37,
+  "externalAttempts": 0,
+  "fixture": "Real disposable PostgreSQL, exact 0026 on synthetic parents; full-chain blocker open",
+  "matrix": [
+    {
+      "scenario": "valid upload",
+      "state": "ACTIVE",
+      "phase": "PROCESSING",
+      "version": 13,
+      "answers": 1,
+      "finalized": 1,
+      "audioCommitReceipts": 1,
+      "sttCalls": 1
+    },
+    {
+      "scenario": "response-loss duplicate",
+      "state": "ACTIVE",
+      "phase": "PROCESSING",
+      "version": 13,
+      "answers": 1,
+      "finalized": 1,
+      "audioCommitReceipts": 1,
+      "sttCalls": 1
+    },
+    {
+      "scenario": "simultaneous duplicate",
+      "state": "ACTIVE",
+      "phase": "PROCESSING",
+      "version": 13,
+      "answers": 1,
+      "finalized": 1,
+      "audioCommitReceipts": 1,
+      "sttCalls": 1
+    },
+    {
+      "scenario": "interrupted body retry",
+      "state": "ACTIVE",
+      "phase": "PROCESSING",
+      "version": 13,
+      "answers": 1,
+      "finalized": 1,
+      "audioCommitReceipts": 1,
+      "sttCalls": 1
+    },
+    {
+      "scenario": "STT error safe",
+      "state": "ACTIVE",
+      "phase": "LISTENING",
+      "version": 12,
+      "answers": 0,
+      "finalized": 0,
+      "audioCommitReceipts": 0,
+      "sttCalls": 1
+    },
+    {
+      "scenario": "STT error safe",
+      "state": "ACTIVE",
+      "phase": "LISTENING",
+      "version": 12,
+      "answers": 0,
+      "finalized": 0,
+      "audioCommitReceipts": 0,
+      "sttCalls": 1
+    },
+    {
+      "scenario": "timeout retry late fence",
+      "state": "ACTIVE",
+      "phase": "PROCESSING",
+      "version": 15,
+      "answers": 1,
+      "finalized": 1,
+      "audioCommitReceipts": 1,
+      "sttCalls": 2
+    },
+    {
+      "scenario": "stale paused STT",
+      "state": "PAUSED",
+      "phase": "LISTENING",
+      "version": 13,
+      "answers": 0,
+      "finalized": 0,
+      "audioCommitReceipts": 0,
+      "sttCalls": 1
+    },
+    {
+      "scenario": "audio-v2 commit",
+      "state": "PAUSED",
+      "phase": "PROCESSING",
+      "version": 18,
+      "answers": 1,
+      "finalized": 1,
+      "audioCommitReceipts": 1,
+      "sttCalls": 1
+    },
+    {
+      "scenario": "rollback then retry",
+      "state": "ACTIVE",
+      "phase": "PROCESSING",
+      "version": 15,
+      "answers": 1,
+      "finalized": 1,
+      "audioCommitReceipts": 1,
+      "sttCalls": 2
+    },
+    {
+      "scenario": "privacy",
+      "state": "ACTIVE",
+      "phase": "PROCESSING",
+      "version": 13,
+      "answers": 1,
+      "finalized": 1,
+      "audioCommitReceipts": 1,
+      "sttCalls": 1
+    },
+    {
+      "scenario": "disabled keyless startup",
+      "exitCode": 0,
+      "secretsPrinted": false
+    },
+    {
+      "scenario": "enabled missing STT",
+      "exitCode": 1,
+      "secretsPrinted": false
+    },
+    {
+      "scenario": "selected STT missing key",
+      "exitCode": 1,
+      "secretsPrinted": false
+    },
+    {
+      "scenario": "synthetic selector cannot become production",
+      "exitCode": 1,
+      "secretsPrinted": false
+    },
+    {
+      "scenario": "configured registration is not Live Voice ready",
+      "exitCode": 0,
+      "secretsPrinted": false
+    }
+  ]
+}

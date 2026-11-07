@@ -1,0 +1,13 @@
+{
+  "id": "local-voice-queue",
+  "protection": "bounded queue/admission/no hidden retry",
+  "command": "npm.cmd run check:voice:local -w @hr/server [component 4/4]",
+  "startedAt": "2026-11-05T06:54:23.479Z",
+  "finishedAt": "2026-11-05T06:54:24.131Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "local-voice-queue.log",
+  "passLines": 6
+}

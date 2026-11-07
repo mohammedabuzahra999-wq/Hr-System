@@ -1,0 +1,13 @@
+{
+  "id": "operations",
+  "protection": "Phase 5.5 proxy/abuse/configuration/readiness/headers/secrets/shutdown",
+  "command": "node --conditions=development --import tsx src/aiInterviewer/operations.check.ts",
+  "startedAt": "2026-11-03T12:22:38.553Z",
+  "finishedAt": "2026-11-03T12:23:05.087Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 20,
+  "outputLog": "operations.log",
+  "passLines": 40
+}

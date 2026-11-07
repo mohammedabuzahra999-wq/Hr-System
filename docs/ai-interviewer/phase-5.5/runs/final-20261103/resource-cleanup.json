@@ -1,0 +1,49 @@
+{
+  "startedAtUtc": "2026-11-05T05:58:22.898Z",
+  "status": "PASS",
+  "testsRerun": 0,
+  "commands": [
+    {
+      "command": "node docs/ai-interviewer/phase-5.5/run.mjs development-1 cleanup",
+      "exitCode": 0
+    },
+    {
+      "command": "node docs/ai-interviewer/phase-5.5/run.mjs development-2 cleanup",
+      "exitCode": 0
+    },
+    {
+      "command": "node docs/ai-interviewer/phase-5.5/run.mjs development-3 cleanup",
+      "exitCode": 0
+    },
+    {
+      "command": "node docs/ai-interviewer/phase-5.5/run.mjs development-4 cleanup",
+      "exitCode": 0
+    },
+    {
+      "command": "node docs/ai-interviewer/phase-5.5/run.mjs final-20261103 cleanup",
+      "exitCode": 0
+    },
+    {
+      "command": ".local-dev/ai-interviewer-postgres/pgsql/bin/pg_ctl.exe -D .local-dev/ai-interviewer-postgres/data -m fast -w -t 15 stop",
+      "exitCode": 0
+    },
+    {
+      "command": ".local-dev/ai-interviewer-postgres/pgsql/bin/pg_ctl.exe -D .local-dev/ai-interviewer-postgres/data status",
+      "exitCode": 3,
+      "expectedExitCode": 3
+    }
+  ],
+  "testProfilesRemoved": [
+    "development-1",
+    "development-2",
+    "development-3",
+    "development-4",
+    "final-20261103"
+  ],
+  "databasePolicy": "Read-only inspection; no database dropped during finalization",
+  "activeOtherClientSessions": 0,
+  "phase55DisposableDatabasesRemaining": 0,
+  "localTestClusterStopped": true,
+  "temporaryRunDirectoriesRemaining": 0,
+  "finishedAtUtc": "2026-11-05T05:58:25.047Z"
+}

@@ -1,0 +1,172 @@
+{
+  "version": "CEB-AUTO-ADMISSION-1-runtime-exclusion",
+  "created": "2026-10-25T09:08:19.497Z",
+  "status": "PASS",
+  "checks": 31,
+  "results": [
+    {
+      "name": "approved-automated-policy-needs-no-human-signoff",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong-policy-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong-runtime-hash-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "missing-automated-gate-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "no-false-human-validation-claim",
+      "status": "PASS"
+    },
+    {
+      "name": "native-denied:server/.env",
+      "status": "PASS"
+    },
+    {
+      "name": "native-denied:server/src/copilot/training.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "native-denied:server/src/copilot/data/hr_agent_intents_10000.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "native-denied:server/dist/server/src/copilot/data/hr_agent_intents_10000.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "native-denied:docs/fine-tuning/benchmark/pre-finetuning-benchmark-v1.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "native-denied:server/src/db/client.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "native-denied:server/src/mcp/server.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "native-denied:server/src/knowledge/service.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "selection-never-readable-as-runtime",
+      "status": "PASS"
+    },
+    {
+      "name": "original-write-denied:runtime-reference-v1.1.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "original-write-denied:model-selection-v1.1.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "real-admitted-runtime-loads-all-320-modern-references",
+      "status": "PASS"
+    },
+    {
+      "name": "separate-deterministic-canary:employee",
+      "status": "PASS"
+    },
+    {
+      "name": "separate-deterministic-canary:manager",
+      "status": "PASS"
+    },
+    {
+      "name": "separate-deterministic-canary:hr",
+      "status": "PASS"
+    },
+    {
+      "name": "separate-deterministic-canary:admin",
+      "status": "PASS"
+    },
+    {
+      "name": "unresolved-canary-does-not-call-model",
+      "status": "PASS"
+    },
+    {
+      "name": "caller-cannot-forge-an-admitted-projection",
+      "status": "PASS"
+    },
+    {
+      "name": "caught-legacy-reference-stays-fatal",
+      "status": "PASS"
+    },
+    {
+      "name": "unmapped-module-fails-closed:node:fs",
+      "status": "PASS"
+    },
+    {
+      "name": "unmapped-module-fails-closed:server/src/db/client.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "unmapped-module-fails-closed:server/src/mcp/server.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "unmapped-module-fails-closed:server/src/knowledge/service.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "unmapped-module-fails-closed:server/src/ai/ollama.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "network-blocked-before-transport",
+      "status": "PASS"
+    },
+    {
+      "name": "no-legacy-loader-or-bytes-in-real-runtime-module-graph",
+      "status": "PASS"
+    }
+  ],
+  "runtimeSha256": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736",
+  "referenceCount": 320,
+  "modernIntentCoverage": 32,
+  "modernActionCoverage": 48,
+  "legacy10KExclusion": "VERIFIED_FOR_AUTOMATED_ISOLATED_PROFILE",
+  "failClosedExclusion": "PASS",
+  "trace": {
+    "loadedSourceHashes": {
+      "server/src/copilot/readRules.ts": "d50d48cec428589c6ef8c156cdc002d2b67dfe00f28d00dded32e7ca9723158a",
+      "server/src/copilot/personName.ts": "42edb1d75e1a7cc96ea2337200a6e6b0ae4d04b794231d3af5a78ae536967746",
+      "server/src/copilot/readPeriods.ts": "07845161928ba536545fdeee23fc40bf901079081684113f802f808b999c397c",
+      "server/src/copilot/teamPresence.ts": "3379fe4d02867b0aadf73ad52d56250e6ca5325d91176c2da01744768b9e96f3",
+      "server/src/copilot/resolve.ts": "830292e0d09a9da626fbf83bd9a2e62d8edf687eb678c2667aabc3f97d20c90a",
+      "server/src/copilot/actions.ts": "ea182a2d40f98bffe9cfd94acf67fc2d1abf1da10856af7abcb592657b07a41c",
+      "server/src/copilot/intents.ts": "848946826f105bb51d721626d08d752853f5d163b2bfdb045c1fce20400c7a82",
+      "server/src/permissions.ts": "76f0b9033ca44f6ae95bc441eabb24fa2cab2374cee088f0f7469397682cdbab"
+    },
+    "dependencyOverrides": [
+      "training",
+      "phrasebook-empty-plan",
+      "conversation-examples-excluded",
+      "guide-examples-excluded",
+      "provider-disabled",
+      "synthetic-env"
+    ],
+    "violations": [],
+    "modelCalls": 0,
+    "hrExecutions": 0,
+    "legacyBytesRead": 0,
+    "candidateAssetsLoaded": true,
+    "admittedRuntimeLoaded": true
+  },
+  "humanReviewPerformed": false,
+  "selectionCasesExecuted": 0,
+  "frozenCasesExecuted": 0,
+  "modelCalls": 0,
+  "hrActionsExecuted": 0,
+  "productionAccess": false,
+  "fineTuningStarted": false,
+  "profileLimits": "Provider/services disabled; retained source-language example arrays excluded. This is not a model-selection run or production-equivalent end-to-end service test."
+}

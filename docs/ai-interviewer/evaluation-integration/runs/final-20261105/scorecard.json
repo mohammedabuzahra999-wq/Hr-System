@@ -1,0 +1,13 @@
+{
+  "id": "scorecard",
+  "protection": "frozen criteria/weight arithmetic regressions",
+  "command": "npm.cmd run check:scorecard -w @hr/server",
+  "startedAt": "2026-11-05T12:24:04.130Z",
+  "finishedAt": "2026-11-05T12:24:05.364Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "scorecard.log",
+  "passLines": 27
+}

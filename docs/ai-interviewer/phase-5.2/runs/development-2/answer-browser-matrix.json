@@ -1,0 +1,22 @@
+{
+  "syntheticOnly": true,
+  "matrix": [
+    {
+      "scenario": "refresh before submit",
+      "browserState": "DRAFT",
+      "recoveryCopyPresent": true,
+      "recoveryTextLength": 35,
+      "database": {
+        "version": 9,
+        "status": "ACTIVE",
+        "phase": "LISTENING",
+        "answerCount": 0,
+        "finalizedEvents": 0,
+        "receiptCount": 0,
+        "pendingEffects": 0,
+        "answerDeadlineAt": 1793791061410
+      },
+      "candidateUx": "Local draft only"
+    }
+  ]
+}

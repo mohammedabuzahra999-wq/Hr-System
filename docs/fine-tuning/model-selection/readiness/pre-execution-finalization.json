@@ -1,0 +1,14 @@
+{
+  "created": "2026-10-25T09:43:48.056Z",
+  "reason": "Complete pre-execution scorer audit: strict terminal observation shape, all action field omissions/mutations, protected confirmation and scoped action target checks",
+  "classificationAndGoldsChanged": false,
+  "renderedRequestsChanged": false,
+  "previousDraftsPreserved": true,
+  "finalScorerTests": 179,
+  "priorScorerTests": 120,
+  "partitionSha256": "2f00d20a30ee2e1bd30f998dc727e3c7e0bfd97c4dff1c7799279b3cfbb2a9ec",
+  "runContractSha256": "70bd199f7a68165ceb763f15e55d2376b29cb0c52db9a57c38dfe4fa8da80786",
+  "modelCalls": 0,
+  "candidateModelsExecuted": 0,
+  "frozenCasesExecuted": 0
+}

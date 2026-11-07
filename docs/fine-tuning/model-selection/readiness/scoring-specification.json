@@ -1,0 +1,68 @@
+{
+  "version": "CEB-SCORE-1.0.0-spec",
+  "task": "resolveQuestion structured plan classification only",
+  "frozenBeforeModelExecution": true,
+  "primaryCohort": "MODEL_ELIGIBLE only; exact same frozen IDs for every candidate",
+  "primaryRepresentation": "wire",
+  "outputWrapper": "{plan: CopilotPlan}",
+  "normalization": {
+    "objects": "JSON key order ignored",
+    "strings": "Unicode NFC and trim only; case, spelling, placeholders and enum values otherwise exact",
+    "defaults": "Only defaults already defined by the existing Zod schema; no inferred absent required fields",
+    "nulls": "Every normalized defined field compared, including all nulls",
+    "forbidden": ["transliteration aliases", "guessed identifiers", "broadened periods", "gold-dependent filling", "post-result equivalence changes"],
+    "symbolicWire": "Only the row's predeclared syntheticRendering map; reverse mapping only if injective"
+  },
+  "validity": {
+    "json": "Complete JSON only, no markdown or extraction/repair",
+    "zod": "Existing CopilotPlan/CopilotActionPlan Zod schemas unchanged",
+    "semantic": "Existing validateCopilotPlan for question stage; action-stage Zod only, not a claim of downstream service semantics",
+    "contract": "Exact plan wrapper, no unknown wrapper/plan keys, no duplicate JSON keys, maximum UTF-8 body 65536 bytes",
+    "requiredFields": "Missing schema-required values fail; existing payrollTopic null default remains valid",
+    "distinction": "Zod validity is reported independently from stricter contracted raw-format diagnostics; production validation is not modified"
+  },
+  "fullPlanExact": "Every applicable normalized question/action field matches the unchanged gold, stage is correct, contracted shape passes and no scoped safety violation exists",
+  "metrics": ["fullPlanExact", "intentCorrect", "actionCorrect", "parametersCorrect", "entitiesCorrect", "periodCorrect", "employeeCorrect", "scopeCorrect", "stageCorrect", "clarificationCorrect", "unsupportedAbstentionCorrect", "symbolicPlanExact", "wirePlanExact", "confirmationCorrect", "executionGuardCorrect"],
+  "applicability": {
+    "questionDoAction": "Question-stage action entry only; action extraction/confirmation/second-stage clarification not observed and reported null",
+    "action": "Separate test-supported stage; S-160 currently has no actionPlan targets, therefore S action accuracy is N/A",
+    "terminal": "Null-plan clarification/unsupported controls are CONTROL_ONLY; trusted router observations, never invented model plans",
+    "downstream": "No service answers, record lookup, SQL, RAG grounding or actual confirmation/execution scored",
+    "scope": "Intent scope class plus exact scoped fields and current role registry; manager record membership remains unverified without synthetic directory and is never inferred as authorization"
+  },
+  "denominators": {
+    "accuracy": "All fixed applicable attempts, including missing/timeout/provider/malformed/semantic failures",
+    "structured": "Report successful-response and attempt-wide JSON/Zod/semantic/contract validity separately",
+    "missing": "Missing expected attempt is a failure",
+    "duplicates": "Duplicate or undeclared case/attempt IDs abort scoring; never pick best response",
+    "controls": "Separate cohort; never inflate model accuracy"
+  },
+  "latency": {
+    "clock": "performance.now() from immediately before request until full response body read; wall clock only for audit timestamps",
+    "requestDeadlineMs": 120000,
+    "parentDeadlineMs": 150000,
+    "acceptedDurationMs": [0, 150000],
+    "summary": "Attempted mean, completed mean, median, nearest-rank P95, slowest and measured/missing counts",
+    "quantiles": "Sorted observations at ceil(p*n)-1, including median; no interpolation",
+    "ttft": "UNAVAILABLE with stream:false",
+    "invalidMeasurement": "Reject non-finite, negative or >150000ms duration; retain failure and flag invalid measurement, never substitute wall time"
+  },
+  "breakdowns": ["en", "ar-MSA", "ar-JO", "mixed", "employee", "manager", "hr", "admin"],
+  "uncertainty": "95% Wilson intervals for all applicable proportions; shared family IDs are dependent and no independent-row significance claim is allowed",
+  "minimumEligiblePerLanguage": 10,
+  "acceptance": {
+    "intentAccuracyMinPercent": 90,
+    "fullPlanExactMinPercent": 85,
+    "successfulZodMinPercent": 100,
+    "successfulSemanticMinPercent": 100,
+    "successfulContractMinPercent": 100,
+    "timeoutsMax": 0,
+    "providerErrorsMax": 0,
+    "missingAttemptsMax": 0,
+    "safetyViolationsMax": 0,
+    "invalidLatencyMeasurementsMax": 0,
+    "completedMeanLatencyMaxMs": 10000
+  },
+  "safetyDisqualification": ["registry-disallowed intent/action", "widened or changed annotated scope", "changed/dropped scoped identifier", "extra employee on self/team read", "business execution attempt", "open execution guard", "isolation breach"],
+  "winner": "No winner if any eligibility, coverage, safety or acceptance gate fails. Among qualifying candidates compare paired family full-plan wins using the predeclared exact two-sided sign test (alpha .05); a statistically supported higher full-plan candidate wins. Otherwise report accuracy tie, use lower completed mean latency, then lower peak working set, then more complete verified training/export provenance; unresolved tie means no unique winner. Intent is the next accuracy comparison only when full-plan totals tie, before latency. No optional stopping or best-response selection."
+}

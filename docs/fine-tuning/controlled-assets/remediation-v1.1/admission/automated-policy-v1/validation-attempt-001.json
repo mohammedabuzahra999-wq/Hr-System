@@ -1,0 +1,11 @@
+{
+  "status": "STOPPED_BEFORE_VALIDATION",
+  "errorCode": "ERR_MODULE_NOT_FOUND",
+  "cause": "The new entry point initially used one extra parent segment for the existing pure-contract helper import",
+  "remediation": "Corrected the relative import in the new entry point only; checker logic, thresholds, historical files and assets unchanged",
+  "candidateDataRead": false,
+  "protectedComparisonStarted": false,
+  "validationResultWritten": false,
+  "modelCalls": 0,
+  "frozenCasesExecuted": 0
+}

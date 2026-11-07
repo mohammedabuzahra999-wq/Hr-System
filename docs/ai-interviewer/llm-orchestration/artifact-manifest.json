@@ -1,0 +1,1741 @@
+{
+  "format": "llm-orchestration-artifact-manifest-v1",
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/README.md",
+      "bytes": 12061,
+      "sha256": "11b63e9a67b214054778ceb0f676cca30ca6fbee6c7de0411412c3db6aa693df"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/before-state.md",
+      "bytes": 1553,
+      "sha256": "51f66945c3801f64942221be9c983471da9364f2782d8cff41932c0ece61c914"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/cleanup.mjs",
+      "bytes": 3918,
+      "sha256": "cf038ee1f607835f142d2f7e03ee4dbf88f93408c617c342b65ecc3178810f90"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/development-notes.md",
+      "bytes": 2864,
+      "sha256": "7a247da28231f9b508c7d796323d8cd0effaba51790b407305fd274dca2158e0"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/evidence.mjs",
+      "bytes": 15969,
+      "sha256": "c54314f3e5e7f83d99a242546628afb4a21db60728450ece357fe855a7f0515d"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/guard.cjs",
+      "bytes": 6359,
+      "sha256": "668156c1d595088b3da2f00813847f65f02e0a250011a10e2a7d4c332a2bc830"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/manifest.mjs",
+      "bytes": 2947,
+      "sha256": "2e4f215a9da26d81c3aab50ceb79eb34e5906fd35477e80bb9c4f90a6efdd483"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/migrations.mjs",
+      "bytes": 3360,
+      "sha256": "11f986e3bc22bbcf96892684840dbcc035d0ce14f4a988c7b34a0113cfd19ed1"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/prepare-browser.mjs",
+      "bytes": 1149,
+      "sha256": "acc3fcf97a466b7f2c08d1e08350f0c4964d54306ae51e9f3a6c5b92683bdf8c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/prepare-evidence.mjs",
+      "bytes": 6651,
+      "sha256": "a981d943647aec97ab9729d4c2510ba5f6799881c2380ffdae69b3dd6f3a896c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/run.mjs",
+      "bytes": 18904,
+      "sha256": "8650821888009f4169fa16c602e637f8f4c24709713ba5014d7073ba6062e89c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/baseline-20261105/environment.json",
+      "bytes": 901,
+      "sha256": "89a61a6500af90d230d98aea075ccd7c39c2d839411a24745d02ff94949fb830"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/baseline-20261105/inventory.json",
+      "bytes": 18824,
+      "sha256": "560eaa3a44b19eeafbdd2613cea91dbc9246f7694964a2df2ba00cfd90ee9962"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/baseline-20261105/protected-before.json",
+      "bytes": 138211,
+      "sha256": "660e40884c27a6b59b9f3426e7d770f734727dd7559231247688eae8de238833"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/baseline-20261105/source-before.json",
+      "bytes": 82782,
+      "sha256": "55f7d754e37e38b185095b6b5410c0d59bf82fc576567cb3c48203aabfeacf14"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-1/environment.json",
+      "bytes": 901,
+      "sha256": "d89f85c983c985e7e5c4451461f7abf5d5638ff23a08adcfee550e523ae4dfb7"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-1/inventory.json",
+      "bytes": 19723,
+      "sha256": "b9167850ca9f6ed2b33edccae183852f2dd40eeac3fbbec09592289282b91dad"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-1/llm-contract-matrix.json",
+      "bytes": 120,
+      "sha256": "db4a93c6695d503e61511af2ba71922fa2f8cef0eb06ad443c18513b55dd3639"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-1/llm-contract.json",
+      "bytes": 407,
+      "sha256": "5aa3548d8ff5d864c717bbf54cb306c8be3baa26d1aeccaec2cbf079a7589b31"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-1/llm-contract.log",
+      "bytes": 1381,
+      "sha256": "28e2015f1bbdd52416f8336fa9e7f1fca5e6819fa72da6cd1bbc581f4942618e"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-1/llm-db.json",
+      "bytes": 413,
+      "sha256": "75b989bfda556f86ac4a0a39e06e877908b8cbb53eb158eb370e92ae31f5c503"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-1/llm-db.log",
+      "bytes": 841,
+      "sha256": "d9179b441ade6c18563dfa221882ae13c3fd0e2fe280507fef13b2e9cb7d4a06"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-1/network/llm-contract-5216.json",
+      "bytes": 183,
+      "sha256": "6a84f2c19b026463b05db24234a655f717f0fa65390a5272f816e76fd579bc4e"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-1/network/llm-db-23192.json",
+      "bytes": 177,
+      "sha256": "8e79f97c0d7468bf8b3019917611db242e84ffd903602a553e1a9e7b55e41358"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-1/protected-before.json",
+      "bytes": 138211,
+      "sha256": "660e40884c27a6b59b9f3426e7d770f734727dd7559231247688eae8de238833"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-1/source-before.json",
+      "bytes": 84265,
+      "sha256": "63d9a3dc1b87141f7ac8fc850aade1ea0f68dce9c5925374982705d8d5359b40"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-10/environment.json",
+      "bytes": 901,
+      "sha256": "5e698ec61011992bb7e60e461d3752880999cdf111ed3f80962f94ff896de9c9"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-10/inventory.json",
+      "bytes": 20093,
+      "sha256": "5a49e9f2b4b77e212c7e779c470999490c51313d45362fa8a164440f2c8afe97"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-10/llm-db-matrix.json",
+      "bytes": 3498,
+      "sha256": "283555aa452bbb6dd3c0bd458bdd12aef7a94ab3ae404ce30e01d6f01ca0d7cb"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-10/llm-db.json",
+      "bytes": 414,
+      "sha256": "605b7245155ee2cc3763fc95f7a36c5651c55a52005807a9c771740ccf7d1acf"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-10/llm-db.log",
+      "bytes": 3155,
+      "sha256": "65bbb34cd128339bd0398000b40ae8b0003af11ba5b0048662a18b31d50f6fd8"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-10/network/llm-db-7288.json",
+      "bytes": 177,
+      "sha256": "ac11f7efe2296c777e72894934954380ab6ab0016f4eb5203ec335a6725303d4"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-10/protected-before.json",
+      "bytes": 138211,
+      "sha256": "660e40884c27a6b59b9f3426e7d770f734727dd7559231247688eae8de238833"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-10/source-before.json",
+      "bytes": 84653,
+      "sha256": "f5b6eea089f5ef95f56230f7a087a4d8b5d2f1542175bcb0e64ab520208ce337"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-2/environment.json",
+      "bytes": 901,
+      "sha256": "fbafba6d4c553d32c3b5583eaccb74c4351f8d296324bd040772c13e3e795781"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-2/inventory.json",
+      "bytes": 19723,
+      "sha256": "b9167850ca9f6ed2b33edccae183852f2dd40eeac3fbbec09592289282b91dad"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-2/llm-db.json",
+      "bytes": 414,
+      "sha256": "5405f5d0dc0d4dcdab97555a9d2466c7505576896cc665e359a4d170e522a281"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-2/llm-db.log",
+      "bytes": 3128,
+      "sha256": "810187e4acb6f06a85d88f2025e1da92f8c0093d427eed81714507c00d69c48d"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-2/network/llm-db-24472.json",
+      "bytes": 177,
+      "sha256": "ac11f7efe2296c777e72894934954380ab6ab0016f4eb5203ec335a6725303d4"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-2/protected-before.json",
+      "bytes": 138211,
+      "sha256": "660e40884c27a6b59b9f3426e7d770f734727dd7559231247688eae8de238833"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-2/source-before.json",
+      "bytes": 84265,
+      "sha256": "2c0dbb18707a28e658f59b44dd4aba3ad511d02d15aa3abbe96a1ca576fa33fc"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-3/environment.json",
+      "bytes": 901,
+      "sha256": "ae04b446ee5d39423a695e6e62b093c13fe7f3a834911da03937e245dc7aa29f"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-3/inventory.json",
+      "bytes": 19723,
+      "sha256": "b9167850ca9f6ed2b33edccae183852f2dd40eeac3fbbec09592289282b91dad"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-3/llm-db-matrix.json",
+      "bytes": 2536,
+      "sha256": "bf8e30c1d6787a65d92d4d26b2e68f5681e5b176b549d64e44fadea33163c8db"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-3/llm-db.json",
+      "bytes": 414,
+      "sha256": "e376d86321a8d21c91eddc7093b2e6cd3ea451eab621da0581a5b87250ea1c80"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-3/llm-db.log",
+      "bytes": 1910,
+      "sha256": "3bee36cae8e9c2015011ab69d36cbf2b1cddbcf79c457c0c944b1f5351101868"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-3/network/llm-db-9012.json",
+      "bytes": 177,
+      "sha256": "ac11f7efe2296c777e72894934954380ab6ab0016f4eb5203ec335a6725303d4"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-3/protected-before.json",
+      "bytes": 138211,
+      "sha256": "660e40884c27a6b59b9f3426e7d770f734727dd7559231247688eae8de238833"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-3/source-before.json",
+      "bytes": 84265,
+      "sha256": "e6cf2cb574d27217374086f3aa3fcf26bfbeef145017c29893101f2027f491e2"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-4/environment.json",
+      "bytes": 901,
+      "sha256": "7f55e2d9b4611aa79de95029d51bc28368b72cddf4d97c46442db876a57107ee"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-4/inventory.json",
+      "bytes": 19723,
+      "sha256": "b9167850ca9f6ed2b33edccae183852f2dd40eeac3fbbec09592289282b91dad"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-4/llm-db.json",
+      "bytes": 414,
+      "sha256": "ab3cab1125859f56e790a8ac9c942a9cf030127361cd64eeb00c8a46caf9b058"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-4/llm-db.log",
+      "bytes": 3616,
+      "sha256": "1441c2e5d06b654aca3751756b4adc45f751ff63e1f6883ce0674d9eccf63f9d"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-4/network/llm-db-6544.json",
+      "bytes": 177,
+      "sha256": "ac11f7efe2296c777e72894934954380ab6ab0016f4eb5203ec335a6725303d4"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-4/protected-before.json",
+      "bytes": 138211,
+      "sha256": "660e40884c27a6b59b9f3426e7d770f734727dd7559231247688eae8de238833"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-4/source-before.json",
+      "bytes": 84265,
+      "sha256": "57abd68dcb98018c988b1b5fd30d3b8cb113e9e929085505d8cd982caa4972c2"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-5/environment.json",
+      "bytes": 901,
+      "sha256": "39576e08d4af73be8153c47f7d092ebff1bf03ae4c73e71c579fa37a3729a8e9"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-5/inventory.json",
+      "bytes": 19723,
+      "sha256": "b9167850ca9f6ed2b33edccae183852f2dd40eeac3fbbec09592289282b91dad"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-5/llm-db-matrix.json",
+      "bytes": 3226,
+      "sha256": "a16f21cb34891f7b8c755c32677ee661e7eebb90a64be4a5836e8c4daf2bd86a"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-5/llm-db.json",
+      "bytes": 414,
+      "sha256": "036dd9f08e6d9f7c23e026a6804a5faed93c6dfc2cc38b7f2b47bfcc6d263c76"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-5/llm-db.log",
+      "bytes": 2987,
+      "sha256": "4e4cf1019d55b02cf325aab04ba5bd5a7f5e67863922e0fc0a816c9244de0283"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-5/network/llm-db-5236.json",
+      "bytes": 177,
+      "sha256": "ac11f7efe2296c777e72894934954380ab6ab0016f4eb5203ec335a6725303d4"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-5/protected-before.json",
+      "bytes": 138211,
+      "sha256": "660e40884c27a6b59b9f3426e7d770f734727dd7559231247688eae8de238833"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-5/source-before.json",
+      "bytes": 84265,
+      "sha256": "86c6a3c2c38224d80dd5dbcf4b04bd9d9494538b3c06e06d9ddd52cde0b3cc4f"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-6/browser/llm-browser/ai-interviewer-phase3/browser-results.json",
+      "bytes": 2425,
+      "sha256": "c42d43619212b9da3371aeefef5b31ad09747e6b1a36a2fdf7f52b969b2140af"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-6/environment.json",
+      "bytes": 901,
+      "sha256": "bc6eb94583b43e5be728a3a86adaef1a11efc795d01d304480f2211218ba882d"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-6/inventory.json",
+      "bytes": 20124,
+      "sha256": "f7400a4018a999a40760900f02490952a8cdf3397f690ed91dab23268cb14e14"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-6/llm-browser.json",
+      "bytes": 402,
+      "sha256": "2f6a70654eaee7bdd5de4b591dcfc297b59cd08e0fc03635070007f75f2d1149"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-6/llm-browser.log",
+      "bytes": 2509,
+      "sha256": "3d4e7ee864cce77071e7895c1e6ba3d7aaef8ecb9bb736d3b5e478851cc0443e"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-6/network/llm-browser-10068.json",
+      "bytes": 183,
+      "sha256": "4c1b31d039d6884b5fb3daad49300145f024ee6b18611244cc545f0a6fcdf02f"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-6/network/llm-browser-22476.json",
+      "bytes": 184,
+      "sha256": "8a800c63c52f82888253ef6b6714a1b295f2c3b6e246003739668673ba572d2d"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-6/protected-before.json",
+      "bytes": 138211,
+      "sha256": "660e40884c27a6b59b9f3426e7d770f734727dd7559231247688eae8de238833"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-6/source-before.json",
+      "bytes": 84653,
+      "sha256": "2e4c4cb51ac7c769155cef0f45190f825b57f5bc5b86dce59ad59a534532478c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-7/browser/llm-browser/ai-interviewer-phase3/browser-results.json",
+      "bytes": 2425,
+      "sha256": "c42d43619212b9da3371aeefef5b31ad09747e6b1a36a2fdf7f52b969b2140af"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-7/environment.json",
+      "bytes": 901,
+      "sha256": "5903a70c717442d7f270bf8182cfae78aae82e6198819d473fb6cca429eec3a8"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-7/inventory.json",
+      "bytes": 20124,
+      "sha256": "f7400a4018a999a40760900f02490952a8cdf3397f690ed91dab23268cb14e14"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-7/llm-browser.json",
+      "bytes": 402,
+      "sha256": "51534c9e0c29eb01db526301bf06041cd33be78939666cc5924ecf8723f38a47"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-7/llm-browser.log",
+      "bytes": 2509,
+      "sha256": "3d4e7ee864cce77071e7895c1e6ba3d7aaef8ecb9bb736d3b5e478851cc0443e"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-7/llm-db-matrix.json",
+      "bytes": 3226,
+      "sha256": "a16f21cb34891f7b8c755c32677ee661e7eebb90a64be4a5836e8c4daf2bd86a"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-7/llm-db.json",
+      "bytes": 414,
+      "sha256": "8b6523a0ea529283905741ed8c8ee70f21db69a19f8af2518bfd5093c49fc744"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-7/llm-db.log",
+      "bytes": 2987,
+      "sha256": "42d58392ab2dfff7599c69ed839f6cd915a002c5341e8683a62455c457326add"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-7/network/llm-browser-20240.json",
+      "bytes": 184,
+      "sha256": "e276e8e2282a46b19613f5988c5146925ed9b6b9c611c0fd3cbd90ff93181810"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-7/network/llm-browser-2880.json",
+      "bytes": 183,
+      "sha256": "4c1b31d039d6884b5fb3daad49300145f024ee6b18611244cc545f0a6fcdf02f"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-7/network/llm-db-15292.json",
+      "bytes": 177,
+      "sha256": "ac11f7efe2296c777e72894934954380ab6ab0016f4eb5203ec335a6725303d4"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-7/protected-before.json",
+      "bytes": 138211,
+      "sha256": "660e40884c27a6b59b9f3426e7d770f734727dd7559231247688eae8de238833"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-7/source-before.json",
+      "bytes": 84653,
+      "sha256": "eddf8750895b8a8de2328aeaa22e0d885ebf9b17212e22bc29fe56609e604cbd"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-8/browser/llm-browser/ai-interviewer-phase3/browser-results.json",
+      "bytes": 2691,
+      "sha256": "51223cfb3a5d085ef4bdc10bbce4b65a1669ef38f9c0a2288d4decdfedcde307"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-8/environment.json",
+      "bytes": 901,
+      "sha256": "41f23155cc9d7a7b10e0187bb83bfb5886df039a7b815bb355c640a81ad6b023"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-8/inventory.json",
+      "bytes": 20124,
+      "sha256": "f7400a4018a999a40760900f02490952a8cdf3397f690ed91dab23268cb14e14"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-8/llm-browser.json",
+      "bytes": 402,
+      "sha256": "b226a415443808bf10679bcac75d5bab979149a0ba1b27b84293f6d0ed2238c7"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-8/llm-browser.log",
+      "bytes": 2644,
+      "sha256": "62cc31d4a89038aba2e6c429ae45811c11b350301d5a8f459d8ed8ac08c3a78e"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-8/llm-contract-matrix.json",
+      "bytes": 120,
+      "sha256": "b817c6339feb142cc634c1f17e0474effcf8a027099617a9a4ade3b6841bf0cb"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-8/llm-contract.json",
+      "bytes": 407,
+      "sha256": "f14cef323bdad77166d95086d668f85469596f39192427ae6095acf0759c162e"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-8/llm-contract.log",
+      "bytes": 1478,
+      "sha256": "39da81570238d43e62aa96e067e0e45f2f8f203c00d874b7a5f477181648edcc"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-8/llm-db-matrix.json",
+      "bytes": 3226,
+      "sha256": "a16f21cb34891f7b8c755c32677ee661e7eebb90a64be4a5836e8c4daf2bd86a"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-8/llm-db.json",
+      "bytes": 414,
+      "sha256": "e0e71218c397213388a9c05b97711b0a203f29637d7b681de6652e13ed6cf72c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-8/llm-db.log",
+      "bytes": 2987,
+      "sha256": "5666c851c9525d4817c71ea5766c8a563cb263e235722591cd96d87ac3943ceb"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-8/network/llm-browser-11248.json",
+      "bytes": 184,
+      "sha256": "8a800c63c52f82888253ef6b6714a1b295f2c3b6e246003739668673ba572d2d"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-8/network/llm-browser-22900.json",
+      "bytes": 183,
+      "sha256": "448c29c0f45a426271ae3c326f65af2a640bc4729e0944d86513e5eb95d358e6"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-8/network/llm-contract-18700.json",
+      "bytes": 183,
+      "sha256": "6a84f2c19b026463b05db24234a655f717f0fa65390a5272f816e76fd579bc4e"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-8/network/llm-db-16576.json",
+      "bytes": 177,
+      "sha256": "ac11f7efe2296c777e72894934954380ab6ab0016f4eb5203ec335a6725303d4"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-8/protected-before.json",
+      "bytes": 138211,
+      "sha256": "660e40884c27a6b59b9f3426e7d770f734727dd7559231247688eae8de238833"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-8/source-before.json",
+      "bytes": 84653,
+      "sha256": "355b1f2d6dd04802f0c9b79c657ab87cddd5811bef53857554bef273acadd86f"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-9/browser/llm-browser/ai-interviewer-phase3/browser-results.json",
+      "bytes": 3220,
+      "sha256": "43a3e6fdbc9cebc5ee68d35f14ad3c3e59367a2e02264965df8bd40e5a2ee0ae"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-9/environment.json",
+      "bytes": 901,
+      "sha256": "5a0ce2e7eb99ad99c9f0f5b96ca8d7fe2718b9ab60bb2df172ecdf5d2e141b92"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-9/inventory.json",
+      "bytes": 20124,
+      "sha256": "f7400a4018a999a40760900f02490952a8cdf3397f690ed91dab23268cb14e14"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-9/llm-browser.json",
+      "bytes": 402,
+      "sha256": "ce4c253345ea18a26e981caa43ce8d3ed7be728f14a45411395bf9151b51d737"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-9/llm-browser.log",
+      "bytes": 1993,
+      "sha256": "6ffc272964f044bd27865ec2cff883992fe680b92969b94736eba54d3467bdb2"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-9/llm-db-matrix.json",
+      "bytes": 3226,
+      "sha256": "a16f21cb34891f7b8c755c32677ee661e7eebb90a64be4a5836e8c4daf2bd86a"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-9/llm-db.json",
+      "bytes": 414,
+      "sha256": "72953c1289a0c847ccc538736b15b7d07f4a1e8bf1a2adb61b86efaee49f5d65"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-9/llm-db.log",
+      "bytes": 2987,
+      "sha256": "f18f15ccb5075dfee7cd574c4a7b319605ba56902dbfb7a74c49b8eb049e6b39"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-9/network/llm-browser-17032.json",
+      "bytes": 183,
+      "sha256": "17b6fbece169ae8c7adf0ab6141f3db8d19c8412bbc4abcf30c4251da9f4e874"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-9/network/llm-browser-8332.json",
+      "bytes": 184,
+      "sha256": "8a800c63c52f82888253ef6b6714a1b295f2c3b6e246003739668673ba572d2d"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-9/network/llm-db-12908.json",
+      "bytes": 177,
+      "sha256": "ac11f7efe2296c777e72894934954380ab6ab0016f4eb5203ec335a6725303d4"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-9/protected-before.json",
+      "bytes": 138211,
+      "sha256": "660e40884c27a6b59b9f3426e7d770f734727dd7559231247688eae8de238833"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/development-9/source-before.json",
+      "bytes": 84653,
+      "sha256": "560d1515499450b94bdc1659d2ebfc7a9339376aa054d104fa8f37257f9b8c75"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/REPORT.md",
+      "bytes": 26259,
+      "sha256": "36a7376f5b67beadb88d7d3d1df1074c9b943a718d9c6e0fc369fd7e9b844c22"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/answer-browser-cdp-metadata.json",
+      "bytes": 134093,
+      "sha256": "837d286ab4aed62bdc5df3935c960ae0c0d79214ea838f27bc48001ec7cbc9a9"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/answer-browser-matrix.json",
+      "bytes": 8869,
+      "sha256": "98c253917bcf2a62fc561baeedf69ffe60dd52f53fc4effbda241646d3416dc8"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/answer-browser.json",
+      "bytes": 435,
+      "sha256": "136450773f1afd071c27b07872f9209215922ff2f2b8f0bed08534909816184e"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/answer-browser.log",
+      "bytes": 4862,
+      "sha256": "8a15bca048b30a67af2c953b8379c05ee1fc795adb037cff137e2064931fe64e"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/answer-database-matrix.json",
+      "bytes": 5981,
+      "sha256": "8998e3abe92834f97de8a70023358153f27bf6f5e73f7edb58bbf0c2b83212a8"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/answer-db.json",
+      "bytes": 437,
+      "sha256": "1a52e64dcad51446187fc152e8b737b2a0830964dd65f9fabd3189aa3a253a5a"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/answer-db.log",
+      "bytes": 4560,
+      "sha256": "fb3f62986fa33035ec47868c826ff73f29241b66f19d0273fe878b2023cc90d2"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/answer-ui.json",
+      "bytes": 442,
+      "sha256": "685d10ade10ea38d5b21041a8970a9a887833315ced8cb11e820acf7a22cdefd"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/answer-ui.log",
+      "bytes": 2168,
+      "sha256": "b39ffb7b7df6668787e8c53872aabc9263c11aec9eda4de19d12785f90037297"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/api-build.json",
+      "bytes": 382,
+      "sha256": "237fcfb6cfcb975d638c4c308e7bbb57fa77cf45fbe7f2962d0579604d27e242"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/api-build.log",
+      "bytes": 94,
+      "sha256": "b575b68518f701af65cfb1c58fe96ebfcf147c29ef6e644a6a4f2af34df5bb78"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/audio-browser.json",
+      "bytes": 428,
+      "sha256": "de9d7d76535965bde86a810369a4c551ec4d24c579d765a655e77b2667dd1ec1"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/audio-browser.log",
+      "bytes": 2228,
+      "sha256": "9a7dd4f932d276930adb6489db1961da3c08c8a4569c913e2f41a38b217b4d43"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/audio-transport-matrix.json",
+      "bytes": 3199,
+      "sha256": "e73382dcc3b3939c1c3a696a503c4645dc0d273f4e7a23c69056a97f7827ef6a"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/audio-transport.json",
+      "bytes": 434,
+      "sha256": "1963093f770100f4ee6ac823e0c52cf888ae1ec1f83fdd636cd1ba6ea538e5d3"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/audio-transport.log",
+      "bytes": 5741,
+      "sha256": "374755b2896b23f5884ccee74ff4010aa33116f1ba646544b2b1d089f19e9136"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/audio-ui.json",
+      "bytes": 439,
+      "sha256": "9fd9c29432ca84aa4e48bf1e960e73e3bc16f4eeba2ea795d2c47a1a03a0bbf9"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/audio-ui.log",
+      "bytes": 2016,
+      "sha256": "5087134ec04b79085d8fafe5f445779fda70d5ace3e50bab18478b857cfc9470"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/browser/answer-browser/ai-interviewer-phase3/browser-results.json",
+      "bytes": 7079,
+      "sha256": "1efdec561bcd104433d237af4a741e66378055e41bb10d47881256d902e7dc63"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/browser/audio-browser/ai-interviewer-phase3/browser-results.json",
+      "bytes": 3675,
+      "sha256": "b14e2ed1c1a677b92231249542e35149645615b73b8b93afb54604755f46c4f1"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/browser/browser3/ai-interviewer-phase3/browser-results.json",
+      "bytes": 5400,
+      "sha256": "c1af66f01e48b0099dd25b9a1444f842ec69bcec7098860785cccd6a34365a90"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/browser/browser4/ai-interviewer-phase4/browser-results.json",
+      "bytes": 7225,
+      "sha256": "0fe37b0c080d26bd93273a22634c1b1694c997879b1542ccde6f44f6e9625295"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/browser/llm-browser/ai-interviewer-phase3/browser-results.json",
+      "bytes": 3220,
+      "sha256": "43a3e6fdbc9cebc5ee68d35f14ad3c3e59367a2e02264965df8bd40e5a2ee0ae"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/browser/tts-browser/ai-interviewer-phase3/browser-results.json",
+      "bytes": 3717,
+      "sha256": "bfa5bac4af5903891cdf09453db9da5366bbd70fc2e8d4b337a35e960c6b2a8f"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/browser3-cdp-metadata.json",
+      "bytes": 60102,
+      "sha256": "b91b60ceae6744c635c37880032dc2d519316b9f31e66e7d35cfd19f83abbdd6"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/browser3.json",
+      "bytes": 395,
+      "sha256": "fed42e6053101de83c9ebaac9ea781076fe27f5767263a01be5537d840df1d67"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/browser3.log",
+      "bytes": 3287,
+      "sha256": "cf8e3f96da2c1ab987e53804068f2f4ddc8af129dd96efe6c12693d53e34f241"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/browser4-cdp-metadata.json",
+      "bytes": 78584,
+      "sha256": "e80ae3238a0f5a8068a50312e9af191689d2622696fc63ebdc7172469376aae3"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/browser4.json",
+      "bytes": 410,
+      "sha256": "f3d80463f4a2c29fb7eb5602e4b7f44b741143423719a345672536fe792b22c9"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/browser4.log",
+      "bytes": 4482,
+      "sha256": "267f9e6a2029a350109e4cc101ffcdba1954849e7ffa53f1339ac8a0e6752ccf"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/contracts-build.json",
+      "bytes": 367,
+      "sha256": "795aae2e05001d816d17ab67a94a8152f712134de2238af58ae7d34d6e15af7c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/contracts-build.log",
+      "bytes": 56,
+      "sha256": "124e52167c66230c64d72fd48e02dfa7ae1ec37e9fcfd7dead98fb43bda34e8c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/engine.json",
+      "bytes": 381,
+      "sha256": "47a045303db9b9b904bd873cf4bb8d916957ba1ec7dc6a787de10eaf67f53789"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/engine.log",
+      "bytes": 2717,
+      "sha256": "4247a495faad111be72e39083b7f506dbe4c3058ec014bab482cc805e7b838d1"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/environment.json",
+      "bytes": 901,
+      "sha256": "d3da1f85fb357db765dae9358ad33151c7e569d65084f1a3ef412df9afaffbd7"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/execution-bounds.json",
+      "bytes": 466,
+      "sha256": "6cece1ff6bd3d5a5d74455ff487f3b91fc9d6f3ee035e61856b7f706966c2b2d"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/execution-bounds.log",
+      "bytes": 1029,
+      "sha256": "bda5427e3708d41592e70de44377fb8d3dc8d557ee130a5a9e551375775d98de"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/gate.json",
+      "bytes": 379,
+      "sha256": "e9fb7666a01a31414dd93e377729fa4680a2c289baadf5bad58f674eba2f1868"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/gate.log",
+      "bytes": 9382,
+      "sha256": "5216a552076cecc66711f96092a78c5a9cf1ff46c8bbd58e8dda1cf008027f8d"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/integrity.json",
+      "bytes": 486,
+      "sha256": "4f164579874a5d626a074d25e76ade329b15feda7d24e98a1d28667c2f211999"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/inventory.json",
+      "bytes": 20093,
+      "sha256": "5a49e9f2b4b77e212c7e779c470999490c51313d45362fa8a164440f2c8afe97"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/llm-browser.json",
+      "bytes": 402,
+      "sha256": "2b18a3305b5f5fb9c077d079cbe8c1d893fec49df06a16d13cb50f94e95b45cc"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/llm-browser.log",
+      "bytes": 1993,
+      "sha256": "6ffc272964f044bd27865ec2cff883992fe680b92969b94736eba54d3467bdb2"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/llm-contract-matrix.json",
+      "bytes": 120,
+      "sha256": "b817c6339feb142cc634c1f17e0474effcf8a027099617a9a4ade3b6841bf0cb"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/llm-contract.json",
+      "bytes": 407,
+      "sha256": "351d3e0969ba2d8198aa7ac763d11c64cc4d9c4ed3fd5e69241168006d994917"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/llm-contract.log",
+      "bytes": 1478,
+      "sha256": "39da81570238d43e62aa96e067e0e45f2f8f203c00d874b7a5f477181648edcc"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/llm-db-matrix.json",
+      "bytes": 3498,
+      "sha256": "283555aa452bbb6dd3c0bd458bdd12aef7a94ab3ae404ce30e01d6f01ca0d7cb"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/llm-db.json",
+      "bytes": 414,
+      "sha256": "f64855d3435a66a99237ad114bb2b9f32315dd054e3c4a6012a0567cca242629"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/llm-db.log",
+      "bytes": 3155,
+      "sha256": "1cff21a7e6d59b6fac109b3176d65531df7a158c943bfa517b5aa1266953836c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/local-voice-api.json",
+      "bytes": 420,
+      "sha256": "b579ee7936d0f24d88525767f75fe0719571d1b85e0eb06580f4d4b829584258"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/local-voice-api.log",
+      "bytes": 368,
+      "sha256": "5966426a289e7db14e67b563ab6f11c65376fac439310aff586cda987fcd70ae"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/local-voice-audio.json",
+      "bytes": 426,
+      "sha256": "24d19d0d28c1bc33189544fd721ae79851d6fed2160d3a95d725810069d2d660"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/local-voice-audio.log",
+      "bytes": 501,
+      "sha256": "3d6f59131a50f32bc9f558adc98ff76749221b4d268a969fb3320f4dae34c8f1"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/local-voice-queue.json",
+      "bytes": 409,
+      "sha256": "a8324ee218b7ff5d4cea97de27a1ee98d9af67f20ac262f418d9d2da6d34f30b"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/local-voice-queue.log",
+      "bytes": 422,
+      "sha256": "dc732e128f699c74854726b37aa10a89df844a90e457e05d29deac5d5559c8e5"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/local-voice-turn.json",
+      "bytes": 428,
+      "sha256": "91cccd5edc6af66fcab8f94a5bd4511b10e0667b7ae4e38303976fb0b95794ef"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/local-voice-turn.log",
+      "bytes": 828,
+      "sha256": "52d0ddf9678a13d9607cf2f8c6526ccbb9370dba15ece317a6b91b9ca6d4cc47"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/mcp.json",
+      "bytes": 406,
+      "sha256": "49da7837f9a1ebf8fda700c0ba904be80fd8697a445c06acd1fc54761c891b3f"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/mcp.log",
+      "bytes": 1514,
+      "sha256": "ad54853f902d0bafaa402f9b06fd974c3b79080549eb9671cf47da37916d398f"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/migrations-run.json",
+      "bytes": 407,
+      "sha256": "750759792f1bb6a95a652d86615fdd981a47c7dfd6ec7d3a48f599fb0811212d"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/migrations.json",
+      "bytes": 481,
+      "sha256": "64663ce60d45f25b13c5a7f2a7b9ed13865de35cf75ea25e9c55a7e37808fbf7"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/migrations.log",
+      "bytes": 440,
+      "sha256": "d34b72c127be48d9bcdc98e6b6952ff680e9150375b2f2d9d9230f9bfe3d6bc9"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/answer-browser-10068.json",
+      "bytes": 188,
+      "sha256": "b53b4098d24da194f150e9b15c01fe4e3a5afbace6a14a4cea54db9b5fdbda08"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/answer-browser-2952.json",
+      "bytes": 186,
+      "sha256": "a359ae309db7a973ade1490738c22323376c79770f61ad683bdb1f72797d0dfb"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/answer-db-11892.json",
+      "bytes": 181,
+      "sha256": "8883296f80f6afe82bdb0d2b5c7571b3637790c7f70770e85d9611727c65f5f1"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/answer-ui-7040.json",
+      "bytes": 180,
+      "sha256": "304920fe468f3f9938e7282b46b47fd063e32ca6fdad1b8e17b02af8baa884ce"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/api-build-12992.json",
+      "bytes": 180,
+      "sha256": "e414bb05477e6edddecda27af71a6b6cb8795632fbe412d10f7765db29a3a027"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/api-build-18328.json",
+      "bytes": 180,
+      "sha256": "e414bb05477e6edddecda27af71a6b6cb8795632fbe412d10f7765db29a3a027"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/api-build-19740.json",
+      "bytes": 180,
+      "sha256": "e414bb05477e6edddecda27af71a6b6cb8795632fbe412d10f7765db29a3a027"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/audio-browser-17452.json",
+      "bytes": 185,
+      "sha256": "31c5e0e6b26f71234d1750aa974013e7166508679339275ccc6a024a168e2441"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/audio-browser-22748.json",
+      "bytes": 186,
+      "sha256": "ed9da2cfd21ec880f49f5071e8986ed53a38fd19d5ba2f9f9d49ea514b6accb5"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/audio-transport-17864.json",
+      "bytes": 186,
+      "sha256": "9b78593a7343c79be127b0c2aa7a2095e8c150823821607058ff9fbcf36dacc8"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/audio-transport-18004.json",
+      "bytes": 186,
+      "sha256": "9b78593a7343c79be127b0c2aa7a2095e8c150823821607058ff9fbcf36dacc8"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/audio-transport-21580.json",
+      "bytes": 186,
+      "sha256": "9b78593a7343c79be127b0c2aa7a2095e8c150823821607058ff9fbcf36dacc8"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/audio-transport-24376.json",
+      "bytes": 186,
+      "sha256": "9b78593a7343c79be127b0c2aa7a2095e8c150823821607058ff9fbcf36dacc8"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/audio-transport-2792.json",
+      "bytes": 186,
+      "sha256": "4c58460394ee4f48b1b69d6d5af855b5256e1656e7d1fbc6b4d2ff9ee8d73af9"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/audio-transport-6636.json",
+      "bytes": 186,
+      "sha256": "9b78593a7343c79be127b0c2aa7a2095e8c150823821607058ff9fbcf36dacc8"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/audio-ui-22056.json",
+      "bytes": 179,
+      "sha256": "953f49eb2c0e55812e544a1c38d7b9ba161bd93825650b49f992c0e474cafee7"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/browser3-16872.json",
+      "bytes": 180,
+      "sha256": "f59dc3cd1f9571033f59b5bb7e0af5d67b840bf1376a482c890464712070082a"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/browser3-8488.json",
+      "bytes": 182,
+      "sha256": "ab7c3168c31196fbc846ffbdb6e7b46d844631aa715cade4d95e21985302f077"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/browser4-14056.json",
+      "bytes": 182,
+      "sha256": "ec23a7759227baac9bc3907e0132cb0178371d4bf4ec33d4401617cde19f88e5"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/browser4-20744.json",
+      "bytes": 180,
+      "sha256": "527422c795a60b7c8fbfe010a27be6ad8445e5191522f49b779db06c8c39302a"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/contracts-build-16524.json",
+      "bytes": 186,
+      "sha256": "54f30751a1d32a7055b3853412c811dc1e6ef06b61731c1c1e822ae4b6b7f79e"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/contracts-build-5728.json",
+      "bytes": 186,
+      "sha256": "54f30751a1d32a7055b3853412c811dc1e6ef06b61731c1c1e822ae4b6b7f79e"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/engine-24204.json",
+      "bytes": 177,
+      "sha256": "a0754c9c3feb3f10e39016539179bcc961298af3bdb19a263d6856f831cd0479"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/execution-bounds-24472.json",
+      "bytes": 187,
+      "sha256": "d164de87d819ee8f91be670c7e305e930ff7d000d7da738c48dbd2cea04f3072"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/gate-8004.json",
+      "bytes": 175,
+      "sha256": "cf807a2471f8fa3bc8d5525e69c695ba74a0690af7f7ec5450c7e85b064d8137"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/llm-browser-23164.json",
+      "bytes": 184,
+      "sha256": "e276e8e2282a46b19613f5988c5146925ed9b6b9c611c0fd3cbd90ff93181810"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/llm-browser-6504.json",
+      "bytes": 183,
+      "sha256": "b18fb71f556efe8ec94c265cd46cc05c65ce6cbeba5efecea34e579ea0c7d108"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/llm-contract-10172.json",
+      "bytes": 183,
+      "sha256": "6a84f2c19b026463b05db24234a655f717f0fa65390a5272f816e76fd579bc4e"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/llm-db-8288.json",
+      "bytes": 177,
+      "sha256": "ac11f7efe2296c777e72894934954380ab6ab0016f4eb5203ec335a6725303d4"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/local-voice-api-15180.json",
+      "bytes": 186,
+      "sha256": "b3f2a96fcfcd4278259c146a3e70385d12a318372c42c74e1c12352ce963589e"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/local-voice-audio-22004.json",
+      "bytes": 188,
+      "sha256": "fa0b974b8354b733cd131f83095600025b7ef527626da2c4c663ade203e110b1"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/local-voice-queue-21324.json",
+      "bytes": 188,
+      "sha256": "2e2ed2b47f0bd9e8e3b012526cdeec2cd0787e620b6a7ebb89bfddada2fd9f53"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/local-voice-turn-3228.json",
+      "bytes": 187,
+      "sha256": "1eb9ad688a647ec7775be055cd7dfa3e67bed9c787f27e64ba3a8298732aeb71"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/mcp-13684.json",
+      "bytes": 174,
+      "sha256": "5b2f884ee570f3dde9664d42fb3fc8be55a50076accc5f5233165bf7b87f1b43"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/migrations-7432.json",
+      "bytes": 181,
+      "sha256": "9609d4599e8b586a99a94a97bbbf97483197d6c8125f18234220fa363fc7ea7b"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-13680.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-14184.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-15108.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-18224.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-18636.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-19304.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-19916.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-19960.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-20052.json",
+      "bytes": 181,
+      "sha256": "e2654e03095e4d236b8ecc46e42da59a8a19bcaedaf9d6676015f8e04f3faf10"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-23064.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-23084.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-24452.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-4944.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-6096.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-6160.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-6324.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-7800.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-9012.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-9448.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-9688.json",
+      "bytes": 181,
+      "sha256": "ee7f7d418ba2e18f56194f8611e860e22c0b8c35956b115d729c19fba569a81c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/operations-db-13832.json",
+      "bytes": 184,
+      "sha256": "b234cf02f007fa7b64b3a1a85193d63517949e81452fd1276b9b724e22589fb4"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/permissions-7488.json",
+      "bytes": 182,
+      "sha256": "e01fa8be4f18b4478a5f7e3976ab65264321833965964a6083d2adb20661a22a"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/persistence-10920.json",
+      "bytes": 182,
+      "sha256": "95d2ed44631bfdf161a0f5c14416c7ffd886186396e33d60ee56af62b0f45615"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/plans-19196.json",
+      "bytes": 176,
+      "sha256": "94fd86405f1db9df357bb1d46241bc43c562addb53e4f4299c6b1f5208c6d08f"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/provider-gate-19436.json",
+      "bytes": 184,
+      "sha256": "51a425508aac473f4e6d423c6f90d3c3e48c2cfb0a5e222590b557a325339af1"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/report-21948.json",
+      "bytes": 177,
+      "sha256": "53792e57d33502a33bae203165215aa1e3136292b5534e0edde3509790fcf4a2"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/report-security-24340.json",
+      "bytes": 186,
+      "sha256": "2e7721ea1feb2ec3c594dcb7abe534c2a7c0315341962f46fae6174473258206"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/runtime-jobs-19840.json",
+      "bytes": 183,
+      "sha256": "94a37ce7599bd866f99f55557decb2b593be552df9925a85a0aa2f3c204d0c5e"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/scenario-24136.json",
+      "bytes": 179,
+      "sha256": "c1362fc104410abcd7775d8bd9f7aea825f02b9412b96c6fb50442fc406e12d8"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/scorecard-4140.json",
+      "bytes": 180,
+      "sha256": "9dfdc5f030c8bb84adc524f9da8ca864d72863186c9ef5069247afaeea4adf9d"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/secret-canary-6620.json",
+      "bytes": 184,
+      "sha256": "c81011bd18357dbf75d28f50b5fb09e677984500dd876cf3e5ddb8bd5b1f7342"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/secret-scan-18400.json",
+      "bytes": 182,
+      "sha256": "33dd203980ebe37bc857ee60ffb22e3163dcc4fa71d2f05943a9fff8bc87b432"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/speech-contract-13160.json",
+      "bytes": 186,
+      "sha256": "57d994d40a05a3045ea78908c40b8ba03aa1ccb4802e52e4430e5e7055677989"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/speech-contract-14600.json",
+      "bytes": 186,
+      "sha256": "57d994d40a05a3045ea78908c40b8ba03aa1ccb4802e52e4430e5e7055677989"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/speech-contract-19584.json",
+      "bytes": 186,
+      "sha256": "57d994d40a05a3045ea78908c40b8ba03aa1ccb4802e52e4430e5e7055677989"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/speech-contract-21720.json",
+      "bytes": 186,
+      "sha256": "57d994d40a05a3045ea78908c40b8ba03aa1ccb4802e52e4430e5e7055677989"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/speech-contract-22552.json",
+      "bytes": 186,
+      "sha256": "57d994d40a05a3045ea78908c40b8ba03aa1ccb4802e52e4430e5e7055677989"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/speech-contract-22684.json",
+      "bytes": 186,
+      "sha256": "57d994d40a05a3045ea78908c40b8ba03aa1ccb4802e52e4430e5e7055677989"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/speech-contract-8524.json",
+      "bytes": 186,
+      "sha256": "57d994d40a05a3045ea78908c40b8ba03aa1ccb4802e52e4430e5e7055677989"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/speech-contract-9972.json",
+      "bytes": 186,
+      "sha256": "57d994d40a05a3045ea78908c40b8ba03aa1ccb4802e52e4430e5e7055677989"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/structured-provider-13680.json",
+      "bytes": 190,
+      "sha256": "090d62a759e1a54726f8b158f81d59ff5462504e1487a0f71d591f7afacea0a3"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/synthetic-e2e-23504.json",
+      "bytes": 184,
+      "sha256": "5f4247d28aa8bedfc0346785538cabb7e23187608ab71ae7c6a3c7f31326d033"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/tts-browser-16952.json",
+      "bytes": 183,
+      "sha256": "59b61e0da1ae3ddef6e4a14bbfc208530a39e83580ff7b335fd52357549ec773"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/tts-browser-2272.json",
+      "bytes": 184,
+      "sha256": "78313c20b2168493c808af6d2282daf88c93f8b056203c5bc5bc84aa8b2ad4d3"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/tts-closing-18912.json",
+      "bytes": 182,
+      "sha256": "782aca0f857a16c8579acb4ef813fb67a1f3fe733286e657a3af870582e71f9d"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/tts-transport-12836.json",
+      "bytes": 184,
+      "sha256": "1fbdb3479cc387e5ecdbfacf964bbd43a95467753966180d6265818dc08a0224"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/tts-transport-13728.json",
+      "bytes": 185,
+      "sha256": "4e486c9a7c1935d3d3c57882711f0626fdd4952d6defd64d7243eca53ae73907"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/tts-transport-20932.json",
+      "bytes": 184,
+      "sha256": "1fbdb3479cc387e5ecdbfacf964bbd43a95467753966180d6265818dc08a0224"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/tts-transport-2432.json",
+      "bytes": 184,
+      "sha256": "1fbdb3479cc387e5ecdbfacf964bbd43a95467753966180d6265818dc08a0224"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/tts-transport-4008.json",
+      "bytes": 184,
+      "sha256": "1fbdb3479cc387e5ecdbfacf964bbd43a95467753966180d6265818dc08a0224"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/tts-ui-20224.json",
+      "bytes": 177,
+      "sha256": "2ca129fc4548be10a00bd3bed3c899e6b7a2e6bef0451c1cef09fa569d1d4ca3"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/typechecks-17452.json",
+      "bytes": 181,
+      "sha256": "b50ee0605b77ad9cd03209dcfcea845ae161b8f40e021744047100f7b6ccc5d5"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/typechecks-21148.json",
+      "bytes": 181,
+      "sha256": "b50ee0605b77ad9cd03209dcfcea845ae161b8f40e021744047100f7b6ccc5d5"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/typechecks-22424.json",
+      "bytes": 181,
+      "sha256": "b50ee0605b77ad9cd03209dcfcea845ae161b8f40e021744047100f7b6ccc5d5"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/typechecks-23064.json",
+      "bytes": 181,
+      "sha256": "b50ee0605b77ad9cd03209dcfcea845ae161b8f40e021744047100f7b6ccc5d5"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/typechecks-2408.json",
+      "bytes": 181,
+      "sha256": "b50ee0605b77ad9cd03209dcfcea845ae161b8f40e021744047100f7b6ccc5d5"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/typechecks-32.json",
+      "bytes": 181,
+      "sha256": "b50ee0605b77ad9cd03209dcfcea845ae161b8f40e021744047100f7b6ccc5d5"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/typechecks-8056.json",
+      "bytes": 181,
+      "sha256": "b50ee0605b77ad9cd03209dcfcea845ae161b8f40e021744047100f7b6ccc5d5"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/ui-9716.json",
+      "bytes": 173,
+      "sha256": "870d1d23d47d17e3ac79047939c88b808c8409c64a72e5bc6a749e7ca327b0ad"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/voice-8544.json",
+      "bytes": 176,
+      "sha256": "444137922058c365db09c193098c3d9cbdb6bb0cf2e7fa46458d68277a371687"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/web-build-14812.json",
+      "bytes": 180,
+      "sha256": "2b6ad4aa496e5b07f7279dd278c1adec86259423956cca135ce9aec43c439c2a"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/web-build-2116.json",
+      "bytes": 180,
+      "sha256": "2b6ad4aa496e5b07f7279dd278c1adec86259423956cca135ce9aec43c439c2a"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/network/web-build-8648.json",
+      "bytes": 180,
+      "sha256": "2b6ad4aa496e5b07f7279dd278c1adec86259423956cca135ce9aec43c439c2a"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/operations-database-matrix.json",
+      "bytes": 9120,
+      "sha256": "0e7aff15eeef6faa67a0b6b224739c4dfbcc0a80ef2ad630e9508219905b22e2"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/operations-db.json",
+      "bytes": 464,
+      "sha256": "51b74a7358a36d1fce088ac324d0d21285070b39f19b382ae996ed4aee4a6d03"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/operations-db.log",
+      "bytes": 10649,
+      "sha256": "65699e2bcca1f498a2c06291596c8e3fedba18b53b1a5b0650e338add714765a"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/operations-unit-matrix.json",
+      "bytes": 3045,
+      "sha256": "e17a9e5047fbcbfb4c2b2eaf8496cca2b066cdf3e1fa466bef9f357f962b79c7"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/operations.json",
+      "bytes": 449,
+      "sha256": "d9a05cb9bd9b1b24d04ecd7e11356ca55b2fb82902f591c7b24f8152af1154e4"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/operations.log",
+      "bytes": 2907,
+      "sha256": "b1b9dc1d4d94317c35b985d50ed72ba6c4203019bbe09d28c92535b08c0a26fd"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/permissions.json",
+      "bytes": 385,
+      "sha256": "a0ff90264042e798fde92f0c4a2b4e39ef0e12ab4fa6f487612848f21b440afa"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/permissions.log",
+      "bytes": 3573,
+      "sha256": "0af1e504e05b59f9749ca32632c97ab3ee53b1b4ae72c27b61eb4ddef300178e"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/persistence.json",
+      "bytes": 418,
+      "sha256": "7640eda2c6cb2f25989f2b170bd0ddb3ac430bd15b55fd4e35b588d56b9e8292"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/persistence.log",
+      "bytes": 6606,
+      "sha256": "dd3f3cf0160075f0eeb99db4304ecfce91769ecc3a31edabe98356ec75b7bc48"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/plans.json",
+      "bytes": 366,
+      "sha256": "fe094b425fdab51d93258ea02081659e4b6d3078ef188138a300a50d27253ee5"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/plans.log",
+      "bytes": 10894,
+      "sha256": "1f33eef94e2224eb0e8eea978cd09185d47a74e429d423859976135f026e10ab"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/preservation-after.json",
+      "bytes": 2846,
+      "sha256": "5b04453f94da20826b144e9a08571f6d0ab096b371833bb01ce00751c565199e"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/protected-after.json",
+      "bytes": 138211,
+      "sha256": "660e40884c27a6b59b9f3426e7d770f734727dd7559231247688eae8de238833"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/protected-before.json",
+      "bytes": 138211,
+      "sha256": "660e40884c27a6b59b9f3426e7d770f734727dd7559231247688eae8de238833"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/provider-gate.json",
+      "bytes": 458,
+      "sha256": "6ad05da6539698f59468899dfd240c6336f7a022aa4fbb2ce49ffc09b4970fde"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/provider-gate.log",
+      "bytes": 11141,
+      "sha256": "2ade8815d506adf07329fddc49c542d58d5282f2bb4102feaf9832abaf5625e0"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/provider-matrix.json",
+      "bytes": 16304,
+      "sha256": "a444276ffd7c199ac8b5b58f51ca3b21f3f461ba93019be331490ba0c2b0a8ca"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/report-security.json",
+      "bytes": 425,
+      "sha256": "f46ece846b948903c37bb6341b777679e8c8225e754b6e1c8ac9ebedf05fbe44"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/report-security.log",
+      "bytes": 2679,
+      "sha256": "630fe3fbc6227d7bf4c2968359fc2a404812b2ab3c620bd2823cf58b60836553"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/report.json",
+      "bytes": 401,
+      "sha256": "99e6227ec117447c90d1deac3574d3c7ce4745a8ce1884921428c6c38255be47"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/report.log",
+      "bytes": 14808,
+      "sha256": "d7d1c1f270d80ce82749da82d04db39b35c96bc6f81945dbb07052943723cb85"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/resource-cleanup.json",
+      "bytes": 3612,
+      "sha256": "e5b26656fe44ed7fa013f944f60f1f88ee9dcb5749f602924e39aa22c48fb333"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/runtime-jobs.json",
+      "bytes": 446,
+      "sha256": "9ad4fe11dac3cebd7744b67e25912d5820d75332c8f931fb9dd64467e923b0e7"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/runtime-jobs.log",
+      "bytes": 21915,
+      "sha256": "2b53387fecbcb553d7d9ea749fcce33f65dc63cc6ceeb63fd4a1e8855965f42f"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/runtime-matrix.json",
+      "bytes": 49686,
+      "sha256": "49bedcb96a678678355f3dbcd90d0d9c0ceb13ba565ceaf99d3ef9b8f79f2b1c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/scenario.json",
+      "bytes": 371,
+      "sha256": "cb0bba343d2b90d34450fd97fb4692651a68228c28119a4667dba28c38a9e38e"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/scenario.log",
+      "bytes": 2101,
+      "sha256": "a55f9d84345e2db13b07e613ea762aae3495495cfbf425da726cd1d71eeeb8ce"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/scorecard.json",
+      "bytes": 382,
+      "sha256": "6ca814e6c01bf88feef03d8e12387ccc4c18eb779ad9b77f0cb1a55a997cabab"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/scorecard.log",
+      "bytes": 1841,
+      "sha256": "05837103a208f2e2830caf3af847ce865f4cbdf6e42f3a176bfbe68aca2a18ce"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/secret-canary.json",
+      "bytes": 418,
+      "sha256": "5f50a3ddc5625dbb3be65e7deb430c89ff8d2f5880fca5389f687fe1feb34afa"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/secret-canary.log",
+      "bytes": 87,
+      "sha256": "da030eee1cf2d42bffabc15156b91d919369eba500c4a5d7f9bd3ee7d2583cce"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/secret-scan.json",
+      "bytes": 412,
+      "sha256": "b7b5dc7c39c4ce8f23489f22e515d6228e4b2a24d5673a194dd3ed3e278b8b7d"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/secret-scan.log",
+      "bytes": 84,
+      "sha256": "11426d22eaaba62f2c03dce7e123018de46e3b8c4db48a1e56b66b4f94a38536"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/source-after.json",
+      "bytes": 84653,
+      "sha256": "f5b6eea089f5ef95f56230f7a087a4d8b5d2f1542175bcb0e64ab520208ce337"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/source-before.json",
+      "bytes": 84653,
+      "sha256": "f5b6eea089f5ef95f56230f7a087a4d8b5d2f1542175bcb0e64ab520208ce337"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/source-changes.json",
+      "bytes": 8871,
+      "sha256": "498c67c1413a84f83b223f3c761e4fe257566611cc99c6e4a058f2086370044f"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/source-final.json",
+      "bytes": 84653,
+      "sha256": "f5b6eea089f5ef95f56230f7a087a4d8b5d2f1542175bcb0e64ab520208ce337"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/speech-contract-matrix.json",
+      "bytes": 1119,
+      "sha256": "75a94ada74c6938fb4f1232f0f8effa1d34690a9acc7de913e3c19e627caf591"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/speech-contract.json",
+      "bytes": 439,
+      "sha256": "c58045f0aa6f5099c2f963743f0c58d90ee9980bac4a6e1563c7dd2ce775f196"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/speech-contract.log",
+      "bytes": 3562,
+      "sha256": "83e01a13201c41dcf7999ee057fb99cac4ee8e26da53091b200ace6b9f301667"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/speech-secret-proof.json",
+      "bytes": 206,
+      "sha256": "0a1d1314021944a9f9ffd6d16b3f7a892c1aaddc3ec2782f050b12dbf1b8bc3c"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/structured-provider.json",
+      "bytes": 449,
+      "sha256": "6e76f40e3f350fb0bc32022f3e9493519c70c2b9d0edc245debc5c0d5d707ea2"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/structured-provider.log",
+      "bytes": 355,
+      "sha256": "8a51f720fffba5218de9f6464051efb1565e0ba64a30259b3f2eaf1b5f907169"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/summary.json",
+      "bytes": 65784,
+      "sha256": "374969e8192b7965b351aa2fdacafb05d454ffcc425c73823b7d8bea7b73c3e0"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/synthetic-e2e-matrix.json",
+      "bytes": 3083,
+      "sha256": "c4b5c8bff822f0de1fa76d12de93c83db7762b1982b371df239e2402fa0bf351"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/synthetic-e2e.json",
+      "bytes": 514,
+      "sha256": "238c7c9b5ae60b2c8d28b5568c967050f4b4936a74eaf752b5b49a2945fd85b7"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/synthetic-e2e.log",
+      "bytes": 4053,
+      "sha256": "326ccc2ceaa7c6082531d67345d301d3ec68c52d8c49aca5cde37fb6afc90ae3"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/tts-browser-cdp-metadata.json",
+      "bytes": 37716,
+      "sha256": "60d167deb3e1257f50ab7751608e0ae4d96bd19dd4fca7fe8d74c96a725e6870"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/tts-browser.json",
+      "bytes": 408,
+      "sha256": "72fca00e3d01a0765106641076e8042c2627d0d65a6dce7bf2351e22fac72d03"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/tts-browser.log",
+      "bytes": 2278,
+      "sha256": "bc388bd203ee52e101341e21eb1c966f5ed14be3a3abecc9cd4444f268358b63"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/tts-closing-matrix.json",
+      "bytes": 866,
+      "sha256": "9c60c33de3426999cbbd215051ee2971cbb5a0c966befa301c0d410bd29b6f6a"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/tts-closing.json",
+      "bytes": 454,
+      "sha256": "c544fa0b1cd49690ec0dc3aa4577aca78f59a0f35a1cc6b5b69ea14ddf2f4a55"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/tts-closing.log",
+      "bytes": 1143,
+      "sha256": "11283a3e22a0f9c9bb6d116335f9acde3b16dd2d5f24c543f5fdff22903d1bbb"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/tts-transport-matrix.json",
+      "bytes": 4169,
+      "sha256": "1c830faf8cca46d55088708847d5bcd4472a0f35346ff1184672db90a9f77479"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/tts-transport.json",
+      "bytes": 410,
+      "sha256": "2519c4b7195fe72d3a10b1278a87100593c85ea7e70153ac2632bc611e707eb6"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/tts-transport.log",
+      "bytes": 4644,
+      "sha256": "f0e870a5718330411a4db4a5fd85b13776bfc8bc2a13338f8d81c07fff95bcad"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/tts-ui.json",
+      "bytes": 413,
+      "sha256": "d375b9a8d9bcb112819416a333f152e7a811f4125677a1424f4d78bb98779cf0"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/tts-ui.log",
+      "bytes": 1235,
+      "sha256": "f837c5490fe103bee6a029cb0e734783eaa9ef1c455cfae0c8b78a74f52326e4"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/typechecks.json",
+      "bytes": 355,
+      "sha256": "912e637ce44e01eaf18f6d9a098bc9efe2d4eb30dcb71bce4f95680379e035e0"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/typechecks.log",
+      "bytes": 2285,
+      "sha256": "8009f76a4ca82a037132be7b63e12fdd068c69dfb474422ef1772fd947f9e26f"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/ui.json",
+      "bytes": 384,
+      "sha256": "25753f9903d79ce84d0e397a5d627d8023785a8d5d8a0bb9c3981e046762a65f"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/ui.log",
+      "bytes": 1725,
+      "sha256": "ccc3a5705716c6ee026bd92f2a3bfab43b449d135521f32a9b6015a9a614fb72"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/voice.json",
+      "bytes": 368,
+      "sha256": "d799fd216e3b51ede7167f12843b565cc026ed94cc45e7a0beac3676b363e643"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/voice.log",
+      "bytes": 1211,
+      "sha256": "0b0bed5d9bdd596d02eecf008ba4efa59079f740aceba0eca0ca220c332e4409"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/web-build.json",
+      "bytes": 373,
+      "sha256": "196ebee18e467bd234910c07e6b1e3e4c99cae24d9c53d905a12edfad2fa7112"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/runs/final-20261105/web-build.log",
+      "bytes": 1117,
+      "sha256": "e9e04c21356fdf5f3f5597804fdf02f459880497c315dbaa2358faf2cae3140f"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/secret-check.mjs",
+      "bytes": 1418,
+      "sha256": "a1f5d95fca21ff82fbb5b4420f4f7a89525e85a06cfc947df34a64201e623168"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/state.mjs",
+      "bytes": 16795,
+      "sha256": "ac0251ad9470d98651ea23677ab7d1b2251d08cda480d2e9c18ab8f5537dfa5f"
+    },
+    {
+      "path": "docs/ai-interviewer/llm-orchestration/verify.mjs",
+      "bytes": 2436,
+      "sha256": "3c0bebd24dc96fe529fb1883a1bf22ae84af4192849db275489254c1a1416f38"
+    }
+  ]
+}

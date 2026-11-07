@@ -1,0 +1,23 @@
+{
+  "syntheticOnly": true,
+  "parallelRequests": 2,
+  "rows": [
+    {
+      "lang": "en",
+      "status": 200,
+      "latencyMs": 1458,
+      "audioBytes": 52268,
+      "nonSilentPcm": true
+    },
+    {
+      "lang": "ar",
+      "status": 200,
+      "latencyMs": 2752,
+      "audioBytes": 100908,
+      "nonSilentPcm": true
+    }
+  ],
+  "http429Count": 0,
+  "pass": true,
+  "physicalSpeakerTested": false
+}

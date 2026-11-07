@@ -1,0 +1,973 @@
+{
+  "version": "CEB-contracts-v1",
+  "sourceHashes": {
+    "shared/src/index.ts": "6d7bce705eecb5c149edd8107f62919ffaae7f54f997ee0f739223ef04900ad4",
+    "shared/src/primitives.ts": "1f1f6435e16777c7f2d2c5f88c8faaabdfaba2dc679ab30288706a8cb7f01d72",
+    "shared/src/actions.ts": "1af23cc6343127f5fb6078fdd2dcd24849f55dd0b32e690ad4edcd93bb892737",
+    "shared/src/payroll.ts": "eda527d9956087ead25ae641d210eb86be86b194326baaf3d16cbcf5c5680898",
+    "shared/src/navigation.ts": "a45eb561efc746fbf5086c6654f3beae2b338da8a2ba4f239da343d6e0955356",
+    "shared/src/jobDescriptions.ts": "1fdfe62ad5ca868872bda6bc4e7187e3c9f56e4cc6cbd2314d62d10cafc045fd",
+    "shared/src/auth.ts": "72946857fba78d390c0256034e280563847bf2c1065981f3e4612f4d89415820",
+    "shared/src/attendance.ts": "fcda04d3871cb4e34390c59edbb8d29cecf9b8bb91123b057c201ea868de03fb",
+    "shared/src/leave.ts": "39c1908dc353ec54983638db0d28f0a1c074ca299dec98e1228698c79cb8c355",
+    "shared/src/people.ts": "1a610c16934b4de82e9bfcadcc756f08c179f727f54b9773eeea8110518b048b",
+    "shared/src/guide.ts": "b94967b8bf415f37188305d13f6530c60b3ca812d4a74a874317aad5afeba899",
+    "shared/src/lookup.ts": "568e33ad2bad91e54020488160395e191316fb7cc8bf2147d7a81df1df501484",
+    "shared/src/recruitment.ts": "f3648fa0b1e875aa4fa929326e9e5f12df369d07958efaaccf8a41790d18a231",
+    "shared/src/screening.ts": "ccf55fa2ae88506301248c16de811ccc0d581d6ef6397093462a7c0022fbf4b8",
+    "shared/src/copilot.ts": "9956b4cf95579b20c2769e9906ccf1e9804644e2ac7df4708001b0cfda25e27e",
+    "shared/src/knowledge.ts": "cf9a67726fcaac57044ccfed66b34cde8ffffc76c69b117980326c65f635f5d6",
+    "shared/src/reports.ts": "921449d819310f7530a537f1c64e20a8e0bd4e3f906a469e658addf91bff42a2",
+    "shared/src/voice.ts": "3a5f9f26e2565b30c2ca791b50780feb94a982a921234495235c8f8c55fe995b",
+    "shared/src/scorecard.ts": "4d69cd15da0e81423f3c28b1b783e2988203222f483e15d6701a58d51bc13205",
+    "shared/src/feed.ts": "33bee766ede358e9d2d747dc7a9ce374f392bdf9dda1b810e17ab1cd8bceb8db",
+    "shared/src/calendar.ts": "c3fa8f3677beff3b89a48ed0b830443b38b8b8783d66b9ca51b23d5d582c9359",
+    "shared/src/events.ts": "478d880fdeb2a0cbc847c8070969d74fd5bcddfb0714ce895c15f4537cbd0448",
+    "shared/src/assistantReview.ts": "56ea4206a6b507d96eabbb74a75126a27f6ae53effa37fbb619bc620c0dfca29",
+    "shared/src/hrAttention.ts": "ca117856d77c3245ef3867c88b14590a48e60357d834180108d6461ab642de2a",
+    "server/src/copilot/validatePlan.ts": "c8668f81f35074ba393206906b08b22852fcbbbdb94b16f8b1416fd288512719",
+    "server/src/copilot/intents.ts": "848946826f105bb51d721626d08d752853f5d163b2bfdb045c1fce20400c7a82",
+    "server/src/copilot/actions.ts": "ea182a2d40f98bffe9cfd94acf67fc2d1abf1da10856af7abcb592657b07a41c",
+    "server/src/permissions.ts": "76f0b9033ca44f6ae95bc441eabb24fa2cab2374cee088f0f7469397682cdbab"
+  },
+  "questionFields": [
+    "intent",
+    "period",
+    "month",
+    "year",
+    "department",
+    "personName",
+    "employeeNumber",
+    "rankBy",
+    "payrollTopic",
+    "reportType",
+    "refusalReason"
+  ],
+  "actionFields": [
+    "action",
+    "leaveKind",
+    "startDate",
+    "endDate",
+    "documentKind",
+    "text",
+    "title",
+    "personName",
+    "employeeNumber",
+    "decision",
+    "stage",
+    "role",
+    "email",
+    "location",
+    "employmentType",
+    "language",
+    "screen",
+    "scrollTarget",
+    "amount",
+    "opensAt",
+    "durationMinutes",
+    "questionNumber",
+    "payrollAdjustmentKind",
+    "employeeNumberNew",
+    "jobTitle",
+    "department",
+    "jobDescriptionSection",
+    "refusalReason"
+  ],
+  "intents": [
+    "myAttendance",
+    "myLeaveBalance",
+    "myRequests",
+    "myPayslips",
+    "payrollInsights",
+    "payrollReadiness",
+    "payrollRunSummary",
+    "payrollAuditSummary",
+    "payrollFindings",
+    "teamPresentNow",
+    "teamAttendance",
+    "teamOnLeave",
+    "teamPendingApprovals",
+    "teamRoster",
+    "headcount",
+    "departmentBreakdown",
+    "departmentAbsenceComparison",
+    "orgAttendance",
+    "orgLeaveSummary",
+    "recruitmentSummary",
+    "openJobOpenings",
+    "listApplications",
+    "whoIsPresentNow",
+    "attendanceRanking",
+    "generateReport",
+    "myReport",
+    "employeeFile",
+    "knowledge",
+    "howDoI",
+    "doAction",
+    "greeting",
+    "outOfScope"
+  ],
+  "actions": [
+    "checkIn",
+    "checkOut",
+    "requestLeave",
+    "requestDocument",
+    "cancelRequest",
+    "openScreen",
+    "filterScreen",
+    "scrollPage",
+    "openEmployeeFile",
+    "setLanguage",
+    "signOut",
+    "markAllNotificationsRead",
+    "decideRequest",
+    "postAnnouncement",
+    "updateAnnouncement",
+    "deleteAnnouncement",
+    "addCalendarEvent",
+    "remindCheckout",
+    "resetPassword",
+    "addEmployee",
+    "setSalary",
+    "createPayrollAdjustment",
+    "approvePayrollAdjustment",
+    "reviewPayrollFinding",
+    "updateEmployeeDetails",
+    "generateJobDescription",
+    "regenerateJobDescriptionSection",
+    "addKnowledgeText",
+    "deleteKnowledgeText",
+    "approveJobDescription",
+    "createOpeningFromJobDescription",
+    "deleteJobDescription",
+    "createJob",
+    "updateJobOpening",
+    "publishOpening",
+    "moveApplication",
+    "analyseApplication",
+    "generateInterview",
+    "reviewInterviewQuestion",
+    "evaluateInterview",
+    "sendInterview",
+    "runPayroll",
+    "auditPayroll",
+    "approvePayroll",
+    "deleteCalendarEvent",
+    "changeEmployeeRole",
+    "closeOpening",
+    "deleteOpening"
+  ],
+  "periods": [
+    "today",
+    "thisWeek",
+    "thisMonth",
+    "lastMonth",
+    "lastSixMonths",
+    "thisYear",
+    "calendarMonth"
+  ],
+  "roles": [
+    "employee",
+    "manager",
+    "hr",
+    "admin"
+  ],
+  "allowedIntents": {
+    "employee": [
+      "greeting",
+      "doAction",
+      "myAttendance",
+      "myLeaveBalance",
+      "myRequests",
+      "myPayslips",
+      "myReport",
+      "howDoI",
+      "knowledge"
+    ],
+    "manager": [
+      "greeting",
+      "doAction",
+      "myAttendance",
+      "myLeaveBalance",
+      "myRequests",
+      "myPayslips",
+      "teamPresentNow",
+      "teamAttendance",
+      "teamOnLeave",
+      "teamPendingApprovals",
+      "teamRoster",
+      "attendanceRanking",
+      "generateReport",
+      "myReport",
+      "employeeFile",
+      "howDoI",
+      "knowledge"
+    ],
+    "hr": [
+      "greeting",
+      "doAction",
+      "myAttendance",
+      "myLeaveBalance",
+      "myRequests",
+      "myPayslips",
+      "payrollInsights",
+      "payrollReadiness",
+      "payrollRunSummary",
+      "payrollAuditSummary",
+      "payrollFindings",
+      "teamPresentNow",
+      "teamAttendance",
+      "teamOnLeave",
+      "teamPendingApprovals",
+      "teamRoster",
+      "headcount",
+      "departmentBreakdown",
+      "departmentAbsenceComparison",
+      "orgAttendance",
+      "orgLeaveSummary",
+      "recruitmentSummary",
+      "openJobOpenings",
+      "listApplications",
+      "whoIsPresentNow",
+      "attendanceRanking",
+      "generateReport",
+      "myReport",
+      "employeeFile",
+      "howDoI",
+      "knowledge"
+    ],
+    "admin": [
+      "greeting",
+      "doAction",
+      "myAttendance",
+      "myLeaveBalance",
+      "myRequests",
+      "myPayslips",
+      "payrollInsights",
+      "payrollReadiness",
+      "payrollRunSummary",
+      "payrollAuditSummary",
+      "payrollFindings",
+      "teamPresentNow",
+      "teamAttendance",
+      "teamOnLeave",
+      "teamPendingApprovals",
+      "teamRoster",
+      "headcount",
+      "departmentBreakdown",
+      "departmentAbsenceComparison",
+      "orgAttendance",
+      "orgLeaveSummary",
+      "recruitmentSummary",
+      "openJobOpenings",
+      "listApplications",
+      "whoIsPresentNow",
+      "attendanceRanking",
+      "generateReport",
+      "myReport",
+      "employeeFile",
+      "howDoI",
+      "knowledge"
+    ]
+  },
+  "allowedActions": {
+    "employee": [
+      "checkIn",
+      "checkOut",
+      "requestLeave",
+      "requestDocument",
+      "cancelRequest",
+      "openScreen",
+      "filterScreen",
+      "scrollPage",
+      "setLanguage",
+      "signOut",
+      "markAllNotificationsRead"
+    ],
+    "manager": [
+      "checkIn",
+      "checkOut",
+      "requestLeave",
+      "requestDocument",
+      "cancelRequest",
+      "openScreen",
+      "filterScreen",
+      "scrollPage",
+      "setLanguage",
+      "signOut",
+      "markAllNotificationsRead",
+      "decideRequest",
+      "postAnnouncement",
+      "updateAnnouncement",
+      "deleteAnnouncement",
+      "addCalendarEvent",
+      "deleteCalendarEvent"
+    ],
+    "hr": [
+      "checkIn",
+      "checkOut",
+      "requestLeave",
+      "requestDocument",
+      "cancelRequest",
+      "openScreen",
+      "filterScreen",
+      "scrollPage",
+      "openEmployeeFile",
+      "setLanguage",
+      "signOut",
+      "markAllNotificationsRead",
+      "postAnnouncement",
+      "updateAnnouncement",
+      "deleteAnnouncement",
+      "addCalendarEvent",
+      "remindCheckout",
+      "resetPassword",
+      "addEmployee",
+      "setSalary",
+      "createPayrollAdjustment",
+      "approvePayrollAdjustment",
+      "reviewPayrollFinding",
+      "updateEmployeeDetails",
+      "generateJobDescription",
+      "regenerateJobDescriptionSection",
+      "addKnowledgeText",
+      "deleteKnowledgeText",
+      "approveJobDescription",
+      "createOpeningFromJobDescription",
+      "deleteJobDescription",
+      "createJob",
+      "updateJobOpening",
+      "publishOpening",
+      "moveApplication",
+      "analyseApplication",
+      "generateInterview",
+      "reviewInterviewQuestion",
+      "evaluateInterview",
+      "sendInterview",
+      "runPayroll",
+      "auditPayroll",
+      "approvePayroll",
+      "deleteCalendarEvent",
+      "changeEmployeeRole",
+      "closeOpening",
+      "deleteOpening"
+    ],
+    "admin": [
+      "checkIn",
+      "checkOut",
+      "requestLeave",
+      "requestDocument",
+      "cancelRequest",
+      "openScreen",
+      "filterScreen",
+      "scrollPage",
+      "openEmployeeFile",
+      "setLanguage",
+      "signOut",
+      "markAllNotificationsRead",
+      "postAnnouncement",
+      "updateAnnouncement",
+      "deleteAnnouncement",
+      "addCalendarEvent",
+      "remindCheckout",
+      "resetPassword",
+      "addEmployee",
+      "setSalary",
+      "createPayrollAdjustment",
+      "approvePayrollAdjustment",
+      "reviewPayrollFinding",
+      "updateEmployeeDetails",
+      "generateJobDescription",
+      "regenerateJobDescriptionSection",
+      "addKnowledgeText",
+      "deleteKnowledgeText",
+      "approveJobDescription",
+      "createOpeningFromJobDescription",
+      "deleteJobDescription",
+      "createJob",
+      "updateJobOpening",
+      "publishOpening",
+      "moveApplication",
+      "analyseApplication",
+      "generateInterview",
+      "reviewInterviewQuestion",
+      "evaluateInterview",
+      "sendInterview",
+      "runPayroll",
+      "auditPayroll",
+      "approvePayroll",
+      "deleteCalendarEvent",
+      "changeEmployeeRole",
+      "closeOpening",
+      "deleteOpening"
+    ]
+  },
+  "questionJSONSchema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+      "intent": {
+        "type": "string",
+        "enum": [
+          "myAttendance",
+          "myLeaveBalance",
+          "myRequests",
+          "myPayslips",
+          "payrollInsights",
+          "payrollReadiness",
+          "payrollRunSummary",
+          "payrollAuditSummary",
+          "payrollFindings",
+          "teamPresentNow",
+          "teamAttendance",
+          "teamOnLeave",
+          "teamPendingApprovals",
+          "teamRoster",
+          "headcount",
+          "departmentBreakdown",
+          "departmentAbsenceComparison",
+          "orgAttendance",
+          "orgLeaveSummary",
+          "recruitmentSummary",
+          "openJobOpenings",
+          "listApplications",
+          "whoIsPresentNow",
+          "attendanceRanking",
+          "generateReport",
+          "myReport",
+          "employeeFile",
+          "knowledge",
+          "howDoI",
+          "doAction",
+          "greeting",
+          "outOfScope"
+        ]
+      },
+      "period": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "today",
+              "thisWeek",
+              "thisMonth",
+              "lastMonth",
+              "lastSixMonths",
+              "thisYear",
+              "calendarMonth"
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "month": {
+        "anyOf": [
+          {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 12
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "year": {
+        "anyOf": [
+          {
+            "type": "integer",
+            "minimum": 2000,
+            "maximum": 2100
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "department": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "personName": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "employeeNumber": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "rankBy": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "present",
+              "absent",
+              "late"
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "payrollTopic": {
+        "default": null,
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "summary",
+              "readiness",
+              "adjustments",
+              "overtime",
+              "bonuses",
+              "deductions",
+              "highestNetPay",
+              "lowestNetPay",
+              "contracts",
+              "variance",
+              "findings"
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "reportType": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "attendance",
+              "leave",
+              "employees",
+              "newHires",
+              "recruitment",
+              "department",
+              "payroll",
+              "employeeFile"
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "refusalReason": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "notHrData",
+              "notPermitted",
+              "unclear"
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ]
+      }
+    },
+    "required": [
+      "intent",
+      "period",
+      "month",
+      "year",
+      "department",
+      "personName",
+      "employeeNumber",
+      "rankBy",
+      "payrollTopic",
+      "reportType",
+      "refusalReason"
+    ],
+    "additionalProperties": false
+  },
+  "actionJSONSchema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+      "action": {
+        "type": "string",
+        "enum": [
+          "checkIn",
+          "checkOut",
+          "requestLeave",
+          "requestDocument",
+          "cancelRequest",
+          "openScreen",
+          "filterScreen",
+          "scrollPage",
+          "openEmployeeFile",
+          "setLanguage",
+          "signOut",
+          "markAllNotificationsRead",
+          "decideRequest",
+          "postAnnouncement",
+          "updateAnnouncement",
+          "deleteAnnouncement",
+          "addCalendarEvent",
+          "remindCheckout",
+          "resetPassword",
+          "addEmployee",
+          "setSalary",
+          "createPayrollAdjustment",
+          "approvePayrollAdjustment",
+          "reviewPayrollFinding",
+          "updateEmployeeDetails",
+          "generateJobDescription",
+          "regenerateJobDescriptionSection",
+          "addKnowledgeText",
+          "deleteKnowledgeText",
+          "approveJobDescription",
+          "createOpeningFromJobDescription",
+          "deleteJobDescription",
+          "createJob",
+          "updateJobOpening",
+          "publishOpening",
+          "moveApplication",
+          "analyseApplication",
+          "generateInterview",
+          "reviewInterviewQuestion",
+          "evaluateInterview",
+          "sendInterview",
+          "runPayroll",
+          "auditPayroll",
+          "approvePayroll",
+          "deleteCalendarEvent",
+          "changeEmployeeRole",
+          "closeOpening",
+          "deleteOpening"
+        ]
+      },
+      "leaveKind": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "annual",
+              "sick",
+              "unpaid"
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "startDate": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "endDate": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "documentKind": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "certificate",
+              "detailsUpdate"
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "text": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "title": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "personName": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "employeeNumber": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "decision": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "approve",
+              "reject"
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "stage": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "new",
+              "underReview",
+              "shortlisted",
+              "interview",
+              "offer",
+              "hired",
+              "rejected"
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "role": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "employee",
+              "manager",
+              "hr",
+              "admin"
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "email": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "location": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "employmentType": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "fullTime",
+              "partTime",
+              "contract",
+              "internship"
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "language": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "en",
+              "ar"
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "screen": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "scrollTarget": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "up",
+              "down",
+              "top",
+              "bottom"
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "amount": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "opensAt": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "durationMinutes": {
+        "anyOf": [
+          {
+            "type": "integer",
+            "minimum": 15,
+            "maximum": 240
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "questionNumber": {
+        "anyOf": [
+          {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "payrollAdjustmentKind": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "overtime",
+              "bonus",
+              "allowance",
+              "deduction"
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "employeeNumberNew": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "jobTitle": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "department": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "jobDescriptionSection": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "title",
+              "summary",
+              "responsibilities",
+              "requiredQualifications",
+              "requiredSkills",
+              "preferredSkills",
+              "softSkills",
+              "experience",
+              "education",
+              "workingConditions"
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "refusalReason": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "notPermitted",
+              "unclear",
+              "notFound",
+              "notApplicable"
+            ]
+          },
+          {
+            "type": "null"
+          }
+        ]
+      }
+    },
+    "required": [
+      "action",
+      "leaveKind",
+      "startDate",
+      "endDate",
+      "documentKind",
+      "text",
+      "title",
+      "personName",
+      "employeeNumber",
+      "decision",
+      "stage",
+      "role",
+      "email",
+      "location",
+      "employmentType",
+      "language",
+      "screen",
+      "scrollTarget",
+      "amount",
+      "opensAt",
+      "durationMinutes",
+      "questionNumber",
+      "payrollAdjustmentKind",
+      "employeeNumberNew",
+      "jobTitle",
+      "department",
+      "jobDescriptionSection",
+      "refusalReason"
+    ],
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "decision": "ADMITTED_FOR_CONTROLLED_EXPERIMENT_DATA_ONLY",
+  "frozenAt": "2026-10-26T14:25:32.683Z",
+  "datasetSha256": "264400230331a4fbc638889ace7cce9d330f36a4916d204858daf78e541e5ee0",
+  "manifestSha256": "1f3b0c9cbc9c4231ca9e432d47ed6521a14f8a04ddaeaa106f93ce4d0a582346",
+  "allDataAdmissionGatesPass": true,
+  "gates": {
+    "schema": true,
+    "semantics": true,
+    "privacy": true,
+    "duplicates": true,
+    "familySplit": true,
+    "crossSplit": true,
+    "coverage": true,
+    "frozen404": true,
+    "excludedDatasets": true,
+    "v1Independence": true
+  },
+  "admittedRows": 8000,
+  "sourceOrThresholdChangedAfterProtectedFeedback": false,
+  "noMatchTextOrIdsDisclosed": true,
+  "humanReviewPerformed": false,
+  "trainingStarted": false,
+  "trainingAutomaticallyLaunched": false,
+  "nextStep": "Prepare pinned-tokenizer/loss-mask and isolated QLoRA runtime checks under a separate instruction; no training has started"
+}

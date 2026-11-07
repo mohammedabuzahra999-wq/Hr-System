@@ -1,0 +1,49 @@
+{
+  "recordedAtUtc": "2026-11-03 11:33:04 UTC",
+  "actions": [
+    {
+      "command": "node docs/ai-interviewer/phase-5.4/run.mjs final-20261103 integrity",
+      "exitCode": 0,
+      "output": "{\"source\":{\"unchanged\":true,\"fileCount\":428,\"filesDigest\":\"74d0782e087e5ee8109a86fd6fd42e0990b07898ae6015b126be2b1713022e5a\",\"manifestSHA256\":\"9c7c675970cbc16c1b5d42715ce2183b7c01b1f50cd50ea39f15dfb61fa3923c\"},\"protected\":{\"unchanged\":true,\"fileCount\":608,\"filesDigest\":\"812485b2bea41f5f1c16cfaa1be06810f0399263caa580ed4ba8b5dff522e420\",\"manifestSHA256\":\"7a7466a2bb2b1122b200088d3ec023663f7b807c486fd069a59fba18ae4917f1\"}}\n"
+    },
+    {
+      "command": "node docs/ai-interviewer/phase-5.4/run.mjs final-20261103 cleanup",
+      "exitCode": 0,
+      "output": "Removed only this run temporary browser profiles\n"
+    },
+    {
+      "command": "node docs/ai-interviewer/phase-5.4/run.mjs development-1 cleanup",
+      "exitCode": 0,
+      "output": "Removed only this run temporary browser profiles\n"
+    },
+    {
+      "command": "node docs/ai-interviewer/phase-5.4/run.mjs development-2 cleanup",
+      "exitCode": 0,
+      "output": "Removed only this run temporary browser profiles\n"
+    },
+    {
+      "command": "node docs/ai-interviewer/phase-5.4/run.mjs development-3 cleanup",
+      "exitCode": 0,
+      "output": "Removed only this run temporary browser profiles\n"
+    },
+    {
+      "command": "node docs/ai-interviewer/phase-5.4/run.mjs development-4 cleanup",
+      "exitCode": 0,
+      "output": "Removed only this run temporary browser profiles\n"
+    },
+    {
+      "command": "node docs/ai-interviewer/phase-5.4/cleanup-aborted.mjs docs/ai-interviewer/phase-5.4/runs/final-20261103/post-run-database-cleanup.json",
+      "exitCode": 0,
+      "output": "{\"removedAbortedSyntheticDatabases\":0,\"activeDatabasesRemoved\":0}\n"
+    },
+    {
+      "command": "& 'C:\\Users\\PC-LAB\\Downloads\\hr-app-step2\\.local-dev\\ai-interviewer-postgres\\pgsql\\bin\\pg_ctl.exe' -D 'C:\\Users\\PC-LAB\\Downloads\\hr-app-step2\\.local-dev\\ai-interviewer-postgres\\data' -m fast -w stop",
+      "exitCode": 0,
+      "output": "waiting for server to shut down.... done\r\nserver stopped\r\n"
+    }
+  ],
+  "verification": {
+    "exitCode": 0,
+    "output": "pg_ctl: no server running\r\n{\"RemainingPhase54TemporaryRuns\":0,\"TestNodeProcesses\":0}\r\n"
+  }
+}

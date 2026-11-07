@@ -1,0 +1,23 @@
+// Additional required-field, slot-consistency and script checks; no protected data read.
+import fs from 'node:fs'
+import path from 'node:path'
+import {z} from 'zod'
+import {contracts,BASE,hash} from './contracts.mjs'
+const K=await contracts(),langs=['en','ar-MSA','ar-JO','mixed']
+const nullablePlan=K.shared.copilotPlanSchema.nullable(),nullableAction=K.shared.copilotActionPlanSchema.nullable()
+const envelope=z.object({schemaVersion:z.literal('CEB-assets-v1'),assetVersion:z.literal('v1'),recordId:z.string().min(1),purpose:z.enum(['runtime-reference-only','base-model-selection-only-never-training']),task:z.enum(['question-reference','action-reference']),familyId:z.string().min(1),templateId:z.string().min(1),episodeId:z.string().min(1),language:z.enum(langs),styleTags:z.array(z.string()),synthetic:z.literal(true),origin:z.string().min(1),input:z.object({text:z.string().min(2).max(500),trustedRole:z.enum(['employee','manager','hr','admin']),context:z.object({currentPage:z.literal('/assistant')}).strict(),referenceDate:z.literal('2027-06-15')}).strict(),expected:z.object({questionPlan:nullablePlan,actionPlan:nullableAction,orchestration:z.object({behavior:z.enum(['read','action','knowledge','help','greeting','out_of_scope','clarify','unsupported']),clarification:z.enum(['notRequired','required','fixtureDependent']),confirmation:z.enum(['notApplicable','safeUiExceptionIfValid','reviewIfProposalComplete']),scope:z.enum(['self','team','company','system','none','named_employee','named_applicant']),executionPermitted:z.literal(false)}).strict()}).strict(),modelEligibility:z.literal('UNASSESSED_REQUIRES_ADMITTED_CONTROLLED_ROUTER'),provenance:z.object({recipe:z.literal('generation/templates-v1.mjs'),recipeHash:z.string().regex(/^[a-f0-9]{64}$/),constructionIndex:z.number().int().min(1),split:z.enum(['R','S']),creator:z.string().min(1),reviewStatus:z.literal('PENDING_INDEPENDENT_REVIEW')}).strict(),wireProjection:z.object({inputText:z.string().min(2).max(500),questionPlan:nullablePlan,actionPlan:nullableAction}).strict(),syntheticRendering:z.record(z.string(),z.string()),representation:z.literal('symbolic-master-with-declared-wire-projection')}).strict()
+const results={version:'CEB-envelope-quality-v1',timestamp:new Date().toISOString(),protectedDataRead:false,modelCalls:0,assets:{}}
+for(const name of ['runtime-reference-v1.jsonl','model-selection-v1.jsonl']){
+ const bytes=fs.readFileSync(path.join(BASE,name)),rows=bytes.toString('utf8').trim().split(/\r?\n/).map(JSON.parse),errors=[],types={},roleCounts={employee:0,manager:0,hr:0,admin:0};let parsed=0
+ for(const r of rows){if(!envelope.safeParse(r).success){errors.push({recordId:r.recordId,code:'required_envelope_fields'});continue}parsed++;roleCounts[r.input.trustedRole]++
+  let text=r.input.text.replace(/<([A-Z][A-Z_]*?)_\d+>/g,(_,type)=>{types[type]=(types[type]??0)+1;return ''});const a=/\p{Script=Arabic}/u.test(text),l=/[A-Za-z]/.test(text)
+  if(r.language==='en'&&(!l||a)||r.language==='mixed'&&(!l||!a)||r.language.startsWith('ar-')&&!a)errors.push({recordId:r.recordId,code:'language_script_mismatch'})
+  const project=v=>typeof v==='string'?Object.entries(r.syntheticRendering).reduce((s,[k,val])=>s.split(k).join(val),v):v===null?null:typeof v==='object'?Object.fromEntries(Object.entries(v).map(([k,val])=>[k,project(val)])):v
+  for(const [actual,expected]of [[r.wireProjection.inputText,project(r.input.text)],[r.wireProjection.questionPlan,project(r.expected.questionPlan)],[r.wireProjection.actionPlan,project(r.expected.actionPlan)]])if(JSON.stringify(actual)!==JSON.stringify(expected))errors.push({recordId:r.recordId,code:'wire_symbolic_inconsistency'})
+  if(r.expected.actionPlan&&r.expected.questionPlan?.intent!=='doAction')errors.push({recordId:r.recordId,code:'action_question_stage_mismatch'})
+  if(r.expected.questionPlan===null&&!['clarify','unsupported'].includes(r.expected.orchestration.behavior))errors.push({recordId:r.recordId,code:'null_plan_without_control'})
+ }
+ results.assets[name]={sha256:hash(bytes),rows:rows.length,requiredEnvelopeValid:parsed,status:errors.length?'FAIL':'PASS',errors,placeholderOccurrences:types,roleCounts,independentDialectSemanticReview:'PENDING',warnings:roleCounts.admin===0?['No admin actor cases; role-balance target not achieved']:[]}
+}
+fs.writeFileSync(path.join(BASE,'validation/envelope-results.json'),JSON.stringify(results,null,2)+'\n',{flag:'wx'})
+console.log(JSON.stringify({status:'ENVELOPE_CHECK_COMPLETE',assets:Object.fromEntries(Object.entries(results.assets).map(([k,v])=>[k,{status:v.status,rows:v.rows,valid:v.requiredEnvelopeValid,errors:v.errors.length,warnings:v.warnings}]))}))

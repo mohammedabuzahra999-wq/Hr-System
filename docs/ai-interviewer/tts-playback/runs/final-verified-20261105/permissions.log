@@ -1,0 +1,118 @@
+Every capability in the registry is enforced by a route:
+  ✓ viewEmployees — employees.ts
+  ✓ manageEmployees — employees.ts, employees.ts
+  ✓ resetPassword — employees.ts
+  ✓ lookUpEmployeeFile — employees.ts
+  ✓ recordOwnAttendance — attendance.ts, attendance.ts
+  ✓ viewTeamAttendance — attendance.ts
+  ✓ remindCheckout — attendance.ts
+  ✓ viewRequests — requests.ts
+  ✓ decideRequests — requests.ts
+  ✓ manageCalendar — calendar.ts, calendar.ts
+  ✓ viewPayroll — payroll.ts, payroll.ts, payroll.ts, payroll.ts, payroll.ts, payroll.ts, payroll.ts, payroll.ts, payroll.ts
+  ✓ runPayroll — payroll.ts, payroll.ts, payroll.ts, payroll.ts, payroll.ts, payroll.ts
+  ✓ setSalary — payroll.ts
+  ✓ managePayrollSettings — payroll.ts, payroll.ts
+  ✓ manageRecruitment — recruitment.ts
+  ✓ manageJobDescriptions — jobDescriptions.ts
+  ✓ manageKnowledge — knowledge.ts
+  ✓ reviewAssistantQuestions — assistantReview.ts
+  ✓ manageCvFiles — cv.ts, cv.ts
+  ✓ postAnnouncements — feed.ts, feed.ts, feed.ts
+  ✓ viewOrgStats — hrAttention.ts, stats.ts
+  ✓ viewTeamStats — stats.ts
+
+Every capability a route names exists:
+  ✓ reviewAssistantQuestions
+  ✓ recordOwnAttendance
+  ✓ viewTeamAttendance
+  ✓ remindCheckout
+  ✓ manageCalendar
+  ✓ manageCvFiles
+  ✓ viewEmployees
+  ✓ manageEmployees
+  ✓ resetPassword
+  ✓ lookUpEmployeeFile
+  ✓ postAnnouncements
+  ✓ viewOrgStats
+  ✓ manageJobDescriptions
+  ✓ manageKnowledge
+  ✓ viewPayroll
+  ✓ runPayroll
+  ✓ managePayrollSettings
+  ✓ setSalary
+  ✓ manageRecruitment
+  ✓ viewRequests
+  ✓ decideRequests
+  ✓ viewTeamStats
+
+No route writes its own role list:
+  ✓ assistantReview.ts
+  ✓ attendance.ts
+  ✓ auth.ts
+  ✓ calendar.ts
+  ✓ careers.ts
+  ✓ copilot.ts
+  ✓ cv.ts
+  ✓ employees.ts
+  ✓ feed.ts
+  ✓ hrAttention.ts
+  ✓ interview.ts
+  ✓ jobDescriptions.ts
+  ✓ knowledge.ts
+  ✓ payroll.ts
+  ✓ recruitment.ts
+  ✓ requests.ts
+  ✓ stats.ts
+  ✓ stream.ts
+  ✓ voice.ts
+
+The roles requireRole receives are the roles declared:
+  ✓ viewEmployees → hr, admin, manager
+  ✓ manageEmployees → hr, admin
+  ✓ resetPassword → hr, admin
+  ✓ lookUpEmployeeFile → hr, admin
+  ✓ recordOwnAttendance → employee, manager, hr, admin
+  ✓ viewTeamAttendance → manager, hr, admin
+  ✓ remindCheckout → hr, admin
+  ✓ viewRequests → manager, hr, admin
+  ✓ decideRequests → manager
+  ✓ manageCalendar → manager, hr, admin
+  ✓ viewPayroll → hr, admin
+  ✓ runPayroll → hr, admin
+  ✓ setSalary → hr, admin
+  ✓ managePayrollSettings → hr, admin
+  ✓ manageRecruitment → hr, admin
+  ✓ manageJobDescriptions → hr, admin
+  ✓ manageKnowledge → hr, admin
+  ✓ reviewAssistantQuestions → hr, admin
+  ✓ manageCvFiles → hr, admin
+  ✓ postAnnouncements → manager, hr, admin
+  ✓ viewOrgStats → admin, hr
+  ✓ viewTeamStats → manager, hr, admin
+
+No capability is closed to everybody:
+  ✓ viewEmployees
+  ✓ manageEmployees
+  ✓ resetPassword
+  ✓ lookUpEmployeeFile
+  ✓ recordOwnAttendance
+  ✓ viewTeamAttendance
+  ✓ remindCheckout
+  ✓ viewRequests
+  ✓ decideRequests
+  ✓ manageCalendar
+  ✓ viewPayroll
+  ✓ runPayroll
+  ✓ setSalary
+  ✓ managePayrollSettings
+  ✓ manageRecruitment
+  ✓ manageJobDescriptions
+  ✓ manageKnowledge
+  ✓ reviewAssistantQuestions
+  ✓ manageCvFiles
+  ✓ postAnnouncements
+  ✓ viewOrgStats
+  ✓ viewTeamStats
+
+the routes match the registry — 22 capabilities, all enforced

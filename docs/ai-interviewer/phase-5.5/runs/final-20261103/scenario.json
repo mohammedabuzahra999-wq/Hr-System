@@ -1,0 +1,13 @@
+{
+  "id": "scenario",
+  "protection": "synthetic lifecycle demonstration",
+  "command": "npm.cmd run demo:ai-interviewer -w @hr/server",
+  "startedAt": "2026-11-03T12:36:04.043Z",
+  "finishedAt": "2026-11-03T12:36:05.261Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "scenario.log",
+  "passLines": 0
+}

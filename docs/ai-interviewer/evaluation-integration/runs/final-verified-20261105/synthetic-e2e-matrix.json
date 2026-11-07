@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "checks": 27,
+  "matrix": [
+    {
+      "stage": "question delivered",
+      "status": "ACTIVE",
+      "phase": "LISTENING",
+      "version": 13,
+      "sequence": 40,
+      "answerCount": 0,
+      "finalizedCount": 0,
+      "commandReceipts": 12,
+      "selectedKind": "BASE",
+      "pendingPlay": 0,
+      "pendingStop": 0,
+      "evaluationStatus": null
+    },
+    {
+      "stage": "first answer durable",
+      "status": "ACTIVE",
+      "phase": "PROCESSING",
+      "version": 16,
+      "sequence": 50,
+      "answerCount": 1,
+      "finalizedCount": 1,
+      "commandReceipts": 15,
+      "selectedKind": "BASE",
+      "pendingPlay": 0,
+      "pendingStop": 0,
+      "evaluationStatus": null
+    },
+    {
+      "stage": "follow-up selected",
+      "status": "ACTIVE",
+      "phase": "FOLLOW_UP",
+      "version": 17,
+      "sequence": 55,
+      "answerCount": 1,
+      "finalizedCount": 1,
+      "commandReceipts": 16,
+      "selectedKind": "FOLLOW_UP",
+      "pendingPlay": 1,
+      "pendingStop": 0,
+      "evaluationStatus": null
+    },
+    {
+      "stage": "barge-in answer committed",
+      "status": "ACTIVE",
+      "phase": "PROCESSING",
+      "version": 23,
+      "sequence": 74,
+      "answerCount": 2,
+      "finalizedCount": 2,
+      "commandReceipts": 22,
+      "selectedKind": "FOLLOW_UP",
+      "pendingPlay": 0,
+      "pendingStop": 0,
+      "evaluationStatus": null
+    },
+    {
+      "stage": "clarification committed",
+      "status": "ACTIVE",
+      "phase": "NEXT_QUESTION",
+      "version": 31,
+      "sequence": 104,
+      "answerCount": 3,
+      "finalizedCount": 3,
+      "commandReceipts": 30,
+      "selectedKind": "BASE",
+      "pendingPlay": 1,
+      "pendingStop": 0,
+      "evaluationStatus": null
+    },
+    {
+      "stage": "completed",
+      "status": "COMPLETED",
+      "phase": "CLOSING",
+      "version": 41,
+      "sequence": 138,
+      "answerCount": 4,
+      "finalizedCount": 4,
+      "commandReceipts": 40,
+      "selectedKind": null,
+      "pendingPlay": 0,
+      "pendingStop": 0,
+      "evaluationStatus": "PENDING"
+    },
+    {
+      "stage": "final durable state",
+      "status": "COMPLETED",
+      "phase": "CLOSING",
+      "version": 44,
+      "sequence": 146,
+      "answerCount": 4,
+      "finalizedCount": 4,
+      "commandReceipts": 41,
+      "selectedKind": null,
+      "pendingPlay": 0,
+      "pendingStop": 0,
+      "evaluationStatus": "COMPLETED"
+    },
+    {
+      "stage": "synthetic adapter invocation counts",
+      "health": 1,
+      "stt": 4,
+      "tts": 6,
+      "play": 6,
+      "stop": 1,
+      "uniquePlaybackKeys": 6,
+      "reportEvidenceSpans": 4
+    }
+  ],
+  "cleanup": true,
+  "realProviderCalls": 0,
+  "realModelCalls": 0,
+  "limitations": [
+    "In-process authenticated Hono API requests plus server-only synthetic provider; not live browser microphone E2E.",
+    "Real disposable PostgreSQL, exact unchanged 0026 on synthetic legacy parents; full-chain pgvector blocker remains open.",
+    "Owner replacement tests durable state recovery, not an OS-kill deployment test."
+  ]
+}

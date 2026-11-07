@@ -1,0 +1,126 @@
+{
+  "checks": 40,
+  "matrix": [
+    {
+      "scenario": "trusted-proxy child",
+      "first": 200,
+      "spoof": 429
+    },
+    {
+      "scenario": "actual process restart",
+      "processLocalCounterReset": true,
+      "durableAuthorizationUnaffected": true
+    },
+    {
+      "scenario": "safe disabled production",
+      "exitCode": 0,
+      "valuesPrinted": false
+    },
+    {
+      "scenario": "trusted production proxy",
+      "exitCode": 0,
+      "valuesPrinted": false
+    },
+    {
+      "scenario": "production debug",
+      "exitCode": 1,
+      "valuesPrinted": false
+    },
+    {
+      "scenario": "production test mode",
+      "exitCode": 1,
+      "valuesPrinted": false
+    },
+    {
+      "scenario": "production mock",
+      "exitCode": 1,
+      "valuesPrinted": false
+    },
+    {
+      "scenario": "production employee mock",
+      "exitCode": 1,
+      "valuesPrinted": false
+    },
+    {
+      "scenario": "production synthetic provider",
+      "exitCode": 1,
+      "valuesPrinted": false
+    },
+    {
+      "scenario": "real provider absent credentials",
+      "exitCode": 1,
+      "valuesPrinted": false
+    },
+    {
+      "scenario": "real provider with a synthetic credential",
+      "exitCode": 1,
+      "valuesPrinted": false
+    },
+    {
+      "scenario": "malformed provider mode",
+      "exitCode": 1,
+      "valuesPrinted": false
+    },
+    {
+      "scenario": "multiple runtime owners",
+      "exitCode": 1,
+      "valuesPrinted": false
+    },
+    {
+      "scenario": "invalid trusted proxy",
+      "exitCode": 1,
+      "valuesPrinted": false
+    },
+    {
+      "scenario": "insecure production origin",
+      "exitCode": 1,
+      "valuesPrinted": false
+    },
+    {
+      "scenario": "unsafe production secret",
+      "exitCode": 1,
+      "valuesPrinted": false
+    },
+    {
+      "scenario": "frontend secret configuration",
+      "exitCode": 1,
+      "valuesPrinted": false
+    },
+    {
+      "scenario": "DB stalled readiness",
+      "process": "alive",
+      "database": "unavailable",
+      "interviewRuntime": "starting-or-unhealthy",
+      "provider": {
+        "configured": false,
+        "status": "unavailable",
+        "scope": "disabled",
+        "liveValidated": false
+      },
+      "productionGate": "blocked",
+      "releaseValidation": {
+        "migrationChain": "blocked",
+        "liveVoice": "blocked"
+      }
+    },
+    {
+      "scenario": "configured not ready",
+      "process": "alive",
+      "database": "available",
+      "interviewRuntime": "ready",
+      "provider": {
+        "configured": true,
+        "status": "configured",
+        "scope": "synthetic",
+        "liveValidated": false
+      },
+      "productionGate": "blocked",
+      "releaseValidation": {
+        "migrationChain": "blocked",
+        "liveVoice": "blocked"
+      }
+    }
+  ],
+  "realProviderCalls": 0,
+  "externalAttempts": 0
+}

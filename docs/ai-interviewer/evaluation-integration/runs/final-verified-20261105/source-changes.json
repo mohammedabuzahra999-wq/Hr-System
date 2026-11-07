@@ -1,0 +1,133 @@
+{
+  "acceptedSourceSHA256": "f5b6eea089f5ef95f56230f7a087a4d8b5d2f1542175bcb0e64ab520208ce337",
+  "created": [
+    {
+      "path": "packages/contracts/src/aiInterviewEvaluationProvider.ts",
+      "bytes": 1376,
+      "sha256": "f3236b33b1d5916641606c6831ba3e51efb212a902b29d849ce664db91918a65"
+    },
+    {
+      "path": "services/hr-api/scripts/checkEvaluationProviderBrowser.mjs",
+      "bytes": 22094,
+      "sha256": "585877b6fea0e175897c26f21083342f76d31ebde2ef9a952263652e70bf8cfb"
+    },
+    {
+      "path": "services/hr-api/scripts/checkEvaluationProviderBrowserCases.mjs",
+      "bytes": 5765,
+      "sha256": "9e4d8db791af5f83bd306eec5e3ef20740e1da894620587822a2926cd77934c3"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/evaluationConfiguration.ts",
+      "bytes": 1126,
+      "sha256": "6f0223988eb56b1e637bfce909ee6be873f709dac4a67b40310b97a7e8f843ab"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/evaluationIntegration.check.ts",
+      "bytes": 25120,
+      "sha256": "03bedb2f0e984c659d49bbbbd1b022c430709670b565bcbb7d0f75d0e2299369"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/evaluationProviders.check.ts",
+      "bytes": 12834,
+      "sha256": "34948785912dac01d8495de96254d4cc9992150bfe3f3ec72f1d8ab60fe15e11"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/evaluationProviders.ts",
+      "bytes": 5200,
+      "sha256": "db09e9e5f8ca7e390b009db94e8060ebd7f40f34b252aa63258d0fe8132fb3f0"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/evaluationReport.ts",
+      "bytes": 6500,
+      "sha256": "c20e0471bf203eeee8b9d8fdedf09dfe253bdf73fe52d7af12184befa77fab36"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/evaluationRuntime.ts",
+      "bytes": 344,
+      "sha256": "2eae3c275e57f32a3fe8ab86fa487f4e0d82a1f28a3a95be44513915c1af707e"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/evaluationTestSupport.ts",
+      "bytes": 1680,
+      "sha256": "2d8b46377cdc1de150396865a6f508fa9004103e41c989a309da85e26707c789"
+    }
+  ],
+  "modified": [
+    {
+      "path": "apps/hr-web/src/pages/AiInterviewReportPage.tsx",
+      "bytes": 19916,
+      "sha256": "75a5eae83c59726c229676bc2c36912fa6feaa40036015102fc0ef9977f67240",
+      "beforeSHA256": "b7ecafbb5f3406f3caececbb57adb2a0114a8f7fb75b0876327fc8db552bc9bd"
+    },
+    {
+      "path": "packages/contracts/src/aiInterviewReport.ts",
+      "bytes": 5471,
+      "sha256": "15a06ec315d2fa2b331d3f7c5ceaf365b6f9e8bfe240cf1451cdc8a17ce0d465",
+      "beforeSHA256": "f3e3295f8f6564f8ba48908efef409afd91035b4bbe6b8ff73fce8f93ee72554"
+    },
+    {
+      "path": "packages/contracts/src/index.ts",
+      "bytes": 1490,
+      "sha256": "ae8733d00470b758ef3e7deb0e7a26889d5e0346551cd811a17034349de58af4",
+      "beforeSHA256": "df9d350c4377f4b918619dd31b96d6d49ab0641fde44a9cb221f33baaaa47383"
+    },
+    {
+      "path": "services/hr-api/package.json",
+      "bytes": 7766,
+      "sha256": "45f76dac7e593158ef1cc01c07f5922606d948487ed02cedfc7ab85e52613c39",
+      "beforeSHA256": "910abd45a065b799e9dba07b8a52f54195e425a847eafc8d78001e71f1bbfcfb"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/report.ts",
+      "bytes": 10621,
+      "sha256": "be0aafabe853e1abdbec6e51d02710767a8c9170711204f0c45f4176a4ae2a25",
+      "beforeSHA256": "76602bd26618f1fbb5eee08874ee287aa91a857f5ab10b04ea612d56b7b1db22"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/reportService.ts",
+      "bytes": 23871,
+      "sha256": "753881c28c26ecacc2f9501688cdc08268ce86c73ec7fe3a0626e4737ffc1bcf",
+      "beforeSHA256": "8652ffce7d13801cd4109bbf2b04cfa03e084fa57060cf5909357b668439851f"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/ui.fixture.ts",
+      "bytes": 24176,
+      "sha256": "705496eed9fcba23793d538cc827e8e4734c6b63b77a6b5734593a6d2311078c",
+      "beforeSHA256": "274c225d025e3f69ef616abdb694e126b3ac937ac4cba3dc54f4bdf297ab7209"
+    },
+    {
+      "path": "services/hr-api/src/env.ts",
+      "bytes": 8729,
+      "sha256": "cf113ed647c42a1db4652d6f63b0b5bfea9eb24a5182be735260e722a98a0b80",
+      "beforeSHA256": "40732218722253bfd94f10791564fe5902b42994240b1004089227fe66931789"
+    },
+    {
+      "path": "services/hr-api/src/index.ts",
+      "bytes": 11894,
+      "sha256": "4a3d9837f08765e3506285b22e139e33dc187ee21e7e06dec843cbcaae1f50cb",
+      "beforeSHA256": "74063b3ecdeca5b0559e76c5d9734dd7fd0574afbf58d4e0c06238dce8e99bbb"
+    }
+  ],
+  "deleted": [],
+  "purposes": {
+    "packages/contracts/src/aiInterviewEvaluationProvider.ts": "Strict evidence/approved-anchor selection and frozen provider provenance contracts.",
+    "packages/contracts/src/aiInterviewReport.ts": "Separate llm-report-v1/modes, optional provider metadata and legacy-compatible storage.",
+    "packages/contracts/src/index.ts": "Export new pure evaluation contracts.",
+    "services/hr-api/src/aiInterviewer/evaluationConfiguration.ts": "Dedicated server settings, default-off registration, sanitized fail-closed validation.",
+    "services/hr-api/src/aiInterviewer/evaluationProviders.ts": "Deterministic synthetic and pinned structured OpenAI SDK evaluator with safe errors and bounded payloads.",
+    "services/hr-api/src/aiInterviewer/evaluationReport.ts": "Independent exact-source/rubric validation and server-owned provisional report construction.",
+    "services/hr-api/src/aiInterviewer/evaluationRuntime.ts": "Server-only registration without I/O.",
+    "services/hr-api/src/aiInterviewer/evaluationTestSupport.ts": "Identity-free synthetic input/configuration fixtures.",
+    "services/hr-api/src/aiInterviewer/evaluationProviders.check.ts": "29 configuration/SDK/evidence/rubric/prompt/size/cancellation/blank/mixed-dimension checks.",
+    "services/hr-api/src/aiInterviewer/evaluationIntegration.check.ts": "25 real PostgreSQL attempt/restart/isolation/evidence/history/report checks.",
+    "services/hr-api/src/aiInterviewer/report.ts": "Reject mode/provenance changes and independently reconstruct provider reports before accepting them.",
+    "services/hr-api/src/aiInterviewer/reportService.ts": "Freeze provider profile with inputHash, preserve mock jobs, bound attempts and fail closed on changed configuration.",
+    "services/hr-api/src/aiInterviewer/ui.fixture.ts": "Explicit opt-in synthetic evaluation browser registration and failure injection.",
+    "services/hr-api/src/env.ts": "Parse dedicated server evaluation settings without printing values.",
+    "services/hr-api/src/index.ts": "Use one registered report service for authenticated routes and maintenance/shutdown.",
+    "services/hr-api/package.json": "Three new test commands; no dependency changes.",
+    "services/hr-api/scripts/checkEvaluationProviderBrowser.mjs": "Derived existing authenticated setup, unchanged first 14 assertions.",
+    "services/hr-api/scripts/checkEvaluationProviderBrowserCases.mjs": "Eight new provider report/review/retry/rejection/privacy browser assertions.",
+    "apps/hr-web/src/pages/AiInterviewReportPage.tsx": "Truthful mock/synthetic/LLM labels, explicit registered-provider request, retained review and version controls."
+  }
+}

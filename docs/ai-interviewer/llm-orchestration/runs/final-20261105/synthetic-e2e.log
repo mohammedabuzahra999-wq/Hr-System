@@ -1,0 +1,43 @@
+[ai-interview-operations] {"atUtc":"2026-11-05T11:44:33.529Z","event":"request_rejected","code":"DENIED"}
+PASS staff recruitment permission independently required
+PASS HR creates a persisted plan through authenticated API
+PASS same HR create identity is idempotent
+PASS ready freezes approved job criteria and rubric
+PASS one-time invite establishes protected candidate session
+[ai-interview-operations] {"atUtc":"2026-11-05T11:44:33.648Z","event":"invite_rejected","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:44:33.649Z","event":"request_rejected","code":"AUTH"}
+PASS replayed invite cannot establish another session
+PASS candidate joins through allowlisted state DTO
+[ai-interview-operations] {"atUtc":"2026-11-05T11:44:33.675Z","event":"candidate_session_rejected","interviewId":"89dde0bc-6841-423a-8124-0ced226873c9","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:44:33.675Z","event":"request_rejected","code":"AUTH"}
+PASS candidate cannot read another interview
+PASS audio consent is explicitly committed through candidate API
+[ai-interview-operations] {"atUtc":"2026-11-05T11:44:33.690Z","event":"request_rejected","code":"INTERNAL"}
+PASS browser cannot fabricate trusted events or bypass unavailable HTTP delivery
+[ai-interview-operations] {"atUtc":"2026-11-05T11:44:33.691Z","event":"provider_readiness_changed","state":"configured"}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:44:33.692Z","event":"provider_readiness_changed","state":"ready"}
+PASS synthetic health is distinct from disabled production composition
+PASS trusted start and TTS/play observations deliver first question
+PASS synthetic STT and speech finish commit one durable answer
+PASS simulated lost response retries original transcript receipt without a second answer
+PASS runtime processes committed answer into frozen follow-up
+PASS barge-in persists STOP and commits exactly one interrupted-turn answer
+PASS clarification resolves to next base question within frozen limits
+PASS complete closing observations persist interview completion and four answers
+PASS durable history has one finalized answer and one processing decision per turn
+[ai-interview-operations] {"atUtc":"2026-11-05T11:44:34.425Z","event":"request_rejected","code":"DENIED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:44:34.427Z","event":"request_rejected","code":"DENIED"}
+PASS candidate, unauthorized employee and anonymous report access rejected
+[ai-interview] {"event":"evaluation_attempt_started","interviewId":"7cc973a0-4421-4382-a722-753a60d359ed","evaluationId":"caa1c164-36ea-4d3a-a96a-7d93cb5447d0","reportVersion":1,"attempt":1}
+[ai-interview] {"event":"evaluation_attempt_completed","interviewId":"7cc973a0-4421-4382-a722-753a60d359ed","evaluationId":"caa1c164-36ea-4d3a-a96a-7d93cb5447d0","reportVersion":1,"attempt":1}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:44:34.493Z","event":"report_accessed","interviewId":"7cc973a0-4421-4382-a722-753a60d359ed","evaluationId":"caa1c164-36ea-4d3a-a96a-7d93cb5447d0","actorId":"a531d27c-935c-4fcc-84eb-f40a49e68fbd","reportVersion":1}
+PASS authorized HR receives completed explicitly MOCK report
+PASS one evaluation attempt preserves frozen inputHash and independently valid evidence
+PASS report quotes exact finalized spans and excludes incomplete question delivery
+PASS tampered report input identity fails independent verifier
+[ai-interview-operations] {"atUtc":"2026-11-05T11:44:34.513Z","event":"report_accessed","interviewId":"7cc973a0-4421-4382-a722-753a60d359ed","evaluationId":"caa1c164-36ea-4d3a-a96a-7d93cb5447d0","actorId":"a531d27c-935c-4fcc-84eb-f40a49e68fbd","reportVersion":1}
+PASS new service owner recovers durable completed answers and report
+PASS acceptance never advances hiring/application decision
+[ai-interview-operations] {"atUtc":"2026-11-05T11:44:34.514Z","event":"provider_readiness_changed","state":"unavailable"}
+PASS no real provider or model integration activated
+27 Phase 5.6 synthetic acceptance checks; status=PASS; cleanup=true; real provider/model calls=0

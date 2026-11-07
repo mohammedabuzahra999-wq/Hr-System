@@ -1,0 +1,88 @@
+PASS 01 01 create persists, including idempotent creation
+PASS 02 02 state transition persists
+PASS 03 03 durable event sequence is unique and ordered
+PASS 04 04 evaluation status persists independently
+PASS 05 05 approved plan survives repository reload
+PASS 06 06 rubric, criteria and weights remain frozen after source edits
+PASS 07 07 restart reload restores the aggregate
+PASS 08 08 stale expectedVersion rejected
+PASS 09 09 two real PostgreSQL transactions cannot consume the same version
+PASS 10 10 duplicate command has no second state/event effect
+PASS 11 11 idempotency survives new service/repository instance
+PASS 12 12 commit-before-lost-ack retry does not duplicate answer
+PASS 13 13 secure invite exchange succeeds
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:45.622Z","event":"invite_rejected","code":"AUTH"}
+PASS 14 14 wrong token is rejected
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:45.659Z","event":"invite_rejected","code":"EXPIRED"}
+PASS 15 15 expired invitation is rejected
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:45.695Z","event":"invite_rejected","code":"REVOKED"}
+PASS 16 16 revoked invitation is rejected
+PASS 17 17 only invitation/session hashes are persisted
+PASS 18 18 logs and audit contain no credentials
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:45.816Z","event":"invite_rejected","code":"AUTH"}
+PASS 19 19 invitation cannot exchange for another interview
+PASS 20 20 valid candidate session survives restart
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:45.915Z","event":"candidate_session_rejected","interviewId":"75506bde-f0c4-484c-a4dc-c9d1ce9f7bbc","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:45.915Z","event":"request_rejected","code":"AUTH"}
+PASS 21 21 Candidate A GET Interview B denied
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:45.919Z","event":"request_rejected","code":"DENIED"}
+PASS 22 22 candidate cannot access employee recruitment routes
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:45.945Z","event":"request_rejected","code":"AUTH"}
+PASS 23 23 employee cookie is never candidate authentication
+PASS 24 24 candidate cannot authenticate Copilot/employee Voice
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:45.994Z","event":"candidate_session_rejected","interviewId":"eae33ef1-bc8c-45b3-97b1-b108756ef4f6","code":"EXPIRED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:46.045Z","event":"candidate_session_rejected","interviewId":"a206496d-42d2-445e-8771-0483c6d3128b","code":"REVOKED"}
+PASS 25 25 expired and revoked sessions are rejected
+PASS 26 26 candidate DTO does not expose rubric
+PASS 27 27 candidate DTO does not expose weights
+PASS 28 28 candidate DTO does not expose HR notes or criteria
+PASS 29 29 candidate DTO does not expose future questions
+PASS 30 30 candidate DTO does not expose evaluation
+PASS 31 31 candidate DTO does not expose token hashes
+PASS 32 32 pause persists exactly 75 seconds remaining
+PASS 33 33 restart preserves paused timer
+PASS 34 34 five minutes offline consumes no frozen time
+PASS 35 35 active runtime restart recovers safely into PAUSED
+PASS 36 36 resume computes a new authoritative deadline
+PASS 37 37 afterSequence returns only newer records
+PASS 38 38 event replay remains ordered after reload
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:46.638Z","event":"candidate_session_rejected","interviewId":"75506bde-f0c4-484c-a4dc-c9d1ce9f7bbc","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:46.638Z","event":"request_rejected","code":"AUTH"}
+PASS 39 39 Candidate A cannot replay Interview B events
+PASS 40 40 start is blocked without persisted consent
+PASS 41 41 consent persists with policy version and accepted time
+PASS 42 42 consent survives restart
+PASS 43 43 completed interview with evaluation PENDING is durable
+PASS 44 44 completed evaluation survives reload and uses persisted evidence
+PASS 45 45 canonical evaluation hash is stable and excludes unrelated timestamps
+PASS 46 46 changed answer, rubric or included version changes hash
+PASS 47 47 forged persisted evidence is rejected transactionally
+PASS 48 48 no overall score or hiring decision is created
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:47.851Z","event":"candidate_session_rejected","interviewId":"75506bde-f0c4-484c-a4dc-c9d1ce9f7bbc","code":"AUTH"}
+PASS 49 Candidate A POST command to Interview B denied
+PASS 50 Candidate A resume Interview B denied
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:47.861Z","event":"request_rejected","code":"INVALID"}
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:47.865Z","event":"request_rejected","code":"INVALID"}
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:47.869Z","event":"request_rejected","code":"INVALID"}
+PASS 51 candidate cannot submit privileged/internal commands
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:47.940Z","event":"request_rejected","code":"DENIED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:47.944Z","event":"request_rejected","code":"DENIED"}
+PASS 52 HR/Admin allowed and Managers denied in routes AND service
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:47.977Z","event":"invite_rejected","code":"AUTH"}
+PASS 53 candidate cookies, cache headers, single-use invites and Origin protection
+PASS 54 database failure rolls back events, aggregate and command receipt together
+PASS 55 reused command id with changed content is rejected
+PASS 56 recovery during AI delivery requires a new playback id
+PASS 57 candidate replay returns only allowlisted metadata, never raw payloads
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:48.268Z","event":"candidate_session_rejected","interviewId":"595070d7-a911-426d-bc1a-671ec2885692","code":"REVOKED"}
+PASS 58 revocation succeeds even when an active answer deadline already expired
+PASS 59 renaming candidate credential to hr_session never grants employee authentication
+[ai-interview-operations] {"atUtc":"2026-11-05T06:21:48.311Z","event":"request_rejected","code":"THROTTLED"}
+PASS 60 exchange endpoint enforces the existing in-memory rate limit
+PASS 61 filtered replay still advances its cursor across internal records
+PASS 62 transient partials cannot be persisted through the service command API
+PASS 63 database rejects a version projection that disagrees with the snapshot
+PASS 64 existing written-interview routes still read and accept only their own questions
+PASS 65 external network/AI attempts are zero with real local PostgreSQL
+
+65/65 Phase 2 PostgreSQL/security checks passed; external network attempts=0; disposable DB cleanup follows

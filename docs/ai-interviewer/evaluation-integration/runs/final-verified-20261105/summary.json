@@ -1,0 +1,2440 @@
+{
+  "status": "PASS",
+  "runId": "final-verified-20261105",
+  "scope": "LLM report evaluation from frozen evidence/approved rubric; synthetic verification; supported local single-process",
+  "overallReleaseReadiness": "BLOCKED",
+  "liveVoiceE2E": "BLOCKED",
+  "source": {
+    "beforeAcceptedSHA256": "f5b6eea089f5ef95f56230f7a087a4d8b5d2f1542175bcb0e64ab520208ce337",
+    "finalManifestSHA256": "16d9a509f0471ba1ff7214cbbe8e10689e2d9a9d99a72a7bda7f490c2eb911f4",
+    "fileCount": 482,
+    "filesDigest": "beb5b58e0b13787e8a468f72aaebb4cd1443f6dc1213c68540071034c2ac12c2",
+    "stableDuringTests": true,
+    "created": [
+      {
+        "path": "packages/contracts/src/aiInterviewEvaluationProvider.ts",
+        "bytes": 1376,
+        "sha256": "f3236b33b1d5916641606c6831ba3e51efb212a902b29d849ce664db91918a65"
+      },
+      {
+        "path": "services/hr-api/scripts/checkEvaluationProviderBrowser.mjs",
+        "bytes": 22094,
+        "sha256": "585877b6fea0e175897c26f21083342f76d31ebde2ef9a952263652e70bf8cfb"
+      },
+      {
+        "path": "services/hr-api/scripts/checkEvaluationProviderBrowserCases.mjs",
+        "bytes": 5765,
+        "sha256": "9e4d8db791af5f83bd306eec5e3ef20740e1da894620587822a2926cd77934c3"
+      },
+      {
+        "path": "services/hr-api/src/aiInterviewer/evaluationConfiguration.ts",
+        "bytes": 1126,
+        "sha256": "6f0223988eb56b1e637bfce909ee6be873f709dac4a67b40310b97a7e8f843ab"
+      },
+      {
+        "path": "services/hr-api/src/aiInterviewer/evaluationIntegration.check.ts",
+        "bytes": 25120,
+        "sha256": "03bedb2f0e984c659d49bbbbd1b022c430709670b565bcbb7d0f75d0e2299369"
+      },
+      {
+        "path": "services/hr-api/src/aiInterviewer/evaluationProviders.check.ts",
+        "bytes": 12834,
+        "sha256": "34948785912dac01d8495de96254d4cc9992150bfe3f3ec72f1d8ab60fe15e11"
+      },
+      {
+        "path": "services/hr-api/src/aiInterviewer/evaluationProviders.ts",
+        "bytes": 5200,
+        "sha256": "db09e9e5f8ca7e390b009db94e8060ebd7f40f34b252aa63258d0fe8132fb3f0"
+      },
+      {
+        "path": "services/hr-api/src/aiInterviewer/evaluationReport.ts",
+        "bytes": 6500,
+        "sha256": "c20e0471bf203eeee8b9d8fdedf09dfe253bdf73fe52d7af12184befa77fab36"
+      },
+      {
+        "path": "services/hr-api/src/aiInterviewer/evaluationRuntime.ts",
+        "bytes": 344,
+        "sha256": "2eae3c275e57f32a3fe8ab86fa487f4e0d82a1f28a3a95be44513915c1af707e"
+      },
+      {
+        "path": "services/hr-api/src/aiInterviewer/evaluationTestSupport.ts",
+        "bytes": 1680,
+        "sha256": "2d8b46377cdc1de150396865a6f508fa9004103e41c989a309da85e26707c789"
+      }
+    ],
+    "modified": [
+      {
+        "path": "apps/hr-web/src/pages/AiInterviewReportPage.tsx",
+        "bytes": 19916,
+        "sha256": "75a5eae83c59726c229676bc2c36912fa6feaa40036015102fc0ef9977f67240",
+        "beforeSHA256": "b7ecafbb5f3406f3caececbb57adb2a0114a8f7fb75b0876327fc8db552bc9bd"
+      },
+      {
+        "path": "packages/contracts/src/aiInterviewReport.ts",
+        "bytes": 5471,
+        "sha256": "15a06ec315d2fa2b331d3f7c5ceaf365b6f9e8bfe240cf1451cdc8a17ce0d465",
+        "beforeSHA256": "f3e3295f8f6564f8ba48908efef409afd91035b4bbe6b8ff73fce8f93ee72554"
+      },
+      {
+        "path": "packages/contracts/src/index.ts",
+        "bytes": 1490,
+        "sha256": "ae8733d00470b758ef3e7deb0e7a26889d5e0346551cd811a17034349de58af4",
+        "beforeSHA256": "df9d350c4377f4b918619dd31b96d6d49ab0641fde44a9cb221f33baaaa47383"
+      },
+      {
+        "path": "services/hr-api/package.json",
+        "bytes": 7766,
+        "sha256": "45f76dac7e593158ef1cc01c07f5922606d948487ed02cedfc7ab85e52613c39",
+        "beforeSHA256": "910abd45a065b799e9dba07b8a52f54195e425a847eafc8d78001e71f1bbfcfb"
+      },
+      {
+        "path": "services/hr-api/src/aiInterviewer/report.ts",
+        "bytes": 10621,
+        "sha256": "be0aafabe853e1abdbec6e51d02710767a8c9170711204f0c45f4176a4ae2a25",
+        "beforeSHA256": "76602bd26618f1fbb5eee08874ee287aa91a857f5ab10b04ea612d56b7b1db22"
+      },
+      {
+        "path": "services/hr-api/src/aiInterviewer/reportService.ts",
+        "bytes": 23871,
+        "sha256": "753881c28c26ecacc2f9501688cdc08268ce86c73ec7fe3a0626e4737ffc1bcf",
+        "beforeSHA256": "8652ffce7d13801cd4109bbf2b04cfa03e084fa57060cf5909357b668439851f"
+      },
+      {
+        "path": "services/hr-api/src/aiInterviewer/ui.fixture.ts",
+        "bytes": 24176,
+        "sha256": "705496eed9fcba23793d538cc827e8e4734c6b63b77a6b5734593a6d2311078c",
+        "beforeSHA256": "274c225d025e3f69ef616abdb694e126b3ac937ac4cba3dc54f4bdf297ab7209"
+      },
+      {
+        "path": "services/hr-api/src/env.ts",
+        "bytes": 8729,
+        "sha256": "cf113ed647c42a1db4652d6f63b0b5bfea9eb24a5182be735260e722a98a0b80",
+        "beforeSHA256": "40732218722253bfd94f10791564fe5902b42994240b1004089227fe66931789"
+      },
+      {
+        "path": "services/hr-api/src/index.ts",
+        "bytes": 11894,
+        "sha256": "4a3d9837f08765e3506285b22e139e33dc187ee21e7e06dec843cbcaae1f50cb",
+        "beforeSHA256": "74063b3ecdeca5b0559e76c5d9734dd7fd0574afbf58d4e0c06238dce8e99bbb"
+      }
+    ],
+    "deleted": []
+  },
+  "preservation": [
+    {
+      "phase": "phase-5.1-baseline",
+      "files": 96,
+      "mismatches": [],
+      "unlisted": 0,
+      "artifactManifestSHA256": "3b01f58e0cddec15899ec91651fe6486c5b232b01c09af5168597014b451de67",
+      "sourceManifestSHA256": "06ac18d29b06e876909a32c41ef83f42da24929fa860bf4b85560d38d2a38163"
+    },
+    {
+      "phase": "phase-5.2",
+      "files": 394,
+      "mismatches": [],
+      "unlisted": 0,
+      "artifactManifestSHA256": "c5d85704933ccba6e5b804c5d4a7caf613a2d39daf8ad2f2fe7c537a0f146342",
+      "sourceManifestSHA256": "f46c6b5170f48ee3c3ddc93cdea0d1e430ec04fc95757a87053e08c81bd96b6f"
+    },
+    {
+      "phase": "phase-5.3",
+      "files": 162,
+      "mismatches": [],
+      "unlisted": 0,
+      "artifactManifestSHA256": "8e427a5393159a4c63cff039da95a2f2ecc9a00a146e2194a395af1fe1cfa900",
+      "sourceManifestSHA256": "b121f79f7d8fef4bad55357e37ecffc33ecb528b5bd1d704c9809ced3265e2e8"
+    },
+    {
+      "phase": "phase-5.4",
+      "files": 170,
+      "mismatches": [],
+      "unlisted": 0,
+      "artifactManifestSHA256": "c43408d736327197d296ff3b17cc97a0f15539a3c0b9f7e3ce0e2bca530c62e3",
+      "sourceManifestSHA256": "9c7c675970cbc16c1b5d42715ce2183b7c01b1f50cd50ea39f15dfb61fa3923c"
+    },
+    {
+      "phase": "phase-5.5",
+      "files": 254,
+      "mismatches": [],
+      "unlisted": 0,
+      "artifactManifestSHA256": "2d507d2e555e9fb0dc55a63f46c6b43b2d06d7ee25d7b6ec4027ca9e60b0261d",
+      "sourceManifestSHA256": "e2fb83906f162898c273378814a824ebd69fd8afdd682061eb1dcf52144760a0"
+    },
+    {
+      "phase": "phase-5.6",
+      "files": 182,
+      "mismatches": [],
+      "unlisted": 0,
+      "artifactManifestSHA256": "b91247cb3b1b155d360825b54cc70e2fdb682e212b47de27d6fc3f5b25aaee6c",
+      "sourceManifestSHA256": "e2fb83906f162898c273378814a824ebd69fd8afdd682061eb1dcf52144760a0"
+    },
+    {
+      "phase": "stt-tts-provider-layer",
+      "files": 236,
+      "mismatches": [],
+      "unlisted": 0,
+      "artifactManifestSHA256": "e9f1a26ef155286ee7f7992eef8855bfe7efd2153d81401f6fe7dba5bcb4738c",
+      "sourceManifestSHA256": "9d6f69cf6583ccdbc5caa6555199a0e2bd09502d38d948d7f39b85ecab743627"
+    },
+    {
+      "phase": "candidate-audio-transport",
+      "files": 346,
+      "mismatches": [],
+      "unlisted": 0,
+      "artifactManifestSHA256": "877d54b54fc970bedc05a76b0712c13f3b5ecfa7fb18b96f1e83a95522f70efd",
+      "sourceManifestSHA256": "fe642f19f4d68434c7add34f5628639d337e3fd145b69eab764dfee8a69e7c17"
+    },
+    {
+      "phase": "tts-playback",
+      "files": 542,
+      "mismatches": [],
+      "unlisted": 0,
+      "artifactManifestSHA256": "97399ec51de20db6c74374a9da6678dfeff94a76e96ea348bbaa172133b32a95",
+      "sourceManifestSHA256": "55f7d754e37e38b185095b6b5410c0d59bf82fc576567cb3c48203aabfeacf14"
+    },
+    {
+      "phase": "llm-orchestration",
+      "files": 347,
+      "mismatches": [],
+      "unlisted": 0,
+      "artifactManifestSHA256": "b372be586444e7a505019c5c875ee1f29474f8cad6b7ab9b3d36dde317a76afa",
+      "sourceManifestSHA256": "f5b6eea089f5ef95f56230f7a087a4d8b5d2f1542175bcb0e64ab520208ce337"
+    }
+  ],
+  "earlierEvidence": {
+    "files": 608,
+    "changes": []
+  },
+  "evaluationDb": {
+    "status": "PASS",
+    "checks": 25,
+    "externalAttempts": 0,
+    "matrix": [
+      {
+        "scenario": "pending",
+        "result": "PASS",
+        "status": "PENDING",
+        "reportVersion": 1,
+        "inputHash": "212f50ae53ae3fcaf973faad83f6ba33495a9c6ebccb04bfbb83ecb816013991",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": false,
+        "attempts": []
+      },
+      {
+        "scenario": "valid",
+        "result": "PASS",
+        "status": "COMPLETED",
+        "reportVersion": 1,
+        "inputHash": "20cdda3c0c8310c19874c9c19381c8618beb351be6489eb61a15cc35cdee6715",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "finished": true,
+            "failureCode": null
+          }
+        ]
+      },
+      {
+        "scenario": "missing",
+        "result": "PASS",
+        "status": "COMPLETED",
+        "reportVersion": 1,
+        "inputHash": "799bdfb93e9407629449b03e95eb3e675fd45ba1e26405d99e2a1db305b98279",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "finished": true,
+            "failureCode": null
+          }
+        ]
+      },
+      {
+        "scenario": "invented",
+        "result": "PASS",
+        "status": "FAILED",
+        "reportVersion": 1,
+        "inputHash": "d434e61a7272f22e09300c65bd607376dbed2807b8e2abe427c354069fe4500f",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "finished": true,
+            "failureCode": "EVIDENCE_VALIDATION_FAILED"
+          }
+        ]
+      },
+      {
+        "scenario": "score",
+        "result": "PASS",
+        "status": "FAILED",
+        "reportVersion": 1,
+        "inputHash": "173d073f350cd01b9da5e7393666b660bb8435d9989041f302cafcf76b80c869",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "finished": true,
+            "failureCode": "EVIDENCE_VALIDATION_FAILED"
+          }
+        ]
+      },
+      {
+        "scenario": "finding",
+        "result": "PASS",
+        "status": "FAILED",
+        "reportVersion": 1,
+        "inputHash": "8ff6a58240263f427ef2ba55dd911b48cc9d7be9216a9b3dc75a9167b5a1f972",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "finished": true,
+            "failureCode": "EVIDENCE_VALIDATION_FAILED"
+          }
+        ]
+      },
+      {
+        "scenario": "malformed",
+        "result": "PASS",
+        "status": "FAILED",
+        "reportVersion": 1,
+        "inputHash": "91dd3993f2490941a8d6068d80398291e676442a3c9471001bc531fc11780507",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "finished": true,
+            "failureCode": "EVIDENCE_VALIDATION_FAILED"
+          }
+        ]
+      },
+      {
+        "scenario": "provider-failure",
+        "result": "PASS",
+        "status": "FAILED",
+        "reportVersion": 1,
+        "inputHash": "11da8a9d79c8587abd9daf2568c9929b5b0b9ed6d58792fa4eff1b7f2e9620fc",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "finished": true,
+            "failureCode": "EVALUATOR_PROVIDER_FAILED"
+          }
+        ]
+      },
+      {
+        "scenario": "timeout",
+        "result": "PASS",
+        "status": "FAILED",
+        "reportVersion": 1,
+        "inputHash": "90eef7b7339f80c249a30399de31b49bca7c39a64be2f457b6fa2ee65f4632ab",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "finished": true,
+            "failureCode": "EVALUATOR_TIMEOUT"
+          }
+        ]
+      },
+      {
+        "scenario": "cancel",
+        "result": "PASS",
+        "status": "FAILED",
+        "reportVersion": 1,
+        "inputHash": "c01c424c93f00b425e1fc8843e16779e18cb127f24f5214738735c84543e04fb",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "finished": true,
+            "failureCode": "EVALUATOR_CANCELLED"
+          }
+        ]
+      },
+      {
+        "scenario": "retry",
+        "result": "PASS",
+        "status": "COMPLETED",
+        "reportVersion": 1,
+        "inputHash": "bc89e68f13eac186ddaea11ad5c78edfe145c18e7fa7957fc476aa717e82927d",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "finished": true,
+            "failureCode": "EVALUATOR_PROVIDER_FAILED"
+          },
+          {
+            "attempt": 2,
+            "finished": true,
+            "failureCode": null
+          }
+        ]
+      },
+      {
+        "scenario": "exhausted",
+        "result": "PASS",
+        "status": "FAILED",
+        "reportVersion": 1,
+        "inputHash": "d70fe67c0f68333dcafc4ec98d76ddcf50c253fbb592f33475a35093d1b53153",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "finished": true,
+            "failureCode": "EVALUATOR_PROVIDER_FAILED"
+          },
+          {
+            "attempt": 2,
+            "finished": true,
+            "failureCode": "EVALUATOR_PROVIDER_FAILED"
+          }
+        ]
+      },
+      {
+        "scenario": "restart",
+        "result": "PASS",
+        "status": "COMPLETED",
+        "reportVersion": 1,
+        "inputHash": "b01da2a9aa600541782cd1880af19f7692e2870f3513a6227d1fbd424fb2f4b6",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "finished": true,
+            "failureCode": "WORKER_RESTARTED"
+          },
+          {
+            "attempt": 2,
+            "finished": true,
+            "failureCode": null
+          }
+        ]
+      },
+      {
+        "scenario": "config-changed",
+        "result": "PASS",
+        "status": "FAILED",
+        "reportVersion": 1,
+        "inputHash": "a285302079d35cb7fdf16492fcf4db76d2c0206c849a8bc666c11350230081ea",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": false,
+        "attempts": []
+      },
+      {
+        "scenario": "config-changed",
+        "result": "PASS",
+        "status": "FAILED",
+        "reportVersion": 1,
+        "inputHash": "8aee24234714e82d4d9ba2b0c52a5e0c4ea84d9fe448fdb90cb7d3f0c111a6af",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": false,
+        "attempts": []
+      },
+      {
+        "scenario": "isolation",
+        "result": "PASS",
+        "status": "PENDING",
+        "reportVersion": 1,
+        "inputHash": "6a46d3710e82d0433aaf8ea5b50c6ef82f1d3b4926e189876184bef475a6aaf9",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": false,
+        "attempts": []
+      },
+      {
+        "scenario": "injection",
+        "result": "PASS",
+        "status": "COMPLETED",
+        "reportVersion": 1,
+        "inputHash": "827d82817f9ec086bfcae2097fcc93ff236a0449c3e891473e6774ab8c07e936",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "finished": true,
+            "failureCode": null
+          }
+        ]
+      },
+      {
+        "scenario": "mutation",
+        "result": "PASS",
+        "status": "COMPLETED",
+        "reportVersion": 1,
+        "inputHash": "9f87b39a898ef115fef20a074c055cfecb4d264baa5b281dd75a393a4076a3fc",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "finished": true,
+            "failureCode": null
+          }
+        ]
+      },
+      {
+        "scenario": "sql-rollback",
+        "result": "PASS",
+        "status": "COMPLETED",
+        "reportVersion": 1,
+        "inputHash": "909c3eaf69f19becd032ba24e83cc4780123ea736b2ceefe235e75bf5c4e5e01",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "finished": true,
+            "failureCode": "WORKER_RESTARTED"
+          },
+          {
+            "attempt": 2,
+            "finished": true,
+            "failureCode": null
+          }
+        ]
+      },
+      {
+        "scenario": "changed-input",
+        "result": "PASS",
+        "status": "FAILED",
+        "reportVersion": 1,
+        "inputHash": "fa6fb8b36620680f1064917a416ce8e9f7e663c69b099495f8741b8950f4b36a",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": false,
+        "attempts": [
+          {
+            "attempt": 1,
+            "finished": true,
+            "failureCode": "EVALUATION_INPUT_CHANGED"
+          }
+        ]
+      },
+      {
+        "scenario": "shutdown-resume",
+        "result": "PASS",
+        "status": "COMPLETED",
+        "reportVersion": 1,
+        "inputHash": "51e372dd81436ec8b775957167e9e2181d63f4e24539d29f5706c0e6c8773ac6",
+        "inputHashPreserved": true,
+        "answerCount": 1,
+        "answersUnchanged": true,
+        "frozenEvidenceUnchanged": true,
+        "domainHistoryUnchanged": true,
+        "reportPresent": true,
+        "attempts": [
+          {
+            "attempt": 1,
+            "finished": true,
+            "failureCode": null
+          }
+        ]
+      }
+    ]
+  },
+  "evaluationContract": {
+    "status": "PASS",
+    "checks": 29,
+    "syntheticSdkRequests": 14,
+    "realProviderCalls": 0,
+    "externalAttempts": 0
+  },
+  "llmDb": {
+    "status": "PASS",
+    "checks": 26,
+    "externalAttempts": 0,
+    "matrix": [
+      {
+        "scenario": "actual bounded discovery pass launches work without awaiting a model",
+        "result": "PASS"
+      },
+      {
+        "scenario": "staff question generation is quarantined until explicit authorized approval",
+        "result": "PASS"
+      },
+      {
+        "scenario": "approved model question text is frozen and delivered by the unchanged engine",
+        "result": "PASS"
+      },
+      {
+        "scenario": "model follow-up selection commits once through engine and durable process receipt",
+        "result": "PASS"
+      },
+      {
+        "scenario": "clarification uses only approved prompt IDs and engine turn limits",
+        "result": "PASS"
+      },
+      {
+        "scenario": "malformed, extra authority and disallowed decisions cannot advance state",
+        "result": "PASS"
+      },
+      {
+        "scenario": "unsafe or scope-changing question proposals are rejected before quarantine commit",
+        "result": "PASS"
+      },
+      {
+        "scenario": "proposal identity conflicts, prompt ID mutations and frozen-plan application fail",
+        "result": "PASS"
+      },
+      {
+        "scenario": "same logical answer with concurrent dispatch invokes the model once",
+        "result": "PASS"
+      },
+      {
+        "scenario": "timeouts retain physical capacity and bounded retry uses new attempt identity",
+        "result": "PASS"
+      },
+      {
+        "scenario": "provider failure exhausts a durable retry budget without hidden calls",
+        "result": "PASS"
+      },
+      {
+        "scenario": "pause/interruption fences a late result; explicit resume can retry the same answer",
+        "result": "PASS"
+      },
+      {
+        "scenario": "server restart requires domain recovery/resume and fences an old owner",
+        "result": "PASS"
+      },
+      {
+        "scenario": "candidate injection remains untrusted data and cannot authorize tools or plan revision",
+        "result": "PASS"
+      },
+      {
+        "scenario": "candidate/staff isolation, forged output endpoint and DTO secrecy remain independent",
+        "result": "PASS"
+      },
+      {
+        "scenario": "expired or revoked sessions cannot drive a new decision",
+        "result": "PASS"
+      },
+      {
+        "scenario": "model latency is independent of another interview warning/deadline",
+        "result": "PASS"
+      },
+      {
+        "scenario": "failed SQL model commit leaves no partial decision, receipt or evaluation",
+        "result": "PASS"
+      },
+      {
+        "scenario": "shutdown cancels pending work and never fabricates a decision",
+        "result": "PASS"
+      },
+      {
+        "scenario": "staff retry cannot reset exhausted attempt counts; cancel fences pending publication",
+        "result": "PASS"
+      },
+      {
+        "scenario": "role revocation and frozen-plan approval cannot bypass staff authority",
+        "result": "PASS"
+      },
+      {
+        "scenario": "completed decision acknowledgement is idempotent and conflicting reuse fails",
+        "result": "PASS"
+      },
+      {
+        "scenario": "reviewed proposal through async decision, answer persistence, completion and existing report integrity",
+        "result": "PASS"
+      },
+      {
+        "scenario": "frozen model mode cannot silently fall back after disable or provider-profile change",
+        "result": "PASS"
+      },
+      {
+        "scenario": "simultaneous different interviews cannot exceed two physical model calls",
+        "result": "PASS"
+      },
+      {
+        "scenario": "zero real provider/model calls",
+        "result": "PASS"
+      }
+    ]
+  },
+  "llmContract": {
+    "status": "PASS",
+    "checks": 24,
+    "syntheticSdkRequests": 14,
+    "realProviderCalls": 0,
+    "externalAttempts": 0
+  },
+  "transport": {
+    "status": "PASS",
+    "checks": 30,
+    "externalAttempts": 0,
+    "matrix": [
+      {
+        "scenario": "canonical TTS generated from frozen server text and delivered only by authenticated POST",
+        "result": "PASS"
+      },
+      {
+        "scenario": "same identity and competing identities coalesce before another provider call",
+        "result": "PASS"
+      },
+      {
+        "scenario": "browser cannot complete before server audio duration or supply trusted receipts",
+        "result": "PASS"
+      },
+      {
+        "scenario": "server duration completion advances exactly once, duplicate start/end never replay",
+        "result": "PASS"
+      },
+      {
+        "scenario": "STOP pauses engine, fences old audio, and resume uses a fresh playback ID",
+        "result": "PASS"
+      },
+      {
+        "scenario": "STOP during generation aborts logical request and late TTS cannot become READY",
+        "result": "PASS"
+      },
+      {
+        "scenario": "cancel-before-reservation tombstone fences delayed request",
+        "result": "PASS"
+      },
+      {
+        "scenario": "wrong candidate, missing cookie, staff credential and invalid Origin are independently denied",
+        "result": "PASS"
+      },
+      {
+        "scenario": "wrong session/question/turn/generation fails before provider use or media delivery",
+        "result": "PASS"
+      },
+      {
+        "scenario": "expired and revoked sessions cannot fetch cached speech",
+        "result": "PASS"
+      },
+      {
+        "scenario": "generation rejects invalid WAV, MIME and size without raw provider errors",
+        "result": "PASS"
+      },
+      {
+        "scenario": "failure is retryable explicitly, stable failed request does not synthesize twice",
+        "result": "PASS"
+      },
+      {
+        "scenario": "timeout retains physical slot, retry fences old late settlement",
+        "result": "PASS"
+      },
+      {
+        "scenario": "refresh/new document cannot blindly replay active audio",
+        "result": "PASS"
+      },
+      {
+        "scenario": "lease expiry pauses without fabricated playback completion",
+        "result": "PASS"
+      },
+      {
+        "scenario": "only one document may start an active generation",
+        "result": "PASS"
+      },
+      {
+        "scenario": "stale expected version and replaced interview state fence generation completion",
+        "result": "PASS"
+      },
+      {
+        "scenario": "restart closes old pending/ready generations and cannot replay cache",
+        "result": "PASS"
+      },
+      {
+        "scenario": "shutdown cancels pending generation and late provider cannot publish",
+        "result": "PASS"
+      },
+      {
+        "scenario": "no audio, credentials or provider receipts escape candidate metadata or audit content",
+        "result": "PASS"
+      },
+      {
+        "scenario": "audio-v2 generation binding permits registered TTS without browser provider receipts",
+        "result": "PASS"
+      },
+      {
+        "scenario": "replacement trusted generation fences late TTS",
+        "result": "PASS"
+      },
+      {
+        "scenario": "failed SQL playback completion rolls back state and successful receipt",
+        "result": "PASS"
+      },
+      {
+        "scenario": "physical admission remains bounded under simultaneous held generations",
+        "result": "PASS"
+      },
+      {
+        "scenario": "production configuration: default disabled",
+        "result": "PASS"
+      },
+      {
+        "scenario": "production configuration: enabled missing TTS",
+        "result": "PASS"
+      },
+      {
+        "scenario": "production configuration: selected TTS missing key",
+        "result": "PASS"
+      },
+      {
+        "scenario": "production configuration: synthetic provider cannot become production",
+        "result": "PASS"
+      },
+      {
+        "scenario": "real provider/model calls remain zero",
+        "result": "PASS"
+      },
+      {
+        "scenario": "warning-version-window",
+        "clarificationSeconds": 30,
+        "warningSeconds": 30,
+        "beforeVersion": 21,
+        "afterWarningVersion": 21,
+        "warningAtomicWithListening": true,
+        "maintenanceVersionStable": true,
+        "nextSpeechAccepted": true
+      },
+      {
+        "scenario": "immediately due clarification warning is atomic and maintenance preserves next speech-start version",
+        "result": "PASS"
+      }
+    ]
+  },
+  "closing": {
+    "status": "PASS",
+    "checks": 6,
+    "externalAttempts": 0,
+    "generations": 3,
+    "answers": 1,
+    "matrix": [
+      {
+        "scenario": "TTS intro completion selects the first frozen question without an answer timer",
+        "result": "PASS"
+      },
+      {
+        "scenario": "TTS question completion starts the authoritative listening timer",
+        "result": "PASS"
+      },
+      {
+        "scenario": "existing atomic answer path and mock decision progress into closing",
+        "result": "PASS"
+      },
+      {
+        "scenario": "TTS closing atomically completes interview and creates existing evaluation job",
+        "result": "PASS"
+      },
+      {
+        "scenario": "unchanged mock report independently verifies TTS-completed answer/evidence integrity",
+        "result": "PASS"
+      },
+      {
+        "scenario": "zero real provider/model calls",
+        "result": "PASS"
+      }
+    ]
+  },
+  "contract": {
+    "status": "PASS",
+    "checks": 58,
+    "syntheticSdkRequests": 31,
+    "externalAttempts": 0,
+    "realProviderCalls": 0,
+    "matrix": [
+      {
+        "scenario": "timeouts and late settlement",
+        "physicalLimit": 2,
+        "timeoutMs": 20,
+        "lateSuccessAccepted": false
+      },
+      {
+        "scenario": "default disabled",
+        "exitCode": 0,
+        "credentialsPrinted": false
+      },
+      {
+        "scenario": "selected with missing dedicated key",
+        "exitCode": 1,
+        "credentialsPrinted": false
+      },
+      {
+        "scenario": "selected with missing model",
+        "exitCode": 1,
+        "credentialsPrinted": false
+      },
+      {
+        "scenario": "selected TTS missing voice",
+        "exitCode": 1,
+        "credentialsPrinted": false
+      },
+      {
+        "scenario": "invalid speech timeout",
+        "exitCode": 1,
+        "credentialsPrinted": false
+      },
+      {
+        "scenario": "synthetic selector denied",
+        "exitCode": 1,
+        "credentialsPrinted": false
+      },
+      {
+        "scenario": "complete provider registration remains not live-ready",
+        "exitCode": 0,
+        "credentialsPrinted": false
+      }
+    ]
+  },
+  "synthetic": {
+    "status": "PASS",
+    "checks": 27,
+    "matrix": [
+      {
+        "stage": "question delivered",
+        "status": "ACTIVE",
+        "phase": "LISTENING",
+        "version": 13,
+        "sequence": 40,
+        "answerCount": 0,
+        "finalizedCount": 0,
+        "commandReceipts": 12,
+        "selectedKind": "BASE",
+        "pendingPlay": 0,
+        "pendingStop": 0,
+        "evaluationStatus": null
+      },
+      {
+        "stage": "first answer durable",
+        "status": "ACTIVE",
+        "phase": "PROCESSING",
+        "version": 16,
+        "sequence": 50,
+        "answerCount": 1,
+        "finalizedCount": 1,
+        "commandReceipts": 15,
+        "selectedKind": "BASE",
+        "pendingPlay": 0,
+        "pendingStop": 0,
+        "evaluationStatus": null
+      },
+      {
+        "stage": "follow-up selected",
+        "status": "ACTIVE",
+        "phase": "FOLLOW_UP",
+        "version": 17,
+        "sequence": 55,
+        "answerCount": 1,
+        "finalizedCount": 1,
+        "commandReceipts": 16,
+        "selectedKind": "FOLLOW_UP",
+        "pendingPlay": 1,
+        "pendingStop": 0,
+        "evaluationStatus": null
+      },
+      {
+        "stage": "barge-in answer committed",
+        "status": "ACTIVE",
+        "phase": "PROCESSING",
+        "version": 23,
+        "sequence": 74,
+        "answerCount": 2,
+        "finalizedCount": 2,
+        "commandReceipts": 22,
+        "selectedKind": "FOLLOW_UP",
+        "pendingPlay": 0,
+        "pendingStop": 0,
+        "evaluationStatus": null
+      },
+      {
+        "stage": "clarification committed",
+        "status": "ACTIVE",
+        "phase": "NEXT_QUESTION",
+        "version": 31,
+        "sequence": 104,
+        "answerCount": 3,
+        "finalizedCount": 3,
+        "commandReceipts": 30,
+        "selectedKind": "BASE",
+        "pendingPlay": 1,
+        "pendingStop": 0,
+        "evaluationStatus": null
+      },
+      {
+        "stage": "completed",
+        "status": "COMPLETED",
+        "phase": "CLOSING",
+        "version": 41,
+        "sequence": 138,
+        "answerCount": 4,
+        "finalizedCount": 4,
+        "commandReceipts": 40,
+        "selectedKind": null,
+        "pendingPlay": 0,
+        "pendingStop": 0,
+        "evaluationStatus": "PENDING"
+      },
+      {
+        "stage": "final durable state",
+        "status": "COMPLETED",
+        "phase": "CLOSING",
+        "version": 44,
+        "sequence": 146,
+        "answerCount": 4,
+        "finalizedCount": 4,
+        "commandReceipts": 41,
+        "selectedKind": null,
+        "pendingPlay": 0,
+        "pendingStop": 0,
+        "evaluationStatus": "COMPLETED"
+      },
+      {
+        "stage": "synthetic adapter invocation counts",
+        "health": 1,
+        "stt": 4,
+        "tts": 6,
+        "play": 6,
+        "stop": 1,
+        "uniquePlaybackKeys": 6,
+        "reportEvidenceSpans": 4
+      }
+    ],
+    "cleanup": true,
+    "realProviderCalls": 0,
+    "realModelCalls": 0,
+    "limitations": [
+      "In-process authenticated Hono API requests plus server-only synthetic provider; not live browser microphone E2E.",
+      "Real disposable PostgreSQL, exact unchanged 0026 on synthetic legacy parents; full-chain pgvector blocker remains open.",
+      "Owner replacement tests durable state recovery, not an OS-kill deployment test."
+    ]
+  },
+  "regression": [
+    {
+      "id": "evaluation-browser",
+      "protection": "Synthetic provider report/HR review/evidence/retry/privacy in Chrome",
+      "command": "node scripts/checkEvaluationProviderBrowser.mjs",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "scripts/checkEvaluationProviderBrowser.mjs"
+      ],
+      "allowedLoopbackPorts": "55442,5179,5180,8793,9333",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:32:56.247Z",
+      "finishedAt": "2026-11-05T12:34:03.667Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 2,
+      "outputLog": "evaluation-browser.log",
+      "passLines": 22,
+      "count": 22,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "evaluation-contract",
+      "protection": "Synthetic evaluation configuration/SDK/schema/evidence/rubric",
+      "command": "npm.cmd run check:ai-interviewer:evaluation:contract -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/evaluationProviders.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:34:03.673Z",
+      "finishedAt": "2026-11-05T12:34:08.683Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "evaluation-contract.log",
+      "passLines": 29,
+      "count": 29,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "evaluation-db",
+      "protection": "Frozen provider evaluation/attempt/restart/RBAC/privacy",
+      "command": "npm.cmd run check:ai-interviewer:evaluation -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/evaluationIntegration.check.ts"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:34:08.686Z",
+      "finishedAt": "2026-11-05T12:34:26.198Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "evaluation-db.log",
+      "passLines": 25,
+      "count": 25,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "llm-browser",
+      "protection": "Synthetic candidate model flow/commit/recovery/pause/RBAC",
+      "command": "node scripts/checkLlmOrchestrationBrowser.mjs",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "scripts/checkLlmOrchestrationBrowser.mjs"
+      ],
+      "allowedLoopbackPorts": "55442,5179,5180,8793,9333",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:34:26.202Z",
+      "finishedAt": "2026-11-05T12:35:45.326Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 2,
+      "outputLog": "llm-browser.log",
+      "passLines": 24,
+      "count": 24,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "llm-contract",
+      "protection": "LLM registry/SDK/schema/configuration/security",
+      "command": "npm.cmd run check:ai-interviewer:llm:contract -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/llmProviders.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:35:45.330Z",
+      "finishedAt": "2026-11-05T12:35:47.987Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "llm-contract.log",
+      "passLines": 24,
+      "count": 24,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "llm-db",
+      "protection": "Durable async orchestration/approval/turn/security/restart/timer isolation",
+      "command": "npm.cmd run check:ai-interviewer:llm -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/llmOrchestration.check.ts"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:35:48.047Z",
+      "finishedAt": "2026-11-05T12:36:00.408Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "llm-db.log",
+      "passLines": 26,
+      "count": 26,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "tts-closing",
+      "protection": "TTS intro/question/closing and existing answer/report integrity",
+      "command": "node --conditions=development --import tsx docs/ai-interviewer/tts-playback/closing.check.ts",
+      "cwd": "",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "docs/ai-interviewer/tts-playback/closing.check.ts"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:36:00.413Z",
+      "finishedAt": "2026-11-05T12:36:06.573Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "tts-closing.log",
+      "passLines": 6,
+      "count": 6,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "tts-browser",
+      "protection": "Native Chrome TTS/playback/STOP/autoplay/refresh/disconnect/security",
+      "command": "node scripts/checkTtsPlaybackBrowser.mjs",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "scripts/checkTtsPlaybackBrowser.mjs"
+      ],
+      "allowedLoopbackPorts": "55442,5179,5180,8793,9333",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:36:06.577Z",
+      "finishedAt": "2026-11-05T12:37:16.422Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 2,
+      "outputLog": "tts-browser.log",
+      "passLines": 28,
+      "count": 28,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "tts-ui",
+      "protection": "Playback UX/cancellation/recovery/autoplay/failure",
+      "command": "node --conditions=development --import tsx scripts/checkTtsPlaybackUi.mjs",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "scripts/checkTtsPlaybackUi.mjs"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:37:16.751Z",
+      "finishedAt": "2026-11-05T12:37:26.151Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "tts-ui.log",
+      "passLines": 19,
+      "count": 19,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "tts-transport",
+      "protection": "Synthetic TTS/downlink/lease/STOP/clock/session/security",
+      "command": "npm.cmd run check:ai-interviewer:tts -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/playbackTransport.check.ts"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:37:26.155Z",
+      "finishedAt": "2026-11-05T12:37:56.574Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 5,
+      "outputLog": "tts-transport.log",
+      "passLines": 30,
+      "count": 30,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "audio-ui",
+      "protection": "Candidate audio encoding/recovery/privacy/permission cancellation/storage/receipt UI logic",
+      "command": "npm.cmd run check:ai-interviewer:audio:ui -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "scripts/checkCandidateAudioUi.mjs"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:37:56.577Z",
+      "finishedAt": "2026-11-05T12:37:57.846Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "audio-ui.log",
+      "passLines": 29,
+      "count": 29,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "audio-browser",
+      "protection": "Native Chrome synthetic microphone/capture/upload/IndexedDB/refresh/retry/privacy",
+      "command": "node scripts/checkCandidateAudioBrowser.mjs",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "scripts/checkCandidateAudioBrowser.mjs"
+      ],
+      "allowedLoopbackPorts": "55442,5179,5180,8793,9333",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:37:57.850Z",
+      "finishedAt": "2026-11-05T12:39:02.100Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 2,
+      "outputLog": "audio-browser.log",
+      "passLines": 28,
+      "count": 28,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "audio-transport",
+      "protection": "Candidate WAV transport/session/turn/idempotency/recovery/rollback/privacy",
+      "command": "npm.cmd run check:ai-interviewer:audio -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/audioTransport.check.ts"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:39:02.104Z",
+      "finishedAt": "2026-11-05T12:39:36.628Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 6,
+      "outputLog": "audio-transport.log",
+      "passLines": 37,
+      "count": 37,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "speech-contract",
+      "protection": "STT/TTS registry/SDK mock/configuration/timeouts/capacity/errors/audio/secrets",
+      "command": "npm.cmd run check:ai-interviewer:speech -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/speechProviders.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:39:36.631Z",
+      "finishedAt": "2026-11-05T12:39:54.278Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 8,
+      "outputLog": "speech-contract.log",
+      "passLines": 58,
+      "count": 58,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "synthetic-e2e",
+      "protection": "Phase 5.6 combined authenticated API/synthetic audio/durable answer/follow-up/interruption/evaluation/report acceptance",
+      "command": "node --conditions=development --import tsx docs/ai-interviewer/phase-5.6/synthetic.check.ts",
+      "cwd": "",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "docs/ai-interviewer/phase-5.6/synthetic.check.ts"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:39:54.282Z",
+      "finishedAt": "2026-11-05T12:40:01.867Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "synthetic-e2e.log",
+      "passLines": 27,
+      "count": 27,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "operations",
+      "protection": "Phase 5.5 proxy/abuse/configuration/readiness/headers/secrets/shutdown",
+      "command": "node --conditions=development --import tsx src/aiInterviewer/operations.check.ts",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/operations.check.ts"
+      ],
+      "allowedLoopbackPorts": "8797,8798",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:40:01.871Z",
+      "finishedAt": "2026-11-05T12:40:23.383Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 20,
+      "outputLog": "operations.log",
+      "passLines": 41,
+      "count": 41,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "operations-db",
+      "protection": "Phase 5.5 abuse/audit/authorization/shutdown/restart with PostgreSQL",
+      "command": "node --conditions=development --import tsx src/aiInterviewer/operations.persistence.check.ts",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/operations.persistence.check.ts"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:40:23.386Z",
+      "finishedAt": "2026-11-05T12:40:35.677Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "operations-db.log",
+      "passLines": 26,
+      "count": 26,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "provider-gate",
+      "protection": "Phase 5.5 synthetic provider ingress/STT/TTS/interruption/reconnect/security",
+      "command": "node --conditions=development --import tsx src/aiInterviewer/delivery.check.ts",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/delivery.check.ts"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:40:35.681Z",
+      "finishedAt": "2026-11-05T12:40:56.645Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "provider-gate.log",
+      "passLines": 51,
+      "count": 51,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "execution-bounds",
+      "protection": "Phase 5.5 asynchronous bounds/cancellation/physical admission/late settlement",
+      "command": "node --conditions=development --import tsx src/aiInterviewer/execution.check.ts",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/execution.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:40:56.648Z",
+      "finishedAt": "2026-11-05T12:40:57.089Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "execution-bounds.log",
+      "passLines": 14,
+      "count": 14,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "runtime-jobs",
+      "protection": "Phase 5.5 PostgreSQL fairness/restart/fencing/frozen input/security",
+      "command": "node --conditions=development --import tsx src/aiInterviewer/runtime.check.ts",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/runtime.check.ts"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:40:57.092Z",
+      "finishedAt": "2026-11-05T12:41:15.107Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "runtime-jobs.log",
+      "passLines": 30,
+      "count": 30,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "answer-ui",
+      "protection": "Phase 5.2 browser recovery/state/refresh/uncertainty/security",
+      "command": "node --conditions=development --import tsx scripts/checkAiInterviewAnswerRecovery.mjs",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "scripts/checkAiInterviewAnswerRecovery.mjs"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:41:15.111Z",
+      "finishedAt": "2026-11-05T12:41:16.411Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "answer-ui.log",
+      "passLines": 26,
+      "count": 26,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "answer-db",
+      "protection": "Phase 5.2 atomic commit/rollback/two-tab/restart/receipt/security",
+      "command": "node --conditions=development --import tsx src/aiInterviewer/answer.check.ts",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/answer.check.ts"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:41:16.414Z",
+      "finishedAt": "2026-11-05T12:41:29.118Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "answer-db.log",
+      "passLines": 27,
+      "count": 27,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "engine",
+      "protection": "engine/timer/follow-up/clarification/evidence",
+      "command": "npm.cmd run check:ai-interviewer -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/engine.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:41:29.122Z",
+      "finishedAt": "2026-11-05T12:41:30.967Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "engine.log",
+      "passLines": 37,
+      "count": 37,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "scenario",
+      "protection": "synthetic lifecycle demonstration",
+      "command": "npm.cmd run demo:ai-interviewer -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/scenario.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:41:30.970Z",
+      "finishedAt": "2026-11-05T12:41:32.341Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "scenario.log",
+      "passLines": 0,
+      "count": null,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "persistence",
+      "protection": "PostgreSQL/session/invite/RBAC/idempotency/recovery/rollback",
+      "command": "npm.cmd run check:ai-interviewer:persistence -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/persistence.check.ts"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:41:32.345Z",
+      "finishedAt": "2026-11-05T12:41:45.420Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "persistence.log",
+      "passLines": 65,
+      "count": 65,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "report",
+      "protection": "evaluation/frozen input/hash/evidence/retry/worker fencing",
+      "command": "npm.cmd run check:ai-interviewer:report -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/aiInterviewer/report.check.ts"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:41:45.424Z",
+      "finishedAt": "2026-11-05T12:41:55.099Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "report.log",
+      "passLines": 76,
+      "count": 76,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "ui",
+      "protection": "candidate cache/replay/conflicts/session expiry/timer",
+      "command": "npm.cmd run check:ai-interviewer:ui -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "scripts/checkAiInterviewUi.mjs"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:41:55.103Z",
+      "finishedAt": "2026-11-05T12:41:56.447Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "ui.log",
+      "passLines": 24,
+      "count": 24,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "mcp",
+      "protection": "MCP session lifecycle/RBAC/action checks",
+      "command": "node --conditions=development --import tsx src/mcp/authorization.security.check.ts",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/mcp/authorization.security.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:41:56.451Z",
+      "finishedAt": "2026-11-05T12:42:02.170Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "mcp.log",
+      "passLines": 19,
+      "count": 18,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "permissions",
+      "protection": "capability registry and route role policy",
+      "command": "npm.cmd run check:permissions -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/permissions.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:42:02.174Z",
+      "finishedAt": "2026-11-05T12:42:02.746Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "permissions.log",
+      "passLines": 107,
+      "count": 107,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "gate",
+      "protection": "Copilot intent/action authorization independent of model",
+      "command": "npm.cmd run check:gate -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/copilot/gate.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:42:02.750Z",
+      "finishedAt": "2026-11-05T12:42:03.330Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "gate.log",
+      "passLines": 194,
+      "count": 194,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "plans",
+      "protection": "HTTP/shared plans/RBAC/scope/confirmation",
+      "command": "npm.cmd run check:plans -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/copilot/validatePlan.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:42:03.334Z",
+      "finishedAt": "2026-11-05T12:42:11.110Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "plans.log",
+      "passLines": 96,
+      "count": 95,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "report-security",
+      "protection": "existing employee report resource scope",
+      "command": "node --conditions=development --import tsx src/reports/build.security.check.ts",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/reports/build.security.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:42:11.114Z",
+      "finishedAt": "2026-11-05T12:42:14.890Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "report-security.log",
+      "passLines": 45,
+      "count": 44,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "voice",
+      "protection": "mock voice session/turn/confirmation guards",
+      "command": "npm.cmd run check:voice -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/voice/session.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:42:14.894Z",
+      "finishedAt": "2026-11-05T12:42:15.490Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "voice.log",
+      "passLines": 17,
+      "count": 17,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "local-voice-api",
+      "protection": "local voice adapter/ownership/no cloud fallback (mock)",
+      "command": "npm.cmd run check:voice:local -w @hr/server [component 1/4]",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/voice/local.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:42:15.494Z",
+      "finishedAt": "2026-11-05T12:42:19.546Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "local-voice-api.log",
+      "passLines": 3,
+      "count": 3,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "local-voice-audio",
+      "protection": "audio/VAD/device cleanup (in-memory browser API doubles)",
+      "command": "npm.cmd run check:voice:local -w @hr/server [component 2/4]",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "scripts/checkLocalVoiceBrowser.mjs"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:42:19.550Z",
+      "finishedAt": "2026-11-05T12:42:21.150Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "local-voice-audio.log",
+      "passLines": 4,
+      "count": 4,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "local-voice-turn",
+      "protection": "local voice turn/cancellation/confirmation UI (hook harness)",
+      "command": "npm.cmd run check:voice:local -w @hr/server [component 3/4]",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "scripts/checkLocalVoiceTurn.mjs"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:42:21.155Z",
+      "finishedAt": "2026-11-05T12:42:22.482Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "local-voice-turn.log",
+      "passLines": 8,
+      "count": 8,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "local-voice-queue",
+      "protection": "bounded queue/admission/no hidden retry",
+      "command": "npm.cmd run check:voice:local -w @hr/server [component 4/4]",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "scripts/checkLocalVoiceQueue.mjs"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:42:22.486Z",
+      "finishedAt": "2026-11-05T12:42:23.557Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "local-voice-queue.log",
+      "passLines": 6,
+      "count": 6,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "scorecard",
+      "protection": "frozen criteria/weight arithmetic regressions",
+      "command": "npm.cmd run check:scorecard -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/ai/scorecard.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:42:23.561Z",
+      "finishedAt": "2026-11-05T12:42:24.855Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "scorecard.log",
+      "passLines": 27,
+      "count": 27,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "structured-provider",
+      "protection": "malformed/unavailable model responses using offline mocks",
+      "command": "node --conditions=development --import tsx src/ai/structuredProvider.check.ts",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "--conditions=development",
+        "--import",
+        "tsx",
+        "src/ai/structuredProvider.check.ts"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:42:24.859Z",
+      "finishedAt": "2026-11-05T12:42:26.215Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "structured-provider.log",
+      "passLines": 4,
+      "count": 4,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "typechecks",
+      "protection": "contracts/API/web TypeScript and web lint",
+      "command": "npm.cmd run check",
+      "cwd": "",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+        "run",
+        "check"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:42:26.220Z",
+      "finishedAt": "2026-11-05T12:43:17.109Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 7,
+      "outputLog": "typechecks.log",
+      "passLines": 0,
+      "count": null,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "contracts-build",
+      "protection": "production contracts emission",
+      "command": "npm.cmd run build -w @hr/shared",
+      "cwd": "",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+        "run",
+        "build",
+        "-w",
+        "@hr/shared"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": false,
+      "startedAt": "2026-11-05T12:43:17.113Z",
+      "finishedAt": "2026-11-05T12:43:22.001Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 2,
+      "outputLog": "contracts-build.log",
+      "passLines": 0,
+      "count": null,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "api-build",
+      "protection": "production API emission and compiled migration/data copy",
+      "command": "npm.cmd run build -w @hr/server",
+      "cwd": "",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+        "run",
+        "build",
+        "-w",
+        "@hr/server"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": false,
+      "startedAt": "2026-11-05T12:43:22.005Z",
+      "finishedAt": "2026-11-05T12:43:52.853Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 3,
+      "outputLog": "api-build.log",
+      "passLines": 0,
+      "count": null,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "web-build",
+      "protection": "production web build with mock flag explicitly true",
+      "command": "npm.cmd run build -w hr-app",
+      "cwd": "",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+        "run",
+        "build",
+        "-w",
+        "hr-app"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:43:52.858Z",
+      "finishedAt": "2026-11-05T12:44:19.488Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 3,
+      "outputLog": "web-build.log",
+      "passLines": 1,
+      "count": null,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "secret-scan",
+      "protection": "Phase 5.5 frontend/bundle secret exclusion with isolated synthetic canaries",
+      "command": "node scripts/checkInterviewSecrets.mjs",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "scripts/checkInterviewSecrets.mjs"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:44:19.491Z",
+      "finishedAt": "2026-11-05T12:44:19.962Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "secret-scan.log",
+      "passLines": 1,
+      "count": 1,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "secret-canary",
+      "protection": "Frontend/build dedicated speech/LLM credential exclusion",
+      "command": "node docs/ai-interviewer/evaluation-integration/secret-check.mjs",
+      "cwd": "",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "docs/ai-interviewer/evaluation-integration/secret-check.mjs"
+      ],
+      "allowedLoopbackPorts": "",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:44:19.965Z",
+      "finishedAt": "2026-11-05T12:44:20.444Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "secret-canary.log",
+      "passLines": 1,
+      "count": 1,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "browser3",
+      "protection": "real Chrome + disposable PostgreSQL Phase 3 E2E",
+      "command": "npm.cmd run check:ai-interviewer:browser -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "scripts/checkAiInterviewBrowser.mjs"
+      ],
+      "allowedLoopbackPorts": "55442,5179,5180,8793,9333",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:44:20.447Z",
+      "finishedAt": "2026-11-05T12:45:55.530Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 2,
+      "outputLog": "browser3.log",
+      "passLines": 44,
+      "count": 44,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "browser4",
+      "protection": "real Chrome Phase 3 lifecycle + Phase 4 HR report cases",
+      "command": "npm.cmd run check:ai-interviewer:report:browser -w @hr/server",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "scripts/checkAiInterviewReportBrowser.mjs"
+      ],
+      "allowedLoopbackPorts": "55442,5179,5180,8793,9333",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:45:55.534Z",
+      "finishedAt": "2026-11-05T12:47:46.455Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 2,
+      "outputLog": "browser4.log",
+      "passLines": 58,
+      "count": 58,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "answer-browser",
+      "protection": "Phase 5.2 real Chrome recovery/refresh/network/two-tab cases plus unchanged Phase 3",
+      "command": "node scripts/checkAiInterviewAnswerBrowser.mjs",
+      "cwd": "services/hr-api",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "scripts/checkAiInterviewAnswerBrowser.mjs"
+      ],
+      "allowedLoopbackPorts": "55442,5179,5180,8793,9333",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:47:46.459Z",
+      "finishedAt": "2026-11-05T12:51:02.535Z",
+      "exitCode": 0,
+      "status": "PASS",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 2,
+      "outputLog": "answer-browser.log",
+      "passLines": 56,
+      "count": 56,
+      "resultDirectory": "runs/final-verified-20261105"
+    },
+    {
+      "id": "migrations",
+      "protection": "unaltered full migration chain + rerun idempotency",
+      "command": "node docs/ai-interviewer/evaluation-integration/migrations.mjs",
+      "cwd": "",
+      "actualExecutable": "node",
+      "actualArguments": [
+        "docs/ai-interviewer/evaluation-integration/migrations.mjs"
+      ],
+      "allowedLoopbackPorts": "55442",
+      "entryExists": true,
+      "startedAt": "2026-11-05T12:51:02.539Z",
+      "finishedAt": "2026-11-05T12:51:05.923Z",
+      "exitCode": 0,
+      "status": "BLOCKED",
+      "blockedExternalAttempts": 0,
+      "networkProcessCount": 1,
+      "outputLog": "migrations.log",
+      "passLines": 0,
+      "count": null,
+      "resultDirectory": "runs/final-verified-20261105"
+    }
+  ],
+  "completedPassSuites": 48,
+  "secrets": {
+    "status": "PASS",
+    "checkedFiles": 148,
+    "offendingFiles": 0,
+    "valuesPrinted": 0,
+    "dedicatedSpeechCanaryDetected": true,
+    "dedicatedLlmCanaryDetected": true,
+    "dedicatedEvaluationCanaryDetected": true,
+    "originalDetectorIncluded": true
+  },
+  "logPrivacy": {
+    "filesChecked": 106,
+    "offendingFiles": 0,
+    "paths": []
+  },
+  "network": {
+    "syntheticEvaluationSdkRequests": 56,
+    "finalRunSyntheticEvaluationSdkRequests": 14,
+    "instrumentedNodeProcesses": 214,
+    "guardedExternalAttempts": 0,
+    "realProviderCalls": 0,
+    "realModelCalls": 0,
+    "localModelsInstalled": 0,
+    "ollamaServiceCalls": 0,
+    "syntheticSpeechSdkRequests": 62,
+    "finalRunSyntheticSpeechSdkRequests": 31,
+    "syntheticLlmSdkRequests": 28,
+    "finalRunSyntheticLlmSdkRequests": 14,
+    "scope": "All guarded task attempts; Node socket/fetch plus Chrome page guards; native Chrome background traffic not independently packet-captured."
+  },
+  "cleanup": {
+    "status": "PASS",
+    "startedAtUtc": "2026-11-05T12:51:18.639Z",
+    "commands": [
+      {
+        "command": "node docs/ai-interviewer/evaluation-integration/run.mjs baseline-20261105 cleanup",
+        "exitCode": 0,
+        "target": ".local-dev/evaluationintegration-temp/baseline-20261105"
+      },
+      {
+        "command": "node docs/ai-interviewer/evaluation-integration/run.mjs development-1 cleanup",
+        "exitCode": 0,
+        "target": ".local-dev/evaluationintegration-temp/development-1"
+      },
+      {
+        "command": "node docs/ai-interviewer/evaluation-integration/run.mjs development-2 cleanup",
+        "exitCode": 0,
+        "target": ".local-dev/evaluationintegration-temp/development-2"
+      },
+      {
+        "command": "node docs/ai-interviewer/evaluation-integration/run.mjs development-3 cleanup",
+        "exitCode": 0,
+        "target": ".local-dev/evaluationintegration-temp/development-3"
+      },
+      {
+        "command": "node docs/ai-interviewer/evaluation-integration/run.mjs development-4 cleanup",
+        "exitCode": 0,
+        "target": ".local-dev/evaluationintegration-temp/development-4"
+      },
+      {
+        "command": "node docs/ai-interviewer/evaluation-integration/run.mjs development-5 cleanup",
+        "exitCode": 0,
+        "target": ".local-dev/evaluationintegration-temp/development-5"
+      },
+      {
+        "command": "node docs/ai-interviewer/evaluation-integration/run.mjs development-6 cleanup",
+        "exitCode": 0,
+        "target": ".local-dev/evaluationintegration-temp/development-6"
+      },
+      {
+        "command": "node docs/ai-interviewer/evaluation-integration/run.mjs development-7 cleanup",
+        "exitCode": 0,
+        "target": ".local-dev/evaluationintegration-temp/development-7"
+      },
+      {
+        "command": "node docs/ai-interviewer/evaluation-integration/run.mjs final-20261105 cleanup",
+        "exitCode": 0,
+        "target": ".local-dev/evaluationintegration-temp/final-20261105"
+      },
+      {
+        "command": "node docs/ai-interviewer/evaluation-integration/run.mjs final-verified-20261105 cleanup",
+        "exitCode": 0,
+        "target": ".local-dev/evaluationintegration-temp/final-verified-20261105"
+      },
+      {
+        "command": ".local-dev/ai-interviewer-postgres/pgsql/bin/pg_ctl.exe -D .local-dev/ai-interviewer-postgres/data -m fast -w -t 15 stop",
+        "exitCode": 0,
+        "expectedExitCode": 0
+      },
+      {
+        "command": ".local-dev/ai-interviewer-postgres/pgsql/bin/pg_ctl.exe -D .local-dev/ai-interviewer-postgres/data status",
+        "exitCode": 3,
+        "expectedExitCode": 3
+      }
+    ],
+    "removedProfiles": [
+      "baseline-20261105",
+      "development-1",
+      "development-2",
+      "development-3",
+      "development-4",
+      "development-5",
+      "development-6",
+      "development-7",
+      "final-20261105",
+      "final-verified-20261105"
+    ],
+    "databasePolicy": "Read-only resource inspection; no database dropped during finalization",
+    "activeOtherClientSessions": 0,
+    "preexistingTestDatabasesLeftUntouched": [
+      {
+        "database": "ai_interview_phase3_40df101c9978482ea01af41f70ffb3b4",
+        "createdAtUtc": "2026-11-01T12:36:51.447Z",
+        "lastModifiedAtUtc": "2026-11-03T07:48:43.961Z"
+      }
+    ],
+    "ownDisposableDatabasesRemaining": 0,
+    "localTestClusterStopped": true,
+    "temporaryRunDirectoriesRemaining": 0,
+    "finishedAtUtc": "2026-11-05T12:51:24.321Z"
+  },
+  "migration": {
+    "status": "BLOCKED",
+    "databasePolicy": "Unique generated disposable local database; no application database touched",
+    "journalEntries": 27,
+    "cleanup": true,
+    "postgresqlVersion": "18.6",
+    "vectorAvailable": false,
+    "sqlState": "0A000",
+    "blocker": "pgvector extension unavailable; exact migration 0008 requires CREATE EXTENSION vector. No migration skipped, stubbed or edited.",
+    "failingMigration": "0008_happy_hannibal_king.sql",
+    "transactionRolledBack": true
+  },
+  "releaseBlockers": [
+    {
+      "id": "pgvector-full-migration-chain",
+      "status": "OPEN / BLOCKED"
+    },
+    {
+      "id": "live-voice-worker-complete-trusted-candidate-transport",
+      "status": "OPEN / BLOCKED"
+    }
+  ],
+  "llmOrchestrationImplemented": true,
+  "evaluationIntegrationImplemented": true,
+  "realProviderCallsMade": false,
+  "dependenciesAdded": 0,
+  "migrationsAdded": 0,
+  "failures": [],
+  "recordedAtUtc": "2026-11-05T12:51:38.815Z"
+}

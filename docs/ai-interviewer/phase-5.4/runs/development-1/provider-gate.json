@@ -1,0 +1,13 @@
+{
+  "id": "provider-gate",
+  "protection": "Phase 5.4 synthetic provider ingress/STT/TTS/interruption/reconnect/security",
+  "command": "node --conditions=development --import tsx src/aiInterviewer/delivery.check.ts",
+  "startedAt": "2026-11-03T11:20:08.511Z",
+  "finishedAt": "2026-11-03T11:20:15.108Z",
+  "exitCode": 1,
+  "status": "FAIL",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "provider-gate.log",
+  "passLines": 15
+}

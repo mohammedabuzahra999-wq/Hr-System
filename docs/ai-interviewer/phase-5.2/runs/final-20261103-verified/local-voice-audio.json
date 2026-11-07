@@ -1,0 +1,13 @@
+{
+  "id": "local-voice-audio",
+  "protection": "audio/VAD/device cleanup (in-memory browser API doubles)",
+  "command": "npm.cmd run check:voice:local -w @hr/server [component 2/4]",
+  "startedAt": "2026-11-03T09:06:31.986Z",
+  "finishedAt": "2026-11-03T09:06:32.548Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "local-voice-audio.log",
+  "passLines": 4
+}

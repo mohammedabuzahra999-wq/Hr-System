@@ -1,0 +1,24 @@
+{
+  "version": "CEB-1C4R-final-integrity-v1.1",
+  "verifiedAt": "2026-10-25T08:00:23.324Z",
+  "protectedFiles": 435,
+  "protectedFilesChanged": 0,
+  "priorEvidenceFilesPreserved": 21,
+  "generationInputsUnchanged": true,
+  "targetSourcesAndToolsPinned": true,
+  "reviewRows": 480,
+  "completedHumanReviews": 0,
+  "assetHashes": {
+    "runtime-reference-v1.1.jsonl": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736",
+    "model-selection-v1.1.jsonl": "09cd5561686fd77d24f78a9f6036947425d9fc7973652b8b808c9ea907da5986"
+  },
+  "frozen404Sha256": "b6a6a9f74e76edcf783ad3a2f47f2fa493ac0444e2ca8bf239439229e14a2b05",
+  "historical10KSha256": "1fc3665f36b2b1814fdebe248ce46709a5dbdc7058d728620adc0ebf9b3fdb9b",
+  "historicalManifestSha256": "cd490a4d777bee7c490e26c7e1d953f19239e65a1f497b7f08e07fd204d81b47",
+  "originalV1ManifestSha256": "b680a470a207bbec886ed27159bca6fa7ba55c0b43ed0625db143c260055b774",
+  "gitAbsent": true,
+  "historicalBenchmarkResultsAbsent": true,
+  "frozenCasesExecuted": 0,
+  "modelCalls": 0,
+  "fineTuningStarted": false
+}

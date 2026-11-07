@@ -1,0 +1,58 @@
+{
+  "version": "CEB-envelope-quality-v1",
+  "timestamp": "2026-10-25T07:37:31.785Z",
+  "protectedDataRead": false,
+  "modelCalls": 0,
+  "assets": {
+    "runtime-reference-v1.jsonl": {
+      "sha256": "342503dd6c810136d8b5ede8dea96005e593a2ee623f849640fcfd357bb826de",
+      "rows": 320,
+      "requiredEnvelopeValid": 320,
+      "status": "PASS",
+      "errors": [],
+      "placeholderOccurrences": {
+        "EMPLOYEE_NAME": 40,
+        "DATE": 12,
+        "DEPARTMENT": 8,
+        "TITLE": 28,
+        "TEXT": 12,
+        "EMAIL": 4,
+        "JOB_TITLE": 48,
+        "SALARY_AMOUNT": 4,
+        "ADJUSTMENT_AMOUNT": 4,
+        "LOCATION": 4,
+        "APPLICANT_NAME": 24,
+        "DATETIME": 4
+      },
+      "roleCounts": {
+        "employee": 80,
+        "manager": 32,
+        "hr": 200,
+        "admin": 8
+      },
+      "independentDialectSemanticReview": "PENDING",
+      "warnings": []
+    },
+    "model-selection-v1.jsonl": {
+      "sha256": "8d50c67b4daa388c9cadcd3e992e0aa8504a08534b1beb4bdc2a022ac62928c6",
+      "rows": 160,
+      "requiredEnvelopeValid": 160,
+      "status": "PASS",
+      "errors": [],
+      "placeholderOccurrences": {
+        "EMPLOYEE_NAME": 8,
+        "EMPLOYEE_ID": 4
+      },
+      "roleCounts": {
+        "employee": 72,
+        "manager": 20,
+        "hr": 68,
+        "admin": 0
+      },
+      "independentDialectSemanticReview": "PENDING",
+      "warnings": [
+        "No admin actor cases; role-balance target not achieved"
+      ]
+    }
+  }
+}

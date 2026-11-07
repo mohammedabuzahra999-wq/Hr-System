@@ -1,0 +1,13 @@
+{
+  "id": "speech-contract",
+  "protection": "STT/TTS registry/SDK mock/configuration/timeouts/capacity/errors/audio/secrets",
+  "command": "npm.cmd run check:ai-interviewer:speech -w @hr/server",
+  "startedAt": "2026-11-05T08:00:07.255Z",
+  "finishedAt": "2026-11-05T08:00:15.823Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 8,
+  "outputLog": "speech-contract.log",
+  "passLines": 58
+}

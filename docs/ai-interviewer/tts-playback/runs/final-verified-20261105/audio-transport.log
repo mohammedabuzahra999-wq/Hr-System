@@ -1,0 +1,64 @@
+PASS valid authenticated WAV commits one server STT answer and one receipt
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:45.365Z","event":"request_rejected","code":"STALE"}
+PASS reservation retry with same identity is idempotent and conflicting reuse fails
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:45.494Z","event":"request_rejected","code":"STALE"}
+PASS cancel-before-begin tombstone fences a delayed original reservation
+PASS response-loss replay returns durable COMMITTED without another STT call
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:45.935Z","event":"request_rejected","code":"STALE"}
+PASS completion permits only duplicate reconciliation and rejects a new capture
+PASS different audio bytes cannot reuse committed identity
+PASS two tabs with different identities cannot reserve the same turn
+PASS same upload identity arriving simultaneously invokes STT once
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:47.067Z","event":"candidate_session_rejected","interviewId":"5bba8822-230b-4baf-9c4d-b5bef55adcd9","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:47.068Z","event":"request_rejected","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:47.069Z","event":"request_rejected","code":"AUTH"}
+PASS wrong candidate and unauthenticated upload are independently denied
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:47.242Z","event":"request_rejected","code":"AUTH"}
+PASS wrong session version, turn, expected version and forged generation fail safely
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:47.477Z","event":"candidate_session_rejected","interviewId":"e8a81e4d-f2d4-4d85-aba7-1528545107b8","code":"REVOKED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:47.482Z","event":"candidate_session_rejected","interviewId":"e8a81e4d-f2d4-4d85-aba7-1528545107b8","code":"REVOKED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:47.654Z","event":"candidate_session_rejected","interviewId":"385f1663-cecb-447c-a6d2-41787f760733","code":"EXPIRED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:47.667Z","event":"candidate_session_rejected","interviewId":"385f1663-cecb-447c-a6d2-41787f760733","code":"EXPIRED"}
+PASS revoked and expired sessions cannot upload or recover audio
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:48.239Z","event":"request_rejected","code":"DENIED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:48.240Z","event":"request_rejected","code":"DENIED"}
+PASS invalid/missing Origin fails even with a valid session
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:48.529Z","event":"request_rejected","code":"INVALID"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:48.552Z","event":"request_rejected","code":"DENIED"}
+PASS browser transcripts, evaluation data and receipts are never upload authority
+PASS audio validation: malformed
+PASS audio validation: oversized body
+PASS audio validation: oversized header
+PASS audio validation: too short
+PASS audio validation: wrong WAV rate
+PASS interrupted body is recoverable with same capture and no partial answer
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:49.242Z","event":"request_rejected","code":"INTERNAL"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:49.350Z","event":"request_rejected","code":"INTERNAL"}
+PASS STT error and malformed output leave retry state, no final answer/receipt
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:49.493Z","event":"request_rejected","code":"INTERNAL"}
+PASS timeout then retry succeeds once and late STT result cannot overwrite
+PASS pause during STT fences the stale result
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:49.675Z","event":"provider_readiness_changed","state":"configured"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:49.676Z","event":"provider_readiness_changed","state":"ready"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:49.867Z","event":"provider_readiness_changed","state":"unavailable"}
+PASS audio-v2 uplink commits through the existing trusted delivery generation
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:49.915Z","event":"provider_readiness_changed","state":"configured"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:49.915Z","event":"provider_readiness_changed","state":"ready"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:50.103Z","event":"provider_readiness_changed","state":"unavailable"}
+PASS replacement trusted generation fences late STT even on the same turn/session
+PASS stalled upload body is bounded before any STT call
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:50.245Z","event":"request_rejected","code":"THROTTLED"}
+PASS two global upload slots bound authenticated slow-body memory and admit no third reader
+PASS cancellation fences processing and permits a fresh generation
+PASS failed SQL finalization rolls back transcript, answer, receipt and decision
+PASS new runtime owner can reconcile a durable commit and cannot accept old pending generation
+[ai-interview-operations] {"atUtc":"2026-11-05T09:06:50.909Z","event":"request_rejected","code":"THROTTLED"}
+PASS upload flood is bounded and authorization remains independent
+PASS privacy DTO and metadata contain no audio bytes, hashes, raw exceptions or invite/session credentials
+PASS production audio configuration: disabled keyless startup
+PASS production audio configuration: enabled missing STT
+PASS production audio configuration: selected STT missing key
+PASS production audio configuration: synthetic selector cannot become production
+PASS production audio configuration: configured registration is not Live Voice ready
+PASS no external/model calls occurred
+37/37 candidate audio transport checks passed; external calls=0

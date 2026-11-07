@@ -1,0 +1,13 @@
+{
+  "id": "operations-db",
+  "protection": "Phase 5.5 abuse/audit/authorization/shutdown/restart with PostgreSQL",
+  "command": "node --conditions=development --import tsx src/aiInterviewer/operations.persistence.check.ts",
+  "startedAt": "2026-11-05T12:22:13.287Z",
+  "finishedAt": "2026-11-05T12:22:23.890Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "operations-db.log",
+  "passLines": 26
+}

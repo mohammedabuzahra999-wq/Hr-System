@@ -1,0 +1,272 @@
+{
+  "version": "CEB-evaluation-exclusion-selftests-v1.1",
+  "created": "2026-10-25T07:56:08.822Z",
+  "status": "PASS",
+  "checks": 55,
+  "passed": 55,
+  "results": [
+    {
+      "name": "native-process-has-no-child-or-worker",
+      "status": "PASS"
+    },
+    {
+      "name": "native-read-denied:server/.env",
+      "status": "PASS"
+    },
+    {
+      "name": "native-read-denied:server/src/copilot/data/hr_agent_intents_10000.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "native-read-denied:server/dist/server/src/copilot/data/hr_agent_intents_10000.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "native-read-denied:docs/fine-tuning/benchmark/pre-finetuning-benchmark-v1.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "native-read-denied:server/uploads",
+      "status": "PASS"
+    },
+    {
+      "name": "native-read-denied:.local-voice/worker.token",
+      "status": "PASS"
+    },
+    {
+      "name": "native-read-denied:server/src/copilot/training.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "native-read-denied:docs/fine-tuning/controlled-assets/remediation-v1.1/runtime-reference-v1.1.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "native-read-denied:docs/fine-tuning/controlled-assets/remediation-v1.1/model-selection-v1.1.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "credential-not-inherited:DATABASE_URL",
+      "status": "PASS"
+    },
+    {
+      "name": "credential-not-inherited:OPENAI_API_KEY",
+      "status": "PASS"
+    },
+    {
+      "name": "credential-not-inherited:OPENROUTER_API_KEY",
+      "status": "PASS"
+    },
+    {
+      "name": "credential-not-inherited:SESSION_SECRET",
+      "status": "PASS"
+    },
+    {
+      "name": "credential-not-inherited:NODE_OPTIONS",
+      "status": "PASS"
+    },
+    {
+      "name": "credential-not-inherited:HTTP_PROXY",
+      "status": "PASS"
+    },
+    {
+      "name": "credential-not-inherited:HTTPS_PROXY",
+      "status": "PASS"
+    },
+    {
+      "name": "fetch-blocked-before-transport",
+      "status": "PASS"
+    },
+    {
+      "name": "native-module-denied:node:http",
+      "status": "PASS"
+    },
+    {
+      "name": "native-module-denied:node:net",
+      "status": "PASS"
+    },
+    {
+      "name": "native-module-denied:node:child_process",
+      "status": "PASS"
+    },
+    {
+      "name": "native-module-denied:node:worker_threads",
+      "status": "PASS"
+    },
+    {
+      "name": "pending-candidate-admission-rejected-before-asset-read",
+      "status": "PASS"
+    },
+    {
+      "name": "caller-cannot-forge-a-controlled-projection",
+      "status": "PASS"
+    },
+    {
+      "name": "admitted-label-alone-cannot-bypass-review",
+      "status": "PASS"
+    },
+    {
+      "name": "positive-fixture-is-not-actual-admission",
+      "status": "PASS"
+    },
+    {
+      "name": "typed-projection-retains-query-and-action-types",
+      "status": "PASS"
+    },
+    {
+      "name": "typed-projection-retains-person-report-and-period",
+      "status": "PASS"
+    },
+    {
+      "name": "projection-action-permission-denies-employee",
+      "status": "PASS"
+    },
+    {
+      "name": "projection-action-retains-wire-amount",
+      "status": "PASS"
+    },
+    {
+      "name": "real-resolver-with-controlled-canary:employee",
+      "status": "PASS"
+    },
+    {
+      "name": "real-resolver-with-controlled-canary:manager",
+      "status": "PASS"
+    },
+    {
+      "name": "real-resolver-with-controlled-canary:hr",
+      "status": "PASS"
+    },
+    {
+      "name": "real-resolver-with-controlled-canary:admin",
+      "status": "PASS"
+    },
+    {
+      "name": "real-resolver-retains-shared-semantic-validation",
+      "status": "PASS"
+    },
+    {
+      "name": "real-resolver-cannot-grant-company-permission",
+      "status": "PASS"
+    },
+    {
+      "name": "real-resolver-company-canary-for-admin",
+      "status": "PASS"
+    },
+    {
+      "name": "real-deterministic-rules-still-pass-validation",
+      "status": "PASS"
+    },
+    {
+      "name": "unresolved-input-does-not-call-a-provider",
+      "status": "PASS"
+    },
+    {
+      "name": "reference-denied:server/src/copilot/data/hr_agent_intents_10000.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "reference-denied:server/dist/server/src/copilot/data/hr_agent_intents_10000.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "reference-denied:C:\\TEST\\SERVER\\SRC\\COPILOT\\DATA\\HR_AGENT_INTENTS_10000.JSONL",
+      "status": "PASS"
+    },
+    {
+      "name": "reference-denied:file:///test/hr_agent_intents_10000.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "reference-denied:%68r_agent_intents_10000.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "reference-denied:../data/hr_agent_intents_10000.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "reference-denied:server/src/copilot/training.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "caught-legacy-reference-leaves-sticky-failure",
+      "status": "PASS"
+    },
+    {
+      "name": "unapproved-module-fails-closed:node:fs",
+      "status": "PASS"
+    },
+    {
+      "name": "unapproved-module-fails-closed:node:fs/promises",
+      "status": "PASS"
+    },
+    {
+      "name": "unapproved-module-fails-closed:server/src/db/client.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "unapproved-module-fails-closed:server/src/mcp/server.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "unapproved-module-fails-closed:server/src/knowledge/service.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "unapproved-module-fails-closed:server/src/ai/ollama.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "unapproved-module-fails-closed:server/src/copilot/training-original.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "real-resolver-module-graph-contains-no-legacy-loader",
+      "status": "PASS"
+    }
+  ],
+  "trace": {
+    "loadedSourceHashes": {
+      "server/src/copilot/readRules.ts": "d50d48cec428589c6ef8c156cdc002d2b67dfe00f28d00dded32e7ca9723158a",
+      "server/src/copilot/personName.ts": "42edb1d75e1a7cc96ea2337200a6e6b0ae4d04b794231d3af5a78ae536967746",
+      "server/src/copilot/readPeriods.ts": "07845161928ba536545fdeee23fc40bf901079081684113f802f808b999c397c",
+      "server/src/copilot/teamPresence.ts": "3379fe4d02867b0aadf73ad52d56250e6ca5325d91176c2da01744768b9e96f3",
+      "server/src/copilot/resolve.ts": "830292e0d09a9da626fbf83bd9a2e62d8edf687eb678c2667aabc3f97d20c90a",
+      "server/src/copilot/actions.ts": "ea182a2d40f98bffe9cfd94acf67fc2d1abf1da10856af7abcb592657b07a41c",
+      "server/src/copilot/intents.ts": "848946826f105bb51d721626d08d752853f5d163b2bfdb045c1fce20400c7a82",
+      "server/src/permissions.ts": "76f0b9033ca44f6ae95bc441eabb24fa2cab2374cee088f0f7469397682cdbab"
+    },
+    "dependencyOverrides": [
+      "training",
+      "phrasebook-empty-plan",
+      "conversation-examples-excluded",
+      "guide-examples-excluded",
+      "provider-disabled",
+      "synthetic-env"
+    ],
+    "violations": [],
+    "modelCalls": 0,
+    "hrExecutions": 0,
+    "legacyBytesRead": 0,
+    "candidateAssetsLoaded": false
+  },
+  "testFixture": {
+    "profile": "self-test-canaries-only-not-admission",
+    "fixtureSha256": "b062a2696febed38cc92acb02d83ce3b9b340e0ef54cf9b09d2440080b3ee978",
+    "candidateAssetsLoaded": false
+  },
+  "legacyExclusion": "VERIFIED_FOR_NEW_EVALUATION_CAPSULE_ONLY",
+  "failClosedExclusionTest": "PASS",
+  "realCandidateAssetsLoaded": false,
+  "actualReleaseAdmission": "REJECTED_PENDING_HUMAN_REVIEW",
+  "sourceExamplesProfile": "EXCLUDED_UNREVIEWED_MAINTAINED_EXAMPLE_ARRAYS",
+  "providerMode": "DISABLED_NO_MODEL_CALLS",
+  "productionDbMcpRag": "BLOCKED",
+  "realWrites": 0,
+  "cloudModelCalls": 0,
+  "ollamaModelCalls": 0,
+  "frozenCasesExecuted": 0,
+  "fineTuningStarted": false,
+  "scriptSha256": "7a9176f16552cf5f2d04c957fd45c2d7c9e5eb620c25078c9e6b0f751a491af2"
+}

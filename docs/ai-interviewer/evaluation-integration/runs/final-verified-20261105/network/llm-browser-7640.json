@@ -1,0 +1,8 @@
+{
+  "suite": "llm-browser",
+  "socketConnectionsAllowed": 44,
+  "fetchCallsAllowed": 43,
+  "blockedExternalAttempts": 0,
+  "suppressedFixtureWrites": 0,
+  "suppressedScreenshots": 0
+}

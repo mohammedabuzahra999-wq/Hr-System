@@ -1,0 +1,8 @@
+{
+  "suite": "tts-browser",
+  "socketConnectionsAllowed": 40,
+  "fetchCallsAllowed": 39,
+  "blockedExternalAttempts": 0,
+  "suppressedFixtureWrites": 0,
+  "suppressedScreenshots": 0
+}

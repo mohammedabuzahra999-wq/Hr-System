@@ -1,0 +1,72 @@
+{
+  "version": "CEB-AUTO-ADMISSION-1",
+  "decisionId": "CEB-1C4P-RS-v1.1",
+  "created": "2026-10-25T09:06:20.040Z",
+  "approvalAuthority": "Project owner explicit Phase 1C.4P protocol amendment; automated technical checks by Codex",
+  "policy": "CEB-AUTO-ADMISSION-1",
+  "policyDocument": "docs/fine-tuning/design/05-protocol-amendment-automated-admission.md",
+  "policySha256": "0c37d07b5c1932f2bf192c167b8b04009c2cc4be50b6be22810c6e7899f90550",
+  "scope": "Isolated controlled engineering experiment only; no production or run approval",
+  "humanReviewPerformed": false,
+  "humanReviewRequired": false,
+  "humanReview": "OPTIONAL_NOT_PERFORMED",
+  "linguisticLimitation": "Arabic/English, MSA, Jordanian and mixed semantic naturalness was not independently human-reviewed. Automated checks do not prove perfect linguistic quality or complete semantic independence. Disclose this in future reports/publications.",
+  "gates": {
+    "schema": "PASS",
+    "semanticConsistency": "PASS",
+    "recordEnvelope": "PASS",
+    "duplicates": "PASS",
+    "privacyPII": "PASS",
+    "secrets": "PASS",
+    "frozen404Contamination": "PASS",
+    "historical10KContamination": "PASS",
+    "runtimeSelectionOverlap": "PASS",
+    "roleScope": "PASS",
+    "placeholders": "PASS",
+    "languageLabels": "PASS",
+    "isolation": "PASS",
+    "legacy10KExclusion": "PASS",
+    "failClosedExclusion": "PASS",
+    "integrityReproducibility": "PASS"
+  },
+  "assets": {
+    "runtime": {
+      "file": "runtime-reference-v1.1.jsonl",
+      "rows": 320,
+      "sha256": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736",
+      "purpose": "runtime-reference-only",
+      "admission": "ADMITTED"
+    },
+    "selection": {
+      "file": "model-selection-v1.1.jsonl",
+      "rows": 160,
+      "sha256": "09cd5561686fd77d24f78a9f6036947425d9fc7973652b8b808c9ea907da5986",
+      "purpose": "base-model-selection-only-never-training",
+      "admission": "ADMITTED"
+    }
+  },
+  "evidence": {
+    "validation-results.json": "37011aa65eb5febab06e2d3f8d52930117b866230b886ddfb86521c800d78542",
+    "selftest-results.json": "117831f9e2dfde3d8c72979e4de566acc389494cd309e0d1a9cb1e7d74745e3a",
+    "evaluation/preflight-isolation-results.json": "45b999b1c89634159d91240ed97a540db972d7c7a48873107db174fc394e6ce4"
+  },
+  "checkerHashes": {
+    "validator": "d4b3e0e36f939df55baa1f937fcc55549702302765726055e1df37ca926691ee",
+    "extra": "4abbcf660598475bc293ac8903ba18c6e14db54858c53342a82d40e8a76a84ff",
+    "selftest": "67598b52c60e141e61eb2670d0f5fc64ec377d0150ad8630549cf6a1f4c1f7f7",
+    "preflight": "05a1d085045ddec1842e9c27191774e71bee894d68886d85a71d1565bc7e5134",
+    "publisher": "e97ba8021c507ee10366fb8813100e7e2be84ea9a5991c2d5ee8852e51c3c5a6"
+  },
+  "mediumInputAdmission": "MITIGATED_FOR_CONTROLLED_EXPERIMENT",
+  "productionSecurityStatus": "UNCHANGED",
+  "baseModelSelectionExecutionCleared": false,
+  "remainingExecutionGates": [
+    "Tested/hash-pinned CEB-SCORE-1 complete-plan scorer",
+    "Frozen offline local/terminal/model-eligible S partition with adequate per-language model coverage",
+    "Pinned model/checkpoint/digest, transport/settings/timeouts and final executable run manifest"
+  ],
+  "modelCalls": 0,
+  "frozenCasesExecuted": 0,
+  "fineTuningStarted": false,
+  "assetFilesWritten": 0
+}

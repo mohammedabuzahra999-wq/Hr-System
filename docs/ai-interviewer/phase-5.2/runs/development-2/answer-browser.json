@@ -1,0 +1,13 @@
+{
+  "id": "answer-browser",
+  "protection": "Phase 5.2 real Chrome recovery/refresh/network/two-tab cases plus unchanged Phase 3",
+  "command": "node scripts/checkAiInterviewAnswerBrowser.mjs",
+  "startedAt": "2026-11-03T08:44:25.004Z",
+  "finishedAt": "2026-11-03T08:45:40.772Z",
+  "exitCode": 1,
+  "status": "FAIL",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 2,
+  "outputLog": "answer-browser.log",
+  "passLines": 45
+}

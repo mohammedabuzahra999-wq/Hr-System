@@ -1,0 +1,25 @@
+{
+  "version": "CEB-1D0-environment-capture-1",
+  "created": "2026-10-25T09:36:45.356Z",
+  "platform": "win32",
+  "release": "10.0.19045",
+  "architecture": "x64",
+  "node": "24.15.0",
+  "v8": "13.6.233.17-node.48",
+  "icu": "78.2",
+  "zod": "4.6.5",
+  "typescript": "6.0.3",
+  "cpuModels": [
+    "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"
+  ],
+  "logicalProcessors": 8,
+  "totalMemoryBytes": 21343473664,
+  "availableMemoryBytesAtCapture": 7421366272,
+  "timezone": "Asia/Riyadh",
+  "inferenceGpuLayers": 0,
+  "ollamaVersion": "NOT_PROBED_IN_READINESS_PHASE",
+  "candidateRuntimeDigest": "NOT_VERIFIED",
+  "processOrHostIdentifiers": "EXCLUDED",
+  "secretsOrEnvironmentValues": "NOT_CAPTURED",
+  "modelCalls": 0
+}

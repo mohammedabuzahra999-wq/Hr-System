@@ -1,0 +1,2015 @@
+[
+  {
+    "index": 1,
+    "caseId": "BENCH-0001",
+    "error": "aiUnavailable",
+    "modelErrors": [
+      "timeout"
+    ]
+  },
+  {
+    "index": 17,
+    "caseId": "BENCH-0017",
+    "error": "aiUnavailable",
+    "modelErrors": [
+      "timeout"
+    ]
+  },
+  {
+    "index": 19,
+    "caseId": "BENCH-0019",
+    "error": "aiInvalidOutput",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 21,
+    "caseId": "BENCH-0021",
+    "error": "aiUnavailable",
+    "modelErrors": [
+      "timeout"
+    ]
+  },
+  {
+    "index": 22,
+    "caseId": "BENCH-0022",
+    "error": "aiInvalidOutput",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 25,
+    "caseId": "BENCH-0025",
+    "error": "aiInvalidOutput",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 26,
+    "caseId": "BENCH-0026",
+    "error": "aiInvalidOutput",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 27,
+    "caseId": "BENCH-0027",
+    "error": "aiInvalidOutput",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 37,
+    "caseId": "BENCH-0037",
+    "error": "aiUnavailable",
+    "modelErrors": [
+      "timeout"
+    ]
+  },
+  {
+    "index": 42,
+    "caseId": "BENCH-0042",
+    "error": "aiInvalidOutput",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 64,
+    "caseId": "BENCH-0064",
+    "error": "aiInvalidOutput",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 65,
+    "caseId": "BENCH-0065",
+    "error": "fixtureUnavailable",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 66,
+    "caseId": "BENCH-0066",
+    "error": "fixtureUnavailable",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 67,
+    "caseId": "BENCH-0067",
+    "error": "fixtureUnavailable",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 68,
+    "caseId": "BENCH-0068",
+    "error": "aiInvalidOutput",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 70,
+    "caseId": "BENCH-0070",
+    "error": "fixtureUnavailable",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 71,
+    "caseId": "BENCH-0071",
+    "error": "fixtureUnavailable",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 74,
+    "caseId": "BENCH-0074",
+    "error": "aiUnavailable",
+    "modelErrors": [
+      "timeout"
+    ]
+  },
+  {
+    "index": 75,
+    "caseId": "BENCH-0075",
+    "error": "aiInvalidOutput",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 80,
+    "caseId": "BENCH-0080",
+    "error": "aiInvalidOutput",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 97,
+    "caseId": "BENCH-0097",
+    "error": "fixtureUnavailable",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 98,
+    "caseId": "BENCH-0098",
+    "error": "fixtureUnavailable",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 99,
+    "caseId": "BENCH-0099",
+    "error": "fixtureUnavailable",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 100,
+    "caseId": "BENCH-0100",
+    "error": "fixtureUnavailable",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 101,
+    "caseId": "BENCH-0101",
+    "error": "fixtureUnavailable",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 102,
+    "caseId": "BENCH-0102",
+    "error": "fixtureUnavailable",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 103,
+    "caseId": "BENCH-0103",
+    "error": "fixtureUnavailable",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 104,
+    "caseId": "BENCH-0104",
+    "error": "fixtureUnavailable",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 105,
+    "caseId": "BENCH-0105",
+    "error": "fixtureUnavailable",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 106,
+    "caseId": "BENCH-0106",
+    "error": "fixtureUnavailable",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 108,
+    "caseId": "BENCH-0108",
+    "error": "fixtureUnavailable",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 117,
+    "caseId": "BENCH-0117",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 118,
+    "caseId": "BENCH-0118",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 119,
+    "caseId": "BENCH-0119",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 120,
+    "caseId": "BENCH-0120",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 129,
+    "caseId": "BENCH-0129",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 130,
+    "caseId": "BENCH-0130",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 131,
+    "caseId": "BENCH-0131",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 132,
+    "caseId": "BENCH-0132",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 133,
+    "caseId": "BENCH-0133",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 134,
+    "caseId": "BENCH-0134",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 135,
+    "caseId": "BENCH-0135",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 136,
+    "caseId": "BENCH-0136",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 137,
+    "caseId": "BENCH-0137",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 138,
+    "caseId": "BENCH-0138",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 139,
+    "caseId": "BENCH-0139",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 140,
+    "caseId": "BENCH-0140",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 141,
+    "caseId": "BENCH-0141",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 142,
+    "caseId": "BENCH-0142",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 143,
+    "caseId": "BENCH-0143",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 144,
+    "caseId": "BENCH-0144",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 145,
+    "caseId": "BENCH-0145",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 146,
+    "caseId": "BENCH-0146",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 147,
+    "caseId": "BENCH-0147",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 148,
+    "caseId": "BENCH-0148",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 149,
+    "caseId": "BENCH-0149",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 150,
+    "caseId": "BENCH-0150",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 151,
+    "caseId": "BENCH-0151",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 153,
+    "caseId": "BENCH-0153",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 154,
+    "caseId": "BENCH-0154",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 155,
+    "caseId": "BENCH-0155",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 156,
+    "caseId": "BENCH-0156",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 157,
+    "caseId": "BENCH-0157",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 158,
+    "caseId": "BENCH-0158",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 159,
+    "caseId": "BENCH-0159",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 160,
+    "caseId": "BENCH-0160",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 161,
+    "caseId": "BENCH-0161",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 162,
+    "caseId": "BENCH-0162",
+    "error": "fixtureUnavailable",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 163,
+    "caseId": "BENCH-0163",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 164,
+    "caseId": "BENCH-0164",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 165,
+    "caseId": "BENCH-0165",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 166,
+    "caseId": "BENCH-0166",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 167,
+    "caseId": "BENCH-0167",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 168,
+    "caseId": "BENCH-0168",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 169,
+    "caseId": "BENCH-0169",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 170,
+    "caseId": "BENCH-0170",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 171,
+    "caseId": "BENCH-0171",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 172,
+    "caseId": "BENCH-0172",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 173,
+    "caseId": "BENCH-0173",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 174,
+    "caseId": "BENCH-0174",
+    "error": "timeout"
+  },
+  {
+    "index": 175,
+    "caseId": "BENCH-0175",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 176,
+    "caseId": "BENCH-0176",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 177,
+    "caseId": "BENCH-0177",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 178,
+    "caseId": "BENCH-0178",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 179,
+    "caseId": "BENCH-0179",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 180,
+    "caseId": "BENCH-0180",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 181,
+    "caseId": "BENCH-0181",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 182,
+    "caseId": "BENCH-0182",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 183,
+    "caseId": "BENCH-0183",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 184,
+    "caseId": "BENCH-0184",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 185,
+    "caseId": "BENCH-0185",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 186,
+    "caseId": "BENCH-0186",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 187,
+    "caseId": "BENCH-0187",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 188,
+    "caseId": "BENCH-0188",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 189,
+    "caseId": "BENCH-0189",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 190,
+    "caseId": "BENCH-0190",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 191,
+    "caseId": "BENCH-0191",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 192,
+    "caseId": "BENCH-0192",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 193,
+    "caseId": "BENCH-0193",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 194,
+    "caseId": "BENCH-0194",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 195,
+    "caseId": "BENCH-0195",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 196,
+    "caseId": "BENCH-0196",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 197,
+    "caseId": "BENCH-0197",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 198,
+    "caseId": "BENCH-0198",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 199,
+    "caseId": "BENCH-0199",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 200,
+    "caseId": "BENCH-0200",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 201,
+    "caseId": "BENCH-0201",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 202,
+    "caseId": "BENCH-0202",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 203,
+    "caseId": "BENCH-0203",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 204,
+    "caseId": "BENCH-0204",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 205,
+    "caseId": "BENCH-0205",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 206,
+    "caseId": "BENCH-0206",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 207,
+    "caseId": "BENCH-0207",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 208,
+    "caseId": "BENCH-0208",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 209,
+    "caseId": "BENCH-0209",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 210,
+    "caseId": "BENCH-0210",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 211,
+    "caseId": "BENCH-0211",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 212,
+    "caseId": "BENCH-0212",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 213,
+    "caseId": "BENCH-0213",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 214,
+    "caseId": "BENCH-0214",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 215,
+    "caseId": "BENCH-0215",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 216,
+    "caseId": "BENCH-0216",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 217,
+    "caseId": "BENCH-0217",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 218,
+    "caseId": "BENCH-0218",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 219,
+    "caseId": "BENCH-0219",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 220,
+    "caseId": "BENCH-0220",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 221,
+    "caseId": "BENCH-0221",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 222,
+    "caseId": "BENCH-0222",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 223,
+    "caseId": "BENCH-0223",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 224,
+    "caseId": "BENCH-0224",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 225,
+    "caseId": "BENCH-0225",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 226,
+    "caseId": "BENCH-0226",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 227,
+    "caseId": "BENCH-0227",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 228,
+    "caseId": "BENCH-0228",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 229,
+    "caseId": "BENCH-0229",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 230,
+    "caseId": "BENCH-0230",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 231,
+    "caseId": "BENCH-0231",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 232,
+    "caseId": "BENCH-0232",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 233,
+    "caseId": "BENCH-0233",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 234,
+    "caseId": "BENCH-0234",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 235,
+    "caseId": "BENCH-0235",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 236,
+    "caseId": "BENCH-0236",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 237,
+    "caseId": "BENCH-0237",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 238,
+    "caseId": "BENCH-0238",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 239,
+    "caseId": "BENCH-0239",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 240,
+    "caseId": "BENCH-0240",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 241,
+    "caseId": "BENCH-0241",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 242,
+    "caseId": "BENCH-0242",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 244,
+    "caseId": "BENCH-0244",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 245,
+    "caseId": "BENCH-0245",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 246,
+    "caseId": "BENCH-0246",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 247,
+    "caseId": "BENCH-0247",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 248,
+    "caseId": "BENCH-0248",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 249,
+    "caseId": "BENCH-0249",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 250,
+    "caseId": "BENCH-0250",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 251,
+    "caseId": "BENCH-0251",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 252,
+    "caseId": "BENCH-0252",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 253,
+    "caseId": "BENCH-0253",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 254,
+    "caseId": "BENCH-0254",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 255,
+    "caseId": "BENCH-0255",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 256,
+    "caseId": "BENCH-0256",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 257,
+    "caseId": "BENCH-0257",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 258,
+    "caseId": "BENCH-0258",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 259,
+    "caseId": "BENCH-0259",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 260,
+    "caseId": "BENCH-0260",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 261,
+    "caseId": "BENCH-0261",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 262,
+    "caseId": "BENCH-0262",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 263,
+    "caseId": "BENCH-0263",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 264,
+    "caseId": "BENCH-0264",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 265,
+    "caseId": "BENCH-0265",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 266,
+    "caseId": "BENCH-0266",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 267,
+    "caseId": "BENCH-0267",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 268,
+    "caseId": "BENCH-0268",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 269,
+    "caseId": "BENCH-0269",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 270,
+    "caseId": "BENCH-0270",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 271,
+    "caseId": "BENCH-0271",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 272,
+    "caseId": "BENCH-0272",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 273,
+    "caseId": "BENCH-0273",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 275,
+    "caseId": "BENCH-0275",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 276,
+    "caseId": "BENCH-0276",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 277,
+    "caseId": "BENCH-0277",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 278,
+    "caseId": "BENCH-0278",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 279,
+    "caseId": "BENCH-0279",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 280,
+    "caseId": "BENCH-0280",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 281,
+    "caseId": "BENCH-0281",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 282,
+    "caseId": "BENCH-0282",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 283,
+    "caseId": "BENCH-0283",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 284,
+    "caseId": "BENCH-0284",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 285,
+    "caseId": "BENCH-0285",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 286,
+    "caseId": "BENCH-0286",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 287,
+    "caseId": "BENCH-0287",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 288,
+    "caseId": "BENCH-0288",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 289,
+    "caseId": "BENCH-0289",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 290,
+    "caseId": "BENCH-0290",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 291,
+    "caseId": "BENCH-0291",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 292,
+    "caseId": "BENCH-0292",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 293,
+    "caseId": "BENCH-0293",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 295,
+    "caseId": "BENCH-0295",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 296,
+    "caseId": "BENCH-0296",
+    "error": "aiInvalidOutput",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 297,
+    "caseId": "BENCH-0297",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 300,
+    "caseId": "BENCH-0300",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 301,
+    "caseId": "BENCH-0301",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 302,
+    "caseId": "BENCH-0302",
+    "error": "aiInvalidOutput",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 303,
+    "caseId": "BENCH-0303",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 304,
+    "caseId": "BENCH-0304",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 305,
+    "caseId": "BENCH-0305",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 306,
+    "caseId": "BENCH-0306",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 307,
+    "caseId": "BENCH-0307",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 308,
+    "caseId": "BENCH-0308",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 309,
+    "caseId": "BENCH-0309",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 310,
+    "caseId": "BENCH-0310",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 311,
+    "caseId": "BENCH-0311",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 312,
+    "caseId": "BENCH-0312",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 313,
+    "caseId": "BENCH-0313",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 314,
+    "caseId": "BENCH-0314",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 315,
+    "caseId": "BENCH-0315",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 316,
+    "caseId": "BENCH-0316",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 317,
+    "caseId": "BENCH-0317",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 318,
+    "caseId": "BENCH-0318",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 319,
+    "caseId": "BENCH-0319",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 320,
+    "caseId": "BENCH-0320",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 325,
+    "caseId": "BENCH-0325",
+    "error": "aiInvalidOutput",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 326,
+    "caseId": "BENCH-0326",
+    "error": "aiInvalidOutput",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 327,
+    "caseId": "BENCH-0327",
+    "error": "aiInvalidOutput",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 328,
+    "caseId": "BENCH-0328",
+    "error": "aiInvalidOutput",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 330,
+    "caseId": "BENCH-0330",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 332,
+    "caseId": "BENCH-0332",
+    "error": "aiInvalidOutput",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 341,
+    "caseId": "BENCH-0341",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 342,
+    "caseId": "BENCH-0342",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 343,
+    "caseId": "BENCH-0343",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 344,
+    "caseId": "BENCH-0344",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 345,
+    "caseId": "BENCH-0345",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 346,
+    "caseId": "BENCH-0346",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 347,
+    "caseId": "BENCH-0347",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 348,
+    "caseId": "BENCH-0348",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 349,
+    "caseId": "BENCH-0349",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 350,
+    "caseId": "BENCH-0350",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 351,
+    "caseId": "BENCH-0351",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 352,
+    "caseId": "BENCH-0352",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 357,
+    "caseId": "BENCH-0357",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 358,
+    "caseId": "BENCH-0358",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 359,
+    "caseId": "BENCH-0359",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 360,
+    "caseId": "BENCH-0360",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 365,
+    "caseId": "BENCH-0365",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 366,
+    "caseId": "BENCH-0366",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 367,
+    "caseId": "BENCH-0367",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 368,
+    "caseId": "BENCH-0368",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 384,
+    "caseId": "BENCH-0384",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 393,
+    "caseId": "BENCH-0393",
+    "error": "applicationError",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 395,
+    "caseId": "BENCH-0395",
+    "error": "applicationError",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 399,
+    "caseId": "BENCH-0399",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  },
+  {
+    "index": 400,
+    "caseId": "BENCH-0400",
+    "error": "aiNotConfigured",
+    "modelErrors": [
+      null
+    ]
+  }
+]

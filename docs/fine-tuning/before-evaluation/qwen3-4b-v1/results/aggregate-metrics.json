@@ -1,0 +1,818 @@
+{
+  "runId": "CEB-OFFICIAL-BEFORE-QWEN3-4B-2026-10-25-01",
+  "finished": "2026-10-26T02:01:39.193Z",
+  "status": "COMPLETE",
+  "failure": null,
+  "casesExecuted": 404,
+  "totalCases": 404,
+  "unchanged": true,
+  "model": {
+    "name": "qwen3:4b",
+    "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+    "architecture": "qwen3",
+    "parameterCount": 4022468096,
+    "quantization": "Q4_K_M",
+    "ollamaVersion": "0.40.11",
+    "format": "gguf",
+    "contextCapacity": 262144,
+    "embeddingLength": 2560,
+    "license": "Apache-2.0 from embedded installed metadata",
+    "trainableCheckpoint": "NOT_YET_VERIFIED_NO_FINE_TUNING_AUTHORIZATION"
+  },
+  "datasetHash": "b6a6a9f74e76edcf783ad3a2f47f2fa493ac0444e2ca8bf239439229e14a2b05",
+  "baselineLockSha256": "a22e7fd74d21d8a30cb17ac2d910e31526ebadfaf1d612037287878369465681",
+  "interpretation": "CONTROLLED HYBRID UNDERSTANDING; frozen annotated-field scorer, not strict full-plan/production E2E",
+  "historical": {
+    "cases": 404,
+    "metrics": {
+      "intent": {
+        "passed": 325,
+        "evaluated": 379,
+        "unavailableOrNotApplicable": 25,
+        "rate": 0.8575197889182058
+      },
+      "action": {
+        "passed": 0,
+        "evaluated": 211,
+        "unavailableOrNotApplicable": 193,
+        "rate": 0
+      },
+      "entities": {
+        "passed": 172,
+        "evaluated": 361,
+        "unavailableOrNotApplicable": 43,
+        "rate": 0.47645429362880887
+      },
+      "clarification": {
+        "passed": 141,
+        "evaluated": 152,
+        "unavailableOrNotApplicable": 252,
+        "rate": 0.9276315789473685
+      },
+      "confirmation": {
+        "passed": 147,
+        "evaluated": 152,
+        "unavailableOrNotApplicable": 252,
+        "rate": 0.9671052631578947
+      },
+      "scopeRbac": {
+        "passed": 126,
+        "evaluated": 152,
+        "unavailableOrNotApplicable": 252,
+        "rate": 0.8289473684210527
+      }
+    },
+    "attemptWideIntentAccuracy": {
+      "denominator": 380,
+      "rate": 0.8552631578947368,
+      "note": "Includes unavailable/deferred/error attempts as unsuccessful; excludes non-language service-boundary candidates"
+    },
+    "falseActionRate": 0,
+    "falseActionSelections": 0,
+    "falseActionProposals": 0,
+    "falseActionAttempts": 0,
+    "realActionsExecuted": 0,
+    "isolationFailures": 0,
+    "errors": 252,
+    "timeouts": 1,
+    "routingDenominator": 384,
+    "localResolutionRate": 0,
+    "localRoutingRate": 0,
+    "modelFallbackRate": 0.9973958333333334,
+    "modelNeededButUnconfigured": 210,
+    "modelCompleted": 378,
+    "modelDeferred": 0,
+    "latencyMs": {
+      "mean": 52113.284006930706,
+      "median": 53291.2916,
+      "p95": 72480.091,
+      "observations": 404
+    },
+    "byLanguage": {
+      "en": {
+        "cases": 101,
+        "metrics": {
+          "intent": {
+            "evaluated": 95,
+            "rate": 0.8947368421052632
+          },
+          "action": {
+            "evaluated": 53,
+            "rate": 0
+          },
+          "entities": {
+            "evaluated": 90,
+            "rate": 0.4888888888888889
+          },
+          "clarification": {
+            "evaluated": 36,
+            "rate": 0.9166666666666666
+          },
+          "confirmation": {
+            "evaluated": 36,
+            "rate": 1
+          },
+          "scopeRbac": {
+            "evaluated": 36,
+            "rate": 0.8333333333333334
+          }
+        }
+      },
+      "ar-MSA": {
+        "cases": 101,
+        "metrics": {
+          "intent": {
+            "evaluated": 94,
+            "rate": 0.8297872340425532
+          },
+          "action": {
+            "evaluated": 52,
+            "rate": 0
+          },
+          "entities": {
+            "evaluated": 89,
+            "rate": 0.42696629213483145
+          },
+          "clarification": {
+            "evaluated": 39,
+            "rate": 0.9487179487179487
+          },
+          "confirmation": {
+            "evaluated": 39,
+            "rate": 0.9230769230769231
+          },
+          "scopeRbac": {
+            "evaluated": 39,
+            "rate": 0.8461538461538461
+          }
+        }
+      },
+      "ar-JO": {
+        "cases": 101,
+        "metrics": {
+          "intent": {
+            "evaluated": 95,
+            "rate": 0.8421052631578947
+          },
+          "action": {
+            "evaluated": 53,
+            "rate": 0
+          },
+          "entities": {
+            "evaluated": 92,
+            "rate": 0.4782608695652174
+          },
+          "clarification": {
+            "evaluated": 39,
+            "rate": 0.8974358974358975
+          },
+          "confirmation": {
+            "evaluated": 39,
+            "rate": 0.9487179487179487
+          },
+          "scopeRbac": {
+            "evaluated": 39,
+            "rate": 0.7692307692307693
+          }
+        }
+      },
+      "mixed": {
+        "cases": 101,
+        "metrics": {
+          "intent": {
+            "evaluated": 95,
+            "rate": 0.8631578947368421
+          },
+          "action": {
+            "evaluated": 53,
+            "rate": 0
+          },
+          "entities": {
+            "evaluated": 90,
+            "rate": 0.5111111111111111
+          },
+          "clarification": {
+            "evaluated": 38,
+            "rate": 0.9473684210526315
+          },
+          "confirmation": {
+            "evaluated": 38,
+            "rate": 1
+          },
+          "scopeRbac": {
+            "evaluated": 38,
+            "rate": 0.868421052631579
+          }
+        }
+      }
+    },
+    "byEvaluationLayer": {
+      "question": {
+        "cases": 160,
+        "metrics": {
+          "intent": {
+            "evaluated": 156,
+            "rate": 0.75
+          },
+          "action": {
+            "evaluated": 0,
+            "rate": null
+          },
+          "entities": {
+            "evaluated": 145,
+            "rate": 0.8206896551724138
+          },
+          "clarification": {
+            "evaluated": 122,
+            "rate": 0.9098360655737705
+          },
+          "confirmation": {
+            "evaluated": 122,
+            "rate": 1
+          },
+          "scopeRbac": {
+            "evaluated": 122,
+            "rate": 0.8360655737704918
+          }
+        }
+      },
+      "action": {
+        "cases": 212,
+        "metrics": {
+          "intent": {
+            "evaluated": 211,
+            "rate": 0.957345971563981
+          },
+          "action": {
+            "evaluated": 211,
+            "rate": 0
+          },
+          "entities": {
+            "evaluated": 209,
+            "rate": 0.22966507177033493
+          },
+          "clarification": {
+            "evaluated": 6,
+            "rate": 1
+          },
+          "confirmation": {
+            "evaluated": 6,
+            "rate": 0.16666666666666666
+          },
+          "scopeRbac": {
+            "evaluated": 6,
+            "rate": 0.5
+          }
+        }
+      },
+      "local_boundary": {
+        "cases": 8,
+        "metrics": {
+          "intent": {
+            "evaluated": 0,
+            "rate": null
+          },
+          "action": {
+            "evaluated": 0,
+            "rate": null
+          },
+          "entities": {
+            "evaluated": 0,
+            "rate": null
+          },
+          "clarification": {
+            "evaluated": 8,
+            "rate": 1
+          },
+          "confirmation": {
+            "evaluated": 8,
+            "rate": 1
+          },
+          "scopeRbac": {
+            "evaluated": 8,
+            "rate": 0.875
+          }
+        }
+      },
+      "capability": {
+        "cases": 8,
+        "metrics": {
+          "intent": {
+            "evaluated": 8,
+            "rate": 0.25
+          },
+          "action": {
+            "evaluated": 0,
+            "rate": null
+          },
+          "entities": {
+            "evaluated": 3,
+            "rate": 1
+          },
+          "clarification": {
+            "evaluated": 2,
+            "rate": 1
+          },
+          "confirmation": {
+            "evaluated": 2,
+            "rate": 1
+          },
+          "scopeRbac": {
+            "evaluated": 2,
+            "rate": 0
+          }
+        }
+      },
+      "service_boundary": {
+        "cases": 12,
+        "metrics": {
+          "intent": {
+            "evaluated": 0,
+            "rate": null
+          },
+          "action": {
+            "evaluated": 0,
+            "rate": null
+          },
+          "entities": {
+            "evaluated": 0,
+            "rate": null
+          },
+          "clarification": {
+            "evaluated": 12,
+            "rate": 1
+          },
+          "confirmation": {
+            "evaluated": 12,
+            "rate": 1
+          },
+          "scopeRbac": {
+            "evaluated": 12,
+            "rate": 1
+          }
+        }
+      },
+      "conversation": {
+        "cases": 4,
+        "metrics": {
+          "intent": {
+            "evaluated": 4,
+            "rate": 1
+          },
+          "action": {
+            "evaluated": 0,
+            "rate": null
+          },
+          "entities": {
+            "evaluated": 4,
+            "rate": 0.5
+          },
+          "clarification": {
+            "evaluated": 2,
+            "rate": 1
+          },
+          "confirmation": {
+            "evaluated": 2,
+            "rate": 1
+          },
+          "scopeRbac": {
+            "evaluated": 2,
+            "rate": 1
+          }
+        }
+      }
+    },
+    "voiceStyle": {
+      "cases": 84,
+      "metrics": {
+        "intent": {
+          "evaluated": 79,
+          "rate": 0.8481012658227848
+        },
+        "action": {
+          "evaluated": 39,
+          "rate": 0
+        },
+        "entities": {
+          "evaluated": 81,
+          "rate": 0.691358024691358
+        },
+        "clarification": {
+          "evaluated": 38,
+          "rate": 0.9210526315789473
+        },
+        "confirmation": {
+          "evaluated": 38,
+          "rate": 1
+        },
+        "scopeRbac": {
+          "evaluated": 38,
+          "rate": 0.7894736842105263
+        }
+      }
+    }
+  },
+  "supplement": {
+    "overallFrozenAnnotationExact": {
+      "passed": 105,
+      "evaluated": 404,
+      "rate": 0.2599009900990099
+    },
+    "notFullPlanAccuracy": true,
+    "byLanguage": {
+      "en": {
+        "cases": 101,
+        "frozenAnnotationExact": {
+          "passed": 27,
+          "evaluated": 101,
+          "rate": 0.26732673267326734
+        }
+      },
+      "ar-MSA": {
+        "cases": 101,
+        "frozenAnnotationExact": {
+          "passed": 26,
+          "evaluated": 101,
+          "rate": 0.25742574257425743
+        }
+      },
+      "ar-JO": {
+        "cases": 101,
+        "frozenAnnotationExact": {
+          "passed": 24,
+          "evaluated": 101,
+          "rate": 0.2376237623762376
+        }
+      },
+      "mixed": {
+        "cases": 101,
+        "frozenAnnotationExact": {
+          "passed": 28,
+          "evaluated": 101,
+          "rate": 0.27722772277227725
+        }
+      }
+    },
+    "structuredOutput": {
+      "successfulHttpResponses": 378,
+      "validatedResponses": 361,
+      "successfulResponseValidity": {
+        "passed": 361,
+        "evaluated": 378,
+        "rate": 0.955026455026455
+      },
+      "attemptWideValidity": {
+        "passed": 361,
+        "evaluated": 383,
+        "rate": 0.9425587467362925
+      },
+      "note": "Existing Zod+semantic plan validation must pass; response HTTP completion alone is not validity"
+    },
+    "modelAttempts": 383,
+    "modelCompleted": 378,
+    "modelRequests": 383,
+    "modelTimeoutCases": 6,
+    "modelErrors": 5,
+    "fixtureUnavailable": 17,
+    "modelOnlyMetrics": {
+      "cases": 383,
+      "metrics": {
+        "intent": {
+          "passed": 325,
+          "evaluated": 379,
+          "unavailableOrNotApplicable": 4,
+          "rate": 0.8575197889182058
+        },
+        "action": {
+          "passed": 0,
+          "evaluated": 211,
+          "unavailableOrNotApplicable": 172,
+          "rate": 0
+        },
+        "entities": {
+          "passed": 172,
+          "evaluated": 361,
+          "unavailableOrNotApplicable": 22,
+          "rate": 0.47645429362880887
+        },
+        "clarification": {
+          "passed": 121,
+          "evaluated": 132,
+          "unavailableOrNotApplicable": 251,
+          "rate": 0.9166666666666666
+        },
+        "confirmation": {
+          "passed": 127,
+          "evaluated": 132,
+          "unavailableOrNotApplicable": 251,
+          "rate": 0.9621212121212122
+        },
+        "scopeRbac": {
+          "passed": 107,
+          "evaluated": 132,
+          "unavailableOrNotApplicable": 251,
+          "rate": 0.8106060606060606
+        }
+      },
+      "attemptWideIntentAccuracy": {
+        "denominator": 379,
+        "rate": 0.8575197889182058,
+        "note": "Includes unavailable/deferred/error attempts as unsuccessful; excludes non-language service-boundary candidates"
+      },
+      "falseActionRate": 0,
+      "falseActionSelections": 0,
+      "falseActionProposals": 0,
+      "falseActionAttempts": 0,
+      "realActionsExecuted": 0,
+      "isolationFailures": 0,
+      "errors": 251,
+      "timeouts": 0,
+      "routingDenominator": 383,
+      "localResolutionRate": 0,
+      "localRoutingRate": 0,
+      "modelFallbackRate": 1,
+      "modelNeededButUnconfigured": 210,
+      "modelCompleted": 378,
+      "modelDeferred": 0,
+      "latencyMs": {
+        "mean": 54578.608740469994,
+        "median": 53959.726500000004,
+        "p95": 72480.091,
+        "observations": 383
+      },
+      "byLanguage": {
+        "en": {
+          "cases": 96,
+          "metrics": {
+            "intent": {
+              "evaluated": 95,
+              "rate": 0.8947368421052632
+            },
+            "action": {
+              "evaluated": 53,
+              "rate": 0
+            },
+            "entities": {
+              "evaluated": 90,
+              "rate": 0.4888888888888889
+            },
+            "clarification": {
+              "evaluated": 31,
+              "rate": 0.9032258064516129
+            },
+            "confirmation": {
+              "evaluated": 31,
+              "rate": 1
+            },
+            "scopeRbac": {
+              "evaluated": 31,
+              "rate": 0.8064516129032258
+            }
+          }
+        },
+        "ar-MSA": {
+          "cases": 95,
+          "metrics": {
+            "intent": {
+              "evaluated": 94,
+              "rate": 0.8297872340425532
+            },
+            "action": {
+              "evaluated": 52,
+              "rate": 0
+            },
+            "entities": {
+              "evaluated": 89,
+              "rate": 0.42696629213483145
+            },
+            "clarification": {
+              "evaluated": 34,
+              "rate": 0.9411764705882353
+            },
+            "confirmation": {
+              "evaluated": 34,
+              "rate": 0.9117647058823529
+            },
+            "scopeRbac": {
+              "evaluated": 34,
+              "rate": 0.8235294117647058
+            }
+          }
+        },
+        "ar-JO": {
+          "cases": 96,
+          "metrics": {
+            "intent": {
+              "evaluated": 95,
+              "rate": 0.8421052631578947
+            },
+            "action": {
+              "evaluated": 53,
+              "rate": 0
+            },
+            "entities": {
+              "evaluated": 92,
+              "rate": 0.4782608695652174
+            },
+            "clarification": {
+              "evaluated": 34,
+              "rate": 0.8823529411764706
+            },
+            "confirmation": {
+              "evaluated": 34,
+              "rate": 0.9411764705882353
+            },
+            "scopeRbac": {
+              "evaluated": 34,
+              "rate": 0.7647058823529411
+            }
+          }
+        },
+        "mixed": {
+          "cases": 96,
+          "metrics": {
+            "intent": {
+              "evaluated": 95,
+              "rate": 0.8631578947368421
+            },
+            "action": {
+              "evaluated": 53,
+              "rate": 0
+            },
+            "entities": {
+              "evaluated": 90,
+              "rate": 0.5111111111111111
+            },
+            "clarification": {
+              "evaluated": 33,
+              "rate": 0.9393939393939394
+            },
+            "confirmation": {
+              "evaluated": 33,
+              "rate": 1
+            },
+            "scopeRbac": {
+              "evaluated": 33,
+              "rate": 0.8484848484848485
+            }
+          }
+        }
+      },
+      "byEvaluationLayer": {
+        "question": {
+          "cases": 160,
+          "metrics": {
+            "intent": {
+              "evaluated": 156,
+              "rate": 0.75
+            },
+            "action": {
+              "evaluated": 0,
+              "rate": null
+            },
+            "entities": {
+              "evaluated": 145,
+              "rate": 0.8206896551724138
+            },
+            "clarification": {
+              "evaluated": 122,
+              "rate": 0.9098360655737705
+            },
+            "confirmation": {
+              "evaluated": 122,
+              "rate": 1
+            },
+            "scopeRbac": {
+              "evaluated": 122,
+              "rate": 0.8360655737704918
+            }
+          }
+        },
+        "action": {
+          "cases": 211,
+          "metrics": {
+            "intent": {
+              "evaluated": 211,
+              "rate": 0.957345971563981
+            },
+            "action": {
+              "evaluated": 211,
+              "rate": 0
+            },
+            "entities": {
+              "evaluated": 209,
+              "rate": 0.22966507177033493
+            },
+            "clarification": {
+              "evaluated": 6,
+              "rate": 1
+            },
+            "confirmation": {
+              "evaluated": 6,
+              "rate": 0.16666666666666666
+            },
+            "scopeRbac": {
+              "evaluated": 6,
+              "rate": 0.5
+            }
+          }
+        },
+        "capability": {
+          "cases": 8,
+          "metrics": {
+            "intent": {
+              "evaluated": 8,
+              "rate": 0.25
+            },
+            "action": {
+              "evaluated": 0,
+              "rate": null
+            },
+            "entities": {
+              "evaluated": 3,
+              "rate": 1
+            },
+            "clarification": {
+              "evaluated": 2,
+              "rate": 1
+            },
+            "confirmation": {
+              "evaluated": 2,
+              "rate": 1
+            },
+            "scopeRbac": {
+              "evaluated": 2,
+              "rate": 0
+            }
+          }
+        },
+        "conversation": {
+          "cases": 4,
+          "metrics": {
+            "intent": {
+              "evaluated": 4,
+              "rate": 1
+            },
+            "action": {
+              "evaluated": 0,
+              "rate": null
+            },
+            "entities": {
+              "evaluated": 4,
+              "rate": 0.5
+            },
+            "clarification": {
+              "evaluated": 2,
+              "rate": 1
+            },
+            "confirmation": {
+              "evaluated": 2,
+              "rate": 1
+            },
+            "scopeRbac": {
+              "evaluated": 2,
+              "rate": 1
+            }
+          }
+        }
+      },
+      "voiceStyle": {
+        "cases": 83,
+        "metrics": {
+          "intent": {
+            "evaluated": 79,
+            "rate": 0.8481012658227848
+          },
+          "action": {
+            "evaluated": 39,
+            "rate": 0
+          },
+          "entities": {
+            "evaluated": 81,
+            "rate": 0.691358024691358
+          },
+          "clarification": {
+            "evaluated": 38,
+            "rate": 0.9210526315789473
+          },
+          "confirmation": {
+            "evaluated": 38,
+            "rate": 1
+          },
+          "scopeRbac": {
+            "evaluated": 38,
+            "rate": 0.7894736842105263
+          }
+        }
+      }
+    },
+    "latency": {
+      "slowestMs": 150000
+    },
+    "tokens": {
+      "prompt": 914888,
+      "completion": 31245
+    }
+  },
+  "fineTuningStarted": false
+}

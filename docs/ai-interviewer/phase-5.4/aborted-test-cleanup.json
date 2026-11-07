@@ -1,0 +1,7 @@
+{
+  "recordedAtUtc": "2026-11-03T11:27:12.919Z",
+  "policy": "Only verified ai_interview_phase54_<32 hex> databases with zero sessions",
+  "removed": [
+    "ai_interview_phase54_854101d435ad4c13bfd09f6cc67e2684"
+  ]
+}

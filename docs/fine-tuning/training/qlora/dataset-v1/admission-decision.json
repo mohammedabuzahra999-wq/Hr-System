@@ -1,0 +1,13 @@
+{
+  "decision": "REJECTED_CONTAMINATION",
+  "frozenAt": "2026-10-26T13:50:47.290Z",
+  "datasetSha256": "21a5bb1b466d92b2b838df663c1326c47fcf891419553413bd1203eefc4f5a8a",
+  "manifestSha256": "7954befa20b0df85eb4e5e25a8be3bdddebe4e37320282ac6dba446dd993dce3",
+  "reason": "Fixed exclusion gate found strong near matches: F404=2 candidate rows; runtime references=1 candidate row. No exact/normalized/entity-masked matches.",
+  "admittedRows": 0,
+  "admissionFailsClosed": true,
+  "sourceOrThresholdChangedAfterProtectedResults": false,
+  "noProtectedMatchIdsDisclosed": true,
+  "trainingAuthorizedOrStarted": false,
+  "nextStep": "A separately declared independently authored successor release under owner-approved remediation protocol; do not train or revise this release against held-out feedback."
+}

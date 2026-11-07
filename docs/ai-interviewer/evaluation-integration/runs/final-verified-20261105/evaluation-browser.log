@@ -1,0 +1,28 @@
+Browser setup: local fixture ready
+Browser setup: development frontend ready
+Browser setup: production preview ready
+Browser setup: isolated Chrome ready
+PASS 01 HR login and recruitment AI controls use the existing employee workflow
+PASS 02 HR configures explicit plan/timers and adds a third question
+PASS 03 Create goes through the real Phase 2 transaction
+PASS 04 HR freezes READY and operational UI displays no token hash
+PASS 05 Invitation is copied once and cleared from the HR panel
+PASS 06 Revocation is visible and the revoked browser invitation fails safely
+PASS 07 Invalid invitation shows a safe standalone error
+PASS 08 Expired invitation is rejected in the browser
+PASS 09 Valid candidate exchange removes token from URL and browser storage
+PASS 10 Backend refuses start before persisted consent
+PASS 11 Consent persists across a browser refresh
+PASS 12 Arabic RTL, English LTR and Mixed confirmation remain independent
+PASS 13 Mock readiness requests no real microphone
+PASS 14 Interview starts with AI_SPEAKING and the current question
+PASS 15 candidate completes server-authoritative interview before evaluation
+PASS 16 registered evaluation is available to HR and remains inaccessible to candidate
+PASS 17 HR renders synthetic provider provenance and mandatory review without mock relabelling
+PASS 18 insufficient evidence remains unscored and exact citations open finalized source
+PASS 19 human review and provider version survive refresh without another assessment
+PASS 20 provider failure preserves answers and frozen hash; explicit retry reconciles same report
+PASS 21 fabricated evidence is rejected without showing an unverified report
+PASS 22 provider report privacy and zero external/model calls hold
+
+22/22 Evaluation provider browser checks passed; evidence=.local-dev/ai-interviewer-phase3/browser-results.json

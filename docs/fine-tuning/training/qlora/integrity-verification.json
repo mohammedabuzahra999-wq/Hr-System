@@ -1,0 +1,42 @@
+{
+  "verifiedAt": "2026-10-26T13:10:21.986Z",
+  "protectedFileCount": 627,
+  "protectedMismatches": [],
+  "beforeEvidenceAndProvenanceUnchanged": true,
+  "frozen404Sha256": "b6a6a9f74e76edcf783ad3a2f47f2fa493ac0444e2ca8bf239439229e14a2b05",
+  "frozen404Rerun": false,
+  "frozen404Parsed": false,
+  "historical10KParsed": false,
+  "currentIntentCount": 32,
+  "currentActionCount": 48,
+  "validExistingQuestionPlans": 456,
+  "validExistingActionPlans": 192,
+  "intentionalNullControls": 24,
+  "freshPrivacyScan": "PASS_STATIC_WITH_REVIEW_LIMITATIONS; NO REAL PII FOUND",
+  "quotaArithmetic": "PASS",
+  "fourLanguageFamilySplits": "PASS",
+  "exactPinnedTensorIndexProjectionNames": {
+    "pass": true,
+    "targetWeights": 252
+  },
+  "helperSyntaxChecks": [
+    {
+      "file": "inspect-assets.mjs",
+      "pass": true
+    },
+    {
+      "file": "finalize-preparation.mjs",
+      "pass": true
+    }
+  ],
+  "existingFilesModified": 0,
+  "applicationSourceModified": false,
+  "promptsModified": false,
+  "configurationModified": false,
+  "trainingRowsCreated": 0,
+  "trainingExportsCreated": 0,
+  "productionDataAccess": false,
+  "modelCalls": 0,
+  "modelWeightsDownloaded": false,
+  "trainingStarted": false
+}

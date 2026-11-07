@@ -1,0 +1,77 @@
+# Secrets — never commit. Copy services/hr-api/.env.example to server/.env and fill it in.
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+node_modules
+dist
+build
+*.log
+npm-debug.log*
+
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Uploaded CVs — user data, never committed
+server/uploads/
+
+# Built Android artefacts
+dist-android/
+apps/hr-web/android/build/
+apps/hr-web/android/app/build/
+apps/hr-web/android/.gradle/
+apps/hr-web/android/local.properties
+/.local-voice/
+
+# Machine-local state (never application source)
+/.local-dev/
+/.claude/settings.local.json
+/server/.tmp/
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Android signing credentials
+*.jks
+*.keystore
+
+# Disposable review-tool execution state; retain evidence and review events
+/docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-*/
+/docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/
+
+# Future disposable outputs; reviewed evidence must remain visible
+/artifacts/*
+!/artifacts/evidence/
+
+# Preserve experiment logs inside evidence trees despite the generic log rule
+!/docs/ai-interviewer/**/*.log
+!/docs/fine-tuning/**/*.log
+!/artifacts/evidence/**/*.log
+# Active review-tool process logs are local operational state
+/docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/storage/*.log
+
+# Sensitive recovery archives; preserve originals locally, exclude from Git.
+/_backups/*.zip
+/.codex-snapshots/hr-app-step2-voice-copilot-20261015-153328.zip
+/.codex-snapshots/hr-app-step2-voice-copilot-20261015-153435-complete.zip
+
+# Temporary hold on QLoRA datasets and generated training data.
+# Keep scripts, manifests, hashes, admission decisions and experiment evidence.
+/docs/fine-tuning/training/qlora/**/*.jsonl
+/docs/fine-tuning/training/qlora/training-package/data/
+/docs/fine-tuning/training/qlora/training-package/colab-training-package.zip
+
+# hr6: only reviewed metadata and handoff records may be committed.
+# Archives and any new files remain local until explicitly reviewed.
+/.codex-snapshots/hr6/*
+!/.codex-snapshots/hr6/README.md
+!/.codex-snapshots/hr6/checkpoint.json
+!/.codex-snapshots/hr6/archive.sha256
+!/.codex-snapshots/hr6/snapshot-hashes.sha256

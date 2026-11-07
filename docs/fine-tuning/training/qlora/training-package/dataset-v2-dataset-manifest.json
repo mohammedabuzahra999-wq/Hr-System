@@ -1,0 +1,176 @@
+{
+  "version": "HR-QLORA-PLACEHOLDER-DATASET-2",
+  "release": "dataset-v2",
+  "status": "ADMITTED_FOR_CONTROLLED_EXPERIMENT_DATA_ONLY",
+  "frozenAt": "2026-10-26T14:25:32.683Z",
+  "baseModel": "Qwen/Qwen3-4B-Thinking-2507",
+  "revision": "768f209d9ea81521153ed38c47d515654e938aea",
+  "provenanceLimitationAccepted": true,
+  "exactGgufConversionLinkVerified": false,
+  "datasetSha256": "264400230331a4fbc638889ace7cce9d330f36a4916d204858daf78e541e5ee0",
+  "canonicalDataset": "admitted/dataset.jsonl",
+  "candidateRows": 8000,
+  "admittedRows": 8000,
+  "families": 2000,
+  "splits": {
+    "train": 6400,
+    "dev": 800,
+    "internalTest": 800
+  },
+  "languages": {
+    "mixed": 2000,
+    "ar-JO": 2000,
+    "ar-MSA": 2000,
+    "en": 2000
+  },
+  "intents": 32,
+  "actionBoundaryCategories": 48,
+  "actionScope": "All 48 categories are question-stage doAction boundaries, not second-stage action extraction targets",
+  "format": "Natural HR question and trusted synthetic context -> existing {plan: CopilotPlan}; one-to-one conversational prompt-completion projections if admitted",
+  "gates": {
+    "schema": true,
+    "semantics": true,
+    "privacy": true,
+    "duplicates": true,
+    "familySplit": true,
+    "crossSplit": true,
+    "coverage": true,
+    "frozen404": true,
+    "excludedDatasets": true,
+    "v1Independence": true
+  },
+  "artifactHashes": {
+    "admitted/dataset.jsonl": "264400230331a4fbc638889ace7cce9d330f36a4916d204858daf78e541e5ee0",
+    "admitted/dev.jsonl": "5020a7f69c332f7f616bd9f05c0cb76a2afdbe2f6062e1f7c8d9ce37cd9328de",
+    "admitted/internal-test.jsonl": "005da9997b224c80e4beeb77b3e9fd129a36107157670fca23c8d7c575ee4270",
+    "admitted/split-index.jsonl": "dd0f3a8c933ed0b34d2eddba245358ea9534a3c9742d3e3f820b10df198072ad",
+    "admitted/train.jsonl": "4e38c9d41452a0b923caaa8a4306008ad9119bca9dfaf510a01b26b7c466eb62"
+  },
+  "contaminationReports": {
+    "frozen404": {
+      "candidateRows": 8000,
+      "referenceUniqueTexts": 404,
+      "exactCandidateRows": 0,
+      "normalizedCandidateRows": 0,
+      "entityMaskedExactCandidateRows": 0,
+      "strongNearCandidateRows": 0,
+      "flaggedCandidateRows": 0
+    },
+    "historical10K": {
+      "candidateRows": 8000,
+      "referenceUniqueTexts": 3440,
+      "exactCandidateRows": 0,
+      "normalizedCandidateRows": 0,
+      "entityMaskedExactCandidateRows": 0,
+      "strongNearCandidateRows": 0,
+      "flaggedCandidateRows": 0
+    },
+    "runtimeAllVersions": {
+      "candidateRows": 8000,
+      "referenceUniqueTexts": 344,
+      "exactCandidateRows": 0,
+      "normalizedCandidateRows": 0,
+      "entityMaskedExactCandidateRows": 0,
+      "strongNearCandidateRows": 0,
+      "flaggedCandidateRows": 0
+    },
+    "selectionAllVersions": {
+      "candidateRows": 8000,
+      "referenceUniqueTexts": 160,
+      "exactCandidateRows": 0,
+      "normalizedCandidateRows": 0,
+      "entityMaskedExactCandidateRows": 0,
+      "strongNearCandidateRows": 0,
+      "flaggedCandidateRows": 0
+    }
+  },
+  "v1Independence": {
+    "candidateRows": 8000,
+    "referenceUniqueTexts": 8000,
+    "exactCandidateRows": 0,
+    "normalizedCandidateRows": 0,
+    "entityMaskedExactCandidateRows": 0,
+    "strongNearCandidateRows": 0,
+    "flaggedCandidateRows": 0
+  },
+  "excludedSources": [
+    {
+      "name": "frozen404",
+      "file": "docs/fine-tuning/benchmark/pre-finetuning-benchmark-v1.jsonl",
+      "sha256": "b6a6a9f74e76edcf783ad3a2f47f2fa493ac0444e2ca8bf239439229e14a2b05",
+      "access": "sealed exclusion comparison only"
+    },
+    {
+      "name": "historical10K",
+      "file": "server/src/copilot/data/hr_agent_intents_10000.jsonl",
+      "sha256": "1fc3665f36b2b1814fdebe248ce46709a5dbdc7058d728620adc0ebf9b3fdb9b",
+      "access": "sealed exclusion comparison only"
+    },
+    {
+      "name": "runtimeV1",
+      "file": "docs/fine-tuning/controlled-assets/runtime-reference-v1.jsonl",
+      "sha256": "342503dd6c810136d8b5ede8dea96005e593a2ee623f849640fcfd357bb826de",
+      "access": "sealed exclusion comparison only"
+    },
+    {
+      "name": "runtimeV11",
+      "file": "docs/fine-tuning/controlled-assets/remediation-v1.1/runtime-reference-v1.1.jsonl",
+      "sha256": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736",
+      "access": "sealed exclusion comparison only"
+    },
+    {
+      "name": "selectionV1",
+      "file": "docs/fine-tuning/controlled-assets/model-selection-v1.jsonl",
+      "sha256": "8d50c67b4daa388c9cadcd3e992e0aa8504a08534b1beb4bdc2a022ac62928c6",
+      "access": "sealed exclusion comparison only"
+    },
+    {
+      "name": "selectionV11",
+      "file": "docs/fine-tuning/controlled-assets/remediation-v1.1/model-selection-v1.1.jsonl",
+      "sha256": "09cd5561686fd77d24f78a9f6036947425d9fc7973652b8b808c9ea907da5986",
+      "access": "sealed exclusion comparison only"
+    }
+  ],
+  "generationSources": {
+    "docs/fine-tuning/training/qlora/dataset-v2/generation/boundaries.mjs": "5213186f435c378d587824a2fd7aaff884ac75758605f032dc4d5ca999b96b5b",
+    "docs/fine-tuning/training/qlora/dataset-v2/generation/finalize.mjs": "385068308e2ef7439b5ad7b84a48fbc197a30d8083ae7f873f3403e8720276fb",
+    "docs/fine-tuning/training/qlora/dataset-v2/generation/generate.mjs": "d7e26b08f5d0bef8e68eb3f715279856dffddfddc6a530d8b86b7973b1c1b2a8",
+    "docs/fine-tuning/training/qlora/dataset-v2/generation/language.mjs": "3458b42f3566fa5c6569decfa1aa04d2fe1e975b823ca9be1c979aa56827d43c",
+    "docs/fine-tuning/training/qlora/dataset-v2/generation/operations.mjs": "06968db88f9c2cf2a9db1ecbe82c36ec6fed3b8c01c9509142cd8184b99ddd0c",
+    "docs/fine-tuning/training/qlora/dataset-v2/generation/prompt-export.mjs": "49eb6a5eaa8f77c218d955950b5eb9d7ce37f3dd5553c3a566b6ddcece076ca3",
+    "docs/fine-tuning/training/qlora/dataset-v2/generation/run.mjs": "044cdcb351960487660cad6f6f852f3e3cb7335ddc77cdfd909ce249ab577ec4",
+    "docs/fine-tuning/training/qlora/current-contract-catalog.json": "935b62daa020e4244f762e396ec7fd4e2461b966d083d78a2a5e44a9af151642"
+  },
+  "validatorHashes": {
+    "docs/fine-tuning/training/qlora/dataset-v2/validation/compare.mjs": "ec4dc7f0c53cdee99cee3e9764f31030382d127c852e1628f87200746874bfc4",
+    "docs/fine-tuning/training/qlora/dataset-v2/validation/inspect-candidate.mjs": "405174aa979b918f3d2ce0f0e8250d459a852a5e2d7390084f4b72bc99e3ce0b",
+    "docs/fine-tuning/training/qlora/dataset-v2/validation/local.mjs": "34bfaa8cb45838827fcafa95d41594bff7a59bc782adf3a0c222279db0ccceb5",
+    "docs/fine-tuning/training/qlora/dataset-v2/validation/prompt-precheck.mjs": "d2b81e4d171902260914c44d6060b534fac9dd7383c7dcb8a4f832e79beca5f7",
+    "docs/fine-tuning/training/qlora/dataset-v2/validation/run-sealed.mjs": "1affa09ca2e9ceb30240aae391a4e918b2fe46b257bdefc51ab5f2b7ae10f214",
+    "docs/fine-tuning/training/qlora/dataset-v2/validation/sealed-exclusion.mjs": "473441fc61bd8257e952e0cff08efec32ebd2bc499a78f7ddf06cdbfa8e2b62c",
+    "docs/fine-tuning/training/qlora/dataset-v2/validation/v1-independence.mjs": "4fcedc163b9d659d7ebd831f9861261b5653af66338445e2417a4cb1cac093d9"
+  },
+  "frozen404Sha256": "b6a6a9f74e76edcf783ad3a2f47f2fa493ac0444e2ca8bf239439229e14a2b05",
+  "protectedTextOrSelectorsUsedForAuthoring": false,
+  "protectedInputsAvailableToGenerator": false,
+  "noAdaptiveRewriteAfterProtectedResults": true,
+  "previousReleaseUsedForGeneration": false,
+  "previousReleaseUnchanged": true,
+  "referenceRowsUsedAsGold": false,
+  "runtimeReferencesInPromptOnly": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736",
+  "realPiiFound": false,
+  "placeholderOnly": true,
+  "humanReviewPerformed": false,
+  "limitations": [
+    "Template-composed multilingual examples lack independent human linguistic validation",
+    "Placeholder-only identities do not establish natural-name extraction capability",
+    "Static privacy/lexical gates are not complete PII/semantic independence certification",
+    "Exact BEFORE GGUF conversion provenance remains owner-accepted and unverified",
+    "Tokenizer/loss masks, training runtime and training execution are separate stages"
+  ],
+  "beforeEvidenceUnchanged": true,
+  "productionBehaviorChanged": false,
+  "frozen404Executed": 0,
+  "modelCalls": 0,
+  "trainingStarted": false
+}

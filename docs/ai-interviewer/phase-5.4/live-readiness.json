@@ -1,0 +1,14 @@
+{
+  "recordedAtUtc": "2026-11-03T11:30:04.2747690Z",
+  "liveVoiceE2E": "BLOCKED",
+  "workerListenerPort": 8766,
+  "workerListenerPresent": false,
+  "workerAssetsPresent": true,
+  "candidateRealAdapterRegistered": false,
+  "isolatedCandidateRealEngineConfiguration": false,
+  "trustedRealConnectionSourceValidated": false,
+  "actualSTTCalls": 0,
+  "actualTTSCalls": 0,
+  "actualLLMCalls": 0,
+  "reason": "Local assets exist, but no running worker listener or isolated candidate real-engine/transport/connection configuration. Synthetic provider fixtures do not establish live E2E. Employee local.e2e is a separate authority domain."
+}

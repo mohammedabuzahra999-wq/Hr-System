@@ -1,0 +1,102 @@
+Browser setup: local fixture ready
+Browser setup: development frontend ready
+Browser setup: production preview ready
+Browser setup: isolated Chrome ready
+PASS 01 HR login and recruitment AI controls use the existing employee workflow
+PASS 02 HR configures explicit plan/timers and adds a third question
+PASS 03 Create goes through the real Phase 2 transaction
+PASS 04 HR freezes READY and operational UI displays no token hash
+PASS 05 Invitation is copied once and cleared from the HR panel
+PASS 06 Revocation is visible and the revoked browser invitation fails safely
+PASS 07 Invalid invitation shows a safe standalone error
+PASS 08 Expired invitation is rejected in the browser
+PASS 09 Valid candidate exchange removes token from URL and browser storage
+PASS 10 Backend refuses start before persisted consent
+PASS 11 Consent persists across a browser refresh
+PASS 12 Arabic RTL, English LTR and Mixed confirmation remain independent
+PASS 13 Mock readiness requests no real microphone
+PASS 14 Interview starts with AI_SPEAKING and the current question
+PASS 15 Mock interruption is processed by the authoritative backend
+PASS 16 Timer comes from backend and no future question/rubric/weight/evaluation/notes are exposed
+PASS 17 RAG answer reaches PROCESSING without frontend decisions
+PASS 18 Backend selects FOLLOW_UP
+PASS 19 Incomplete answer selects CLARIFICATION
+PASS 20 Stale version reconciles once instead of blindly retrying
+PASS 21 Warning and grace are backend-authoritative
+PASS 22 Next base question follows the clarification
+PASS 23 Q3 refresh restores roughly 75 seconds without Q1 or duplicate answers
+PASS 24 Pause freezes the backend remaining duration across five minutes
+PASS 25 Explicit duplicate retry acknowledges the saved command
+PASS 26 Resume uses the backend-restored deadline
+PASS 27 Disconnect/reconnect preserves the same question and turn
+PASS 28 Mock provider failure is recoverable through backend state
+PASS 29 Mobile room has no horizontal overflow and remains keyboard-operable
+PASS 30 Arabic interview room and mobile layout preserve RTL without restricting answers
+PASS 31 A second interview is created through authorized backend operations
+PASS 32 Candidate A cannot GET, command, replay or resume Interview B
+PASS 33 Development bridge preserves candidate scope and rejects arbitrary commands
+PASS 34 Production server policy refuses mock routes even with its flag set
+PASS 35 Production UI build has no mock controls and cannot start mock delivery
+PASS 36 Managers cannot access AI recruitment controls or create an interview
+PASS 37 Admin retains existing recruitment permission and management controls
+PASS 38 Happy path reaches closing and candidate completion
+PASS 39 Completion has no score/hiring result and rejects new answers
+PASS 40 HR sees COMPLETED and evaluation status without a Phase 4 report
+PASS 41 Mock silence/timeout advances by backend policy without a fabricated zero score
+PASS 42 Speaking through grace expiry finalizes TIME_LIMIT without frontend scoring
+PASS 43 Expired candidate session clears the room and presents a safe message
+PASS 44 Candidate uses no microphone, WebRTC, employee navigation or external resources
+PASS 45 Phase 5.2: refresh before submit restores DRAFT and leaves zero durable answers
+BROWSER CHECK FAILED: Phase 5.2: disconnect before request shows recovery and preserves frozen submission identity: record is not a function
+Browser HR diagnostic: {
+  path: '/hr/recruitment',
+  text: 'WORKSPACE\n' +
+    '\n' +
+    'HR Demo\n' +
+    '\n' +
+    'HR\n' +
+    '\n' +
+    'MenaChat\n' +
+    'HR Center\n' +
+    'Attention centre\n' +
+    'Employees\n' +
+    'Attendance\n' +
+    'Leaves\n' +
+    'Payroll\n' +
+    'Reports\n' +
+    'Recruitment\n' +
+    'Job descriptions\n' +
+    'Knowledge base\n' +
+    'Assistant questions\n' +
+    'Announcements\n' +
+    '\n' +
+    'More modules coming soon\n' +
+    '\n' +
+    'Sign out\n' +
+    '\n' +
+    'HR SUITE\n' +
+    '\n' +
+    'Recruitment\n' +
+    'العربية\n' +
+    '\n' +
+    'HR Demo\n' +
+    '\n' +
+    'HR · hr.interview@example.invalid\n' +
+    '\n' +
+    'HD\n' +
+    'Sign out\n' +
+    '\n' +
+    'HR\n' +
+    '\n' +
+    'Recruitment\n' +
+    '\n' +
+    'Open roles, the people who applied, and their CVs.\n' +
+    '\n' +
+    'New role\n' +
+    'Open roles\n' +
+    '\n' +
+    '1\n' +
+    '\n'
+}
+
+45/46 Phase 3 browser checks passed; evidence=.local-dev/ai-interviewer-phase3/browser-results.json

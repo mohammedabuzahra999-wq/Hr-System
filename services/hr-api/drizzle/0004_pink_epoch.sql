@@ -1,0 +1,1 @@
+ALTER TABLE "users" ADD COLUMN "announcements_seen_at" timestamp with time zone;

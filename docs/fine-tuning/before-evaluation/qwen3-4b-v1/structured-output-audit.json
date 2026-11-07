@@ -1,0 +1,22 @@
+{
+  "version": "CEB-BEFORE-STRUCTURED-OUTPUT-AUDIT-1",
+  "created": "2026-10-26T02:08:06.026Z",
+  "purpose": "Post-run offline analysis of preserved raw model responses only; original scores and validation unchanged",
+  "counts": {
+    "successfulHttpResponses": 378,
+    "outerJsonValid": 378,
+    "completeEnvelope": 378,
+    "contentJsonValid": 378,
+    "zodValid": 378,
+    "semanticValid": 361,
+    "doneReasonLength": 0
+  },
+  "semanticCodes": {
+    "report_type_on_wrong_intent": 16,
+    "payroll_report_requires_employee_file": 11,
+    "ranking_on_wrong_intent": 1
+  },
+  "sourceOfTruth": "Existing pure Zod and validateCopilotPlan source contracts; no expected answers used",
+  "modelCalls": 0,
+  "fineTuningStarted": false
+}

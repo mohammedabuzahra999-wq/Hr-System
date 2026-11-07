@@ -1,0 +1,62 @@
+{
+  "version": "CEB-human-review-tool-tests-v1",
+  "createdAt": "2026-10-25T08:24:38.136Z",
+  "status": "FAIL",
+  "checks": 11,
+  "passed": 10,
+  "results": [
+    {
+      "name": "read-only-subchecks",
+      "status": "PASS",
+      "checks": 23
+    },
+    {
+      "name": "real-480-load-native-write-denials-and-egress-guard",
+      "status": "PASS"
+    },
+    {
+      "name": "fixture-UI-serves-with-same-origin-CSP-and-no-external-scripts",
+      "status": "PASS"
+    },
+    {
+      "name": "fixture-starts-with-no-profile-decisions-or-progress",
+      "status": "PASS"
+    },
+    {
+      "name": "read-only-record-endpoint-and-all-required-fields",
+      "status": "PASS"
+    },
+    {
+      "name": "cross-origin-request-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "DNS-rebinding-host-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "write-without-local-token-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "review-without-profile-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "incomplete-reviewer-information-rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "test-only-profile-persists",
+      "status": "FAIL",
+      "safeCode": "ERR_ASSERTION"
+    }
+  ],
+  "testOnly": true,
+  "fixtureDirectory": "tests/.fixture-work-32164",
+  "realHumanDecisionsCreated": 0,
+  "realReviewStoreAccessed": false,
+  "externalCalls": 0,
+  "modelCalls": 0,
+  "productionAccess": false
+}

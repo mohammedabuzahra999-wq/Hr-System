@@ -1,0 +1,252 @@
+{
+  "capturedAt": "2026-10-26T12:41:52.517Z",
+  "repository": "Qwen/Qwen3-4B-Thinking-2507",
+  "observedCurrentRevision": "768f209d9ea81521153ed38c47d515654e938aea",
+  "credentialsUsed": false,
+  "weightDownloads": 0,
+  "inferenceRequests": 0,
+  "records": [
+    {
+      "name": "public/upstream-model-api.json",
+      "requestedUrl": "https://huggingface.co/api/models/Qwen/Qwen3-4B-Thinking-2507?blobs=true",
+      "finalUrl": "https://huggingface.co/api/models/Qwen/Qwen3-4B-Thinking-2507?blobs=true",
+      "retrievedAt": "2026-10-26T12:41:35.362Z",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "etag": "W/\"2406-13jH6r3saHD6UPeQ10H1i7wR6fk\""
+      },
+      "bytes": 9222,
+      "sha256": "4eba91a1fa9dc7694ca235afc80e3830dfb2dd3b78fe7951ca5e220a84447734"
+    },
+    {
+      "name": "public/upstream-commits.json",
+      "requestedUrl": "https://huggingface.co/api/models/Qwen/Qwen3-4B-Thinking-2507/commits/main",
+      "finalUrl": "https://huggingface.co/api/models/Qwen/Qwen3-4B-Thinking-2507/commits/main",
+      "retrievedAt": "2026-10-26T12:41:35.886Z",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "etag": "W/\"7cb-Mph03XhDYMQrb+2VtTOQ1qhAdPk\""
+      },
+      "bytes": 1995,
+      "sha256": "2c6a8cb30c2e179d40cb36e4e1c3fe91c9ce06ca0a2f66c5eb1f6d53a00268f7"
+    },
+    {
+      "name": "public/upstream-pinned-model-api.json",
+      "requestedUrl": "https://huggingface.co/api/models/Qwen/Qwen3-4B-Thinking-2507/revision/768f209d9ea81521153ed38c47d515654e938aea?blobs=true",
+      "finalUrl": "https://huggingface.co/api/models/Qwen/Qwen3-4B-Thinking-2507/revision/768f209d9ea81521153ed38c47d515654e938aea?blobs=true",
+      "retrievedAt": "2026-10-26T12:41:36.112Z",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "etag": "W/\"2406-13jH6r3saHD6UPeQ10H1i7wR6fk\""
+      },
+      "bytes": 9222,
+      "sha256": "4eba91a1fa9dc7694ca235afc80e3830dfb2dd3b78fe7951ca5e220a84447734"
+    },
+    {
+      "name": "public/upstream-pinned-tree.json",
+      "requestedUrl": "https://huggingface.co/api/models/Qwen/Qwen3-4B-Thinking-2507/tree/768f209d9ea81521153ed38c47d515654e938aea?recursive=true&expand=true",
+      "finalUrl": "https://huggingface.co/api/models/Qwen/Qwen3-4B-Thinking-2507/tree/768f209d9ea81521153ed38c47d515654e938aea?recursive=true&expand=true",
+      "retrievedAt": "2026-10-26T12:41:36.392Z",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "etag": "W/\"3545-Ejk0dqa2wvCzqI2c90XYrzdUWFc\""
+      },
+      "bytes": 13637,
+      "sha256": "cafbb423ca3edd35a1887189b2c255fbf54cbc51848d488a3c894d22cf9bedb4"
+    },
+    {
+      "name": "public/upstream/README.md",
+      "requestedUrl": "https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507/resolve/768f209d9ea81521153ed38c47d515654e938aea/README.md",
+      "finalUrl": "https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Thinking-2507/768f209d9ea81521153ed38c47d515654e938aea/README.md?%2FQwen%2FQwen3-4B-Thinking-2507%2Fresolve%2F768f209d9ea81521153ed38c47d515654e938aea%2FREADME.md=&etag=%22962b92df82aa870f4b6cad1768250634b44a1317%22",
+      "retrievedAt": "2026-10-26T12:41:36.822Z",
+      "status": 200,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "W/\"962b92df82aa870f4b6cad1768250634b44a1317\"",
+        "x-repo-commit": "768f209d9ea81521153ed38c47d515654e938aea"
+      },
+      "bytes": 10063,
+      "sha256": "6a608c737decd22569edf9609499d142021a65e942999890704a880bc804d163"
+    },
+    {
+      "name": "public/upstream/LICENSE",
+      "requestedUrl": "https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507/resolve/768f209d9ea81521153ed38c47d515654e938aea/LICENSE",
+      "finalUrl": "https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Thinking-2507/768f209d9ea81521153ed38c47d515654e938aea/LICENSE?%2FQwen%2FQwen3-4B-Thinking-2507%2Fresolve%2F768f209d9ea81521153ed38c47d515654e938aea%2FLICENSE=&etag=%226634c8cc3133b3848ec74b9f275acaaa1ea618ab%22",
+      "retrievedAt": "2026-10-26T12:41:37.277Z",
+      "status": 200,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "W/\"6634c8cc3133b3848ec74b9f275acaaa1ea618ab\"",
+        "x-repo-commit": "768f209d9ea81521153ed38c47d515654e938aea"
+      },
+      "bytes": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+    },
+    {
+      "name": "public/upstream/config.json",
+      "requestedUrl": "https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507/resolve/768f209d9ea81521153ed38c47d515654e938aea/config.json",
+      "finalUrl": "https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Thinking-2507/768f209d9ea81521153ed38c47d515654e938aea/config.json?%2FQwen%2FQwen3-4B-Thinking-2507%2Fresolve%2F768f209d9ea81521153ed38c47d515654e938aea%2Fconfig.json=&etag=%226988f134db143052042f2bd6e0c897bc6a605189%22",
+      "retrievedAt": "2026-10-26T12:41:37.599Z",
+      "status": 200,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "727",
+        "etag": "\"6988f134db143052042f2bd6e0c897bc6a605189\"",
+        "x-repo-commit": "768f209d9ea81521153ed38c47d515654e938aea"
+      },
+      "bytes": 727,
+      "sha256": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba"
+    },
+    {
+      "name": "public/upstream/generation_config.json",
+      "requestedUrl": "https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507/resolve/768f209d9ea81521153ed38c47d515654e938aea/generation_config.json",
+      "finalUrl": "https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Thinking-2507/768f209d9ea81521153ed38c47d515654e938aea/generation_config.json?%2FQwen%2FQwen3-4B-Thinking-2507%2Fresolve%2F768f209d9ea81521153ed38c47d515654e938aea%2Fgeneration_config.json=&etag=%2220a8a9156fc8c3f25295ca067f61fdf120d517c5%22",
+      "retrievedAt": "2026-10-26T12:41:37.854Z",
+      "status": 200,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "239",
+        "etag": "\"20a8a9156fc8c3f25295ca067f61fdf120d517c5\"",
+        "x-repo-commit": "768f209d9ea81521153ed38c47d515654e938aea"
+      },
+      "bytes": 239,
+      "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2"
+    },
+    {
+      "name": "public/upstream/model.safetensors.index.json",
+      "requestedUrl": "https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507/resolve/768f209d9ea81521153ed38c47d515654e938aea/model.safetensors.index.json",
+      "finalUrl": "https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Thinking-2507/768f209d9ea81521153ed38c47d515654e938aea/model.safetensors.index.json?%2FQwen%2FQwen3-4B-Thinking-2507%2Fresolve%2F768f209d9ea81521153ed38c47d515654e938aea%2Fmodel.safetensors.index.json=&etag=%224747b0297d3109f14db49886972e3369c9a00b2a%22",
+      "retrievedAt": "2026-10-26T12:41:38.314Z",
+      "status": 200,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "W/\"4747b0297d3109f14db49886972e3369c9a00b2a\"",
+        "x-repo-commit": "768f209d9ea81521153ed38c47d515654e938aea"
+      },
+      "bytes": 32819,
+      "sha256": "d6c42883a895dfef5b0080ed2116a1bcd764f558406b98923d675978a1abf29c"
+    },
+    {
+      "name": "public/upstream/tokenizer_config.json",
+      "requestedUrl": "https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507/resolve/768f209d9ea81521153ed38c47d515654e938aea/tokenizer_config.json",
+      "finalUrl": "https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Thinking-2507/768f209d9ea81521153ed38c47d515654e938aea/tokenizer_config.json?%2FQwen%2FQwen3-4B-Thinking-2507%2Fresolve%2F768f209d9ea81521153ed38c47d515654e938aea%2Ftokenizer_config.json=&etag=%228dec7d58dda385ce95b469aa2d277ec162168e58%22",
+      "retrievedAt": "2026-10-26T12:41:38.598Z",
+      "status": 200,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "W/\"8dec7d58dda385ce95b469aa2d277ec162168e58\"",
+        "x-repo-commit": "768f209d9ea81521153ed38c47d515654e938aea"
+      },
+      "bytes": 10834,
+      "sha256": "60adcfc35f5f251e19a196ec977b4ca0fcfb534852911b3196d68d5e3b146aa0"
+    },
+    {
+      "name": "public/upstream/tokenizer.json",
+      "requestedUrl": "https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507/resolve/768f209d9ea81521153ed38c47d515654e938aea/tokenizer.json",
+      "finalUrl": "https://us.aws.cdn.hf.co/xet-bridge-us/6891e4c34b616cd1bb82f50e/6aec39639a0a2d1ca966356b8c2b8426a484f80ff80731f44fa8482040713bdf?user_id=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27tokenizer.json%3B+filename%3D%22tokenizer.json%22%3B&X-Xet-Cas-Uid=public&response-content-type=application%2Fjson%3B+charset%3Dutf-8&xip=oZQ0hy-BKN4&Expires=1793022099&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjg5MWU0YzM0YjYxNmNkMWJiODJmNTBlLzZhZWMzOTYzOWEwYTJkMWNhOTY2MzU2YjhjMmI4NDI2YTQ4NGY4MGZmODA3MzFmNDRmYTg0ODIwNDA3MTNiZGZcXD91c2VyX2lkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWlubGluZSUzQitmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3dG9rZW5pemVyLmpzb24lM0IrZmlsZW5hbWUlM0QlMjJ0b2tlbml6ZXIuanNvbiUyMiUzQiZYLVhldC1DYXMtVWlkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LXR5cGU9YXBwbGljYXRpb24lMkZqc29uJTNCK2NoYXJzZXQlM0R1dGYtOCZ4aXA9b1pRMGh5LUJLTjQiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVwb2NoVGltZSI6MTc5MzAyMjA5OX19fV19&Signature=MEYCIQC6Dy0AIyl2nEUWxOvvBNXjbQPd7%7E7kEK42f4LazLgCPQIhAPCip3Mg3Gmiv5A9ZY5PXIVgD9H%7Elq6hlUDRsuGdlGbN&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256",
+      "retrievedAt": "2026-10-26T12:41:38.868Z",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "11422654",
+        "etag": "\"6aec39639a0a2d1ca966356b8c2b8426a484f80ff80731f44fa8482040713bdf\""
+      },
+      "bytes": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    {
+      "name": "public/upstream/vocab.json",
+      "requestedUrl": "https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507/resolve/768f209d9ea81521153ed38c47d515654e938aea/vocab.json",
+      "finalUrl": "https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Thinking-2507/768f209d9ea81521153ed38c47d515654e938aea/vocab.json?%2FQwen%2FQwen3-4B-Thinking-2507%2Fresolve%2F768f209d9ea81521153ed38c47d515654e938aea%2Fvocab.json=&etag=%224783fe10ac3adce15ac8f358ef5462739852c569%22",
+      "retrievedAt": "2026-10-26T12:41:44.833Z",
+      "status": 200,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "W/\"4783fe10ac3adce15ac8f358ef5462739852c569\"",
+        "x-repo-commit": "768f209d9ea81521153ed38c47d515654e938aea"
+      },
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    {
+      "name": "public/upstream/merges.txt",
+      "requestedUrl": "https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507/resolve/768f209d9ea81521153ed38c47d515654e938aea/merges.txt",
+      "finalUrl": "https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-4B-Thinking-2507/768f209d9ea81521153ed38c47d515654e938aea/merges.txt?%2FQwen%2FQwen3-4B-Thinking-2507%2Fresolve%2F768f209d9ea81521153ed38c47d515654e938aea%2Fmerges.txt=&etag=%2220024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0%22",
+      "retrievedAt": "2026-10-26T12:41:46.689Z",
+      "status": 200,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "W/\"20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0\"",
+        "x-repo-commit": "768f209d9ea81521153ed38c47d515654e938aea"
+      },
+      "bytes": 1671839,
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+    },
+    {
+      "name": "public/ollama-alias-manifest.json",
+      "requestedUrl": "https://registry.ollama.ai/v2/library/qwen3/manifests/4b",
+      "finalUrl": "https://registry.ollama.ai/v2/library/qwen3/manifests/4b",
+      "retrievedAt": "2026-10-26T12:41:47.346Z",
+      "status": 200,
+      "headers": {
+        "content-type": "application/vnd.docker.distribution.manifest.v2+json",
+        "content-length": "859"
+      },
+      "bytes": 859,
+      "sha256": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7"
+    },
+    {
+      "name": "public/ollama-release-manifest.json",
+      "requestedUrl": "https://registry.ollama.ai/v2/library/qwen3/manifests/4b-thinking-2507-q4_K_M",
+      "finalUrl": "https://registry.ollama.ai/v2/library/qwen3/manifests/4b-thinking-2507-q4_K_M",
+      "retrievedAt": "2026-10-26T12:41:50.014Z",
+      "status": 200,
+      "headers": {
+        "content-type": "application/vnd.docker.distribution.manifest.v2+json",
+        "content-length": "859"
+      },
+      "bytes": 859,
+      "sha256": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7"
+    },
+    {
+      "name": "public/ollama-digest-manifest.json",
+      "requestedUrl": "https://registry.ollama.ai/v2/library/qwen3/manifests/sha256:359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+      "finalUrl": "https://registry.ollama.ai/v2/library/qwen3/manifests/sha256:359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+      "retrievedAt": "2026-10-26T12:41:50.551Z",
+      "status": 404,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8"
+      },
+      "bytes": 69,
+      "sha256": "fa197eb72c7cd2e1fd94107c48aab83c08e988f9fd52f39784ef72843c13e18f"
+    },
+    {
+      "name": "public/ollama-release-page.html",
+      "requestedUrl": "https://ollama.com/library/qwen3:4b-thinking-2507-q4_K_M",
+      "finalUrl": "https://ollama.com/library/qwen3:4b-thinking-2507-q4_K_M",
+      "retrievedAt": "2026-10-26T12:41:50.907Z",
+      "status": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "bytes": 74873,
+      "sha256": "b91be1867b593f4c6345bd233653bc0428b0c158556203c35067649d1f6941f9"
+    },
+    {
+      "name": "public/ollama-model-layer-page.html",
+      "requestedUrl": "https://ollama.com/library/qwen3:4b-thinking-2507-q4_K_M/blobs/3e4cb1417446",
+      "finalUrl": "https://ollama.com/library/qwen3:4b-thinking-2507-q4_K_M/blobs/3e4cb1417446",
+      "retrievedAt": "2026-10-26T12:41:51.328Z",
+      "status": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "bytes": 283663,
+      "sha256": "0d40732ea6a45de7d8d9922806def28bb385b1d6cbfc38be3908975d1ec0eb0e"
+    }
+  ]
+}

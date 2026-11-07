@@ -1,0 +1,42 @@
+Criteria come from the document, in a fixed order:
+  ok    seven requirements found (got 7)
+  ok    qualifications first
+  ok    nothing is weighted until somebody weights it — no defaults anywhere
+  ok    and a vacancy nobody has weighted has no score, rather than a zero
+
+A weight somebody set replaces the default:
+  ok    English is worth 10
+  ok    Python is worth 5
+  ok    a requirement nobody weighted stays at zero
+
+The sum:
+  ok    everything met is 100
+  ok    nothing evidenced is 0
+  ok    half of two equal requirements is 50
+  ok    a partial match is worth half
+
+Weight is what makes one requirement matter more than another:
+  ok    the heavy one met and the light one missing is 90
+  ok    the other way round is 10
+
+The edges:
+  ok    no score at all when every weight is zero, rather than a 0 that reads as a bad candidate
+  ok    a requirement weighted 0 is still judged and still counts for nothing
+  ok    a criterion the model said nothing about counts as not evidenced, never as skipped
+  ok    a reworded requirement cannot be matched back, and does not silently score
+
+Requirements HR added:
+  ok    an added duplicate of a stated requirement is dropped
+  ok    and the stated one is the one that survives
+  ok    a genuinely new requirement is added, marked as added
+  ok    added requirements come after the ones the document states
+  ok    weights adding to 100 make each weight its own percentage
+
+The hiring record, as a second set of weights:
+  ok    a requirement every hire evidenced carries full weight in the second figure
+  ok    and one none of them evidenced carries none
+  ok    by the weights that were set, this candidate scores 10
+  ok    by the hiring record, the same verdicts score 100
+  ok    and none of it is shown below three hires, where the pattern is one person
+
+the scorecard adds up

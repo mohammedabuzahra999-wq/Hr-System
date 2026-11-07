@@ -1,0 +1,22 @@
+{
+  "version": "CEB-remediation-plan-v1.1",
+  "authority": "User Phase 1C.4R; approval 04 remains binding except explicit candidate-only selector disclosure and three-record replacement authorization",
+  "runtime": {"rows": 320, "replaceOnlyFlaggedRecords": 3, "unchangedRows": 317, "preserveTargetsAndRoles": true},
+  "selection": {
+    "rows": 160,
+    "textChanges": 0,
+    "targetChanges": 0,
+    "questionFamilyRoleAssignments": {
+      "001": "manager", "002": "manager", "003": "manager", "004": "manager", "026": "manager",
+      "028": "hr", "029": "hr", "031": "hr",
+      "005": "admin", "006": "admin", "007": "admin", "008": "admin", "009": "admin",
+      "015": "admin", "016": "admin", "017": "admin", "018": "admin", "019": "admin"
+    },
+    "requiredRolesPerLanguage": {"employee": 10, "manager": 10, "hr": 10, "admin": 10},
+    "reason": "Change trusted synthetic actors only where real registry permits the existing self/system/company intent; preserve all wording, targets, challenges, languages and scope annotations"
+  },
+  "seed": null,
+  "randomness": "none",
+  "serialization": "Parent line order, untouched parent JSONL lines retained byte-for-byte; changed rows JSON.stringify, UTF-8 LF",
+  "postComparisonPolicy": "One frozen replacement release only; no rewriting or threshold changes after exclusion results"
+}

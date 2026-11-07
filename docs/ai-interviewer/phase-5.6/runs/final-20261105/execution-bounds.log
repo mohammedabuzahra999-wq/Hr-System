@@ -1,0 +1,15 @@
+PASS production policy is 30 seconds, two physical calls and five-minute legacy lease
+PASS success clears its deadline and releases physical admission
+PASS synchronous exception returns only the existing safe failure code
+PASS rejected evaluator does not become successful output
+PASS never-resolving asynchronous evaluator reaches the actual native timeout
+PASS timeout aborts the signal, keeps the unresolved physical slot and returns no report
+PASS late successful settlement is fenced once and frees admission
+PASS late rejection is consumed without an unhandled rejection
+PASS cooperative abort releases physical admission after the safe timeout outcome
+PASS owner cancellation cannot cancel a different owner
+PASS two uncancellable timed-out calls cannot accumulate unlimited abandoned work
+PASS cancellation before invocation never calls the evaluator
+PASS diagnostic sink errors cannot change evaluation authority
+PASS no external/model network attempts
+14/14 Phase 5.3 execution-bound checks passed; external attempts=0

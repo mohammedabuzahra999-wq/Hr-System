@@ -1,0 +1,154 @@
+{
+  "historical": {
+    "en": {
+      "cases": 101,
+      "metrics": {
+        "intent": {
+          "evaluated": 95,
+          "rate": 0.8947368421052632
+        },
+        "action": {
+          "evaluated": 53,
+          "rate": 0
+        },
+        "entities": {
+          "evaluated": 90,
+          "rate": 0.4888888888888889
+        },
+        "clarification": {
+          "evaluated": 36,
+          "rate": 0.9166666666666666
+        },
+        "confirmation": {
+          "evaluated": 36,
+          "rate": 1
+        },
+        "scopeRbac": {
+          "evaluated": 36,
+          "rate": 0.8333333333333334
+        }
+      }
+    },
+    "ar-MSA": {
+      "cases": 101,
+      "metrics": {
+        "intent": {
+          "evaluated": 94,
+          "rate": 0.8297872340425532
+        },
+        "action": {
+          "evaluated": 52,
+          "rate": 0
+        },
+        "entities": {
+          "evaluated": 89,
+          "rate": 0.42696629213483145
+        },
+        "clarification": {
+          "evaluated": 39,
+          "rate": 0.9487179487179487
+        },
+        "confirmation": {
+          "evaluated": 39,
+          "rate": 0.9230769230769231
+        },
+        "scopeRbac": {
+          "evaluated": 39,
+          "rate": 0.8461538461538461
+        }
+      }
+    },
+    "ar-JO": {
+      "cases": 101,
+      "metrics": {
+        "intent": {
+          "evaluated": 95,
+          "rate": 0.8421052631578947
+        },
+        "action": {
+          "evaluated": 53,
+          "rate": 0
+        },
+        "entities": {
+          "evaluated": 92,
+          "rate": 0.4782608695652174
+        },
+        "clarification": {
+          "evaluated": 39,
+          "rate": 0.8974358974358975
+        },
+        "confirmation": {
+          "evaluated": 39,
+          "rate": 0.9487179487179487
+        },
+        "scopeRbac": {
+          "evaluated": 39,
+          "rate": 0.7692307692307693
+        }
+      }
+    },
+    "mixed": {
+      "cases": 101,
+      "metrics": {
+        "intent": {
+          "evaluated": 95,
+          "rate": 0.8631578947368421
+        },
+        "action": {
+          "evaluated": 53,
+          "rate": 0
+        },
+        "entities": {
+          "evaluated": 90,
+          "rate": 0.5111111111111111
+        },
+        "clarification": {
+          "evaluated": 38,
+          "rate": 0.9473684210526315
+        },
+        "confirmation": {
+          "evaluated": 38,
+          "rate": 1
+        },
+        "scopeRbac": {
+          "evaluated": 38,
+          "rate": 0.868421052631579
+        }
+      }
+    }
+  },
+  "supplement": {
+    "en": {
+      "cases": 101,
+      "frozenAnnotationExact": {
+        "passed": 27,
+        "evaluated": 101,
+        "rate": 0.26732673267326734
+      }
+    },
+    "ar-MSA": {
+      "cases": 101,
+      "frozenAnnotationExact": {
+        "passed": 26,
+        "evaluated": 101,
+        "rate": 0.25742574257425743
+      }
+    },
+    "ar-JO": {
+      "cases": 101,
+      "frozenAnnotationExact": {
+        "passed": 24,
+        "evaluated": 101,
+        "rate": 0.2376237623762376
+      }
+    },
+    "mixed": {
+      "cases": 101,
+      "frozenAnnotationExact": {
+        "passed": 28,
+        "evaluated": 101,
+        "rate": 0.27722772277227725
+      }
+    }
+  }
+}

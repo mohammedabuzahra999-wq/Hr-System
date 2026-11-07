@@ -1,0 +1,53 @@
+{
+  "version": "HR-QLORA-GENERATION-2",
+  "release": "dataset-v2",
+  "frozenAt": "2026-10-26T14:21:09.794Z",
+  "authority": "Owner-approved independent replacement; approved HR contracts and fresh synthetic linguistic composition only",
+  "baseModel": "Qwen/Qwen3-4B-Thinking-2507",
+  "revision": "768f209d9ea81521153ed38c47d515654e938aea",
+  "provenanceLimitationAccepted": true,
+  "seed": 1601,
+  "inputs": {
+    "docs/fine-tuning/training/qlora/dataset-v2/generation/boundaries.mjs": "5213186f435c378d587824a2fd7aaff884ac75758605f032dc4d5ca999b96b5b",
+    "docs/fine-tuning/training/qlora/dataset-v2/generation/finalize.mjs": "385068308e2ef7439b5ad7b84a48fbc197a30d8083ae7f873f3403e8720276fb",
+    "docs/fine-tuning/training/qlora/dataset-v2/generation/generate.mjs": "d7e26b08f5d0bef8e68eb3f715279856dffddfddc6a530d8b86b7973b1c1b2a8",
+    "docs/fine-tuning/training/qlora/dataset-v2/generation/language.mjs": "3458b42f3566fa5c6569decfa1aa04d2fe1e975b823ca9be1c979aa56827d43c",
+    "docs/fine-tuning/training/qlora/dataset-v2/generation/operations.mjs": "06968db88f9c2cf2a9db1ecbe82c36ec6fed3b8c01c9509142cd8184b99ddd0c",
+    "docs/fine-tuning/training/qlora/dataset-v2/generation/prompt-export.mjs": "49eb6a5eaa8f77c218d955950b5eb9d7ce37f3dd5553c3a566b6ddcece076ca3",
+    "docs/fine-tuning/training/qlora/dataset-v2/generation/run.mjs": "044cdcb351960487660cad6f6f852f3e3cb7335ddc77cdfd909ce249ab577ec4",
+    "docs/fine-tuning/training/qlora/current-contract-catalog.json": "935b62daa020e4244f762e396ec7fd4e2461b966d083d78a2a5e44a9af151642"
+  },
+  "validatorHashesBeforeProtectedChecks": {
+    "docs/fine-tuning/training/qlora/dataset-v2/validation/compare.mjs": "ec4dc7f0c53cdee99cee3e9764f31030382d127c852e1628f87200746874bfc4",
+    "docs/fine-tuning/training/qlora/dataset-v2/validation/inspect-candidate.mjs": "405174aa979b918f3d2ce0f0e8250d459a852a5e2d7390084f4b72bc99e3ce0b",
+    "docs/fine-tuning/training/qlora/dataset-v2/validation/local.mjs": "34bfaa8cb45838827fcafa95d41594bff7a59bc782adf3a0c222279db0ccceb5",
+    "docs/fine-tuning/training/qlora/dataset-v2/validation/prompt-precheck.mjs": "d2b81e4d171902260914c44d6060b534fac9dd7383c7dcb8a4f832e79beca5f7",
+    "docs/fine-tuning/training/qlora/dataset-v2/validation/run-sealed.mjs": "1affa09ca2e9ceb30240aae391a4e918b2fe46b257bdefc51ab5f2b7ae10f214",
+    "docs/fine-tuning/training/qlora/dataset-v2/validation/sealed-exclusion.mjs": "473441fc61bd8257e952e0cff08efec32ebd2bc499a78f7ddf06cdbfa8e2b62c",
+    "docs/fine-tuning/training/qlora/dataset-v2/validation/v1-independence.mjs": "4fcedc163b9d659d7ebd831f9861261b5653af66338445e2417a4cb1cac093d9"
+  },
+  "unchangedAdmissionCheckers": {
+    "local.mjs": "34bfaa8cb45838827fcafa95d41594bff7a59bc782adf3a0c222279db0ccceb5",
+    "compare.mjs": "ec4dc7f0c53cdee99cee3e9764f31030382d127c852e1628f87200746874bfc4",
+    "sealed-exclusion.mjs": "473441fc61bd8257e952e0cff08efec32ebd2bc499a78f7ddf06cdbfa8e2b62c",
+    "run-sealed.mjs": "1affa09ca2e9ceb30240aae391a4e918b2fe46b257bdefc51ab5f2b7ae10f214"
+  },
+  "candidateOnlyPrecheckSha256": "264400230331a4fbc638889ace7cce9d330f36a4916d204858daf78e541e5ee0",
+  "construction": "2000 semantic construction families, four language renditions each; split-specific syntax and placeholder pools",
+  "placeholderOnlyOwnerOverride": true,
+  "naturalNameExtractionNotTested": true,
+  "generationDenied": [
+    "frozen F404 and derivatives or matching selectors",
+    "historical 10K and compiled copies",
+    "runtime/selection rows as authoring inputs or targets",
+    "quarantined dataset-v1 data and lexicons",
+    "production credentials, database, logs, RAG/MCP and voice"
+  ],
+  "generatorReadableData": [
+    "current-contract-catalog.json"
+  ],
+  "protectedDatasetsPermittedForSealedExclusionOnly": true,
+  "noAdaptiveRewriteAfterProtectedCheck": true,
+  "modelCalls": 0,
+  "trainingStarted": false
+}

@@ -1,0 +1,30 @@
+{
+  "source": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/baseline-lock.json",
+  "sourceSha256": "a22e7fd74d21d8a30cb17ac2d910e31526ebadfaf1d612037287878369465681",
+  "inference": {
+    "inheritedPredeclaredContractSha256": "70bd199f7a68165ceb763f15e55d2376b29cb0c52db9a57c38dfe4fa8da80786",
+    "temperature": 0,
+    "think": false,
+    "stream": false,
+    "keepAlive": "30m",
+    "options": {
+      "temperature": 0,
+      "top_p": 1,
+      "seed": 42,
+      "num_predict": 512,
+      "num_ctx": 8192,
+      "num_thread": 8,
+      "num_batch": 128,
+      "num_gpu": 0
+    },
+    "familyControl": "existing Qwen3 /no_think in real structured adapter",
+    "requestTimeoutMs": 120000,
+    "parentTimeoutMs": 150000,
+    "retries": 0,
+    "providerFallback": false,
+    "scoredPasses": 1,
+    "warmup": "NONE_FIRST_SCORED_MODEL_REQUEST_RETAINS_COLD_COST"
+  },
+  "contextCapacity": 262144,
+  "qualification": "This is the previously executed BEFORE configuration, copied without alteration. Capacity 262144 differs from effective num_ctx 8192. Thinking-2507 is published as thinking-only; existing think:false and /no_think are recorded controls, not proof of supported mode or absence of reasoning. No setting was changed or tested here."
+}

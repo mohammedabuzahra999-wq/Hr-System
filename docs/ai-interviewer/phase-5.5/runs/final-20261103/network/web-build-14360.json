@@ -1,0 +1,8 @@
+{
+  "suite": "web-build",
+  "socketConnectionsAllowed": 0,
+  "fetchCallsAllowed": 0,
+  "blockedExternalAttempts": 0,
+  "suppressedFixtureWrites": 0,
+  "suppressedScreenshots": 0
+}

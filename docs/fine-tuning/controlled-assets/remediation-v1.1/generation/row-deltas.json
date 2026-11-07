@@ -1,0 +1,684 @@
+{
+  "version": "CEB-row-deltas-v1.1",
+  "runtimeChanged": 3,
+  "selectionChanged": 72,
+  "selectionTextChanges": 0,
+  "selectionTargetChanges": 0,
+  "changes": [
+    {
+      "asset": "R",
+      "recordId": "CEB-R-ACTION-003-ar-MSA",
+      "reason": "replace_previously_excluded_candidate_text_only",
+      "oldRowSha256": "7fa2f75ff0c5ca69fb368b5270636145a287a331a7e4feed5dfdd3091fc496da",
+      "newRowSha256": "520d56e0226cebf928ecb8ad5290173b9a503f17c00cba399f5f9f66a294daf5",
+      "oldRole": "employee",
+      "newRole": "employee"
+    },
+    {
+      "asset": "R",
+      "recordId": "CEB-R-ACTION-008-mixed",
+      "reason": "replace_previously_excluded_candidate_text_only",
+      "oldRowSha256": "9f95722bcf36098ed2d13adde51ffd67831ef1bda19f6ed3b7faadf564458d23",
+      "newRowSha256": "a6342e5df51317fe93f479b6b7be57d23997d8b18ecf0b2a4383e9c95e142201",
+      "oldRole": "employee",
+      "newRole": "employee"
+    },
+    {
+      "asset": "R",
+      "recordId": "CEB-R-ACTION-012-en",
+      "reason": "replace_previously_excluded_candidate_text_only",
+      "oldRowSha256": "92598dc12ba92895586210a734783f7e1743bafef5e0392271aecd16bb51807d",
+      "newRowSha256": "da4201033c665c3c386a3feba4b3763926c072d01b56bcfa531b7936edb59398",
+      "oldRole": "employee",
+      "newRole": "employee"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-001-en",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "b8a8060b07d60cc8061d9be630987e635a187993a1f51582a9145d9a1a94f485",
+      "newRowSha256": "d1162e24a6fdf7985f2819361fe3a2c5bbc63d8e782b7ba050317bdc8b7844ce",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-001-ar-MSA",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "fa143be5647e40a85adc6b4cdd1f3ac46bacde3896ee4238cd165cbbd26319b9",
+      "newRowSha256": "21376e4d4301161f8910e3720fb7351bef809fd3dab5482b97087285d449718c",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-001-ar-JO",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "cae44c11fb4d2e6b106dfece8f556ff3327dd39f995207ccbbac59810057ad86",
+      "newRowSha256": "16f8efa0093614c7cd04423f6148b0947ab4017feaa3d20ddf8dcf142e710b24",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-001-mixed",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "5225794d5e07c5f6c77bb2575cd641611c43957f5561f83980fea3c7469dca11",
+      "newRowSha256": "a9f007a0e3172f5655073dc3e8e03b4a14ec66a998a72b418737028ee9f860fe",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-002-en",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "1d528524a50dfa2603b27551bc8bede9aa5f2b8f09324e785b0e765da474fa82",
+      "newRowSha256": "a6b28640e13db5853270cf2e4bb6c0630fabc89e604aa0fe333bda7502e5c141",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-002-ar-MSA",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "2c052d40ba37b98f85016997b88480a3a057ca6d50e25def46b553ae3a857c25",
+      "newRowSha256": "f2e1655efe9515987eeb7ca2d7d5e66b686dd8a670b081d5e5c408b3034deedf",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-002-ar-JO",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "89a1793aa4e10bafe79555eea55f8c6295a73c13355cee96ee006793862ab7f1",
+      "newRowSha256": "dadf164afc340c78fadf0d0855564c6f2cb3be237863be9594b80b78f903bffb",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-002-mixed",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "07fe00728b40a821d986c9933e38519abf7a1889bb21ea5b083265656cd8ca35",
+      "newRowSha256": "6a6d1c2f42a42d7437da56f0b2a7127842b9a04eef229c9b671787394ee5c8f0",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-003-en",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "ea41f2226396ddca4ff0a618c2c217291c909c58087b0e51910d23a1d5c420f3",
+      "newRowSha256": "e44024fe512e76fe228539de78e3ab0660b29a03874c61bbd91d80292b880e40",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-003-ar-MSA",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "bbae2bdcd4345e147a70e7afd92c21a44ae1cbfc03e8a96e8476331a46dd5019",
+      "newRowSha256": "6f22caf0590061c5531756f90e381ea07a6da7afd311a908b8ebd5f75e9ec2e5",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-003-ar-JO",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "a505910ee5106fa64f2f1a91571200bb74918a79a726cc5ad1e5d7d51bda41ee",
+      "newRowSha256": "9a1f20ba404aadd9aca423d6e16d8244981d920ad235cc20120654de958a44ae",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-003-mixed",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "e1f1a9775673286ec555f8f3f1dde9720f08657badc29257bbd02b46f9681806",
+      "newRowSha256": "233e75901038cc4e41dc76658f3d3c738c745e7b5c2d6b57244e5d7a799f47d4",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-004-en",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "fe5f3aa39f341822e8c38694cbdc13b071b11bcb7faa193d6ff2436654c57ffd",
+      "newRowSha256": "de411ce144597a07bce0082d06b96bb7065d02fd513b3e9786eddc7390f185fc",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-004-ar-MSA",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "d41252667d6ca869cd6169154e96abef3d69460c5be3f7439dce0f61e8552527",
+      "newRowSha256": "189ac9706fbc9cac980f45b01e0be9b5ed5033b5d1afe12f3a503153c9829d3f",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-004-ar-JO",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "71e6d2f0a14be124b08f0c634a7fe9f5334bc2de1c4b8ac01719f66f20294304",
+      "newRowSha256": "a04232b3cd70a950f3c55920bd15ff297838ddb300df16d566771a513c618bf8",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-004-mixed",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "6f7ed0927cbd62e8e6d8e7fb58f24c6b0cb257a549335280f78e7f7753235b0a",
+      "newRowSha256": "39bcab57f1f668d894cc2a67beb708766d54ecbe4ce552bc72375d6dcf4f2c8f",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-005-en",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "15ae627d548cdfa9d1bab66d7dad7de57402be33c75cc356b553c92e800b7ae4",
+      "newRowSha256": "529eebf6bf8b9b260a21e0e4cb0ac643e73aa121cabde5e0ad510721675c3050",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-005-ar-MSA",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "a749f7644ff66da62ee1d0365b0a60761213f12a9f43df63f2f9cb55bb416d35",
+      "newRowSha256": "f657a18d544dd0b3a4d61d4566c57dad968d191f1eb9afd2304ee82ba5a0316b",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-005-ar-JO",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "63a040aa9020ac906f5c9d31331ab46fb9e2bbb139c8fb8fb192e621f772e118",
+      "newRowSha256": "3030e9aa858b5d391674b309be07ec5f7143e035cb8a1e04a9e37a23119551b3",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-005-mixed",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "6c7ecf30884f4c620619f87e91ee40f5a50036d3928d7dead05ab665c777fda3",
+      "newRowSha256": "855242098826a7611a42e8fdd4c8a79bdde7f802242e2dc0e5aab8c3aec97b92",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-006-en",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "6dbcb7cc22c46dd5c5fcf1e4fc26550149308ca4d12ec73f49fb9fc5dbd9838c",
+      "newRowSha256": "059a816a94fa5f0a7388d8030bcac19e791530d7f52c03a1b3b53f0ca8f57a44",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-006-ar-MSA",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "6b9bd3a9020dfbcdca4a0522d04043a27162ef6efecb407745c3c6c720a527b7",
+      "newRowSha256": "2f5beadf8cecbb87939319a7836790b439d5deb4deb1bfee74b24b0497fbf6a2",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-006-ar-JO",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "eee963e6afbdc5ae7b6c88f2c67062c6c493d9db67a2fb90a8c43a7b17fc566c",
+      "newRowSha256": "6c16dc86e15eabe8bf484d9028d3b2fb089c61c45d393c521c78d5e36458a80d",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-006-mixed",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "25fd70b12b54562b0cbc2c29b9723d5fb0f8489ea91f4122f3e8c589f9c077eb",
+      "newRowSha256": "ebb49783855e04246edc64224d69071c9f2d0e18a66d2307e16e561d05981824",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-007-en",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "f23d5447f22da57d18f6ccbe50fe5413a2bd19dc3fcf95c7b78ca327ad05eb1f",
+      "newRowSha256": "3a1d052d77730cffcf47b051bb0016319a269552f62eb1a1c020e90340bec1d7",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-007-ar-MSA",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "b52c4b13943dcc8a1c55a4874a94957a12c37b85befbc3209bea447be61f4ac6",
+      "newRowSha256": "b40994aef52b2f872d3e4acdc7ce2e319a5bc63f5d060d4f59642f7defd6b6f9",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-007-ar-JO",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "1c3f05429d6cf0db5a9b759e664790410bf43bde7f5df70df34fb24b66d6d751",
+      "newRowSha256": "fa1be6d8ad264bd230188dfd991b9fb0f0fb1779306f10cd64b6899ef5165e96",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-007-mixed",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "fe14651c7383592914f7d3699d56029df406fa517b66551dd73f883941499cdc",
+      "newRowSha256": "278b4507903652d4aaad6d7ae422380e7dfd86490b20893648ab4734c277672a",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-008-en",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "c2ddfb3a394385ee5013de13b9023b3aabc4e34d7e09da707cb6cf5f0353b6fe",
+      "newRowSha256": "174554c35b6ac9d4a0b826348d0bf679a590cec7e4ceb36a9548b28082be84e9",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-008-ar-MSA",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "c9bef92fc3a8a4b4aafa264810b674980886ffe8c3a5b3716d01738fe7d90456",
+      "newRowSha256": "e3419ded72934b7405190dfc6a8c925a55894d6d772824fcd19728c78728aca4",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-008-ar-JO",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "a6b57b03b6723422b77637d9b9a1b57ff7ef6f40ebf557b17872ba089a25d618",
+      "newRowSha256": "be0a53671cd7bfcd9a32c53fbc16ebe81d4ab748482d3d31423d7c7a63acd6ec",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-008-mixed",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "9dd575b6dd06e85f9cf1f27a30275f8b777ffc5ac49d709216c0da80c9dbb53a",
+      "newRowSha256": "72260a6dfeaece16031751a46229855f77c974b550d57753aee8dcada49b5d12",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-009-en",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "6a9495db768dcc211e6759aa8464acab8ea22d516419952d8e0c3fa5626e2ec0",
+      "newRowSha256": "b991ff54b66a0b3d36b752ae77a1d2e870d821d8b2d91fa604c82bc8a4008a5f",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-009-ar-MSA",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "5859e927c5aca4c9628ac252e542d77be82f7eca9e4ed00359cae04dc9beb5ab",
+      "newRowSha256": "817ee1c183c35d817843852afed8cfb554335db7a97f8f3a3b8d43b04e8c233e",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-009-ar-JO",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "23ca93a9fde691b5c420ef5091564e78c960f0243fee6a2993f9d5e0ccf34cfd",
+      "newRowSha256": "5105e5e7e357feda3629e0481114ad68c08e1868299fee886faed26bc04a562b",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-009-mixed",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "97cb00720115ec9f243840c2229c6f1edc695bb7f88edfdb1a24085c7ee193fe",
+      "newRowSha256": "5de190791c9bcedce14014b5c0f7ead4c88dff31e3c945bcc6415ff4210a5e47",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-015-en",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "56c5114243ba9b65f0973a4a2ecd34971072c8916e7605379c45fda30d7215bc",
+      "newRowSha256": "ac8138f8c00a7b600c1e498d1f00cd4893edd1ce539f31d7142891850b7a7d24",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-015-ar-MSA",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "e3b37891b25ed3bd033bdf9ac1a839235f579d13cef9e17021a438c0a7cefb6d",
+      "newRowSha256": "66f198afce64b8e555a27ec8cadba7ee650fe7ca45f37548d676c977c41e5d64",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-015-ar-JO",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "b50e9d0e6b25af7b83213a6f8609812f1dd3d3889f7b498d5d7ddc7fe2a052a9",
+      "newRowSha256": "62c83623cbc8f64be0232ee3d9fb1ae415ba5863ecf571cb27435f3b22b8b869",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-015-mixed",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "08ad08b2a94d5c33a7c556408d58262fd789444f84d470cbe2fd9b1386921be7",
+      "newRowSha256": "fd30c481810f090dd952f1712f30baa10a71f1fa741f1721bfd1dfd276a66ba8",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-016-en",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "e5fe4523dbf95fac1d81f37dec17f0597535fc0546ae091a45c566ca2e3eee38",
+      "newRowSha256": "3f1053cae8173c334d34555d0adaeaa9d7ba832cb27518e26ff90058c4b56869",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-016-ar-MSA",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "a46993e361b213e5794a27f625ac543749bd392aae7793a10fee08e1171bdafa",
+      "newRowSha256": "24bdc45e0d4ff76078575bcbb334a9eec3e42c44577ea4d6db265f60842621e4",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-016-ar-JO",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "6125399072cbae5e11c29536c92be0fda22e0dd95f337fa533c6578b07c9575d",
+      "newRowSha256": "7f6a86c74155f439324b387acae306b5b3a9f1d5cc869e11de2699a3900fa953",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-016-mixed",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "3fde07249cf6cfa8f25bbebeea9071408a415b0254fb26fa8441326e6bce19b1",
+      "newRowSha256": "c860c6c566e8e099d716ad1d90b5cc118ca6eca7c6f83a3b4d4e5d9745df7f02",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-017-en",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "16ef7d77e09c777dd501922ee9e8295fc40c36025f765d317e670fd491cd5433",
+      "newRowSha256": "3633e980888b929d7aed3caeb7efd6e4c6fbb4e372fdae733dd6383c9c4beebb",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-017-ar-MSA",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "53be82a6de17c3217d8fdbfe39503c7cb7c58caf878d2e7264c1cf0592e4a1b6",
+      "newRowSha256": "0b8b14c2567e01cb63c86848a2fb29253032321235c5df4d6934e06d089a9082",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-017-ar-JO",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "f457113e13e924649b02a8ebc7a7dca12be29e8a73e6acb0e477c0fdc03803db",
+      "newRowSha256": "99bcb8615d63c90405516d50539c948a904cc939342aa7a202a3ba5276c00e0b",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-017-mixed",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "64ccd042df3871763b8f48350b36acda385cbada9276df66b19f717df70a0bf2",
+      "newRowSha256": "38b378db90277b38b08fe29732c239f183ba276afd0ea94c287b79cf9e337214",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-018-en",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "8a31cfc43ea1700b6d26424d9c49a2caa793e80ea9a4e4cc8499042725b5ceef",
+      "newRowSha256": "ed5b112d380731ef435a11d1a13d8983de1d151409f9c81777d14b90a9471423",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-018-ar-MSA",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "3f18a3d2494c5febf35b7fdb548fc0eefa69e7c40d59fcfb30c39de0be8e8181",
+      "newRowSha256": "acbb04f915618549f3adfa0413ef85158c712e8c372c57d7c48c5100dd20fa1b",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-018-ar-JO",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "dc7aa9629705f4317a82564c3940cd726304ea4f8be439c3a5a70695c092f536",
+      "newRowSha256": "ae66236709dcf82c0d31ca68f517fbdcaa6eb8ae3f2ff3586ec86ec229d68969",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-018-mixed",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "bf6680d4e18c0b5d33873dcd1ff436bb7a62101bdbb0718f4d0e73016e77d763",
+      "newRowSha256": "46bf2e4b19f2ec8f3a7cafef3f1513dc8bb4370d10ed3022b423f9125831428c",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-019-en",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "eeea5038469314d4c9ad5f975a650b2faf0c6027fe8dfc7e88eb629b0fc627e7",
+      "newRowSha256": "fddfa639b9f12d7d4c60d501d63a9cf92d636ee8793a564bbc400b8f1a2674da",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-019-ar-MSA",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "0e1dac342e47ecbe9b244c23d1df247da9a291d124d01588b7ef2a8f29dc21dd",
+      "newRowSha256": "1764eeaacdabd2dd5970097d106928beba533669fb6a00828609f4669fea3e7c",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-019-ar-JO",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "6eedcf5dbb0a6fdcb4f1857f149c7e0c893583f73ae196a25ce2552bb2b26e88",
+      "newRowSha256": "920e669ad6861c84e023687f99604bcd04f4462f5b71d7d7c4d1b0beb21f7e92",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-019-mixed",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "7ab1ead7f9361dec752a7f9b3763d84af6a57cdfb6bd5e929ab5e517aef0d935",
+      "newRowSha256": "d4271e9c49b68f4dd1dc59a29e03b20be768bfa84988c042530ba04c8ebbaf25",
+      "oldRole": "hr",
+      "newRole": "admin"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-026-en",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "80a5f5e15dfd4aa276e02c906e1a1a31b4e483d4dfaf43f611e96d2ced555fa7",
+      "newRowSha256": "6a3c12b63d04ac30eb920519d2c495a5f1db2b7a37727ebed49268818d43686a",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-026-ar-MSA",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "af2044fde9155a6a9e2f0b5b37de81cf88df2370a0c7caae478ded212fdc7f69",
+      "newRowSha256": "618ccea88420c8b5580c0845ca03a9f9d9559d5b6a3bcaba00b393998407b9d0",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-026-ar-JO",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "0cbab4a5a503776b772a66a77cf4ccaae4fb47f0f9b3e6a6487868a5cf5d5c99",
+      "newRowSha256": "9845132a84034fab44344e63c98695c48a4014589383b52ba9450fb888ab76fc",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-026-mixed",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "921e4fb85d8dc33ee51f02452f40423846217ff1ca5541a8941746d378e9b8c9",
+      "newRowSha256": "f4dfcfae9f7f5d3e23c5c96a73603789b99b0da2320dd1b9289d7d67017c443c",
+      "oldRole": "employee",
+      "newRole": "manager"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-028-en",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "9f7b5be72231f57207afc99d04d176a7c86ffd9489358e2a1380ac8e6afbef82",
+      "newRowSha256": "a15eb0a99ad6a7238759f2c820e36e011eca7b673fa6fd61ae5cc869efab7904",
+      "oldRole": "employee",
+      "newRole": "hr"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-028-ar-MSA",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "bfb2f1689b5c9c0ce74fe89a8f7d9321ce4b1a92b40114a10cf2f5f4e91573a5",
+      "newRowSha256": "2610838e9fab13e4b4d8b37db9eee9460e02f4296d811eafbb37216d2decc68b",
+      "oldRole": "employee",
+      "newRole": "hr"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-028-ar-JO",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "f94568f4f610ffd1cd696896bc993a0ed13669ae5eb15b376ec0c1a150a873a9",
+      "newRowSha256": "2cc5e6896bba753ff4ce1a05d4dc93f1f490690cb95656cba3432ee33dbb9995",
+      "oldRole": "employee",
+      "newRole": "hr"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-028-mixed",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "8552a5d92707918c43a9aa7cb4890b4e373ad57c447caec7831cd700e777ab90",
+      "newRowSha256": "5a5dc22ed9b912cda44ba0b7269ab039178b758d254d04de405340bb12cec617",
+      "oldRole": "employee",
+      "newRole": "hr"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-029-en",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "0890810f98b4bfea616c2fa0d5488d90529b6a1a117e9ee9871f48a71e6ffc29",
+      "newRowSha256": "5b072f9b2d15889a51e9379d4ff9fdc0e5d88b02e475ec8b66f90df3d0aef941",
+      "oldRole": "employee",
+      "newRole": "hr"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-029-ar-MSA",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "6dbe3a39245245376fe1e6ee6ffedbe7b71efe27dd67a4ec511659d3766be658",
+      "newRowSha256": "d69b57b43985d192da6faa0ab88eab5210071c6046c112677ca4fcfd247ef401",
+      "oldRole": "employee",
+      "newRole": "hr"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-029-ar-JO",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "57991d51017e1311367ce36f22f410074e556702123b98457970f4642978ab71",
+      "newRowSha256": "f42d9875f9a42d80c273031609b1d4ced5badd1a6648544823d065bf0727dd6e",
+      "oldRole": "employee",
+      "newRole": "hr"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-029-mixed",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "cebe1b2534a478b490f083af356d7e9975ee9bef39cac734514ed44e654cf5be",
+      "newRowSha256": "e8938409c82825898da980dc1ab5b924282a9e9b2261a4967481aa66849afb69",
+      "oldRole": "employee",
+      "newRole": "hr"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-031-en",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "530f4d805758ef72780b25e2f5082989cf6ba99059f5a4adeb711febace16755",
+      "newRowSha256": "6b0b0ad9205dd33a5a84e444296ee260e79cd7ede23039f13025d50e71c58a08",
+      "oldRole": "employee",
+      "newRole": "hr"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-031-ar-MSA",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "be98a5e509bb6d8c2b920fda8c58668c355707393b0521d40b2d6e2bbfd84ffb",
+      "newRowSha256": "13cb163042344a587faa8fb6bb2860f0b478796662ebdfce6f4c033563c597c6",
+      "oldRole": "employee",
+      "newRole": "hr"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-031-ar-JO",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "f2336d751f37a05390d202b9da4c4df3c8623bf2e2857b5d0237e780c7a394ba",
+      "newRowSha256": "9d7806c4ec454fa9d65139a71d5bedbfb6b62b4a49badb932c5d9bcfc50250b2",
+      "oldRole": "employee",
+      "newRole": "hr"
+    },
+    {
+      "asset": "S",
+      "recordId": "CEB-S-QUESTION-031-mixed",
+      "reason": "rebalance_role_without_text_or_gold_change",
+      "oldRowSha256": "7c07aee7dabb5916e4f1ef70d625fc7c1bc83576b23e8edc6f66f8f5974d216d",
+      "newRowSha256": "eb00729a60f2dee91b6045487c4a1a4d117f7c2eaf75f87a538380c97edd0777",
+      "oldRole": "employee",
+      "newRole": "hr"
+    }
+  ]
+}

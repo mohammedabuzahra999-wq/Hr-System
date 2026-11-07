@@ -1,0 +1,313 @@
+{
+  "version": "HR-QUESTION-PLAN-QLORA-PREPARATION-1",
+  "createdAt": "2026-10-26T13:10:21.983Z",
+  "status": "READY_FOR_CONTROLLED_DATASET_CREATION",
+  "trainingExecutionReady": false,
+  "authority": "Current explicit project-owner decision; provenance limitation accepted for this controlled experiment",
+  "base": {
+    "repository": "Qwen/Qwen3-4B-Thinking-2507",
+    "revision": "768f209d9ea81521153ed38c47d515654e938aea",
+    "tokenizerRevision": "768f209d9ea81521153ed38c47d515654e938aea",
+    "provenanceLimitationAccepted": true,
+    "cryptographicGgufConversionLinkVerified": false,
+    "earlierEvidenceModified": false
+  },
+  "before": {
+    "model": "qwen3:4b",
+    "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+    "quantization": "Q4_K_M",
+    "ollama": "0.40.11",
+    "frozen404Sha256": "b6a6a9f74e76edcf783ad3a2f47f2fa493ac0444e2ca8bf239439229e14a2b05",
+    "evidenceUnchanged": true,
+    "rerun": false
+  },
+  "objective": "Independently authored natural-language HR request to complete existing {plan: CopilotPlan}; no factual HR answering or action execution",
+  "task": "question_plan",
+  "targetFields": [
+    "intent",
+    "period",
+    "month",
+    "year",
+    "department",
+    "personName",
+    "employeeNumber",
+    "rankBy",
+    "payrollTopic",
+    "reportType",
+    "refusalReason"
+  ],
+  "substantiveIntents": [
+    "myAttendance",
+    "myLeaveBalance",
+    "myRequests",
+    "myPayslips",
+    "payrollInsights",
+    "payrollReadiness",
+    "payrollRunSummary",
+    "payrollAuditSummary",
+    "payrollFindings",
+    "teamPresentNow",
+    "teamAttendance",
+    "teamOnLeave",
+    "teamPendingApprovals",
+    "teamRoster",
+    "headcount",
+    "departmentBreakdown",
+    "departmentAbsenceComparison",
+    "orgAttendance",
+    "orgLeaveSummary",
+    "recruitmentSummary",
+    "openJobOpenings",
+    "listApplications",
+    "whoIsPresentNow",
+    "attendanceRanking",
+    "generateReport",
+    "myReport",
+    "employeeFile",
+    "knowledge",
+    "howDoI"
+  ],
+  "actionBoundaryCategories": [
+    "checkIn",
+    "checkOut",
+    "requestLeave",
+    "requestDocument",
+    "cancelRequest",
+    "openScreen",
+    "filterScreen",
+    "scrollPage",
+    "openEmployeeFile",
+    "setLanguage",
+    "signOut",
+    "markAllNotificationsRead",
+    "decideRequest",
+    "postAnnouncement",
+    "updateAnnouncement",
+    "deleteAnnouncement",
+    "addCalendarEvent",
+    "remindCheckout",
+    "resetPassword",
+    "addEmployee",
+    "setSalary",
+    "createPayrollAdjustment",
+    "approvePayrollAdjustment",
+    "reviewPayrollFinding",
+    "updateEmployeeDetails",
+    "generateJobDescription",
+    "regenerateJobDescriptionSection",
+    "addKnowledgeText",
+    "deleteKnowledgeText",
+    "approveJobDescription",
+    "createOpeningFromJobDescription",
+    "deleteJobDescription",
+    "createJob",
+    "updateJobOpening",
+    "publishOpening",
+    "moveApplication",
+    "analyseApplication",
+    "generateInterview",
+    "reviewInterviewQuestion",
+    "evaluateInterview",
+    "sendInterview",
+    "runPayroll",
+    "auditPayroll",
+    "approvePayroll",
+    "deleteCalendarEvent",
+    "changeEmployeeRole",
+    "closeOpening",
+    "deleteOpening"
+  ],
+  "actionBoundaryTargetIntent": "doAction",
+  "trainActionPlanExtraction": false,
+  "recommendedExamples": 8000,
+  "semanticFamilies": 2000,
+  "pools": [
+    {
+      "name": "substantive_intents",
+      "families": 1160,
+      "rows": 4640,
+      "splitFamilies": {
+        "train": 928,
+        "dev": 116,
+        "internalTest": 116
+      },
+      "splitRows": {
+        "train": 3712,
+        "dev": 464,
+        "internalTest": 464
+      }
+    },
+    {
+      "name": "action_boundaries",
+      "families": 384,
+      "rows": 1536,
+      "splitFamilies": {
+        "train": 288,
+        "dev": 48,
+        "internalTest": 48
+      },
+      "splitRows": {
+        "train": 1152,
+        "dev": 192,
+        "internalTest": 192
+      }
+    },
+    {
+      "name": "refusal_abstention",
+      "families": 256,
+      "rows": 1024,
+      "splitFamilies": {
+        "train": 216,
+        "dev": 20,
+        "internalTest": 20
+      },
+      "splitRows": {
+        "train": 864,
+        "dev": 80,
+        "internalTest": 80
+      }
+    },
+    {
+      "name": "greeting",
+      "families": 40,
+      "rows": 160,
+      "splitFamilies": {
+        "train": 32,
+        "dev": 4,
+        "internalTest": 4
+      },
+      "splitRows": {
+        "train": 128,
+        "dev": 16,
+        "internalTest": 16
+      }
+    },
+    {
+      "name": "context_entity_scope_contrasts",
+      "families": 160,
+      "rows": 640,
+      "splitFamilies": {
+        "train": 136,
+        "dev": 12,
+        "internalTest": 12
+      },
+      "splitRows": {
+        "train": 544,
+        "dev": 48,
+        "internalTest": 48
+      }
+    }
+  ],
+  "splitRows": {
+    "train": 6400,
+    "dev": 800,
+    "internalTest": 800
+  },
+  "languages": {
+    "en": {
+      "total": 2000,
+      "train": 1600,
+      "dev": 200,
+      "internalTest": 200
+    },
+    "ar-MSA": {
+      "total": 2000,
+      "train": 1600,
+      "dev": 200,
+      "internalTest": 200
+    },
+    "ar-JO": {
+      "total": 2000,
+      "train": 1600,
+      "dev": 200,
+      "internalTest": 200
+    },
+    "mixed": {
+      "total": 2000,
+      "train": 1600,
+      "dev": 200,
+      "internalTest": 200
+    }
+  },
+  "format": {
+    "canonical": "Versioned JSONL envelope plus lineage/annotation sidecar; not created",
+    "modelExport": "Conversational prompt-completion JSONL",
+    "completion": "One assistant message containing the JSON string {plan: <complete CopilotPlan>}",
+    "prompt": "Unchanged real controlled resolveQuestion prompt and optional synthetic previous-plan context",
+    "loss": "Completion-only; explicit mask and pinned-template seam verification required",
+    "reasoningTraces": false,
+    "newSchemaFields": false
+  },
+  "sources": {
+    "authoring": [
+      "Current curated intent/action/schema/semantic/capability contracts",
+      "This independent construction/coverage specification",
+      "Future independently authored synthetic linguistic designs and identity pools"
+    ],
+    "runtimeR": "Fixed prompt-reference context only through official controlled mapping; no training target or authoring seed",
+    "selectionS": "Selection-only, excluded from train/dev/test/runtime examples",
+    "frozen404AndDerivatives": "Excluded from authoring, prompts, targets, development and training; sealed exclusion checker only in a later admission stage",
+    "historical10KAndCopies": "Excluded; integrity hashing only here; never author/generator/model/trainer input",
+    "productionDataAndCredentials": "Prohibited"
+  },
+  "guards": {
+    "familyEpisodeTranslationGroupedSplit": true,
+    "strictZodAndSharedSemanticValidation": true,
+    "capabilityRubric": true,
+    "noInventedIdsDatesScopes": true,
+    "zeroProtectedOverlapRequiredBeforeTraining": true,
+    "sealedExclusionAggregateOnly": true,
+    "optionalHumanReview": true,
+    "linguisticLimitationsMustBeDisclosed": true,
+    "finalPermissionAuthority": "Server validation, RBAC, record scope, payroll restrictions, confirmation and executors unchanged"
+  },
+  "draftQlora": {
+    "loadIn4bit": true,
+    "quantType": "nf4",
+    "doubleQuant": true,
+    "computeDtype": "bfloat16 after device verification",
+    "loraRank": 16,
+    "loraAlpha": 32,
+    "loraDropout": 0.05,
+    "targetProjections": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "pinnedIndexTargetWeightsVerified": 252,
+    "trainableBaseWeights": false,
+    "learningRate": 0.0001,
+    "maxEpochs": 3,
+    "microbatch": 1,
+    "accumulation": 16,
+    "gradientCheckpointing": true,
+    "packing": false,
+    "proposedSeed": 42,
+    "tokenBudgetCompatibilityTarget": 8192,
+    "executableEnvironmentValidated": false,
+    "packageVersionsInstalledOrLocked": false
+  },
+  "contamination": {
+    "preparation": "PASS_NO_TRAINING_DATA_CREATED_PROTECTED_INPUTS_EXCLUDED",
+    "futureTrainingDataset": "PENDING_GENERATION_AND_SEALED_ADMISSION",
+    "frozen404ParsedHere": false,
+    "historical10KParsedHere": false,
+    "existingRsEvidenceOnly": true
+  },
+  "pii": {
+    "finding": "NONE_FOUND_IN_INSPECTED_ADMITTED_ASSETS",
+    "inspectedRows": 480,
+    "staticScan": true,
+    "humanReviewPerformed": false,
+    "limitation": "Arabic/English, MSA, Jordanian and mixed semantic naturalness was not independently human-reviewed. Automated checks do not prove perfect linguistic quality or complete semantic independence. Disclose this in future reports/publications."
+  },
+  "nextStep": "Create independent synthetic dataset under frozen source/recipe/family split; validate and admit training/dev/internal-test exports; do not start training",
+  "trainingRowsCreated": 0,
+  "trainingExportsCreated": 0,
+  "inferenceRequests": 0,
+  "trainingStarted": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "evaluation-db",
+  "protection": "Frozen provider evaluation/attempt/restart/RBAC/privacy",
+  "command": "npm.cmd run check:ai-interviewer:evaluation -w @hr/server",
+  "startedAt": "2026-11-05T12:14:25.705Z",
+  "finishedAt": "2026-11-05T12:14:42.187Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "evaluation-db.log",
+  "passLines": 25
+}

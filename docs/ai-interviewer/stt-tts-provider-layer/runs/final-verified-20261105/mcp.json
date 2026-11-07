@@ -1,0 +1,13 @@
+{
+  "id": "mcp",
+  "protection": "MCP session lifecycle/RBAC/action checks",
+  "command": "node --conditions=development --import tsx src/mcp/authorization.security.check.ts",
+  "startedAt": "2026-11-05T06:54:06.813Z",
+  "finishedAt": "2026-11-05T06:54:11.522Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "mcp.log",
+  "passLines": 19
+}

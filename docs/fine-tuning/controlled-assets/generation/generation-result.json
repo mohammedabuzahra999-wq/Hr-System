@@ -1,0 +1,20 @@
+{
+  "completed": "2026-10-25T07:29:38.593Z",
+  "inputHashes": {
+    "generate-controlled-assets.mjs": "1508cb0431d3267ba846a69718e39e19f6e4b47b41f82f161adb0d951abf0dcf",
+    "templates-v1.mjs": "005e2d590396f6a75d96b62545d1f5625aafd7a605d5ff15855cc0a0240b2536",
+    "contracts-v1.json": "935b62daa020e4244f762e396ec7fd4e2461b966d083d78a2a5e44a9af151642",
+    "offline-guard.mjs": "df0aa6c3f85876e36f5e702fa0141e2fc278d16be2039fecafb2d08ffe3015ac"
+  },
+  "outputs": {
+    "runtime-reference-v1.jsonl": "342503dd6c810136d8b5ede8dea96005e593a2ee623f849640fcfd357bb826de",
+    "model-selection-v1.jsonl": "8d50c67b4daa388c9cadcd3e992e0aa8504a08534b1beb4bdc2a022ac62928c6"
+  },
+  "counts": {
+    "R": 320,
+    "S": 160
+  },
+  "preflightPass": true,
+  "modelCalls": 0,
+  "seed": null
+}

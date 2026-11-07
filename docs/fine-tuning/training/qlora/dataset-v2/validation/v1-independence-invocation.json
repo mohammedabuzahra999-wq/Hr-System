@@ -1,0 +1,18 @@
+﻿{
+    "stage":  "Additional v1 independence check",
+    "initialLauncher":  "Failed before comparison because contracts.mjs was not in native read allowlist",
+    "initialErrorCode":  "ERR_ACCESS_DENIED",
+    "frozenSourceChanged":  false,
+    "correction":  "Invoke existing frozen checker directly with explicit pure-code dependencies and quarantined candidate read-only",
+    "additionalReadPermissions":  [
+                                      "node_modules",
+                                      "package.json",
+                                      "controlled-assets/validation/contracts.mjs"
+                                  ],
+    "frozen404ReadAllowed":  false,
+    "productionCredentialsReadAllowed":  false,
+    "thresholdsChanged":  false,
+    "candidateRewritten":  false,
+    "modelCalls":  0,
+    "trainingStarted":  false
+}

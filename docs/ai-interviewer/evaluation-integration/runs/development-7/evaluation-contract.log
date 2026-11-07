@@ -1,0 +1,30 @@
+PASS disabled defaults require no credential and cannot activate provider evaluation
+PASS synthetic registration is deterministic and keyless
+PASS fail closed missingKey
+PASS fail closed missingModel
+PASS fail closed enabledDisabled
+PASS fail closed prodSynthetic
+PASS fail closed customURL
+PASS fail closed timeout
+PASS fail closed attempts
+PASS fail closed selector
+PASS LLM and generic keys cannot activate evaluation; serialized configuration excludes key
+PASS valid exact evidence and approved anchor produce a distinct synthetic report
+PASS missing evidence stays NOT_ASSESSED with null, never zero
+PASS uncertain partial and interrupted answers cannot support an assessment
+PASS invented quote, sequence, criterion and duplicate spans are rejected
+PASS fabricated unanchored scores, wrong rubric and dimension fail
+PASS model prose hiring outcomes and unsupported findings are forbidden schema fields
+PASS independent report verification rejects mutated score, findings, identity, mode and provenance
+PASS UTF16 exact quote boundaries reject split surrogate and normalize nothing
+PASS installed SDK uses isolated JSON, strict schema, pinned endpoint, no tools/store or credential data
+PASS malformed output extra fields invented citations refusal tools and truncation are rejected
+PASS HTTP auth throttling and failure are sanitized without hidden retry
+PASS response byte and MIME limits fail safely
+PASS aborted caller and changed frozen configuration prevent SDK invocation
+PASS oversized multilingual input fails without silent truncation or SDK call
+PASS provider metadata changes hash; legacy input remains separately versioned
+PASS blank answers or whitespace-only spans cannot support a score
+PASS synthetic mixed-dimension evidence abstains instead of fabricating one aggregate anchor
+PASS zero real provider calls
+29/29 evaluation adapter checks passed; synthetic SDK requests=14; real calls=0

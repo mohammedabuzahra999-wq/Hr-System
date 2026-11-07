@@ -1,0 +1,21 @@
+{
+  "created": "2026-10-25T10:09:53.493Z",
+  "platform": "win32",
+  "release": "10.0.19045",
+  "architecture": "x64",
+  "cpuModels": [
+    "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"
+  ],
+  "logicalProcessors": 8,
+  "totalMemoryBytes": 21343473664,
+  "availableMemoryBytes": 8138002432,
+  "node": "24.15.0",
+  "zod": "4.6.5",
+  "typescript": "6.0.3",
+  "timezone": "Asia/Riyadh",
+  "ollamaVersion": "0.40.11",
+  "runtimeBinarySha256": "cc00918e2d25577969c929a1004be054781b8bff25819c1be19ca2f7b7bb4012",
+  "hostUserSerialIdentifiers": "EXCLUDED",
+  "productionEnvironmentValues": "NOT_READ",
+  "limitations": "Current inventory, not free-memory/thermal stability certification"
+}

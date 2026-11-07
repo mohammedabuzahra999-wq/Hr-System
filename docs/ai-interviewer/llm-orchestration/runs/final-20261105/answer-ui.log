@@ -1,0 +1,27 @@
+PASS refresh before submit restores a local draft without claiming server commit
+PASS local envelope contains no credentials and is bound to interview/session/question/turn
+PASS disconnect before request preserves the same pending identity across refresh
+PASS SUBMITTING is visible before response and duplicate clicks issue one request
+PASS refresh while submitting keeps the frozen envelope and never automatically POSTs another submission
+PASS commit-before-lost-ack refresh reconciles to COMMITTED without retransmission
+PASS server error before commit preserves answer and never claims success
+PASS changed version requires explicit review, never silently rebases an uncertain submission
+PASS conflicting other-tab commit retains local text with no success state or overwrite
+PASS old-question draft stays visible when the server advances a turn
+PASS recovery from another interview is purged before display
+PASS recovery from another session is purged before display
+PASS authentication rejection 401 clears plaintext and fences late responses
+PASS authentication rejection 403 clears plaintext and fences late responses
+PASS expiry removes a recovery copy without fabricating a committed state
+PASS malformed or credential-bearing storage records are rejected by the closed schema
+PASS storage unavailable is explicit and prevents an unrecoverable request from being sent
+PASS clearing a scope during an in-flight request prevents late ACK from repopulating it
+PASS successful server ACK purges committed plaintext
+PASS unmount fences late ACK but keeps the recovery envelope for a new room instance
+PASS an offline stale state cannot renew the local session lifetime after expiry
+PASS crash after receiving server ACK but before local transition recovers from the frozen envelope
+PASS retry awaits an in-flight background reconciliation before sending the same identity
+PASS review waits for shared reconciliation and retires old outcomes before editing a new draft
+PASS unreadable existing recovery blocks replacement text until authenticated recovery can be read
+PASS no real network or model call
+26/26 Phase 5.2 recovery checks passed; external attempts=0

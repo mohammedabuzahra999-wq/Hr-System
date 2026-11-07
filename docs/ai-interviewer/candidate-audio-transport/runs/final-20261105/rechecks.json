@@ -1,0 +1,6 @@
+{
+  "browser3": {
+    "run": "browser-recheck-20261105",
+    "note": "Initial 20/21 warning/grace speaking observation failed (one command, version 24, LISTENING, speaking=false). Original logs/raw result retained. Separate metadata-only diagnostic copy passed 44/44, followed by original unchanged isolated suite 44/44. No assertion/timer was loosened; exact root cause remains unproven. See browser-investigation.md and safe metadata trace."
+  }
+}

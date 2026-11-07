@@ -1,0 +1,30 @@
+PASS canonical resampling produces bounded mono PCM16 16k WAV
+PASS stereo is downmixed and signed clipping is bounded
+PASS invalid capture duration/channels/rate cannot produce an upload
+PASS no pending capture initializes idle without upload or microphone
+PASS same session/turn refresh recovers retained WAV as local READY only
+PASS another interview envelope is erased before recovery requests
+PASS another candidate/session envelope is erased before recovery requests
+PASS malformed or secret-bearing envelope fails closed
+PASS oversized local audio cannot be recovered or uploaded
+PASS expired session envelope is removed
+PASS expired Blob is removed while an unconfirmed status marker remains
+PASS storage read failure is explicit and sending is blocked
+PASS storage quota failure preserves recovery in memory and blocks upload
+PASS only server COMMITTED result clears the recording and marks success
+PASS response loss reconciles durable receipt without a second upload
+PASS double-click during reconciliation cannot dispatch two uploads
+PASS processing response remains uncertain and cannot resubmit blindly
+PASS offline reconciliation retains pending audio without success
+PASS closed/stale turn never uploads retained audio
+PASS revoked/expired authorization clears audio and delegates session expiry
+PASS explicit cancel requires authenticated server result before deleting audio
+PASS recording interrupted by refresh restores recovery, not committed state
+PASS unreceived reservation can refresh its expected version only after authenticated NOT_FOUND
+PASS missing durable reservation never trusts a stored Blob as authorization
+PASS active expiry clears Blob and keeps an unconfirmed marker
+PASS cleanup failure is reported without denying an actual durable commit
+PASS audio feature disabled performs no recovery/storage/network work
+PASS late microphone permission after cancellation releases the device
+PASS zero external provider/model calls
+29/29 candidate audio UI checks passed; external calls=0

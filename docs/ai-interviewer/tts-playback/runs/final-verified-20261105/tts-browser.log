@@ -1,0 +1,57 @@
+Browser setup: local fixture ready
+Browser setup: development frontend ready
+Browser setup: production preview ready
+Browser setup: isolated Chrome ready
+BROWSER CHECK FAILED: HR login and recruitment AI controls use the existing employee workflow: Timed out waiting for browser state
+Browser HR diagnostic: {
+  path: '/hr/recruitment',
+  text: 'WORKSPACE\n' +
+    '\n' +
+    'HR Demo\n' +
+    '\n' +
+    'HR\n' +
+    '\n' +
+    'MenaChat\n' +
+    'HR Center\n' +
+    'Attention centre\n' +
+    'Employees\n' +
+    'Attendance\n' +
+    'Leaves\n' +
+    'Payroll\n' +
+    'Reports\n' +
+    'Recruitment\n' +
+    'Job descriptions\n' +
+    'Knowledge base\n' +
+    'Assistant questions\n' +
+    'Announcements\n' +
+    '\n' +
+    'More modules coming soon\n' +
+    '\n' +
+    'Sign out\n' +
+    '\n' +
+    'HR SUITE\n' +
+    '\n' +
+    'Recruitment\n' +
+    'العربية\n' +
+    '\n' +
+    'HR Demo\n' +
+    '\n' +
+    'HR · hr.interview@example.invalid\n' +
+    '\n' +
+    'HD\n' +
+    'Sign out\n' +
+    '\n' +
+    'HR\n' +
+    '\n' +
+    'Recruitment\n' +
+    '\n' +
+    'Open roles, the people who applied, and their CVs.\n' +
+    '\n' +
+    'New role\n' +
+    'Open roles\n' +
+    '\n' +
+    '1\n' +
+    '\n'
+}
+
+0/1 TTS playback browser checks passed; evidence=.local-dev/ai-interviewer-phase3/browser-results.json

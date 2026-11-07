@@ -1,0 +1,23 @@
+PASS canonical resampling produces bounded mono PCM16 16k WAV
+PASS stereo is downmixed and signed clipping is bounded
+PASS invalid capture duration/channels/rate cannot produce an upload
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+'READY' !== 'IDLE'
+
+    at file:///C:/Users/PC-LAB/Downloads/hr-app-step2/services/hr-api/scripts/checkCandidateAudioUi.mjs:29:167
+    at async check (file:///C:/Users/PC-LAB/Downloads/hr-app-step2/services/hr-api/scripts/checkCandidateAudioUi.mjs:24:33)
+    at async file:///C:/Users/PC-LAB/Downloads/hr-app-step2/services/hr-api/scripts/checkCandidateAudioUi.mjs:29:3 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 'READY',
+  expected: 'IDLE',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.15.0

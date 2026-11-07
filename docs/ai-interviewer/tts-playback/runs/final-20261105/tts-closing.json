@@ -1,0 +1,13 @@
+{
+  "id": "tts-closing",
+  "protection": "TTS intro/question/closing and existing answer/report integrity",
+  "command": "node --conditions=development --import tsx docs/ai-interviewer/tts-playback/closing.check.ts",
+  "startedAt": "2026-11-05T08:56:03.288Z",
+  "finishedAt": "2026-11-05T08:56:12.735Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "tts-closing.log",
+  "passLines": 6
+}

@@ -1,0 +1,4 @@
+PASS: Ollama selection never initializes or falls back to OpenAI
+PASS: development Ollama residency changes only keep_alive; model, prompts, schema, non-thinking and stream:false preserved (offline)
+PASS: missing OpenAI client does not select Ollama
+PASS: OpenAI request, parsed result, usage and invalid-output semantics preserved (mock; no cloud calls)

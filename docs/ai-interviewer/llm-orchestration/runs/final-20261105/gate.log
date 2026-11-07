@@ -1,0 +1,215 @@
+An employee is refused every question about anyone else:
+  ✓ employee → payrollInsights
+  ✓ employee → payrollReadiness
+  ✓ employee → payrollRunSummary
+  ✓ employee → payrollAuditSummary
+  ✓ employee → payrollFindings
+  ✓ employee → teamPresentNow
+  ✓ employee → teamAttendance
+  ✓ employee → teamOnLeave
+  ✓ employee → teamPendingApprovals
+  ✓ employee → teamRoster
+  ✓ employee → headcount
+  ✓ employee → departmentBreakdown
+  ✓ employee → departmentAbsenceComparison
+  ✓ employee → orgAttendance
+  ✓ employee → orgLeaveSummary
+  ✓ employee → recruitmentSummary
+  ✓ employee → openJobOpenings
+  ✓ employee → listApplications
+  ✓ employee → whoIsPresentNow
+  ✓ employee → attendanceRanking
+  ✓ employee → generateReport
+  ✓ employee → employeeFile
+
+An employee may still ask about their own record and how things work:
+  ✓ employee → greeting
+  ✓ employee → doAction
+  ✓ employee → myAttendance
+  ✓ employee → myLeaveBalance
+  ✓ employee → myRequests
+  ✓ employee → myPayslips
+  ✓ employee → myReport
+  ✓ employee → howDoI
+  ✓ employee → knowledge
+  ✓ employee → outOfScope
+
+A manager is refused every organisation-wide question:
+  ✓ manager → headcount
+  ✓ manager → departmentBreakdown
+  ✓ manager → orgAttendance
+  ✓ manager → orgLeaveSummary
+  ✓ manager → recruitmentSummary
+  ✓ manager → whoIsPresentNow
+
+Everyone can ask about themselves:
+  ✓ employee → myAttendance
+  ✓ employee → myLeaveBalance
+  ✓ employee → myRequests
+  ✓ employee → myPayslips
+  ✓ manager → myAttendance
+  ✓ manager → myLeaveBalance
+  ✓ manager → myRequests
+  ✓ manager → myPayslips
+  ✓ hr → myAttendance
+  ✓ hr → myLeaveBalance
+  ✓ hr → myRequests
+  ✓ hr → myPayslips
+  ✓ admin → myAttendance
+  ✓ admin → myLeaveBalance
+  ✓ admin → myRequests
+  ✓ admin → myPayslips
+
+Every intent is listed — none defaults to allowed by being forgotten:
+  ✓ greeting has an explicit role list
+  ✓ doAction has an explicit role list
+  ✓ myAttendance has an explicit role list
+  ✓ myLeaveBalance has an explicit role list
+  ✓ myRequests has an explicit role list
+  ✓ myPayslips has an explicit role list
+  ✓ payrollInsights has an explicit role list
+  ✓ payrollReadiness has an explicit role list
+  ✓ payrollRunSummary has an explicit role list
+  ✓ payrollAuditSummary has an explicit role list
+  ✓ payrollFindings has an explicit role list
+  ✓ teamPresentNow has an explicit role list
+  ✓ teamAttendance has an explicit role list
+  ✓ teamOnLeave has an explicit role list
+  ✓ teamPendingApprovals has an explicit role list
+  ✓ teamRoster has an explicit role list
+  ✓ headcount has an explicit role list
+  ✓ departmentBreakdown has an explicit role list
+  ✓ departmentAbsenceComparison has an explicit role list
+  ✓ orgAttendance has an explicit role list
+  ✓ orgLeaveSummary has an explicit role list
+  ✓ recruitmentSummary has an explicit role list
+  ✓ openJobOpenings has an explicit role list
+  ✓ listApplications has an explicit role list
+  ✓ whoIsPresentNow has an explicit role list
+  ✓ attendanceRanking has an explicit role list
+  ✓ generateReport has an explicit role list
+  ✓ myReport has an explicit role list
+  ✓ employeeFile has an explicit role list
+  ✓ howDoI has an explicit role list
+  ✓ knowledge has an explicit role list
+  ✓ outOfScope has an explicit role list
+
+What is offered matches what is allowed:
+  ✓ employee: every suggested question is one they may ask (9)
+  ✓ manager: every suggested question is one they may ask (17)
+  ✓ hr: every suggested question is one they may ask (31)
+  ✓ admin: every suggested question is one they may ask (31)
+
+An employee may only act on themselves:
+  ✓ employee → checkIn allowed
+  ✓ employee → checkOut allowed
+  ✓ employee → requestLeave allowed
+  ✓ employee → requestDocument allowed
+  ✓ employee → cancelRequest allowed
+  ✓ employee → openScreen allowed
+  ✓ employee → filterScreen allowed
+  ✓ employee → scrollPage allowed
+  ✓ employee → openEmployeeFile refused
+  ✓ employee → setLanguage allowed
+  ✓ employee → signOut allowed
+  ✓ employee → markAllNotificationsRead allowed
+  ✓ employee → decideRequest refused
+  ✓ employee → postAnnouncement refused
+  ✓ employee → updateAnnouncement refused
+  ✓ employee → deleteAnnouncement refused
+  ✓ employee → addCalendarEvent refused
+  ✓ employee → remindCheckout refused
+  ✓ employee → resetPassword refused
+  ✓ employee → addEmployee refused
+  ✓ employee → setSalary refused
+  ✓ employee → createPayrollAdjustment refused
+  ✓ employee → approvePayrollAdjustment refused
+  ✓ employee → reviewPayrollFinding refused
+  ✓ employee → updateEmployeeDetails refused
+  ✓ employee → generateJobDescription refused
+  ✓ employee → regenerateJobDescriptionSection refused
+  ✓ employee → addKnowledgeText refused
+  ✓ employee → deleteKnowledgeText refused
+  ✓ employee → approveJobDescription refused
+  ✓ employee → createOpeningFromJobDescription refused
+  ✓ employee → deleteJobDescription refused
+  ✓ employee → createJob refused
+  ✓ employee → updateJobOpening refused
+  ✓ employee → publishOpening refused
+  ✓ employee → moveApplication refused
+  ✓ employee → analyseApplication refused
+  ✓ employee → generateInterview refused
+  ✓ employee → reviewInterviewQuestion refused
+  ✓ employee → evaluateInterview refused
+  ✓ employee → sendInterview refused
+  ✓ employee → runPayroll refused
+  ✓ employee → auditPayroll refused
+  ✓ employee → approvePayroll refused
+  ✓ employee → deleteCalendarEvent refused
+  ✓ employee → changeEmployeeRole refused
+  ✓ employee → closeOpening refused
+  ✓ employee → deleteOpening refused
+
+Deciding a request is the manager’s alone — through the assistant too:
+  ✓ manager may decide
+  ✓ employee may not decide
+  ✓ hr may not decide
+  ✓ admin may not decide
+
+Pay and passwords stay with HR and administrators:
+  ✓ hr and admin may runPayroll
+  ✓ employee and manager may not runPayroll
+  ✓ hr and admin may resetPassword
+  ✓ employee and manager may not resetPassword
+
+Every action agrees with the capability it names, for every role:
+  ✓ checkIn → recordOwnAttendance (employee, manager, hr, admin)
+  ✓ checkOut → recordOwnAttendance (employee, manager, hr, admin)
+  ✓ requestLeave is about the asker themselves — open to every role
+  ✓ requestDocument is about the asker themselves — open to every role
+  ✓ cancelRequest is about the asker themselves — open to every role
+  ✓ openScreen is about the asker themselves — open to every role
+  ✓ filterScreen is about the asker themselves — open to every role
+  ✓ scrollPage is about the asker themselves — open to every role
+  ✓ openEmployeeFile → lookUpEmployeeFile (hr, admin)
+  ✓ setLanguage is about the asker themselves — open to every role
+  ✓ signOut is about the asker themselves — open to every role
+  ✓ markAllNotificationsRead is about the asker themselves — open to every role
+  ✓ decideRequest → decideRequests (manager)
+  ✓ postAnnouncement → postAnnouncements (manager, hr, admin)
+  ✓ updateAnnouncement → postAnnouncements (manager, hr, admin)
+  ✓ deleteAnnouncement → postAnnouncements (manager, hr, admin)
+  ✓ addCalendarEvent → manageCalendar (manager, hr, admin)
+  ✓ remindCheckout → remindCheckout (hr, admin)
+  ✓ resetPassword → resetPassword (hr, admin)
+  ✓ addEmployee → manageEmployees (hr, admin)
+  ✓ setSalary → setSalary (hr, admin)
+  ✓ createPayrollAdjustment → runPayroll (hr, admin)
+  ✓ approvePayrollAdjustment → runPayroll (hr, admin)
+  ✓ reviewPayrollFinding → runPayroll (hr, admin)
+  ✓ updateEmployeeDetails → manageEmployees (hr, admin)
+  ✓ generateJobDescription → manageJobDescriptions (hr, admin)
+  ✓ regenerateJobDescriptionSection → manageJobDescriptions (hr, admin)
+  ✓ addKnowledgeText → manageKnowledge (hr, admin)
+  ✓ deleteKnowledgeText → manageKnowledge (hr, admin)
+  ✓ approveJobDescription → manageJobDescriptions (hr, admin)
+  ✓ createOpeningFromJobDescription → manageJobDescriptions (hr, admin)
+  ✓ deleteJobDescription → manageJobDescriptions (hr, admin)
+  ✓ createJob → manageRecruitment (hr, admin)
+  ✓ updateJobOpening → manageRecruitment (hr, admin)
+  ✓ publishOpening → manageRecruitment (hr, admin)
+  ✓ moveApplication → manageRecruitment (hr, admin)
+  ✓ analyseApplication → manageRecruitment (hr, admin)
+  ✓ generateInterview → manageRecruitment (hr, admin)
+  ✓ reviewInterviewQuestion → manageRecruitment (hr, admin)
+  ✓ evaluateInterview → manageRecruitment (hr, admin)
+  ✓ sendInterview → manageRecruitment (hr, admin)
+  ✓ runPayroll → runPayroll (hr, admin)
+  ✓ auditPayroll → runPayroll (hr, admin)
+  ✓ approvePayroll → runPayroll (hr, admin)
+  ✓ deleteCalendarEvent → manageCalendar (manager, hr, admin)
+  ✓ changeEmployeeRole → manageEmployees (hr, admin)
+  ✓ closeOpening → manageRecruitment (hr, admin)
+  ✓ deleteOpening → manageRecruitment (hr, admin)
+
+the gate holds

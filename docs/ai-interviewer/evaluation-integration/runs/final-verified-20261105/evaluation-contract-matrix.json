@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "checks": 29,
+  "syntheticSdkRequests": 14,
+  "realProviderCalls": 0,
+  "externalAttempts": 0
+}

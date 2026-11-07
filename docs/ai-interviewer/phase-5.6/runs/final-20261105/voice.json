@@ -1,0 +1,13 @@
+{
+  "id": "voice",
+  "protection": "mock voice session/turn/confirmation guards",
+  "command": "npm.cmd run check:voice -w @hr/server",
+  "startedAt": "2026-11-05T06:22:05.383Z",
+  "finishedAt": "2026-11-05T06:22:05.666Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "voice.log",
+  "passLines": 17
+}

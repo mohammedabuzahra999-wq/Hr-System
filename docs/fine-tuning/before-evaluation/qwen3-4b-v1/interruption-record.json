@@ -1,0 +1,19 @@
+{
+  "version": "CEB-BEFORE-ENVIRONMENT-INTERRUPTION-1",
+  "recordedAt": "2026-10-25T22:37:36.688Z",
+  "event": "Environment resumed on 2026-10-26 after overnight tool/host interruption",
+  "toolWaitCell": "g2:817",
+  "toolReportedWallSeconds": 34479.5,
+  "lastDeliveredBeforeInterruption": 172,
+  "lastBufferedSuccessfulCase": 173,
+  "firstPostInterruptionRecordedCase": 174,
+  "interruptedCaseStatus": "timeout",
+  "savedInterruptedLatencyMs": 150000,
+  "rawCasesAtInspection": 174,
+  "invalidSavedLatencyValues": 0,
+  "benchmarkRestarted": false,
+  "casesRetried": 0,
+  "settingsOrPromptsChanged": false,
+  "fineTuningStarted": false,
+  "limitation": "Run was interrupted across an overnight environment suspension. Case 174 remains a failed bounded attempt; preserve the original single pass and disclose timing/reliability limitations. Never interpret tool wait wall time as request latency."
+}

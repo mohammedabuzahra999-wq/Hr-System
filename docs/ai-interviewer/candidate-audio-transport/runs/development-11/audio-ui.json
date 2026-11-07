@@ -1,0 +1,13 @@
+{
+  "id": "audio-ui",
+  "protection": "Candidate audio encoding/recovery/privacy/permission cancellation/storage/receipt UI logic",
+  "command": "npm.cmd run check:ai-interviewer:audio:ui -w @hr/server",
+  "startedAt": "2026-11-05T07:53:55.050Z",
+  "finishedAt": "2026-11-05T07:53:55.752Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "audio-ui.log",
+  "passLines": 29
+}

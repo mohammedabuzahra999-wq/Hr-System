@@ -1,0 +1,147 @@
+{
+  "acceptedSpeechLayerSourceSHA256": "9d6f69cf6583ccdbc5caa6555199a0e2bd09502d38d948d7f39b85ecab743627",
+  "created": [
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/AudioAnswerPanel.tsx",
+      "bytes": 7681,
+      "sha256": "565956b1e4ab0947c63971e895d8e307650cd545ef069fa157c53440b4bbb3c3"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/audioRecovery.ts",
+      "bytes": 15442,
+      "sha256": "0e26466acd71d9b9539f0633836aabb3c58a1c1e3065b258a93eadd6d4f25d35"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/microphone.ts",
+      "bytes": 7098,
+      "sha256": "a6d9cd8647a536b9ea47c37a89d4c7b4e5b125fe34bc86b4049cc2f38159d7ba"
+    },
+    {
+      "path": "packages/contracts/src/aiInterviewAudio.ts",
+      "bytes": 1575,
+      "sha256": "076ad229b7bc039932ed33f4c3abada0d740c7553e582b625c2fe91c6a758428"
+    },
+    {
+      "path": "services/hr-api/scripts/checkCandidateAudioBrowser.mjs",
+      "bytes": 22996,
+      "sha256": "38a6745537d355d528a734c9f1cbc1b1f7f6cca79fd7f6486211d2fde44f0cc0"
+    },
+    {
+      "path": "services/hr-api/scripts/checkCandidateAudioBrowserCases.mjs",
+      "bytes": 7844,
+      "sha256": "c6cf3524bcd35a09e773d147f7613a96fd7987ba8b3e2c04f27794fbcad9483b"
+    },
+    {
+      "path": "services/hr-api/scripts/checkCandidateAudioUi.mjs",
+      "bytes": 13605,
+      "sha256": "f9253f5053ff85e4aae54895fefd7b1bb1226f9fd32501b39eaf5d03455f977b"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/audioContracts.ts",
+      "bytes": 1020,
+      "sha256": "e8872577bf5a891d84e054db93bded7ec3c542ef4c37b3dccf725fed46de2bce"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/audioTransport.check.ts",
+      "bytes": 29535,
+      "sha256": "a000740b312825eb5387d56f6a79393710b2630536b124c6492aafe7a1d02d3d"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/audioTransport.ts",
+      "bytes": 7174,
+      "sha256": "93cd24c318170a16e1b2f8609c276c929118716a39dc4cb15386ea9fa8d060fa"
+    }
+  ],
+  "modified": [
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/client.ts",
+      "bytes": 3817,
+      "sha256": "dc7d3fbada69a755876e4ae2fcc3c63afd59b0d3e84f8d64920a1ea8ced61ce2",
+      "beforeSHA256": "ad305abbb9a9637292d6ef73b29647d3d2ceecb09676cceb84f2cb11e1f5c96f"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/session.ts",
+      "bytes": 8264,
+      "sha256": "5b5ccde4cece693b34f3d09f0f0ab83c0d88bd6306323f9be8b699f4b95d89b2",
+      "beforeSHA256": "ca8491881c59818eb223e295f32266c6b6a92476de0bcf9d916e1db6af18760f"
+    },
+    {
+      "path": "apps/hr-web/src/features/aiInterviewer/useInterviewSession.ts",
+      "bytes": 1934,
+      "sha256": "63bcfb792f281f769896ca235b057a8ca4d4bc347dc7c97e83c0a557307d1917",
+      "beforeSHA256": "7b34bfc7806399576a110aaadab9c78ccda400c39bc27cbab1aea9fa864b88b5"
+    },
+    {
+      "path": "apps/hr-web/src/pages/AiInterviewPage.tsx",
+      "bytes": 21271,
+      "sha256": "ac33d38b9d6482c120408f4722f45a3e23cbea53929fd89c44641a8e8ec95355",
+      "beforeSHA256": "8248de8fe1355c7902d0e7e16dd5b1a3798780730b4df722727830bd4ca8898e"
+    },
+    {
+      "path": "packages/contracts/src/index.ts",
+      "bytes": 1362,
+      "sha256": "7825152391df8f22a2c4a22bb331ed8b31f42f02c57a1ff39856951da5c0f3ff",
+      "beforeSHA256": "976937841183bcd7a2c198dada2651aafe31117e5055f309450df17bdb5a16cb"
+    },
+    {
+      "path": "services/hr-api/package.json",
+      "bytes": 6736,
+      "sha256": "040d154af1e8ec44c08093483f4cff9f3766fc326fd400bdb34a4db986dec845",
+      "beforeSHA256": "96c7d46b60959e92acee8d6c0c5f04a4a935549c0de4f4616a743d8e9d704b14"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/routes.ts",
+      "bytes": 12895,
+      "sha256": "55f72bc0d41104ecbd31d03365a7f535980f58285b7e7da87602ce176e17d5ba",
+      "beforeSHA256": "9cec6d6bd8dc33fd04978473070b5b0bf6e50d7b7310a01d5cd2f8c4fac2daa9"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/service.ts",
+      "bytes": 60728,
+      "sha256": "4b152d84f0037a23084a99e265849a4ce84544a329de5b44f45cc3847a2bf3c2",
+      "beforeSHA256": "60691cbb61ab9775b78191c84368e8b74a776b5102ab2083c3738391a4bc6bc5"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/ui.fixture.ts",
+      "bytes": 19111,
+      "sha256": "1abe54316590f9a828f6524f8278107170699bc8e2832d3c0594afc5a683eddd",
+      "beforeSHA256": "cf57e0423e5ff2828ec4c62ab165bbe0181a7bed8ed5a98b4dd4a32645554214"
+    },
+    {
+      "path": "services/hr-api/src/env.ts",
+      "bytes": 7869,
+      "sha256": "c2cce739b01fed22acab56ee47c6ae3603d0fae60ad095d4a378779ccde5ba0a",
+      "beforeSHA256": "4cdacff5900a58a889c22fd8f84731a175018a4be6d86df3895fb0dbc60ea0e9"
+    },
+    {
+      "path": "services/hr-api/src/index.ts",
+      "bytes": 10891,
+      "sha256": "c7d8682d4e7eef5b745cc6eecbac1be18046c1b2563bdb333bd669dbb34e36e4",
+      "beforeSHA256": "2a11b0faa0388f2a0ea25dfb2acb0d63e088a4eef248a43f2b155f6f7300af90"
+    }
+  ],
+  "deleted": [],
+  "purposes": {
+    "apps/hr-web/src/features/aiInterviewer/AudioAnswerPanel.tsx": "Explicit consent, recording/local-only/upload/processing/commit/retry/closed UX.",
+    "apps/hr-web/src/features/aiInterviewer/audioRecovery.ts": "Session-scoped per-tab IndexedDB WAV envelope, identity preservation, authenticated reconciliation and expiry.",
+    "apps/hr-web/src/features/aiInterviewer/microphone.ts": "Native microphone permission/capture, bounded cleanup and local PCM WAV encoding.",
+    "packages/contracts/src/aiInterviewAudio.ts": "Strict public audio request/result contracts and canonical bounds.",
+    "services/hr-api/scripts/checkCandidateAudioBrowser.mjs": "Reproducibly derived existing HR/candidate harness plus native virtual-microphone tests.",
+    "services/hr-api/scripts/checkCandidateAudioBrowserCases.mjs": "Permission/record/refresh/retry/STT/fencing/privacy browser assertions.",
+    "services/hr-api/scripts/checkCandidateAudioUi.mjs": "29 synthetic encoding/storage/recovery/uncertainty/privacy UI checks.",
+    "services/hr-api/src/aiInterviewer/audioContracts.ts": "Server-only durable ticket, attempt and transcript schemas.",
+    "services/hr-api/src/aiInterviewer/audioTransport.check.ts": "37 PostgreSQL/HTTP/STT/security/rollback/restart/configuration checks.",
+    "services/hr-api/src/aiInterviewer/audioTransport.ts": "Bounded authenticated WAV reader, registered STT invocation, safe failures and cancellation.",
+    "apps/hr-web/src/features/aiInterviewer/client.ts": "Cookie-authenticated bounded JSON/binary audio API calls.",
+    "apps/hr-web/src/features/aiInterviewer/session.ts": "Own audio recovery controller only when capture is server-enabled.",
+    "apps/hr-web/src/features/aiInterviewer/useInterviewSession.ts": "Observe/reconcile audio state; stop tracks and warn on pending navigation.",
+    "apps/hr-web/src/pages/AiInterviewPage.tsx": "Mount audio panel and accurate consent/completion text; preserve disabled mock behavior.",
+    "packages/contracts/src/index.ts": "Export shared audio schemas.",
+    "services/hr-api/package.json": "Add three synthetic audio verification commands; no dependency changes.",
+    "services/hr-api/src/aiInterviewer/routes.ts": "Authenticated Origin-protected begin/upload/status/cancel with bounded per-session rates.",
+    "services/hr-api/src/aiInterviewer/service.ts": "Existing PostgreSQL receipts/events for capture reservation, atomic answer finalization and stale fences.",
+    "services/hr-api/src/aiInterviewer/ui.fixture.ts": "Opt-in test-only synthetic STT control/inspection for native browser suite.",
+    "services/hr-api/src/env.ts": "Default-off audio capture flag; require valid server STT registration when enabled.",
+    "services/hr-api/src/index.ts": "Register transport from existing server STT registry and close admission on shutdown."
+  }
+}

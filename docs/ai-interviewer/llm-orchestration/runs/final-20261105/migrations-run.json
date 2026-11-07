@@ -1,0 +1,13 @@
+{
+  "id": "migrations",
+  "protection": "unaltered full migration chain + rerun idempotency",
+  "command": "node docs/ai-interviewer/llm-orchestration/migrations.mjs",
+  "startedAt": "2026-11-05T11:52:10.624Z",
+  "finishedAt": "2026-11-05T11:52:12.386Z",
+  "exitCode": 0,
+  "status": "BLOCKED",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "migrations.log",
+  "passLines": 0
+}

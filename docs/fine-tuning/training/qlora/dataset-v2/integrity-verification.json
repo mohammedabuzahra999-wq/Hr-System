@@ -1,0 +1,15 @@
+{
+  "verifiedAt": "2026-10-26T14:25:33.368Z",
+  "priorProtectedFiles": 666,
+  "protectedMismatches": [],
+  "priorDatasetV1Unchanged": true,
+  "sourceAndBeforeEvidenceUnchanged": true,
+  "frozen404Sha256": "b6a6a9f74e76edcf783ad3a2f47f2fa493ac0444e2ca8bf239439229e14a2b05",
+  "frozen404CasesExecuted": 0,
+  "recipeAndCheckersUnchangedSinceFreeze": true,
+  "admissionFailClosed": "Not applicable: all data gates passed",
+  "admittedRows": 8000,
+  "canonicalDatasetSha256": "264400230331a4fbc638889ace7cce9d330f36a4916d204858daf78e541e5ee0",
+  "modelCalls": 0,
+  "trainingStarted": false
+}

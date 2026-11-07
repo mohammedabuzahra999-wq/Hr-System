@@ -1,0 +1,8 @@
+{
+  "suite": "evaluation-browser",
+  "socketConnectionsAllowed": 33,
+  "fetchCallsAllowed": 32,
+  "blockedExternalAttempts": 0,
+  "suppressedFixtureWrites": 0,
+  "suppressedScreenshots": 0
+}

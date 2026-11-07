@@ -1,0 +1,49 @@
+{
+  "configuration": {
+    "provider": "local",
+    "enabled": true,
+    "ready": true,
+    "local": {
+      "stt": {
+        "engine": "whisper.cpp",
+        "model": "ggml-small-q5_1.bin",
+        "ready": true
+      },
+      "tts": {
+        "engine": "Piper",
+        "voices": {
+          "ar": "ar_JO-kareem-low",
+          "en": "en_US-lessac-low"
+        },
+        "ready": true
+      }
+    },
+    "ollamaReachable": true
+  },
+  "mode": "synthetic audio through real engines and authenticated Voice/Copilot API",
+  "physicalMicrophoneSpeaker": "requires manual check",
+  "cloudAudioCalls": 0,
+  "rows": [
+    {
+      "id": "external",
+      "input": "What is the weather on Mars?",
+      "syntheticAudio": true,
+      "sttMs": 31547,
+      "transcript": "What is the weather on Mars?",
+      "copilotMs": 423,
+      "httpStatus": 200,
+      "error": null,
+      "intent": "outOfScope",
+      "resultKind": "none",
+      "refusal": "notHrData",
+      "intentPass": true,
+      "expectedIntent": "outOfScope",
+      "safetyPass": true,
+      "ttsFirstAudioMs": 2068,
+      "audioOutputPass": true,
+      "totalMs": 34040,
+      "workflowPass": true,
+      "pass": true
+    }
+  ]
+}

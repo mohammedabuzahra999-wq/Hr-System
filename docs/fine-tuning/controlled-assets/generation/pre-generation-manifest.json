@@ -1,0 +1,50 @@
+{
+  "version": "CEB-generation-v1",
+  "timestamp": "2026-10-25T07:29:38.478Z",
+  "method": "deterministic fixed literal templates and typed placeholders",
+  "randomness": "none; no PRNG or seed used",
+  "node": "v24.15.0",
+  "sourceInputs": {
+    "generate-controlled-assets.mjs": "1508cb0431d3267ba846a69718e39e19f6e4b47b41f82f161adb0d951abf0dcf",
+    "templates-v1.mjs": "005e2d590396f6a75d96b62545d1f5625aafd7a605d5ff15855cc0a0240b2536",
+    "contracts-v1.json": "935b62daa020e4244f762e396ec7fd4e2461b966d083d78a2a5e44a9af151642",
+    "offline-guard.mjs": "df0aa6c3f85876e36f5e702fa0141e2fc278d16be2039fecafb2d08ffe3015ac"
+  },
+  "quotas": {
+    "runtime": 320,
+    "selection": 160
+  },
+  "preflight": [
+    {
+      "boundary": "server/.env",
+      "result": "READ_DENIED_BEFORE_BYTES"
+    },
+    {
+      "boundary": "server/src/copilot/data/hr_agent_intents_10000.jsonl",
+      "result": "READ_DENIED_BEFORE_BYTES"
+    },
+    {
+      "boundary": "server/dist/server/src/copilot/data/hr_agent_intents_10000.jsonl",
+      "result": "READ_DENIED_BEFORE_BYTES"
+    },
+    {
+      "boundary": "docs/fine-tuning/benchmark/pre-finetuning-benchmark-v1.jsonl",
+      "result": "READ_DENIED_BEFORE_BYTES"
+    },
+    {
+      "boundary": ".local-voice/worker.token",
+      "result": "READ_DENIED_BEFORE_BYTES"
+    },
+    {
+      "boundary": "server/uploads",
+      "result": "READ_DENIED_BEFORE_BYTES"
+    },
+    {
+      "boundary": "credentials/network/modules/writes/processes",
+      "result": "BLOCKED"
+    }
+  ],
+  "modelCalls": 0,
+  "productionData": false,
+  "legacyOrFinalSourceUsed": false
+}

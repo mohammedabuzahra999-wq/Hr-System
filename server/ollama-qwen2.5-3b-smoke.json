@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "model": "qwen2.5:3b",
+  "seconds": 8.300490400000001,
+  "requestVerified": true,
+  "jsonSchema": true,
+  "zod": true,
+  "noQwen3Suffix": true,
+  "data": {
+    "status": "OK"
+  },
+  "provider": "ollama",
+  "inputTokens": 39,
+  "outputTokens": 10
+}

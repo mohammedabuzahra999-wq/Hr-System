@@ -1,0 +1,20 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+Error: Transform failed with 1 error:
+C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\playbackTransport.check.ts:55:10: ERROR: The symbol "r" has already been declared
+    at failureErrorWithLog (C:\Users\PC-LAB\Downloads\hr-app-step2\node_modules\tsx\node_modules\esbuild\lib\main.js:1752:15)
+    at C:\Users\PC-LAB\Downloads\hr-app-step2\node_modules\tsx\node_modules\esbuild\lib\main.js:1019:50
+    at responseCallbacks.<computed> (C:\Users\PC-LAB\Downloads\hr-app-step2\node_modules\tsx\node_modules\esbuild\lib\main.js:886:9)
+    at handleIncomingPacket (C:\Users\PC-LAB\Downloads\hr-app-step2\node_modules\tsx\node_modules\esbuild\lib\main.js:941:12)
+    at Socket.readFromStdout (C:\Users\PC-LAB\Downloads\hr-app-step2\node_modules\tsx\node_modules\esbuild\lib\main.js:864:7)
+    at Socket.emit (node:events:509:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.15.0

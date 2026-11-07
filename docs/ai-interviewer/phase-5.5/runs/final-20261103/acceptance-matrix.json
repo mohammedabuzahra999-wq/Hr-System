@@ -1,0 +1,140 @@
+[
+  {
+    "criterion": 1,
+    "requirement": "Browser forwarded headers cannot bypass identity",
+    "result": "PASS",
+    "evidence": "operations: direct mode header tests and real trusted-proxy child (200,429,200)"
+  },
+  {
+    "criterion": 2,
+    "requirement": "Explicit tested trusted-proxy policy",
+    "result": "PASS",
+    "evidence": "operations: exact peers, right-to-left parsing, malformed configuration and native proxy"
+  },
+  {
+    "criterion": 3,
+    "requirement": "Bounded abuse protection",
+    "result": "PASS",
+    "evidence": "operations + operations-db: fixed-window saturation, normal/burst/provider/answer/readiness/staff limits"
+  },
+  {
+    "criterion": 4,
+    "requirement": "Rate limiting never grants authorization",
+    "result": "PASS",
+    "evidence": "operations-db: unauthorized invite/answer/provider requests independently rejected"
+  },
+  {
+    "criterion": 5,
+    "requirement": "Candidate/staff/provider authorization preserved",
+    "result": "PASS",
+    "evidence": "operations-db, persistence, provider-gate, mcp, permissions, report-security"
+  },
+  {
+    "criterion": 6,
+    "requirement": "Adequate security audit coverage",
+    "result": "PASS",
+    "evidence": "operations-db: invite/session/lifecycle/report/reevaluation/provider audit assertions; design.md event matrix"
+  },
+  {
+    "criterion": 7,
+    "requirement": "Audit excludes secrets and answer text",
+    "result": "PASS",
+    "evidence": "operations + operations-db: closed diagnostic schema and secret/answer exclusion assertions"
+  },
+  {
+    "criterion": 8,
+    "requirement": "Sensitive responses not publicly cached",
+    "result": "PASS",
+    "evidence": "operations + operations-db: candidate/HR/report/provider/health headers"
+  },
+  {
+    "criterion": 9,
+    "requirement": "Appropriate headers and cookies",
+    "result": "PASS",
+    "evidence": "operations + operations-db + browser3/browser4: HttpOnly/Secure/SameSite and frame/MIME/referrer protections"
+  },
+  {
+    "criterion": 10,
+    "requirement": "Unsafe production configuration fails closed",
+    "result": "PASS",
+    "evidence": "operations: real startup children for proxy/provider/debug/test/origin/runtime policies"
+  },
+  {
+    "criterion": 11,
+    "requirement": "Mock/test authority cannot become production authority",
+    "result": "PASS",
+    "evidence": "operations startup negatives + browser3 production mock gate"
+  },
+  {
+    "criterion": 12,
+    "requirement": "Secrets remain server-side",
+    "result": "PASS",
+    "evidence": "secret-scan: 143 frontend/build files, zero violations; operations safe diagnostics; independent evidence verifier"
+  },
+  {
+    "criterion": 13,
+    "requirement": "Health/readiness exposes no sensitive data",
+    "result": "PASS",
+    "evidence": "operations + operations-db: allowlisted health bodies, safe DB/provider failures"
+  },
+  {
+    "criterion": 14,
+    "requirement": "Configuration alone never means provider readiness",
+    "result": "PASS",
+    "evidence": "operations + provider-gate: configured/unhealthy/disabled distinctions; production gate blocked"
+  },
+  {
+    "criterion": 15,
+    "requirement": "Shutdown/restart cannot fabricate completion",
+    "result": "PASS",
+    "evidence": "operations + operations-db: drain ordering/deadline/late-settlement and durable restart matrix"
+  },
+  {
+    "criterion": 16,
+    "requirement": "Phase 5.2 guarantees preserved",
+    "result": "PASS",
+    "evidence": "answer-ui 26, answer-db 27, expanded answer-browser 56; unchanged accepted evidence"
+  },
+  {
+    "criterion": 17,
+    "requirement": "Phase 5.3 guarantees preserved",
+    "result": "PASS",
+    "evidence": "execution-bounds 14, runtime-jobs 30; unchanged accepted evidence"
+  },
+  {
+    "criterion": 18,
+    "requirement": "Phase 5.4 guarantees preserved",
+    "result": "PASS",
+    "evidence": "provider-gate 51; unchanged accepted evidence; live voice blocker retained"
+  },
+  {
+    "criterion": 19,
+    "requirement": "Authority separation intact",
+    "result": "PASS",
+    "evidence": "operations-db, persistence 65, mcp 18 scenarios, permissions 107, report-security 44"
+  },
+  {
+    "criterion": 20,
+    "requirement": "External errors sanitized",
+    "result": "PASS",
+    "evidence": "operations + operations-db: foreign/nonexistent 401, malformed provider, health and report errors"
+  },
+  {
+    "criterion": 21,
+    "requirement": "Executable regressions preserved",
+    "result": "PASS",
+    "evidence": "32 completed PASS suite results and raw logs; only full-chain migration probe BLOCKED"
+  },
+  {
+    "criterion": 22,
+    "requirement": "Reproducible evidence",
+    "result": "PASS",
+    "evidence": "README.md, run.mjs guards, exact command inventory, source/artifact manifests and verify.mjs"
+  },
+  {
+    "criterion": 23,
+    "requirement": "Remaining limitations explicit",
+    "result": "PASS",
+    "evidence": "design.md and REPORT.md: single process, local counters, proxy topology, health/shutdown/CPU limits and two release blockers"
+  }
+]

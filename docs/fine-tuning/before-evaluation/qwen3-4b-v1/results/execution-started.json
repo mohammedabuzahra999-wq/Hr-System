@@ -1,0 +1,21 @@
+{
+  "runId": "CEB-OFFICIAL-BEFORE-QWEN3-4B-2026-10-25-01",
+  "started": "2026-10-25T10:12:11.825Z",
+  "model": {
+    "name": "qwen3:4b",
+    "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+    "architecture": "qwen3",
+    "parameterCount": 4022468096,
+    "quantization": "Q4_K_M",
+    "ollamaVersion": "0.40.11",
+    "format": "gguf",
+    "contextCapacity": 262144,
+    "embeddingLength": 2560,
+    "license": "Apache-2.0 from embedded installed metadata",
+    "trainableCheckpoint": "NOT_YET_VERIFIED_NO_FINE_TUNING_AUTHORIZATION"
+  },
+  "datasetHash": "b6a6a9f74e76edcf783ad3a2f47f2fa493ac0444e2ca8bf239439229e14a2b05",
+  "baselineLockSha256": "a22e7fd74d21d8a30cb17ac2d910e31526ebadfaf1d612037287878369465681",
+  "policy": "SINGLE_PASS_NO_RETRY_NO_REEXECUTION",
+  "fineTuningStarted": false
+}

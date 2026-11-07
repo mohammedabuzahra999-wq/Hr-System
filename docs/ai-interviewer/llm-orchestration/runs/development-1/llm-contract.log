@@ -1,0 +1,24 @@
+PASS default disabled configuration requires no key and makes no call
+PASS explicit synthetic development provider is deterministic and keyless
+PASS fail-closed configuration: enabledDisabled
+PASS fail-closed configuration: missingKey
+PASS fail-closed configuration: missingModel
+PASS fail-closed configuration: prodSynthetic
+PASS fail-closed configuration: badTimeout
+PASS fail-closed configuration: badAttempts
+PASS fail-closed configuration: customEndpoint
+PASS fail-closed configuration: badSelector
+PASS generic credentials never activate interview LLM
+PASS dedicated configuration serialization excludes credential value
+PASS installed SDK sends pinned structured schema, isolated data, no tools and no storage
+PASS synthetic plan proposal preserves exact server catalog and permits no authority fields
+PASS reject SDK output: invalidType
+PASS reject SDK output: extraField
+PASS reject SDK output: malformed
+PASS refusal, tool call and truncated generation are never decisions
+PASS HTTP auth, throttle and provider failure remain sanitized with zero hidden retries
+PASS bounded HTTP body, wrong MIME and malformed JSON fail safely
+PASS caller cancellation prevents a new SDK request
+PASS question text is quarantined from scripts, URLs, secrets and protected traits
+PASS zero real provider/model calls
+23/23 LLM adapter checks passed; synthetic SDK requests=14; real calls=0

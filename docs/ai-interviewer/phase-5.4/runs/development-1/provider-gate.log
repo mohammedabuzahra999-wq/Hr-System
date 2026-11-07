@@ -1,0 +1,28 @@
+PASS production absent/invalid/synthetic providers fail closed without calls
+PASS trusted connection/STT/idempotent-play requirements cannot be omitted
+PASS health unavailable/malformed/timeout is unhealthy and cannot bind
+PASS audio consent and trusted connection precede real START
+PASS provider receives data only; TTS dispatch alone cannot acknowledge playback
+PASS playback completion requires start; wrong effect cannot advance
+PASS playback duplicate receipt is deterministic; different-ID duplicate is rejected
+PASS trusted STT final plus speech finish commits one durable answer
+PASS speech end before final transcript is safe and finalizes exactly once
+PASS duplicate final transcript same ID reconciles without another answer
+PASS conflicting event identity and repeated final with new ID fail safely
+PASS STT timeout pauses safely without a committed answer
+PASS STT unavailable pauses safely without a committed answer
+PASS STT malformed pauses safely without a committed answer
+PASS late STT after timeout cannot overwrite new generation answer
+C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\delivery.ts:57
+        if (code) reject(new InterviewDeliveryError(code)); else resolve(value as T)
+                         ^
+
+InterviewDeliveryError: providerTimeout
+    at finish (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\delivery.ts:57:26)
+    at Timeout.<anonymous> (C:\Users\PC-LAB\Downloads\hr-app-step2\services\hr-api\src\aiInterviewer\delivery.ts:60:40)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7) {
+  code: 'providerTimeout'
+}
+
+Node.js v24.15.0

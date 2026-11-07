@@ -1,0 +1,71 @@
+Browser setup: local fixture ready
+Browser setup: development frontend ready
+Browser setup: production preview ready
+Browser setup: isolated Chrome ready
+PASS 01 HR login and recruitment AI controls use the existing employee workflow
+PASS 02 HR configures explicit plan/timers and adds a third question
+PASS 03 Create goes through the real Phase 2 transaction
+PASS 04 HR freezes READY and operational UI displays no token hash
+PASS 05 Invitation is copied once and cleared from the HR panel
+PASS 06 Revocation is visible and the revoked browser invitation fails safely
+PASS 07 Invalid invitation shows a safe standalone error
+PASS 08 Expired invitation is rejected in the browser
+PASS 09 Valid candidate exchange removes token from URL and browser storage
+PASS 10 Backend refuses start before persisted consent
+PASS 11 Consent persists across a browser refresh
+PASS 12 Arabic RTL, English LTR and Mixed confirmation remain independent
+PASS 13 Mock readiness requests no real microphone
+PASS 14 Interview starts with AI_SPEAKING and the current question
+PASS 15 candidate completes server-authoritative interview before evaluation
+PASS 16 registered evaluation is available to HR and remains inaccessible to candidate
+PASS 17 HR renders synthetic provider provenance and mandatory review without mock relabelling
+BROWSER CHECK FAILED: insufficient evidence remains unscored and exact citations open finalized source: The expression evaluated to a falsy value:
+
+  assert(first.evaluation.report.criteriaResults.some(c=>c.status==='NOT_ASSESSED'&&c.score===null))
+
+Browser HR diagnostic: {
+  path: '/hr/recruitment/applications/e7d4826e-1ac1-41c0-8016-ac471becaa0f/ai-interviews/ab422607-6436-4689-89e7-93332f658010/report',
+  text: 'WORKSPACE\n' +
+    '\n' +
+    'HR Demo\n' +
+    '\n' +
+    'HR\n' +
+    '\n' +
+    'MenaChat\n' +
+    'HR Center\n' +
+    'Attention centre\n' +
+    'Employees\n' +
+    'Attendance\n' +
+    'Leaves\n' +
+    'Payroll\n' +
+    'Reports\n' +
+    'Recruitment\n' +
+    'Job descriptions\n' +
+    'Knowledge base\n' +
+    'Assistant questions\n' +
+    'Announcements\n' +
+    '\n' +
+    'More modules coming soon\n' +
+    '\n' +
+    'Sign out\n' +
+    '\n' +
+    'HR SUITE\n' +
+    '\n' +
+    'Recruitment\n' +
+    'العربية\n' +
+    '\n' +
+    'HR Demo\n' +
+    '\n' +
+    'HR · hr.interview@example.invalid\n' +
+    '\n' +
+    'HD\n' +
+    'Sign out\n' +
+    'Back to recruitment\n' +
+    '\n' +
+    'AI Interview Evaluation\n' +
+    '\n' +
+    'Evidence for human review\n' +
+    'SYNTHETIC LLM EVALUATI'
+}
+
+17/18 LLM orchestration browser checks passed; evidence=.local-dev/ai-interviewer-phase3/browser-results.json

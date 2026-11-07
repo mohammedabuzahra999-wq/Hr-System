@@ -1,0 +1,13 @@
+{
+  "id": "execution-bounds",
+  "protection": "Phase 5.3 asynchronous bounds/cancellation/physical admission/late settlement",
+  "command": "node --conditions=development --import tsx src/aiInterviewer/execution.check.ts",
+  "startedAt": "2026-11-03T10:02:33.442Z",
+  "finishedAt": "2026-11-03T10:02:33.758Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "execution-bounds.log",
+  "passLines": 14
+}

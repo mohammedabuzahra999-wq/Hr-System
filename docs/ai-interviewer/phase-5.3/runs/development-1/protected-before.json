@@ -1,0 +1,3049 @@
+{
+  "format": "phase53-sha256-manifest-v1",
+  "algorithm": "SHA-256",
+  "kind": "protected",
+  "fileCount": 608,
+  "filesDigest": "812485b2bea41f5f1c16cfaa1be06810f0399263caa580ed4ba8b5dff522e420",
+  "files": [
+    {
+      "path": ".local-dev/ai-interviewer-phase3/browser-results.json",
+      "bytes": 6379,
+      "sha256": "b90eb83daa1e90c39092e4c20b491dacd38a4bb57be7d658529cb20d84b439f0"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase3/fixture.json",
+      "bytes": 308,
+      "sha256": "08b09f71a0cd6f4b0ae232acf9a2c314b43691d8589b96e90a0eb5a9a40fd490"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase3/screenshots/candidate-arabic.png",
+      "bytes": 115775,
+      "sha256": "bf5c1ea8dc2ee1671b34511960915344da1d94ac127bfec320e4ed84b3343928"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase3/screenshots/candidate-completion.png",
+      "bytes": 115822,
+      "sha256": "d0626248372a3d8f37ae77a2d5dd2f14a2eab6b2bdd856d31f8668fc225b58dd"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase3/screenshots/candidate-consent.png",
+      "bytes": 122687,
+      "sha256": "d8723a9dedbdc6f203f031e989fc14c9ac43504601f654f69851a89d639fcb53"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase3/screenshots/candidate-readiness.png",
+      "bytes": 124774,
+      "sha256": "16350a708171ac8886f13fafbf0d565cfbc9364ea01f7f1228c179270cd7de6c"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase3/screenshots/failure-hr.png",
+      "bytes": 216345,
+      "sha256": "21729f1b6a767cb174c839301a97ecdabb53f5c1982ba7d3e423f76ec0ec7261"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase3/screenshots/failure.png",
+      "bytes": 108442,
+      "sha256": "7060330547b2aa4110febbd8d010a8a59ed670ce7c20a51a06e526410c5853ad"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase3/screenshots/hr-completed.png",
+      "bytes": 218234,
+      "sha256": "e99fc9e2dc06ee61ba6fe9734ca70d71552f02473596fa23ba23ce204ce99abf"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase3/screenshots/hr-plan.png",
+      "bytes": 200972,
+      "sha256": "4b855a5e75b1585c4e9239d90c3be4652b560a2c474e7d244ca65d6885dc8f24"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase3/screenshots/refresh-q3.png",
+      "bytes": 99879,
+      "sha256": "250ac879ff88c74ac3e074a9835e4aac4fc060a6946c84a7c0fc629c1b3a439c"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase3/screenshots/revoked-invitation.png",
+      "bytes": 116484,
+      "sha256": "9c6d57b617901f118dea61370c66925f4ff6fcf9952daa76524de3df57b5aeeb"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase3/screenshots/room-arabic-mobile.png",
+      "bytes": 39335,
+      "sha256": "c50997becafa5df18721bcd7111e2ff777f7246b9edc74427f6923e25494b694"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase3/screenshots/room-listening.png",
+      "bytes": 141109,
+      "sha256": "3bb9e415f90b49f5cb765f789a71b472263d6e4150a0c4d192e1a8fe587e4127"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase3/screenshots/room-mobile.png",
+      "bytes": 43670,
+      "sha256": "d6c96d7976bca50428bfa891937003295edb86af4b84760c9ce49af5e3462cf2"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase3/screenshots/room-paused.png",
+      "bytes": 140448,
+      "sha256": "420e2f3935003ce99b23e4965f035a9c290e8ee4f8ae70463f3423b6c8f596e3"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase3/screenshots/room-speaking.png",
+      "bytes": 107093,
+      "sha256": "410105b947e8cd9ced41f70a77c9e59ce656bcf54b2f1d0ebcecd6303bb1f358"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase3/screenshots/timer-grace.png",
+      "bytes": 124531,
+      "sha256": "65b9d16d98840c118c1169850a30682776e9340ac4251f60b2c361ad1b007a66"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase3/screenshots/timer-warning.png",
+      "bytes": 123934,
+      "sha256": "cde1f4bb95a9144e610ddd27c9e135663abb65f06d785b7ff863354bbe048188"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/browser-results.json",
+      "bytes": 8814,
+      "sha256": "b6f0a61357093d3d011a43054fd86b7995cffa67ef3d639fe19466dfcd7a3eaa"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/arabic-mixed-evidence-mobile.png",
+      "bytes": 61301,
+      "sha256": "b540d4f7cd86c46b68a2aaede6cc59bca35b6d3429f97ddd1d3b361a6f6a1599"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/candidate-arabic.png",
+      "bytes": 115775,
+      "sha256": "bf5c1ea8dc2ee1671b34511960915344da1d94ac127bfec320e4ed84b3343928"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/candidate-completion.png",
+      "bytes": 115822,
+      "sha256": "d0626248372a3d8f37ae77a2d5dd2f14a2eab6b2bdd856d31f8668fc225b58dd"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/candidate-consent.png",
+      "bytes": 122687,
+      "sha256": "d8723a9dedbdc6f203f031e989fc14c9ac43504601f654f69851a89d639fcb53"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/candidate-readiness.png",
+      "bytes": 126053,
+      "sha256": "c11a77629f8fc9af2490192bd5ecbf8f91db6929428b25fab0158265e3d8d862"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/evaluation-failed.png",
+      "bytes": 261697,
+      "sha256": "37422af8bf0736aa8429dfb1956ad42814c0d59096eb4a99a5d9df70a5900f33"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/evaluation-overview.png",
+      "bytes": 247413,
+      "sha256": "fd1e677164dc830358dbb14c35f196d709167404e68b00ba75e4bdade62f7625"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/evaluation-pending.png",
+      "bytes": 263562,
+      "sha256": "af9fe8f9052e0d9722734860040f1026ccffd1b064791cd76aeba7e8dcbd399c"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/failure-hr.png",
+      "bytes": 243320,
+      "sha256": "8c0a2e4d2803f1b890589ebc7f8d0f5904fa862c9817b9084dcd88059dd5813a"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/failure.png",
+      "bytes": 115822,
+      "sha256": "d0626248372a3d8f37ae77a2d5dd2f14a2eab6b2bdd856d31f8668fc225b58dd"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/hr-completed.png",
+      "bytes": 218723,
+      "sha256": "84a6b0186cf517d8784db55b13d40cf7a1860f572b4b15922a8e460b4de68c38"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/hr-plan.png",
+      "bytes": 200882,
+      "sha256": "9a702979bf4a05fc5ad370e2a80d3b6e49288ae84fbeaa17d14f4d05ab500b1d"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/human-review-saved.png",
+      "bytes": 198027,
+      "sha256": "bfcf6b7fc39ac9d1bb014a22b6a1f06571b3193b092b993709e0790dba81d38d"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/invalid-evidence-rejected.png",
+      "bytes": 263803,
+      "sha256": "f2672dfd13e75ced682a86097c79ce28342022d78acbbeb775d64b0ba296fc4a"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/not-assessed.png",
+      "bytes": 189549,
+      "sha256": "4e9012b3ea8117e111a4dcd3573808f50c60aed3a7a8078fafe630187583f53c"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/refresh-q3.png",
+      "bytes": 106787,
+      "sha256": "4a76099b6540beccc1d1ae658bd238591caa2eb8bc190e69b340d445b3f79772"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/revoked-invitation.png",
+      "bytes": 116484,
+      "sha256": "9c6d57b617901f118dea61370c66925f4ff6fcf9952daa76524de3df57b5aeeb"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/room-arabic-mobile.png",
+      "bytes": 39092,
+      "sha256": "da5a9a0e7425e20215508823edd9b8754acbe49ee47066a937d02fa4cc70de89"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/room-listening.png",
+      "bytes": 141109,
+      "sha256": "3bb9e415f90b49f5cb765f789a71b472263d6e4150a0c4d192e1a8fe587e4127"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/room-mobile.png",
+      "bytes": 43417,
+      "sha256": "3c0f1d5df74957d7d942f4ca9dad88775edee439fda099f22370301253def233"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/room-paused.png",
+      "bytes": 140379,
+      "sha256": "a23adbf3062c2414b54d045a2669f580dcc2b8ea8654b096adfbaa64cafa42cd"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/room-speaking.png",
+      "bytes": 107093,
+      "sha256": "410105b947e8cd9ced41f70a77c9e59ce656bcf54b2f1d0ebcecd6303bb1f358"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/timer-grace.png",
+      "bytes": 124588,
+      "sha256": "666961e8f9772237ef7b873b467468f125194f53f227672c6a8206673049e77e"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/timer-warning.png",
+      "bytes": 123904,
+      "sha256": "41f81d3cadac8a942cef1a22233450aca1e88be4c36d47fa25903f8f1023e406"
+    },
+    {
+      "path": ".local-dev/ai-interviewer-phase4/screenshots/verified-evidence.png",
+      "bytes": 184871,
+      "sha256": "012196cd279b3fc9eac35b7bf61b307da1c2c8ed0a257247bcfd16effe7b55ba"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-1.md",
+      "bytes": 12962,
+      "sha256": "387c29a72778f456da89e65cdd8c9d3f1aa52722169fbcd250d69b7a7fc624f8"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-2-verification.json",
+      "bytes": 5808,
+      "sha256": "1641f44d662c9d894f140678ea237a6a5cca0343d19c4d03190d488c23738cf4"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-2.md",
+      "bytes": 18952,
+      "sha256": "057bcf7d9f50cbea95c7e778b02a420888e13b51f9604ee45dc0c5f77a4162db"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-3-verification.json",
+      "bytes": 29419,
+      "sha256": "eecd44bbdbcb380e5398dc31b85b2aed5ea4a6c1362eb4beb0939d3241b8108d"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-3.md",
+      "bytes": 16705,
+      "sha256": "e411e3aab3866f0b61b44c4550c23e06ade67358d526cff8563e2e28ec29b50f"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-4-verification.json",
+      "bytes": 36364,
+      "sha256": "fa342a19a0bca98a10f0e745cdddd974f1c71d95ac3af3d115495f61273b85b0"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-4.md",
+      "bytes": 15631,
+      "sha256": "3a2402c1c8daff86b8a04f280e93a556c3aaf54ee2e9a2f46fed75f3171faf77"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5a-verification.json",
+      "bytes": 16516,
+      "sha256": "fa0392aad351d89b9431e506274d79c5cfb5d918c98621941690e429acfd228c"
+    },
+    {
+      "path": "docs/ai-interviewer/phase-5a.md",
+      "bytes": 46977,
+      "sha256": "441007adbf6f6fb8e20ea9f97772f837a2e7c8116762b5d0a7950f8fc8360cf6"
+    },
+    {
+      "path": "docs/fine-tuning/00-current-system-baseline.md",
+      "bytes": 9909,
+      "sha256": "a1c81536620a21f8a2bb3a1bce1604ab6caea0da03c899a818304c4c23a0de77"
+    },
+    {
+      "path": "docs/fine-tuning/01-intent-inventory.md",
+      "bytes": 22144,
+      "sha256": "623708b82367102f2d43c39b8114b2097825b6ab83f53003560ceb4e6e0ac94b"
+    },
+    {
+      "path": "docs/fine-tuning/02-current-ai-architecture.md",
+      "bytes": 20279,
+      "sha256": "ba22c778efc27ad279a36cbcb4bc5b1eb9ff7df6f851828466e3bafefc4b6aec"
+    },
+    {
+      "path": "docs/fine-tuning/03-privacy-and-pii-audit.md",
+      "bytes": 18530,
+      "sha256": "e4d261b5ee0130c6ec85bf65e1fe58cbe77321de6938882b646edc736d265e64"
+    },
+    {
+      "path": "docs/fine-tuning/04-baseline-benchmark-plan.md",
+      "bytes": 18031,
+      "sha256": "d32a037a13015067bcccb75628623c33badf6ba6af75ee21b56a27cbbd18933d"
+    },
+    {
+      "path": "docs/fine-tuning/05-fine-tuning-experiment-log.md",
+      "bytes": 6887,
+      "sha256": "a1ea0703f30a500003dba8c038a648ad4d12bd2e7a97461bbd24bc6767e8a4a9"
+    },
+    {
+      "path": "docs/fine-tuning/06-pre-finetuning-snapshot.md",
+      "bytes": 15493,
+      "sha256": "06f046712e8f2b412c63a2db7b37e7af32f0df3d7476412fe7ea78fb672e1f5a"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/README.md",
+      "bytes": 6450,
+      "sha256": "de476d5ba95bdab838c7e58718dc776b6ad73d0cef509cc8a6856885be1df993"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/baseline-lock.json",
+      "bytes": 13352,
+      "sha256": "a22e7fd74d21d8a30cb17ac2d910e31526ebadfaf1d612037287878369465681"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/capsule.mjs",
+      "bytes": 26820,
+      "sha256": "c94af20e8ec7257d93b95a67baadaffe89a3f97ca5dc67880f6d421c79291bcd"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/child.mjs",
+      "bytes": 8752,
+      "sha256": "83a77c81630b44dd4378c8fa63f242b151f53484e5ad81825b75882c69c504d5"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/environment-capture.json",
+      "bytes": 678,
+      "sha256": "4b57acccfae97053167689c1608723dadd66ef52f759f108f82a244f6a4a20e8"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/evidence-hashes.sha256",
+      "bytes": 4178,
+      "sha256": "cc2b12660beeb5798d52daf181208783aec2fa30bbdec9906ab00f0e2475f2ea"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/guard.mjs",
+      "bytes": 2145,
+      "sha256": "736a071cb87dfa42329825501a5942ccf2873c47e99f18ca6b495c6cd115f323"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/installed-model-manifest.json",
+      "bytes": 859,
+      "sha256": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/integrity-verification.json",
+      "bytes": 2365,
+      "sha256": "642e1437019f8c218b284c58a0a246b6c45dda6e2dec3d7c5e014b0a0dc85876"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/interruption-record.json",
+      "bytes": 899,
+      "sha256": "fbda10bc1bfd34676059d5edbb7d232c2d76905aef5a9fe59d4821bf4526ab4f"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/legacy-downgrade-anchor.json",
+      "bytes": 1022,
+      "sha256": "31d9857b5705086d352d4d6db04e86c5d0f6a2b5d59a4dc7ce5cdb271ccf9141"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/model-artifact-integrity.json",
+      "bytes": 1574,
+      "sha256": "81d710e0a01f4d71fced77e60a5e3b353d89f9944685265f9cd7befba7c0a863"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/model-metadata.json",
+      "bytes": 30025,
+      "sha256": "3ad54c18f9fedc8036ef72f7ca68e8399a34448b93b7cac90754de7d003c5236"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/official-before-report.md",
+      "bytes": 12606,
+      "sha256": "1ea2c20d07f88b076d67c90373e5b1d0939b6a3fd46c413449f2c87f426807a0"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/policy.mjs",
+      "bytes": 3401,
+      "sha256": "783f6d46d9689fd86885a54b8b7930fba08f63cf447b9aa3e9380eb9e556378e"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/post-run-model-verification.json",
+      "bytes": 1484,
+      "sha256": "bfb694b0220367c968f67e88cc8f42829512c05ef165b3e500c271b3c1eb9871"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/preflight-final.json",
+      "bytes": 6723,
+      "sha256": "5629de831ac2f3e4dd2082517fe36c065ab36956fb4f126ace6617044dfb5482"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/preflight.mjs",
+      "bytes": 6324,
+      "sha256": "667da9d4590411f892e6c39625027d4c2f9c2e5f3d87c9e5644fbbfe84ac655d"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/protected-before.json",
+      "bytes": 67146,
+      "sha256": "692b1f77e67031d1bd3f1c5a6f0a15c9218b4c259fc553cdc9182707d938271a"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/requested-metrics.json",
+      "bytes": 7154,
+      "sha256": "9d4305637671daefc074e07170fe613c567b8c62fa8c0954ce5e764c1c550319"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/results/README.md",
+      "bytes": 1196,
+      "sha256": "1e47313368afc207acef37b4b5e76dc0c63fdd6b80ab5fe3c2d17908fb278169"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/results/aggregate-metrics.json",
+      "bytes": 20207,
+      "sha256": "34b6ecc99cd3c143d143c1b5ebac4147594801464c08de78495656abb08ab75d"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/results/execution-started.json",
+      "bytes": 827,
+      "sha256": "cb48ae2070f1bcd0ef0592a5677e9028774f1e034bc2d67b913f00667f75d9a7"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/results/failures-timeouts.json",
+      "bytes": 31500,
+      "sha256": "bcd327848ccbc142166ff965199e0d11a88f3e8f750ee27dc61d4c01b8e94c20"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/results/language-breakdown.json",
+      "bytes": 3232,
+      "sha256": "9cb4df5d6ee6a752fc1d9eaccd0a70da21451ad95a075d2db2453e99953d0012"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/results/raw-per-case.jsonl",
+      "bytes": 6082603,
+      "sha256": "615abee4b89645dc1f585bced5c52d94e9caca026171ce1daf878576041fcff8"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/results/request-events.jsonl",
+      "bytes": 611924,
+      "sha256": "20ce500285610fa6e77e4553ade08f759a175c503478816a0f7260dc1a6a8f63"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/results/result-hashes.sha256",
+      "bytes": 685,
+      "sha256": "a39155957ef1811a13adfa5bf6901dbdd5387f1529aa92715c14dee2c36ce043"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/results/scored-per-case.jsonl",
+      "bytes": 475615,
+      "sha256": "f27743d058cce0835a72a722cd8f93c92223941bfebd7d06c959c5ce2cff382c"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/run.mjs",
+      "bytes": 9888,
+      "sha256": "800f3fa208dcc8c5439222f888d340670bec39460029704ab783387f9bbc97c6"
+    },
+    {
+      "path": "docs/fine-tuning/before-evaluation/qwen3-4b-v1/structured-output-audit.json",
+      "bytes": 735,
+      "sha256": "8918870e2ef6b56e0ea6f93a8a2f28973008d842c5989f8112986b79a006eaf3"
+    },
+    {
+      "path": "docs/fine-tuning/benchmark/README.md",
+      "bytes": 17033,
+      "sha256": "53ae63fafd83ccd8fa46d0da5b813452b468a853844c37b20659b3e1d75caa70"
+    },
+    {
+      "path": "docs/fine-tuning/benchmark/benchmark-coverage.md",
+      "bytes": 13212,
+      "sha256": "696137ff606dd84dd3ea4542e728704e7a59cde6fe68e86601f69cc4f92a3d3c"
+    },
+    {
+      "path": "docs/fine-tuning/benchmark/build.mjs",
+      "bytes": 55332,
+      "sha256": "1901a6a68407cc3beedba55b8c94c269c5b736b069b932f73f7c7194ae897e92"
+    },
+    {
+      "path": "docs/fine-tuning/benchmark/harness/README.md",
+      "bytes": 16705,
+      "sha256": "122d331361c404deae8cf37c84e34b3535a4c3852abe5798064c4e7923c772cd"
+    },
+    {
+      "path": "docs/fine-tuning/benchmark/harness/capsule.mjs",
+      "bytes": 22643,
+      "sha256": "f37571d23659634ecdaffdf76d82756c17f76d265ce575c75877b307653d795f"
+    },
+    {
+      "path": "docs/fine-tuning/benchmark/harness/child.mjs",
+      "bytes": 6178,
+      "sha256": "7adbd4b9ebe75dad2281381c04d0fed6685dd1a57fabfb8a856e65addfcf8be2"
+    },
+    {
+      "path": "docs/fine-tuning/benchmark/harness/fixtures.mjs",
+      "bytes": 5680,
+      "sha256": "0ec8dead5df9c6e02861a64e96cdbda78c39cd0605d853f126b4f3d85285c364"
+    },
+    {
+      "path": "docs/fine-tuning/benchmark/harness/isolation-verification.md",
+      "bytes": 8098,
+      "sha256": "f393cd3ecc797a3277d2a57d962c737701e7b80720e8664239619202024ac998"
+    },
+    {
+      "path": "docs/fine-tuning/benchmark/harness/policy.mjs",
+      "bytes": 5175,
+      "sha256": "f009d0ea789d74faf6701a74bd3e78b347afbd8e81a2f98b5689f3093db15980"
+    },
+    {
+      "path": "docs/fine-tuning/benchmark/harness/run.mjs",
+      "bytes": 5104,
+      "sha256": "b9ab81658046ece9ce44041e3bd2de6829c3a70b4be88eae1850d6a1a187a343"
+    },
+    {
+      "path": "docs/fine-tuning/benchmark/harness/scoring.mjs",
+      "bytes": 8173,
+      "sha256": "3a5c9e9174b246d79f3c9c99789d3d7eabda0d7730cafedd8a3363a66c209777"
+    },
+    {
+      "path": "docs/fine-tuning/benchmark/harness/self-test.mjs",
+      "bytes": 8525,
+      "sha256": "fbc218d67c7afa3069b55dac5b600490a40cac20ffe632698c1bcbd423fc6c54"
+    },
+    {
+      "path": "docs/fine-tuning/benchmark/harness/target-configuration.md",
+      "bytes": 25021,
+      "sha256": "26685f658a095667549501c4483b3c2e65d3b2cf75223450b28f71d89ea2ec00"
+    },
+    {
+      "path": "docs/fine-tuning/benchmark/pre-finetuning-benchmark-v1.jsonl",
+      "bytes": 391307,
+      "sha256": "b6a6a9f74e76edcf783ad3a2f47f2fa493ac0444e2ca8bf239439229e14a2b05"
+    },
+    {
+      "path": "docs/fine-tuning/benchmark/validate.mjs",
+      "bytes": 16825,
+      "sha256": "4c1a5bad45026ea253db0f1cb965e5ee0a83761352106e4484f66bceab2eab5a"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/admission/controlled-assets-admission.md",
+      "bytes": 14818,
+      "sha256": "8bd4eac58c946188338bb1111c48eff09b6a213d961dfcb3cf2cee1eb72a811a"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/admission/evidence-hashes.sha256",
+      "bytes": 2699,
+      "sha256": "b680a470a207bbec886ed27159bca6fa7ba55c0b43ed0625db143c260055b774"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/generation/contracts-v1.json",
+      "bytes": 22417,
+      "sha256": "935b62daa020e4244f762e396ec7fd4e2461b966d083d78a2a5e44a9af151642"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/generation/generate-controlled-assets.mjs",
+      "bytes": 7803,
+      "sha256": "1508cb0431d3267ba846a69718e39e19f6e4b47b41f82f161adb0d951abf0dcf"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/generation/generation-result.json",
+      "bytes": 780,
+      "sha256": "1cdf63ce0c2d424f29b31bab9fa53f83f363f052d02a63633305b41efbbac820"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/generation/offline-guard.mjs",
+      "bytes": 708,
+      "sha256": "df0aa6c3f85876e36f5e702fa0141e2fc278d16be2039fecafb2d08ffe3015ac"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/generation/pre-generation-manifest.json",
+      "bytes": 1594,
+      "sha256": "9567caa53344cdb47e9919304b1313c5b49598be96383a1c9dfff43932f7fbdd"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/generation/run-offline.mjs",
+      "bytes": 3116,
+      "sha256": "e6d34a1ba7bcf909a14ef570494a67a22cba2944ad7c11ad88dfee6c7b713cae"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/generation/templates-v1.mjs",
+      "bytes": 39789,
+      "sha256": "005e2d590396f6a75d96b62545d1f5625aafd7a605d5ff15855cc0a0240b2536"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/model-selection-v1.jsonl",
+      "bytes": 278244,
+      "sha256": "8d50c67b4daa388c9cadcd3e992e0aa8504a08534b1beb4bdc2a022ac62928c6"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/provenance/creator-attestation-v1.md",
+      "bytes": 3618,
+      "sha256": "bf97dba170ef219e0dd6b917472fdf51e85f2ae941ab47abb94118a68d5b1fd0"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/provenance/model-selection-v1-provenance.md",
+      "bytes": 5907,
+      "sha256": "67691c71179b7db7fa35b299d29d98f95a90eeedd4bd5ce260218591e287e221"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/provenance/runtime-reference-v1-provenance.md",
+      "bytes": 7112,
+      "sha256": "20068e50a69e82ca04175848da5202bc602ff5e48f444c506ad36e36a5c2886b"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/admission-gate.json",
+      "bytes": 685,
+      "sha256": "73226aa17f9e262c015d30ab41e6cd707fe1a896adbd5795284772429ca3e204"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/admission-decision.json",
+      "bytes": 3298,
+      "sha256": "d61374754b7454e77404562402df2617fd615ed334c4859ed064cbd2f46d1bf3"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/automated-extra.mjs",
+      "bytes": 3853,
+      "sha256": "4abbcf660598475bc293ac8903ba18c6e14db54858c53342a82d40e8a76a84ff"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/evaluation/controlled-loader.mjs",
+      "bytes": 7007,
+      "sha256": "5962cf61a988ed0287efbf1397148b54cead27c8693712a9867ec9e2e746a6e9"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/evaluation/preflight-isolation-results.json",
+      "bytes": 8026,
+      "sha256": "45b999b1c89634159d91240ed97a540db972d7c7a48873107db174fc394e6ce4"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/evaluation/preflight.mjs",
+      "bytes": 8263,
+      "sha256": "05a1d085045ddec1842e9c27191774e71bee894d68886d85a71d1565bc7e5134"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/evaluation/resolver-capsule.mjs",
+      "bytes": 5586,
+      "sha256": "ca95cbc792a434090e01bbae8090cf648ca038eefe5f4375d4862c2257366cf8"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/evaluation/runtime-exclusion-results.json",
+      "bytes": 5112,
+      "sha256": "a1eddf2c97b9f6b35fdb7b858b21235efe27ae5fa62ce092b0d99730dfd4f705"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/evaluation/target-lock.json",
+      "bytes": 4960,
+      "sha256": "830ce5085fe45413432f4c407de8c5ccb263006291372bdbac78a1d46a049be2"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/evaluation/verify-runtime.mjs",
+      "bytes": 6018,
+      "sha256": "1c21b1426b03172eeeb10c1c8e38b4653ed5567e4a37b541397ee2b246505179"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/evidence-hashes.sha256",
+      "bytes": 3389,
+      "sha256": "5a9a0656aa63e5a38cd98b5e934cd28fdb6d79d07c642056e72cb90b0e9bd4b9"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/integrity-verification.json",
+      "bytes": 14471,
+      "sha256": "e22c62b3d7c1af8d2e14b92b9656ec42eaf6a93189a3d95e879ce2396f60bbf0"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/protected-before.json",
+      "bytes": 58638,
+      "sha256": "3374b4823bce3202787a1cd7ee5a8a5e8fa8b670e94ac6c32e5ab75f5ae01c6b"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/publish-decision.mjs",
+      "bytes": 4064,
+      "sha256": "e97ba8021c507ee10366fb8813100e7e2be84ea9a5991c2d5ee8852e51c3c5a6"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/run.mjs",
+      "bytes": 4159,
+      "sha256": "4e13ab08d7b79df50081f45ef90ed7865d6f28e985a4792f565f0186cbb39f1b"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/selftest-results.json",
+      "bytes": 1018,
+      "sha256": "117831f9e2dfde3d8c72979e4de566acc389494cd309e0d1a9cb1e7d74745e3a"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/selftest.mjs",
+      "bytes": 2789,
+      "sha256": "67598b52c60e141e61eb2670d0f5fc64ec377d0150ad8630549cf6a1f4c1f7f7"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/validate.mjs",
+      "bytes": 7117,
+      "sha256": "d4b3e0e36f939df55baa1f937fcc55549702302765726055e1df37ca926691ee"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/validation-attempt-001.json",
+      "bytes": 498,
+      "sha256": "1b85583b6d1866535344de3a5d644b793ac300fa052f422516a40e72a534adcb"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-policy-v1/validation-results.json",
+      "bytes": 14089,
+      "sha256": "37011aa65eb5febab06e2d3f8d52930117b866230b886ddfb86521c800d78542"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/automated-readmission.md",
+      "bytes": 12599,
+      "sha256": "9273bf8fa97c86c1731232c1c1c77c34cfe84003a4b9cf1f2f4219dc8a472e42"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/creator-attestation-v1.1.md",
+      "bytes": 3864,
+      "sha256": "59b284fb59b10804cd9dbb9348df26f22afa9f77315254acc93e761264d6cfc9"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/evidence-hashes.sha256",
+      "bytes": 4714,
+      "sha256": "b85dc23ce52337d658b35dfad5e0c17634ccfa12a9e3113210382fe3d1808d14"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/integrity-verification.json",
+      "bytes": 1061,
+      "sha256": "f4d3b9665e40ce2d7363bb85734eaa6c1b2ae6f3b0a2324505a9412919265407"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/protected-before.json",
+      "bytes": 48401,
+      "sha256": "601c17916736108e76e4cb047f72aa5e0119a9aae769d9ec27fbd7b5378fac39"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/admission/remediation-and-readmission.md",
+      "bytes": 13716,
+      "sha256": "716779b5398be961a449d92602ed114610412dfd4a6fc7a623d153fc3b7acf55"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/evaluation/controlled-loader.mjs",
+      "bytes": 6721,
+      "sha256": "a8337a52d5da34b5f0715e182a4510880ee7925b228553694b4f486c6a92bd76"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/evaluation/isolation-results.json",
+      "bytes": 7880,
+      "sha256": "948157f84f9c5402fce511473d599e57ae6736a45a88f5b78d30f537b0ba29ec"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/evaluation/resolver-capsule.mjs",
+      "bytes": 5430,
+      "sha256": "e2922c1a4cdef9825ba0948b73e46bb41d6dc0b8db70d2a6e3be8a7e4b758661"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/evaluation/self-test.mjs",
+      "bytes": 8037,
+      "sha256": "7a9176f16552cf5f2d04c957fd45c2d7c9e5eb620c25078c9e6b0f751a491af2"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/evaluation/target-lock.json",
+      "bytes": 4651,
+      "sha256": "1c1c755114f1f5957a0edcbf475e03f9b285edd900873c9b4c42f16189fa3ad1"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/generation/generation-result.json",
+      "bytes": 1450,
+      "sha256": "0366b2959eb8121014e09d9b0504e3bed192bd1bc4d68560fa2feaac2a7c6a66"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/generation/pre-generation-manifest.json",
+      "bytes": 1718,
+      "sha256": "8205a5af27c68fdf8ffc4f71b9a48ce48ff4b422bb042e3ab71a9f7ece65ff55"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/generation/remediate.mjs",
+      "bytes": 5870,
+      "sha256": "19ccbab95ac069e29576af7aaa4f81b81c7b8c3203cec6c96a98e10788a697f4"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/generation/remediation-plan.json",
+      "bytes": 1342,
+      "sha256": "bdd8624680628cefe1e3c0423228999503a92237d649093a8e0a54cb4ed13be7"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/generation/replacement-catalog.json",
+      "bytes": 667,
+      "sha256": "bfed0a8f9e16af0db0384af75df00397e53511b4df63ff99f56e1ac6ac691418"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/generation/row-deltas.json",
+      "bytes": 28036,
+      "sha256": "b3fbaf5509e0d43454530da7769a3af594eeb1f1c955235d0826931117d6897c"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/README.md",
+      "bytes": 7205,
+      "sha256": "b82a217e56bc8206ef52e051e4b5603c95adba40fa2358b872032db97b419569"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/criteria.mjs",
+      "bytes": 2342,
+      "sha256": "9df6020da028249361fc74665b1349aa03fa1249a1656683a3b811c0879f9315"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/evidence/browser-check.json",
+      "bytes": 839,
+      "sha256": "976a66ce74b345d60359787c0f42145fa07938fee2a24ecb678ab5424564d508"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/evidence/dom-contract-attempt-001.json",
+      "bytes": 661,
+      "sha256": "8e9a6b333dfdeb15525f09af094510092d4745f130ff97e4f490cc604e586171"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/evidence/dom-contract-attempt-002.json",
+      "bytes": 661,
+      "sha256": "0febd55a14ba8f64afde81f4775861cfc16f73e37c5dd071f0b3f1f7406f8fb2"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/evidence/dom-contract-attempt-003.json",
+      "bytes": 661,
+      "sha256": "60a51d55fec37f89d1e6548ebe8e4aa62d6c3ccfc65952f1d573ca86341db5ca"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/evidence/dom-contract-attempt-004.json",
+      "bytes": 1386,
+      "sha256": "7e3d4f0598aec77aa35e460fe12cb9a97b4c2738b8afe248b445b787fdfaac1e"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/evidence/implementation-file-hashes.sha256",
+      "bytes": 4691,
+      "sha256": "b6a95b641792fa4eebb19240abb127c36161493d142b56be09c6dbe7166d83fe"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/evidence/implementation-report.md",
+      "bytes": 7852,
+      "sha256": "c8e0d7cbd06ce52a599e7c8ece1d65d988984f20384964b1ed0b1506b1a8e78d"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/evidence/integrity-verification.json",
+      "bytes": 1198,
+      "sha256": "84211653b4bc759debe1e7979b0dd40f3feab5c5330221b910fb0b41581d6ee6"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/evidence/protected-before.json",
+      "bytes": 53529,
+      "sha256": "fe7dbd52d38515d5f380a653e8adc8fc11a4a6676228c8aa9fffa48752202cc4"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/evidence/test-results-attempt-001.json",
+      "bytes": 683,
+      "sha256": "e727ce90db82e9fe55e02df1a035b8940d25509e1fc68fd14bb4a96eb174c4fd"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/evidence/test-results-attempt-002.json",
+      "bytes": 695,
+      "sha256": "c0eeef9a47fdb5cbe4dfc8a95bf7f0c4dcac05d86949a38ae7371895bf1dcb6f"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/evidence/test-results-attempt-003.json",
+      "bytes": 1444,
+      "sha256": "257cb48a7cc888df87b2525ace681471465b1ba0882231f6edc703c72d985af5"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/evidence/test-results-attempt-004.json",
+      "bytes": 1444,
+      "sha256": "e47c26811ea1f1719a733ed20033048bb3ac877b2a94c6a9f923ce5d82e17360"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/evidence/test-results-attempt-005.json",
+      "bytes": 1444,
+      "sha256": "3cdd30b40feb301577ea74608556395f48f56191a9e176788378598985a4b13f"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/evidence/test-results-attempt-006.json",
+      "bytes": 3151,
+      "sha256": "6ae178c0dea29f8a9c811fe175f32b1a66d2ec88545057199448f459b6554cf5"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/evidence/tool-file-hashes.sha256",
+      "bytes": 1955,
+      "sha256": "e023f081f7dbb57d63980ea12adaab0c16b60f005327f18c5380191fc852041a"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/network-guard.mjs",
+      "bytes": 2145,
+      "sha256": "c95d76f7fbddd508c2d1acd188341e01e360c3ec32b442e745f9c4e9fd2892ac"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/public/app.js",
+      "bytes": 12711,
+      "sha256": "a87d7011a535adbce7fa5a2337c3e1a9fa465b6c715dd956d55389eb2934e40d"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/public/index.html",
+      "bytes": 6315,
+      "sha256": "870b9557119e39f8f5c5da4b07746b697508350c67847ad7400758af6ea283de"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/public/style.css",
+      "bytes": 5903,
+      "sha256": "47c5b085d25e609563cd10eabc65c33884de811e897389c978f5eeac4920e19d"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/repository.mjs",
+      "bytes": 2895,
+      "sha256": "61112be2df8c5e9a58a1dc9fb9c7eab28f9e65da0429d725eb91a9223421b4c7"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/server.mjs",
+      "bytes": 5753,
+      "sha256": "33c09a3743b1e49ea9375e3dead6c802c736f0697ab286f0bd14d32c48fc734a"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/start.mjs",
+      "bytes": 1728,
+      "sha256": "a435e83b58c6714c6895ee611aae09a0a23b4190e6235d7316d9045f4f045ecf"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/storage/events/000000001-0553042c106c44d9fd48d9dec0a37311bdeb9f71b8fca9e074d9ca212ae94088.json",
+      "bytes": 628,
+      "sha256": "9674f78b08bdc05b5f50f9413a346ea33a7a3c828920a05f2ce82b20946b9ad6"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/storage/events/000000002-45bcc7910625466227feba8910fd391e630b60638c9acb278bbd6eedfe96af4c.json",
+      "bytes": 2465,
+      "sha256": "ab94dab500e26dca57725081549d68cfe0eda579a3216a1b910b8c7c7f2a6449"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/storage/start.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/storage/start.stdout.log",
+      "bytes": 113,
+      "sha256": "4a94366ab440a32283dcb27edc94837f7c20b842cd90d4a308a4671476b78843"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/store.mjs",
+      "bytes": 8202,
+      "sha256": "4130c8784406a856c993d43571013da4cae427d3dded76f37f8c8ca85c23a643"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-24404/config.json",
+      "bytes": 857,
+      "sha256": "0070a127275d929e6543839950df4a7cfbcd4a1e87b27ce3708338a027d257a2"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-24404/diagnostic-fixture-store/events/000000001-4b5e5b709488bf7079a4a2a3004c762109f50ac6b31817d9b76cfcc24346018e.json",
+      "bytes": 520,
+      "sha256": "630c9a91d2c9d2b9e3900eae46c17b597e013427c3cee000ee0bb85514e1e92f"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-24404/fixture-store/events/000000001-4cd9062c6e3f69f185fdadfcedd4e6862c0205a44a1cd79b354fc5e5a699eef7.json",
+      "bytes": 589,
+      "sha256": "fcdd17e3d40ebff384cdc677bd24419eb6658906dba5cc02f5cee14c3a068767"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-24404/runtime.jsonl",
+      "bytes": 1154,
+      "sha256": "488d1028bdb736db7436523f0b099bcd5e33056acd4601d91c83fd1518ae979d"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-24404/selection.jsonl",
+      "bytes": 1158,
+      "sha256": "70e3d05ae7681465a62e3962070db65a8390f6e46f4553dff2682818fcc4fa61"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-29924/config.json",
+      "bytes": 857,
+      "sha256": "59b7f67f510fa4e1628c330561f55f3c0473a56ac1db80b274fd8299d1724b0a"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-29924/fixture-store/events/000000001-066257458dc79d524e48127384fdcf3cb042b10ae08dd57c4dd0e5ddacb10de4.json",
+      "bytes": 589,
+      "sha256": "aa63baa85ecb31a0968a8a57062166981f68673be4e9ae93e5ab58a0fa3713a5"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-29924/fixture-store/events/000000002-5ba2ced4c9118a6417a9b6ebcbf9fc1b7879fa61c409aa25326d89ed230819a4.json",
+      "bytes": 2485,
+      "sha256": "ebd6171cd4988750bd9b4b75eb22f13c02c7faa08f25f34812679035270bbf12"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-29924/fixture-store/events/000000003-e469028153db300bdd5d1c1e59bf748b2013810b8084370a19884efcef869480.json",
+      "bytes": 2409,
+      "sha256": "8489d5f1916e639cb404982e87208db26a8f34dcbcdde1aa41c65ce8d17566ba"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-29924/fixture-store/events/000000004-63a721fc280165dda65204c06a948dffcbecca1beecc683963662f5f65333fa8.json",
+      "bytes": 2496,
+      "sha256": "5ad2cab02edf8eaf8149ea37eb61c39cd218dcc51fbdbbec0327885f5e3e2eb8"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-29924/fixture-store/events/000000005-db3ebab1cdbea1d31848ef4625ded776b031dc3ff2c3f2ea52e500da1f51f88a.json",
+      "bytes": 2453,
+      "sha256": "b7fb2174ac8dad9f89f15a5f5749b2005fabebb279b4848b37c8e5b898b52b49"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-29924/fixture-store/events/000000006-cd416248e270c54dd3fad1261ed42a10829c44d4361575d8c0418be673b7db3b.json",
+      "bytes": 2453,
+      "sha256": "7c61ae1cf6fbe362454e03488cd5e93bea60c9dc56e8ad607f79c1935a353624"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-29924/fixture-store/exports/review-r000000006-9a360fc4ce4b7a2eef400fe7c0a5093c679c12c5db159b85ebe62c2d42c796e5-summary.json",
+      "bytes": 2965,
+      "sha256": "f99a0e36c368d8141d9358d8a571971486e65a046aef25ba5d300d2d1ae875a7"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-29924/fixture-store/exports/review-r000000006-9a360fc4ce4b7a2eef400fe7c0a5093c679c12c5db159b85ebe62c2d42c796e5.json",
+      "bytes": 17087,
+      "sha256": "9a360fc4ce4b7a2eef400fe7c0a5093c679c12c5db159b85ebe62c2d42c796e5"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-29924/runtime.jsonl",
+      "bytes": 1154,
+      "sha256": "488d1028bdb736db7436523f0b099bcd5e33056acd4601d91c83fd1518ae979d"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-29924/selection.jsonl",
+      "bytes": 1158,
+      "sha256": "70e3d05ae7681465a62e3962070db65a8390f6e46f4553dff2682818fcc4fa61"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-29924/tampered-config.json",
+      "bytes": 866,
+      "sha256": "066f2ec0b18b26327f78aa7588f0991378f64fa3953ed266d2f0b0c84cc1f539"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-29924/tampered-fixture-store/events/000000001-066257458dc79d524e48127384fdcf3cb042b10ae08dd57c4dd0e5ddacb10de4.json",
+      "bytes": 516,
+      "sha256": "a9aab2d34754ec8159cfadd866f693086141772cfe27cc7855b1ac747c9c6845"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-29924/tampered-fixture-store/events/000000002-5ba2ced4c9118a6417a9b6ebcbf9fc1b7879fa61c409aa25326d89ed230819a4.json",
+      "bytes": 2485,
+      "sha256": "ebd6171cd4988750bd9b4b75eb22f13c02c7faa08f25f34812679035270bbf12"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-29924/tampered-fixture-store/events/000000003-e469028153db300bdd5d1c1e59bf748b2013810b8084370a19884efcef869480.json",
+      "bytes": 2409,
+      "sha256": "8489d5f1916e639cb404982e87208db26a8f34dcbcdde1aa41c65ce8d17566ba"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-29924/tampered-fixture-store/events/000000004-63a721fc280165dda65204c06a948dffcbecca1beecc683963662f5f65333fa8.json",
+      "bytes": 2496,
+      "sha256": "5ad2cab02edf8eaf8149ea37eb61c39cd218dcc51fbdbbec0327885f5e3e2eb8"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-29924/tampered-fixture-store/events/000000005-db3ebab1cdbea1d31848ef4625ded776b031dc3ff2c3f2ea52e500da1f51f88a.json",
+      "bytes": 2453,
+      "sha256": "b7fb2174ac8dad9f89f15a5f5749b2005fabebb279b4848b37c8e5b898b52b49"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-29924/tampered-fixture-store/events/000000006-cd416248e270c54dd3fad1261ed42a10829c44d4361575d8c0418be673b7db3b.json",
+      "bytes": 2453,
+      "sha256": "7c61ae1cf6fbe362454e03488cd5e93bea60c9dc56e8ad607f79c1935a353624"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-30040/config.json",
+      "bytes": 857,
+      "sha256": "e640ace2528e99aa7d011fad0c4bf35193056263fc668a99d8a8fcef6a98241a"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-30040/fixture-store/events/000000001-839b8758d5f5c92eb813eca3a673cc094917a9377fdfe28b0b89f41744ee8dc8.json",
+      "bytes": 589,
+      "sha256": "44cd8cb78fcc0e51529c747d859a185baa6f3060bdeb62dce8b96b32cdc767ca"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-30040/runtime.jsonl",
+      "bytes": 1154,
+      "sha256": "488d1028bdb736db7436523f0b099bcd5e33056acd4601d91c83fd1518ae979d"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-30040/selection.jsonl",
+      "bytes": 1158,
+      "sha256": "70e3d05ae7681465a62e3962070db65a8390f6e46f4553dff2682818fcc4fa61"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-32164/config.json",
+      "bytes": 857,
+      "sha256": "84cce0d6ba0d113e00c443a253f5ed1eb25003aa9eacae708d6dbf884644e106"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-32164/fixture-store/events/000000001-0624f10cd66a651761aa05f17c8712e3c1eddeb9e045ffdb51a587d169e69cd0.json",
+      "bytes": 589,
+      "sha256": "7dc16a1950a6d6578b3f82d6709acccef52614f6997cd137abbc08e90ee9c8bc"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-32164/runtime.jsonl",
+      "bytes": 1154,
+      "sha256": "488d1028bdb736db7436523f0b099bcd5e33056acd4601d91c83fd1518ae979d"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-32164/selection.jsonl",
+      "bytes": 1158,
+      "sha256": "70e3d05ae7681465a62e3962070db65a8390f6e46f4553dff2682818fcc4fa61"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-34592/config.json",
+      "bytes": 857,
+      "sha256": "c06b7eee59b232acbda666988c4a4a36c693b76c191d8898ea0469b67e352b1c"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-34592/runtime.jsonl",
+      "bytes": 1154,
+      "sha256": "488d1028bdb736db7436523f0b099bcd5e33056acd4601d91c83fd1518ae979d"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-34592/selection.jsonl",
+      "bytes": 1158,
+      "sha256": "70e3d05ae7681465a62e3962070db65a8390f6e46f4553dff2682818fcc4fa61"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-6728/config.json",
+      "bytes": 854,
+      "sha256": "bd6b8fa40bce37203723a40e85d20d123f1d382a7b4b7fa18126a3f9c1e3ebb9"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-6728/runtime.jsonl",
+      "bytes": 1154,
+      "sha256": "488d1028bdb736db7436523f0b099bcd5e33056acd4601d91c83fd1518ae979d"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/.fixture-work-6728/selection.jsonl",
+      "bytes": 1158,
+      "sha256": "70e3d05ae7681465a62e3962070db65a8390f6e46f4553dff2682818fcc4fa61"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/dom-contract.mjs",
+      "bytes": 7481,
+      "sha256": "3f096604c44d76ad351b85fb96e7b90bb45cfedca982ff31136e8491a0a8986b"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/fixture-server.mjs",
+      "bytes": 698,
+      "sha256": "2d031976f899bb71dcaa2641df4a6340a05675bc03f8e534d862bc80eaa7af4f"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/browser.stderr.log",
+      "bytes": 3683,
+      "sha256": "ed053ac65654bdbc8dc6c4ad9973cab7f63b9bd7c94c569b03fcbb6b72b2f6c4"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Crashpad/metadata",
+      "bytes": 114,
+      "sha256": "fccb4737abb616c23f4d92eef86c52136abc776059d8c74d705277cc1be85564"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Crashpad/reports/97103fa7-89ea-4e58-a77c-35d2c8c90916.dmp",
+      "bytes": 1436112,
+      "sha256": "044649ac93ca43e890e9bd32caacf9e547f1db8484ec816ef33cd866d8c69275"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Crashpad/settings.dat",
+      "bytes": 40,
+      "sha256": "7fffbacbbf34c6e7afbe54ecb30547f33293d1633e748ca534aac44a14b80c59"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Account Web Data",
+      "bytes": 77824,
+      "sha256": "ed522a356569e247e7be63280ec8e95a3e73ed9cf29cf68ead2e4522510532c6"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Account Web Data-journal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Affiliation Database",
+      "bytes": 53248,
+      "sha256": "52b369ae1ac4db15be400b8d45b01d9e4c4054299fd3743f811e785a6abcbe3a"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Affiliation Database-journal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Cache/Cache_Data/data_0",
+      "bytes": 45056,
+      "sha256": "468456974fd86b33647942820dce7284879acfab9e9e6eca008e1fdcf9006fb5"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Cache/Cache_Data/data_1",
+      "bytes": 270336,
+      "sha256": "902f30c1fb0597d0734bc34b979ec5d131f8f39a4b71b338083821216ec8d61b"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Cache/Cache_Data/data_2",
+      "bytes": 8192,
+      "sha256": "ec1702806f4cc7c42a82fc2b38e89835fde7c64bb32060e0823c9077ca92efb7"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Cache/Cache_Data/data_3",
+      "bytes": 8192,
+      "sha256": "e09f42c398d688dce168570291f1f92d079987deda3099a34adb9e8c0522b30c"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Cache/Cache_Data/index",
+      "bytes": 524656,
+      "sha256": "8309fa0c3fa09f1910b9b0a8f8893d37968e3bcad47dbecdb002238daf762748"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Cache/No_Vary_Search/journal.baj",
+      "bytes": 4,
+      "sha256": "9c169428d852e25bd59b27652ed533d2a1f09f96e4c329fa5e06f47e16731543"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Cache/No_Vary_Search/snapshot.baf",
+      "bytes": 20,
+      "sha256": "0c2dd377ed0cc66161e9db8f89f7d8bcb3ad8c06c4a054bdcba214ab05f58c9a"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/ClientCertificates/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/ClientCertificates/LOG",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Code Cache/js/index",
+      "bytes": 24,
+      "sha256": "fbcfe23a2ecb82b7100c50811691dde0a33aa3da8d176be9882a9db485dc0f2d"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Code Cache/js/index-dir/the-real-index",
+      "bytes": 48,
+      "sha256": "7cae48c1dca179e2151d69552fc7a99a1db361347bd7bb2400f6b9a68a114a86"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Code Cache/wasm/index",
+      "bytes": 24,
+      "sha256": "fbcfe23a2ecb82b7100c50811691dde0a33aa3da8d176be9882a9db485dc0f2d"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Code Cache/wasm/index-dir/the-real-index",
+      "bytes": 48,
+      "sha256": "740872229572f9814d4426730aa1687d68057055ce728d4032cc0a3c4fd86911"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/DawnGraphiteCache/data_0",
+      "bytes": 8192,
+      "sha256": "d6a5fe39cd672781b256e0e3102f7022635f1d4bb7cfcc90a80fffe4d0f3877e"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/DawnGraphiteCache/data_1",
+      "bytes": 270336,
+      "sha256": "b1e963d702392fb7224786e7d56d43973e9b9efd1b89c17814d7c558ffc0cdec"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/DawnGraphiteCache/data_2",
+      "bytes": 8192,
+      "sha256": "ec1702806f4cc7c42a82fc2b38e89835fde7c64bb32060e0823c9077ca92efb7"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/DawnGraphiteCache/data_3",
+      "bytes": 8192,
+      "sha256": "e09f42c398d688dce168570291f1f92d079987deda3099a34adb9e8c0522b30c"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/DawnGraphiteCache/index",
+      "bytes": 262512,
+      "sha256": "bdd9e02fec1f9776028120f7f0dd73b901a0da4cc4fc9b7389dfbb9a0c264fc6"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/DawnWebGPUCache/data_0",
+      "bytes": 8192,
+      "sha256": "d6a5fe39cd672781b256e0e3102f7022635f1d4bb7cfcc90a80fffe4d0f3877e"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/DawnWebGPUCache/data_1",
+      "bytes": 270336,
+      "sha256": "b1e963d702392fb7224786e7d56d43973e9b9efd1b89c17814d7c558ffc0cdec"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/DawnWebGPUCache/data_2",
+      "bytes": 8192,
+      "sha256": "ec1702806f4cc7c42a82fc2b38e89835fde7c64bb32060e0823c9077ca92efb7"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/DawnWebGPUCache/data_3",
+      "bytes": 8192,
+      "sha256": "e09f42c398d688dce168570291f1f92d079987deda3099a34adb9e8c0522b30c"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/DawnWebGPUCache/index",
+      "bytes": 262512,
+      "sha256": "cc9bb35c984b2f2de1b37b945ecccf238c1c49ee02fdafa828aef9cf356f10cf"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Extension Rules/000003.log",
+      "bytes": 57,
+      "sha256": "99c59cbe7db56d56a286485635e4467004641c6275e708887dd35728eb05109a"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Extension Rules/CURRENT",
+      "bytes": 16,
+      "sha256": "0f1bad70c7bd1e0a69562853ec529355462fcd0423263a3d39d6d0d70b780443"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Extension Rules/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Extension Rules/LOG",
+      "bytes": 455,
+      "sha256": "27697fcd6cae7d7c6a52f14dba44fffee5c7ecbb99599213124f50bb5a9377b7"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Extension Rules/MANIFEST-000001",
+      "bytes": 41,
+      "sha256": "f9d31b278e215eb0d0e9cd709edfa037e828f36214ab7906f612160fead4b2b4"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Extension Scripts/000003.log",
+      "bytes": 57,
+      "sha256": "99c59cbe7db56d56a286485635e4467004641c6275e708887dd35728eb05109a"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Extension Scripts/CURRENT",
+      "bytes": 16,
+      "sha256": "0f1bad70c7bd1e0a69562853ec529355462fcd0423263a3d39d6d0d70b780443"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Extension Scripts/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Extension Scripts/LOG",
+      "bytes": 459,
+      "sha256": "524d529084121fc1712a66ca0bcf09a8d5f387be1bf3108f1586b2bc5d49c0ec"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Extension Scripts/MANIFEST-000001",
+      "bytes": 41,
+      "sha256": "f9d31b278e215eb0d0e9cd709edfa037e828f36214ab7906f612160fead4b2b4"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Extension State/000003.log",
+      "bytes": 171,
+      "sha256": "14f92b911f9fe774720461eec5bb4761ae6bfc9445c67e30bf624a8694b4b1da"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Extension State/CURRENT",
+      "bytes": 16,
+      "sha256": "0f1bad70c7bd1e0a69562853ec529355462fcd0423263a3d39d6d0d70b780443"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Extension State/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Extension State/LOG",
+      "bytes": 455,
+      "sha256": "2082a21eeaca00a2aa254f6dde3d628cf6a25e2142bfef22232130823701d3d3"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Extension State/MANIFEST-000001",
+      "bytes": 41,
+      "sha256": "f9d31b278e215eb0d0e9cd709edfa037e828f36214ab7906f612160fead4b2b4"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Favicons",
+      "bytes": 20480,
+      "sha256": "1fbc7ea9722b2154b0d69c9d0ed80b6c0c98c5d389cf31ac1a2b8db030724840"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Favicons-journal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/GPUCache/data_0",
+      "bytes": 8192,
+      "sha256": "d6a5fe39cd672781b256e0e3102f7022635f1d4bb7cfcc90a80fffe4d0f3877e"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/GPUCache/data_1",
+      "bytes": 270336,
+      "sha256": "b1e963d702392fb7224786e7d56d43973e9b9efd1b89c17814d7c558ffc0cdec"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/GPUCache/data_2",
+      "bytes": 8192,
+      "sha256": "ec1702806f4cc7c42a82fc2b38e89835fde7c64bb32060e0823c9077ca92efb7"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/GPUCache/data_3",
+      "bytes": 8192,
+      "sha256": "e09f42c398d688dce168570291f1f92d079987deda3099a34adb9e8c0522b30c"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/GPUCache/index",
+      "bytes": 262512,
+      "sha256": "b1dd9299d9cc23c907abe748e51f08efa6d7e022d977629a44394cea430b2329"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/History",
+      "bytes": 204800,
+      "sha256": "954a81723d32aa353b7bb17cc8a9a2c41a6ceb8a86e46f489523d3a8c1220c8e"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/History-journal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/LOG",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Login Data",
+      "bytes": 40960,
+      "sha256": "869676a006de3214994dedee2318ece6fbf55a4afc42b551ce065bb35265f8d1"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Login Data For Account",
+      "bytes": 40960,
+      "sha256": "869676a006de3214994dedee2318ece6fbf55a4afc42b551ce065bb35265f8d1"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Login Data For Account-journal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Login Data-journal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Network Action Predictor",
+      "bytes": 12288,
+      "sha256": "d1f25ff0096a23b1d3b9a400460b0fc4512e70402f09b7fcf8db71750e7978fd"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Network Action Predictor-journal",
+      "bytes": 4616,
+      "sha256": "e83cb331643f2e849a83691f46b75ca5f478c5e092953e77d7c66ba282872bd3"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Network/Cookies",
+      "bytes": 20480,
+      "sha256": "e63e5ecba16ce902f2c62dda454042ecca66a09d7a33f38fedac458d1a11f81b"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Network/Cookies-journal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Network/Device Bound Sessions",
+      "bytes": 20480,
+      "sha256": "6a22ff7ca6e53a73bc4578271e5f5bf34cdd7c1c9e8e13aea5db31ae5b2618d2"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Network/Device Bound Sessions-journal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Network/NetworkDataMigrated",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Network/Reporting and NEL",
+      "bytes": 36864,
+      "sha256": "2d6dada0da20730019917ab502a8189099aa5ad98a1b23cd30715d6f9689ef11"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Network/Reporting and NEL-journal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Network/Trust Tokens",
+      "bytes": 36864,
+      "sha256": "88bafa2a265212152b2405502209d64438a416ff594a040e666f031ef442a812"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Network/Trust Tokens-journal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/PersistentOriginTrials/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/PersistentOriginTrials/LOG",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/README",
+      "bytes": 180,
+      "sha256": "c43668eec4a8d88a5b3a06a84f8846853fe33e54293c2db56899a5a5dfb4d944"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Safe Browsing Network/NetworkDataMigrated",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Segmentation Platform/SegmentInfoDB/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Segmentation Platform/SegmentInfoDB/LOG",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Segmentation Platform/SignalDB/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Segmentation Platform/SignalDB/LOG",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Segmentation Platform/SignalStorageConfigDB/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Segmentation Platform/SignalStorageConfigDB/LOG",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/ServerCertificate",
+      "bytes": 20480,
+      "sha256": "180ffbc2a4f10b5563f5a7bfe62d23909f0aa77572a06e59a9be4c6fca7176f7"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/ServerCertificate-journal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Service Worker/Database/000003.log",
+      "bytes": 304,
+      "sha256": "f826bf3e6df7401055b3bad7aa1aa28ef76226bb8a56ef40a2bafa8c00f48aaf"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Service Worker/Database/CURRENT",
+      "bytes": 16,
+      "sha256": "0f1bad70c7bd1e0a69562853ec529355462fcd0423263a3d39d6d0d70b780443"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Service Worker/Database/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Service Worker/Database/LOG",
+      "bytes": 471,
+      "sha256": "c242da3fe4852b89eee5e8d44aaf64fc06f09c3723c53e05c1353c935c329299"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Service Worker/Database/MANIFEST-000001",
+      "bytes": 41,
+      "sha256": "f9d31b278e215eb0d0e9cd709edfa037e828f36214ab7906f612160fead4b2b4"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Service Worker/ScriptCache/index",
+      "bytes": 24,
+      "sha256": "fbcfe23a2ecb82b7100c50811691dde0a33aa3da8d176be9882a9db485dc0f2d"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Service Worker/ScriptCache/index-dir/the-real-index",
+      "bytes": 72,
+      "sha256": "ce91f030e078e56b29aad811ed80084769b7345e13ee333113aede60d53772d6"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Shared Dictionary/cache/index",
+      "bytes": 24,
+      "sha256": "fbcfe23a2ecb82b7100c50811691dde0a33aa3da8d176be9882a9db485dc0f2d"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Shared Dictionary/cache/index-dir/the-real-index",
+      "bytes": 48,
+      "sha256": "5fdd4b7adc1b2a653ced8e77e444d4db8fae28f067e2c40b94fccadef30cd4e5"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Shared Dictionary/db",
+      "bytes": 45056,
+      "sha256": "0d6287fecedbc44ed9f51ded9de88629ec9f385ecff5da9a34e47e96fd5a9cba"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Shared Dictionary/db-journal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Site Characteristics Database/000003.log",
+      "bytes": 40,
+      "sha256": "f096bc366a931fba656bdcd77b24af15a5f29fc53281a727c79f82c608ecfab8"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Site Characteristics Database/CURRENT",
+      "bytes": 16,
+      "sha256": "0f1bad70c7bd1e0a69562853ec529355462fcd0423263a3d39d6d0d70b780443"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Site Characteristics Database/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Site Characteristics Database/LOG",
+      "bytes": 483,
+      "sha256": "38a42f7179c27baf9ee48ae653e6834f5eefcdc92cf7f61b3cd202ddba1aae12"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Site Characteristics Database/MANIFEST-000001",
+      "bytes": 41,
+      "sha256": "f9d31b278e215eb0d0e9cd709edfa037e828f36214ab7906f612160fead4b2b4"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Sync Data/LevelDB/000003.log",
+      "bytes": 118,
+      "sha256": "b201e50dd759e0c41786332abd0c141372955e9489cf632cc09100d1f46b3ac7"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Sync Data/LevelDB/CURRENT",
+      "bytes": 16,
+      "sha256": "0f1bad70c7bd1e0a69562853ec529355462fcd0423263a3d39d6d0d70b780443"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Sync Data/LevelDB/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Sync Data/LevelDB/LOG",
+      "bytes": 459,
+      "sha256": "d768f1f0ea5351adfd29ec04ef215e0b450f1683597851965284344aa0bd340f"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Sync Data/LevelDB/MANIFEST-000001",
+      "bytes": 41,
+      "sha256": "f9d31b278e215eb0d0e9cd709edfa037e828f36214ab7906f612160fead4b2b4"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Top Sites",
+      "bytes": 20480,
+      "sha256": "10d7a6186bce338875b3ca315efcb30efd223a5ad1f7030ff3f0c99ecbe7ca8c"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Top Sites-journal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Web Data",
+      "bytes": 153600,
+      "sha256": "e2b880f33311a50789ea5b4a5df118a136c4adf48d769ef47023de9b2c8e7930"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/Web Data-journal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/WebStorage/QuotaManager",
+      "bytes": 40960,
+      "sha256": "298c6d7fcec642e484fb47d1ad9fa093636316b370259b7a7f45637905912ca4"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/WebStorage/QuotaManager-journal",
+      "bytes": 16928,
+      "sha256": "ec8059cb46f791a08212f1ec5effca4f73d6894b4b683074a2a15a6f72e1c436"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/chrome_cart_db/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/chrome_cart_db/LOG",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/commerce_subscription_db/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/commerce_subscription_db/LOG",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/declarative_performance_observer.db",
+      "bytes": 32768,
+      "sha256": "eda4c9567974174f08a1dbcd8badf4d6199a7e9a8b78b8826548f49e20e7badf"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/declarative_performance_observer.db-journal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/discount_infos_db/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/discount_infos_db/LOG",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/discounts_db/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/discounts_db/LOG",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/parcel_tracking_db/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/parcel_tracking_db/LOG",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/shared_proto_db/000003.log",
+      "bytes": 6737,
+      "sha256": "e3f542edb8c0176f6c220b8bec3e55e901d42f0cfe7a15a3e29011e636362fbb"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/shared_proto_db/CURRENT",
+      "bytes": 16,
+      "sha256": "0f1bad70c7bd1e0a69562853ec529355462fcd0423263a3d39d6d0d70b780443"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/shared_proto_db/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/shared_proto_db/LOG",
+      "bytes": 455,
+      "sha256": "d26d87508b2efb00c4cf0701a6d14775997420893c46e82806edc4f9e3319dc8"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/shared_proto_db/MANIFEST-000001",
+      "bytes": 41,
+      "sha256": "f9d31b278e215eb0d0e9cd709edfa037e828f36214ab7906f612160fead4b2b4"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/shared_proto_db/metadata/000003.log",
+      "bytes": 706,
+      "sha256": "f822f8616a39854535144b9fc8febf9779510170dae49afafb55762752124510"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/shared_proto_db/metadata/CURRENT",
+      "bytes": 16,
+      "sha256": "0f1bad70c7bd1e0a69562853ec529355462fcd0423263a3d39d6d0d70b780443"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/shared_proto_db/metadata/LOCK",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/shared_proto_db/metadata/LOG",
+      "bytes": 473,
+      "sha256": "588b8bde625758aaf188c3bf58709e08d23bdbe569775edefce22f0e9f040e60"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Default/shared_proto_db/metadata/MANIFEST-000001",
+      "bytes": 41,
+      "sha256": "f9d31b278e215eb0d0e9cd709edfa037e828f36214ab7906f612160fead4b2b4"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/GPUPersistentCache/DawnGraphiteCache/NR2GNA44OGQUBFRRNDBXIX2VC7JXKYAS/cache.db",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/GPUPersistentCache/DawnGraphiteCache/NR2GNA44OGQUBFRRNDBXIX2VC7JXKYAS/cache.db-wal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/GPUPersistentCache/DawnGraphiteCache/NR2GNA44OGQUBFRRNDBXIX2VC7JXKYAS/cache.journal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Last Version",
+      "bytes": 13,
+      "sha256": "989139b321446d52c86faddc68568164a6ef8b91694afdfbb71330c8271c25fe"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Local State",
+      "bytes": 433,
+      "sha256": "5557bfefed340e928472682e71b68ed128cb79e812b712644729b33a69a93076"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/ShaderCache/data_0",
+      "bytes": 8192,
+      "sha256": "d6a5fe39cd672781b256e0e3102f7022635f1d4bb7cfcc90a80fffe4d0f3877e"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/ShaderCache/data_1",
+      "bytes": 270336,
+      "sha256": "b1e963d702392fb7224786e7d56d43973e9b9efd1b89c17814d7c558ffc0cdec"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/ShaderCache/data_2",
+      "bytes": 8192,
+      "sha256": "ec1702806f4cc7c42a82fc2b38e89835fde7c64bb32060e0823c9077ca92efb7"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/ShaderCache/data_3",
+      "bytes": 8192,
+      "sha256": "e09f42c398d688dce168570291f1f92d079987deda3099a34adb9e8c0522b30c"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/ShaderCache/index",
+      "bytes": 262512,
+      "sha256": "8bfe9abd3c2a6330f65be014dccdef92ba302abbd0193800ea350b74e25cc918"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/Variations",
+      "bytes": 86,
+      "sha256": "f7b24f2eb3d5eb0550527490395d2f61c3d2fe74bb9cb345197dad81b58b5fed"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/VariationsSafeSeedV2",
+      "bytes": 19,
+      "sha256": "1560b22b2264f7cb6b7f6910164813f76c5e8a06fb1acf85b375e687ee49c1ad"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/VariationsSeedV2",
+      "bytes": 11,
+      "sha256": "b4cc4174735c28360b9081be3c3d0552d8a4b3cdb54431ac00ed0d622bab6296"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/segmentation_platform/ukm_db",
+      "bytes": 4096,
+      "sha256": "97e8d54f8a7255106f66cf1b213c4a4d7b558d21310b1c2bfedc3d0d526dddda"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/profile/segmentation_platform/ukm_db-wal",
+      "bytes": 90672,
+      "sha256": "52d27b4170463920dab53d561b4ce9bbfe9e3321e0bb3bf87277b45e3f433d9f"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/headless-ui-check/rendered.html",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/readonly-check.mjs",
+      "bytes": 2074,
+      "sha256": "70900080e17573a73cd7d3b60c5d8b95d7d00edd5d0394339a74942ea88ed98d"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/human-review-tool/tests/run.mjs",
+      "bytes": 13889,
+      "sha256": "0beb7f69d1b0a5762f2536a60a38721ab7deb93c07590a3ba3cbb7ac1cfd77af"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/model-selection-v1.1.jsonl",
+      "bytes": 288208,
+      "sha256": "09cd5561686fd77d24f78a9f6036947425d9fc7973652b8b808c9ea907da5986"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/review/build-register.mjs",
+      "bytes": 2412,
+      "sha256": "9b92c46bb9233e250ff449663776c72712508e6fb0eab3c8fe9856f6aa9205e5"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/review/independent-review-checklist.md",
+      "bytes": 4396,
+      "sha256": "880ed25ff5c1733871b7610aad27874478ca8907d0bd617476a0e1e55e4bb5ad"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/review/review-register.json",
+      "bytes": 835371,
+      "sha256": "6248a1a611832eaf249039898eeda78a4a9131915d568293dad26557e0ec7999"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/review/review-summary.json",
+      "bytes": 609,
+      "sha256": "764aa3c8a25d9a884d473c57b4bdb7c40615288a4d06add1bfea493954cd86d2"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/run-checks.mjs",
+      "bytes": 4213,
+      "sha256": "bcb1a288514af900b87f26c25ba2d806acd78c232d505432ac53384e684f63e6"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/run-offline.mjs",
+      "bytes": 3970,
+      "sha256": "d0c0c1bf402f9f9cb1fe4e30edd2f1d38365d62c18d81564ac5091e4839a8735"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/runtime-reference-v1.1.jsonl",
+      "bytes": 759112,
+      "sha256": "f66937264beeb823ea5106aa7689deb18fd50963e9df9312dd772c3ee5f56736"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/validation/check-launcher-failure.json",
+      "bytes": 785,
+      "sha256": "42e1a7e4abe2d2ff7c79a5ba14b1460a53579d82b4a8d07747b41ef06ec82b56"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/validation/core.mjs",
+      "bytes": 12822,
+      "sha256": "7dd0dcb6add3dd413af9e586ded3e2e668e0d91a0686a764fe075e3f906de444"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/validation/envelope.mjs",
+      "bytes": 3470,
+      "sha256": "3559d69cc33205e629e06fa10174ac3b1be103c9d89cdfc7d6238b32e9421c3b"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/validation/exclusion-selectors.json",
+      "bytes": 1034,
+      "sha256": "c97b64800c8d6f2626374ced1efb38199e7fd2f510ba9dc4a3a0c8d7fdcf2619"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/validation/identify-exclusions.mjs",
+      "bytes": 2150,
+      "sha256": "863d90a9e69db343e4937be70b3596421e90d606a4950b60074c68147a156a53"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/validation/selftest.mjs",
+      "bytes": 666,
+      "sha256": "18ca625d4235429ce10f99176e49e5eda60e0800558a79514856574a0f8c0c2a"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/validation/validate.mjs",
+      "bytes": 6046,
+      "sha256": "f69f644d3b4192b788c8f42b077908926cb09d2f5f13d9d78b81206c6afa17ba"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/remediation-v1.1/validation/validation-results.json",
+      "bytes": 12702,
+      "sha256": "6539e36628c24e986735d49fa82584a3b2b62f90b6cb174380f54664f85fe3ca"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/runtime-reference-v1.jsonl",
+      "bytes": 758352,
+      "sha256": "342503dd6c810136d8b5ede8dea96005e593a2ee623f849640fcfd357bb826de"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/validation/contracts.mjs",
+      "bytes": 3285,
+      "sha256": "976ed10e47d1dafc1db09ee7e095a58192fb43a3d6039f03365b348b861c8aff"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/validation/envelope-quality.mjs",
+      "bytes": 4659,
+      "sha256": "5cc1b2161855c65820d68bed44499efd33f5a77257a91ca52082d9d5d3bd95e4"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/validation/envelope-results.json",
+      "bytes": 1488,
+      "sha256": "ba0b7c54c4f4d9ee956e1878fb72b55d37a8f926357abd510fae8695c7d4119e"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/validation/validate-controlled-assets-v2.mjs",
+      "bytes": 17438,
+      "sha256": "f84fe1698bc0218195709393d479493b27c3443f90f86c0371cf7351f7d6d00a"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/validation/validate-controlled-assets.mjs",
+      "bytes": 17235,
+      "sha256": "eb0b668c87dfd6dd1bea7357ead1a2890856e48ab038f00c19294c199bd90918"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/validation/validation-results-v2.json",
+      "bytes": 10670,
+      "sha256": "9e1c01eed3d794c6872d41a59944515443fe3fd541e89e7b461b2220e01b53d7"
+    },
+    {
+      "path": "docs/fine-tuning/controlled-assets/validation/validation-results.json",
+      "bytes": 10585,
+      "sha256": "66ddceffcab98c1186793c73818f5acec383efa9bf5e9b12ac10ae2062fb98ba"
+    },
+    {
+      "path": "docs/fine-tuning/design/01-synthetic-dataset-provenance-plan.md",
+      "bytes": 23533,
+      "sha256": "4ebfae986974dfe7882a0924cd7e31d2160ce25796ef6ba5871c26252f404f76"
+    },
+    {
+      "path": "docs/fine-tuning/design/02-base-model-selection-plan.md",
+      "bytes": 15250,
+      "sha256": "856b59e27cf4a2557760047427f26afc984b1698848a8bdda2dede23848ac554"
+    },
+    {
+      "path": "docs/fine-tuning/design/03-experiment-lock-and-evidence-plan.md",
+      "bytes": 19496,
+      "sha256": "374f25549bdce3c172fccaaaeeb430787da74db44ec45061a61c85a3b52b0e03"
+    },
+    {
+      "path": "docs/fine-tuning/design/04-controlled-baseline-and-data-admission.md",
+      "bytes": 40380,
+      "sha256": "063a52c0c8a58e9722c329ee1f191d8f6f940e2ed9b941a7ace155569a44f4ac"
+    },
+    {
+      "path": "docs/fine-tuning/design/05-protocol-amendment-automated-admission.md",
+      "bytes": 7492,
+      "sha256": "0c37d07b5c1932f2bf192c167b8b04009c2cc4be50b6be22810c6e7899f90550"
+    },
+    {
+      "path": "docs/fine-tuning/design/06-owner-selected-qwen3-baseline.md",
+      "bytes": 4986,
+      "sha256": "16fd9871665ea7b9486fa880f53216742df6ec06ce7e586b1b92639fa25caf27"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/README.md",
+      "bytes": 13060,
+      "sha256": "f5bd82f128be068a932cdc40c1a6ee697524cb256505c9f88ac06ff159e88dcb"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/candidate-policy.md",
+      "bytes": 3381,
+      "sha256": "c631c44c737889e4fcbd83ac2d8add2881f12c74417456c92c52c9c80f7830a1"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/environment-capture.json",
+      "bytes": 715,
+      "sha256": "d1854773c5fbd42ac91fbabbd1d5a58db9827337ac74624ecbdfc71e31f93a46"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/evidence-hashes.sha256",
+      "bytes": 4378,
+      "sha256": "202db7d6f415d2516bd6a5c564cfe82ceb36c74767d8b31956d20f591e520920"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/execution-contract.mjs",
+      "bytes": 3884,
+      "sha256": "bc5142b88ec54f34ee90bff9c3dcc8fe8e2e5e76cc18759aa1df6f4eee2cc614"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/integrity-verification.json",
+      "bytes": 3880,
+      "sha256": "11bdb507741ee68e53e4b1d416d8683a316378cce884bc9e38dde1107db49145"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/metrics-and-winner-rules.md",
+      "bytes": 5712,
+      "sha256": "4139e73e71990221497390c09fce5fc1c55d8678fd322e81d53e53ad28d422b8"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/partition-attempt-001.json",
+      "bytes": 450,
+      "sha256": "7b81d614f98f25e19787d208c5d48dc3af7fce8b01182cb38616b2b343a3e7e6"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/partition-diagnostics.json",
+      "bytes": 29128,
+      "sha256": "89f97ad8ecddaa6da1f35c8a9f78f4b5647c9e7e4388efa6b7574db1d8c801d6"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/partition.mjs",
+      "bytes": 7629,
+      "sha256": "95fa5f0c23fa84a272373dbff01f99f72f19dba112c330fe3a23dcbf6f3b6adc"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/pre-execution-finalization.json",
+      "bytes": 650,
+      "sha256": "beb7725fea011db9db250e333da05a64e8a3f1b535ad0a90ebae5e76f548b1ed"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/protected-before.json",
+      "bytes": 62365,
+      "sha256": "dd17070f95e9294bce17a218af2dee8c97c34d57085670e16576caf1f497eaea"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/readiness-attempt-001.json",
+      "bytes": 445,
+      "sha256": "118e780731d93b6680e76917f27164aaa2c34875a60543cc8d6c1121784a7747"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/readiness-check-final-results.json",
+      "bytes": 9746,
+      "sha256": "c5faa22aae49b6d51ad7b0194587a8a8f8ee2b372e33d0fe8ead9366524e7775"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/readiness-check-results.json",
+      "bytes": 9637,
+      "sha256": "652d2f67a4fbd72d55288ab643583fd9cd9cfc9aa7bb64fad0c72365d563cea1"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/readiness-guard.mjs",
+      "bytes": 391,
+      "sha256": "3cbe5ccbe9bbefaa8384b263f597de59ac98b51dd093dc093289622c68051610"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/rendered-model-requests.json",
+      "bytes": 2366577,
+      "sha256": "263e015ee8a45d1f6b7ded81ddb735aa44ad3107a3897141d1ee6fe8d50826a6"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/resolver-capsule.mjs",
+      "bytes": 6237,
+      "sha256": "aeffed8766545a4a5b9dd2290084658b27f209abe7d0f62af773bc92813662b4"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/run-contract-draft-001.json",
+      "bytes": 8953,
+      "sha256": "dadd18ab2cfd9b712a4ae5e2cf573d3a94ee2ed4dc6c25cc5b24eafbf8a57a55"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/run-contract-draft-002.json",
+      "bytes": 9001,
+      "sha256": "46edf384618855987e5db278c95c4c37845604b34b2229ddceb97b6d525673d6"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/run-contract-draft-003.json",
+      "bytes": 9096,
+      "sha256": "0981add79d9dee75afbb3cc3600295f715c66b52c6a966d681eb6dfd940044c2"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/run-contract.json",
+      "bytes": 9283,
+      "sha256": "70bd199f7a68165ceb763f15e55d2376b29cb0c52db9a57c38dfe4fa8da80786"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/run-offline.mjs",
+      "bytes": 2959,
+      "sha256": "f58acecf57a0c9848c17312f76e2146c112d6c7d8c4b4d86568aa25a1c500a0c"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/scorer-selftest-attempt-001.json",
+      "bytes": 10112,
+      "sha256": "65575725cb9a71c39fbb418bb3e9d661bd1513b701f5c1351f74f2682291615a"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/scorer-selftest-draft-120-pass.json",
+      "bytes": 10174,
+      "sha256": "aa627c93d60a363bdfa6d2a68de8e19d9941e39d057d29f49b0740d49db0ab53"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/scorer-selftest-final-results.json",
+      "bytes": 15264,
+      "sha256": "e05d2f1f851e9f9b7272d3221039adbc720fafd0f3ce649141e9d60c92662970"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/scorer-selftest-results.json",
+      "bytes": 10174,
+      "sha256": "aa627c93d60a363bdfa6d2a68de8e19d9941e39d057d29f49b0740d49db0ab53"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/scorer.mjs",
+      "bytes": 15890,
+      "sha256": "c2ad990cbe11f7a2055dcd3b6adcaa48503d55d3d269654b876686cba4fbd410"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/scorer.selftest.mjs",
+      "bytes": 15298,
+      "sha256": "c8d51e9929a95e4c170be6eb83c97458ae7fd23059c7dc41d0a92098c873f7cb"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/scoring-specification.json",
+      "bytes": 5518,
+      "sha256": "58e0baf6d0c0297316ed21e0f1db0af0a85c7c30091781f1950f5edd040aafd2"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/selection-partition-draft-001.json",
+      "bytes": 106202,
+      "sha256": "61ab11c27038a6a54bd9aea1d106af05b88746e762b4b128ae0625c6a01360ad"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/selection-partition.json",
+      "bytes": 106253,
+      "sha256": "2f00d20a30ee2e1bd30f998dc727e3c7e0bfd97c4dff1c7799279b3cfbb2a9ec"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/source-lock.json",
+      "bytes": 5447,
+      "sha256": "2fadb0048a8879231e946e642f80f6e7deb5b2d9a67f5fafa07c94cee061f8ea"
+    },
+    {
+      "path": "docs/fine-tuning/model-selection/readiness/verify.mjs",
+      "bytes": 13206,
+      "sha256": "308ad0b4dcc9fb60100fb722e093977fbe57475670438f0880b2767743060f12"
+    },
+    {
+      "path": "docs/fine-tuning/pre-finetuning-file-hashes.sha256",
+      "bytes": 38219,
+      "sha256": "cd490a4d777bee7c490e26c7e1d953f19239e65a1f497b7f08e07fd204d81b47"
+    },
+    {
+      "path": "docs/fine-tuning/security/01-ai-data-classification.md",
+      "bytes": 6618,
+      "sha256": "e6d6f683c5b8bf1a5a3721757acd3008ee90682c93318b60e368ad0c4847d844"
+    },
+    {
+      "path": "docs/fine-tuning/security/02-ai-access-matrix.md",
+      "bytes": 8329,
+      "sha256": "22c20e773905c363821bfc7e600ab19a0986e7893aa10803b8a643a1fd5756c2"
+    },
+    {
+      "path": "docs/fine-tuning/security/03-fine-tuning-data-policy.md",
+      "bytes": 7237,
+      "sha256": "ccb1e40e45532ebf594bfd6463d52fce6dfdecce75b138a7628751be4e57d463"
+    },
+    {
+      "path": "docs/fine-tuning/security/04-authorization-and-rbac-boundary.md",
+      "bytes": 10851,
+      "sha256": "bf8d4f09e5b5871051d871f163a1853cd645bb05c9824c8ca1f49ba5ebd2a62d"
+    },
+    {
+      "path": "docs/fine-tuning/security/05-rag-mcp-voice-security.md",
+      "bytes": 10939,
+      "sha256": "b4b708d70d3a796f7ac0f8a639dd3762f4b0616a22e18b211f9efb4e415f315e"
+    },
+    {
+      "path": "docs/fine-tuning/security/06-logging-and-pii-policy.md",
+      "bytes": 8196,
+      "sha256": "baa7626e41e87957e9d9cf95477f8fb653fe33121cb83e3bbce0d457b9ae3f59"
+    },
+    {
+      "path": "docs/fine-tuning/security/07-security-audit-findings.md",
+      "bytes": 21917,
+      "sha256": "37ae31c6148d27db49c0f958b7851f1ce8c9e4f7da1c17ad6944cc03691ef65f"
+    },
+    {
+      "path": "docs/fine-tuning/security/08-high-severity-remediation.md",
+      "bytes": 14782,
+      "sha256": "31666430b7743253e2501dd2e8d79c5213e63aa0e48460067fa9472e755a691f"
+    },
+    {
+      "path": "docs/fine-tuning/security/09-runtime-examples-provenance-audit.md",
+      "bytes": 23106,
+      "sha256": "9f4ad02e8ac82a520c21206d7bbefde36f09b959b7c1135d82df46bdbf299461"
+    },
+    {
+      "path": "docs/fine-tuning/security/runtime-examples-audit.mjs",
+      "bytes": 22628,
+      "sha256": "bbe9f6798d74beb2a19f2d48615be422ee6eadfdb826faa3c70156f4fa3c219b"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/README.md",
+      "bytes": 9617,
+      "sha256": "8058461ac94e27300ead3ce1bf0d53c5bbed1df9fc8e419433552e9f29f3440e"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/before-config.txt",
+      "bytes": 487,
+      "sha256": "e18a783aae5525fd2852fc94c985541a77e791e034abc2d3056474d59de336fc"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/before-inference-configuration-reference.json",
+      "bytes": 1245,
+      "sha256": "c8a6dbef3841d582f33c7106dc4788ce0e942860d8ad33d233b41831d640280c"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/before-license.txt",
+      "bytes": 11338,
+      "sha256": "d18a5cc71b84bc4af394a31116bd3932b42241de70c77d2b76d69a314ec8aa12"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/before-params.txt",
+      "bytes": 120,
+      "sha256": "cff3f395ef3756ab63e58b0ad1b32bb6f802905cae1472e6a12034e4246fbbdb"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/before-serving-manifest.json",
+      "bytes": 859,
+      "sha256": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/before-template.txt",
+      "bytes": 1506,
+      "sha256": "2d54db2b9bb29ce7db54fea63a891f5859603813c555b1f88b5e0994652897f9"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/capture-local.mjs",
+      "bytes": 7603,
+      "sha256": "027c7540567c5c56571d33a19da8767ec84e0ae3549eea6da8ff50917bc56064"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/capture-public.mjs",
+      "bytes": 3848,
+      "sha256": "fdf4df6657072418f191fd807e1d4e8ad0866e7c7b06aef123a5dd4c545b2dd4"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/capture-release-history.mjs",
+      "bytes": 1865,
+      "sha256": "73ed03cdfcd3c8052d249f9f4331678ba6eb5fe97a8816bca6862aae22fd3c6e"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/compare-evidence.mjs",
+      "bytes": 7751,
+      "sha256": "86419a1fe169ac3410b84645330ea981f9a48a3618d323c3cf46a89d3210c7f7"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/evidence-hashes.sha256",
+      "bytes": 5841,
+      "sha256": "3dcd18841334ffeb276904fe510f85d1e57196e0a8e13d294879a96e6d80a238"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/finalize-evidence.mjs",
+      "bytes": 6579,
+      "sha256": "a13b7dfe6ef0b4420bab277067fd01263dcc01dd7c192a02ebff2f7adcc7e0b5"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/fresh-loopback-metadata.json",
+      "bytes": 30351,
+      "sha256": "cc99db238c5cc60ff3206b599e8b9dc09b8c9a1b0b19d1f89ec9bc3d4834df2d"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/integrity-verification.json",
+      "bytes": 1061,
+      "sha256": "87e2cd4201253091599658bdf83b48deef22442b659f714e60ec3e8fd739fb14"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/local-artifact-verification.json",
+      "bytes": 1763,
+      "sha256": "f75aad6a7495a157f746a55cadf16c0a9b7ee4a55416afe0552844096bd30128"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/local-gguf-metadata.json",
+      "bytes": 6387,
+      "sha256": "cf59c83e82725ca937fb895c64589dda23d158d6e954c809d3bfe5a97e07147a"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/protected-before.json",
+      "bytes": 71715,
+      "sha256": "c6c4d947cd4aaa730f6490de7e58f3eba23e7832273514ac09037da314c2532e"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/provenance-decision.json",
+      "bytes": 2460,
+      "sha256": "983985f125d5dca93319b24063d98cd417848809378d2f4a340708863f3d4a5a"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public-capture-index.json",
+      "bytes": 14556,
+      "sha256": "d0d3719b953e357e367b5a1c6c21917b2ca0220097d733283054d3850024d233"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/ollama-alias-manifest.json",
+      "bytes": 859,
+      "sha256": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/ollama-digest-manifest.json",
+      "bytes": 69,
+      "sha256": "fa197eb72c7cd2e1fd94107c48aab83c08e988f9fd52f39784ef72843c13e18f"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/ollama-model-layer-page.html",
+      "bytes": 283663,
+      "sha256": "0d40732ea6a45de7d8d9922806def28bb385b1d6cbfc38be3908975d1ec0eb0e"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/ollama-release-manifest.json",
+      "bytes": 859,
+      "sha256": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/ollama-release-page.html",
+      "bytes": 74873,
+      "sha256": "b91be1867b593f4c6345bd233653bc0428b0c158556203c35067649d1f6941f9"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/upstream-commits.json",
+      "bytes": 1995,
+      "sha256": "2c6a8cb30c2e179d40cb36e4e1c3fe91c9ce06ca0a2f66c5eb1f6d53a00268f7"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/upstream-first-upload-model-api.json",
+      "bytes": 9485,
+      "sha256": "4eee07d50e9a1d4cd94b922c9cfed47716fe8c55b597e585ded24cd716acba5c"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/upstream-model-api.json",
+      "bytes": 9222,
+      "sha256": "4eba91a1fa9dc7694ca235afc80e3830dfb2dd3b78fe7951ca5e220a84447734"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/upstream-pinned-model-api.json",
+      "bytes": 9222,
+      "sha256": "4eba91a1fa9dc7694ca235afc80e3830dfb2dd3b78fe7951ca5e220a84447734"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/upstream-pinned-tree.json",
+      "bytes": 13637,
+      "sha256": "cafbb423ca3edd35a1887189b2c255fbf54cbc51848d488a3c894d22cf9bedb4"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/upstream/LICENSE",
+      "bytes": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/upstream/README.md",
+      "bytes": 10063,
+      "sha256": "6a608c737decd22569edf9609499d142021a65e942999890704a880bc804d163"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/upstream/config.json",
+      "bytes": 727,
+      "sha256": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/upstream/generation_config.json",
+      "bytes": 239,
+      "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/upstream/merges.txt",
+      "bytes": 1671839,
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/upstream/model.safetensors.index.json",
+      "bytes": 32819,
+      "sha256": "d6c42883a895dfef5b0080ed2116a1bcd764f558406b98923d675978a1abf29c"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/upstream/tokenizer.json",
+      "bytes": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/upstream/tokenizer_config.json",
+      "bytes": 10834,
+      "sha256": "60adcfc35f5f251e19a196ec977b4ca0fcfb534852911b3196d68d5e3b146aa0"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/public/upstream/vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/tokenizer-and-config-comparison.json",
+      "bytes": 4849,
+      "sha256": "2a39e7b1384a22836f38d29cfd4b9a7c13b677c691a62a4196cac346f46d7171"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/upstream-checkpoint-file-identities.json",
+      "bytes": 5410,
+      "sha256": "60cf861be1d9fdde94b8b94cd2cb8b2aa8e66a1d1a8fdd2e4936c32de6b25536"
+    },
+    {
+      "path": "docs/fine-tuning/training/base-model-provenance/upstream-release-history-comparison.json",
+      "bytes": 3400,
+      "sha256": "378243ee710440719d3bf91bdee873b3658e8ed0577e8284e8b3dcd58902a7a3"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/01-owner-decision.md",
+      "bytes": 2391,
+      "sha256": "f8073adcab45ac604704e190cb03eeb1e567ed30030b1db833b4911c86cce65f"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/02-dataset-specification.md",
+      "bytes": 15200,
+      "sha256": "bf4dadd74586fa8f286bd48fc5ceb0561038bcbb85ff751bb936a74a034c501c"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/03-qlora-preparation.md",
+      "bytes": 7804,
+      "sha256": "408208b62b0e12d0e8a8d3c4d0b0ab4d1ea0c41f099b094b935273cfda939181"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/README.md",
+      "bytes": 3305,
+      "sha256": "b07598b6d01253c1f8eb356be4f74b1aea6f7e42495fd80adb73b1b90bdd7158"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/asset-inspection.json",
+      "bytes": 9393,
+      "sha256": "c0cdd2ba58c19d1fab2bd3e9b44c2196fd3ebbf28ed7a1d8db703314cf2d7bdc"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/current-contract-catalog.json",
+      "bytes": 22417,
+      "sha256": "935b62daa020e4244f762e396ec7fd4e2461b966d083d78a2a5e44a9af151642"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/README.md",
+      "bytes": 7333,
+      "sha256": "88f0b9d9ed9926aefea97e4fb598b09a8f56987a28222bd8a9a2247be04ca6a7"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/admission-decision.json",
+      "bytes": 802,
+      "sha256": "a1b369cbfdfc2e6f922a8146234dab37174d974951062138f2a122a73920e28b"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/candidate/dataset.jsonl",
+      "bytes": 11458180,
+      "sha256": "21a5bb1b466d92b2b838df663c1326c47fcf891419553413bd1203eefc4f5a8a"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/candidate/generation-result.json",
+      "bytes": 807,
+      "sha256": "0a0850b313ad0a689d71a0f3b56a339fb58bb4e25e9c2a4449e788e1e7f35656"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/dataset-manifest.json",
+      "bytes": 6234,
+      "sha256": "7954befa20b0df85eb4e5e25a8be3bdddebe4e37320282ac6dba446dd993dce3"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/evidence-hashes.sha256",
+      "bytes": 3385,
+      "sha256": "56b18cf22b184b3d6d66494f1c395d3e273c04baf56cc1405e6c3c317c1bdb85"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/generation/actions.mjs",
+      "bytes": 14034,
+      "sha256": "3a2c92c3ab81f923eeb5d7b1059393c13042c3f34a5a6d5b8eac9832341de367"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/generation/admit.mjs",
+      "bytes": 7203,
+      "sha256": "cdd47bc210c99fe177bb0c8ff2a0c3abe1b15c74b07bd363ee4d47fcd8e2b176"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/generation/controls.mjs",
+      "bytes": 15084,
+      "sha256": "b7cc881a04f8dd17cfef32631097860d8521c5343082c01929fffbc78fcf11fa"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/generation/generate.mjs",
+      "bytes": 15472,
+      "sha256": "e673971e200297c62473e2048617c89951c6bdec4f901ea8227a00dd0a86d387"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/generation/lexicon.mjs",
+      "bytes": 33970,
+      "sha256": "587a317bf015b5a402ad00c2ddd388a4c6ceb7ace152c5f0c97ca128f8df2802"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/generation/pre-generation-manifest.json",
+      "bytes": 2633,
+      "sha256": "2b03dddac4df43623c64c8863a34f84f2720b6d1128b101aae77820a0c85855f"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/generation/prompt-export.mjs",
+      "bytes": 4472,
+      "sha256": "49eb6a5eaa8f77c218d955950b5eb9d7ce37f3dd5553c3a566b6ddcece076ca3"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/generation/run.mjs",
+      "bytes": 3506,
+      "sha256": "742fd1a8c19f3b961d257e9b5a886b315346622e665d1edafe8607078b22a02e"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/integrity-verification.json",
+      "bytes": 700,
+      "sha256": "9a6a5858eed4e16ebbdebcec4464ae0f23a5c27ce540850c5d6cd358389447d4"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/protected-before.json",
+      "bytes": 79694,
+      "sha256": "1f84373c99a71ab0987f3e11c43b0934a1b82dbab6ebf5a87e7e1a883946c02b"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/validation/candidate-only-precheck-2.json",
+      "bytes": 19879,
+      "sha256": "0e1f93925b9723d1441ad62ccd92f800c656a3089456a6d83b4a04cd6304e6c4"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/validation/candidate-only-precheck.json",
+      "bytes": 19948,
+      "sha256": "b2b5625f15501e08e8205395e4cdb8652865089a2b51d53583b8bb8231c293be"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/validation/compare.mjs",
+      "bytes": 3594,
+      "sha256": "ec4dc7f0c53cdee99cee3e9764f31030382d127c852e1628f87200746874bfc4"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/validation/freeze-rejection.mjs",
+      "bytes": 6217,
+      "sha256": "b86aaa84ee018d4acf3516539847f7eb76ca91330909ed40d0d97bccc20ced98"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/validation/local-results.json",
+      "bytes": 19975,
+      "sha256": "5b2976e5841a2b372bc1f82a548d89cc1cc79ccf92e0f07efef33a662be9467c"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/validation/local.mjs",
+      "bytes": 9988,
+      "sha256": "34bfaa8cb45838827fcafa95d41594bff7a59bc782adf3a0c222279db0ccceb5"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/validation/prompt-precheck.json",
+      "bytes": 1693,
+      "sha256": "02ddaef5c17bf292203ee292df59e8b286bce167ff2073709f2409361326a80e"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/validation/run-sealed.mjs",
+      "bytes": 1649,
+      "sha256": "1affa09ca2e9ceb30240aae391a4e918b2fe46b257bdefc51ab5f2b7ae10f214"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/validation/sealed-exclusion-results.json",
+      "bytes": 3395,
+      "sha256": "7cfc819cb241a879dfef18b6350131fe977f4a55093c702d698b13e8ddb57b75"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v1/validation/sealed-exclusion.mjs",
+      "bytes": 5137,
+      "sha256": "473441fc61bd8257e952e0cff08efec32ebd2bc499a78f7ddf06cdbfa8e2b62c"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/README.md",
+      "bytes": 2867,
+      "sha256": "868d5e491a49db75690b342beb2eaa553a6e4cbc07c7d4d3dd7e89e649005f66"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/admission-decision.json",
+      "bytes": 939,
+      "sha256": "7f5f44cb9db487573040f4be192da0aa6c12a10a6d7e7369494f6347f149f95b"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/admitted/dataset.jsonl",
+      "bytes": 11081938,
+      "sha256": "264400230331a4fbc638889ace7cce9d330f36a4916d204858daf78e541e5ee0"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/admitted/dev.jsonl",
+      "bytes": 9728752,
+      "sha256": "5020a7f69c332f7f616bd9f05c0cb76a2afdbe2f6062e1f7c8d9ce37cd9328de"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/admitted/internal-test.jsonl",
+      "bytes": 9766578,
+      "sha256": "005da9997b224c80e4beeb77b3e9fd129a36107157670fca23c8d7c575ee4270"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/admitted/split-index.jsonl",
+      "bytes": 2173077,
+      "sha256": "dd0f3a8c933ed0b34d2eddba245358ea9534a3c9742d3e3f820b10df198072ad"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/admitted/train.jsonl",
+      "bytes": 77243931,
+      "sha256": "4e38c9d41452a0b923caaa8a4306008ad9119bca9dfaf510a01b26b7c466eb62"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/candidate/dataset.jsonl",
+      "bytes": 11081938,
+      "sha256": "264400230331a4fbc638889ace7cce9d330f36a4916d204858daf78e541e5ee0"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/candidate/generation-result.json",
+      "bytes": 987,
+      "sha256": "0d39755c381040b09be8e2536e10f8f2a058d3d1823631fe9a65da1ff348ee8f"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/checker-continuity.json",
+      "bytes": 694,
+      "sha256": "e963d586ed80f54cd883ef27e643e416a46d4253708232c1077c67265929a9a0"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/dataset-manifest.json",
+      "bytes": 8203,
+      "sha256": "1f3b0c9cbc9c4231ca9e432d47ed6521a14f8a04ddaeaa106f93ce4d0a582346"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/evidence-hashes.sha256",
+      "bytes": 4909,
+      "sha256": "6a5993f68636d69d8e779c9f86bf9e90f37f8e1827e5deb7a520c0f702cc29f0"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/generation/boundaries.mjs",
+      "bytes": 16410,
+      "sha256": "5213186f435c378d587824a2fd7aaff884ac75758605f032dc4d5ca999b96b5b"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/generation/finalize.mjs",
+      "bytes": 9171,
+      "sha256": "385068308e2ef7439b5ad7b84a48fbc197a30d8083ae7f873f3403e8720276fb"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/generation/generate.mjs",
+      "bytes": 15916,
+      "sha256": "d7e26b08f5d0bef8e68eb3f715279856dffddfddc6a530d8b86b7973b1c1b2a8"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/generation/language.mjs",
+      "bytes": 37705,
+      "sha256": "3458b42f3566fa5c6569decfa1aa04d2fe1e975b823ca9be1c979aa56827d43c"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/generation/operations.mjs",
+      "bytes": 16475,
+      "sha256": "06968db88f9c2cf2a9db1ecbe82c36ec6fed3b8c01c9509142cd8184b99ddd0c"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/generation/pre-generation-manifest.json",
+      "bytes": 3860,
+      "sha256": "ce342685493163cd59eb54718c7e59af6d381dcdf8914d839a1926cb19d43d08"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/generation/prompt-export.mjs",
+      "bytes": 4472,
+      "sha256": "49eb6a5eaa8f77c218d955950b5eb9d7ce37f3dd5553c3a566b6ddcece076ca3"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/generation/run.mjs",
+      "bytes": 3737,
+      "sha256": "044cdcb351960487660cad6f6f852f3e3cb7335ddc77cdfd909ce249ab577ec4"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/integrity-verification.json",
+      "bytes": 587,
+      "sha256": "b66b6b0ad3e2d88239c80e9ebf85b44c30536ffcf3819506875d12d965f328e5"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/protected-before.json",
+      "bytes": 83418,
+      "sha256": "56b149807ee715a58816760e0464175b6f46f232794e4733c84b7d57d65e2553"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/validation/candidate-only-precheck-2.json",
+      "bytes": 19971,
+      "sha256": "e04f228c2327caf476d92448e39c13d4630928bc6b68b0a3823d7ce7ab22df44"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/validation/candidate-only-precheck.json",
+      "bytes": 20111,
+      "sha256": "0692ab30970e3baa386d5caf7e4f40af6fb84d6b8c113ce4c4d4e6baee55fc71"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/validation/compare.mjs",
+      "bytes": 3594,
+      "sha256": "ec4dc7f0c53cdee99cee3e9764f31030382d127c852e1628f87200746874bfc4"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/validation/inspect-candidate.mjs",
+      "bytes": 781,
+      "sha256": "405174aa979b918f3d2ce0f0e8250d459a852a5e2d7390084f4b72bc99e3ce0b"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/validation/local-results.json",
+      "bytes": 19971,
+      "sha256": "1790920eae2f032d598e8ad63772cbe831f739d0db3c490608b917783c0632ee"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/validation/local.mjs",
+      "bytes": 9988,
+      "sha256": "34bfaa8cb45838827fcafa95d41594bff7a59bc782adf3a0c222279db0ccceb5"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/validation/prompt-export-results.json",
+      "bytes": 1891,
+      "sha256": "cdea9f1f7df02a2ce0b6b6682bc974099f4dc2587a614f7d1e5c4219235ee27d"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/validation/prompt-precheck.json",
+      "bytes": 1749,
+      "sha256": "2ae7bb52b2601f64473386653ebd2ae7ff3b222fde4845ddf190df05e876793f"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/validation/prompt-precheck.mjs",
+      "bytes": 1152,
+      "sha256": "d2b81e4d171902260914c44d6060b534fac9dd7383c7dcb8a4f832e79beca5f7"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/validation/run-sealed.mjs",
+      "bytes": 1649,
+      "sha256": "1affa09ca2e9ceb30240aae391a4e918b2fe46b257bdefc51ab5f2b7ae10f214"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/validation/sealed-exclusion-results.json",
+      "bytes": 3395,
+      "sha256": "56bb1915d5f71f8125a55d4341d845fc4a4c39dc98940500359eac928772f46f"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/validation/sealed-exclusion.mjs",
+      "bytes": 5137,
+      "sha256": "473441fc61bd8257e952e0cff08efec32ebd2bc499a78f7ddf06cdbfa8e2b62c"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/validation/v1-independence-invocation.json",
+      "bytes": 865,
+      "sha256": "8787a4d2b3b1874c3251e97c7ed0173532e05c9fcb79f8a7b8e76ef654e17884"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/validation/v1-independence-results.json",
+      "bytes": 942,
+      "sha256": "edbc6e5a95c7be2468d7bfe57ee8c774400eb8f2b80978348f8913bc1aae0046"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/dataset-v2/validation/v1-independence.mjs",
+      "bytes": 3126,
+      "sha256": "4fcedc163b9d659d7ebd831f9861261b5653af66338445e2417a4cb1cac093d9"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/environment-readiness.json",
+      "bytes": 670,
+      "sha256": "7344e243bd5c3d7eefcaa3245bd265cf25b2c48869ef7efe28b053d0eb3f2aad"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/evidence-hashes.sha256",
+      "bytes": 1442,
+      "sha256": "898af9e66d0744ad3e02a09958146b7ddb57706acba164ede4e5521a820a4814"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/finalize-preparation.mjs",
+      "bytes": 10436,
+      "sha256": "dd684b19e944c219e2f3f1ac5cdfa6da86e54764b7345340a035c8712a31a7b7"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/inspect-assets.mjs",
+      "bytes": 7760,
+      "sha256": "b093b7551381bbb619e4fb45618b5f1ec9c50fdb07b3419cc20fdf21c685ba3c"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/integrity-verification.json",
+      "bytes": 1206,
+      "sha256": "2cc0a3e59c85e2ecebc5fb593350860953a8803e1bcd3cfc67d6d4c69358be33"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/preparation-plan.json",
+      "bytes": 8937,
+      "sha256": "65927c050e88b08595794e9605e0e38eade0e4b988feabd51b061614b8389beb"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/protected-before.json",
+      "bytes": 78028,
+      "sha256": "3fcf3ceb4fe9d6f4b6e753ba6989ff423d3ed8fffbeb5754ece4fc911932c519"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/README.md",
+      "bytes": 14423,
+      "sha256": "fc902b419eefe78680c85836791658339e338cbfec77be6fb3acb7c6532f2723"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/base_lock.json",
+      "bytes": 1550,
+      "sha256": "440c234ba99c02e0a936c8ba911fd0cbfd49b8b02ea8f99a502148831d4218a1"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/build_colab_bundle.py",
+      "bytes": 1797,
+      "sha256": "0db6d2d6d12b32a784fcf686274c2dbb04a029e263967934eebce09319aabbab"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/colab-training-package.zip.sha256",
+      "bytes": 92,
+      "sha256": "75e4130b305c227147fdd497dbf53572f0554a03a2a6ced93faa0d66a981ab4f"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/config.json",
+      "bytes": 1557,
+      "sha256": "96c7cfb6a215e2f8b1a472f9d16972334304fa6fefc9803dc06610bbac967d43"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/contracts.json",
+      "bytes": 22417,
+      "sha256": "935b62daa020e4244f762e396ec7fd4e2461b966d083d78a2a5e44a9af151642"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/data.py",
+      "bytes": 8175,
+      "sha256": "fb6a79d83c7bcf70391adebb035f0978670ad8a01d9e1a0eabdfe883592489ba"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/data/dev-metadata.jsonl",
+      "bytes": 147092,
+      "sha256": "7e459b1866045282d4f68ac7bc565f070c4887e362d2badcaa53dc6aab067961"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/data/dev.jsonl",
+      "bytes": 9728752,
+      "sha256": "5020a7f69c332f7f616bd9f05c0cb76a2afdbe2f6062e1f7c8d9ce37cd9328de"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/data/train-metadata.jsonl",
+      "bytes": 1182893,
+      "sha256": "5c354880c717fc869e770c798cb552e07ed75faa4514383a9ec881d3ee326ab0"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/data/train.jsonl",
+      "bytes": 77243931,
+      "sha256": "4e38c9d41452a0b923caaa8a4306008ad9119bca9dfaf510a01b26b7c466eb62"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/data_lock.json",
+      "bytes": 1201,
+      "sha256": "92e1daab8f34b04d81008ef089f37bb0bc96947ec0eb1fce18c39a8734ad16cb"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/dataset-v2-admission-decision.json",
+      "bytes": 939,
+      "sha256": "7f5f44cb9db487573040f4be192da0aa6c12a10a6d7e7369494f6347f149f95b"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/dataset-v2-dataset-manifest.json",
+      "bytes": 8203,
+      "sha256": "1f3b0c9cbc9c4231ca9e432d47ed6521a14f8a04ddaeaa106f93ce4d0a582346"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/masking.py",
+      "bytes": 3600,
+      "sha256": "04f607f78582eb03039399b71a3f0d9d7b0152f0fca3aa46e8eac6434166bdc7"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/metrics.py",
+      "bytes": 3845,
+      "sha256": "10685adb55da6f8baf7e92c43207ede43c60332180a8a7aaa431e6d82c1c8b7b"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/package-hashes.sha256",
+      "bytes": 3101,
+      "sha256": "9d6d7de93828fabf2a6b5ed038b594f056773bec61503a468e1c88e60022e65c"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/preparation-results.json",
+      "bytes": 1705,
+      "sha256": "d983ca25848c93d8d8da0acc0926a8996191654b2b8503c59637d653e852865e"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/prepare_bundle.py",
+      "bytes": 5637,
+      "sha256": "236ddc0fecb9837330b746118f7e575cfa0dab6044c0857f073f513eb690ce71"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/prior_evidence_lock.json",
+      "bytes": 524,
+      "sha256": "1cf619974663ec2fcb8efafbad5c303d6cfcde859ab384e791b36e816838c22c"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/qa/export_semantic_fixtures.mjs",
+      "bytes": 2449,
+      "sha256": "e1158791f3e8e7306b3394be73fdc171b16a3c4b4cf6f8144e077395499252cd"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/qa/finalize_preparation.py",
+      "bytes": 3639,
+      "sha256": "2b4b549396fee9d7dadb196938a8b1c60f2a2a697f62dba18fa09d66e01a5ac7"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/qa/semantic-parity-fixtures.json",
+      "bytes": 25773,
+      "sha256": "c06d9505b7e315e1f65875292fc6753267cd1a324b731d3c46c1f6816afab0b4"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/qa/test_package.py",
+      "bytes": 6178,
+      "sha256": "ed7eca7d21a07f5638914e0b187e3c96f4ada4c542b18ecdcd4c5108a365eda6"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/qa/tokenizer-results.json",
+      "bytes": 1838,
+      "sha256": "29d0309a9709b1421cb1a12ecb79329860caf6096ceb6fdc587eac61622cd353"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/qa/unit-results-initial.json",
+      "bytes": 138,
+      "sha256": "5e5d49daa31db9f267695017a09c2f2c2a3c8b54ef9a03d537a04229bf88082a"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/qa/unit-results.json",
+      "bytes": 138,
+      "sha256": "5e5d49daa31db9f267695017a09c2f2c2a3c8b54ef9a03d537a04229bf88082a"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/qa/verify_tokenizer.py",
+      "bytes": 3244,
+      "sha256": "7df77467c4d28624ed1bd08da40e31f59414295f2c6b4051f808d3651c82c008"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/requirements.txt",
+      "bytes": 331,
+      "sha256": "50544b301b784f252b21b75e4ba10e529e51ff034345725978c5de5e9e98dc30"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/tokenizer/LICENSE",
+      "bytes": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/tokenizer/config.json",
+      "bytes": 727,
+      "sha256": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/tokenizer/generation_config.json",
+      "bytes": 239,
+      "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/tokenizer/merges.txt",
+      "bytes": 1671839,
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/tokenizer/tokenizer.json",
+      "bytes": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/tokenizer/tokenizer_config.json",
+      "bytes": 10834,
+      "sha256": "60adcfc35f5f251e19a196ec977b4ca0fcfb534852911b3196d68d5e3b146aa0"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/tokenizer/vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/train.py",
+      "bytes": 17578,
+      "sha256": "aa11e7a497e22d588b8576ca014cb86088be6e181e26dc30c100ed7382327c07"
+    },
+    {
+      "path": "docs/fine-tuning/training/qlora/training-package/trainer_impl.py",
+      "bytes": 3558,
+      "sha256": "1e9703b864255b2dc9fcef7d6ea9b2faa4dca2b4aef3a4202eea472b1e259551"
+    }
+  ]
+}

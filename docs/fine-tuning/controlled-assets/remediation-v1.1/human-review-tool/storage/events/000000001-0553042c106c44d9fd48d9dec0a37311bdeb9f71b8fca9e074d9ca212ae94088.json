@@ -1,0 +1,15 @@
+{
+  "version": "CEB-HUMAN-REVIEW-1",
+  "sequence": 1,
+  "previousEventHash": null,
+  "timestamp": "2026-10-25T08:45:01.804Z",
+  "assetManifestHash": "eb78757c6ec01d4fff6fb473e11ca7d0d5e83cf68541e487acf61b6644742a7e",
+  "kind": "reviewerProfile",
+  "value": {
+    "pseudonym": "Reviewer-MA-01",
+    "competence": "Arabic (Jordanian/MSA) and English speaker with AI/HR system knowledge",
+    "independenceStatement": "I am independently reviewing the generated records and did not author the dataset templates",
+    "humanIndependent": true
+  },
+  "eventHash": "0553042c106c44d9fd48d9dec0a37311bdeb9f71b8fca9e074d9ca212ae94088"
+}

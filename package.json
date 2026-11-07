@@ -1,0 +1,29 @@
+{
+  "name": "hr-suite",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": [
+    "packages/contracts",
+    "services/hr-api",
+    "apps/hr-web"
+  ],
+  "scripts": {
+    "dev": "concurrently --names api,web --prefix-colors cyan,magenta --kill-others \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:api": "npm run dev --workspace=@hr/server",
+    "dev:web": "npm run dev --workspace=hr-app",
+    "dev:lan": "concurrently --names api,web --prefix-colors cyan,magenta --kill-others \"npm:dev:api\" \"npm run dev --workspace=hr-app -- --host\"",
+    "build": "npm run build -w @hr/shared && npm run build -w @hr/server && npm run build -w hr-app",
+    "check": "npm run check --workspaces --if-present",
+    "db:generate": "npm run db:generate --workspace=@hr/server",
+    "db:migrate": "npm run db:migrate --workspace=@hr/server",
+    "db:seed": "npm run db:seed --workspace=@hr/server",
+    "start": "npm run start -w @hr/server"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

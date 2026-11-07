@@ -1,0 +1,78 @@
+PASS 01 completed interview keeps evaluation PENDING
+PASS 02 completed input contains persisted final answers and no PII/secrets/HR notes
+PASS 03 input uses frozen 0–4 rubric
+PASS 04 later JD mutation does not alter frozen input
+PASS 05 later scorecard mutation does not alter frozen weights
+PASS 06 same input has same canonical SHA256
+PASS 07 changed final answer changes hash
+PASS 08 changed rubric version changes hash
+PASS 09 changed criterion mapping changes hash
+PASS 10 irrelevant answer finalized timestamps excluded from input
+PASS 11 assessed criterion has score, rationale and valid evidence
+PASS 12 NOT_ASSESSED is null and no evidence
+PASS 13 unknown mock answers become NOT_ASSESSED, never zero
+PASS 14 missing approved criterion is not omitted or zeroed
+PASS 15 partial fixture becomes PARTIALLY_ASSESSED
+PASS 16 NOT_ASSESSED with numeric zero is rejected by shared contract
+PASS 17 exact persisted quote validates
+PASS 18 invented quote rejected
+PASS 19 wrong turn rejected
+PASS 20 wrong question rejected
+PASS 21 wrong event sequence rejected
+PASS 22 invalid offset rejected
+PASS 23 correct offsets accepted
+PASS 24 Arabic exact Unicode quotes validate
+PASS 25 mixed Arabic/English exact quotes validate without normalization
+PASS 26 partial transcript cannot support a score/evidence
+PASS 27 HR notes cannot be used as quoted evidence
+PASS 28 uncertain transcript is NOT_ASSESSED
+PASS 29 incomplete question delivery does not support scoring
+PASS 30 multiple valid evidence items supported
+PASS 31 duplicate evidence ids rejected
+PASS 32 coverage counts are calculated from criterion statuses
+PASS 33 coverage explicitly counts not assessed
+PASS 34 coverage percent measures tested criteria, not performance
+PASS 35 tampered coverage rejected
+PASS 36 frozen approved weights retained without invented aggregation
+PASS 37 NOT_ASSESSED excluded from all numeric scoring
+PASS 38 no hidden/equal overall weighting generated
+PASS 39 no approved aggregation => no overall score
+PASS 40 strength references criterion evidence
+PASS 41 unsupported strength rejected
+PASS 42 weak fixture concern is supported by exact evidence
+PASS 43 lack of testing is limitation, not candidate weakness
+PASS 44 unknown hiring decision field rejected by closed report schema
+PASS 45 protected trait result cannot enter approved criteria
+PASS 46 PENDING -> RUNNING is persisted before evaluator execution
+PASS 47 RUNNING -> COMPLETED persisted with versioned report
+PASS 48 duplicate job execution leaves report byte-identical
+PASS 49 request response-loss retry uses durable receipt
+PASS 50 reevaluation creates v2 and preserves v1
+PASS 51 legacy GENERATE_EVALUATION cannot overwrite new reports
+PASS 52 RUNNING -> FAILED stores only safe failure code
+PASS 53 evaluation failure leaves interview COMPLETED
+PASS 54 evaluation failure preserves all finalized answers
+PASS 55 retry uses same frozen input and evaluator version
+PASS 56 retry succeeds and preserves failed attempt metadata
+PASS 57 retry after completion cannot duplicate report
+PASS 58 invented evaluator quote fails entire report before persistence
+PASS 59 authorized HR marks reviewed independently of evaluation
+PASS 60 review metadata persists across service reload
+PASS 61 employee cannot review
+PASS 62 manager denied by default
+PASS 63 candidate cannot review
+PASS 64 review audited without note/transcript leakage
+PASS 65 HR/Admin report endpoints permitted
+PASS 66 candidate cannot fetch report or evidence trace
+PASS 67 employee/manager endpoints denied
+PASS 68 Candidate A cannot access B report via any candidate session
+PASS 69 wrong application relation cannot fetch report
+PASS 70 candidate DTO and replay leak no report fields
+PASS 71 review changes do not mutate immutable report or input
+PASS 72 application hiring status never changed by evaluation/review
+PASS 73 pending job survives new service instance
+PASS 74 expired worker lease is reclaimed and stale worker cannot overwrite report
+PASS 75 review receipt is idempotent and bound to exact note
+PASS 76 zero external model/network calls
+
+76/76 Phase 4 report checks passed; external network attempts=0

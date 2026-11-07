@@ -1,0 +1,80 @@
+{
+  "capturedAt": "2026-10-26T12:43:37.223Z",
+  "sourceUrl": "https://huggingface.co/api/models/Qwen/Qwen3-4B-Thinking-2507/revision/a847ed9e9f50a0cdd07e38aba12f9e6755e3c141?blobs=true",
+  "status": 200,
+  "responseSha256": "4eee07d50e9a1d4cd94b922c9cfed47716fe8c55b597e585ded24cd716acba5c",
+  "firstUploadRevision": "a847ed9e9f50a0cdd07e38aba12f9e6755e3c141",
+  "pinnedPublisherRevision": "768f209d9ea81521153ed38c47d515654e938aea",
+  "files": [
+    {
+      "file": "config.json",
+      "firstBlobId": "6988f134db143052042f2bd6e0c897bc6a605189",
+      "pinnedBlobId": "6988f134db143052042f2bd6e0c897bc6a605189",
+      "same": true
+    },
+    {
+      "file": "generation_config.json",
+      "firstBlobId": "20a8a9156fc8c3f25295ca067f61fdf120d517c5",
+      "pinnedBlobId": "20a8a9156fc8c3f25295ca067f61fdf120d517c5",
+      "same": true
+    },
+    {
+      "file": "merges.txt",
+      "firstBlobId": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0",
+      "pinnedBlobId": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0",
+      "same": true
+    },
+    {
+      "file": "model-00001-of-00003.safetensors",
+      "firstBlobId": "9283db5ecbec606c21c3948b577df8b845934f3d",
+      "pinnedBlobId": "9283db5ecbec606c21c3948b577df8b845934f3d",
+      "firstLfsSha256": "98178c1cddbca8ad76102afdbf76e4df79b64b82377ad4dca34c755cac00571a",
+      "pinnedLfsSha256": "98178c1cddbca8ad76102afdbf76e4df79b64b82377ad4dca34c755cac00571a",
+      "same": true
+    },
+    {
+      "file": "model-00002-of-00003.safetensors",
+      "firstBlobId": "a789e04cb3865d37334314d148e02bf18ffff780",
+      "pinnedBlobId": "a789e04cb3865d37334314d148e02bf18ffff780",
+      "firstLfsSha256": "57b5bd1f667d420350f169342a90b50e5ffc2aa202ba1819da1af3367ff2261f",
+      "pinnedLfsSha256": "57b5bd1f667d420350f169342a90b50e5ffc2aa202ba1819da1af3367ff2261f",
+      "same": true
+    },
+    {
+      "file": "model-00003-of-00003.safetensors",
+      "firstBlobId": "32a2211a0a75b157ca6a0dec8f1f3da16c5b0788",
+      "pinnedBlobId": "32a2211a0a75b157ca6a0dec8f1f3da16c5b0788",
+      "firstLfsSha256": "e3cccb84e8926f3f18c334465639939a68af310b0729938fccc2de66a9a31953",
+      "pinnedLfsSha256": "e3cccb84e8926f3f18c334465639939a68af310b0729938fccc2de66a9a31953",
+      "same": true
+    },
+    {
+      "file": "model.safetensors.index.json",
+      "firstBlobId": "4747b0297d3109f14db49886972e3369c9a00b2a",
+      "pinnedBlobId": "4747b0297d3109f14db49886972e3369c9a00b2a",
+      "same": true
+    },
+    {
+      "file": "tokenizer.json",
+      "firstBlobId": "cd71f61a15a522601badb3dc960d800d9cb3766c",
+      "pinnedBlobId": "cd71f61a15a522601badb3dc960d800d9cb3766c",
+      "firstLfsSha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "pinnedLfsSha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "same": true
+    },
+    {
+      "file": "tokenizer_config.json",
+      "firstBlobId": "8dec7d58dda385ce95b469aa2d277ec162168e58",
+      "pinnedBlobId": "8dec7d58dda385ce95b469aa2d277ec162168e58",
+      "same": true
+    },
+    {
+      "file": "vocab.json",
+      "firstBlobId": "4783fe10ac3adce15ac8f358ef5462739852c569",
+      "pinnedBlobId": "4783fe10ac3adce15ac8f358ef5462739852c569",
+      "same": true
+    }
+  ],
+  "allWeightConfigTokenizerFilesUnchangedSinceFirstUpload": true,
+  "limitation": "Publisher history equivalence does not attest which revision Ollama used to convert the pinned GGUF."
+}

@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "data": {
+    "splits": {
+      "train": {
+        "examples": 6400,
+        "languages": {
+          "mixed": 1600,
+          "ar-JO": 1600,
+          "ar-MSA": 1600,
+          "en": 1600
+        },
+        "families": 1600,
+        "schema_and_semantics": "PASS"
+      },
+      "dev": {
+        "examples": 800,
+        "languages": {
+          "en": 200,
+          "ar-JO": 200,
+          "mixed": 200,
+          "ar-MSA": 200
+        },
+        "families": 200,
+        "schema_and_semantics": "PASS"
+      }
+    },
+    "internal_test_opened": false,
+    "forbidden_corpora_used": false
+  },
+  "train": {
+    "examples": 6400,
+    "min_tokens": 1745,
+    "max_tokens": 3458,
+    "mean_tokens": 2682.09484375,
+    "supervised_tokens": 404760,
+    "truncated_or_dropped": 0,
+    "completion_masks_verified": 6400,
+    "seam_policy": "Separate prefix/suffix encoding; exact full-template text roundtrip",
+    "reasoning_traces": 0,
+    "empty_assistant_thinking_closure_supervised": true
+  },
+  "dev": {
+    "examples": 800,
+    "min_tokens": 1759,
+    "max_tokens": 3427,
+    "mean_tokens": 2697.6675,
+    "supervised_tokens": 50228,
+    "truncated_or_dropped": 0,
+    "completion_masks_verified": 800,
+    "seam_policy": "Separate prefix/suffix encoding; exact full-template text roundtrip",
+    "reasoning_traces": 0,
+    "empty_assistant_thinking_closure_supervised": true
+  },
+  "padded_labels_masked": true,
+  "actual_backend": "tokenizers 0.22.1 with captured pinned tokenizer.json and Jinja template",
+  "hf_autotokenizer_gpu_runtime_checked": false,
+  "model_weights_loaded": false,
+  "forward_calls": 0,
+  "optimizer_steps": 0,
+  "internal_test_payload_opened": false,
+  "elapsed_seconds": 86.62839040020481,
+  "training_started": false
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "case": 1,
+    "scenario": "invalid invite",
+    "result": "PASS",
+    "evidence": "operations-db invalid invite; 401"
+  },
+  {
+    "case": 2,
+    "scenario": "expired invite",
+    "result": "PASS",
+    "evidence": "operations-db expired invite; 401"
+  },
+  {
+    "case": 3,
+    "scenario": "replayed invite",
+    "result": "PASS",
+    "evidence": "operations-db replayed invite; 401"
+  },
+  {
+    "case": 4,
+    "scenario": "revoked invite",
+    "result": "PASS",
+    "evidence": "operations-db revoked invite; 401"
+  },
+  {
+    "case": 5,
+    "scenario": "candidate cross-interview",
+    "result": "PASS",
+    "evidence": "known foreign and nonexistent targets both safe 401"
+  },
+  {
+    "case": 6,
+    "scenario": "forged trusted provider",
+    "result": "PASS",
+    "evidence": "unexposed HTTP route 404 / forged schema 422"
+  },
+  {
+    "case": 7,
+    "scenario": "stale provider event",
+    "result": "PASS",
+    "evidence": "old generation rejected without mutation"
+  },
+  {
+    "case": 8,
+    "scenario": "malformed provider payload",
+    "result": "PASS",
+    "evidence": "closed schema rejects before SQL"
+  },
+  {
+    "case": 9,
+    "scenario": "provider event flood",
+    "result": "PASS",
+    "evidence": "600 malformed rejections then 5 throttles; trusted CLOSE still commits"
+  },
+  {
+    "case": 10,
+    "scenario": "answer submission flood",
+    "result": "PASS",
+    "evidence": "120 audio-v2 typed forgeries denied, then 429; independent unauthenticated 401 after reset"
+  },
+  {
+    "case": 11,
+    "scenario": "forwarded-IP spoofing",
+    "result": "PASS",
+    "evidence": "direct ignores headers; real proxy forged prefix remains 429"
+  },
+  {
+    "case": 12,
+    "scenario": "trusted-proxy client identity",
+    "result": "PASS",
+    "evidence": "actual loopback proxy: 200,429 for same socket client; different source 200"
+  },
+  {
+    "case": 13,
+    "scenario": "invalid Origin",
+    "result": "PASS",
+    "evidence": "valid candidate cookie still 403"
+  },
+  {
+    "case": 14,
+    "scenario": "missing required Origin",
+    "result": "PASS",
+    "evidence": "403 without mutation"
+  },
+  {
+    "case": 15,
+    "scenario": "HR without recruitment permission",
+    "result": "PASS",
+    "evidence": "valid employee session 403"
+  },
+  {
+    "case": 16,
+    "scenario": "candidate attempting HR/report",
+    "result": "PASS",
+    "evidence": "candidate cookie grants no staff session; 401"
+  },
+  {
+    "case": 17,
+    "scenario": "browser provider-only route",
+    "result": "PASS",
+    "evidence": "404; no provider capability from browser data"
+  },
+  {
+    "case": 18,
+    "scenario": "report without authorization",
+    "result": "PASS",
+    "evidence": "401; staff scope independently enforced"
+  },
+  {
+    "case": 19,
+    "scenario": "production debug/test",
+    "result": "PASS",
+    "evidence": "real startup child exits 1"
+  },
+  {
+    "case": 20,
+    "scenario": "production mock activation",
+    "result": "PASS",
+    "evidence": "mock switches/synthetic mode exit 1; original production route gate still fails closed"
+  },
+  {
+    "case": 21,
+    "scenario": "malformed readiness/provider config",
+    "result": "PASS",
+    "evidence": "startup invalid mode exits 1; readiness malformed fields safe 503"
+  }
+]

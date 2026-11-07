@@ -1,0 +1,13 @@
+{
+  "id": "runtime-jobs",
+  "protection": "Phase 5.5 PostgreSQL fairness/restart/fencing/frozen input/security",
+  "command": "node --conditions=development --import tsx src/aiInterviewer/runtime.check.ts",
+  "startedAt": "2026-11-05T08:50:38.733Z",
+  "finishedAt": "2026-11-05T08:50:51.122Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "runtime-jobs.log",
+  "passLines": 30
+}

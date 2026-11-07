@@ -1,0 +1,15 @@
+{
+  "id": "api-build",
+  "protection": "production API emission and compiled migration/data copy",
+  "command": "npm.cmd run build -w @hr/server",
+  "cwd": "",
+  "actualExecutable": "node",
+  "actualArguments": [
+    "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+    "run",
+    "build",
+    "-w",
+    "@hr/server"
+  ],
+  "allowedLoopbackPorts": ""
+}

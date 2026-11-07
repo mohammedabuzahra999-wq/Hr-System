@@ -1,0 +1,277 @@
+{
+  "journalPath": "services/hr-api/drizzle/meta/_journal.json",
+  "migrations": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1789646582042,
+      "tag": "0000_charming_lilandra",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0000_charming_lilandra.sql",
+      "bytes": 8779,
+      "sha256": "b8a240618225a31059b5f56f5ff62e4eaf60e495f0a9642311d06592269e6c76"
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1789829502869,
+      "tag": "0001_reflective_morgan_stark",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0001_reflective_morgan_stark.sql",
+      "bytes": 1208,
+      "sha256": "c37a98e16affa036524777a6ee7c70a8ac803423bfaf0aa7defc6e683694cbe5"
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1789890574316,
+      "tag": "0002_marvelous_stick",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0002_marvelous_stick.sql",
+      "bytes": 3235,
+      "sha256": "24982d6dca4b8be6e52333c6f364f736cf78664ca2053b85c3728fd2c74ae23a"
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1789893272007,
+      "tag": "0003_crazy_franklin_richards",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0003_crazy_franklin_richards.sql",
+      "bytes": 200,
+      "sha256": "594b1f6621142ab6d9a29ad17153db14eac8a7243ae14466513e0027d9b185f0"
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1789895999551,
+      "tag": "0004_pink_epoch",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0004_pink_epoch.sql",
+      "bytes": 80,
+      "sha256": "be5aac8afd706b4e7077651bb9a972dc59c802372a4125c2c15f46ea384084d8"
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1789897511340,
+      "tag": "0005_material_wrecking_crew",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0005_material_wrecking_crew.sql",
+      "bytes": 77,
+      "sha256": "4a0d140a89c2cfe8ad22a9deb8d98e203bc83a1ebb186489ec4d89d6a32b9b27"
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1789908173261,
+      "tag": "0006_fixed_purple_man",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0006_fixed_purple_man.sql",
+      "bytes": 71,
+      "sha256": "6e26f681b32d9612313c4c1ba68958103fbc02c6f054e8f66fc0b193488fd27b"
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1789985232351,
+      "tag": "0007_red_scarlet_witch",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0007_red_scarlet_witch.sql",
+      "bytes": 3009,
+      "sha256": "0af534e0a8e400496665d4f9f6120654374e3923a6201e1f5dbaf3622f828db9"
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1789990877063,
+      "tag": "0008_happy_hannibal_king",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0008_happy_hannibal_king.sql",
+      "bytes": 329,
+      "sha256": "d32c19bf0a0505a95f9acc3bdc321c2d3b576b1ca6e544922ad207cd1ff3adaf"
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1789990878063,
+      "tag": "0009_recruitment_applications",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0009_recruitment_applications.sql",
+      "bytes": 7839,
+      "sha256": "423488f6dcff6fc902d12201c429dfe898caa94d41219bda9e7cecf38718a44d"
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1789990879063,
+      "tag": "0010_cv_files_in_database",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0010_cv_files_in_database.sql",
+      "bytes": 910,
+      "sha256": "365b2875381cdb910065883665163e3f3bf5a3103afc404d43916dba1b4460ff"
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1789990880063,
+      "tag": "0011_drop_portfolio_url",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0011_drop_portfolio_url.sql",
+      "bytes": 699,
+      "sha256": "d5316f55fcee07c4ca84ee307678f79972c8e8ea77f731195ca95ad72159d991"
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1789990881063,
+      "tag": "0012_cv_analyses",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0012_cv_analyses.sql",
+      "bytes": 1825,
+      "sha256": "7aea7753f59f8e9a528ed26194e9ec93ed8f825e155f0f7c9a000f6442beeb70"
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1789990882063,
+      "tag": "0013_payroll_accounting",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0013_payroll_accounting.sql",
+      "bytes": 5411,
+      "sha256": "aacc09117b792f22d8c8b3f1417390d086ab179da14a8351367a9e99c02b3056"
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1789990883063,
+      "tag": "0014_tour_state",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0014_tour_state.sql",
+      "bytes": 528,
+      "sha256": "df106bc79a291d64126903909ec4d97a9a9a9a3ad801d05bd221b79c301b2690"
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1790000000000,
+      "tag": "0015_assistant_memory",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0015_assistant_memory.sql",
+      "bytes": 783,
+      "sha256": "752c2eeda0e77086e4339dd6335d33a28ca89ba4b29ab7f0faf45c57424dac30"
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1790100000000,
+      "tag": "0016_scorecard",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0016_scorecard.sql",
+      "bytes": 657,
+      "sha256": "0d4e0a6bef3257c0d959c8bfece9c84e5ab90fffe84c58155dd652270a62a8d1"
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1790200000000,
+      "tag": "0017_interviews",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0017_interviews.sql",
+      "bytes": 2939,
+      "sha256": "cfb86db033d5058a9d9214e191c07f8284e4f3a774d8296039ac0d88f0765ce2"
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1790300000000,
+      "tag": "0018_interview_review",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0018_interview_review.sql",
+      "bytes": 583,
+      "sha256": "20212c68735ca58dbb98bc1a4079d5caf3643a027183744a9bf3687d8970f185"
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1790400000000,
+      "tag": "0019_assistant_knowledge",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0019_assistant_knowledge.sql",
+      "bytes": 1521,
+      "sha256": "96058b736d9b1823daaebd4da7aab951eee1ca391ac5de489d72a70801687b2f"
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1790500000000,
+      "tag": "0020_assistant_audit",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0020_assistant_audit.sql",
+      "bytes": 908,
+      "sha256": "f2cecaee959ce275988501f25eb96ee909fe6d6f6a47ebef5cb8ec7e72c2f5f2"
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1790600000000,
+      "tag": "0021_scheduled_assessments",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0021_scheduled_assessments.sql",
+      "bytes": 551,
+      "sha256": "8a4e154c459f9c059642c8213af5e4c648df5ee6440b98c1e6dbb8a574cc8587"
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1790700000000,
+      "tag": "0022_assistant_unanswered_questions",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0022_assistant_unanswered_questions.sql",
+      "bytes": 911,
+      "sha256": "f2ebb18f5d06aeac2079f78ceec99f20fb05a1b270ff382ba3171bf3987ce3fc"
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1790800000000,
+      "tag": "0023_payroll_auditor",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0023_payroll_auditor.sql",
+      "bytes": 8139,
+      "sha256": "a1fd8b4f917676b8402e61dcf93b8a1c6adc7b15eff130f6118f54086d0488b9"
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1790900000000,
+      "tag": "0024_voice_audit",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0024_voice_audit.sql",
+      "bytes": 335,
+      "sha256": "e3c651b74ee9c70bf230b0839e3d77056928d53e2103dbf7b4a6744e9875068d"
+    },
+    {
+      "idx": 25,
+      "version": "7",
+      "when": 1791000000000,
+      "tag": "0025_assistant_action_executions",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0025_assistant_action_executions.sql",
+      "bytes": 900,
+      "sha256": "c3fe8a869076bea34aa4cf5d0325eb5619d85d103aa959c886aaffb807d4338c"
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1793500000000,
+      "tag": "0026_ai_interviewer",
+      "breakpoints": true,
+      "path": "services/hr-api/drizzle/0026_ai_interviewer.sql",
+      "bytes": 3341,
+      "sha256": "f7f11f23554e2eb4d19270121a1ab360c5febab4614ea831ffffa0a267824b6d"
+    }
+  ],
+  "relevantInterviewMigration": "0026_ai_interviewer.sql",
+  "subsequentMigrationCount": 0
+}

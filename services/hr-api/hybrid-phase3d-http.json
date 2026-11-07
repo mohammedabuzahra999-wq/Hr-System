@@ -1,0 +1,178 @@
+{
+  "mode": "offline",
+  "terminalCases": [
+    {
+      "id": "en-pay",
+      "kind": "unsupportedCapability",
+      "pass": true,
+      "calls": {
+        "resolveQuestion": 0,
+        "resolveAction": 0,
+        "continueTask": 0,
+        "phraseAnswer": 0,
+        "knowledge": 0,
+        "embeddings": 0,
+        "readExecutor": 0,
+        "actionProposal": 0,
+        "actionExecutor": 0,
+        "network": 0,
+        "database": 0,
+        "memory": 0
+      }
+    },
+    {
+      "id": "en-requests",
+      "kind": "unsupportedCapability",
+      "pass": true,
+      "calls": {
+        "resolveQuestion": 0,
+        "resolveAction": 0,
+        "continueTask": 0,
+        "phraseAnswer": 0,
+        "knowledge": 0,
+        "embeddings": 0,
+        "readExecutor": 0,
+        "actionProposal": 0,
+        "actionExecutor": 0,
+        "network": 0,
+        "database": 0,
+        "memory": 0
+      }
+    },
+    {
+      "id": "en-headcount",
+      "kind": "needsClarification",
+      "pass": true,
+      "calls": {
+        "resolveQuestion": 0,
+        "resolveAction": 0,
+        "continueTask": 0,
+        "phraseAnswer": 0,
+        "knowledge": 0,
+        "embeddings": 0,
+        "readExecutor": 0,
+        "actionProposal": 0,
+        "actionExecutor": 0,
+        "network": 0,
+        "database": 0,
+        "memory": 0
+      }
+    },
+    {
+      "id": "en-ambiguous",
+      "kind": "needsClarification",
+      "pass": true,
+      "calls": {
+        "resolveQuestion": 0,
+        "resolveAction": 0,
+        "continueTask": 0,
+        "phraseAnswer": 0,
+        "knowledge": 0,
+        "embeddings": 0,
+        "readExecutor": 0,
+        "actionProposal": 0,
+        "actionExecutor": 0,
+        "network": 0,
+        "database": 0,
+        "memory": 0
+      }
+    },
+    {
+      "id": "ar-ambiguous",
+      "kind": "needsClarification",
+      "pass": true,
+      "calls": {
+        "resolveQuestion": 0,
+        "resolveAction": 0,
+        "continueTask": 0,
+        "phraseAnswer": 0,
+        "knowledge": 0,
+        "embeddings": 0,
+        "readExecutor": 0,
+        "actionProposal": 0,
+        "actionExecutor": 0,
+        "network": 0,
+        "database": 0,
+        "memory": 0
+      }
+    },
+    {
+      "id": "en-weather",
+      "kind": "outOfScope",
+      "pass": true,
+      "calls": {
+        "resolveQuestion": 0,
+        "resolveAction": 0,
+        "continueTask": 0,
+        "phraseAnswer": 0,
+        "knowledge": 0,
+        "embeddings": 0,
+        "readExecutor": 0,
+        "actionProposal": 0,
+        "actionExecutor": 0,
+        "network": 0,
+        "database": 0,
+        "memory": 0
+      }
+    },
+    {
+      "id": "mixed-weather",
+      "kind": "outOfScope",
+      "pass": true,
+      "calls": {
+        "resolveQuestion": 0,
+        "resolveAction": 0,
+        "continueTask": 0,
+        "phraseAnswer": 0,
+        "knowledge": 0,
+        "embeddings": 0,
+        "readExecutor": 0,
+        "actionProposal": 0,
+        "actionExecutor": 0,
+        "network": 0,
+        "database": 0,
+        "memory": 0
+      }
+    },
+    {
+      "id": "en-science",
+      "kind": "outOfScope",
+      "pass": true,
+      "calls": {
+        "resolveQuestion": 0,
+        "resolveAction": 0,
+        "continueTask": 0,
+        "phraseAnswer": 0,
+        "knowledge": 0,
+        "embeddings": 0,
+        "readExecutor": 0,
+        "actionProposal": 0,
+        "actionExecutor": 0,
+        "network": 0,
+        "database": 0,
+        "memory": 0
+      }
+    }
+  ],
+  "terminalSideEffects": {
+    "resolveQuestion": 0,
+    "resolveAction": 0,
+    "continueTask": 0,
+    "phraseAnswer": 0,
+    "knowledge": 0,
+    "embeddings": 0,
+    "readExecutor": 0,
+    "actionProposal": 0,
+    "actionExecutor": 0,
+    "network": 0,
+    "database": 0,
+    "memory": 0
+  },
+  "realProviderCalls": 0,
+  "auth": "PASS",
+  "validation": "PASS",
+  "rateLimit": "PASS",
+  "pendingSafety": "PASS",
+  "audit": "PASS",
+  "contextSafety": "PASS"
+}

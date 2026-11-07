@@ -1,0 +1,13 @@
+{
+  "id": "contracts-build",
+  "protection": "production contracts emission",
+  "command": "npm.cmd run build -w @hr/shared",
+  "startedAt": "2026-11-03T10:18:28.674Z",
+  "finishedAt": "2026-11-03T10:18:31.371Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 2,
+  "outputLog": "contracts-build.log",
+  "passLines": 0
+}

@@ -1,0 +1,25 @@
+{
+  "release": "dataset-v2",
+  "canonical_dataset_sha256": "264400230331a4fbc638889ace7cce9d330f36a4916d204858daf78e541e5ee0",
+  "counts": {
+    "train": 6400,
+    "dev": 800
+  },
+  "artifacts": {
+    "data/train.jsonl": "4e38c9d41452a0b923caaa8a4306008ad9119bca9dfaf510a01b26b7c466eb62",
+    "data/train-metadata.jsonl": "5c354880c717fc869e770c798cb552e07ed75faa4514383a9ec881d3ee326ab0",
+    "data/dev.jsonl": "5020a7f69c332f7f616bd9f05c0cb76a2afdbe2f6062e1f7c8d9ce37cd9328de",
+    "data/dev-metadata.jsonl": "7e459b1866045282d4f68ac7bc565f070c4887e362d2badcaa53dc6aab067961",
+    "contracts.json": "935b62daa020e4244f762e396ec7fd4e2461b966d083d78a2a5e44a9af151642",
+    "dataset-v2-dataset-manifest.json": "1f3b0c9cbc9c4231ca9e432d47ed6521a14f8a04ddaeaa106f93ce4d0a582346",
+    "dataset-v2-admission-decision.json": "7f5f44cb9db487573040f4be192da0aa6c12a10a6d7e7369494f6347f149f95b"
+  },
+  "internal_test": {
+    "examples": 800,
+    "sha256_from_admitted_manifest_only": "005da9997b224c80e4beeb77b3e9fd129a36107157670fca23c8d7c575ee4270",
+    "payload_opened": false,
+    "included_in_package": false
+  },
+  "split_metadata_only_read_for_lineage": true,
+  "dataset_v1_or_404_or_10k_used": false
+}

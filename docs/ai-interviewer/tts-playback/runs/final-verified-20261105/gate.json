@@ -1,0 +1,13 @@
+{
+  "id": "gate",
+  "protection": "Copilot intent/action authorization independent of model",
+  "command": "npm.cmd run check:gate -w @hr/server",
+  "startedAt": "2026-11-05T09:08:26.920Z",
+  "finishedAt": "2026-11-05T09:08:27.193Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "gate.log",
+  "passLines": 194
+}

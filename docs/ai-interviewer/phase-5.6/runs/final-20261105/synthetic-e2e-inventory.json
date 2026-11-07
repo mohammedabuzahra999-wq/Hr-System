@@ -1,0 +1,14 @@
+{
+  "id": "synthetic-e2e",
+  "protection": "Phase 5.6 combined authenticated API/synthetic audio/durable answer/follow-up/interruption/evaluation/report acceptance",
+  "command": "node --conditions=development --import tsx docs/ai-interviewer/phase-5.6/synthetic.check.ts",
+  "cwd": "",
+  "actualExecutable": "node",
+  "actualArguments": [
+    "--conditions=development",
+    "--import",
+    "tsx",
+    "docs/ai-interviewer/phase-5.6/synthetic.check.ts"
+  ],
+  "allowedLoopbackPorts": "55442"
+}

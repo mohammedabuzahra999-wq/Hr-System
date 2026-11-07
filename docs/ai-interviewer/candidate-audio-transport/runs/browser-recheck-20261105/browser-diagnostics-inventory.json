@@ -1,0 +1,11 @@
+{
+  "id": "browser-diagnostics",
+  "protection": "Read-only metadata trace of unchanged Phase 3 assertions",
+  "command": "node docs/ai-interviewer/candidate-audio-transport/browser-diagnostics.mjs",
+  "cwd": "",
+  "actualExecutable": "node",
+  "actualArguments": [
+    "docs/ai-interviewer/candidate-audio-transport/browser-diagnostics.mjs"
+  ],
+  "allowedLoopbackPorts": "55442,5179,5180,8793,9333"
+}

@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "checks": 19,
+  "externalAttempts": 0,
+  "matrix": [
+    {
+      "scenario": "staff question generation is quarantined until explicit authorized approval",
+      "result": "PASS"
+    },
+    {
+      "scenario": "approved model question text is frozen and delivered by the unchanged engine",
+      "result": "PASS"
+    },
+    {
+      "scenario": "model follow-up selection commits once through engine and durable process receipt",
+      "result": "PASS"
+    },
+    {
+      "scenario": "clarification uses only approved prompt IDs and engine turn limits",
+      "result": "PASS"
+    },
+    {
+      "scenario": "malformed, extra authority and disallowed decisions cannot advance state",
+      "result": "PASS"
+    },
+    {
+      "scenario": "unsafe or scope-changing question proposals are rejected before quarantine commit",
+      "result": "PASS"
+    },
+    {
+      "scenario": "proposal identity conflicts, prompt ID mutations and frozen-plan application fail",
+      "result": "PASS"
+    },
+    {
+      "scenario": "same logical answer with concurrent dispatch invokes the model once",
+      "result": "PASS"
+    },
+    {
+      "scenario": "timeouts retain physical capacity and bounded retry uses new attempt identity",
+      "result": "PASS"
+    },
+    {
+      "scenario": "provider failure exhausts a durable retry budget without hidden calls",
+      "result": "PASS"
+    },
+    {
+      "scenario": "pause/interruption fences a late result; explicit resume can retry the same answer",
+      "result": "PASS"
+    },
+    {
+      "scenario": "server restart requires domain recovery/resume and fences an old owner",
+      "result": "PASS"
+    },
+    {
+      "scenario": "candidate injection remains untrusted data and cannot authorize tools or plan revision",
+      "result": "PASS"
+    },
+    {
+      "scenario": "candidate/staff isolation, forged output endpoint and DTO secrecy remain independent",
+      "result": "PASS"
+    },
+    {
+      "scenario": "expired or revoked sessions cannot drive a new decision",
+      "result": "PASS"
+    },
+    {
+      "scenario": "model latency is independent of another interview warning/deadline",
+      "result": "PASS"
+    },
+    {
+      "scenario": "failed SQL model commit leaves no partial decision, receipt or evaluation",
+      "result": "PASS"
+    },
+    {
+      "scenario": "shutdown cancels pending work and never fabricates a decision",
+      "result": "PASS"
+    },
+    {
+      "scenario": "zero real provider/model calls",
+      "result": "PASS"
+    }
+  ]
+}

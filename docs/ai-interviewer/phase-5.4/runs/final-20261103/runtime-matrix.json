@@ -1,0 +1,1516 @@
+{
+  "checks": 30,
+  "externalAttempts": 0,
+  "singleProcess": true,
+  "fixture": "Real disposable PostgreSQL and unchanged 0026 on synthetic legacy parents; pgvector full-chain blocker open",
+  "matrix": [
+    {
+      "scenario": "pending",
+      "interviewId": "24d01c3e-2bf9-4fdb-a04e-ee3a9cc540c2",
+      "evaluationId": "9107d772-7ee4-4f75-a4ea-07bd57e9c80f",
+      "jobStatus": "PENDING",
+      "reportVersion": 1,
+      "retryCount": 0,
+      "inputHash": "f8e979f56bfc86e67da9dc2b632b27c162904cde42bb297afcd3381740c22ddb",
+      "inputHashPreserved": true,
+      "reportPresent": false,
+      "evidenceStatus": null,
+      "attempts": [],
+      "retryEligible": false,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 16
+    },
+    {
+      "scenario": "success",
+      "interviewId": "6ff1c931-89d5-40ba-9837-49df594f55c2",
+      "evaluationId": "f72ecfdc-ace3-4423-9674-469b04ee57cd",
+      "jobStatus": "COMPLETED",
+      "reportVersion": 1,
+      "retryCount": 0,
+      "inputHash": "02f51fdbe30f8d7a20e54145235d49263d07acec19cf6a96b4cafd8962f565ab",
+      "inputHashPreserved": true,
+      "reportPresent": true,
+      "evidenceStatus": "VALID",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "COMPLETED",
+          "finished": true,
+          "failureCode": null,
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        }
+      ],
+      "retryEligible": false,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_COMPLETED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 18
+    },
+    {
+      "scenario": "exception",
+      "interviewId": "faa59381-096c-499b-989c-85d6d01b1b8c",
+      "evaluationId": "62c972f3-b58d-45a7-9fe8-6e6617001770",
+      "jobStatus": "FAILED",
+      "reportVersion": 1,
+      "retryCount": 0,
+      "inputHash": "bd1cdaf9035775245f3bdfae79cd5c95fb6cc806e5dfad2bf1a9fffe2dad479f",
+      "inputHashPreserved": true,
+      "reportPresent": false,
+      "evidenceStatus": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "FAILED",
+          "finished": true,
+          "failureCode": "MOCK_EVALUATOR_FAILED",
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        }
+      ],
+      "retryEligible": true,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_FAILED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 18
+    },
+    {
+      "scenario": "unavailable",
+      "interviewId": "67de5725-1d62-404c-bbee-45c5ea3524ca",
+      "evaluationId": "dfb43d04-e001-4b85-9394-45d241ec9552",
+      "jobStatus": "FAILED",
+      "reportVersion": 1,
+      "retryCount": 0,
+      "inputHash": "dbd8855b3f8ca36a1f14f4abceb92cfbe2ad94af5baf4636b3bd0130f3ead621",
+      "inputHashPreserved": true,
+      "reportPresent": false,
+      "evidenceStatus": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "FAILED",
+          "finished": true,
+          "failureCode": "MOCK_EVALUATOR_FAILED",
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        }
+      ],
+      "retryEligible": true,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_FAILED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 18
+    },
+    {
+      "scenario": "malformed",
+      "interviewId": "bbcc3cda-6601-4cf1-b2e8-df729e125ea1",
+      "evaluationId": "5ccdb8c9-5059-420f-a46b-aedaf4d8d22d",
+      "jobStatus": "FAILED",
+      "reportVersion": 1,
+      "retryCount": 0,
+      "inputHash": "5ee046fdc139f873e8d32ebffc983c2b1595ee0ee194f65d2924913c4b6756b0",
+      "inputHashPreserved": true,
+      "reportPresent": false,
+      "evidenceStatus": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "FAILED",
+          "finished": true,
+          "failureCode": "EVIDENCE_VALIDATION_FAILED",
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        }
+      ],
+      "retryEligible": true,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_FAILED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 18
+    },
+    {
+      "scenario": "invalid-evidence",
+      "interviewId": "6a82ab36-9cfc-454f-a8a7-f6f12e514967",
+      "evaluationId": "22f28585-c4da-4989-a52b-b927992690f7",
+      "jobStatus": "FAILED",
+      "reportVersion": 1,
+      "retryCount": 0,
+      "inputHash": "82ce53e13c00dcab281411e8a61f85bf2e990817342f21e783df7081b2271b82",
+      "inputHashPreserved": true,
+      "reportPresent": false,
+      "evidenceStatus": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "FAILED",
+          "finished": true,
+          "failureCode": "EVIDENCE_VALIDATION_FAILED",
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        }
+      ],
+      "retryEligible": true,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_FAILED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 18
+    },
+    {
+      "scenario": "timeout",
+      "interviewId": "a72479ce-2fd9-4c88-a6b4-bba8819f942f",
+      "evaluationId": "f56ee3e1-7636-4415-9031-73fc0faada65",
+      "jobStatus": "FAILED",
+      "reportVersion": 1,
+      "retryCount": 0,
+      "inputHash": "a622d96c9874a6d01c9c1c444869617b6ee6951a7bb0cf6c619cf48f32d48349",
+      "inputHashPreserved": true,
+      "reportPresent": false,
+      "evidenceStatus": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "FAILED",
+          "finished": true,
+          "failureCode": "EVALUATOR_TIMEOUT",
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        }
+      ],
+      "retryEligible": true,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_ATTEMPT_TIMED_OUT",
+        "EVALUATION_FAILED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 18
+    },
+    {
+      "scenario": "late A after authoritative B",
+      "interviewId": "7997766e-f52d-48fc-82ba-378e2ce8893c",
+      "evaluationId": "5caf1eff-7fd7-4ab9-abc8-58cf19b8b79d",
+      "jobStatus": "COMPLETED",
+      "reportVersion": 1,
+      "retryCount": 1,
+      "inputHash": "8840b07909077f1580b3e31fd4cfe089853a043532ec45cda2053dc5615e3586",
+      "inputHashPreserved": true,
+      "reportPresent": true,
+      "evidenceStatus": "VALID",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "FAILED",
+          "finished": true,
+          "failureCode": "EVALUATOR_TIMEOUT",
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        },
+        {
+          "attempt": 2,
+          "status": "COMPLETED",
+          "finished": true,
+          "failureCode": null,
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.200Z"
+        }
+      ],
+      "retryEligible": false,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_ATTEMPT_TIMED_OUT",
+        "EVALUATION_FAILED",
+        "EVALUATION_RETRIED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_COMPLETED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 21
+    },
+    {
+      "scenario": "explicit stale A result",
+      "lateAttemptReturned": true,
+      "authoritativeAttempt": 2,
+      "reportUnchanged": true,
+      "inputHashUnchanged": true,
+      "reportVersion": 1
+    },
+    {
+      "scenario": "legacy lease reclaim",
+      "interviewId": "82fb530e-43dd-4e30-afc6-eb885d375736",
+      "evaluationId": "e98e3c53-288e-499c-a7f4-1b48d201f198",
+      "jobStatus": "COMPLETED",
+      "reportVersion": 1,
+      "retryCount": 0,
+      "inputHash": "20e71efe694911feace88ffdded68468c7ed6bc1502e41916d889a221b2ac2f2",
+      "inputHashPreserved": true,
+      "reportPresent": true,
+      "evidenceStatus": "VALID",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "FAILED",
+          "finished": true,
+          "failureCode": "WORKER_LEASE_EXPIRED",
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        },
+        {
+          "attempt": 2,
+          "status": "COMPLETED",
+          "finished": true,
+          "failureCode": null,
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:05:00.101Z"
+        }
+      ],
+      "retryEligible": false,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_RUNNING",
+        "EVALUATION_COMPLETED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 19
+    },
+    {
+      "scenario": "restart PENDING",
+      "interviewId": "be6da3fd-77a5-42c0-8b00-ad77b63703e1",
+      "evaluationId": "9d841e13-ee76-4d84-b35e-36b131e22c9a",
+      "jobStatus": "COMPLETED",
+      "reportVersion": 1,
+      "retryCount": 0,
+      "inputHash": "13e8b5a29ae83bd20232858a0d277384316c36c92ca3f571963426cc0518e6ba",
+      "inputHashPreserved": true,
+      "reportPresent": true,
+      "evidenceStatus": "VALID",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "COMPLETED",
+          "finished": true,
+          "failureCode": null,
+          "ownerId": "owner-b",
+          "deadlineAt": "2027-01-15T08:00:30.000Z"
+        }
+      ],
+      "retryEligible": false,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_COMPLETED",
+        "RUNTIME_RECOVERY_STARTED",
+        "RUNTIME_RECOVERY_COMPLETED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 18
+    },
+    {
+      "scenario": "restart RUNNING",
+      "interviewId": "b2566956-9a31-4bde-b3eb-8c42335a1e36",
+      "evaluationId": "3defaec0-7c28-43e3-8744-df6f3bc9e2b3",
+      "jobStatus": "COMPLETED",
+      "reportVersion": 1,
+      "retryCount": 0,
+      "inputHash": "3acb8dbae74a1e28ded49cfb73767cf43edaa2b62d53c30df9ef8f59da00d7c5",
+      "inputHashPreserved": true,
+      "reportPresent": true,
+      "evidenceStatus": "VALID",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "FAILED",
+          "finished": true,
+          "failureCode": "WORKER_RESTARTED",
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        },
+        {
+          "attempt": 2,
+          "status": "COMPLETED",
+          "finished": true,
+          "failureCode": null,
+          "ownerId": "owner-b",
+          "deadlineAt": "2027-01-15T08:00:30.000Z"
+        }
+      ],
+      "retryEligible": false,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "RUNTIME_RECOVERY_STARTED",
+        "EVALUATION_RUNNING",
+        "RUNTIME_RECOVERY_COMPLETED",
+        "EVALUATION_COMPLETED",
+        "RUNTIME_RECOVERY_STARTED",
+        "RUNTIME_RECOVERY_COMPLETED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 19
+    },
+    {
+      "scenario": "restart after durable commit",
+      "interviewId": "f246dde9-0205-443e-8214-59f5bbb19de3",
+      "evaluationId": "ca3b97b9-666d-4c0b-85e1-c223e7d75a23",
+      "jobStatus": "COMPLETED",
+      "reportVersion": 1,
+      "retryCount": 0,
+      "inputHash": "c2eaf5739175f417c5567190eecc718469cfec24fb8b9700ab7a07d6b8d0c149",
+      "inputHashPreserved": true,
+      "reportPresent": true,
+      "evidenceStatus": "VALID",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "COMPLETED",
+          "finished": true,
+          "failureCode": null,
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        }
+      ],
+      "retryEligible": false,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_COMPLETED",
+        "RUNTIME_RECOVERY_STARTED",
+        "RUNTIME_RECOVERY_COMPLETED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 18
+    },
+    {
+      "scenario": "restart timeout FAILED",
+      "interviewId": "85981a97-be5e-47eb-89d6-ab0c0f88b4c7",
+      "evaluationId": "9844cefb-8f4a-4ae8-8d6a-c99faf02b5f7",
+      "jobStatus": "COMPLETED",
+      "reportVersion": 1,
+      "retryCount": 1,
+      "inputHash": "5589a3d5119ec8ed93d30a659fd5efd32ac51332456843458c17afef9d76328f",
+      "inputHashPreserved": true,
+      "reportPresent": true,
+      "evidenceStatus": "VALID",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "FAILED",
+          "finished": true,
+          "failureCode": "EVALUATOR_TIMEOUT",
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        },
+        {
+          "attempt": 2,
+          "status": "COMPLETED",
+          "finished": true,
+          "failureCode": null,
+          "ownerId": "owner-b",
+          "deadlineAt": "2027-01-15T08:00:30.100Z"
+        }
+      ],
+      "retryEligible": false,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_ATTEMPT_TIMED_OUT",
+        "EVALUATION_FAILED",
+        "RUNTIME_RECOVERY_STARTED",
+        "RUNTIME_RECOVERY_COMPLETED",
+        "EVALUATION_RETRIED",
+        "PLAN_FROZEN",
+        "RUNTIME_RECOVERY_STARTED",
+        "EVALUATION_RUNNING",
+        "RUNTIME_RECOVERY_COMPLETED",
+        "EVALUATION_COMPLETED",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 21
+    },
+    {
+      "scenario": "restart timeout RETRY_PENDING",
+      "interviewId": "88f6c833-3c12-49b8-94df-d34fbb65ddac",
+      "evaluationId": "e4b4f1a0-0c0a-4929-bde1-a36fbd141238",
+      "jobStatus": "COMPLETED",
+      "reportVersion": 1,
+      "retryCount": 1,
+      "inputHash": "84904faf5d69aedfe9c55a26073a70eca9040c28e3e51aa22049613d9d0e293e",
+      "inputHashPreserved": true,
+      "reportPresent": true,
+      "evidenceStatus": "VALID",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "FAILED",
+          "finished": true,
+          "failureCode": "EVALUATOR_TIMEOUT",
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        },
+        {
+          "attempt": 2,
+          "status": "COMPLETED",
+          "finished": true,
+          "failureCode": null,
+          "ownerId": "owner-b",
+          "deadlineAt": "2027-01-15T08:00:30.100Z"
+        }
+      ],
+      "retryEligible": false,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_ATTEMPT_TIMED_OUT",
+        "EVALUATION_FAILED",
+        "EVALUATION_RETRIED",
+        "RUNTIME_RECOVERY_STARTED",
+        "EVALUATION_RUNNING",
+        "PLAN_FROZEN",
+        "RUNTIME_RECOVERY_COMPLETED",
+        "EVALUATION_COMPLETED",
+        "RUNTIME_RECOVERY_STARTED",
+        "RUNTIME_RECOVERY_COMPLETED",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 21
+    },
+    {
+      "scenario": "restart interview ACTIVE",
+      "interviewStatus": "PAUSED",
+      "remainingMs": 75000,
+      "version": 12,
+      "answerCount": 0
+    },
+    {
+      "scenario": "restart interview PAUSED",
+      "interviewStatus": "PAUSED",
+      "remainingMs": 75000,
+      "version": 11,
+      "answerCount": 0
+    },
+    {
+      "scenario": "legacy RUNNING after lease",
+      "interviewId": "3dc6b9fd-a58a-46be-8943-614d73afa27c",
+      "evaluationId": "5d6ef40b-30bd-4654-8bfb-2f031f19e145",
+      "jobStatus": "COMPLETED",
+      "reportVersion": 1,
+      "retryCount": 0,
+      "inputHash": "4257458338ceba31d5d999c01a839425d23d1ca58a8e60671da5061c2e5a4437",
+      "inputHashPreserved": true,
+      "reportPresent": true,
+      "evidenceStatus": "VALID",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "FAILED",
+          "finished": true,
+          "failureCode": "WORKER_LEASE_EXPIRED"
+        },
+        {
+          "attempt": 2,
+          "status": "COMPLETED",
+          "finished": true,
+          "failureCode": null,
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:05:00.100Z"
+        }
+      ],
+      "retryEligible": false,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_COMPLETED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 18
+    },
+    {
+      "scenario": "failure failure retry success",
+      "interviewId": "b95cc8b8-1a0a-4971-a217-888936862d72",
+      "evaluationId": "7a0b48d1-2a33-46b6-aa0e-c799d15cd75c",
+      "jobStatus": "COMPLETED",
+      "reportVersion": 1,
+      "retryCount": 2,
+      "inputHash": "2093b1e6234f5872b2c8a23fa0d12ef1aa5b280a4700c04a3756db04b58f18ea",
+      "inputHashPreserved": true,
+      "reportPresent": true,
+      "evidenceStatus": "VALID",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "FAILED",
+          "finished": true,
+          "failureCode": "MOCK_EVALUATOR_FAILED",
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        },
+        {
+          "attempt": 2,
+          "status": "FAILED",
+          "finished": true,
+          "failureCode": "EVIDENCE_VALIDATION_FAILED",
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        },
+        {
+          "attempt": 3,
+          "status": "COMPLETED",
+          "finished": true,
+          "failureCode": null,
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        }
+      ],
+      "retryEligible": false,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_FAILED",
+        "EVALUATION_RETRIED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_FAILED",
+        "EVALUATION_RETRIED",
+        "PLAN_FROZEN",
+        "EVALUATION_RUNNING",
+        "EVALUATION_COMPLETED",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 24
+    },
+    {
+      "scenario": "result at deadline",
+      "interviewId": "d8b4551f-1703-4228-99ca-da139b09c073",
+      "evaluationId": "f7b9c050-84d1-46ed-b19a-46d7be7d1146",
+      "jobStatus": "FAILED",
+      "reportVersion": 1,
+      "retryCount": 0,
+      "inputHash": "c3d2eda5ce2eb743ce5d33d183f5fd727eecdf374a5b197c30bf85c0a7ca8df7",
+      "inputHashPreserved": true,
+      "reportPresent": false,
+      "evidenceStatus": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "FAILED",
+          "finished": true,
+          "failureCode": "EVALUATOR_TIMEOUT",
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        }
+      ],
+      "retryEligible": true,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_ATTEMPT_TIMED_OUT",
+        "EVALUATION_FAILED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 18
+    },
+    {
+      "scenario": "shutdown while RUNNING",
+      "interviewId": "1c8b46a3-58f8-4495-b279-aa577e384182",
+      "evaluationId": "6c3f4067-4578-46a1-b38a-83f1637ce590",
+      "jobStatus": "FAILED",
+      "reportVersion": 1,
+      "retryCount": 0,
+      "inputHash": "08fe871c886c99ca7a38f4f6d18b2e170448bfc49b40d4db8750219615ab9660",
+      "inputHashPreserved": true,
+      "reportPresent": false,
+      "evidenceStatus": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "FAILED",
+          "finished": true,
+          "failureCode": "EVALUATOR_CANCELLED",
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        }
+      ],
+      "retryEligible": true,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_FAILED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 18
+    },
+    {
+      "scenario": "physical capacity exhausted",
+      "interviewId": "00a8758c-c4b1-40dc-85e7-4ec58fb2fdf2",
+      "evaluationId": "ede72cd2-78db-4621-b885-6201b073895d",
+      "jobStatus": "FAILED",
+      "reportVersion": 1,
+      "retryCount": 0,
+      "inputHash": "073b1579890589fc5d50b5a0c13d3ade644f4acf1ab5ded91c4100e130823e0b",
+      "inputHashPreserved": true,
+      "reportPresent": false,
+      "evidenceStatus": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "FAILED",
+          "finished": true,
+          "failureCode": "EVALUATOR_CAPACITY_EXHAUSTED",
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        }
+      ],
+      "retryEligible": true,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_FAILED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 18
+    },
+    {
+      "scenario": "deterministic fairness",
+      "maintenanceIntervalMs": 1000,
+      "fixtureToleranceMs": 2000,
+      "observedWallMs": 10,
+      "serverDeadlineDelayMs": 0,
+      "activeAnswerCount": 1,
+      "hangingJobStatus": "RUNNING",
+      "otherJobStatus": "COMPLETED",
+      "physicalCalls": 1
+    },
+    {
+      "scenario": "native fairness",
+      "maintenanceIntervalMs": 1000,
+      "fixtureToleranceMs": 2000,
+      "observedWallMs": 532,
+      "serverDeadlineDelayMs": 0,
+      "activeAnswerCount": 1,
+      "hangingJobStatus": "RUNNING",
+      "otherJobStatus": "COMPLETED",
+      "physicalCalls": 1
+    },
+    {
+      "scenario": "input corruption before claim",
+      "interviewId": "7a67f0dd-17a1-4407-8cb4-6f83073cfbc3",
+      "evaluationId": "79124ea0-6e04-4ee9-8921-59f00c7e1c49",
+      "jobStatus": "FAILED",
+      "reportVersion": 1,
+      "retryCount": 0,
+      "inputHash": "b8441ff2ca700e388d74838622c4bb003b7e783b918877bc042f6f9aa9d48893",
+      "inputHashPreserved": true,
+      "reportPresent": false,
+      "evidenceStatus": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "FAILED",
+          "finished": true,
+          "failureCode": "EVALUATION_INPUT_CHANGED",
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        }
+      ],
+      "retryEligible": false,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_FAILED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 18
+    },
+    {
+      "scenario": "source and hash replaced during claim",
+      "interviewId": "37456393-533b-47c9-bad9-07efc81b3111",
+      "evaluationId": "6dc55531-f6c5-434f-b6f6-c27b600b414e",
+      "jobStatus": "FAILED",
+      "reportVersion": 1,
+      "retryCount": 0,
+      "inputHash": "9a1472514047c3f8ec379c76a6ad1eb77467d6599af8479c9c78380695a47f6e",
+      "inputHashPreserved": false,
+      "reportPresent": false,
+      "evidenceStatus": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "FAILED",
+          "finished": true,
+          "failureCode": "EVALUATION_INPUT_CHANGED",
+          "ownerId": "owner-a",
+          "deadlineAt": "2027-01-15T08:00:00.100Z"
+        }
+      ],
+      "retryEligible": false,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_RUNNING",
+        "EVALUATION_FAILED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 18
+    },
+    {
+      "scenario": "invalid durable envelope",
+      "interviewId": "e0f4b7f8-5b59-4591-8508-561495b4b8f7",
+      "evaluationId": "8a331f83-38f1-437c-a0d4-2b3dc7946a37",
+      "jobStatus": "FAILED",
+      "reportVersion": 1,
+      "retryCount": 0,
+      "inputHash": "a6c932cbbd43393fa0218ec423d1066ffb10b968fe9a7dd50dec5a74d9693cee",
+      "inputHashPreserved": true,
+      "reportPresent": false,
+      "evidenceStatus": null,
+      "attempts": [],
+      "retryEligible": false,
+      "answersPreserved": true,
+      "auditActions": [
+        "CREATED",
+        "EVALUATION_REQUESTED",
+        "EVALUATION_FAILED",
+        "PLAN_FROZEN",
+        "INVITATION_GENERATED"
+      ],
+      "versions": 1,
+      "interviewStatus": "COMPLETED",
+      "interviewVersion": 17
+    }
+  ],
+  "diagnostics": [
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "24d01c3e-2bf9-4fdb-a04e-ee3a9cc540c2",
+      "evaluationId": "9107d772-7ee4-4f75-a4ea-07bd57e9c80f",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_completed",
+      "interviewId": "24d01c3e-2bf9-4fdb-a04e-ee3a9cc540c2",
+      "evaluationId": "9107d772-7ee4-4f75-a4ea-07bd57e9c80f",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "6ff1c931-89d5-40ba-9837-49df594f55c2",
+      "evaluationId": "f72ecfdc-ace3-4423-9674-469b04ee57cd",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_completed",
+      "interviewId": "6ff1c931-89d5-40ba-9837-49df594f55c2",
+      "evaluationId": "f72ecfdc-ace3-4423-9674-469b04ee57cd",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "faa59381-096c-499b-989c-85d6d01b1b8c",
+      "evaluationId": "62c972f3-b58d-45a7-9fe8-6e6617001770",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_failed",
+      "interviewId": "faa59381-096c-499b-989c-85d6d01b1b8c",
+      "evaluationId": "62c972f3-b58d-45a7-9fe8-6e6617001770",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "MOCK_EVALUATOR_FAILED"
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "67de5725-1d62-404c-bbee-45c5ea3524ca",
+      "evaluationId": "dfb43d04-e001-4b85-9394-45d241ec9552",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_failed",
+      "interviewId": "67de5725-1d62-404c-bbee-45c5ea3524ca",
+      "evaluationId": "dfb43d04-e001-4b85-9394-45d241ec9552",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "MOCK_EVALUATOR_FAILED"
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "bbcc3cda-6601-4cf1-b2e8-df729e125ea1",
+      "evaluationId": "5ccdb8c9-5059-420f-a46b-aedaf4d8d22d",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_failed",
+      "interviewId": "bbcc3cda-6601-4cf1-b2e8-df729e125ea1",
+      "evaluationId": "5ccdb8c9-5059-420f-a46b-aedaf4d8d22d",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "EVIDENCE_VALIDATION_FAILED"
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "6a82ab36-9cfc-454f-a8a7-f6f12e514967",
+      "evaluationId": "22f28585-c4da-4989-a52b-b927992690f7",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_failed",
+      "interviewId": "6a82ab36-9cfc-454f-a8a7-f6f12e514967",
+      "evaluationId": "22f28585-c4da-4989-a52b-b927992690f7",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "EVIDENCE_VALIDATION_FAILED"
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "a72479ce-2fd9-4c88-a6b4-bba8819f942f",
+      "evaluationId": "f56ee3e1-7636-4415-9031-73fc0faada65",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_timed_out",
+      "interviewId": "a72479ce-2fd9-4c88-a6b4-bba8819f942f",
+      "evaluationId": "f56ee3e1-7636-4415-9031-73fc0faada65",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "EVALUATOR_TIMEOUT"
+    },
+    {
+      "event": "evaluation_attempt_fenced",
+      "interviewId": "a72479ce-2fd9-4c88-a6b4-bba8819f942f",
+      "evaluationId": "f56ee3e1-7636-4415-9031-73fc0faada65",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "LATE_SETTLEMENT"
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "7997766e-f52d-48fc-82ba-378e2ce8893c",
+      "evaluationId": "5caf1eff-7fd7-4ab9-abc8-58cf19b8b79d",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_timed_out",
+      "interviewId": "7997766e-f52d-48fc-82ba-378e2ce8893c",
+      "evaluationId": "5caf1eff-7fd7-4ab9-abc8-58cf19b8b79d",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "EVALUATOR_TIMEOUT"
+    },
+    {
+      "event": "evaluation_retry_scheduled",
+      "interviewId": "7997766e-f52d-48fc-82ba-378e2ce8893c",
+      "reportVersion": 1
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "7997766e-f52d-48fc-82ba-378e2ce8893c",
+      "evaluationId": "5caf1eff-7fd7-4ab9-abc8-58cf19b8b79d",
+      "reportVersion": 1,
+      "attempt": 2
+    },
+    {
+      "event": "evaluation_attempt_completed",
+      "interviewId": "7997766e-f52d-48fc-82ba-378e2ce8893c",
+      "evaluationId": "5caf1eff-7fd7-4ab9-abc8-58cf19b8b79d",
+      "reportVersion": 1,
+      "attempt": 2
+    },
+    {
+      "event": "evaluation_attempt_fenced",
+      "interviewId": "7997766e-f52d-48fc-82ba-378e2ce8893c",
+      "evaluationId": "5caf1eff-7fd7-4ab9-abc8-58cf19b8b79d",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "LATE_SETTLEMENT"
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "82fb530e-43dd-4e30-afc6-eb885d375736",
+      "evaluationId": "e98e3c53-288e-499c-a7f4-1b48d201f198",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "82fb530e-43dd-4e30-afc6-eb885d375736",
+      "evaluationId": "e98e3c53-288e-499c-a7f4-1b48d201f198",
+      "reportVersion": 1,
+      "attempt": 2
+    },
+    {
+      "event": "evaluation_attempt_completed",
+      "interviewId": "82fb530e-43dd-4e30-afc6-eb885d375736",
+      "evaluationId": "e98e3c53-288e-499c-a7f4-1b48d201f198",
+      "reportVersion": 1,
+      "attempt": 2
+    },
+    {
+      "event": "evaluation_attempt_fenced",
+      "interviewId": "82fb530e-43dd-4e30-afc6-eb885d375736",
+      "evaluationId": "e98e3c53-288e-499c-a7f4-1b48d201f198",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "be6da3fd-77a5-42c0-8b00-ad77b63703e1",
+      "evaluationId": "9d841e13-ee76-4d84-b35e-36b131e22c9a",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_completed",
+      "interviewId": "be6da3fd-77a5-42c0-8b00-ad77b63703e1",
+      "evaluationId": "9d841e13-ee76-4d84-b35e-36b131e22c9a",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "b2566956-9a31-4bde-b3eb-8c42335a1e36",
+      "evaluationId": "3defaec0-7c28-43e3-8744-df6f3bc9e2b3",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "b2566956-9a31-4bde-b3eb-8c42335a1e36",
+      "evaluationId": "3defaec0-7c28-43e3-8744-df6f3bc9e2b3",
+      "reportVersion": 1,
+      "attempt": 2
+    },
+    {
+      "event": "evaluation_attempt_completed",
+      "interviewId": "b2566956-9a31-4bde-b3eb-8c42335a1e36",
+      "evaluationId": "3defaec0-7c28-43e3-8744-df6f3bc9e2b3",
+      "reportVersion": 1,
+      "attempt": 2
+    },
+    {
+      "event": "evaluation_attempt_fenced",
+      "interviewId": "b2566956-9a31-4bde-b3eb-8c42335a1e36",
+      "evaluationId": "3defaec0-7c28-43e3-8744-df6f3bc9e2b3",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "f246dde9-0205-443e-8214-59f5bbb19de3",
+      "evaluationId": "ca3b97b9-666d-4c0b-85e1-c223e7d75a23",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_completed",
+      "interviewId": "f246dde9-0205-443e-8214-59f5bbb19de3",
+      "evaluationId": "ca3b97b9-666d-4c0b-85e1-c223e7d75a23",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "85981a97-be5e-47eb-89d6-ab0c0f88b4c7",
+      "evaluationId": "9844cefb-8f4a-4ae8-8d6a-c99faf02b5f7",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_timed_out",
+      "interviewId": "85981a97-be5e-47eb-89d6-ab0c0f88b4c7",
+      "evaluationId": "9844cefb-8f4a-4ae8-8d6a-c99faf02b5f7",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "EVALUATOR_TIMEOUT"
+    },
+    {
+      "event": "evaluation_attempt_fenced",
+      "interviewId": "85981a97-be5e-47eb-89d6-ab0c0f88b4c7",
+      "evaluationId": "9844cefb-8f4a-4ae8-8d6a-c99faf02b5f7",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "LATE_SETTLEMENT"
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "88f6c833-3c12-49b8-94df-d34fbb65ddac",
+      "evaluationId": "e4b4f1a0-0c0a-4929-bde1-a36fbd141238",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_timed_out",
+      "interviewId": "88f6c833-3c12-49b8-94df-d34fbb65ddac",
+      "evaluationId": "e4b4f1a0-0c0a-4929-bde1-a36fbd141238",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "EVALUATOR_TIMEOUT"
+    },
+    {
+      "event": "evaluation_attempt_fenced",
+      "interviewId": "88f6c833-3c12-49b8-94df-d34fbb65ddac",
+      "evaluationId": "e4b4f1a0-0c0a-4929-bde1-a36fbd141238",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "LATE_SETTLEMENT"
+    },
+    {
+      "event": "evaluation_retry_scheduled",
+      "interviewId": "88f6c833-3c12-49b8-94df-d34fbb65ddac",
+      "reportVersion": 1
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "3dc6b9fd-a58a-46be-8943-614d73afa27c",
+      "evaluationId": "5d6ef40b-30bd-4654-8bfb-2f031f19e145",
+      "reportVersion": 1,
+      "attempt": 2
+    },
+    {
+      "event": "evaluation_attempt_completed",
+      "interviewId": "3dc6b9fd-a58a-46be-8943-614d73afa27c",
+      "evaluationId": "5d6ef40b-30bd-4654-8bfb-2f031f19e145",
+      "reportVersion": 1,
+      "attempt": 2
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "b95cc8b8-1a0a-4971-a217-888936862d72",
+      "evaluationId": "7a0b48d1-2a33-46b6-aa0e-c799d15cd75c",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_failed",
+      "interviewId": "b95cc8b8-1a0a-4971-a217-888936862d72",
+      "evaluationId": "7a0b48d1-2a33-46b6-aa0e-c799d15cd75c",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "MOCK_EVALUATOR_FAILED"
+    },
+    {
+      "event": "evaluation_retry_scheduled",
+      "interviewId": "b95cc8b8-1a0a-4971-a217-888936862d72",
+      "reportVersion": 1
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "b95cc8b8-1a0a-4971-a217-888936862d72",
+      "evaluationId": "7a0b48d1-2a33-46b6-aa0e-c799d15cd75c",
+      "reportVersion": 1,
+      "attempt": 2
+    },
+    {
+      "event": "evaluation_attempt_failed",
+      "interviewId": "b95cc8b8-1a0a-4971-a217-888936862d72",
+      "evaluationId": "7a0b48d1-2a33-46b6-aa0e-c799d15cd75c",
+      "reportVersion": 1,
+      "attempt": 2,
+      "code": "EVIDENCE_VALIDATION_FAILED"
+    },
+    {
+      "event": "evaluation_retry_scheduled",
+      "interviewId": "b95cc8b8-1a0a-4971-a217-888936862d72",
+      "reportVersion": 1
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "b95cc8b8-1a0a-4971-a217-888936862d72",
+      "evaluationId": "7a0b48d1-2a33-46b6-aa0e-c799d15cd75c",
+      "reportVersion": 1,
+      "attempt": 3
+    },
+    {
+      "event": "evaluation_attempt_completed",
+      "interviewId": "b95cc8b8-1a0a-4971-a217-888936862d72",
+      "evaluationId": "7a0b48d1-2a33-46b6-aa0e-c799d15cd75c",
+      "reportVersion": 1,
+      "attempt": 3
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "b95cc8b8-1a0a-4971-a217-888936862d72",
+      "evaluationId": "c0b68762-7e13-4007-98cb-9efd96526971",
+      "reportVersion": 2,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_completed",
+      "interviewId": "b95cc8b8-1a0a-4971-a217-888936862d72",
+      "evaluationId": "c0b68762-7e13-4007-98cb-9efd96526971",
+      "reportVersion": 2,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "d8b4551f-1703-4228-99ca-da139b09c073",
+      "evaluationId": "f7b9c050-84d1-46ed-b19a-46d7be7d1146",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_timed_out",
+      "interviewId": "d8b4551f-1703-4228-99ca-da139b09c073",
+      "evaluationId": "f7b9c050-84d1-46ed-b19a-46d7be7d1146",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "EVALUATOR_TIMEOUT"
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "1c8b46a3-58f8-4495-b279-aa577e384182",
+      "evaluationId": "6c3f4067-4578-46a1-b38a-83f1637ce590",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_failed",
+      "interviewId": "1c8b46a3-58f8-4495-b279-aa577e384182",
+      "evaluationId": "6c3f4067-4578-46a1-b38a-83f1637ce590",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "EVALUATOR_CANCELLED"
+    },
+    {
+      "event": "evaluation_attempt_fenced",
+      "interviewId": "1c8b46a3-58f8-4495-b279-aa577e384182",
+      "evaluationId": "6c3f4067-4578-46a1-b38a-83f1637ce590",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "LATE_SETTLEMENT"
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "4f33b012-845d-4970-871b-e9382a315cef",
+      "evaluationId": "4c63efc8-27f9-486c-b6eb-e67ca3be2b23",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "6bd4697c-c771-476a-ac9b-f3a51ae2c1f7",
+      "evaluationId": "73ca5a49-5bb5-4105-b705-17674f3982ba",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_timed_out",
+      "interviewId": "4f33b012-845d-4970-871b-e9382a315cef",
+      "evaluationId": "4c63efc8-27f9-486c-b6eb-e67ca3be2b23",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "EVALUATOR_TIMEOUT"
+    },
+    {
+      "event": "evaluation_attempt_timed_out",
+      "interviewId": "6bd4697c-c771-476a-ac9b-f3a51ae2c1f7",
+      "evaluationId": "73ca5a49-5bb5-4105-b705-17674f3982ba",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "EVALUATOR_TIMEOUT"
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "00a8758c-c4b1-40dc-85e7-4ec58fb2fdf2",
+      "evaluationId": "ede72cd2-78db-4621-b885-6201b073895d",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_capacity_exhausted",
+      "interviewId": "00a8758c-c4b1-40dc-85e7-4ec58fb2fdf2",
+      "evaluationId": "ede72cd2-78db-4621-b885-6201b073895d",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_failed",
+      "interviewId": "00a8758c-c4b1-40dc-85e7-4ec58fb2fdf2",
+      "evaluationId": "ede72cd2-78db-4621-b885-6201b073895d",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "EVALUATOR_CAPACITY_EXHAUSTED"
+    },
+    {
+      "event": "evaluation_attempt_fenced",
+      "interviewId": "4f33b012-845d-4970-871b-e9382a315cef",
+      "evaluationId": "4c63efc8-27f9-486c-b6eb-e67ca3be2b23",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "LATE_SETTLEMENT"
+    },
+    {
+      "event": "evaluation_attempt_fenced",
+      "interviewId": "6bd4697c-c771-476a-ac9b-f3a51ae2c1f7",
+      "evaluationId": "73ca5a49-5bb5-4105-b705-17674f3982ba",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "LATE_SETTLEMENT"
+    },
+    {
+      "event": "evaluation_retry_scheduled",
+      "interviewId": "00a8758c-c4b1-40dc-85e7-4ec58fb2fdf2",
+      "reportVersion": 1
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "00a8758c-c4b1-40dc-85e7-4ec58fb2fdf2",
+      "evaluationId": "ede72cd2-78db-4621-b885-6201b073895d",
+      "reportVersion": 1,
+      "attempt": 2
+    },
+    {
+      "event": "evaluation_attempt_completed",
+      "interviewId": "00a8758c-c4b1-40dc-85e7-4ec58fb2fdf2",
+      "evaluationId": "ede72cd2-78db-4621-b885-6201b073895d",
+      "reportVersion": 1,
+      "attempt": 2
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "c3d5528b-02ab-4c69-99de-6ca18325346c",
+      "evaluationId": "1125b417-ab44-4eca-802c-d0f7222d3a34",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "6e1eddd9-1d75-4d52-b46c-730c7175eaf9",
+      "evaluationId": "f9a235fe-7d64-4a87-9e58-cd37a5d34aac",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_completed",
+      "interviewId": "c3d5528b-02ab-4c69-99de-6ca18325346c",
+      "evaluationId": "1125b417-ab44-4eca-802c-d0f7222d3a34",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_failed",
+      "interviewId": "6e1eddd9-1d75-4d52-b46c-730c7175eaf9",
+      "evaluationId": "f9a235fe-7d64-4a87-9e58-cd37a5d34aac",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "EVALUATOR_CANCELLED"
+    },
+    {
+      "event": "evaluation_attempt_fenced",
+      "interviewId": "6e1eddd9-1d75-4d52-b46c-730c7175eaf9",
+      "evaluationId": "f9a235fe-7d64-4a87-9e58-cd37a5d34aac",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "LATE_SETTLEMENT"
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "58ae4b08-d90e-418f-b02c-5392666f9845",
+      "evaluationId": "100657da-f8d4-44da-9b76-d9aa0cdfca5e",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "d3cd6a10-f6d1-4fc1-9bf1-0a830121a05d",
+      "evaluationId": "f29a4971-12c7-42dc-a10b-a99f0baff09e",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_completed",
+      "interviewId": "d3cd6a10-f6d1-4fc1-9bf1-0a830121a05d",
+      "evaluationId": "f29a4971-12c7-42dc-a10b-a99f0baff09e",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_failed",
+      "interviewId": "58ae4b08-d90e-418f-b02c-5392666f9845",
+      "evaluationId": "100657da-f8d4-44da-9b76-d9aa0cdfca5e",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "EVALUATOR_CANCELLED"
+    },
+    {
+      "event": "evaluation_attempt_fenced",
+      "interviewId": "58ae4b08-d90e-418f-b02c-5392666f9845",
+      "evaluationId": "100657da-f8d4-44da-9b76-d9aa0cdfca5e",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "LATE_SETTLEMENT"
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "7a67f0dd-17a1-4407-8cb4-6f83073cfbc3",
+      "evaluationId": "79124ea0-6e04-4ee9-8921-59f00c7e1c49",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_failed",
+      "interviewId": "7a67f0dd-17a1-4407-8cb4-6f83073cfbc3",
+      "evaluationId": "79124ea0-6e04-4ee9-8921-59f00c7e1c49",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "EVALUATION_INPUT_CHANGED"
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "37456393-533b-47c9-bad9-07efc81b3111",
+      "evaluationId": "6dc55531-f6c5-434f-b6f6-c27b600b414e",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_failed",
+      "interviewId": "37456393-533b-47c9-bad9-07efc81b3111",
+      "evaluationId": "6dc55531-f6c5-434f-b6f6-c27b600b414e",
+      "reportVersion": 1,
+      "attempt": 1,
+      "code": "EVALUATION_INPUT_CHANGED"
+    },
+    {
+      "event": "evaluation_attempt_started",
+      "interviewId": "5b3f5997-9ad4-4628-9c91-e3e96b29eab3",
+      "evaluationId": "1bf16c7d-69a0-4263-9af4-8917fc2185e4",
+      "reportVersion": 1,
+      "attempt": 1
+    },
+    {
+      "event": "evaluation_attempt_completed",
+      "interviewId": "5b3f5997-9ad4-4628-9c91-e3e96b29eab3",
+      "evaluationId": "1bf16c7d-69a0-4263-9af4-8917fc2185e4",
+      "reportVersion": 1,
+      "attempt": 1
+    }
+  ]
+}

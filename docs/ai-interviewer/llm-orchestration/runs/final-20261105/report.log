@@ -1,0 +1,125 @@
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:35.774Z","event":"report_accessed","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"64f84de3-440f-4521-bb9d-771054d53813","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":1}
+PASS 01 completed interview keeps evaluation PENDING
+PASS 02 completed input contains persisted final answers and no PII/secrets/HR notes
+PASS 03 input uses frozen 0–4 rubric
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:35.816Z","event":"report_accessed","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"64f84de3-440f-4521-bb9d-771054d53813","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":1}
+PASS 04 later JD mutation does not alter frozen input
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:35.825Z","event":"report_accessed","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"64f84de3-440f-4521-bb9d-771054d53813","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":1}
+PASS 05 later scorecard mutation does not alter frozen weights
+PASS 06 same input has same canonical SHA256
+PASS 07 changed final answer changes hash
+PASS 08 changed rubric version changes hash
+PASS 09 changed criterion mapping changes hash
+PASS 10 irrelevant answer finalized timestamps excluded from input
+PASS 11 assessed criterion has score, rationale and valid evidence
+PASS 12 NOT_ASSESSED is null and no evidence
+PASS 13 unknown mock answers become NOT_ASSESSED, never zero
+PASS 14 missing approved criterion is not omitted or zeroed
+PASS 15 partial fixture becomes PARTIALLY_ASSESSED
+PASS 16 NOT_ASSESSED with numeric zero is rejected by shared contract
+PASS 17 exact persisted quote validates
+PASS 18 invented quote rejected
+PASS 19 wrong turn rejected
+PASS 20 wrong question rejected
+PASS 21 wrong event sequence rejected
+PASS 22 invalid offset rejected
+PASS 23 correct offsets accepted
+PASS 24 Arabic exact Unicode quotes validate
+PASS 25 mixed Arabic/English exact quotes validate without normalization
+PASS 26 partial transcript cannot support a score/evidence
+PASS 27 HR notes cannot be used as quoted evidence
+PASS 28 uncertain transcript is NOT_ASSESSED
+PASS 29 incomplete question delivery does not support scoring
+PASS 30 multiple valid evidence items supported
+PASS 31 duplicate evidence ids rejected
+PASS 32 coverage counts are calculated from criterion statuses
+PASS 33 coverage explicitly counts not assessed
+PASS 34 coverage percent measures tested criteria, not performance
+PASS 35 tampered coverage rejected
+PASS 36 frozen approved weights retained without invented aggregation
+PASS 37 NOT_ASSESSED excluded from all numeric scoring
+PASS 38 no hidden/equal overall weighting generated
+PASS 39 no approved aggregation => no overall score
+PASS 40 strength references criterion evidence
+PASS 41 unsupported strength rejected
+PASS 42 weak fixture concern is supported by exact evidence
+PASS 43 lack of testing is limitation, not candidate weakness
+PASS 44 unknown hiring decision field rejected by closed report schema
+PASS 45 protected trait result cannot enter approved criteria
+[ai-interview] {"event":"evaluation_attempt_started","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"64f84de3-440f-4521-bb9d-771054d53813","reportVersion":1,"attempt":1}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:35.911Z","event":"report_accessed","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"64f84de3-440f-4521-bb9d-771054d53813","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":1}
+[ai-interview] {"event":"evaluation_attempt_completed","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"64f84de3-440f-4521-bb9d-771054d53813","reportVersion":1,"attempt":1}
+PASS 46 PENDING -> RUNNING is persisted before evaluator execution
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:35.928Z","event":"report_accessed","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"64f84de3-440f-4521-bb9d-771054d53813","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":1}
+PASS 47 RUNNING -> COMPLETED persisted with versioned report
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:35.934Z","event":"report_accessed","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"64f84de3-440f-4521-bb9d-771054d53813","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":1}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:35.986Z","event":"report_accessed","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"64f84de3-440f-4521-bb9d-771054d53813","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":1}
+PASS 48 duplicate job execution leaves report byte-identical
+[ai-interview] {"event":"evaluation_attempt_started","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"fc01f52f-fc3a-4c09-8ab9-6ea7e60ea505","reportVersion":2,"attempt":1}
+[ai-interview] {"event":"evaluation_attempt_completed","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"fc01f52f-fc3a-4c09-8ab9-6ea7e60ea505","reportVersion":2,"attempt":1}
+PASS 49 request response-loss retry uses durable receipt
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:36.065Z","event":"report_accessed","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"fc01f52f-fc3a-4c09-8ab9-6ea7e60ea505","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":2}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:36.071Z","event":"report_accessed","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"64f84de3-440f-4521-bb9d-771054d53813","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":1}
+PASS 50 reevaluation creates v2 and preserves v1
+PASS 51 legacy GENERATE_EVALUATION cannot overwrite new reports
+[ai-interview] {"event":"evaluation_attempt_started","interviewId":"f7f7f412-92fa-4698-be11-9545f1d027f6","evaluationId":"68bc1f99-7d19-48b0-818b-56eec3b9b228","reportVersion":1,"attempt":1}
+[ai-interview] {"event":"evaluation_attempt_failed","interviewId":"f7f7f412-92fa-4698-be11-9545f1d027f6","evaluationId":"68bc1f99-7d19-48b0-818b-56eec3b9b228","reportVersion":1,"attempt":1,"code":"MOCK_EVALUATOR_FAILED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:38.261Z","event":"report_accessed","interviewId":"f7f7f412-92fa-4698-be11-9545f1d027f6","evaluationId":"68bc1f99-7d19-48b0-818b-56eec3b9b228","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":1}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:38.270Z","event":"report_accessed","interviewId":"f7f7f412-92fa-4698-be11-9545f1d027f6","evaluationId":"68bc1f99-7d19-48b0-818b-56eec3b9b228","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":1}
+PASS 52 RUNNING -> FAILED stores only safe failure code
+PASS 53 evaluation failure leaves interview COMPLETED
+PASS 54 evaluation failure preserves all finalized answers
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:38.288Z","event":"report_accessed","interviewId":"f7f7f412-92fa-4698-be11-9545f1d027f6","evaluationId":"68bc1f99-7d19-48b0-818b-56eec3b9b228","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":1}
+[ai-interview] {"event":"evaluation_retry_scheduled","interviewId":"f7f7f412-92fa-4698-be11-9545f1d027f6","reportVersion":1}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:38.319Z","event":"report_accessed","interviewId":"f7f7f412-92fa-4698-be11-9545f1d027f6","evaluationId":"68bc1f99-7d19-48b0-818b-56eec3b9b228","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":1}
+PASS 55 retry uses same frozen input and evaluator version
+[ai-interview] {"event":"evaluation_attempt_started","interviewId":"f7f7f412-92fa-4698-be11-9545f1d027f6","evaluationId":"68bc1f99-7d19-48b0-818b-56eec3b9b228","reportVersion":1,"attempt":2}
+[ai-interview] {"event":"evaluation_attempt_completed","interviewId":"f7f7f412-92fa-4698-be11-9545f1d027f6","evaluationId":"68bc1f99-7d19-48b0-818b-56eec3b9b228","reportVersion":1,"attempt":2}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:38.358Z","event":"report_accessed","interviewId":"f7f7f412-92fa-4698-be11-9545f1d027f6","evaluationId":"68bc1f99-7d19-48b0-818b-56eec3b9b228","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":1}
+PASS 56 retry succeeds and preserves failed attempt metadata
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:38.381Z","event":"report_accessed","interviewId":"f7f7f412-92fa-4698-be11-9545f1d027f6","evaluationId":"68bc1f99-7d19-48b0-818b-56eec3b9b228","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":1}
+PASS 57 retry after completion cannot duplicate report
+[ai-interview] {"event":"evaluation_attempt_started","interviewId":"f7f7f412-92fa-4698-be11-9545f1d027f6","evaluationId":"6d55d6d8-3f2b-412f-8a46-6fb0442f2462","reportVersion":2,"attempt":1}
+[ai-interview] {"event":"evaluation_attempt_failed","interviewId":"f7f7f412-92fa-4698-be11-9545f1d027f6","evaluationId":"6d55d6d8-3f2b-412f-8a46-6fb0442f2462","reportVersion":2,"attempt":1,"code":"EVIDENCE_VALIDATION_FAILED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:38.442Z","event":"report_accessed","interviewId":"f7f7f412-92fa-4698-be11-9545f1d027f6","evaluationId":"6d55d6d8-3f2b-412f-8a46-6fb0442f2462","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":2}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:38.450Z","event":"report_accessed","interviewId":"f7f7f412-92fa-4698-be11-9545f1d027f6","evaluationId":"68bc1f99-7d19-48b0-818b-56eec3b9b228","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":1}
+PASS 58 invented evaluator quote fails entire report before persistence
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:38.475Z","event":"report_accessed","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"fc01f52f-fc3a-4c09-8ab9-6ea7e60ea505","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":2}
+PASS 59 authorized HR marks reviewed independently of evaluation
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:38.490Z","event":"report_accessed","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"fc01f52f-fc3a-4c09-8ab9-6ea7e60ea505","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":2}
+PASS 60 review metadata persists across service reload
+PASS 61 employee cannot review
+PASS 62 manager denied by default
+PASS 63 candidate cannot review
+PASS 64 review audited without note/transcript leakage
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:38.700Z","event":"report_accessed","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"fc01f52f-fc3a-4c09-8ab9-6ea7e60ea505","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":2}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:38.714Z","event":"report_accessed","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"fc01f52f-fc3a-4c09-8ab9-6ea7e60ea505","actorId":"b85fe38f-88c2-44d3-b7c4-507e6a7111a9","reportVersion":2}
+PASS 65 HR/Admin report endpoints permitted
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:38.774Z","event":"request_rejected","code":"DENIED"}
+PASS 66 candidate cannot fetch report or evidence trace
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:38.780Z","event":"request_rejected","code":"DENIED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:38.785Z","event":"request_rejected","code":"DENIED"}
+PASS 67 employee/manager endpoints denied
+PASS 68 Candidate A cannot access B report via any candidate session
+PASS 69 wrong application relation cannot fetch report
+PASS 70 candidate DTO and replay leak no report fields
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:38.811Z","event":"report_accessed","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"fc01f52f-fc3a-4c09-8ab9-6ea7e60ea505","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":2}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:38.831Z","event":"report_accessed","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"fc01f52f-fc3a-4c09-8ab9-6ea7e60ea505","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":2}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:38.837Z","event":"report_accessed","interviewId":"226893be-9fe1-490c-a05b-55d19062fc76","evaluationId":"fc01f52f-fc3a-4c09-8ab9-6ea7e60ea505","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":2}
+PASS 71 review changes do not mutate immutable report or input
+PASS 72 application hiring status never changed by evaluation/review
+[ai-interview] {"event":"evaluation_attempt_started","interviewId":"6d70a97d-8f05-49ab-a33e-d0fd47eef7c6","evaluationId":"7c36ce38-3492-464f-b653-048200564d3a","reportVersion":1,"attempt":1}
+[ai-interview] {"event":"evaluation_attempt_completed","interviewId":"6d70a97d-8f05-49ab-a33e-d0fd47eef7c6","evaluationId":"7c36ce38-3492-464f-b653-048200564d3a","reportVersion":1,"attempt":1}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:39.403Z","event":"report_accessed","interviewId":"6d70a97d-8f05-49ab-a33e-d0fd47eef7c6","evaluationId":"7c36ce38-3492-464f-b653-048200564d3a","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":1}
+PASS 73 pending job survives new service instance
+[ai-interview] {"event":"evaluation_attempt_started","interviewId":"bbe02c26-e7f2-4be2-8e18-06e1d124b8b1","evaluationId":"bcaa7312-86f8-4a35-8ec3-965ff2a58ae0","reportVersion":1,"attempt":1}
+[ai-interview] {"event":"evaluation_attempt_started","interviewId":"bbe02c26-e7f2-4be2-8e18-06e1d124b8b1","evaluationId":"bcaa7312-86f8-4a35-8ec3-965ff2a58ae0","reportVersion":1,"attempt":2}
+[ai-interview] {"event":"evaluation_attempt_completed","interviewId":"bbe02c26-e7f2-4be2-8e18-06e1d124b8b1","evaluationId":"bcaa7312-86f8-4a35-8ec3-965ff2a58ae0","reportVersion":1,"attempt":2}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:39.790Z","event":"report_accessed","interviewId":"bbe02c26-e7f2-4be2-8e18-06e1d124b8b1","evaluationId":"bcaa7312-86f8-4a35-8ec3-965ff2a58ae0","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":1}
+[ai-interview] {"event":"evaluation_attempt_fenced","interviewId":"bbe02c26-e7f2-4be2-8e18-06e1d124b8b1","evaluationId":"bcaa7312-86f8-4a35-8ec3-965ff2a58ae0","reportVersion":1,"attempt":1}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:45:39.796Z","event":"report_accessed","interviewId":"bbe02c26-e7f2-4be2-8e18-06e1d124b8b1","evaluationId":"bcaa7312-86f8-4a35-8ec3-965ff2a58ae0","actorId":"7a929556-4634-45ae-bd8d-0c39a4d343e0","reportVersion":1}
+PASS 74 expired worker lease is reclaimed and stale worker cannot overwrite report
+PASS 75 review receipt is idempotent and bound to exact note
+PASS 76 zero external model/network calls
+
+76/76 Phase 4 report checks passed; external network attempts=0

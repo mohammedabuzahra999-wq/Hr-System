@@ -1,0 +1,45 @@
+PASS: employee/self/recruitment: denied before data access
+PASS: employee/self/department: denied before data access
+PASS: manager/self/recruitment: denied before data access
+PASS: manager/self/department: denied before data access
+PASS: hr/self/recruitment: denied before data access
+PASS: hr/self/department: denied before data access
+PASS: admin/self/recruitment: denied before data access
+PASS: admin/self/department: denied before data access
+PASS: employee/non-self/attendance: denied before data access
+PASS: employee/non-self/leave: denied before data access
+PASS: employee/non-self/employees: denied before data access
+PASS: employee/non-self/newHires: denied before data access
+PASS: employee/non-self/recruitment: denied before data access
+PASS: employee/non-self/department: denied before data access
+PASS: manager/non-self/recruitment: denied before data access
+PASS: manager/non-self/department: denied before data access
+PASS: hr/non-self/recruitment/department-filter: denied before data access
+PASS: hr/non-self/department/department-filter: denied before data access
+PASS: admin/non-self/recruitment/department-filter: denied before data access
+PASS: admin/non-self/department/department-filter: denied before data access
+PASS: self attendance: wider hints and other department cannot widen results
+PASS: team attendance: manager/direct-report scope survives wider hints
+PASS: self leave: wider hints and other department cannot widen results
+PASS: team leave: manager/direct-report scope survives wider hints
+PASS: self employees: wider hints and other department cannot widen results
+PASS: team employees: manager/direct-report scope survives wider hints
+PASS: self newHires: wider hints and other department cannot widen results
+PASS: team newHires: manager/direct-report scope survives wider hints
+PASS: hr self remains self
+PASS: hr authorized company attendance still works
+PASS: hr authorized company leave still works
+PASS: hr authorized company employees still works
+PASS: hr authorized company newHires still works
+PASS: hr authorized company recruitment still works
+PASS: hr authorized company department still works
+PASS: hr authorized department filter remains narrow
+PASS: admin self remains self
+PASS: admin authorized company attendance still works
+PASS: admin authorized company leave still works
+PASS: admin authorized company employees still works
+PASS: admin authorized company newHires still works
+PASS: admin authorized company recruitment still works
+PASS: admin authorized company department still works
+PASS: admin authorized department filter remains narrow
+PASS: 44 report authorization/scope checks; synthetic in-memory queries only

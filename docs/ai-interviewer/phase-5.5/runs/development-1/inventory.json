@@ -1,0 +1,433 @@
+[
+  {
+    "id": "provider-gate",
+    "protection": "Phase 5.5 synthetic provider ingress/STT/TTS/interruption/reconnect/security",
+    "command": "node --conditions=development --import tsx src/aiInterviewer/delivery.check.ts",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "src/aiInterviewer/delivery.check.ts"
+    ],
+    "allowedLoopbackPorts": "55442",
+    "entryExists": true
+  },
+  {
+    "id": "execution-bounds",
+    "protection": "Phase 5.5 asynchronous bounds/cancellation/physical admission/late settlement",
+    "command": "node --conditions=development --import tsx src/aiInterviewer/execution.check.ts",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "src/aiInterviewer/execution.check.ts"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "runtime-jobs",
+    "protection": "Phase 5.5 PostgreSQL fairness/restart/fencing/frozen input/security",
+    "command": "node --conditions=development --import tsx src/aiInterviewer/runtime.check.ts",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "src/aiInterviewer/runtime.check.ts"
+    ],
+    "allowedLoopbackPorts": "55442",
+    "entryExists": true
+  },
+  {
+    "id": "answer-ui",
+    "protection": "Phase 5.2 browser recovery/state/refresh/uncertainty/security",
+    "command": "node --conditions=development --import tsx scripts/checkAiInterviewAnswerRecovery.mjs",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "scripts/checkAiInterviewAnswerRecovery.mjs"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "answer-db",
+    "protection": "Phase 5.2 atomic commit/rollback/two-tab/restart/receipt/security",
+    "command": "node --conditions=development --import tsx src/aiInterviewer/answer.check.ts",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "src/aiInterviewer/answer.check.ts"
+    ],
+    "allowedLoopbackPorts": "55442",
+    "entryExists": true
+  },
+  {
+    "id": "engine",
+    "protection": "engine/timer/follow-up/clarification/evidence",
+    "command": "npm.cmd run check:ai-interviewer -w @hr/server",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "src/aiInterviewer/engine.check.ts"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "scenario",
+    "protection": "synthetic lifecycle demonstration",
+    "command": "npm.cmd run demo:ai-interviewer -w @hr/server",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "src/aiInterviewer/scenario.ts"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "persistence",
+    "protection": "PostgreSQL/session/invite/RBAC/idempotency/recovery/rollback",
+    "command": "npm.cmd run check:ai-interviewer:persistence -w @hr/server",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "src/aiInterviewer/persistence.check.ts"
+    ],
+    "allowedLoopbackPorts": "55442",
+    "entryExists": true
+  },
+  {
+    "id": "report",
+    "protection": "evaluation/frozen input/hash/evidence/retry/worker fencing",
+    "command": "npm.cmd run check:ai-interviewer:report -w @hr/server",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "src/aiInterviewer/report.check.ts"
+    ],
+    "allowedLoopbackPorts": "55442",
+    "entryExists": true
+  },
+  {
+    "id": "ui",
+    "protection": "candidate cache/replay/conflicts/session expiry/timer",
+    "command": "npm.cmd run check:ai-interviewer:ui -w @hr/server",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "scripts/checkAiInterviewUi.mjs"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "mcp",
+    "protection": "MCP session lifecycle/RBAC/action checks",
+    "command": "node --conditions=development --import tsx src/mcp/authorization.security.check.ts",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "src/mcp/authorization.security.check.ts"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "permissions",
+    "protection": "capability registry and route role policy",
+    "command": "npm.cmd run check:permissions -w @hr/server",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "src/permissions.check.ts"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "gate",
+    "protection": "Copilot intent/action authorization independent of model",
+    "command": "npm.cmd run check:gate -w @hr/server",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "src/copilot/gate.check.ts"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "plans",
+    "protection": "HTTP/shared plans/RBAC/scope/confirmation",
+    "command": "npm.cmd run check:plans -w @hr/server",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "src/copilot/validatePlan.check.ts"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "report-security",
+    "protection": "existing employee report resource scope",
+    "command": "node --conditions=development --import tsx src/reports/build.security.check.ts",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "src/reports/build.security.check.ts"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "voice",
+    "protection": "mock voice session/turn/confirmation guards",
+    "command": "npm.cmd run check:voice -w @hr/server",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "src/voice/session.check.ts"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "local-voice-api",
+    "protection": "local voice adapter/ownership/no cloud fallback (mock)",
+    "command": "npm.cmd run check:voice:local -w @hr/server [component 1/4]",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "src/voice/local.check.ts"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "local-voice-audio",
+    "protection": "audio/VAD/device cleanup (in-memory browser API doubles)",
+    "command": "npm.cmd run check:voice:local -w @hr/server [component 2/4]",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "scripts/checkLocalVoiceBrowser.mjs"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "local-voice-turn",
+    "protection": "local voice turn/cancellation/confirmation UI (hook harness)",
+    "command": "npm.cmd run check:voice:local -w @hr/server [component 3/4]",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "scripts/checkLocalVoiceTurn.mjs"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "local-voice-queue",
+    "protection": "bounded queue/admission/no hidden retry",
+    "command": "npm.cmd run check:voice:local -w @hr/server [component 4/4]",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "scripts/checkLocalVoiceQueue.mjs"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "scorecard",
+    "protection": "frozen criteria/weight arithmetic regressions",
+    "command": "npm.cmd run check:scorecard -w @hr/server",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "src/ai/scorecard.check.ts"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "structured-provider",
+    "protection": "malformed/unavailable model responses using offline mocks",
+    "command": "node --conditions=development --import tsx src/ai/structuredProvider.check.ts",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "--conditions=development",
+      "--import",
+      "tsx",
+      "src/ai/structuredProvider.check.ts"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "typechecks",
+    "protection": "contracts/API/web TypeScript and web lint",
+    "command": "npm.cmd run check",
+    "cwd": "",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "check"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "contracts-build",
+    "protection": "production contracts emission",
+    "command": "npm.cmd run build -w @hr/shared",
+    "cwd": "",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "build",
+      "-w",
+      "@hr/shared"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": false
+  },
+  {
+    "id": "api-build",
+    "protection": "production API emission and compiled migration/data copy",
+    "command": "npm.cmd run build -w @hr/server",
+    "cwd": "",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "build",
+      "-w",
+      "@hr/server"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": false
+  },
+  {
+    "id": "web-build",
+    "protection": "production web build with mock flag explicitly true",
+    "command": "npm.cmd run build -w hr-app",
+    "cwd": "",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      "run",
+      "build",
+      "-w",
+      "hr-app"
+    ],
+    "allowedLoopbackPorts": "",
+    "entryExists": true
+  },
+  {
+    "id": "browser3",
+    "protection": "real Chrome + disposable PostgreSQL Phase 3 E2E",
+    "command": "npm.cmd run check:ai-interviewer:browser -w @hr/server",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "scripts/checkAiInterviewBrowser.mjs"
+    ],
+    "allowedLoopbackPorts": "55442,5179,5180,8793,9333",
+    "entryExists": true
+  },
+  {
+    "id": "browser4",
+    "protection": "real Chrome Phase 3 lifecycle + Phase 4 HR report cases",
+    "command": "npm.cmd run check:ai-interviewer:report:browser -w @hr/server",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "scripts/checkAiInterviewReportBrowser.mjs"
+    ],
+    "allowedLoopbackPorts": "55442,5179,5180,8793,9333",
+    "entryExists": true
+  },
+  {
+    "id": "answer-browser",
+    "protection": "Phase 5.2 real Chrome recovery/refresh/network/two-tab cases plus unchanged Phase 3",
+    "command": "node scripts/checkAiInterviewAnswerBrowser.mjs",
+    "cwd": "services/hr-api",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "scripts/checkAiInterviewAnswerBrowser.mjs"
+    ],
+    "allowedLoopbackPorts": "55442,5179,5180,8793,9333",
+    "entryExists": true
+  },
+  {
+    "id": "migrations",
+    "protection": "unaltered full migration chain + rerun idempotency",
+    "command": "node docs/ai-interviewer/phase-5.5/migrations.mjs",
+    "cwd": "",
+    "actualExecutable": "node",
+    "actualArguments": [
+      "docs/ai-interviewer/phase-5.5/migrations.mjs"
+    ],
+    "allowedLoopbackPorts": "55442",
+    "entryExists": true
+  }
+]

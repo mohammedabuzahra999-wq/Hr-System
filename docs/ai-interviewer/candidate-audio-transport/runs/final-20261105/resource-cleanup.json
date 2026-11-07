@@ -1,0 +1,120 @@
+{
+  "status": "PASS",
+  "startedAtUtc": "2026-11-05T08:13:30.209Z",
+  "commands": [
+    {
+      "command": "node docs/ai-interviewer/candidate-audio-transport/run.mjs baseline-20261105 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/candidateaudio-temp/baseline-20261105"
+    },
+    {
+      "command": "node docs/ai-interviewer/candidate-audio-transport/run.mjs browser-recheck-20261105 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/candidateaudio-temp/browser-recheck-20261105"
+    },
+    {
+      "command": "node docs/ai-interviewer/candidate-audio-transport/run.mjs development-1 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/candidateaudio-temp/development-1"
+    },
+    {
+      "command": "node docs/ai-interviewer/candidate-audio-transport/run.mjs development-10 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/candidateaudio-temp/development-10"
+    },
+    {
+      "command": "node docs/ai-interviewer/candidate-audio-transport/run.mjs development-11 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/candidateaudio-temp/development-11"
+    },
+    {
+      "command": "node docs/ai-interviewer/candidate-audio-transport/run.mjs development-2 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/candidateaudio-temp/development-2"
+    },
+    {
+      "command": "node docs/ai-interviewer/candidate-audio-transport/run.mjs development-3 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/candidateaudio-temp/development-3"
+    },
+    {
+      "command": "node docs/ai-interviewer/candidate-audio-transport/run.mjs development-4 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/candidateaudio-temp/development-4"
+    },
+    {
+      "command": "node docs/ai-interviewer/candidate-audio-transport/run.mjs development-5 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/candidateaudio-temp/development-5"
+    },
+    {
+      "command": "node docs/ai-interviewer/candidate-audio-transport/run.mjs development-6 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/candidateaudio-temp/development-6"
+    },
+    {
+      "command": "node docs/ai-interviewer/candidate-audio-transport/run.mjs development-7 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/candidateaudio-temp/development-7"
+    },
+    {
+      "command": "node docs/ai-interviewer/candidate-audio-transport/run.mjs development-8 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/candidateaudio-temp/development-8"
+    },
+    {
+      "command": "node docs/ai-interviewer/candidate-audio-transport/run.mjs development-9 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/candidateaudio-temp/development-9"
+    },
+    {
+      "command": "node docs/ai-interviewer/candidate-audio-transport/run.mjs final-20261105 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/candidateaudio-temp/final-20261105"
+    },
+    {
+      "command": ".local-dev/ai-interviewer-postgres/pgsql/bin/pg_ctl.exe -D .local-dev/ai-interviewer-postgres/data -m fast -w -t 15 stop",
+      "exitCode": 0,
+      "expectedExitCode": 0
+    },
+    {
+      "command": ".local-dev/ai-interviewer-postgres/pgsql/bin/pg_ctl.exe -D .local-dev/ai-interviewer-postgres/data status",
+      "exitCode": 3,
+      "expectedExitCode": 3
+    },
+    {
+      "command": "node docs/ai-interviewer/candidate-audio-transport/run.mjs final-20261105 cleanup",
+      "exitCode": 0,
+      "note": "Remove empty temporary directory recreated by the original integrity helper. Helper now avoids creating temporary directories for integrity/cleanup; no source change."
+    }
+  ],
+  "removedProfiles": [
+    "baseline-20261105",
+    "browser-recheck-20261105",
+    "development-1",
+    "development-10",
+    "development-11",
+    "development-2",
+    "development-3",
+    "development-4",
+    "development-5",
+    "development-6",
+    "development-7",
+    "development-8",
+    "development-9",
+    "final-20261105"
+  ],
+  "databasePolicy": "Read-only resource inspection; no database dropped during finalization",
+  "activeOtherClientSessions": 0,
+  "preexistingTestDatabasesLeftUntouched": [
+    {
+      "database": "ai_interview_phase3_40df101c9978482ea01af41f70ffb3b4",
+      "createdAtUtc": "2026-11-01T12:36:51.447Z",
+      "lastModifiedAtUtc": "2026-11-03T07:48:43.961Z"
+    }
+  ],
+  "ownDisposableDatabasesRemaining": 0,
+  "localTestClusterStopped": true,
+  "temporaryRunDirectoriesRemaining": 0,
+  "finishedAtUtc": "2026-11-05T08:13:33.825Z"
+}

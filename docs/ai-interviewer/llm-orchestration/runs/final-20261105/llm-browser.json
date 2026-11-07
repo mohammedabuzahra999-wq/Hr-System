@@ -1,0 +1,13 @@
+{
+  "id": "llm-browser",
+  "protection": "Synthetic candidate model flow/commit/recovery/pause/RBAC",
+  "command": "node scripts/checkLlmOrchestrationBrowser.mjs",
+  "startedAt": "2026-11-05T11:40:21.232Z",
+  "finishedAt": "2026-11-05T11:41:20.707Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 2,
+  "outputLog": "llm-browser.log",
+  "passLines": 24
+}

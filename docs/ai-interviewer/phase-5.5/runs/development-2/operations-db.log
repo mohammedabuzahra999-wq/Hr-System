@@ -1,0 +1,81 @@
+[ai-interview-operations] {"event":"provider_readiness_changed","state":"configured"}
+[ai-interview-operations] {"event":"provider_readiness_changed","state":"ready"}
+[ai-interview-operations] {"event":"invite_rejected","code":"AUTH"}
+[ai-interview-operations] {"event":"request_rejected","code":"AUTH"}
+PASS abuse: invalid invite is safely rejected
+[ai-interview-operations] {"event":"provider_readiness_changed","state":"configured"}
+[ai-interview-operations] {"event":"provider_readiness_changed","state":"ready"}
+[ai-interview-operations] {"event":"invite_rejected","code":"EXPIRED"}
+[ai-interview-operations] {"event":"request_rejected","code":"AUTH"}
+PASS abuse: expired invite is safely rejected
+[ai-interview-operations] {"event":"provider_readiness_changed","state":"configured"}
+[ai-interview-operations] {"event":"provider_readiness_changed","state":"ready"}
+[ai-interview-operations] {"event":"invite_rejected","code":"AUTH"}
+[ai-interview-operations] {"event":"request_rejected","code":"AUTH"}
+PASS abuse: replayed invite is safely rejected
+[ai-interview-operations] {"event":"invite_rejected","code":"REVOKED"}
+PASS abuse: revoked invite is safely rejected
+[ai-interview-operations] {"event":"invite_rejected","code":"AUTH"}
+[ai-interview-operations] {"event":"request_rejected","code":"THROTTLED"}
+PASS repeated invalid invites hit address budget and never establish a session
+PASS valid invite exchange retains Secure/HttpOnly/SameSite/path and durable session audits
+[ai-interview-operations] {"event":"candidate_session_rejected","interviewId":"772a9ee5-6c08-43b8-9064-985873635911","code":"AUTH"}
+[ai-interview-operations] {"event":"request_rejected","code":"STALE"}
+PASS foreign and nonexistent interview access share the same external rejection
+[ai-interview-operations] {"event":"request_rejected","code":"DENIED"}
+[ai-interview-operations] {"event":"request_rejected","code":"DENIED"}
+PASS Origin invalid/missing is rejected independently of a valid candidate cookie
+[ai-interview-operations] {"event":"request_rejected","code":"INVALID"}
+PASS forged trusted provider endpoint/schema cannot create authority
+[ai-interview-operations] {"event":"provider_observation_rejected","interviewId":"0cdb6063-1438-491d-bc0d-468d9512b523","code":"STALE"}
+[ai-interview-operations] {"event":"provider_observation_rejected","interviewId":"0cdb6063-1438-491d-bc0d-468d9512b523","code":"INVALID"}
+PASS stale and malformed provider events produce no durable effects
+[ai-interview-operations] {"event":"provider_observation_rejected","interviewId":"9b4482d6-d0d8-4d8a-be60-4952df528f51","code":"INVALID"}
+[ai-interview-operations] {"event":"provider_observation_rejected","interviewId":"9b4482d6-d0d8-4d8a-be60-4952df528f51","code":"INVALID"}
+[ai-interview-operations] {"event":"provider_observation_rejected","interviewId":"9b4482d6-d0d8-4d8a-be60-4952df528f51","code":"INVALID"}
+[ai-interview-operations] {"event":"provider_observation_rejected","interviewId":"9b4482d6-d0d8-4d8a-be60-4952df528f51","code":"THROTTLED"}
+[ai-interview-operations] {"event":"provider_observation_rejected","interviewId":"9b4482d6-d0d8-4d8a-be60-4952df528f51","code":"THROTTLED"}
+[ai-interview-operations] {"event":"provider_observation_rejected","interviewId":"9b4482d6-d0d8-4d8a-be60-4952df528f51","code":"THROTTLED"}
+[ai-interview-operations] {"event":"provider_readiness_changed","state":"unavailable"}
+PASS provider malformed-event flood is capped and cannot block trusted close
+[ai-interview-operations] {"event":"request_rejected","code":"THROTTLED"}
+PASS answer submission flood is capped without turning authorization into a budget
+[ai-interview-operations] {"event":"request_rejected","code":"DENIED"}
+PASS HR without recruitment, candidate HR cookie and unauthenticated report access are denied
+PASS candidate, report, provider and error responses are uncacheable with frame/MIME policy
+[ai-interview-operations] {"event":"request_rejected","code":"INTERNAL"}
+[ai-interview-operations] {"event":"request_rejected","code":"INTERNAL"}
+[ai-interview-operations] {"event":"request_rejected","code":"INTERNAL"}
+PASS candidate/HR/provider-facing exceptions exclude raw SQL, secrets and stacks
+[ai-interview-operations] {"event":"request_rejected","code":"THROTTLED"}
+PASS provider readiness polling has its own bounded public budget
+PASS runtime readiness observes actual successful passes and stop state
+[ai-interview-operations] {"event":"shutdown_started"}
+[ai-interview-operations] {"event":"provider_readiness_changed","state":"unavailable"}
+[ai-interview-operations] {"event":"shutdown_completed"}
+PASS shutdown/restart with active preserves durable authority
+[ai-interview-operations] {"event":"shutdown_started"}
+[ai-interview-operations] {"event":"provider_readiness_changed","state":"unavailable"}
+[ai-interview-operations] {"event":"shutdown_completed"}
+PASS shutdown/restart with PLAY preserves durable authority
+[ai-interview-operations] {"event":"shutdown_started"}
+[ai-interview-operations] {"event":"shutdown_completed"}
+PASS shutdown/restart with STOP preserves durable authority
+PASS shutdown/restart with provider operation preserves durable authority
+PASS pending typed answer is acknowledged only after commit, then retries exactly once after restart
+[ai-interview-operations] {"event":"report_accessed","interviewId":"2fe869a4-7121-40ee-beb6-0c25ca1d4080","evaluationId":"0f57c041-a341-4d7e-9885-c0a3d9f61628","actorId":"b24e68ae-66fd-4c19-a59a-c70663b049bf","reportVersion":1}
+[ai-interview] {"event":"evaluation_attempt_started","interviewId":"2fe869a4-7121-40ee-beb6-0c25ca1d4080","evaluationId":"0f57c041-a341-4d7e-9885-c0a3d9f61628","reportVersion":1,"attempt":1}
+[ai-interview] {"event":"evaluation_attempt_failed","interviewId":"2fe869a4-7121-40ee-beb6-0c25ca1d4080","evaluationId":"0f57c041-a341-4d7e-9885-c0a3d9f61628","reportVersion":1,"attempt":1,"code":"EVALUATOR_CANCELLED"}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"2fe869a4-7121-40ee-beb6-0c25ca1d4080","evaluationId":"0f57c041-a341-4d7e-9885-c0a3d9f61628","actorId":"b24e68ae-66fd-4c19-a59a-c70663b049bf","reportVersion":1}
+[ai-interview] {"event":"evaluation_attempt_fenced","interviewId":"2fe869a4-7121-40ee-beb6-0c25ca1d4080","evaluationId":"0f57c041-a341-4d7e-9885-c0a3d9f61628","reportVersion":1,"attempt":1,"code":"LATE_SETTLEMENT"}
+[ai-interview] {"event":"evaluation_retry_scheduled","interviewId":"2fe869a4-7121-40ee-beb6-0c25ca1d4080","reportVersion":1}
+[ai-interview] {"event":"evaluation_attempt_started","interviewId":"2fe869a4-7121-40ee-beb6-0c25ca1d4080","evaluationId":"0f57c041-a341-4d7e-9885-c0a3d9f61628","reportVersion":1,"attempt":2}
+[ai-interview] {"event":"evaluation_attempt_completed","interviewId":"2fe869a4-7121-40ee-beb6-0c25ca1d4080","evaluationId":"0f57c041-a341-4d7e-9885-c0a3d9f61628","reportVersion":1,"attempt":2}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"2fe869a4-7121-40ee-beb6-0c25ca1d4080","evaluationId":"0f57c041-a341-4d7e-9885-c0a3d9f61628","actorId":"b24e68ae-66fd-4c19-a59a-c70663b049bf","reportVersion":1}
+[ai-interview] {"event":"evaluation_attempt_started","interviewId":"2fe869a4-7121-40ee-beb6-0c25ca1d4080","evaluationId":"9d3d667f-4300-4bf7-b422-817acaa8b0c0","reportVersion":2,"attempt":1}
+[ai-interview] {"event":"evaluation_attempt_completed","interviewId":"2fe869a4-7121-40ee-beb6-0c25ca1d4080","evaluationId":"9d3d667f-4300-4bf7-b422-817acaa8b0c0","reportVersion":2,"attempt":1}
+[ai-interview-operations] {"event":"report_accessed","interviewId":"2fe869a4-7121-40ee-beb6-0c25ca1d4080","evaluationId":"9d3d667f-4300-4bf7-b422-817acaa8b0c0","actorId":"b24e68ae-66fd-4c19-a59a-c70663b049bf","reportVersion":2}
+PASS evaluation outside maintenance is drained/cancelled; frozen hash/version survive restart
+PASS audit payloads exclude answer text/credentials and lifecycle coverage is explicit
+PASS secret/SQL-free evidence and zero external/model attempts
+25/25 Phase 5.5 operations PostgreSQL checks passed; external attempts=0

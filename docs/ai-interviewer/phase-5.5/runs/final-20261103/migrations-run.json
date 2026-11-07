@@ -1,0 +1,13 @@
+{
+  "id": "migrations",
+  "protection": "unaltered full migration chain + rerun idempotency",
+  "command": "node docs/ai-interviewer/phase-5.5/migrations.mjs",
+  "startedAt": "2026-11-03T12:44:43.339Z",
+  "finishedAt": "2026-11-03T12:44:47.005Z",
+  "exitCode": 0,
+  "status": "BLOCKED",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "migrations.log",
+  "passLines": 0
+}

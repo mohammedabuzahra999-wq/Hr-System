@@ -1,0 +1,26 @@
+PASS one-use exchange is shared across StrictMode initialization and requests token removal
+PASS candidate fetches use cookies, no-store and no-referrer, without employee headers
+PASS fetch is not invoked with the client object as its browser receiver
+PASS refresh reconstructs Q3 and the backend remaining duration
+PASS persisted consent is displayed after a fresh client load
+PASS older responses cannot overwrite newer authoritative versions
+PASS equal-version late reads do not rewind the displayed timer
+PASS a changed candidate identity cannot populate the existing session cache
+PASS ordered replay ignores duplicate and old events
+PASS filtered gaps advance the replay cursor without inventing state
+PASS version conflict performs reconciliation and never blindly resubmits
+PASS explicit duplicate retry preserves command id and expected version
+PASS 409 reconciliation refetches after a pre-conflict poll instead of reusing its stale response
+PASS session expiry clears sensitive cached state and retries
+PASS invalid invitation shows a safe code and removes the credential URL
+PASS mock commands fail closed when server capability is disabled
+PASS timer interpolation starts from server remaining time and monotonic elapsed time
+PASS paused countdown is frozen regardless of browser wall time
+PASS grace display uses the server grace stage
+PASS zero display never finalizes, scores or sends a command
+PASS remaining time is absent during question delivery
+PASS timer formatting is stable at minute and subsecond boundaries
+PASS candidate state validation rejects rubric/weight fields
+PASS all mock UI unit checks attempted zero external network operations
+
+24/24 Phase 3 UI logic checks passed; external attempts=0

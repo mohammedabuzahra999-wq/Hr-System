@@ -1,0 +1,12 @@
+-- What each requirement of a vacancy is worth.
+--
+-- Nullable, and absent means "nobody has weighted this one" rather than "no
+-- weights": the criteria are derived from the document and fall back to a
+-- default per kind, so every existing job description already scores without
+-- anybody opening it.
+--
+-- Stored as the weights alone, keyed by the requirement's own wording, rather
+-- than as a copy of the criteria. A copy would go stale the moment somebody
+-- edited the description, and a scorecard judging requirements the document no
+-- longer contains is worse than none.
+ALTER TABLE "job_descriptions" ADD COLUMN IF NOT EXISTS "scorecard" jsonb;

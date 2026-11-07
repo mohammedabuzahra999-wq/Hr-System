@@ -1,0 +1,44 @@
+{
+  "verifiedAt": "2026-10-26T12:47:27.713Z",
+  "protectedFileCount": 585,
+  "protectedMismatches": [],
+  "frozen404Sha256": "b6a6a9f74e76edcf783ad3a2f47f2fa493ac0444e2ca8bf239439229e14a2b05",
+  "frozen404Unchanged": true,
+  "installedArtifactsRehashedAfterInspection": 5,
+  "installedArtifactsUnchanged": true,
+  "offlineComparisonChecks": {
+    "passed": 30,
+    "total": 30
+  },
+  "helperSyntaxChecks": [
+    {
+      "file": "capture-local.mjs",
+      "pass": true
+    },
+    {
+      "file": "capture-public.mjs",
+      "pass": true
+    },
+    {
+      "file": "capture-release-history.mjs",
+      "pass": true
+    },
+    {
+      "file": "compare-evidence.mjs",
+      "pass": true
+    },
+    {
+      "file": "finalize-evidence.mjs",
+      "pass": true
+    }
+  ],
+  "publicCaptureHashesValid": true,
+  "existingFilesModified": 0,
+  "applicationSourceModified": false,
+  "configurationModified": false,
+  "secretsReadOrCopied": false,
+  "productionServicesAccessed": false,
+  "inferenceRequests": 0,
+  "frozen404Executed": false,
+  "fineTuningStarted": false
+}

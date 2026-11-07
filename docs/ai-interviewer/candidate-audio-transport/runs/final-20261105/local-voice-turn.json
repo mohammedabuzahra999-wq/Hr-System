@@ -1,0 +1,13 @@
+{
+  "id": "local-voice-turn",
+  "protection": "local voice turn/cancellation/confirmation UI (hook harness)",
+  "command": "npm.cmd run check:voice:local -w @hr/server [component 3/4]",
+  "startedAt": "2026-11-05T08:01:35.525Z",
+  "finishedAt": "2026-11-05T08:01:36.109Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "local-voice-turn.log",
+  "passLines": 8
+}

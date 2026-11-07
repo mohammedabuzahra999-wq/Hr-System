@@ -1,0 +1,57 @@
+{
+  "created": [
+    {
+      "path": "services/hr-api/src/aiInterviewer/delivery.check.ts",
+      "bytes": 38666,
+      "sha256": "a3b04b3b030c4bfd6199cd2efd96cb24912ea069bb0e59c53975dbcff1330138"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/delivery.ts",
+      "bytes": 11440,
+      "sha256": "5c2bc4fe5fd4e85a87a095dc9d4efb1221268aea69f89706188b15264b22372e"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/deliveryContracts.ts",
+      "bytes": 1203,
+      "sha256": "1f9eab2eab292175cfea8d6ae211271d8ec26c02b4aacad39c1053522224575f"
+    }
+  ],
+  "modified": [
+    {
+      "path": "packages/contracts/src/aiInterviewPersistence.ts",
+      "bytes": 3721,
+      "sha256": "bb86f8786fdf5f6809d7cc8247fd3a4b07b90814c9cf1802c3ffb19609319576",
+      "beforeSHA256": "dc3c2b5d40ec771972b85a17e3b4ef161c9d8111ca2877a21c57bdf581cba96b"
+    },
+    {
+      "path": "services/hr-api/package.json",
+      "bytes": 6023,
+      "sha256": "1cd994013da7d5aa33fe7278ff0d3af095f7b474ab3dec14a60feaa50ef0c29b",
+      "beforeSHA256": "9b403416a90c5900acabb0bb88e3fa3451fe6579d1ee15ba56bdb030be76dd9b"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/routes.ts",
+      "bytes": 9984,
+      "sha256": "4abe6a15fa1f05eef42dd6541b20ec5dc2c2b3bcb3c4fc16d8f5bafda5df9cfb",
+      "beforeSHA256": "26163dbf61ab2cd091149507ec71c1e9522851b6237bd2ffd8f0fcf410824c71"
+    },
+    {
+      "path": "services/hr-api/src/aiInterviewer/service.ts",
+      "bytes": 41642,
+      "sha256": "b9b385e3ffbc855a9d8c66eabd93cfabedc2adf04b715ac70ab6fe5f721e51f5",
+      "beforeSHA256": "7a959ffad24b761087493b1fa2eb99d3beeeb1fa3af459011961c75afbbca2c0"
+    }
+  ],
+  "deleted": [],
+  "purposes": {
+    "packages/contracts/src/aiInterviewPersistence.ts": "Backward-compatible audio-v2 consent and mock/real candidate projection.",
+    "services/hr-api/package.json": "Add the isolated delivery check command; no dependencies.",
+    "services/hr-api/src/aiInterviewer/delivery.ts": "Server-only registration/readiness, bounded STT/TTS/play/STOP, cancellation and pre-play fencing.",
+    "services/hr-api/src/aiInterviewer/deliveryContracts.ts": "Closed normalized observation/correlation contract and audio consent identifier.",
+    "services/hr-api/src/aiInterviewer/delivery.check.ts": "51 additive synthetic provider checks over disposable PostgreSQL.",
+    "services/hr-api/src/aiInterviewer/routes.ts": "Safe disabled readiness endpoint and fail-closed non-mock browser media/submission guards.",
+    "services/hr-api/src/aiInterviewer/service.ts": "Scoped generations, ordered/receipt-based trusted ingress, audio-v2 provenance rules and durable PLAY/STOP/close handling."
+  },
+  "unexpected": [],
+  "expectedButUnchanged": []
+}

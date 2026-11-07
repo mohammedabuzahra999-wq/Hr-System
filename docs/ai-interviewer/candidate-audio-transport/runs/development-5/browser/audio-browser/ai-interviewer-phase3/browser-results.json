@@ -1,0 +1,97 @@
+{
+  "status": "FAIL",
+  "passed": 19,
+  "failed": 1,
+  "checks": [
+    {
+      "name": "HR login and recruitment AI controls use the existing employee workflow",
+      "result": "PASS"
+    },
+    {
+      "name": "HR configures explicit plan/timers and adds a third question",
+      "result": "PASS"
+    },
+    {
+      "name": "Create goes through the real Phase 2 transaction",
+      "result": "PASS"
+    },
+    {
+      "name": "HR freezes READY and operational UI displays no token hash",
+      "result": "PASS"
+    },
+    {
+      "name": "Invitation is copied once and cleared from the HR panel",
+      "result": "PASS"
+    },
+    {
+      "name": "Revocation is visible and the revoked browser invitation fails safely",
+      "result": "PASS"
+    },
+    {
+      "name": "Invalid invitation shows a safe standalone error",
+      "result": "PASS"
+    },
+    {
+      "name": "Expired invitation is rejected in the browser",
+      "result": "PASS"
+    },
+    {
+      "name": "Valid candidate exchange removes token from URL and browser storage",
+      "result": "PASS"
+    },
+    {
+      "name": "Backend refuses start before persisted consent",
+      "result": "PASS"
+    },
+    {
+      "name": "Consent persists across a browser refresh",
+      "result": "PASS"
+    },
+    {
+      "name": "Arabic RTL, English LTR and Mixed confirmation remain independent",
+      "result": "PASS"
+    },
+    {
+      "name": "Mock readiness requests no real microphone",
+      "result": "PASS"
+    },
+    {
+      "name": "Interview starts with AI_SPEAKING and the current question",
+      "result": "PASS"
+    },
+    {
+      "name": "Audio is opt-in and never requests a device during room setup",
+      "result": "PASS"
+    },
+    {
+      "name": "Native microphone permission denial is explicit and reserves no answer",
+      "result": "PASS"
+    },
+    {
+      "name": "Native synthetic microphone records, decodes and persists bounded canonical WAV",
+      "result": "PASS"
+    },
+    {
+      "name": "Refresh recovers the same pending recording without another microphone request",
+      "result": "PASS"
+    },
+    {
+      "name": "Interrupted upload preserves recording and identity for retry",
+      "result": "PASS"
+    },
+    {
+      "name": "Response loss after server commit reconciles one durable answer",
+      "result": "FAIL"
+    }
+  ],
+  "screenshots": [],
+  "candidateExternalRequestsCompleted": 0,
+  "candidateExternalRequestsBlocked": 0,
+  "hrThirdPartyFontsBlocked": 2,
+  "applicationWebSocketServerAdded": false,
+  "realMicrophone": false,
+  "nativeMediaRecorder": true,
+  "syntheticMicrophone": true,
+  "realAiCalls": 0,
+  "screenshotPolicy": "Not persisted: baseline contains no credential-bearing images"
+}

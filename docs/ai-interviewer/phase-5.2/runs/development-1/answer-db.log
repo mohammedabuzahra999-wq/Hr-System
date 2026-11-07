@@ -1,0 +1,27 @@
+PASS atomic submit persists one finalized answer and one receipt before acknowledging
+PASS failure at final-event rolls back snapshot, answer, receipt, events and effects
+PASS failure at receipt rolls back snapshot, answer, receipt, events and effects
+PASS failure at snapshot rolls back snapshot, answer, receipt, events and effects
+PASS 20 concurrent identical submissions commit once and all acknowledge the same receipt
+PASS two tabs same answer different identities finalize one answer
+PASS two tabs conflicting answers finalize one answer
+PASS stale tab cannot overwrite a committed old turn after state advancement
+PASS duplicate PROCESS_ANSWER cannot duplicate evaluation, follow-up or durable playback effect
+PASS commit-before-response-loss is recovered by a fresh service and read-only receipt lookup
+PASS restart before commit pauses; original request cannot silently resume or extend timer
+PASS receipt fingerprint rejects changed answer content under reused identity
+PASS tampered interview identifier fails safely
+PASS tampered session identifier fails safely
+PASS tampered question identifier fails safely
+PASS tampered turn identifier fails safely
+PASS tampered version identifier fails safely
+PASS another candidate cannot reconcile or submit a foreign recovery envelope
+PASS expired candidate session cannot use recovery
+PASS revoked candidate session cannot use recovery
+PASS stale candidate session cannot use recovery
+PASS Origin checks and candidate/staff authentication separation remain enforced
+PASS deadline expiry cannot be bypassed by recovering a local answer
+PASS after completion original receipt confirms commit but a fresh replay cannot create an answer
+PASS candidate result DTO contains no receipt fingerprint, rubric, future prompts or SQL errors
+PASS external model/network attempts remain zero
+26/26 Phase 5.2 PostgreSQL answer checks passed; external attempts=0

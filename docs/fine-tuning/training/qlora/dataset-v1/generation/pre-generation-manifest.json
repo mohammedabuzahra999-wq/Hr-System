@@ -1,0 +1,37 @@
+{
+  "version": "HR-QLORA-GENERATION-1",
+  "frozenAt": "2026-10-26T13:45:52.183Z",
+  "authority": "Current owner approval for exactly 8000 placeholder-only synthetic examples",
+  "baseModel": "Qwen/Qwen3-4B-Thinking-2507",
+  "revision": "768f209d9ea81521153ed38c47d515654e938aea",
+  "provenanceLimitationAccepted": true,
+  "seed": 42,
+  "inputs": {
+    "docs/fine-tuning/training/qlora/dataset-v1/generation/actions.mjs": "3a2c92c3ab81f923eeb5d7b1059393c13042c3f34a5a6d5b8eac9832341de367",
+    "docs/fine-tuning/training/qlora/dataset-v1/generation/admit.mjs": "cdd47bc210c99fe177bb0c8ff2a0c3abe1b15c74b07bd363ee4d47fcd8e2b176",
+    "docs/fine-tuning/training/qlora/dataset-v1/generation/controls.mjs": "b7cc881a04f8dd17cfef32631097860d8521c5343082c01929fffbc78fcf11fa",
+    "docs/fine-tuning/training/qlora/dataset-v1/generation/generate.mjs": "e673971e200297c62473e2048617c89951c6bdec4f901ea8227a00dd0a86d387",
+    "docs/fine-tuning/training/qlora/dataset-v1/generation/lexicon.mjs": "587a317bf015b5a402ad00c2ddd388a4c6ceb7ace152c5f0c97ca128f8df2802",
+    "docs/fine-tuning/training/qlora/dataset-v1/generation/prompt-export.mjs": "49eb6a5eaa8f77c218d955950b5eb9d7ce37f3dd5553c3a566b6ddcece076ca3",
+    "docs/fine-tuning/training/qlora/dataset-v1/generation/run.mjs": "742fd1a8c19f3b961d257e9b5a886b315346622e665d1edafe8607078b22a02e",
+    "docs/fine-tuning/training/qlora/current-contract-catalog.json": "935b62daa020e4244f762e396ec7fd4e2461b966d083d78a2a5e44a9af151642"
+  },
+  "validatorHashesBeforeProtectedChecks": {
+    "docs/fine-tuning/training/qlora/dataset-v1/validation/compare.mjs": "ec4dc7f0c53cdee99cee3e9764f31030382d127c852e1628f87200746874bfc4",
+    "docs/fine-tuning/training/qlora/dataset-v1/validation/local.mjs": "34bfaa8cb45838827fcafa95d41594bff7a59bc782adf3a0c222279db0ccceb5",
+    "docs/fine-tuning/training/qlora/dataset-v1/validation/run-sealed.mjs": "1affa09ca2e9ceb30240aae391a4e918b2fe46b257bdefc51ab5f2b7ae10f214",
+    "docs/fine-tuning/training/qlora/dataset-v1/validation/sealed-exclusion.mjs": "473441fc61bd8257e952e0cff08efec32ebd2bc499a78f7ddf06cdbfa8e2b62c"
+  },
+  "construction": "2000 semantic construction families, four language renditions each; split-specific syntax and placeholder pools",
+  "placeholderOnlyOwnerOverride": true,
+  "naturalNameExtractionNotTested": true,
+  "generationDenied": [
+    "frozen F404 and derivatives",
+    "historical 10K and compiled copies",
+    "runtime and selection asset rows",
+    "production credentials, database, logs, RAG/MCP and voice"
+  ],
+  "protectedDatasetsPermittedForSealedExclusionOnly": true,
+  "modelCalls": 0,
+  "trainingStarted": false
+}

@@ -1,0 +1,47 @@
+PASS atomic submit persists one finalized answer and one receipt before acknowledging
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:01.441Z","event":"request_rejected","code":"INTERNAL"}
+PASS failure at final-event rolls back snapshot, answer, receipt, events and effects
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:01.762Z","event":"request_rejected","code":"INTERNAL"}
+PASS failure at receipt rolls back snapshot, answer, receipt, events and effects
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:02.035Z","event":"request_rejected","code":"INTERNAL"}
+PASS failure at snapshot rolls back snapshot, answer, receipt, events and effects
+PASS 20 concurrent identical submissions commit once and all acknowledge the same receipt
+PASS two tabs same answer different identities finalize one answer
+PASS two tabs conflicting answers finalize one answer
+PASS stale tab cannot overwrite a committed old turn after state advancement
+PASS duplicate PROCESS_ANSWER cannot duplicate evaluation, follow-up or durable playback effect
+PASS commit-before-response-loss is recovered by a fresh service and read-only receipt lookup
+PASS restart before commit pauses; original request cannot silently resume or extend timer
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:04.100Z","event":"request_rejected","code":"STALE"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:04.104Z","event":"request_rejected","code":"STALE"}
+PASS receipt fingerprint rejects changed answer content under reused identity
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:04.600Z","event":"candidate_session_rejected","interviewId":"013bf091-9334-4b7d-8ebf-4fbbcf943f6f","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:04.601Z","event":"request_rejected","code":"AUTH"}
+PASS tampered interview identifier fails safely
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:04.772Z","event":"request_rejected","code":"AUTH"}
+PASS tampered session identifier fails safely
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:04.922Z","event":"request_rejected","code":"STALE"}
+PASS tampered question identifier fails safely
+PASS tampered turn identifier fails safely
+PASS tampered version identifier fails safely
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:05.366Z","event":"candidate_session_rejected","interviewId":"37961eba-0a1c-4bda-9823-ca13f8afa809","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:05.366Z","event":"request_rejected","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:05.369Z","event":"candidate_session_rejected","interviewId":"37961eba-0a1c-4bda-9823-ca13f8afa809","code":"AUTH"}
+PASS another candidate cannot reconcile or submit a foreign recovery envelope
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:05.468Z","event":"candidate_session_rejected","interviewId":"c56fa8f0-0e02-45a7-9cea-6617e1ae08d1","code":"EXPIRED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:05.471Z","event":"candidate_session_rejected","interviewId":"c56fa8f0-0e02-45a7-9cea-6617e1ae08d1","code":"EXPIRED"}
+PASS expired candidate session cannot use recovery
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:05.556Z","event":"candidate_session_rejected","interviewId":"a7f34025-98f9-46a4-8382-10481096b1fa","code":"REVOKED"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:05.559Z","event":"candidate_session_rejected","interviewId":"a7f34025-98f9-46a4-8382-10481096b1fa","code":"REVOKED"}
+PASS revoked candidate session cannot use recovery
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:05.657Z","event":"candidate_session_rejected","interviewId":"9b05b2a5-68bf-49b6-892a-b3ea6f632655","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:05.660Z","event":"candidate_session_rejected","interviewId":"9b05b2a5-68bf-49b6-892a-b3ea6f632655","code":"AUTH"}
+PASS stale candidate session cannot use recovery
+[ai-interview-operations] {"atUtc":"2026-11-05T09:08:05.733Z","event":"request_rejected","code":"DENIED"}
+PASS Origin checks and candidate/staff authentication separation remain enforced
+PASS deadline expiry cannot be bypassed by recovering a local answer
+PASS a silence timeout is CLOSED, never acknowledgement of the unsubmitted local text
+PASS after completion original receipt confirms commit but a fresh replay cannot create an answer
+PASS candidate result DTO contains no receipt fingerprint, rubric, future prompts or SQL errors
+PASS external model/network attempts remain zero
+27/27 Phase 5.2 PostgreSQL answer checks passed; external attempts=0

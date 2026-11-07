@@ -1,0 +1,45 @@
+PASS direct socket identity ignores arbitrary forwarded IP values
+PASS trusted proxy selects the nearest untrusted hop, ignoring forged left prefix
+PASS untrusted socket never becomes trusted from a header
+PASS mapped IPv4 and canonical IPv6 proxy identities agree
+PASS absent socket yields no spoofable fallback header identity
+PASS invalid/empty/wildcard/CIDR proxy configuration fails closed
+PASS missing/malformed/oversized XFF from a trusted socket is rejected
+PASS budget permits normal traffic then rejects a burst until expiry
+PASS capacity overflow remains bounded and cannot evict a limited identity
+PASS invalid limiter capacity/options cannot create unlimited windows
+PASS HTTP direct-mode forwarded spoofing cannot reset a rate-limit bucket
+PASS actual trusted-proxy environment is validated and enforces stable client identity
+PASS a fresh OS child process gets fresh process-local counters
+PASS authenticated-user limiter cannot accept a browser header as a principal
+PASS startup: safe disabled production
+PASS startup: trusted production proxy
+PASS startup: production debug
+PASS startup: production test mode
+PASS startup: production mock
+PASS startup: production employee mock
+PASS startup: production synthetic provider
+PASS startup: real provider absent credentials
+PASS startup: real provider with a synthetic credential
+PASS startup: malformed provider mode
+PASS startup: multiple runtime owners
+PASS startup: invalid trusted proxy
+PASS startup: insecure production origin
+PASS startup: unsafe production secret
+PASS startup: frontend secret configuration
+PASS pure deployment validation also rejects malformed origins
+PASS liveness is independent of a stalled database
+PASS hung DB probe admits one physical query and cannot accumulate polling work
+PASS configured provider is not automatically healthy or production ready
+PASS malformed readiness dependency cannot expose arbitrary provider fields
+PASS DB exceptions produce safe unavailable readiness without SQL or stack
+PASS API and candidate HTML headers protect cache/framing without a breaking script policy
+PASS operational diagnostics reject extra fields, bound floods and isolate sink failure
+[ai-interview-operations] {"event":"shutdown_started"}
+[ai-interview-operations] {"event":"shutdown_completed"}
+PASS shutdown waits for admitted work before DB close and is idempotent
+[ai-interview-operations] {"event":"shutdown_started"}
+[ai-interview-operations] {"event":"shutdown_incomplete"}
+PASS shutdown deadline reports incomplete and cannot turn successful after late settlement
+PASS frontend secret scanner detects synthetic leaks without printing values
+40/40 Phase 5.5 operations checks passed; real provider/external calls=0

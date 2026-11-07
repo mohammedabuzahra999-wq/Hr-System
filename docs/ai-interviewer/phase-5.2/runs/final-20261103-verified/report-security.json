@@ -1,0 +1,13 @@
+{
+  "id": "report-security",
+  "protection": "existing employee report resource scope",
+  "command": "node --conditions=development --import tsx src/reports/build.security.check.ts",
+  "startedAt": "2026-11-03T09:06:27.214Z",
+  "finishedAt": "2026-11-03T09:06:30.149Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "report-security.log",
+  "passLines": 45
+}

@@ -1,0 +1,326 @@
+{
+  "status": "PASS",
+  "checks": 23,
+  "externalAttempts": 0,
+  "matrix": [
+    {
+      "scenario": "pending",
+      "result": "PASS",
+      "status": "PENDING",
+      "reportVersion": 1,
+      "inputHash": "1463ed25f1ffea8d59162fe291751ad587e1db6316feac0ba8eb6b2b39b3bd73",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": false,
+      "attempts": []
+    },
+    {
+      "scenario": "valid",
+      "result": "PASS",
+      "status": "COMPLETED",
+      "reportVersion": 1,
+      "inputHash": "ea129aec7b466cb60ade34f42c451bd91855ae1ca1e87231aebd460538cb6c03",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": null
+        }
+      ]
+    },
+    {
+      "scenario": "missing",
+      "result": "PASS",
+      "status": "COMPLETED",
+      "reportVersion": 1,
+      "inputHash": "425fddd7ee049c6b1827c59e5b0eaab006433c91e82d63ca4b6eb0fce4707a8c",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": null
+        }
+      ]
+    },
+    {
+      "scenario": "invented",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "8ea05b98266c2e1cdcb407fc7377bb2bd3ca0c9384ade1919146b3a4f8e65ffd",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVIDENCE_VALIDATION_FAILED"
+        }
+      ]
+    },
+    {
+      "scenario": "score",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "98430e23f5381ca0bdb6fc1300c5629c80507733ece58f4e960bb97e23f8b478",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVIDENCE_VALIDATION_FAILED"
+        }
+      ]
+    },
+    {
+      "scenario": "finding",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "9dcde492cbe5d548ad677fbd8e5e8a789924ed8927ad1b32195c33e4a54689bb",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVIDENCE_VALIDATION_FAILED"
+        }
+      ]
+    },
+    {
+      "scenario": "malformed",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "235ba659ccc9724a39e051f866267b2e4cc9a28505c20fd2d56b31e5516db368",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVIDENCE_VALIDATION_FAILED"
+        }
+      ]
+    },
+    {
+      "scenario": "provider-failure",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "ddd05916237f78839a114b50a58f64bf58eb48c309b367c728c75171057ae8ef",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVALUATOR_PROVIDER_FAILED"
+        }
+      ]
+    },
+    {
+      "scenario": "timeout",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "bdaf9c11a8da06af3b55ef218df3e5dae9dc0e711f30ef18d90f30f03e875f60",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVALUATOR_TIMEOUT"
+        }
+      ]
+    },
+    {
+      "scenario": "cancel",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "5e9d967061e731dde050382d2c2397324658010ba616542afbc3f326fc27ad03",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVALUATOR_CANCELLED"
+        }
+      ]
+    },
+    {
+      "scenario": "retry",
+      "result": "PASS",
+      "status": "COMPLETED",
+      "reportVersion": 1,
+      "inputHash": "e3a5504d11f2426082ac8f3b9d64d5594e73b4129f6f4c15665cd5b10b496d70",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVALUATOR_PROVIDER_FAILED"
+        },
+        {
+          "attempt": 2,
+          "finished": true,
+          "failureCode": null
+        }
+      ]
+    },
+    {
+      "scenario": "exhausted",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "fd9b22cb70d00d21d9b2f226e242eaf0881fcd052fead357a2cb982cee6cfe54",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "EVALUATOR_PROVIDER_FAILED"
+        },
+        {
+          "attempt": 2,
+          "finished": true,
+          "failureCode": "EVALUATOR_PROVIDER_FAILED"
+        }
+      ]
+    },
+    {
+      "scenario": "restart",
+      "result": "PASS",
+      "status": "COMPLETED",
+      "reportVersion": 1,
+      "inputHash": "a50bebeb7f69985a3395d0da37c3092a911ec7ec83c266b9b97c91dd05a7b3b2",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "WORKER_RESTARTED"
+        },
+        {
+          "attempt": 2,
+          "finished": true,
+          "failureCode": null
+        }
+      ]
+    },
+    {
+      "scenario": "config-changed",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "490be9670cf5611a61c0837f04fdbd1bdb608c1581695bf96cd649405c1faf7c",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": false,
+      "attempts": []
+    },
+    {
+      "scenario": "config-changed",
+      "result": "PASS",
+      "status": "FAILED",
+      "reportVersion": 1,
+      "inputHash": "f3b19882037b889c056e9b25fe83f1951c73902d3ebf063cb4d30035d9e9c2be",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": false,
+      "attempts": []
+    },
+    {
+      "scenario": "isolation",
+      "result": "PASS",
+      "status": "PENDING",
+      "reportVersion": 1,
+      "inputHash": "e5ae06aedfbc50ca81fbc91d148a104fc5388d471b5f87324967ab8361ee5cbc",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": false,
+      "attempts": []
+    },
+    {
+      "scenario": "injection",
+      "result": "PASS",
+      "status": "COMPLETED",
+      "reportVersion": 1,
+      "inputHash": "02f7e6f4c87a9714ad28d3fec954c4c839cbbb59d05250fc3806c79568f84d26",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": null
+        }
+      ]
+    },
+    {
+      "scenario": "mutation",
+      "result": "PASS",
+      "status": "COMPLETED",
+      "reportVersion": 1,
+      "inputHash": "8bdfdbfd41c2e41c0f9ffd0bb77e1749e299d2ba1a1db0c830a80d57803c07ec",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": null
+        }
+      ]
+    },
+    {
+      "scenario": "sql-rollback",
+      "result": "PASS",
+      "status": "COMPLETED",
+      "reportVersion": 1,
+      "inputHash": "186cd7f0d0af05ab1b9333291185a149bd635ab82523e5423779f762c94f3114",
+      "inputHashPreserved": true,
+      "answerCount": 1,
+      "reportPresent": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "finished": true,
+          "failureCode": "WORKER_RESTARTED"
+        },
+        {
+          "attempt": 2,
+          "finished": true,
+          "failureCode": null
+        }
+      ]
+    }
+  ]
+}

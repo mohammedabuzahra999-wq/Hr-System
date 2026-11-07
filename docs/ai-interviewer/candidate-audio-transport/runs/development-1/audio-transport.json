@@ -1,0 +1,13 @@
+{
+  "id": "audio-transport",
+  "protection": "Candidate WAV transport/session/turn/idempotency/recovery/rollback/privacy",
+  "command": "npm.cmd run check:ai-interviewer:audio -w @hr/server",
+  "startedAt": "2026-11-05T07:24:06.878Z",
+  "finishedAt": "2026-11-05T07:24:09.656Z",
+  "exitCode": 1,
+  "status": "FAIL",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "audio-transport.log",
+  "passLines": 0
+}

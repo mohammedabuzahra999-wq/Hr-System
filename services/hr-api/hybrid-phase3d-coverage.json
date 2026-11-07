@@ -1,0 +1,145 @@
+{
+  "mode": "offline",
+  "counts": {
+    "resolved": 18,
+    "unsupportedCapability": 2,
+    "needsClarification": 3,
+    "outOfScope": 3,
+    "unresolved": 0
+  },
+  "incorrectLocalPlans": 0,
+  "historicalGoldensUnchanged": true,
+  "realProviderCalls": 0,
+  "rows": [
+    {
+      "id": "en-overtime",
+      "kind": "resolved",
+      "intent": "employeeFile"
+    },
+    {
+      "id": "ar-overtime",
+      "kind": "resolved",
+      "intent": "employeeFile"
+    },
+    {
+      "id": "mixed-overtime",
+      "kind": "resolved",
+      "intent": "employeeFile"
+    },
+    {
+      "id": "en-overtime-lina",
+      "kind": "resolved",
+      "intent": "employeeFile"
+    },
+    {
+      "id": "en-overtime-current",
+      "kind": "resolved",
+      "intent": "employeeFile"
+    },
+    {
+      "id": "mixed-overtime-name",
+      "kind": "resolved",
+      "intent": "employeeFile"
+    },
+    {
+      "id": "en-attendance",
+      "kind": "resolved",
+      "intent": "myAttendance"
+    },
+    {
+      "id": "en-absence",
+      "kind": "resolved",
+      "intent": "myAttendance"
+    },
+    {
+      "id": "ar-absence",
+      "kind": "resolved",
+      "intent": "myAttendance"
+    },
+    {
+      "id": "en-calendar",
+      "kind": "resolved",
+      "intent": "myAttendance"
+    },
+    {
+      "id": "ar-calendar",
+      "kind": "resolved",
+      "intent": "myAttendance"
+    },
+    {
+      "id": "en-year",
+      "kind": "resolved",
+      "intent": "myAttendance"
+    },
+    {
+      "id": "en-leave",
+      "kind": "resolved",
+      "intent": "myLeaveBalance"
+    },
+    {
+      "id": "ar-leave",
+      "kind": "resolved",
+      "intent": "myLeaveBalance"
+    },
+    {
+      "id": "en-pay",
+      "kind": "unsupportedCapability",
+      "code": "payslip_period_unsupported"
+    },
+    {
+      "id": "en-headcount",
+      "kind": "needsClarification",
+      "code": "headcount_scope_required"
+    },
+    {
+      "id": "en-departments",
+      "kind": "resolved",
+      "intent": "departmentBreakdown"
+    },
+    {
+      "id": "en-team",
+      "kind": "resolved",
+      "intent": "teamPresentNow"
+    },
+    {
+      "id": "en-requests",
+      "kind": "unsupportedCapability",
+      "code": "request_status_unsupported"
+    },
+    {
+      "id": "ar-requests",
+      "kind": "resolved",
+      "intent": "myRequests"
+    },
+    {
+      "id": "ar-help",
+      "kind": "resolved",
+      "intent": "howDoI"
+    },
+    {
+      "id": "en-weather",
+      "kind": "outOfScope",
+      "code": "external_weather"
+    },
+    {
+      "id": "mixed-weather",
+      "kind": "outOfScope",
+      "code": "external_weather"
+    },
+    {
+      "id": "en-science",
+      "kind": "outOfScope",
+      "code": "external_science"
+    },
+    {
+      "id": "en-ambiguous",
+      "kind": "needsClarification",
+      "code": "hr_subject_required"
+    },
+    {
+      "id": "ar-ambiguous",
+      "kind": "needsClarification",
+      "code": "hr_subject_required"
+    }
+  ]
+}

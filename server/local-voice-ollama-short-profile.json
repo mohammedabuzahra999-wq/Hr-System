@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "model": "qwen3:4b",
+  "totalMs": 3562,
+  "keepAlive": "30m",
+  "loadMs": 9.4986,
+  "promptMs": 1345.943,
+  "generationMs": 1897.056,
+  "promptTokens": 18,
+  "outputTokens": 10,
+  "thinkingCharacters": 0
+}

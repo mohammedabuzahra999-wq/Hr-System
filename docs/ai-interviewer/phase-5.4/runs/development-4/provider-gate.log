@@ -1,0 +1,52 @@
+PASS production absent/invalid/synthetic providers fail closed without calls
+PASS trusted connection/STT/idempotent-play requirements cannot be omitted
+PASS health unavailable/malformed/timeout is unhealthy and cannot bind
+PASS audio consent and trusted connection precede real START
+PASS provider receives data only; TTS dispatch alone cannot acknowledge playback
+PASS playback completion requires start; wrong effect cannot advance
+PASS playback duplicate receipt is deterministic; different-ID duplicate is rejected
+PASS trusted STT final plus speech finish commits one durable answer
+PASS speech end before final transcript is safe and finalizes exactly once
+PASS duplicate final transcript same ID reconciles without another answer
+PASS conflicting event identity and repeated final with new ID fail safely
+PASS STT timeout pauses safely without a committed answer
+PASS STT unavailable pauses safely without a committed answer
+PASS STT malformed pauses safely without a committed answer
+PASS late STT after timeout cannot overwrite new generation answer
+PASS stale/late STT during timeout deadline cannot rebase to current turn
+PASS TTS timeout cannot fabricate playback or advancement
+PASS TTS unavailable cannot fabricate playback or advancement
+PASS TTS malformed cannot fabricate playback or advancement
+PASS TTS playback-failure cannot fabricate playback or advancement
+PASS barge-in preserves STOP intent and processes candidate speech
+PASS late playback completion after interruption cannot advance
+PASS playback-complete/speech-start races preserve one turn in both orders
+PASS duplicate speech-start same ID is idempotent and new ID fails
+PASS lost STOP acknowledgement leaves durable intent for bounded retry
+PASS trusted disconnect/reconnect during playback preserves durable state
+PASS trusted disconnect/reconnect during speaking preserves durable state
+PASS trusted disconnect/reconnect during interruption preserves durable state
+PASS trusted disconnect/reconnect during pending PLAY preserves durable state
+PASS reconnect after transcript commit and refresh cannot duplicate answer
+PASS refresh before transcript commit preserves draft and fences old response
+PASS provider restart rebinds generation, preserves pause time and pending PLAY
+PASS stale connection events cannot pause or resume newer generations
+PASS reordered sequence and stale expected version fail without receipts
+PASS simultaneous provider events serialize; only one same-sequence event commits
+PASS browser cannot forge STT/provider identity or use typed/mock media on audio session
+PASS production route/readiness fails closed and exposes no provider credential
+PASS foreign interview/generation/question/turn/effect observations are denied
+PASS expired candidate blocks provider commit
+PASS revoked candidate blocks provider commit
+PASS stale-session candidate blocks provider commit
+PASS frozen STT context cannot commit after session revocation in flight
+PASS bounded physical calls retain abandoned work; exhaustion cannot start more
+PASS synthetic complete lifecycle includes follow-up/clarification and isolated evaluation job
+PASS malformed/oversized input audio is rejected before provider execution
+PASS late TTS after generation replacement cannot start external playback
+PASS adapter close durably fences callbacks and consumes late STT settlement
+PASS simultaneous identical provider identity produces one receipt
+PASS duplicate STOP acknowledgement is idempotent and stale STOP cannot affect a turn
+PASS provider metadata and failures contain no transcript, raw exception or credential
+PASS real model/provider network attempts remain zero
+51/51 Phase 5.4 provider-gate checks passed; external attempts=0

@@ -1,0 +1,242 @@
+{
+  "version": "CEB-OFFICIAL-BEFORE-PREFLIGHT-1",
+  "created": "2026-10-25T10:10:22.331Z",
+  "status": "PASS",
+  "checks": 55,
+  "results": [
+    {
+      "name": "exact-model-manifest-and-blobs-verified",
+      "status": "PASS"
+    },
+    {
+      "name": "frozen-404-hash-and-unique-synthetic-records",
+      "status": "PASS"
+    },
+    {
+      "name": "static-existing-scorer-compatibility-all-404-not-classifier-execution",
+      "status": "PASS"
+    },
+    {
+      "name": "historical-annotated-field-scorer-unchanged-no-full-plan-claim",
+      "status": "PASS"
+    },
+    {
+      "name": "unapproved-provider-config-denied:{\"mode\":\"openai\",\"model\":\"qwen3:4b\"}",
+      "status": "PASS"
+    },
+    {
+      "name": "unapproved-provider-config-denied:{\"mode\":\"ollama\",\"model\":\"other\",\"baseUrl\":\"http://127.0.0.1:11434\"}",
+      "status": "PASS"
+    },
+    {
+      "name": "unapproved-provider-config-denied:{\"mode\":\"ollama\",\"model\":\"qwen3:4b\",\"baseUrl\":\"http://127.0.0.1:8787\"}",
+      "status": "PASS"
+    },
+    {
+      "name": "native filesystem denies application .env reads",
+      "status": "PASS"
+    },
+    {
+      "name": "workspace package junction cannot expose server credentials",
+      "status": "PASS"
+    },
+    {
+      "name": "native filesystem denies writes",
+      "status": "PASS"
+    },
+    {
+      "name": "native process spawning denied",
+      "status": "PASS"
+    },
+    {
+      "name": "production credentials and inherited Node options absent",
+      "status": "PASS"
+    },
+    {
+      "name": "db: blocked and latched",
+      "status": "PASS"
+    },
+    {
+      "name": "write: blocked and latched",
+      "status": "PASS"
+    },
+    {
+      "name": "mcp: blocked and latched",
+      "status": "PASS"
+    },
+    {
+      "name": "ragImport: blocked and latched",
+      "status": "PASS"
+    },
+    {
+      "name": "hrApi: blocked and latched",
+      "status": "PASS"
+    },
+    {
+      "name": "network: blocked and latched",
+      "status": "PASS"
+    },
+    {
+      "name": "credentials: blocked and latched",
+      "status": "PASS"
+    },
+    {
+      "name": "envFile: blocked and latched",
+      "status": "PASS"
+    },
+    {
+      "name": "childProcess: blocked and latched",
+      "status": "PASS"
+    },
+    {
+      "name": "cloud: blocked and latched",
+      "status": "PASS"
+    },
+    {
+      "name": "dotenv: blocked and latched",
+      "status": "PASS"
+    },
+    {
+      "name": "caught isolation errors remain latched",
+      "status": "PASS"
+    },
+    {
+      "name": "synthetic RAG fixture works without production documents",
+      "status": "PASS"
+    },
+    {
+      "name": "employee: real permission registries enforce synthetic role boundaries",
+      "status": "PASS"
+    },
+    {
+      "name": "manager: real permission registries enforce synthetic role boundaries",
+      "status": "PASS"
+    },
+    {
+      "name": "hr: real permission registries enforce synthetic role boundaries",
+      "status": "PASS"
+    },
+    {
+      "name": "admin: real permission registries enforce synthetic role boundaries",
+      "status": "PASS"
+    },
+    {
+      "name": "real employee-file guard denies synthetic outside-team ownership",
+      "status": "PASS"
+    },
+    {
+      "name": "real employee-payroll guard denies manager before payroll access",
+      "status": "PASS"
+    },
+    {
+      "name": "remediated real report builder denies employee company scope",
+      "status": "PASS"
+    },
+    {
+      "name": "unsupported synthetic query fails explicitly with no production fallback",
+      "status": "PASS"
+    },
+    {
+      "name": "HTTP-deterministic-route-shared-validation-no-model",
+      "status": "PASS"
+    },
+    {
+      "name": "HTTP-terminal-prevents-all-model-paths",
+      "status": "PASS"
+    },
+    {
+      "name": "real-provider-schema-validation-with-mock-only",
+      "status": "PASS"
+    },
+    {
+      "name": "malformed-model-schema-fails-before-services",
+      "status": "PASS"
+    },
+    {
+      "name": "parent-timeout-caps-monotonic-duration",
+      "status": "PASS"
+    },
+    {
+      "name": "frozen-score-empty-results-are-unavailable",
+      "status": "PASS"
+    },
+    {
+      "name": "native forbidden read denied:server/.env",
+      "status": "PASS"
+    },
+    {
+      "name": "native forbidden read denied:server/src/copilot/training.ts",
+      "status": "PASS"
+    },
+    {
+      "name": "native forbidden read denied:server/src/copilot/data/hr_agent_intents_10000.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "native forbidden read denied:server/dist/server/src/copilot/data/hr_agent_intents_10000.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "native forbidden read denied:docs/fine-tuning/controlled-assets/remediation-v1.1/model-selection-v1.1.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "transport destination denied:https://api.openai.com/v1/responses",
+      "status": "PASS"
+    },
+    {
+      "name": "transport destination denied:https://openrouter.ai/api/v1/chat/completions",
+      "status": "PASS"
+    },
+    {
+      "name": "transport destination denied:http://127.0.0.1:8787/api/people",
+      "status": "PASS"
+    },
+    {
+      "name": "transport destination denied:http://localhost:11434/api/chat",
+      "status": "PASS"
+    },
+    {
+      "name": "transport destination denied:http://127.0.0.1:11434/api/pull",
+      "status": "PASS"
+    },
+    {
+      "name": "transport destination denied:http://127.0.0.1:11434/api/chat?x=1",
+      "status": "PASS"
+    },
+    {
+      "name": "transport destination denied:http://REDACTED@127.0.0.1:11434/api/chat",
+      "status": "PASS"
+    },
+    {
+      "name": "exact pinned chat payload accepted without sending",
+      "status": "PASS"
+    },
+    {
+      "name": "credentials redirects model/options drift and missing deadline denied",
+      "status": "PASS"
+    },
+    {
+      "name": "all nonessential environment keys stripped",
+      "status": "PASS"
+    },
+    {
+      "name": "actual approved metadata loopback transport works without inference",
+      "status": "PASS"
+    }
+  ],
+  "lockSha256": "a22e7fd74d21d8a30cb17ac2d910e31526ebadfaf1d612037287878369465681",
+  "frozenHash": "b6a6a9f74e76edcf783ad3a2f47f2fa493ac0444e2ca8bf239439229e14a2b05",
+  "modelDigest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+  "productionDb": "BLOCKED",
+  "productionMcp": "BLOCKED",
+  "productionRag": "BLOCKED",
+  "realWrites": "BLOCKED",
+  "historical10K": "EXCLUDED",
+  "productionCredentials": "EXCLUDED",
+  "transport": "EXACT_LOCAL_OLLAMA_ONLY",
+  "scorer": "FROZEN_ANNOTATED_FIELDS_NOT_FULL_PLAN",
+  "liveModelCalls": 0,
+  "frozenCasesExecuted": 0,
+  "fineTuningStarted": false
+}

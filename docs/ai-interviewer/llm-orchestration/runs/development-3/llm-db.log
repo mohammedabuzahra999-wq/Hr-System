@@ -1,0 +1,23 @@
+PASS staff question generation is quarantined until explicit authorized approval
+PASS approved model question text is frozen and delivered by the unchanged engine
+PASS model follow-up selection commits once through engine and durable process receipt
+PASS clarification uses only approved prompt IDs and engine turn limits
+PASS malformed, extra authority and disallowed decisions cannot advance state
+PASS unsafe or scope-changing question proposals are rejected before quarantine commit
+PASS proposal identity conflicts, prompt ID mutations and frozen-plan application fail
+PASS same logical answer with concurrent dispatch invokes the model once
+PASS timeouts retain physical capacity and bounded retry uses new attempt identity
+PASS provider failure exhausts a durable retry budget without hidden calls
+PASS pause/interruption fences a late result; explicit resume can retry the same answer
+PASS server restart requires domain recovery/resume and fences an old owner
+PASS candidate injection remains untrusted data and cannot authorize tools or plan revision
+[ai-interview-operations] {"atUtc":"2026-11-05T11:19:09.106Z","event":"candidate_session_rejected","interviewId":"92eeef2f-b44d-4cde-93ac-22099160c6ee","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:19:09.107Z","event":"request_rejected","code":"AUTH"}
+[ai-interview-operations] {"atUtc":"2026-11-05T11:19:09.119Z","event":"request_rejected","code":"DENIED"}
+PASS candidate/staff isolation, forged output endpoint and DTO secrecy remain independent
+PASS expired or revoked sessions cannot drive a new decision
+PASS model latency is independent of another interview warning/deadline
+PASS failed SQL model commit leaves no partial decision, receipt or evaluation
+PASS shutdown cancels pending work and never fabricates a decision
+PASS zero real provider/model calls
+19/19 LLM orchestration PostgreSQL checks passed; external calls=0

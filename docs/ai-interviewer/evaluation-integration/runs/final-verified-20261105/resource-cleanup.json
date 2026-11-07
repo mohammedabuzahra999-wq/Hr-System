@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "startedAtUtc": "2026-11-05T12:51:18.639Z",
+  "commands": [
+    {
+      "command": "node docs/ai-interviewer/evaluation-integration/run.mjs baseline-20261105 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/evaluationintegration-temp/baseline-20261105"
+    },
+    {
+      "command": "node docs/ai-interviewer/evaluation-integration/run.mjs development-1 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/evaluationintegration-temp/development-1"
+    },
+    {
+      "command": "node docs/ai-interviewer/evaluation-integration/run.mjs development-2 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/evaluationintegration-temp/development-2"
+    },
+    {
+      "command": "node docs/ai-interviewer/evaluation-integration/run.mjs development-3 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/evaluationintegration-temp/development-3"
+    },
+    {
+      "command": "node docs/ai-interviewer/evaluation-integration/run.mjs development-4 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/evaluationintegration-temp/development-4"
+    },
+    {
+      "command": "node docs/ai-interviewer/evaluation-integration/run.mjs development-5 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/evaluationintegration-temp/development-5"
+    },
+    {
+      "command": "node docs/ai-interviewer/evaluation-integration/run.mjs development-6 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/evaluationintegration-temp/development-6"
+    },
+    {
+      "command": "node docs/ai-interviewer/evaluation-integration/run.mjs development-7 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/evaluationintegration-temp/development-7"
+    },
+    {
+      "command": "node docs/ai-interviewer/evaluation-integration/run.mjs final-20261105 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/evaluationintegration-temp/final-20261105"
+    },
+    {
+      "command": "node docs/ai-interviewer/evaluation-integration/run.mjs final-verified-20261105 cleanup",
+      "exitCode": 0,
+      "target": ".local-dev/evaluationintegration-temp/final-verified-20261105"
+    },
+    {
+      "command": ".local-dev/ai-interviewer-postgres/pgsql/bin/pg_ctl.exe -D .local-dev/ai-interviewer-postgres/data -m fast -w -t 15 stop",
+      "exitCode": 0,
+      "expectedExitCode": 0
+    },
+    {
+      "command": ".local-dev/ai-interviewer-postgres/pgsql/bin/pg_ctl.exe -D .local-dev/ai-interviewer-postgres/data status",
+      "exitCode": 3,
+      "expectedExitCode": 3
+    }
+  ],
+  "removedProfiles": [
+    "baseline-20261105",
+    "development-1",
+    "development-2",
+    "development-3",
+    "development-4",
+    "development-5",
+    "development-6",
+    "development-7",
+    "final-20261105",
+    "final-verified-20261105"
+  ],
+  "databasePolicy": "Read-only resource inspection; no database dropped during finalization",
+  "activeOtherClientSessions": 0,
+  "preexistingTestDatabasesLeftUntouched": [
+    {
+      "database": "ai_interview_phase3_40df101c9978482ea01af41f70ffb3b4",
+      "createdAtUtc": "2026-11-01T12:36:51.447Z",
+      "lastModifiedAtUtc": "2026-11-03T07:48:43.961Z"
+    }
+  ],
+  "ownDisposableDatabasesRemaining": 0,
+  "localTestClusterStopped": true,
+  "temporaryRunDirectoriesRemaining": 0,
+  "finishedAtUtc": "2026-11-05T12:51:24.321Z"
+}

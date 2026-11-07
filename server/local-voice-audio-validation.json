@@ -1,0 +1,52 @@
+{
+  "configuration": {
+    "provider": "local",
+    "enabled": true,
+    "ready": true,
+    "local": {
+      "stt": {
+        "engine": "whisper.cpp",
+        "model": "ggml-small-q5_1.bin",
+        "ready": true
+      },
+      "tts": {
+        "engine": "Piper",
+        "voices": {
+          "ar": "ar_JO-kareem-low",
+          "en": "en_US-lessac-low"
+        },
+        "ready": true
+      }
+    },
+    "ollamaReachable": true
+  },
+  "mode": "synthetic local TTS-to-STT check",
+  "physicalMicrophoneSpeaker": "requires manual check",
+  "cloudAudioCalls": 0,
+  "rows": [
+    {
+      "id": "arabic",
+      "input": "ورجيني رصيد إجازاتي",
+      "syntheticAudio": true,
+      "sttMs": 23304,
+      "transcript": "ورجين رصيد إجازات",
+      "audioRecognitionCompleted": true
+    },
+    {
+      "id": "levantine",
+      "input": "قديش ضايل إلي إجازات؟",
+      "syntheticAudio": true,
+      "sttMs": 29325,
+      "transcript": "قدش ضيل إلي إجازة",
+      "audioRecognitionCompleted": true
+    },
+    {
+      "id": "mixed",
+      "input": "ورجيني attendance تبعي هالشهر",
+      "syntheticAudio": true,
+      "sttMs": 33494,
+      "transcript": "ورجيني تندنس تبعي هاشه",
+      "audioRecognitionCompleted": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "report",
+  "protection": "evaluation/frozen input/hash/evidence/retry/worker fencing",
+  "command": "npm.cmd run check:ai-interviewer:report -w @hr/server",
+  "startedAt": "2026-11-05T06:21:49.492Z",
+  "finishedAt": "2026-11-05T06:21:55.098Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "report.log",
+  "passLines": 76
+}

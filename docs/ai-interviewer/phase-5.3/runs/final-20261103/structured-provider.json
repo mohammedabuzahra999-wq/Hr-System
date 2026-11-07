@@ -1,0 +1,13 @@
+{
+  "id": "structured-provider",
+  "protection": "malformed/unavailable model responses using offline mocks",
+  "command": "node --conditions=development --import tsx src/ai/structuredProvider.check.ts",
+  "startedAt": "2026-11-03T10:17:54.544Z",
+  "finishedAt": "2026-11-03T10:17:55.212Z",
+  "exitCode": 0,
+  "status": "PASS",
+  "blockedExternalAttempts": 0,
+  "networkProcessCount": 1,
+  "outputLog": "structured-provider.log",
+  "passLines": 4
+}
